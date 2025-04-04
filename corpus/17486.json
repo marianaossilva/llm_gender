@@ -1,0 +1,1054 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "Dois dias depois, a boa velha deu parte ao dr. Alves de que Eulália estava disposta a casar com ele.",
+        "start_char": 5067,
+        "end_char": 5074,
+        "excerpt": "todo ele era agora Eulália; amava a moça em segredo, e nunca chegara a declarar-se por ver que ela se mostrava fria com ele. Seu propósito era, apenas acabasse o processo, não freqüentar mais a casa; imagina-se facilmente o alvoroço com que ele ouviu a proposta de D. Mariana no momento em que todas as suas mal nascidas esperanças haviam morrido em botão. Dois dias depois, a boa velha deu parte ao dr. Alves de que Eulália estava disposta a casar com ele.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "amava",
+                "child": "Eulália",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "amar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Eulália",
+                "child": "disposta",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Eulália",
+                "dep_c": "acl:relcl",
+                "pos_c": "ADJ",
+                "lemma_c": "disposto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Eulália",
+                "child": "dr.",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Eulália",
+                "dep_c": "iobj",
+                "pos_c": "NOUN",
+                "lemma_c": "dr.",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Dois dias depois, a boa velha deu parte ao dr. Alves de que [MASK] estava disposta a casar com ele.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Dois dias após a notícia emocionante, a boa velha se aproximou de Dr. João Pedro para dar uma nova boa notícia. \"Meu querido filho, eu tenho a honra de dizer-te que Maria é disposta a casar com você!\" exclamou ela, sorrindo com alegria inabalável. João Pedro estava tão surpreso quanto alegre, e sua briga começou imediatamente a pensar em um plano para realizar o sonho que já tanto desejava: se casar com Maria, a mulher que amava desde sempre. Ele rapidamente organizou uma reunião entre as famílias para falar sobre os planos de casamento e, finalmente, ele poderia começar a escrever sua história de amor.",
+        "generated_text_llama": "Dois dias depois, a boa velha deu parte ao dr. Alves de que Personagem estava disposta a casar com ele. Com um sorriso radiante no rosto, ela entrou na sala do Dr. Alves e fez um gesto com a mão para que ele se levantasse da cadeira. \"Senhor doutor\", disse ela, \"eu tenho uma notícia importante para compartilhar com você. Como sabia, eu sempre tive um lugar especial no meu coração para o senhor\". O Dr. Alves, surpreso com a seriedade do seu rosto, se levantou da cadeira e se aproximou da boa velha.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "exclamou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "disposta",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "Não te direi, disse Alves, concluindo a história que acabo de resumir, e que ele contou ao amigo, à mesa da casa do Carceller  não te direi que Eulália se mostrasse loucamente apaixonada por mim.",
+        "start_char": 5252,
+        "end_char": 5259,
+        "excerpt": "Seu propósito era, apenas acabasse o processo, não freqüentar mais a casa; imagina-se facilmente o alvoroço com que ele ouviu a proposta de D. Mariana no momento em que todas as suas mal nascidas esperanças haviam morrido em botão. Dois dias depois, a boa velha deu parte ao dr. Alves de que Eulália estava disposta a casar com ele. Não te direi, disse Alves, concluindo a história que acabo de resumir, e que ele contou ao amigo, à mesa da casa do Carceller  não te direi que Eulália se mostrasse loucamente apaixonada por mim.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "Eulália",
+                "child": "disposta",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Eulália",
+                "dep_c": "acl:relcl",
+                "pos_c": "ADJ",
+                "lemma_c": "disposto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Eulália",
+                "child": "dr.",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Eulália",
+                "dep_c": "iobj",
+                "pos_c": "NOUN",
+                "lemma_c": "dr.",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "mostrasse",
+                "child": "Eulália",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "mostrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Não te direi, disse Alves, concluindo a história que acabo de resumir, e que ele contou ao amigo, à mesa da casa do Carceller  não te direi que [MASK] se mostrasse loucamente apaixonada por mim.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Não te direi, disse Alves, concluindo a história que acabo de resumir, e que ele contou ao amigo, à mesa da casa do Carceller. Continuando sua narrativa, ele relatou que Personagem permaneceu muito reservada nessa noite, como se estivesse pensando em outras coisas. Mas naquela noite, durante a música de fundo, ela me segurou nas mãos e me olhou profundamente nos olhos, com um ar de indefinida paixão. Então, ela inclinou-se levemente em minha direção e nosso rosto se aproximaram lentamente, até que nosso sorriso se cruzasse num beijo que parecia ser o destino. Mas após esse momento inesquecível, Personagem voltou a sua tranquila reserva, como se nada tivesse acontecido, e se afastou para sempre da minha vida.",
+        "generated_text_llama": "Ela sorriu, olhando para os dedos unidos sob a mesa, um gesto familiar e tranquilo que refletia a longa história deles dois. O silêncio que se seguiu foi quase palpável, e os outros no círculo começaram a se mexer em seus assentos, tentando criar uma atmosfera mais descontraída. Mas não era isso que Alves estava pensando. Ele sabia que a verdade sobre Personagem era algo mais complexo do que simples paixão.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "permaneceu",
+                    "ccomp"
+                ],
+                [
+                    "voltou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "Eulália ouviu todas estas explicações do marido com algum sobressalto; mas qual não foi o sobressalto quando ele disse:  Hás de gostar muito do Moreira!",
+        "start_char": 9214,
+        "end_char": 9221,
+        "excerpt": "No meio do jantar entendeu Alves que devia explicar à mulher a causa da demora, e falou de um amigo que não via há onze anos, e que chegara da Europa no último paquete. Quis que ele viesse jantar conosco, disse Alves, mas não pôde; afirmou-me, porém, que virá amanhã, e que hoje de noite talvez nos visite. Eulália ouviu todas estas explicações do marido com algum sobressalto; mas qual não foi o sobressalto quando ele disse:  Hás de gostar muito do Moreira!",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "ouviu",
+                "child": "Eulália",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ouvir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "eulália",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] ouviu todas estas explicações do marido com algum sobressalto; mas qual não foi o sobressalto quando ele disse:  Hás de gostar muito do Moreira!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, a Sra. Rosa fez um suspiro e olhou para o marido com uma expressão que misturava estranheza e medo. Após isso, ela desceu as escadarias do salão e saiu pela porta traseira da casa, dirigindo-se a um local isolado na propriedade. Ali, em uma pequena cabana que servia de estúdio, colocou sua mente a trabalho para criar o que seria seu próximo passo. Sentada no lado esquerdo da mesa, com um olhar fixo na janela, a Sra. Rosa começou a escrever uma carta. A mensagem era para o Moreira, que era um poeta renomado, e anunciava sua intenção de se apresentar a ele em um evento literário próximo e pedindo-lhe para ser apresentada como uma poetisa em ascensão. No fundo de seu coração, ela sabia que isso poderia causar um escândalo e perturbar sua vida doméstica; mas ainda assim, ela se sentia atraída por esta oportunidade de apresentar suas criações e afirmar sua identidade como escritora. Por fim, ela fechou a carta, colocou-a em um envelhecido saco vermelho, fechou a porta da cabana e saiu para enfrentar o que a vida lhe reservava.",
+        "generated_text_llama": "Personagem sentiu uma mistura de emoção e confusão ao ouvir as palavras do marido. Ele sempre sabia que o Moreira era uma pessoa importante para o casal, mas nunca imaginou que sua importância fosse tão grande. O que o marido queria dizer com \"Hás de gostar muito do Moreira\"? Qual era a conexão entre ele e o homem?",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "fez",
+                    "ROOT"
+                ],
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "Eulália não fez nenhuma outra observação.",
+        "start_char": 10700,
+        "end_char": 10707,
+        "excerpt": "Fraca devia ser. Coisas da mocidade. Eulália não fez nenhuma outra observação.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "fez",
+                "child": "Eulália",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "eulália",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não fez nenhuma outra observação.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, o Personagem, após não ter feito nenhuma outra observação, segurou a fotografia antiga entre as mãos e olhou para a vista panorâmica que se estendia em frente dele. A luz do sol, baixando na horizontes, iluminava os campos verdes, com os arbustos esparsamente dispersos pelo local. Ao fundo, o mar brilhante e imenso desafiava a visão, e as aves marinhas voavam livremente no céu azul claro. O Personagem permaneceu em silêncio por um momento, envelopado nas memórias daquele lugar que tinha sido para ele um lar e uma inspiração.",
+        "generated_text_llama": "Personagem puxou seu celular e digitou o número de telefone do Dr. Lee, um especialista em criptozoologia que havia sido mencionado por alguns amigos em uma festa anterior. Ele sabia que o dr. Lee estava no hospital, cuidando de um caso suspeito de alienígena e queria saber mais sobre isso. Com um arrepio na espinha, Personagem enviou a mensagem: \"Preciso falar com você sobre algo incrível. Encontre-me na cafetería do hospital às 20h\". Depois disso, ele se sentou em uma mesa próxima, perdido nas profundidades de seu celular, tentando processar o que havia visto anteriormente.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "segurou",
+                    "ROOT"
+                ],
+                [
+                    "permaneceu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "puxou",
+                    "ROOT"
+                ],
+                [
+                    "enviou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "A curiosidade porém não foi tão prontamente satisfeita como ele quisera, porque Eulália não apareceu na sala.",
+        "start_char": 11224,
+        "end_char": 11231,
+        "excerpt": "Não é preciso dizer ao leitor que, apesar dos onze anos passados e da mudança que parecia ter-se operado no espírito de Moreira, alguma coisa devia ele sentir ao transpor a soleira da porta do advogado. Não era amor, era antes curiosidade. A curiosidade porém não foi tão prontamente satisfeita como ele quisera, porque Eulália não apareceu na sala.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "apareceu",
+                "child": "Eulália",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "aparecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A curiosidade porém não foi tão prontamente satisfeita como ele quisera, porque [MASK] não apareceu na sala.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Entretanto, sem demora, Personagem se esforçou para descobrir onde o amigo se escondia. Ele bateu em todas as portas e andou pelas escadarias do prédio, questionando todos os funcionários que encontrava. Porém, nada indicava a localização de seu amigo perdido.",
+        "generated_text_llama": "Ele olhou em volta da sala, pensando se havia alguma razão pela qual Personagem não estivesse presente. Ele havia chegado tarde demais para a reunião e não queria perder mais tempo, então decidiu verificar se tudo estava em ordem antes de entrar no quarto do dono da casa, onde planejava encontrar as pistas que poderiam levar ao segredo perdido.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "esforçou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "presente",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "murmurou-lhe uma vez ao ouvido em ocasião em que Eulália se levantara; quem te ouvir, pensará que és um santarrão.",
+        "start_char": 12749,
+        "end_char": 12756,
+        "excerpt": "Poderia ele contar em presença da esposa as aventuras de que lhe falou no café de manhã?Evidentemente não. Patife! murmurou-lhe uma vez ao ouvido em ocasião em que Eulália se levantara; quem te ouvir, pensará que és um santarrão.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "levantara",
+                "child": "Eulália",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "levantar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Eulália",
+                "child": "ocasião",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Eulália",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "ocasião",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Eulália",
+                "child": "ouvido",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Eulália",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ouvido",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "murmurou-lhe",
+                        "child": "ouvido",
+                        "dep_h": "ROOT",
+                        "pos_h": "VERB",
+                        "lemma_h": "murmurou-lhe",
+                        "dep_c": "obj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "ouvido"
+                    },
+                    {
+                        "head": "ouvido",
+                        "child": "ocasião",
+                        "dep_h": "obj",
+                        "pos_h": "NOUN",
+                        "lemma_h": "ouvido",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "ocasião"
+                    },
+                    {
+                        "head": "ocasião",
+                        "child": "ouvido",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "ocasião",
+                        "dep_c": "obj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "ouvido"
+                    },
+                    {
+                        "head": "Eulália",
+                        "child": "ouvido",
+                        "dep_h": "nsubj",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Eulália",
+                        "dep_c": "obj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "ouvido"
+                    }
+                ]
+            }
+        ],
+        "masked_sentence": "murmurou-lhe uma vez ao ouvido em ocasião em que [MASK] se levantara; quem te ouvir, pensará que és um santarrão.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após ouvir a voz misteriosa, Personagem, o jovem herdeiro da grande fortuna familiar, sentiu-se inquieto e intrigado. O que queria dizer essa frase sobre um \"santarrão\"? Sentado na mesa de madeira da sala, que abrigava a atmosfera de segredos e mistérios da casa antiga, Otavio tomou uma lápis preta e escreveu em papel: \"Quem és tu e o porquê sempre me sigues?\" Fechando com cuidado o envelope, ele decidiu pôr-lo em uma das varandas da casa e esperar a resposta. Por fim, Otavio sonhava que esse segredo antigo acabaria por revelar um legado perdido ou alguma verdade importante sobre a história de sua família.",
+        "generated_text_llama": "Ele sorriu amargamente, sabendo que nem sempre era fácil ser visto como uma pessoa séria e responsável. Enquanto caminhas pela praça, as pessoas não podiam deixar de notar a sua expressão seria, mas Personagem estava acostumado com isso. Ele continuou em frente, perdido na própria pensamento, refletindo sobre as suas decisões e o motivo pelo qual havia se levantado da cama aquele dia. A frase que alguém havia murmurado ao seu ouvido ainda ecoava em sua mente: \"Quem te ouvir, pensará que és um santarrão\". Personagem sorriu novamente, mas desta vez era um sorriso mais sombrio, um lembrete de que a verdadeira força não vem de ser visto como alguém, mas sim de fazer a diferença mesmo assim.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "acostumado",
+                    "conj"
+                ],
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "Não lhe sei dizer senão que nesse dia Eulália não apareceu absolutamente ao ex-namorado; pretextou uma dor de cabeça e meteu-se na cama.",
+        "start_char": 13494,
+        "end_char": 13501,
+        "excerpt": "A razão era que lhe pareceu não estar de todo extinto no coração da moça o fogo que ele lhe acendera outrora. A leitora curiosa deseja naturalmente saber se Moreira se enganava. Não lhe sei dizer senão que nesse dia Eulália não apareceu absolutamente ao ex-namorado; pretextou uma dor de cabeça e meteu-se na cama.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "apareceu",
+                "child": "Eulália",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "aparecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "eulália",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Não lhe sei dizer senão que nesse dia [MASK] não apareceu absolutamente ao ex-namorado; pretextou uma dor de cabeça e meteu-se na cama.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele ficou tranquilo no seu quarto, olhando para fora da janela, observando como a vida normal continuava. Através da tela verdeada, ele não podia se imaginar como era o ex-namorado que agora não mais tinha em suas proximidades.",
+        "generated_text_llama": "Mas enquanto Personagem tentava se concentrar no seu \"dor de cabeça\", ele sabia que estava apenas fingindo dores para escapar da tensão que sentia ao pensar em seu ex-namorado, Lucas. Ele sabia que Lucas ainda sentia algo por ele e que a ideia de vê-lo novamente era dolorosa.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "tentava",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "Encetavam a sobremesa quando Eulália apareceu na sala de jantar, com grande espanto de um e de outro, e ainda mais alegria que espanto.",
+        "start_char": 13757,
+        "end_char": 13764,
+        "excerpt": "O jantar, já se vê, não foi tão alegre como os dois amigos esperavam que fosse. Não o foi o jantar; mas foi-o com certeza a sobremesa. Encetavam a sobremesa quando Eulália apareceu na sala de jantar, com grande espanto de um e de outro, e ainda mais alegria que espanto.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "apareceu",
+                "child": "Eulália",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "aparecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Encetavam a sobremesa quando [MASK] apareceu na sala de jantar, com grande espanto de um e de outro, e ainda mais alegria que espanto.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ao verem Personagem entrar na sala de jantar, com grande espanto de um e de outro, João e Maria se voltaram um para o outro, sorrindo com uma emoção misturada. Para eles era inusitado ter alguém inesperado aparecendo assim na casa, entretanto, alegria acabou dominando a espantosidade pois sabiam que algo boa vinha. Com as mãos unidas e um abraço, bem-vindas eram dadas a Personagem que, por sua vez, agradeceu com o brilho dos olhos. A reunião estava finalmente completa.",
+        "generated_text_llama": "Quando Personagem entrou na sala de jantar, os olhos de todos se fixaram nele, surpresos e curiosos. A mulher que estava ao lado do pai, uma pessoa idosa com um rosto bondoso, não pôde deixar de sorrir ao vê-lo. O garoto sentiu um aquecimento no coração quando os olhos dela encontraram os seus, e ele não pôde evitar um sorriso involuntário.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "entrar",
+                    "ROOT"
+                ],
+                [
+                    "dadas",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "entrou",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "Eulália,Quem diria que onze anos depois nos havíamos de encontrar em semelhante situação?",
+        "start_char": 15871,
+        "end_char": 15878,
+        "excerpt": "Moreira esvaziou a xícara, acendeu um charuto, e pensou seriamente em escrever uma carta a Eulália. Fechou a porta do quarto, travou da pena e escreveu o rascunho da carta que se vai ler: Eulália,Quem diria que onze anos depois nos havíamos de encontrar em semelhante situação?",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "uma carta",
+                "child": "Eulália",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "carta",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Eulália",
+                "child": "uma carta",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Eulália",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "carta",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "travou",
+                "child": "Eulália",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "travar",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK],Quem diria que onze anos depois nos havíamos de encontrar em semelhante situação?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Estranho, mas a memória do passado começou a surgir em sua mente. Recorrendo à sua juventude e àqueles momentos em que ele se reuniu com aquela pessoa estranha no mercado de flores. Ele era um rapaz tímido então, agora havia onze anos e ele se sentia mais maduro, mas o passado sempre possuía uma maneira de voltar e perguntá-lo quanto a onde estava aquele indivíduo que lhe salvou naquela noite fria.",
+        "generated_text_llama": "Enquanto eu olhava para ela com um misto de surpresa e confusão, meu amigo Marcus se aproximou de mim e disse: \"Era preciso, mano. Precisávamos saber a verdade\". Ele me pegou no ombro e me levou para longe do grupo, enquanto os outros começavam a discutir sobre como nos tínhamos acabado metendo àquela situação.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "se ao cabo de tanto tempo de estranhas e irreparáveis mágoas, meu coração viesse achar o teu coração gelado e sem o mínimo vestígio de amor, juro-te, Eulália, que me mataria.",
+        "start_char": 16540,
+        "end_char": 16547,
+        "excerpt": "se assim não fora! se ao cabo de tanto tempo de estranhas e irreparáveis mágoas, meu coração viesse achar o teu coração gelado e sem o mínimo vestígio de amor, juro-te, Eulália, que me mataria. Era muito que o destino nos separasse; era muito, mas podia sofrer-se.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "juro-te",
+                "child": ", Eulália",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "juro-te",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "se ao cabo de tanto tempo de estranhas e irreparáveis mágoas, meu coração viesse achar o teu coração gelado e sem o mínimo vestígio de amor, juro-te, [MASK], que me mataria.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas você, corajoso e determinado como sempre, não se atrevia a me levar à morte. Em vez disso, decidiu enfrentar sua dor e sua tristeza por conta própria. Iniciou uma jornada longa e difícil, em busca de solução para seus problemas internos.",
+        "generated_text_llama": "Eu senti um grito silencioso escapar dos meus lábios ao ouvir aquela palavra, como se alguém estivesse cortando as vias que conectavam meu coração à minha alma. Meu olhar, habitualmente curioso e intenso, tornou-se uma esfera de ar ácido e desprovida de luz, como se tivesse sido envolto por uma cortina pesada de cinza. Eu não sabia o que era isso que me consumia, mas eu sabia que não podia mais segurar.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "Estavam nisto quando Eulália soltou um pequeno grito.",
+        "start_char": 21263,
+        "end_char": 21270,
+        "excerpt": "Moreira foi ter com ele e perguntou-lhe se havia já lido o Jornal do Commercio desse dia. Travou então conversa a respeito de um artigo que lá vinha acerca de não sei que negócio ministerial, coisa que não interessava absolutamente a Moreira, mas que ele parecia discutir com muito ardor. Estavam nisto quando Eulália soltou um pequeno grito.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "soltou",
+                "child": "Eulália",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "soltar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Estavam nisto quando [MASK] soltou um pequeno grito.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem segurou a respiração e olhou para a sua esposa, que estava a sua lado. A sua faca deslumbrada e ensanguentada ainda estava em suas mãos, e o sorriso dele era um pouco mais amargo do que o soltado no ar. Ele levantou a cabeça e olhou para cima, com um esforço esmagador. Era escura, mas podia ver uma luz lentamente aparecendo no horizonte.",
+        "generated_text_llama": "Estavam nisto quando Personagem soltou um pequeno grito. Ele estava parado na frente da porta, com a mão suspensa no mecanismo de segurança, olhando para o outro lado da sala como se estivesse esperando por algo - ou alguém. O silêncio do ambiente era quase palpável e Personagem sentia a ansiedade subindo em sua garganta. Ele havia estado procurando o quarto por minutos, mas não conseguia encontrar o que estava procurando: uma caixa velha e escondida na gaveta de um armário.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "soltou",
+                    "advcl"
+                ],
+                [
+                    "sentia",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "No fim de uma hora, voltaram para casa; Eulália foi para os seus aposentos; Alves acompanhou-a; Moreira retirou-se para o hotel onde alugara um aposento.",
+        "start_char": 22044,
+        "end_char": 22051,
+        "excerpt": "A carta nada continha que lhe pudesse causar abalo; a primeira sim. Demais a carta estava já guardada, porque ele a não viu na mão de Eulália. No fim de uma hora, voltaram para casa; Eulália foi para os seus aposentos; Alves acompanhou-a; Moreira retirou-se para o hotel onde alugara um aposento.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "mão",
+                "child": "Eulália",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "mão",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Eulália",
+                "child": "mão",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Eulália",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "mão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "foi",
+                "child": "Eulália",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "No fim de uma hora, voltaram para casa; [MASK] foi para os seus aposentos; Alves acompanhou-a; Moreira retirou-se para o hotel onde alugara um aposento.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de voltar em casa, ela fechou a porta atrás dela com uma sensação de tristeza que se refletia nos seus olhos. Alves, observando-a, seguiu-a até o seu apartamento, sabendo que ela precisava de alguém com quem compartilhar sua dor. No entanto, Moreira recusou a companhia e decidiu se retirar para o hotel onde alugara um aposento, preferindo ter uma distância física entre os dois no momento. Assim, passaria a noite sozinha, enquanto pensava em como resolver sua situação. Alves deixou-a assim, saindo da sala para dar-lhe um pouco de privacidade, sem perder de vista a desolação que se arrastava por toda a sua casa.",
+        "generated_text_llama": "Quando chegou à sua cela do hotel, Moreira sentiu um arrepio na espinha. Era como se estivesse sendo observado, mesmo que não houvesse ninguém por perto. Ele olhou em volta da pequena habitação, com a cama simples e a mesa de madeira. Mas era só ele que estava ali, afinal.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "seguiu-a",
+                    "ROOT"
+                ],
+                [
+                    "deixou-a",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "Na véspera, logo depois de se retirar a seus aposentos, Eulália mandou chamar o marido.",
+        "start_char": 24200,
+        "end_char": 24207,
+        "excerpt": "Sentou-se e começou a falar. Antes, porém, de dizer o que disse Alves ao seu amigo Moreira, voltemos um pouco atrás e digamos ao leitor o acontecimento que deu causa ao outro que vai principiar. Na véspera, logo depois de se retirar a seus aposentos, Eulália mandou chamar o marido.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "mandou",
+                "child": "Eulália",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mandar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Na véspera, logo depois de se retirar a seus aposentos, [MASK] mandou chamar o marido.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Na madrugada seguinte, Personagem, que estava sentada em frente à janela e olhando para o céu estrelado, sentiu uma forte agitação interna. Era como se sua alma lutasse por sair de seu corpo, pedindo-lhe a liberdade que havia perdido há muito tempo atrás. Então, sem perder tempo, levantou-se do sofá e acendeu a luz da vela que sempre mantinha em suas aparições noite-núcia. Ao redor de si, a casa estava mansa e silenciosa; apenas o fogo nas velas que batiam contra as paredes contornando a sua figura sombria.",
+        "generated_text_llama": "Na véspera, logo depois de se retirar aos seus aposentos, Personagem mandou chamar o marido. Ele foi até o quarto dela e acendeu a vela, criando uma luz suave e íntima. \"Antonio\", disse ela, \"tenho algo a falar com você\". O marido, curioso, se aproximou da cama e sentou-se ao pé dela.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "mandou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "Eulália caiu-lhe nos braços lavada em lágrimas.",
+        "start_char": 24304,
+        "end_char": 24311,
+        "excerpt": "Que queres? perguntou Alves com solicitude. Eulália caiu-lhe nos braços lavada em lágrimas.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "caiu-lhe",
+                "child": "Eulália",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "caiu-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] caiu-lhe nos braços lavada em lágrimas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após se abraçar com ela, ele segurou sua cabeça no peito e falou tranquilamente: \"Eu te amo mais que o mar e a estrela combinadas, minha vida. Sempre irêmos ser amados um pelo outro.\"",
+        "generated_text_llama": "Ele a seguiu para casa, a dor no peito ainda muito intensa, mas a sensação de solidão e desolação o acompanhou por todo caminho. Ao chegar à sua porta, ele fechou-a atrás dele e se sentou na cadeira mais próxima da janela, olhando para fora em busca de alguma luz no fim do túnel.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "Não; mas só agora o sei, respondeu Eulália, enxugando os olhos.",
+        "start_char": 24640,
+        "end_char": 24647,
+        "excerpt": "Alves perguntou-lhe sorrindo: Só agora? Não; mas só agora o sei, respondeu Eulália, enxugando os olhos.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "respondeu",
+                "child": "Eulália",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Não; mas só agora o sei, respondeu [MASK], enxugando os olhos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem segurou a mão do menino por um minuto, sinti-se a calor e energia que ele dispensava. Em seguida, ela desligou a luz e abriu o quarto que sempre tinha fechado para nunca mais abrir de novo.",
+        "generated_text_llama": "Ele respirou fundo e tentou se acalmar, sentindo-se um pouco confuso e assustado. A lenda sobre a Morte da Lua que havia ouvido durante a viagem para a ilha do santo não parecia tão improvável agora. Personagem lembrou de como havia visto as estrelas misteriosamente se moverem no céu, como se algo estava tentando escapar.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "segurou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "lembrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "Eulália fez-lhe um gesto para que se sentasse de novo.",
+        "start_char": 25595,
+        "end_char": 25602,
+        "excerpt": "Esse homem é o teu amigo Moreira. Alves deu um salto da cadeira em que se achava sentado. Eulália fez-lhe um gesto para que se sentasse de novo.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "fez-lhe",
+                "child": "Eulália",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fez-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] fez-lhe um gesto para que se sentasse de novo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Ótimo, continuação em português brasileiro: Após dar o gesto para que a pessoa se sentasse novamente, ele segurou uma pausa respeitosa antes de começar a falar, sabe? Ele queria dizer aquilo da melhor forma possível. \"Minha querida, eu preciso te dizer algo\", disse ele com um tom sério na voz, enquanto estendia a mão para agarrar sua mão.",
+        "generated_text_llama": "Máscaro sorriu e apontou com o dedo para a cadeira ao lado da mesa. \"Aqui, por favor\", disse ele, indicando a cadeira e fazendo um movimento calmo com as mãos. Máscaro sabia que sua amiga needed um lugar para se sentar e relaxar um pouco, então estava determinado a ajudar. Ele pegou uma das velas que estavam espalhadas pela mesa e aproximou-a de onde ela estava pendurada, colocando-a cuidadosamente na mesa entre as duas xícaras.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ],
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "Eulália pediu-lhe que se sentasse outra vez.",
+        "start_char": 26346,
+        "end_char": 26353,
+        "excerpt": "Dizendo isto, abriu Eulália uma caixinha e tirou de dentro uma carta, a primeira de Moreira, que entregou aberta ao marido. Alves atirou-se com sofreguidão ao fatal papel; leu-o, machucou-o entre as mãos, levantou-se exasperado. Eulália pediu-lhe que se sentasse outra vez.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "abriu",
+                "child": "Eulália",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "abrir",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "pediu-lhe",
+                "child": "Eulália",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pediu-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] pediu-lhe que se sentasse outra vez.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Com uma voz suave e resolutiva, ele repetiu a sua solicitação: \"Por favor, tome seu lugar novamente.\" Seu rosto, que antes era de máscara inexpressiva, agora parecia pálido, refletindo a ansiedade que se tornava cada vez mais evidente.",
+        "generated_text_llama": "Personagem pediu-lhe que se sentasse outra vez e, enquanto ela o fazia, ele começou a desenhar no papel que estava em sua mão. Era um retrato de uma praia deserta, com ondas azuis que se estendiam até a linha do horizonte e uma pequena casa branca ao lado da areia dura. Ele não parava de desenhar, as linhas e cores fluindo das suas mãos como se estivessem vivas.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pediu-lhe",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "Eulália buscou tranqüilizá-lo e o conseguiu.",
+        "start_char": 27019,
+        "end_char": 27026,
+        "excerpt": "Alves leu o bilhete de Moreira, que nada adiantava depois da carta, apenas a reincidência e a pertinácia de um aparente amigo. Houve naturalmente uma explosão de cólera; Eulália buscou tranqüilizá-lo e o conseguiu.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "buscou",
+                "child": "Eulália",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "buscar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] buscou tranqüilizá-lo e o conseguiu.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, a mãe segurou em seus braços seu filho pequeno, que havia parado de chorar. De repente, uma sonrisa radiante iluminou o rosto do menino. Ela sorriu de volta e entregou um beijinho no topo da cabeça dele, sabe-lo querer muito. A mãe então passou a falar com tranquilidade, contando uma história engraçada que tinha ouvido na escola. O menino riu e olhou para ela com um olhar de admiração. Naquele momento, o vínculo materno-filho se fortaleceu mais uma vez, reforçando a importância da comunicação e do amor em nossas relações.",
+        "generated_text_llama": "Depois de alcançar aquele momento de relaxamento, Personagem sentiu uma sensação de alívio que ele não havia experimentado em muito tempo. Com a tranquilidade de volta ao seu corpo e mente, ele começou a refletir sobre o que havia acontecido até aquele momento.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

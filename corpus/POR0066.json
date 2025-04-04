@@ -1,0 +1,461 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Rosa Abegôa",
+        "sentence": "A Rosa Abegôa que batia o queixo, a tremer com o frio da sezão, arranjou a cesta com o jantar do marido e entregou-o á Annitas, á filha, recommendando-lhe que o fosse levar á varzea da Corôa, lá abaixo, onde andava a lavoura.",
+        "start_char": 330,
+        "end_char": 341,
+        "excerpt": "As pastagens queimadas, as fontes seccas, os ribeiros sem agua. As cigarras cantavam. A Rosa Abegôa que batia o queixo, a tremer com o frio da sezão, arranjou a cesta com o jantar do marido e entregou-o á Annitas, á filha, recommendando-lhe que o fosse levar á varzea da Corôa, lá abaixo, onde andava a lavoura.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "tremer",
+                "child": "A Rosa Abegôa que batia o queixo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tremer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rosa",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A [MASK] que batia o queixo, a tremer com o frio da sezão, arranjou a cesta com o jantar do marido e entregou-o á Annitas, á filha, recommendando-lhe que o fosse levar á varzea da Corôa, lá abaixo, onde andava a lavoura.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ela encostou a boca na porta e gritou: \"Raimundo, meu querido! Vem aqui por favor.\" Ao ouvir o grito, Raimundo saiu correndo da oficina de madeira que construía na rua, deixando trás uma polvilhada nuvem de pó e gerdas. Ele perguntou: \"O que é, minha querida?\" E a velha respondeu com uma voz fraca: \"Não vai falar? Vem aqui para levar o jantar da sua esposa.\"",
+        "generated_text_llama": "E assim, Personagem colocou uma moeda na mão de Annita e disse: \"Leva-o lá pra a varzea da Corôa, filha. Lá está a lavoura que o pai e eu estamos a trabalhar. Vai ficar melhor com ela do que em cima da cidade.\" Annita assentiu com a cabeça, agradecida pela atenção do avô, e começou a caminhar para a varzea, enquanto Personagem voltou para casa, sentindo um pouco mais aquecido pelo esforço físico.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "colocou",
+                    "ROOT"
+                ],
+                [
+                    "voltou",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ella",
+        "sentence": "Ella veiu antes da gente, disse um dos pequenos com uma vozita esganiçada mas sahiu do caminho e ficou para traz.",
+        "start_char": 14365,
+        "end_char": 14369,
+        "excerpt": "Impacientava-se. Tinha fome. Ella veiu antes da gente, disse um dos pequenos com uma vozita esganiçada mas sahiu do caminho e ficou para traz.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "veiu",
+                "child": "Ella",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "veiu",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "ella",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] veiu antes da gente, disse um dos pequenos com uma vozita esganiçada mas sahiu do caminho e ficou para traz.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ao ver o menino se afastar, a senhora olhou-o por alguns segundos e sentiu que sua boca estava seco. Em seguida, girou-se e entrou em casa, fechando a porta atrás dela com uma lábil. Após isso, voltou e pegou um prato grande e peneira de azeitona da geladeira. Começou a misturar-los rapidamente, deixando-o correr em cima da mesa da cozinha, onde havia vários ingredientes para uma sopa. Tomou ainda mais azeite, sal e farinha e começou a preparar um pão, dando a ele cuidado, já que era o único comida que a senhora tinha disponível.",
+        "generated_text_llama": "Eu me aproximei dele com cuidado, não queria assustá-lo mais. Ele estava olhando fixamente para um objeto no chão, um pedaço de papel que havia sido deixado ali. Eu me inclinei para frente e pulei o objeto com a sola do meu calçado, tentando não perturbar sua concentração.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jaquim",
+        "sentence": "Chamava-se Jaquim; Jaquim Horsa por via do seu pae (que Deus haja) que era almocreve para as bandas dEvora.",
+        "start_char": 22802,
+        "end_char": 22808,
+        "excerpt": "Em pouco tempo disse-lhe a vida lá da Quinta, quem eram os patrões, com tratavam os criados, quanto estes ganhavam, falou do abegão e da familia... Pelo seu lado o bufarinheiro contou-lhe lá as suas coisas. Chamava-se Jaquim; Jaquim Horsa por via do seu pae (que Deus haja) que era almocreve para as bandas dEvora.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Chamava-se",
+                "child": "Jaquim",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Chamava-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jaquim",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Chamava-se",
+                "child": "Jaquim",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Chamava-se",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Jaquim",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Jaquim",
+                "child": "Horsa",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "Jaquim",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Horsa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Horsa",
+                "child": "Jaquim",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Horsa",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Jaquim",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Chamava-se [MASK]; [MASK] Horsa por via do seu pae (que Deus haja) que era almocreve para as bandas dEvora.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a narrativa, o personagem chamado **Ruy Gonçalves**, um guerreiro valente e corajoso, seguiu a via indicada por seu pai (que Deus haja), que era almocreve para as bandas d'Évora. Ele despediu-se da casa onde viveu toda a sua vida e partiu em busca de uma aventura incrível, determinado a conquistar a glória e o respeito de seu povo.",
+        "generated_text_llama": "Descobriu-se que ele não era mais o dono da ermidade, mas sim um refugiado em sua própria casa. Chamava-se Horsa e havia sido forçado a viver nas sombras, longe de sua família e amigos. Ele sempre havia sido um homem de poucas palavras, mas agora estava determinado a desvendar o mistério que o havia levado a essa situação.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "Chamava-se",
+                    "ROOT"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elle",
+        "sentence": "Elle começara cedo com aquelle officio:",
+        "start_char": 22899,
+        "end_char": 22903,
+        "excerpt": "Pelo seu lado o bufarinheiro contou-lhe lá as suas coisas. Chamava-se Jaquim; Jaquim Horsa por via do seu pae (que Deus haja) que era almocreve para as bandas dEvora. Elle começara cedo com aquelle officio:",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "começara",
+                "child": "Elle",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "começar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "elle",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] começara cedo com aquelle officio:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Personagem, que já era conhecido por sua disciplina incansável e dedicação aos detalhes, começou precocemente com seu trabalho naquela oficina. Inicialmente, ele se dedicava ao aprendizado prático dos processos de fabricação de instrumentos de precisão. Para sua surpresa, logo observou que alguns dos artigos produzidos apresentavam uma tolerância dimensional ligeiramente maior do que o esperado. Sabendo que a precisão absoluta era necessária para o funcionamento eficiente de instrumentos de precisão, Personagem resolveu encontrar a causa desse problema.",
+        "generated_text_llama": "Personagem começara cedo com aquelle ofício que havia escolhido com tanta dedicação: ser um fotógrafo. Desde a infância, ele sempre teve uma paixão pela captura da beleza e da realidade através da imagem. Com o objetivo de criar algo único e emocionante, Personagem se levantou do sofá, vestiu seu uniforme favorito - uma camisa branca com um colar de couro preto - e começou a preparar seu equipamento de fotografia.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "resolveu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rosa Abegôa",
+        "sentence": "A Rosa Abegôa ficou com uma peça de panno de algodão, dois bons lenços de seda, uma cinta e um córte de calças para o marido.",
+        "start_char": 24138,
+        "end_char": 24149,
+        "excerpt": "As creanças esgueiravam-se entre as saias das mulheres, espetando os pescocitos magros e tisnados, arredondando os olhos cheios de curiosidade e de pasmaceira. E o bufarinheiro vendia, vendia... A Rosa Abegôa ficou com uma peça de panno de algodão, dois bons lenços de seda, uma cinta e um córte de calças para o marido.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "ficou",
+                "child": "A Rosa Abegôa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rosa",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A [MASK] ficou com uma peça de panno de algodão, dois bons lenços de seda, uma cinta e um córte de calças para o marido.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, a senhora Maria arrumou os itens em uma caixa de madeira, fechando-a cuidadosamente. Levantou os olhos para seu marido, que estava de costas a ela, enquanto arrumava as roupas na sala de armários.",
+        "generated_text_llama": "Enquanto o marido estava distraído olhando pela janela, Mônica rapidamente escondeu os itens no baú do quarto, certificando-se de que nada suspeitoso estivesse visível. Depois, ela se aproximou da porta e ouviu a voz do marido, que estava ocupado conversando com o amigo que havia visitado algumas horas antes.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ella",
+        "sentence": "E á força de pensar sempre na mesma coisa agora lembrava-se do cheiro a enxofre que ella tinha no cabello...",
+        "start_char": 39874,
+        "end_char": 39878,
+        "excerpt": "Começou a crescer-lhe no peito uma grande raiva contra a Annitas, aquella cavallona, aquella desavergonhada, aquella cabra que lhe andava cravando a alma no inferno. Era uma femea differente das mais, com pensar de bicho e uma boniteza que deitava a alma de um homem a perder. E á força de pensar sempre na mesma coisa agora lembrava-se do cheiro a enxofre que ella tinha no cabello...",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "uma grande raiva",
+                "child": ", aquella cavallona",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "raiva",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "aquella",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "uma grande raiva",
+                "child": ", aquella",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "raiva",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "aquella",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", aquella cavallona",
+                "child": "uma grande raiva",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "aquella",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "raiva",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", aquella",
+                "child": "desavergonhada",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "aquella",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "desavergonhar",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", aquella",
+                "child": "uma grande raiva",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "aquella",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "raiva",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "crescer-lhe",
+                "child": "aquella",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "crescer ela",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "aquella",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "aquella",
+                "child": "cabra",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "aquella",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "cabro",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "a alma",
+                "child": "aquella",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "alma",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "aquella",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "inferno",
+                "child": "aquella",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "inferno",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "aquella",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "E á força de pensar sempre na mesma coisa agora lembrava-se do cheiro a enxofre que [MASK] tinha no cabello...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando, Maria se levantou lentamente do colchão e caminhou até o espelho, tocando em seu cabelo com medo. O cheiro persistia, um lembrete inesquecível de aquela noite que mudaria sua vida para sempre.",
+        "generated_text_llama": "...e como ele havia sentido uma estranha sensação desconforto quando olhou para o refletir nos espelhos, como se o cheiro estivesse embaixo da pele. Em seguida, Personagem começou a se lembrar de outras coisas: as noites passadas acordado às 3h da manhã, com a sensação de que algo estava errado; os sintomas inexplicáveis de dor e fadiga que o acompanhavam há meses; e, claro, a sensação de que alguém ou alguma coisa estava observando-o. Personagem sentiu um arrepio na espinha ao pensar nisso, e ele rapidamente se levantou da cadeira, como se estivesse sendo puxado para fora de seu próprio corpo.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Zabel",
+        "sentence": "Zabel saboreando aquelle desastre que por todas essas redondezas não ha-de",
+        "start_char": 54863,
+        "end_char": 54868,
+        "excerpt": "Deixa estar, minha fidalga de borra... pensava a ti Zabel saboreando aquelle desastre que por todas essas redondezas não ha-de",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "saboreando",
+                "child": "Zabel",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "saborear",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Zabel",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] saboreando aquelle desastre que por todas essas redondezas não ha-de",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Aí, Personagem continuou a observá-lo de perto, sua expressão permanecendo inalterada. Após alguns instantes, soltou um suspiro profundo e começou a recolher as peças do que restavam dos seus instrumentos. Ao tocar em uma trombetta ensopado com o passar do tempo, percebeu que não era mais possível fazer nada para evitar esse desastre colossal. Tornou-se consciente da impossibilidade de alterar a leitura do futuro, e que estava forçado a viver com as consequências deste evento catastrófico.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    }
+]

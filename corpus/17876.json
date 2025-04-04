@@ -1,0 +1,888 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Raimunda",
+        "sentence": "Pai e irmã, entretanto, achavam natural que a outra subisse a tais alturas, com esta particularidade que o pai tirava orgulho da elevação da filha, enquanto que Raimunda nem conhecia esse sentimento; deixava-se estar na humildade ignorante.",
+        "start_char": 3296,
+        "end_char": 3304,
+        "excerpt": "A diferença de situação entre Jucunda e o resto da família era agravada pelo contraste moral. Raimunda e o pai acomodavam-se, sem esforço, às condições da vida precária e rude; fenômeno que Jucunda atribuía, instintivamente à índole inferior de ambos. Pai e irmã, entretanto, achavam natural que a outra subisse a tais alturas, com esta particularidade que o pai tirava orgulho da elevação da filha, enquanto que Raimunda nem conhecia esse sentimento; deixava-se estar na humildade ignorante.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "acomodavam-se",
+                "child": "Raimunda",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acomodavam-se",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "raimunda",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "conhecia",
+                "child": "Raimunda",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "conhecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "raimunda",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Raimunda",
+                "child": "esta particularidade",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "raimunda",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "particularidade",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Pai e irmã, entretanto, achavam natural que a outra subisse a tais alturas, com esta particularidade que o pai tirava orgulho da elevação da filha, enquanto que [MASK] nem conhecia esse sentimento; deixava-se estar na humildade ignorante.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Pareciam-lhe as pedras sob os pés mais pesadas do que o peso real delas. A alta escala de aço apresentava-se como um obstáculo impossível, uma barragem entre si e as nuvens que voavam acima, onde ele queria ser.",
+        "generated_text_llama": "Mantenha uma atitude de desgaste diário, observando as reações de sua irmã e de seu pai à ascensão dela. Analisava cada detalhe, em busca de pistas sobre o que estava acontecendo. Ela sabia que algo não estava certo, mas não conseguia definir exatamente o quê.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Raimunda",
+        "sentence": "De gêmeas que eram, e criadas juntas, sentiam-se agora filhas do mesmo pai  um grande senhor de engenho, por exemplo  que houvera Raimunda em alguma agregada da casa.",
+        "start_char": 3506,
+        "end_char": 3514,
+        "excerpt": "Raimunda e o pai acomodavam-se, sem esforço, às condições da vida precária e rude; fenômeno que Jucunda atribuía, instintivamente à índole inferior de ambos. Pai e irmã, entretanto, achavam natural que a outra subisse a tais alturas, com esta particularidade que o pai tirava orgulho da elevação da filha, enquanto que Raimunda nem conhecia esse sentimento; deixava-se estar na humildade ignorante. De gêmeas que eram, e criadas juntas, sentiam-se agora filhas do mesmo pai  um grande senhor de engenho, por exemplo  que houvera Raimunda em alguma agregada da casa.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "acomodavam-se",
+                "child": "Raimunda",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acomodavam-se",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "raimunda",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "conhecia",
+                "child": "Raimunda",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "conhecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "raimunda",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Raimunda",
+                "child": "esta particularidade",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "raimunda",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "particularidade",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "houvera",
+                "child": "Raimunda",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "houverar",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "raimunda",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "De gêmeas que eram, e criadas juntas, sentiam-se agora filhas do mesmo pai  um grande senhor de engenho, por exemplo  que houvera [MASK] em alguma agregada da casa.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas elas não podiam ter certeza disso, pois o senhor era homem muito sério e reservado, que raramente compartilhava de suas emoções com ninguém, incluindo as gêmeas. Por isso, uma delas começou a investigar discreta e persistente para descobrir quem era realmente o pai de ambas.",
+        "generated_text_llama": "Enquanto as irmãs se sentavam na sala do piso, cercadas pelas estantes cheias de livros e os quadros pintados pelos próprios pais, Personagem não podia deixar de pensar no que sua irmã Gema disse: \"Você sabe, Ana, eu sinto que posso ver algo em mim, uma sombra do nosso pai\". Personagem se levantou da cadeira, pôs os braços cruzados e começou a caminhar até a janela. Olhou para fora, na noite escuro, enquanto seu coração batia mais rápido.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "ROOT"
+                ],
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Getulino Damião Gonçalves",
+        "sentence": "chama-se Getulino Damião Gonçalves, respondeu a moça.",
+        "start_char": 7022,
+        "end_char": 7047,
+        "excerpt": "Não disseram nada durante os primeiros minutos; D. Maria é que interrompeu o silêncio, perguntando o nome do alferes. Não é Amarante, não, senhora, nem Cavalcanti; chama-se Getulino Damião Gonçalves, respondeu a moça.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "chama-se",
+                "child": "Getulino Damião Gonçalves",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "chamar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Getulino",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "chama-se [MASK], respondeu a moça.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele deslizou para cima do banco, acostumado com o sentimento de desconforto que acompanhava sempre quando se trancava em casa. Sentando-se com firmeza e respirando fortemente, começou a pensar em como seria sua resposta. Em alguns momentos, parecia que as paredes das suas quatro paredes tinham se aproximado demais dele. Porém, não teve tempo para se preocupar com isso. A moça havia feito uma pergunta e agora precisava responder, pois não sabia o que aconteceria em seguida.",
+        "generated_text_llama": "Ele se levantou da cadeira, estendendo os braços e abrindo os olhos, como se tivesse apenas adormecido. Em seguida, olhou para a moça com uma expressão de surpresa, tentando lembrar de quem era ela e como havia chegado ao local. A moça, que parecia ser um pouco mais acordada do que ele, sorriu levemente e se aproximou dele.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maia",
+        "sentence": "Logo que Maia se lhe declarou, pediu-lhe ela que nada dissessem à madrinha por uns dias; ampliou o prazo a semanas; não podia fazê-lo a meses ou anos.",
+        "start_char": 10061,
+        "end_char": 10065,
+        "excerpt": "Sobre o pai dizia que ia com os seus achaques velhos, um dia pior, outro melhor; era opinião do doutor que podia morrer de repente, mas podia também agüentar meses e anos. Jucunda meditou muito sobre a carta. Logo que Maia se lhe declarou, pediu-lhe ela que nada dissessem à madrinha por uns dias; ampliou o prazo a semanas; não podia fazê-lo a meses ou anos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "declarou",
+                "child": "Maia",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "declarar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Logo que [MASK] se lhe declarou, pediu-lhe ela que nada dissessem à madrinha por uns dias; ampliou o prazo a semanas; não podia fazê-lo a meses ou anos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O personagem, tendo ouvido o confesso amor dele declarado, ela lhe pediu para manter em segredo por alguns dias. Com a promessa feita, ele decidiu expandir o prazo para semanas, buscando tempo para se recuperar e fazer frente à tormenta que o abateu. O prazo ainda se ampliou aos meses, pois sentia que não estava pronto para torná-lo pública nem mesmo para as suas amigas mais confidantes. É um arduo caminho que passará pelo amor e o respeito mútuo, buscando harmonizar a vida real com esta nova relação emocional. Por fim, chegou ao ponto de se tornar insustentável manter o segredo por mais tempo; ele acabou não podendo aguentar nem mesmo por anos, pois seu amor era tão intenso que o impeliu a revelar sua verdadeira identidade.",
+        "generated_text_llama": "Personagem assentiu rapidamente com a cabeça, sabendo que havia sido claro na última vez em que a mãe se comunicou com ele. Ele deu uma olhada ao redor, garantindo-se de que ninguém estava ouvindo, antes de continuar. \"E você está segura de que é um problema sério?\", perguntou, sua voz baixa e cautelosa.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "assentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "dinha",
+        "sentence": "mandou-lhe dizer que sim, que podia casar, que não vinha por andar achacado; mas longe que pudesse...  Mundinha exagerou muito, disse Jucunda à madrinha.",
+        "start_char": 10916,
+        "end_char": 10921,
+        "excerpt": "Ainda vive o padre Matos? O pai leu a carta com lágrimas; mandou-lhe dizer que sim, que podia casar, que não vinha por andar achacado; mas longe que pudesse...  Mundinha exagerou muito, disse Jucunda à madrinha.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "exagerou",
+                "child": "Mundinha",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "exagerar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "mundinha",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "mandou-lhe dizer que sim, que podia casar, que não vinha por andar achacado; mas longe que pudesse...  Mun[MASK] exagerou muito, disse Jucunda à madrinha.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " A partir daí, a MunPersonagem, desconcertada e emocionada, saiu correndo pela casa, tendo uma reação inesperada e intensa. Ela acabou encontrando-se no porão, naquela mesma sala que todos conheciam como \"o lugar dos segredos\". Por lá, tinha o velho armário secreto que MunPersonagem sempre estava proibida de abrir. E nesse momento, com a notícia que seu pai desejava que se casasse, sentiu-se muito curiosa e decidiu que precisaria saber tudo sobre esse assunto antes de tomar alguma decisão.",
+        "generated_text_llama": "Muncau, em um tom de voz alto e engraçado, disse: \"Ah, não, não, não! Eu sou o homem perfeito para você, Jucunda! Quero passar a vida inteira ao seu lado, cuidando-a, fazendo-lhe a comida certa, até lhe passar a toalha da banheira!\". As outras mulheres presentes na cerimônia não puderam deixar de rir da confiança excessiva de Muncau.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "disse",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Monsenhor Tavares",
+        "sentence": "Monsenhor Tavares, membro influente do cabido celebrou o casamento.",
+        "start_char": 11537,
+        "end_char": 11554,
+        "excerpt": "Os mais célebres colos da cidade fizeram-lhe corte. Equipagens ricas, cavalos briosos, atirando as patas com vagar e graça, pela chácara dentro, muitas librés particulares, flores, luzes; fora, na rua, a multidão olhando. Monsenhor Tavares, membro influente do cabido celebrou o casamento.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "celebrou",
+                "child": "Monsenhor Tavares",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "celebrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Monsenhor",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], membro influente do cabido celebrou o casamento.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim que terminou a cerimônia, [Nome da Personagem] foi para a festa de casamento e conversou com várias pessoas sobre o seu novo papel dentro da comunidade. Ele sabia que era importante conectar-se com as pessoas e entender suas expectativas acerca do papel do líder espiritual do povo.",
+        "generated_text_llama": "Depois de celebrar o casamento, Personagem se dirigiu para o salão de festas localizado no coração da cidade, onde estava sendo realizado um jantar de boas-vindas em seu honra. Ele estava rodeado por amigos, familiares e colegas de profissão, todos ansiosos para ouvir suas palavras de agradecimento ao longo do evento.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "dirigiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maia",
+        "sentence": "Maia pôs um joelho no chão, pegou-a pela cintura e conchegou-a ao peito; ela escondeu a cara no ombro do marido, e foi então que as lágrimas romperam mais grossas.",
+        "start_char": 13541,
+        "end_char": 13545,
+        "excerpt": "Que foi? insistiu o marido. Morreu meu pai, respondeu ela. Maia pôs um joelho no chão, pegou-a pela cintura e conchegou-a ao peito; ela escondeu a cara no ombro do marido, e foi então que as lágrimas romperam mais grossas.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "pôs",
+                "child": "Maia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pôr",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] pôs um joelho no chão, pegou-a pela cintura e conchegou-a ao peito; ela escondeu a cara no ombro do marido, e foi então que as lágrimas romperam mais grossas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele sentiu-a tremendo, como uma pálida sombra contra a forte luz da sala, enquanto as suas mãos tentavam segurar a si mesma em uma tentativa desesperada de ficar firme. Tanto tempo havia que não lhe lembrava como era tocar sua pele ou ouvir o sofrimento tão verdadeiro nas suas costas, enquanto seus olhos se misturavam com a tristeza e as lágrimas que estavam prestes a escorrer.",
+        "generated_text_llama": "Desculpe, mas não consegui entender muito bem a situação. Você poderia fornecer mais contexto ou informações sobre o que está acontecendo na história? Posso continuar a escrita se tiver essas informações.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maia",
+        "sentence": "Maia sentou-se na poltrona, com uma das mãos da mulher entre as suas.",
+        "start_char": 13930,
+        "end_char": 13934,
+        "excerpt": "Jucunda estava grávida. A advertência fê-la erguer de pronto a cabeça, e enxugar os olhos; a carta, envolvida no lenço, foi esconder no bolso a ruim ortografia da irmã e outros pormenores. Maia sentou-se na poltrona, com uma das mãos da mulher entre as suas.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "sentou-se",
+                "child": "Maia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sentar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] sentou-se na poltrona, com uma das mãos da mulher entre as suas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele segurava a mão dele firmemente, como se ele tivesse algo a dizer, mas não disse nada. Ela olhou para ele, parecia confusa e desconfortável. Ao sentir que ela apenas ficou mais quieta e confusa, Personagem sentiu que precisava de uma resposta. Ele levantou a outra mão e tocou nas costas dela, uma tentativa de demonstrar seu afeto e amor por ela. Ela pareceu tremer levemente e, finalmente, fechou os olhos. Personagem percebeu que ela havia começado a chorar. Ele sentiu-se desconcertado e apenas segurava a mão dela mais firmemente.",
+        "generated_text_llama": "Com um suspiro de alívio, Personagem fechou os olhos e deixou que a caloridade do abraço da mulher o envolvesse. A mulher, que ele havia encontrado naquele lugar estranho e perigoso, agora parecia ser seu refúgio mais seguro. Ela o abraçou mais forte, como se estivesse tentando segurar algo valioso.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "percebeu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "fechou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Getulino",
+        "sentence": "Getulino foi para a guerra, como sabe; eu vim depois, para ver se podia...",
+        "start_char": 15954,
+        "end_char": 15962,
+        "excerpt": "Jucunda caminhou para ela, abraçou-a, fê- la sentar-se; admirou-se de a ver aqui, sem saber de nada; a última carta recebida era já de muito tempo; quando chegara? Há cinco meses; Getulino foi para a guerra, como sabe; eu vim depois, para ver se podia...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "foi",
+                "child": "Getulino",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Getulino",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] foi para a guerra, como sabe; eu vim depois, para ver se podia...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele acordou cedo no dia seguinte e começou a preparar seus pertences. Antes mesmo do sol subir, carregava sua mochila cheia de necessidades básicas e suas armas favoritas. A partida se aproximava rapidamente, mas antes de sair, olhou para trás uma última vez, deixando um silêncio tácito na sala. Seus olhos escaneavam por todos os momentos felizes compartilhados com ele; ele sabia que iria ser muito tempo até que pudesse voltar. Ele apertou os lábios e fez o primeiro passo da jornada que lhe aguardava.",
+        "generated_text_llama": "...viver. A cidade em ruínas me recebia com um silêncio sepulcral, onde apenas o eco dos tiros e as explosões do passado ainda ecoavam nas paredes. Eu caminhei por entre os escombros, tentando encontrar algum sinal de vida, mas era como se a cidade tivesse sido congelada no tempo.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Getulino",
+        "sentence": "Getulino escrevera-lhe que voltasse para a província ou ficasse aqui.",
+        "start_char": 16587,
+        "end_char": 16595,
+        "excerpt": "Já antes de entrar, ficara por algum tempo a contemplar a casa, tão grande e tão rica. Contou à irmã que perdera o filho, ainda na província; agora viera com a idéia de seguir para o Paraguai, ou para onde estivesse mais perto do marido. Getulino escrevera-lhe que voltasse para a província ou ficasse aqui.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "escrevera-lhe",
+                "child": "Getulino",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "escrevera-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Getulino",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] escrevera-lhe que voltasse para a província ou ficasse aqui.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem olhou para o envelope com uma expressão misturada de raiva e decepção, enquanto a lua se escondia no horizonte. Ele tinha recebido uma carta desse homem que estava por trás de tudo isso. Ao ler, percebeu que ele era mandado a retornar à província ou ficar na cidade.",
+        "generated_text_llama": "Personagem olhou ao redor, sentindo um misto de raiva e frustração. Ele sabia que não poderia simplesmente se mudar para uma nova província sem uma razão sólida. Além disso, a ideia de deixar sua família e amigos em mãos inimigos era quase insuportável.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Raimunda",
+        "sentence": "Era evidente que Raimunda pusera em si o melhor que possuía para honrar a irmã.",
+        "start_char": 17115,
+        "end_char": 17123,
+        "excerpt": "A família foi para S. Paulo, vai fazer um mês; pagou o primeiro aluguel de uma casinha onde moro, costurando para fora. Enquanto a irmã falava, Jucunda contornava-a com os olhos  desde o vestido de seda já gasto  o último do enxoval, o xale escuro, as mãos amarelas e magras, até às bichinhas de coral que lhe dera ao sair da província. Era evidente que Raimunda pusera em si o melhor que possuía para honrar a irmã.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "pusera",
+                "child": "Raimunda",
+                "dep_h": "csubj",
+                "pos_h": "VERB",
+                "lemma_h": "puserar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Raimunda",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Raimunda",
+                "child": "evidente",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Raimunda",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "evidente",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Era evidente que [MASK] pusera em si o melhor que possuía para honrar a irmã.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Era evidente que Lucas iria colocar seu máximo esforço para honrar a sua irmã. Ele fez uma pausa profunda, então, abriu seu armário e retirou seu violão de mãos de ouro. Ele tocou uma melodia tranquila, delicada que era tida como um tributo a quem mais amava no mundo - sua irmã. Lucas sonhou com uma vez em que ela ouvisse este som, e ele estaria ao seu lado. No entanto, para agora, iria enviar-lhe a música via arquivo online, esperando que ela gostasse dele mesmo. Após escrever uma carta pessoal onde contava as emoções que sentia, acenou com um sorriso, enviou tudo e fechou a porta da sala tristeamente, sabe-se que não faltaria mais tempo para o dia seguinte.",
+        "generated_text_llama": "Era evidente que Personagem pusera em si o melhor que possuía para honrar a irmã. Ele sabia que sua irmã, Maria, foi uma pessoa muito especial e que ela merecia ser lembrada com dignidade. Portanto, Personagem decidiu se vestir com os seus melhores roupas, incluindo a camisa branca e as calças pretas que ela sempre usava em ocasiões especiais.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "colocar",
+                    "csubj"
+                ],
+                [
+                    "sonhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pusera",
+                    "csubj"
+                ],
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Raimunda",
+        "sentence": "Raimunda ia falando, contou-lhe que o marido saíra tenente por atos de bravura e outras muitas cousas.",
+        "start_char": 17307,
+        "end_char": 17315,
+        "excerpt": "Era evidente que Raimunda pusera em si o melhor que possuía para honrar a irmã. Jucunda viu tudo; não lhe escaparam sequer os dedos maltratados do trabalho, e o composto geral tanto lhe deu pena como repulsa. Raimunda ia falando, contou-lhe que o marido saíra tenente por atos de bravura e outras muitas cousas.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "pusera",
+                "child": "Raimunda",
+                "dep_h": "csubj",
+                "pos_h": "VERB",
+                "lemma_h": "puserar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Raimunda",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Raimunda",
+                "child": "evidente",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Raimunda",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "evidente",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "falando",
+                "child": "Raimunda",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "raimunda",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] ia falando, contou-lhe que o marido saíra tenente por atos de bravura e outras muitas cousas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem olhou para ela com um sorriso triunfante. Ela, por sua vez, não poderia esconder a surpresa naquela expressão inescrutável no rosto.",
+        "generated_text_llama": "Muitas perguntas foram feitas sobre a mulher do tenente, mas Personagem não havia respondido. Ela olhou para os guardiões das almas no céu, que estavam sussurrando entre si, sabendo que cada palavra era um segredo que só elas entendiam.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "respondido",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maia",
+        "sentence": "Maia foi à Rua do Costa, achou Raimunda arranjando as malas para embarcar no dia seguinte.",
+        "start_char": 18702,
+        "end_char": 18706,
+        "excerpt": "mandar-lhe-ia uma mesada, até que o tenente voltasse da guerra. Foi então que o marido recebeu aviso anônimo das visitas da mulher à Rua do Costa, e das que lhe fazia, em casa, uma mulher suspeita. Maia foi à Rua do Costa, achou Raimunda arranjando as malas para embarcar no dia seguinte.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "foi",
+                "child": "Maia",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "ser",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "maia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] foi à Rua do Costa, achou Raimunda arranjando as malas para embarcar no dia seguinte.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem abriu a boca e disse: \"Raimunda, você pode parar por um momento? Tenho algo importante para te falar.\"",
+        "generated_text_llama": "Envergou-se um casaco simples, mas confortável, e seguiu para o café da esquina, onde Raimunda estava sentada, folheando um jornal. \"Bom dia, minha,\" disse Personagem, sentando-se ao seu lado. \"Você está pronta para partir?\" Raimunda olhou para ele com uma expressão séria e respondeu: \"Sim, estou. Preciso terminar alguns assuntos antes de deixar a cidade.\" Personagem assentiu, sabendo que Raimunda não era a tipo de pessoa a se preocupar com detalhes, mas sim agir de acordo com seu instinto. Depois de alguns minutos de silêncio, Raimunda se levantou e começou a caminhar em direção à saída do café, esperando que Personagem a seguisse.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "abriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "assentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "disse",
+                    "ROOT"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Raimunda",
+        "sentence": "Quando ele lhe falou do Engenho Velho, Raimunda adivinhou que era o marido da irmã;",
+        "start_char": 18832,
+        "end_char": 18840,
+        "excerpt": "Foi então que o marido recebeu aviso anônimo das visitas da mulher à Rua do Costa, e das que lhe fazia, em casa, uma mulher suspeita. Maia foi à Rua do Costa, achou Raimunda arranjando as malas para embarcar no dia seguinte. Quando ele lhe falou do Engenho Velho, Raimunda adivinhou que era o marido da irmã;",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "arranjando",
+                "child": "Raimunda",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "arranjar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Raimunda",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "adivinhou",
+                "child": "Raimunda",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "adivinhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Raimunda",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando ele lhe falou do Engenho Velho, [MASK] adivinhou que era o marido da irmã;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ao ouvir ele falar sobre o Engenho Velho, Personagem suspeitou rapidamente que era o marido da irmã. Sem perder tempo, ela saiu correndo, desejando saber se aquilo realmente era verdade. Enquanto caminhava pelo campo, a imagem de sua irmã, feliz e radiante em seu casamento com um homem que parecia bondoso e confiável, brilhou na mente de Personagem. Contudo, esse recorrente sonho agora se tornara uma realidade terrívemente difícil de digerir. Para confirmar seus suspeitas, ela decidiu ir ao Engenho Velho mesmo assim e descobrir por conta própria se sua irmã estava realmente em perigo ou não.",
+        "generated_text_llama": "E assim, Personagem decidiu visitar o engenhão, na esperança de encontrar pistas sobre a identidade real do casamento. Ele sabia que não poderia entrar sem uma boa razão, então se disfarçou de um viajante que havia ouvido falar do engenho e queria ver suas instalações. Com o seu chapéu de feiticeiro e uma camada de poeira em sua roupa, Personagem caminhou até a porta do engenho, onde foi recebido por um homem alto e magro com um bigode pontiagudo.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "suspeitou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "caminhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maia",
+        "sentence": "Maia lembrou-se então da Rua do Costa.",
+        "start_char": 19288,
+        "end_char": 19292,
+        "excerpt": "Maia, depois de longo interrogatório, saiu dali convencido. Não disse nada em casa; mas, três meses depois, por ocasião de falecer D. Maria do Carmo, referiu Jucunda ao marido a grande e sincera afeição que a defunta lhe tinha, e ela à defunta. Maia lembrou-se então da Rua do Costa.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "saiu",
+                "child": "Maia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sair",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "maia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "lembrou-se",
+                "child": "Maia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "lembrar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] lembrou-se então da Rua do Costa.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, Personagem se lembrou de sua casa antiga, na Rua do Costa. Um lugar que o carregava uma sensação de segurança e conhecimento, um lugar onde ele era uma espécie de herói local. Então, sem mais pensar nisso, Personagem decidiu voltar para lá, para se sentir em casa novamente e trazer alegria para aqueles que sempre o esperavam.",
+        "generated_text_llama": "Em seguida, ele começou a caminhar pela Rua do Costa, tentando se concentrar nas suas pensamentos. A luz do sol dava um toque especial àquela rua, que estava repleta de memórias e histórias escondidas nas ruas estreitas. O cheiro do café e da pão quentecorria pelo ar, trazendo um pouco de paz para a mente de Personagem. Ele parou em frente à uma loja de antiguidades que sempre lhe havia chamado a atenção, e decidiu entrar para ver se encontraria algo que o ajudasse a entender melhor seu passado. Enquanto caminhava pelas prateleiras cheias de objetos velhos e rarezas, Personagem sentiu uma sensação de conexão com aquele lugar, como se as respostas estivessem lá, esperando por ele. Ele encontrou uma pequena caixa de madeira escura que parecia chamá-lo especialmente, e decidiu abri-la para ver o que continha dentro.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "lembrou",
+                    "ROOT"
+                ],
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Getulino",
+        "sentence": "Getulino galgou os postos em campanha, e saiu há alguns anos brigadeiro.",
+        "start_char": 20283,
+        "end_char": 20291,
+        "excerpt": "Tem boa saúde e grande consideração. A irmã faleceu antes de acabar a guerra. Getulino galgou os postos em campanha, e saiu há alguns anos brigadeiro.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "galgou",
+                "child": "Getulino",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "galgar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Getulino",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] galgou os postos em campanha, e saiu há alguns anos brigadeiro.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, que era um soldado corajoso e inteligente, passava o tempo entre as filas de comandantes mais respeitados do exército, quando decidiu lançar uma ofensiva aos postos inimigos, estabelecidos em suas terras. Armado apenas com sua determinação e coragem, partiu para um longo caminhada até as fronteiras inimigas. Após dias de viagem e dificuldades, ele conseguiu chegar às posições inimigas e liderou os seus homens em uma batalha que mudaria o curso da guerra.",
+        "generated_text_llama": "Com um sorriso confiante, Personagem dirigia seu veículo em direção à próxima cidade, onde iria realizar uma série de reuniões com potenciais clientes para o seu negócio de importação de produtos artesanais. Ele havia se especializado em encontrar marcos inovadores e exclusivos que poderiam ser vendidos no mercado brasileiro.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "passava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "dirigia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

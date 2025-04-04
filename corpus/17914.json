@@ -1,0 +1,379 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Abel",
+        "sentence": "Andava na sala do hospital inglês, aqui no Rio, onde Abel o viu e lhe foi apresentado, quando ali ia visitar um amigo enfermo, também inglês e padre.",
+        "start_char": 1032,
+        "end_char": 1036,
+        "excerpt": "Convalescia de uma perna quebrada. Já então andava (não ainda na rua) apoiado a uma muleta pequena. Andava na sala do hospital inglês, aqui no Rio, onde Abel o viu e lhe foi apresentado, quando ali ia visitar um amigo enfermo, também inglês e padre.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "viu",
+                "child": "Abel",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Abel",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Abel",
+                "child": "Rio",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Abel",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Rio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Andava na sala do hospital inglês, aqui no Rio, onde [MASK] o viu e lhe foi apresentado, quando ali ia visitar um amigo enfermo, também inglês e padre.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele abraçou-o forte, sorriu e perguntou como estava. O amigo, que se chamava Henry, sorriu e respondeu que estava melhorando lentamente. \"Mas, como você não é inglês, como é que sabemos um ao outro?\", perguntou ele, incomodado.",
+        "generated_text_llama": "Agora que sabia quem era o homem que estava ao seu lado, Personagem sentiu uma sensação de curiosidade e interesse. Ele perguntou ao médico que estava com ele, sobre a condição do paciente e como ele havia acabado nas mãos da hospitalidade britânica. O médico, um homem calmo e profissional, explicou que o paciente era um missionário americano, que havia se envolvido em uma acidente de carro no Rio e estava sendo tratado por lesões graves.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "chamava",
+                    "acl:relcl"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Abel",
+        "sentence": "Padre, oficial de marinha e engenheiro (Abel é engenheiro) conversavam freqüentemente de várias cousas deste e do outro mundo.",
+        "start_char": 1169,
+        "end_char": 1173,
+        "excerpt": "Já então andava (não ainda na rua) apoiado a uma muleta pequena. Andava na sala do hospital inglês, aqui no Rio, onde Abel o viu e lhe foi apresentado, quando ali ia visitar um amigo enfermo, também inglês e padre. Padre, oficial de marinha e engenheiro (Abel é engenheiro) conversavam freqüentemente de várias cousas deste e do outro mundo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "viu",
+                "child": "Abel",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Abel",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Abel",
+                "child": "Rio",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Abel",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Rio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Abel",
+                "child": "engenheiro",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Abel",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "engenheiro",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Abel",
+                "child": "Padre",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Abel",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Padre",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "engenheiro",
+                "child": "Abel",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "engenheiro",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Abel",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Padre, oficial de marinha e engenheiro ([MASK] é engenheiro) conversavam freqüentemente de várias cousas deste e do outro mundo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, o engenheiro Personagem, que possuía um coração cheio de curiosidade e inventividade, decidiu aproveitar sua próxima viagem oficial na marinha para testar uma ideia incrível que tinha em mente há muito tempo. Ele estava convencido de que aplicando princípios eletromagnéticos em determinados componentes da embarcação, poderiam ser obtidas melhorias substanciais na eficiência do navio e na segurança de seus ocupantes.",
+        "generated_text_llama": "Enquanto conversava com o padre, oficial de marinha e engenheiro, Personagem não podia deixar de se sentir fascinado pela história que o homem contava sobre a construção da nave mais avançada da época. O padre, conhecido por sua sabedoria e conhecimento, parecia ter acesso a informações restritas e Personagem estava ansioso para ouvir mais.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "conj"
+                ],
+                [
+                    "ansioso",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nelson",
+        "sentence": "Nelson, ainda sem braço, faria o que eu fiz no mês de abril, na cidade de Montevidéu.",
+        "start_char": 1880,
+        "end_char": 1886,
+        "excerpt": "A Nelson1 faltava um braço. Não é a mesma cousa, redargüiu B... sorrindo. Nelson, ainda sem braço, faria o que eu fiz no mês de abril, na cidade de Montevidéu.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "faltava",
+                "child": "A Nelson1",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "faltar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nelson1",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "faria",
+                "child": "Nelson",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "advmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Nelson",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], ainda sem braço, faria o que eu fiz no mês de abril, na cidade de Montevidéu.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Sempre determinado e incansável, Personagem continuou sua jornada às margens do Rio da Silva, não importando que tivesse perdido um membro importante de seu corpo. Era uma questão de honor, de verificar se as informações que estava buscando eram verdadeiras ou na verdade apenas uma invenção de mentirosos ou charlatães.",
+        "generated_text_llama": "Uma coisa era certa: Personagem não ia deixar que a perda do braço o impedisse de viver à plenitude. Ele pensou nas palavras de seu melhor amigo, João, e decidiu seguir em frente. Com uma grande inspiração, Personagem pegou seu telefone e ligou para a organização sem fim de semana, que era sua paixão, o grupo \"Montevideanos sem Fim\".",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "deixar",
+                    "ROOT"
+                ],
+                [
+                    "pegou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Abel",
+        "sentence": "A mulher  disse ele ao terminar a aventura, e provavelmente sem as reticências que Abel metia neste ponto da narração , a mulher era um manequim, o manequim de costureira, posto ali de costume ou no começo do incêndio, como quer que fosse, era um manequim.",
+        "start_char": 6390,
+        "end_char": 6394,
+        "excerpt": "O fumo rasgou-se de modo que ele pôde ver o busto da mulher... Vencera o perigo; cumpria vencer a morte. A mulher  disse ele ao terminar a aventura, e provavelmente sem as reticências que Abel metia neste ponto da narração , a mulher era um manequim, o manequim de costureira, posto ali de costume ou no começo do incêndio, como quer que fosse, era um manequim.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "metia",
+                "child": "Abel",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "meter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Abel",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Abel",
+                "child": ", e provavelmente sem as reticências",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Abel",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "reticência",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A mulher  disse ele ao terminar a aventura, e provavelmente sem as reticências que [MASK] metia neste ponto da narração , a mulher era um manequim, o manequim de costureira, posto ali de costume ou no começo do incêndio, como quer que fosse, era um manequim.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim que ela disse as suas palavras, Personagem despertou da sua transe e observou a mulher. Ela estava quieta, impassível, sem nenhum sinal de vida. Personagem ficou confuso por um momento, apenas olhando para ela, até que finalmente se perguntou: \"Se você é um manequim, porque eu ainda não havia notado?\" Então, ele abraçou-a e sentiu como as costas da maniquinada não tinham sensação nem resposta alguma.",
+        "generated_text_llama": "Ele olhou para ela com uma mistura de curiosidade e desconfiança, seu rosto ainda marcado pelas chamas e sujo de fumaça. \"Você... você não é uma pessoa\", disse ele, sua voz baixa e hesitante. A mulher no manequim permaneceu imóvel, seus olhos vazios parecendo observá-lo com uma inteligência sinistra.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "despertou",
+                    "ROOT"
+                ],
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Abel",
+        "sentence": "Desembarcando aqui, no Rio de Janeiro, foi para o hospital onde Abel o conheceu.",
+        "start_char": 8165,
+        "end_char": 8169,
+        "excerpt": "Tratou-se a bordo e em viagem. Não continuou por falta de comodidades que só em terra podia ter. Desembarcando aqui, no Rio de Janeiro, foi para o hospital onde Abel o conheceu.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "conheceu",
+                "child": "Abel",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "conhecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Abel",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Abel",
+                "child": "o hospital",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Abel",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "hospital",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Desembarcando aqui, no Rio de Janeiro, foi para o hospital onde [MASK] o conheceu.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Neste novo mundo e clima tropical, ele, o jornalista estrangeiro chamado John, sentiu-se assustado e alienado. Mas uma esperança lhe dava força: encontrar sua amada brasileira, Maria. Desembarcando aqui, no Rio de Janeiro, foi para o hospital onde conheceu Maria durante sua primeira viagem ao Brasil.",
+        "generated_text_llama": "Enquanto era atendido pelo médico, Personagem não podia deixar de pensar na última coisa que havia acontecido antes de chegar ao hospital: a cena bizarra em que havia sido transportado de volta no tempo e encontrado o jovem Luiz, seu melhor amigo infelizmente morto há décadas. Sem entender como isso poderia estar relacionado à sua própria condição, Personagem tentou manter a calma e se concentrar na recuperação.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "chamado",
+                    "acl"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "ROOT"
+                ],
+                [
+                    "tentou",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

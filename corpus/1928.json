@@ -1,0 +1,63 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Aníbal",
+        "sentence": "A doença levou-lhe um olho, e foi aqui que se revelou a vocação poética de Bernardão, porque, tendo-lhe dito um dos seus dous ministros, chamado Alfa, que a perda de um olho o fazia igual a Aníbal,  comparação que o lisonjeou muito,  o segundo ministro, Ômega, deu um passo adiante, e achou-o superior a Homero, que perdera ambos os olhos.",
+        "start_char": 2609,
+        "end_char": 2615,
+        "excerpt": "Outro ato em que reveleu igual sabedoria, foi o que ordenou que todos os sapatos do pé esquerdo tivessem um pequeno talho no lugar correspondente ao dedo mínimo, dando assim aos seus súbditos o ensejo de se parecerem com ele, que padecia de um calo. O uso dos óculos em todo o reino não se explica de outro modo, senão por uma oftalmia que afligiu a Bernardão, logo no segundo ano do reinado. A doença levou-lhe um olho, e foi aqui que se revelou a vocação poética de Bernardão, porque, tendo-lhe dito um dos seus dous ministros, chamado Alfa, que a perda de um olho o fazia igual a Aníbal,  comparação que o lisonjeou muito,  o segundo ministro, Ômega, deu um passo adiante, e achou-o superior a Homero, que perdera ambos os olhos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "fazia",
+                "child": "Aníbal",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Aníbal",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Aníbal",
+                "child": "seus dous ministros",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Aníbal",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "ministro",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A doença levou-lhe um olho, e foi aqui que se revelou a vocação poética de Bernardão, porque, tendo-lhe dito um dos seus dous ministros, chamado Alfa, que a perda de um olho o fazia igual a [MASK],  comparação que o lisonjeou muito,  o segundo ministro, Ômega, deu um passo adiante, e achou-o superior a Homero, que perdera ambos os olhos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Bernardão, sentado em sua cama e com uma mala no peito, iniciou a escrever. Iniciou a escrever como nunca havia escrito antes, com um espírito renovado e uma determinação inabalável. Escrevia sobre a perda de seu olho, sobre o sofrimento e a dor, mas também sobre a resistência e a esperança.",
+        "generated_text_llama": "E assim, com a autorização do líder, Bernardão começou a se dedicar plenamente à sua arte poética, escrevendo não só em papel, mas também no céu, usando uma nova linguagem que combinava sonetos com estrelas e rimas com nuvens. Sua obra-prima foi \"O Olho do Destino\", um poema que contava a história de sua própria luta contra a doença e sua redescoberta da beleza na dor.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

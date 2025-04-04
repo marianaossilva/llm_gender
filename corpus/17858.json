@@ -1,0 +1,60 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Marcila",
+        "sentence": "Varrão, Cícero, Aquiles, Aulo Gélio, Suetônio, Higino, Propércio, Marcila falam de diferentes objetos com que as crianças se entretinham, ou fossem bonecos, ou espadas de pau, ou bolas, ou análogos artifícios.",
+        "start_char": 9115,
+        "end_char": 9122,
+        "excerpt": "Mas não sendo as palavras postas na boca do cão, e sim na do homem, é absolutamente impossível ligar esse texto ao uso moderno. Que os meninos antigos brincavam, e de modo vário, é ponto incontroverso, em presença dos autores. Varrão, Cícero, Aquiles, Aulo Gélio, Suetônio, Higino, Propércio, Marcila falam de diferentes objetos com que as crianças se entretinham, ou fossem bonecos, ou espadas de pau, ou bolas, ou análogos artifícios.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "falam",
+                "child": "Marcila",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Marcila",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Varrão, Cícero, Aquiles, Aulo Gélio, Suetônio, Higino, Propércio, [MASK] falam de diferentes objetos com que as crianças se entretinham, ou fossem bonecos, ou espadas de pau, ou bolas, ou análogos artifícios.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O último dos nomes é o do médico Galeno, conhecido por sua profunda investigação e conhecimento científico. Quando ouviu as conversações sobre os objetos de diversão infantil, uma ideia lhe surgiu: criar um brinquedo que combines entretenimento com o aprendizado da ciência e física. Galeno retirou-se para seu estúdio e trabalhou por dias e noites para produzir seu novo brinquedo, uma espécie de relógio com pêndulo, mas não era apenas um objeto decorativo, havia um sistema dentro que ajudava o jovem a entender os princípios básicos da física.",
+        "generated_text_llama": "Era o início do outono, e o grupo havia decidido visitar a antiga cidade de Pompeia, que agora era um arqueólogo deserto, onde as ruínas das antigas construções cobriam o chão. Enquanto caminhavam pelas ruas estreitas, Personagem notou uma pequena loja à parte, escondida entre a destruição das edifícias. A porta, mal iluminada pela luz do sol, parecia um bocado assustadora, mas Personagem, sempre curioso, decidiu entrar.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "retirou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "notou",
+                    "ROOT"
+                ],
+                [
+                    "decidiu",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

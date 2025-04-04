@@ -1,0 +1,3293 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Filipe",
+        "sentence": "Filipe  Quer um bilhete, um meio ou um quarto?",
+        "start_char": 2878,
+        "end_char": 2884,
+        "excerpt": "Braga  Oh! Sr. Filipe! Filipe  Quer um bilhete, um meio ou um quarto?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Quer",
+                "child": "Filipe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filipe",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Quer um bilhete, um meio ou um quarto?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, sem dúvidas sobre o que fazer, acercou-se ao contador da loja e perguntou calorosamente se tinha algum quarto disponível. A resposta do funcionário foi negativa, mas o garoto não se desanimou e pediu então por um bilhete para uma viagem em três dias. O contador lhe ofereceu então um bilhete para uma locação na cidade vizinha, em uma pequena localidade que o jovem nunca tinha visitado antes. Após ter comprado o bilhete, Personagem saiu correndo pela rua, com uma cara cheia de entusiasmo e esperança por novas aventuras.",
+        "generated_text_llama": "Pensou por um momento antes de responder, olhando em volta do pequeno café para garantir que ninguém estava escutando. \"Uma média\", disse finalmente, tirando o dinheiro do bolso e devolvendo-o ao caixa.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "acercou-se",
+                    "ROOT"
+                ],
+                [
+                    "saiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Augusto",
+        "sentence": "Augusto  Não me disse; mas eu adivinhei.",
+        "start_char": 5567,
+        "end_char": 5574,
+        "excerpt": "Pelo que, Sr.?... Disse-lhe que desejava vender alguma coisa para que o Sr. esteja a maçar-me há meia hora, oferecendo-me preços? Augusto  Não me disse; mas eu adivinhei.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Augusto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Não me disse; mas eu adivinhei.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Embora ele não me dissesse explicitamente, consegui perceber que ele estava em algum tipo de problemas. Eu não pudesse deixá-lo sofrer sem fazer nada. O próximo passo que tirei foi abordar o tema com ele em uma conversa acalorada e tentar apoiá-lo de maneira que pudesse solucionar suas dificuldades.",
+        "generated_text_llama": "Eu olhei em volta, tentando não chamar atenção para mim mesmo. A sala estava quase vazia, apenas alguns fumaças de cigarro flutuavam no ar. Eu sabia que havia que encontrar uma maneira de escapar daquela situação, mas não sabia exatamente como.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Augusto",
+        "sentence": "Os mesmos, Custódio Custódio (cumprimentando Augusto)  Passou bem, Sr. Augusto?",
+        "start_char": 6714,
+        "end_char": 6721,
+        "excerpt": "(Augusto saindo, encontra Custódio que entra) CENA IV Os mesmos, Custódio Custódio (cumprimentando Augusto)  Passou bem, Sr. Augusto?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Custódio",
+                "child": "(Augusto",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Custódio",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "cumprimentando",
+                "child": "Augusto",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "cumprimentar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Augusto",
+                "child": "Os mesmos",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mesmo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Passou",
+                "child": "Augusto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Passou",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Os mesmos, Custódio Custódio (cumprimentando [MASK])  Passou bem, Sr. [MASK]?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Ótima, obrigado, Sr. Bento! Respondeu Bento, um sorriso radiante brilhando nos lábios. Depois disso, ele passou a olhar para as muitas peças de arte em exibição no salão, e com um movimento suave dos ombros, começou a descrever tudo que estava ali: \"Essa é a minha coleção pessoal. Todos esses trabalhos são de autores brasileiros, como o mestre Candinho ou o emergente Lúcio Marques.\"",
+        "generated_text_llama": "Ele sorriu e estendeu a mão para cumprimentar os outros dois homens, enquanto um sorriso caloroso se espalhava pelo seu rosto. \"Sim, passei muito bem, obrigado. É sempre bom ver vocês\", disse ele, sentando-se na cadeira que lhe foi oferecida. Enquanto isso, os demais homens continuavam a conversar sobre o trabalho e as últimas notícias da cidade, enquanto Custódio observava Personagem com uma mistura de curiosidade e apreço.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "observava",
+                    "advcl"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Augusto",
+        "sentence": "Augusto  Digo que tome o meu conselho;",
+        "start_char": 7238,
+        "end_char": 7245,
+        "excerpt": "Custódio, (empregado aposentado). Pereira, poeta conhecido de). Henrique, (moço elegante). Filipe, (cambista de loterias). Júlia, (filha de Teixeira). Braga, (caixeiro de loja). D. Luísa, (viúva de idade). D. Mariana, (parenta de Teixeira). Um caixeiro de loja; um menino que vende fósforos; uma menina de realejo. NOTA A cena é na cidade do Rio de Janeiro e contemporânea. O primeiro quadro passa-se em uma loja da Rua do Ouvidor nos fins de novembro. O segundo na casa de Teixeira nas Laranjeiras, (em princípio de março). Urna loja da Rua do Ouvidor, (montada com luxo e no gosto francês). CENA I Ernesto, Braga, depois Um Menino que vende fósforos. Ernesto (entrando de um salto) Apre! É insuportável! Não se pode viver em semelhante cidade; está um homem sujeito a ser empurrado por todos esses meus senhores, e esmagado a cada momento por quanto carro, carroça, carreta ou carrinho anda nestas ruas. Com efeito é uma família... Desde o ônibus, o Noé dos veículos, até o coupé aristocrático e o tílburi plebeu! Braga (dobrando as fazendas) É porque o senhor ainda não está habituado. O Menino (entrando e dirigindo-se a Ernesto)  Fósforos! Fósforos! Inalteráveis e superiores! ... (A Braga) Fósforos Sr. Braga. Ernesto  Deixe-me, menino! O Menino  Excelentes fósforos de cera a vintém! Ernesto (a Braga)  Oh! que maçada! Deixe-me! (O Menino sai) Esta gente toma- me naturalmente por algum acendedor de lampiões; entendem que eu vim ao Rio de Janeiro unicamente para comprar fósforos. Já não me admira que haja aqui tantos incêndios. (Senta-se junto do balcão; uma pausa) Como as coisas mudam vistas de perto! Quando estava em São Paulo o meu sonho dourado era ver o Rio de Janeiro, 2  esse paraíso terrestre, essa maravilha de luxo, de riqueza e de elegância! Depois de três anos de esperanças consigo enfim realizar o meu desejo: dão-se as férias, embarco, chego e sofro uma das mais tristes decepções da minha vida. Há oito dias apenas que estou na corte e já tenho saudades de São Paulo. (Ergue-se) Braga O Sr. não escolhe alguma coisa? Presentes para festas, o que há de mais delicado; perfumarias... Ernesto (voltando-lhe as costas)  Obrigado! CENA II Os mesmos, Filipe Filipe ((entrando) a Ernesto)  Vinte contos, meu caro senhor! Anda amanhã a roda!... Vinte contos! Ernesto  Agradeço; não estou disposto. Braga  Oh! Sr. Filipe! Filipe  Quer um bilhete, um meio ou um quarto? Vigésimos... Também temos. Ernesto (passeando) Nada; não quero nada. Filipe  Bom número este; premiado três vezes! Mas se prefere este... Ernesto  Já lhe disse que não preciso dos seus bilhetes. Filipe  Pois enjeita? A sorte grande? Olhe não se arrependa! Ernesto  A sorte grande que eu desejo é ver-me livre de sua pessoa! Filipe (baixo a Braga) Malcriado! Braga (baixo a Filipe)  É um provinciano! (Filipe sai) Ernesto  Enfim! Estou livre deste! Que terra!... É uma perseguição constante. (Passeia) CENA III Ernesto, Braga, Augusto Augusto (entrando)  Oh! (examinando Ernesto) Será algum acionista?.. Vejamos! Tratemos de entabular relações! Ernesto (tira o relógio) Já duas horas! Uma manhã inteiramente perdida. Augusto (cumprimentando) O Sr. faz-me o obséquio de dizer que horas são? Ernesto  Como? Augusto Que horas tem no seu relógio? Ernesto  Ah! desculpe; está parado. (Baixo a Braga) É o que faltava! ... servir de torre de igreja aqui ao Sr. Augusto (a Braga) Decididamente é acionista! Que diz? Tem-me ares de lavrador; são pelo menos vinte ações. Justamente as que me faltam para completar as cem que vendi. A dez mil-réis de prêmio... (Corre atrás de um homem que passa no fundo da loja) Olá sio! ... Aquelas trinta não quer vender? ... Dou-lhe sete! ... Ernesto (a Braga) Que extravagante! Vê-se cada figura neste Rio de Janeiro! (Senta-se e tira um charuto) Ora deixe-me experimentar um dos tais fósforos de cera. (Acende o charuto) Braga Aí vem o homem outra vez. (Ri-se) Augusto (voltando) O Sr. faz-me obséquio do seu fogo? Ernesto (a Braga) Ainda! Isto não tem jeito. 3  Augusto (tomando o charuto) Com licença! Creio que não me enganei; o Sr. é um dos contemplados; trinta pelo menos... Ernesto (a Braga)  Estou quase oferecendo-lhe uma caixa de fósforos. Augusto (dando o charuto)  Obrigado! Volto para a Praça que está hoje animada. Ernesto  Estimo muito. Augusto  Se quer vender as suas ações, hão perca a ocasião. Ernesto  Vender as minhas ações? Augusto  Sim, Sr.; acredite no que lhe digo; não valem mais do que cinco mil-réis e já são bem pagas. Ernesto O Sr. quer brincar naturalmente! Augusto  Não brinco em negócio. Para encurtar razões dou-lhe seis mil-réis. Quer? Aqui estão. Quantas tem? Ernesto (a Braga)  Deste gênero ainda não tinha encontrado! É pior do que os tais cambistas de loterias. (Passeia) Augusto Então que decide? Ernesto  Nada, Sr. Acha pouco? Tenho mais baratas; porém para concluir dou-lhe seis e quinhentos... Sete pagando a corretagem. Ernesto (contrariado) Pelo que, Sr.?... Disse-lhe que desejava vender alguma coisa para que o Sr. esteja a maçar-me há meia hora, oferecendo-me preços? Augusto  Não me disse; mas eu adivinhei. Nós cá, homens habilitados ao negócio, não precisamos que nos digam as coisas. Apenas o ví, descobri logo que era acionista... Ernesto O quê? Acionista?. Augusto  Sim; que tinha sido contemplado na distribuição das ações da Estrada de Ferro, na qualidade de lavrador naturalmente; por isso ofereço-lhe os meus serviços. Ernesto  E o que é o Sr.? Augusto  Corretor de fundos e mercadorias; incumbo-me de todas as transações de crédito e câmbio, como saques, descontos. Ernesto Pois, meu Sr., sinto dizer-lhe que nem sou acionista, nem fui contemplado em distribuição de coisa alguma. Augusto  Deveras? Ernesto  Dou-lhe minha palavra. Augusto  Basta; às suas ordens. (A Braga) Levei um logro! uma transação magnífica! Também não sei onde estava com a cabeça! Devia ver logo que este sujeitinho não tem a cara respeitável de um acionista! (Vai sair pelo fundo). Ernesto (a Braga)  Que diabo de profissão é a que exerce este buscapé vestido de paletó? Braga Creio que é um corretor. Ernesto  Fico-o conhecendo. (Augusto saindo, encontra Custódio que entra) CENA IV Os mesmos, Custódio Custódio (cumprimentando Augusto)  Passou bem, Sr. Augusto? Que há de novo? ... 4  Augusto (rápido)  Câmbio 27 ½; juros 9 e 10%; cotação oficial. Ações  vendas animadas; Estradas de Ferro, dez, bastante procuradas. Tem Estrada de Ferro?... Custódio  Dizem que o ministério não está seguro? ... Augusto (rápido) Seguro monstro  estacionário. Banco do Brasil  102; Hipotecário 205  mercado regular, poucas vendas. Mangaratiba  frouxo; Paquetes e Gás  oscilam; Rua do Cano  baixa completa, desconto. Custódio Então não diz nada a respeito da política? Augusto  Digo que tome o meu conselho;",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "(Passeia",
+                "child": ", Augusto",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Passeia",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", Augusto",
+                "child": "Augusto",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", Augusto",
+                "child": "(Passeia",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Passeia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Augusto",
+                "child": ", Augusto",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Augusto",
+                "child": "(Passeia",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Passeia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Sr.",
+                "child": "Augusto",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "Sr.",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Augusto",
+                "child": "Braga",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Braga",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Augusto",
+                "child": "Sr.",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "Sr.",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Augusto",
+                "child": "torre",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "torre",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Braga",
+                "child": "Augusto",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "Braga",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "o charuto",
+                "child": "3  Augusto",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "charuto",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "dando",
+                "child": "Augusto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Augusto",
+                "child": ", hão",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "hão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Augusto",
+                "child": "a ocasião",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "ocasião",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "as suas ações",
+                "child": "Augusto",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "ação",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", hão",
+                "child": "Augusto",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "hão",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "a ocasião",
+                "child": "Augusto",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "ocasião",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "valem",
+                "child": "Augusto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "valer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Augusto",
+                "child": "Sr.",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "Sr.",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Sr.",
+                "child": "Augusto",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Sr.",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Augusto",
+                "child": "brinco",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "brinco",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "brinco",
+                "child": "Augusto",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "brinco",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "disse",
+                "child": "Augusto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "distribuição",
+                "child": "Augusto",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "distribuição",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "ações",
+                "child": "Augusto",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "ação",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Estrada",
+                "child": "Augusto",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Estrada",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Ferro",
+                "child": "Augusto",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Ferro",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", na qualidade",
+                "child": "Augusto",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "qualidade",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "lavrador",
+                "child": "Augusto",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "lavrador",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Augusto",
+                "child": "Corretor",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "Corretor",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Corretor",
+                "child": "Augusto",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Corretor",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "fundos",
+                "child": "Augusto",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "fundo",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "mercadorias",
+                "child": "Augusto",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "mercadoria",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "todas as transações",
+                "child": "Augusto",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "transação",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "crédito",
+                "child": "Augusto",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "crédito",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", como saques",
+                "child": "Augusto",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "saque",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", descontos",
+                "child": "Augusto",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "desconto",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Augusto",
+                "child": "Deveras",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Deveras",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Deveras",
+                "child": "Augusto",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Deveras",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Augusto",
+                "child": "Basta",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Basta",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Augusto",
+                "child": "suas ordens",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "ordem",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Basta",
+                "child": "Augusto",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Basta",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "suas ordens",
+                "child": "Augusto",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "ordem",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Custódio",
+                "child": "(Augusto",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Custódio",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "cumprimentando",
+                "child": "Augusto",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "cumprimentar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Augusto",
+                "child": "Os mesmos",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mesmo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Passou",
+                "child": "Augusto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Passou",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "... 4  Augusto (rápido)  ",
+                "child": "Câmbio",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "Câmbio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "... 4  Augusto (rápido)  ",
+                "child": "; juros",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "juro",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "... 4  Augusto (rápido)  ",
+                "child": "; cotação",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "cotação",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Câmbio",
+                "child": "... 4  Augusto (rápido)  ",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "Câmbio",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "; juros",
+                "child": "... 4  Augusto (rápido)  ",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "juro",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "; cotação",
+                "child": "... 4  Augusto (rápido)  ",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "cotação",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Augusto",
+                "child": "rápido",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "augusto",
+                "dep_c": "parataxis",
+                "pos_c": "ADJ",
+                "lemma_c": "rápido",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Augusto",
+                "child": "Digo",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Digo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Digo",
+                "child": "Augusto",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Digo",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "o meu conselho",
+                "child": "Augusto",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "conselho",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Digo que tome o meu conselho;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem disse que aceitaria minha sugestão. Tomou profundo em seus olhos e me mirava de uma maneira determinada e decidida. Levantou-se da cadeira onde estava sentado, percorreu o quarto com rapidez e abriu a caixa que estava no armário. Entrou naquela sala escura e cheia de mistérios, ficando um momento de inatividade antes de se voltar com algo em suas mãos. Era uma antiga lâmina, brilhante e bem conservada, que estava presa a um colar antigo que possuía algum tipo de runa rúnica gravada na parte posterior. A luz do céu parecia atravessá-la, dando um brilho espectacular à arma.",
+        "generated_text_llama": "Sim, vou continuar a história.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "disse",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Custódio",
+        "sentence": "(Custódio dá um passeio pela loja e dirige-se a Ernesto; Braga vai ao fundo)",
+        "start_char": 7650,
+        "end_char": 7658,
+        "excerpt": "Os Srs. folhetinistas com os seus contos de mil e uma noites são os culpados do que me acontece! Quem os lê e quem vê a realidade! (Custódio dá um passeio pela loja e dirige-se a Ernesto; Braga vai ao fundo)",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "dá",
+                "child": "Custódio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Custódio",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "([MASK] dá um passeio pela loja e dirige-se a Ernesto; Braga vai ao fundo)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Braga se afasta e segue rumo à parte traseira da loja, onde as caixas de papelaria estão. Ele acaba por se esconder atrás de uma delas, cuidadosamente a abre e começa a explorar seus conteúdos. Enquanto isso, o senhor Personagem continua sua caminhada pela loja e, no momento em que chega à parte traseira, percebe alguma coisa embaixo da mesa de cima das caixas. Ele então pega uma tabela e abre os olhos de surpresa ao ver Braga dentro da caixa, explorando seus conteúdos. Surpreso pela descoberta, o senhor Personagem não sabe como reagir.",
+        "generated_text_llama": "Enquanto Braga desaparecia das suas visões, Ernesto continuou a observá-lo com uma mistura de curiosidade e desconfiança. Ele estava sentado em sua cadeira favorita, apoiado na mão esquerda no armadilho que costumava usar para se suportar quando se sentia cansado.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "desaparecia",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Custódio",
+        "sentence": "Custódio  Passei apenas os olhos... (Senta-se)",
+        "start_char": 7966,
+        "end_char": 7974,
+        "excerpt": "Ernesto  E esta? O senhor não leu os jornais? Custódio  Passei apenas os olhos... (Senta-se)",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Passei",
+                "child": "Custódio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Passei",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Custódio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Passei apenas os olhos... (Senta-se)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, simplesmente passando seus olhos por cima da escada que lhe dava acesso ao corredor, sentou-se em uma poltrona velha e farta de histórias. Ao seu redor, a sombra do grande relógio pendular que se encontra no salão da mansão brilhava naquela noite tranquila. Personagem segurava no peito um pequeno papel sobre o qual havia escrito algo: \"A verdade está em minhas mãos\". Ao olhar para ele, se revela uma expressão indefinida no rosto dele, como se estivesse esperando por algo.",
+        "generated_text_llama": "...e olhou em volta do quarto, como se estivesse procurando por alguma coisa ou alguém. A luz da lua filtrava pelas cortinas, criando sombras estranhas nas paredes. Ele estava sentado na cama, vestido apenas com uma camiseta branca, e parecia um homem perdido em seu próprio mundo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "segurava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Henrique",
+        "sentence": "Henrique  Chegaste há pouco, e naturalmente deves ter curiosidade de ver os nossos teatros; aceita este bilhete, é do benefício de um hábil artista.",
+        "start_char": 8766,
+        "end_char": 8774,
+        "excerpt": "Henrique  É verdade; aproveito a ocasião para pedir-te um pequeno obséquio. Ernesto  Estou às tuas ordens. Henrique  Chegaste há pouco, e naturalmente deves ter curiosidade de ver os nossos teatros; aceita este bilhete, é do benefício de um hábil artista.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Henrique",
+                "child": "verdade",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Henrique",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "verdade",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "verdade",
+                "child": "Henrique",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "verdade",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Henrique",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "há",
+                "child": "Henrique",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "há",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Henrique",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Henrique",
+                "child": "Chegaste",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Henrique",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Chegaste",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Chegaste",
+                "child": "Henrique",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Chegaste",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Henrique",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Chegaste há pouco, e naturalmente deves ter curiosidade de ver os nossos teatros; aceita este bilhete, é do benefício de um hábil artista.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, a senhora, simpática e inteligente como é ela, não poderia resistir à oferta. Segurando o bilhete em mãos, ela acenhou para o rapaz e saiu da festa, deixando um arco-íris de alegria no seu passo.",
+        "generated_text_llama": "Ele olhou cuidadosamente o bilheto nas mãos dele, uma pequena peça de papel com as palavras \"Bilhete de Vida\" escritas em letras douradas. Sorrindo, ele jogou um ombro para trás e disse: \"Muito obrigado! Estou ansioso para ver esse show\". Sem demora, ele se levantou da cadeira e seguiu em direção à porta do teatro, onde um oficial de serviço o esperava. ",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Henrique",
+        "sentence": "Henrique (saindo, passa por Custódio)  Tem passado bem, Sr. Custódio?",
+        "start_char": 9135,
+        "end_char": 9143,
+        "excerpt": "Havemos de nos ver. Ernesto  Sim; quando quiseres. Henrique (saindo, passa por Custódio)  Tem passado bem, Sr. Custódio?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "passa",
+                "child": "Henrique",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "passar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Henrique",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] (saindo, passa por Custódio)  Tem passado bem, Sr. Custódio?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Ótimo! Respondia Personagem, sorrindo para o velho senhor que sempre lhe dava um abraço e uma boa palavra. Depois de se despedir, seguiu sua rotina diária. A caminho da padaria, percebeu que as ruas estavam mais tranquilas do que costumavam. Não havia tanta gente por aí nem tantos veículos movimentando-se. Era o primeiro sinal de que a cidade se preparava para se tornar um espetáculo em breve.",
+        "generated_text_llama": "\"Sim, sim, tudo bem, meu caro\", respondeu Sr. Custódio, olhando para Personagem com um sorriso amigável. \"Mas me diga, o que traz você aqui hoje? Não é que eu não gosto de visitas, mas... bem, você sabe como é\".",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "olhando",
+                    "advcl"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Henrique",
+        "sentence": "Henrique  Quer ficar com um bilhete do benefício de...",
+        "start_char": 9259,
+        "end_char": 9267,
+        "excerpt": "Custódio (levanta-se)  Bem, obrigado. Que há de novo? Henrique  Quer ficar com um bilhete do benefício de...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Quer",
+                "child": "Henrique",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Henrique",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Quer ficar com um bilhete do benefício de...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "....\"Por que não?\" pensou ela, enrolando as mãos para segurar o bilhete sólido em suas mãos. Em seguida, ela olhou para a porta da sala onde se reunia o conselho municipal e, de uma vez só, acelerou seu passo, cruzando a praça em direção ao prédio imponente.",
+        "generated_text_llama": "...ações de investimento que não exatamente encaixam no perfil dele. Ele sabia que, como um funcionário público, tinha uma renda estável, mas também estava procurando um pouco de aventura e risco para compensar a monotonidade da vida em São Paulo.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "pensou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Custódio",
+        "sentence": "Custódio (saindo)  Esqueci os óculos em casa.",
+        "start_char": 12243,
+        "end_char": 12251,
+        "excerpt": "O Sr. faz obséquio? ... Custódio (saindo)  Esqueci os óculos em casa.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Esqueci",
+                "child": "Custódio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Esqueci",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Custódio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] (saindo)  Esqueci os óculos em casa.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem, que esqueceu seus óculos em casa, sentiu um leve desconforto ao tentar se adaptar à clareira do exterior. Mesmo assim, não se deixou encantar pelo problema e seguiu adiante.",
+        "generated_text_llama": "(saindo) Ele olhou para trás e viu que seu amigo estava esperando por ele no corredor. \"Ah, você aí!\", disse sua amiga, aproximando-se dele com um sorriso. \"Onde você está? Você disse que iria me encontrar aqui!\"",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júlia",
+        "sentence": "Ernesto, Júlia, D. Mariana, depois Braga 8",
+        "start_char": 14886,
+        "end_char": 14891,
+        "excerpt": "(Júlia senta-se) CENA XIII Ernesto, Júlia, D. Mariana, depois Braga 8",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "senta-se",
+                "child": "Júlia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "senta-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "senta-se",
+                "child": "CENA XIII Ernesto, Júlia, D. Mariana",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "senta-se",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "CENA",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Ernesto, [MASK], D. Mariana, depois Braga 8",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de descobrir o assunto delicado, Ernesto decidiu agir com sabedoria e prudência. Ele se aproximou da D. Mariana e perguntou-lhe em uma tonalidade suave e calma: \"Marianinha, há algum problema que preciso entender?\" A jovem se encobriu, mas respondeu com um sorriso cauteloso: \"Ernesto, se eu contar-te, prometes que não vai dizer a ninguém?\" Ernesto deu uma boa analogia e respondeu sim. Então ela começou a contar sobre o assunto que ocupava sua mente todos os dias: \"Há alguns dias, meus pais receberam uma carta de um advogado estrangeiro, dizendo que eu tinha um pai biológico e que ele deseja entrar em contato comigo. Estou muito confusa, Ernesto.\"",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "deu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júlia",
+        "sentence": "Júlia  Diga-me, Ernesto, como tem achado o Rio de Janeiro?",
+        "start_char": 14920,
+        "end_char": 14925,
+        "excerpt": "CENA XIII Ernesto, Júlia, D. Mariana, depois Braga 8 Júlia  Diga-me, Ernesto, como tem achado o Rio de Janeiro?",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "Diga-me",
+                "child": "CENA XIII Ernesto, Júlia, D. Mariana",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Diga-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CENA",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Diga-me",
+                "child": ", depois Braga 8 Júlia  ",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Diga-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Braga",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Diga-me, Ernesto, como tem achado o Rio de Janeiro?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " \"Ele sorriu e olha para mim com um ar de familiaridade. Depois de uma pausa, responde: 'Tive a sorte de chegar aqui alguns anos atrás, procurando minhas raízes perdidas. A partir daí, o Rio de Janeiro se tornou minha casa. O clima é sempre agradável, e as pessoas são amigáveis e encantadoras. Há lá um espírito vívido que atrai muitas pessoas de todo o mundo.'\"",
+        "generated_text_llama": "Ernesto sorriu e respondeu: \"Ah, o Rio é sempre uma alegria, meu amigo! A cidade está mais animada do que nunca. As ruas estão cheias de pessoas, música e vida\". Personagem  Sorrindo ao ouvir a resposta de Ernesto, Personagem  pediu um café e sentou-se em uma mesa externa, admirando a vista para o mar.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "tornou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "Sorrindo",
+                    "ROOT"
+                ],
+                [
+                    "pediu",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ernesto",
+        "sentence": "Júlia  Diga-me, Ernesto, como tem achado o Rio de Janeiro?",
+        "start_char": 14936,
+        "end_char": 14943,
+        "excerpt": "CENA XIII Ernesto, Júlia, D. Mariana, depois Braga 8 Júlia  Diga-me, Ernesto, como tem achado o Rio de Janeiro?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Diga-me",
+                "child": "CENA XIII Ernesto, Júlia, D. Mariana",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Diga-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CENA",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Diga-me",
+                "child": ", Ernesto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Diga-me",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ernesto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Júlia  Diga-me, [MASK], como tem achado o Rio de Janeiro?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele sorriu e respondeu com um tom de nostalgia, \"Júlia, Rio de Janeiro é uma cidade maravilhosa. Tem algo que se sente em suas ruas, em seus sambas e em sua gente. Sinto-me bem aqui.\"",
+        "generated_text_llama": "Era uma tarde ensolarada quando eu, Personagem, decidira dar um passeio pelo Rio de Janeiro, sentindo a adrenalina correndo pelas minhas veias. Meus passos ecoaram pelos calçadões da Copacabana e Ipanema, enquanto observava as pessoas se divertindo ao sol. Eu não estava apenas lá para apreciar a beleza arquitetônica da cidade, mas também para refletir sobre as minhas próprias emoções. A solidão que me acompanhava desde o início do mês parecia estar diminuindo um pouco com cada passo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "cidade",
+                    "obl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júlia",
+        "sentence": "Ernesto  Quer que lhe confesse a verdade, Júlia?",
+        "start_char": 15021,
+        "end_char": 15026,
+        "excerpt": "Ernesto, Júlia, D. Mariana, depois Braga 8 Júlia  Diga-me, Ernesto, como tem achado o Rio de Janeiro? Ernesto  Quer que lhe confesse a verdade, Júlia?",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "Ernesto",
+                "child": "Júlia",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "ernesto",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Ernesto",
+                "child": "Júlia",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "ernesto",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Júlia",
+                "child": "Ernesto",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "Júlia",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "ernesto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Júlia",
+                "child": "Ernesto",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Júlia",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "ernesto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "confesse",
+                "child": ", Júlia",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "confer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Ernesto  Quer que lhe confesse a verdade, [MASK]?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Sim, Ernesto desejava saber tudo, e por fim pediu que o amigo lhe confessasse a verdade. Ao fazê-lo, percebeu que havia algo muito diferente no rosto de seu amigo. Seus olhos não brilhavam mais com a mesma alegria e espontaneidade que ele costumava ver em todos os dias passados. Era um silêncio tenso e profundo que se espalhou entre eles, uma tensão que quase parecia uma barreira infranqueável. Mas Ernesto não desistia facilmente. Ele pediu a seu amigo para falar, pediu com insistência e fervor que era característico dele sempre, mas o silêncio continuou. Por algum motivo, Ernesto sentiu-se cercado por uma espécie de tristeza profunda e não podia entender por que isso acontecia.",
+        "generated_text_llama": "Eu sorri amaid, conhecendo que estava em uma situação delicada. \"Sim, Ernesto\", respondi, tentando manter a calma e não mostrar nenhum sinal de ansiedade. \"Estou bem, não há nada que eu possa lhe dizer que não já disse antes.\" ",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "desejava",
+                    "ROOT"
+                ],
+                [
+                    "desistia",
+                    "ROOT"
+                ],
+                [
+                    "sentiu-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júlia",
+        "sentence": "Júlia  Não o compreendo, primo; e inteiramente o contrario do que me dizem todos.",
+        "start_char": 16981,
+        "end_char": 16986,
+        "excerpt": "Ernesto  Oh! não me fale na tal Rua do Ouvidor! Se o Rio de Janeiro é o inferno, a Rua do Ouvidor é o purgatório de um pobre estudante de São Paulo que vem passar as férias na corte. Júlia  Não o compreendo, primo; e inteiramente o contrario do que me dizem todos.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "compreendo",
+                "child": "Júlia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "compreer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Não o compreendo, primo; e inteiramente o contrario do que me dizem todos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O cara olhou para mim, um sorriso triste em seus lábios. Então, fez uma pausa, tomou uma profunda respiração e disse:",
+        "generated_text_llama": "Meu rosto ficou vermelho com a frustração, mas eu sabia que não podia desistir agora. Eu estava determinado a descobrir a verdade sobre minha família e seu passado. \"Eu sinto que há algo errado\", continuei, tentando explicar o que sentia. \"Algo que os outros não estão dizendo. E eu sei que você é a única pessoa que pode me ajudar.\"",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júlia",
+        "sentence": "Júlia  Não importa; mas é estudante.",
+        "start_char": 21725,
+        "end_char": 21730,
+        "excerpt": "Quer zombar de mim? Ernesto  Olhe que eu não sou cá do Rio de Janeiro. Júlia  Não importa; mas é estudante.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "importa",
+                "child": "Júlia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "importar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Não importa; mas é estudante.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mesmo assim, ele não se sentiu satisfeito com a resposta da secretária. Levantou-se e decidiu ir em busca das informações que precisava.",
+        "generated_text_llama": "E isso era um grande alívio para ele, pois, apesar de não ter certeza do futuro, sabia que tinha uma rede de apoio e recursos à sua disposição. Com o objetivo de fazer melhorar sua situação financeira, Personagem decidiu procurar emprego em algumas das grandes empresas da cidade. Ele passou horas cada dia criando currículos e praticando entrevistas, pronto para mostrar ao mundo que era capaz de superar as adversidades.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ernesto",
+        "sentence": "Venha cá, Ernesto, espere por papai.",
+        "start_char": 22616,
+        "end_char": 22623,
+        "excerpt": "Júlia  Já vou. Ernesto  Adeus, Júlia, lembranças a meu tio, D. Mariana... Júlia Venha cá, Ernesto, espere por papai.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Ernesto",
+                "child": "Adeus",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ernesto",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "adeus",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Ernesto",
+                "child": ", lembranças",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ernesto",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "lembrança",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Ernesto",
+                "child": ", D.",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ernesto",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "D.",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "espere",
+                "child": "Júlia Venha cá, Ernesto,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "esperar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Venha cá, [MASK], espere por papai.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem, após ouvir as palavras de sua mãe, correu até a porta do quarto onde seu pai dormia. Atordoado pela surpresa, parou e espiava o interior da sala por um instante, antes de entrar lentamente.",
+        "generated_text_llama": "Era uma tarde ensolarada e tranquila em casa da família. Personagem olhou pela janela do quarto, vendo o pai trabalhando no quintal, cuidando das plantas e fazendo as contas para a semana seguinte. Ele sabia que o pai estava ansioso para passar o dia de final de semana com a família, preparando pratos deliciosos na cozinha.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Filipe",
+        "sentence": "Filipe  Fique certa que elas não deixarão de ampará-la nessa desgraça.",
+        "start_char": 23655,
+        "end_char": 23661,
+        "excerpt": "O Sr. está zombando de mim? Se não fosse a dor de ver os pobrezinhos nus, chorando de fome, coitadinhos, não me animaria a recorrer à esmola das pessoas caridosas. Filipe  Fique certa que elas não deixarão de ampará-la nessa desgraça.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Fique",
+                "child": "Filipe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Fique",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filipe",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Fique certa que elas não deixarão de ampará-la nessa desgraça.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas Personagem sabia que precisava agir rapidamente e confidenciamente para sair desta situação inesperada. Levantou o olhar para as pessoas que a estavam observando, tentou enfiar uma sonrisa amigável num rosto que se sentia mais como máscara do que verdadeiro sorriso. Depois de tomar um breve suspiro, segurou-se e, com um corpo recto e cabeça erguida, caminhou para o local onde estava acontecendo a discussão.",
+        "generated_text_llama": "Personagem se levantou da cadeira, sentindo os olhos pesados e o corpo cansado, mas sabendo que precisava agir rapidamente para proteger as pessoas que ela amava. Ela pegou seu telefone e digitou um número, esperando que alguém atendesse na outra linha. Era o pai dela, que sempre estava pronto para ajudar em momentos difíceis.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Filipe",
+        "sentence": "Filipe  Eu rir-me da desgraça dos outros!",
+        "start_char": 24145,
+        "end_char": 24151,
+        "excerpt": "D. Luísa  Ora, senhor! Não se ria da desgraça do próximo. Filipe  Eu rir-me da desgraça dos outros!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "rir-me",
+                "child": "Filipe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "rir-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filipe",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Filipe",
+                "child": "Eu",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Filipe",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Eu",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Eu",
+                "child": "Filipe",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Eu",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filipe",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Eu rir-me da desgraça dos outros!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Eles deixaram a sala e andaram pela noite, caminhando tranquilamente pelo estreito túnel iluminado por velhas luzes incandescentes. O vento frio e ásper se aproximava da cidade e o ar esfregando suas costas era uma sensação amarga como o mel de abelha fermentado.",
+        "generated_text_llama": "Eu rir-me da desgraça dos outros!",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júlia",
+        "sentence": "Júlia  Mande deixar isto no meu carro.",
+        "start_char": 25021,
+        "end_char": 25026,
+        "excerpt": "Júlia  Mande deixar isto no meu carro. Braga Vou eu mesmo.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "deixar",
+                "child": "Júlia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "deixar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Mande deixar isto no meu carro.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Depois disso, ele desceu correndo do andar de mármore, com a chave na mão e um senso de ansiedade que lhe corria pela veia. Na porta da garagem estava aberta e o seu carro branco, bem selvado, aguardando com os faróis desligados. Ele atingiu o veículo sem parar e abriu a porta. A cor do solo de betão ficou escurindo para trás no reflexo dos olhos dianteiros da luz das câmaras de segurança, que iluminavam a garagem como se fosse um estúdio fotográfico durante a manhã. Ele empurrou as coisas do banco da direita do carro para a frente e colocou o saco grande no lugar. Apenas depois disso, ele sentiu-se mais tranquilo. Depois de um suspiro profundo, abriu as janelas do carro e pôs os faróis em modo automático. Saiu da garagem e saiu correndo pela calçada, uma fumaça branca acompanhando seus passos até desaparecer no horizonte.",
+        "generated_text_llama": "[A=MÁS] deu uma olhada em volta para ter certeza de que não havia nada mais importante a fazer antes de sair do local. Depois, ele pegou o saco plástico que estava ao lado e começou a empurrar o conteúdo para dentro dele. As garrafas vazias, os restos de comida e as embalagens usadas foram gradualmente empurrados para dentro do saco, até que ele fica cheio.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "deu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Custódio",
+        "sentence": "(Sai) (Custódio fica pasmo no meio da cena; cai o pano) ATO SEGUNDO",
+        "start_char": 27914,
+        "end_char": 27922,
+        "excerpt": "Ernesto (ao ouvido)  Que não estou disposto a aturá-lo. (Sai) (Custódio fica pasmo no meio da cena; cai o pano) ATO SEGUNDO Uma sala elegante em casa de Teixeira, nas Laranjeiras, (abrindo sobre um jardim)",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "fica",
+                "child": "Custódio",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Custódio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Custódio",
+                "child": "Sai",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Custódio",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "sai",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "(Sai) ([MASK] fica pasmo no meio da cena; cai o pano) ATO SEGUNDO",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ato seguinte, aos olhos enojados e confusos demais, Personagem levanta as mãos para cima e, com um suspiro forte, abre seu bolso. Dentro dele estava uma pequena lâmpada mágica que tinha comprado há muito tempo atrás numa loja de antiguidades. Levantando a lâmpada, Personagem pronuncia os três palavras que sempre sabia que podiam mudar tudo: \"Luz, Fogo, Magia!\"",
+        "generated_text_llama": "Ele tentou levantar-se rapidamente, mas a dor na cabeça e no corpo o obrigava a se esticar sobre o chão. Enquanto isso, os espectadores começavam a murmurar em voz baixa, tentando não chamatar a atenção para o acidente de Sai.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "levanta",
+                    "ROOT"
+                ],
+                [
+                    "pronuncia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júlia",
+        "sentence": "D. Mariana (erguendo-se)  Estimo muito ouvir isto do Sr. (Júlia faz à D. Mariana sinal de silêncio)",
+        "start_char": 29562,
+        "end_char": 29567,
+        "excerpt": ".. Júlia (sorrindo)  E que atropelam a gente que anda nas ruas. Ernesto  Aqueles que andam a pé; mas os que vão dentro, vão depressa e comodamente. D. Mariana (erguendo-se)  Estimo muito ouvir isto do Sr. (Júlia faz à D. Mariana sinal de silêncio)",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "a gente",
+                "child": "Júlia",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "gente",
+                "dep_c": "punct",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "ruas",
+                "child": "Júlia",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "rua",
+                "dep_c": "punct",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "faz",
+                "child": "Júlia",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "D. Mariana (erguendo-se)  Estimo muito ouvir isto do Sr. ([MASK] faz à D. Mariana sinal de silêncio)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " D. Mariana, enquanto erguia-se, assistia em silêncio à conversa do Sr. com o padre. Então, quando observou o senhor apontar para ela e fazer sinal de silêncio, a coragem de Mariana aumentou e ela fez uma passada para o lado e se aproximou lentamente da mesa onde estavam os dois.",
+        "generated_text_llama": "Não pôde evitar que sua face se iluminasse com um sorriso malicioso ao ver a reação da D. Mariana. Ele sabia que estava em uma posição vantajosa e escolheu aproveitá-la, fixando seu olhar nela com intensidade. \"Acho que vamos precisar de mais... informações\", disse ele, sua voz baixa e sedutor, deixando Mariana sem cor no rosto.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "assistia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "deixando",
+                    "advcl"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júlia",
+        "sentence": "Júlia  Vou dar algumas ordens; volto já.",
+        "start_char": 29748,
+        "end_char": 29753,
+        "excerpt": "Até logo; agora não tem mais despedidas a fazer. Ernesto  Por isso mesmo não deve deixar-me. Júlia  Vou dar algumas ordens; volto já.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "dar",
+                "child": "Júlia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Vou dar algumas ordens; volto já.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Personagem, com a determinada frente de comando, emitiu algumas ordens aos subordinados. Em seguida, fechou o livro e voltou para o seu escritório, para elaborar um plano de ação detalhado e executá-lo sem delay. O destino da missão dependia dessa expedição e ninguém poderia permitir que houvesse falha. Então, o Personagem, com serenidade e dedicação, se concentrou em garantir a segurança e a eficiência da equipe, determinado a cumprir seu objetivo.",
+        "generated_text_llama": "Personagem se virou e caminhou em direção à sua mesa, onde havia deixado o telefone. Ele pegou o aparelho e ligou para o seu melhor amigo, Alex, que estava trabalhando na época. \"Ei, Alex, é o Personagem. O que você está fazendo?\", disse ele, tentando manter a calma.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "emitiu",
+                    "ROOT"
+                ],
+                [
+                    "concentrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "virou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Henrique",
+        "sentence": "Henrique  Em quanto importam essas dívidas?",
+        "start_char": 33901,
+        "end_char": 33909,
+        "excerpt": "Ernesto  Quis a princípio falar a meu tio, mas tive vergonha de tocar nisso; resolvi-me recorrer a ti. Henrique  Em quanto importam essas dívidas?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "importam",
+                "child": "Henrique",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "importar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Henrique",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Em quanto importam essas dívidas?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Sem pausa, o Pedro respondeu alegremente: \"Isso é um erro, meu amigo. Essas dívidas são da minha passada, agora eu estou me concentrando no futuro.\"",
+        "generated_text_llama": "Personagem se sentiu uma raiva intensa no estômago, olhando para as notas de crédito espalhadas na mesa. Ele sabia que não podia mais negar a realidade, e agora precisava encontrar uma solução para essas dívidas que o estavam esmagando.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "respondeu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Henrique",
+        "sentence": "Henrique  Se é por simples atenção, não tomes esse incômodo;",
+        "start_char": 34604,
+        "end_char": 34612,
+        "excerpt": "Pois se não nos virmos mais, conta que aqui tens um amigo. Ernesto  Eu te escreverei. Henrique  Se é por simples atenção, não tomes esse incômodo;",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tomes",
+                "child": "Henrique",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tome",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Henrique",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Se é por simples atenção, não tomes esse incômodo;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas, sem uma palavra dita, ele levantou-se lentamente e, com um sorriso que parecia de alguma parte, caminhou até o lugar onde estava acontecendo tudo. Atingiu a fonte de luz fraca que iluminava o cômodo, pegou em uma de suas máscaras e, com a cabeça baixada, posicionou-a em seu rosto. Em seguida, sem nenhuma intenção de se preocupar, ele deslizou tranquilamente atrás do pessoal que estava conversando, saindo da sala em segundos.",
+        "generated_text_llama": "E assim que Máscaras completou sua declaração, sentiu um peso leve ser levantado de seu ombro. Com um sorriso leve, ele se inclinou para a direita e começou a caminhar em direção à saída do escritório. Sua mente estava agora livre para pensar em outras coisas, como o encontro que planejava fazer com sua amiga Ana depois da janta.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Custódio",
+        "sentence": "(Custódio vai sentar-se à mesa e lê os jornais).",
+        "start_char": 35915,
+        "end_char": 35923,
+        "excerpt": "Que há... Henrique  Nada, Sr. Custódio, nada absolutamente. (Custódio vai sentar-se à mesa e lê os jornais).",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Sr.",
+                "child": "Custódio",
+                "dep_h": "dep",
+                "pos_h": "NOUN",
+                "lemma_h": "sr.",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Custódio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Custódio",
+                "child": "Sr.",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Custódio",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "sr.",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Custódio",
+                "child": "Henrique",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Custódio",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Henrique",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "sentar-se",
+                "child": "Custódio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sentar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Custódio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "([MASK] vai sentar-se à mesa e lê os jornais).",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a história em português brasileiro, o personagem se agarra da cadeira e se senta à mesa. Ele inicia a ler rapidamente os jornais que veio trazendo consigo. Com uma atenção intensa, ele segue a notícia de última hora que está no primeiro plano. As suas mãos tremiam, e ele sentia o fôlego seco no pescoço. De repente, um título chamativo atingiu seus olhos: \"Um novo avanço na solução para a doença que assola a cidade\". O personagem fecha os jornais e agarra o telefone, preparado para colocar em prática as informações que acabara de ler.",
+        "generated_text_llama": "Ele pega um café e começa a ler os jornais enquanto observa as pessoas que passam pela rua, notando alguns detalhes que não havia notado antes. O barulho do bar está começando a aumentar, com músicos tomando posse da mesa ao lado dele, e ele se escondeu para evitar ser perturbado pelo som.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júlia",
+        "sentence": "Júlia (sorrindo)  Acha que me demorei muito?",
+        "start_char": 38132,
+        "end_char": 38137,
+        "excerpt": "Foi um minuto com privilégio de hora! Júlia (sorrindo)  Acha que me demorei muito? Ernesto  Inda pergunta!",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "Acha",
+                "child": "Júlia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "achar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] (sorrindo)  Acha que me demorei muito?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando, ela sorriu e responde: \"Não, não te demorei muito.\" Então, ela segura a mão dele com calor e agita a outra para mostrar as feições brilhantes de uma página que ainda não tinha terminado. Ela ainda estava trabalhando em um livro de histórias fantásticas, cheia de personagens excêntricos e mitos maravilhosos. Eles compartilhavam do entusiasmo pelo mundo mágico e imaginativo que ela criara ao lado deles.",
+        "generated_text_llama": "(sorrindo) Ah, não, não me importo com o tempo. O importante é que eu tenha encontrado você aqui, no parque. (pausa para respirar profundamente) Eu estava um pouco ansioso para falar contigo. Vou te contar sobre aquilo que aconteceu ontem à noite... (começa a caminhar pela margem do lago, olhando para o água)",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júlia",
+        "sentence": "E agora aí está meu tio, não teremos um momento de liberdade!Júlia  Sente-se!",
+        "start_char": 38262,
+        "end_char": 38267,
+        "excerpt": "Júlia (sorrindo)  Acha que me demorei muito? Ernesto  Inda pergunta! E agora aí está meu tio, não teremos um momento de liberdade!Júlia  Sente-se!",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "Acha",
+                "child": "Júlia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "achar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "um momento",
+                "child": "liberdade!Júlia",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "momento",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "liberdade!Júlia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "liberdade!Júlia",
+                "child": "um momento",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "liberdade!Júlia",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "momento",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "E agora aí está meu tio, não teremos um momento de liberdade![MASK]  Sente-se!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Sentou-se e acompanhou calma o arco iris que se formava no céu. Sua mãe, às vezes, estava lá fora, junto ao carro, olhando para ele com um olhar preocupado. Mas, de repente, sua mãe voltou e abriu a porta do carro, olhando para ela com uma sonrisa que se espalhou por toda sua face.",
+        "generated_text_llama": "Meu tio me olhou com uma expressão que eu já sabia que era uma mistura de exasperação e determinação. Ele sentou-se na cadeira mais próxima da minha, com a postura característica que me fazia sorrir. \"Então, o que você quer fazer agora?\", ele perguntou, seu tom um pouco mais suave do que usual.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Augusto",
+        "sentence": "Augusto  Como me disse que talvez não fosse hoje à cidade...",
+        "start_char": 38813,
+        "end_char": 38820,
+        "excerpt": "Teixeira  Não tem de que. Estou sempre às suas ordens. Augusto  Como me disse que talvez não fosse hoje à cidade...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Augusto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Como me disse que talvez não fosse hoje à cidade...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, como ele disse que talvez não fosse hoje à cidade, eu resolvevi ir por conta própria. Eu queria saber se tudo estava bem com ele e se necessitava de ajuda alguma.",
+        "generated_text_llama": "...decidiu ligar para ela e saber mais sobre o que estava acontecendo. \"Ei, como você está?\", perguntei, tentando manter a calma. Havia uma pausa por um momento antes que ela respondesse.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Augusto",
+        "sentence": "Augusto  Assentei de passar por aqui",
+        "start_char": 38942,
+        "end_char": 38949,
+        "excerpt": "Augusto  Como me disse que talvez não fosse hoje à cidade... Teixeira  Sim; por causa de meu sobrinho que embarca às onze horas. Augusto  Assentei de passar por aqui",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Augusto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Augusto",
+                "child": "Assentei",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Augusto",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Assentei",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Assentei",
+                "child": "Augusto",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Assentei",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Assentei de passar por aqui",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem, acabou de dizer que iria atravessar este local. Ele levantou os ombro e segurando a sua valise na mão, começou a andar. A caminhada foi lenta, pois queria absorver tudo que esta bela cidade podia oferecer, desde as lojas coloridas até as pessoas que passeavam tranquilamente em suas ruas. Depois de percorrer um trecho significativo da via principal, Personagem encontrou uma pequena calçada sinalizada com a forma de uma flor de lis, indicando o caminho para um dos mais antigos edifícios da cidade. Ele decidiu seguir esta pista, sentindo-se inesperadamente intrigado pelo que poderia ser encontrado lá.",
+        "generated_text_llama": "Soltando um suspiro fundo, Personagem começou a andar lentamente pela rua, observando as luzes das lojas iluminadas ao seu redor. Ele não estava seguro do que fazer em seguida ou para onde ir, mas sabia que precisava se afastar daquele lugar por um tempo. As ruas estreitas e sinuosas o levavam a uma pequena praça, onde uma mulher sentada na cadeira de uma banco observava as estrelas brilhando no céu noturno.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "encontrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júlia",
+        "sentence": "Júlia  Não sei, Sr. Custódio; mas o senhor não almoça conosco?",
+        "start_char": 42595,
+        "end_char": 42600,
+        "excerpt": "Custódio  Vou até a cidade! Já passaria o ônibus das dez? Júlia  Não sei, Sr. Custódio; mas o senhor não almoça conosco?",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "sei",
+                "child": "Júlia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "saber",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Não sei, Sr. Custódio; mas o senhor não almoça conosco?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " -\"Não sei, Sr. Custódio; mas o senhor não almoça conosco?\" perguntou a sra. Aureliana com um sorriso hesitante e um olhar apelativo.",
+        "generated_text_llama": "\"Não almoço\", respondeu Sr. Custódio, olhando para mim com um olhar desinteressado. \"Sinto muito, Mário. Eu preciso de uma refeição leve antes do meu encontro com os meus investidores.\" Ele se levantou da cadeira e se dirigiu à porta, batendo-a atrás de si. \"Se você quiser, posso chamar a Maria para trazer algo para vocês dois.\"",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "perguntou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "chamar",
+                    "xcomp"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júlia",
+        "sentence": "Ernesto  É preciso que lhe diga, Júlia!",
+        "start_char": 43087,
+        "end_char": 43092,
+        "excerpt": "Júlia (erguendo a cabeça) Então, meu primo, ainda não me disse se leva saudades do Rio de Janeiro? Ernesto  É preciso que lhe diga, Júlia!",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "a cabeça",
+                "child": "Júlia",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "cabeça",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "diga",
+                "child": "Júlia",
+                "dep_h": "csubj",
+                "pos_h": "VERB",
+                "lemma_h": "digar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Júlia",
+                "child": "preciso",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Júlia",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "preciso",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Ernesto  É preciso que lhe diga, [MASK]!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " -Ernesto olhou para a sua tela de computador e realizou uma pesquisa detalhada sobre o assunto que foi abordado no encontro com o professor. Após encontrar várias fontes fiáveis, ele passou a fazer anotações meticulosas em um caderno. Depois disso, ele se preparou para a próxima aula, sabendo que iria apresentar suas ideias na sala de reuniões do laboratório e esperando pelos comentários do professor sobre o trabalho desenvolvido até então.",
+        "generated_text_llama": "Eu me senti como se o tempo tivesse parado quando ouvi a voz de Ernesto. Meu coração começou a bater mais rápido e eu não pude evitar um frio na espinha. Eu olhei em volta, mas fiquei sozinho no canto escuro da sala. A voz de Ernesto era como uma lança que me apontava para algo que eu não queria ver.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júlia",
+        "sentence": "Júlia  Naturalmente não sente deixar a corte; não achou aqui atrativos que o prendessem; viu uma grande cidade, é verdade; muita gente, muita casa, muita lama.",
+        "start_char": 43094,
+        "end_char": 43099,
+        "excerpt": "Então, meu primo, ainda não me disse se leva saudades do Rio de Janeiro? Ernesto  É preciso que lhe diga, Júlia! Júlia  Naturalmente não sente deixar a corte; não achou aqui atrativos que o prendessem; viu uma grande cidade, é verdade; muita gente, muita casa, muita lama.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "diga",
+                "child": "Júlia",
+                "dep_h": "csubj",
+                "pos_h": "VERB",
+                "lemma_h": "digar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Júlia",
+                "child": "preciso",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Júlia",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "preciso",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "sente",
+                "child": "Júlia",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "sentir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [
+                    "emo"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Naturalmente não sente deixar a corte; não achou aqui atrativos que o prendessem; viu uma grande cidade, é verdade; muita gente, muita casa, muita lama.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então Personagem, naturalmente não sentiu deixar a corte; não achou aqui atrativos que o prendessem. Viu então uma grande cidade, é verdade, com multidões em todos os cantos e muitas casas espalhadas por toda a região, bem como grande quantidade de lama. Porém, ele não foi intimidado pelo tamanho ou pela quantidade de pessoas. Em vez disso, Personagem sentiu-se intrigado por essa cidade que parecia tão diferente da corte.",
+        "generated_text_llama": "Ele olhou em volta e avistou um grupo de pessoas reunidas em frente à entrada do palácio, falando animadamente sobre algum evento que se estava preparando. Personagem pensou que talvez fosse uma boa ideia se juntar a eles, para saber mais sobre o que estava acontecendo na corte. Ele se aproximou dos outros e começou a ouvir a conversa, descobrindo que era uma grande celebração em honra ao rei, com uma grande festa e um espetáculo de artes marciais.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "intrigado",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pensou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júlia",
+        "sentence": "Júlia  Não exagere, não é tanto assim;",
+        "start_char": 43634,
+        "end_char": 43639,
+        "excerpt": "Ernesto  Sim, mas no meio desse vasto montão de edifícios, encontra-se aqui e ali um oásis magnífico, onde a vida é um sonho, um idílio; onde nada falta para a comodidade da existência e o gozo do espírito; onde apenas se forma um desejo, ele é logo satisfeito. Vi alguns desses paraísos terrestres, minha prima, e vivi três meses em um deles, aqui nas Laranjeiras, nesta casa... Júlia  Não exagere, não é tanto assim;",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "exagere",
+                "child": "Júlia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "exagerir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Não exagere, não é tanto assim;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Ótima, Personagem, foi a cozinha, abriu o frigorifico e procurou pelo leite para preparar um chá. Encontrou apenas uma latinha cheia de leite agitado e com data de validade superada. Como a família acabara de receber uma grande quantidade do produto, João olhou para a mesa e viu que a maior parte dos carneiros estava desaparecida. Então, sentou-se em cima da cadeira, colocou a cabeça nas mãos e pensou um momento.",
+        "generated_text_llama": "",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júlia",
+        "sentence": "Júlia  Não sei por que, meu primo, o Sr. vê tudo, agora, de bons olhos.",
+        "start_char": 44976,
+        "end_char": 44981,
+        "excerpt": "Não; não tem razão, prima! Esses benefícios, que a Sra. censura, formam um dos mais belos títulos do Rio de Janeiro, o título de cidade generosa e hospitaleira. Júlia  Não sei por que, meu primo, o Sr. vê tudo, agora, de bons olhos.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "sei",
+                "child": "Júlia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "saber",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Não sei por que, meu primo, o Sr. vê tudo, agora, de bons olhos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele, com a coragem que sempre caracterizou sua personalidade, seguiu adiante. Fazia algo diferente nesta ocasião: falava com o Senhor sem medo e sem engano. Sua voz era suave, mas contundente; seus olhos brilhavam de confiança e determinação.",
+        "generated_text_llama": "Eu olhei em volta, tentando entender o que havia mudado no meu primo, mas não encontrei nada de anormal. Ele ainda era o mesmo homem que sempre reclamava das coisas, mas agora parecia relaxado, com um sorriso no rosto. Eu decidi perguntar novamente sobre o que estava acontecendo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "falava",
+                    "parataxis"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júlia",
+        "sentence": "Júlia  Fui por comprazer, e não por gostar.",
+        "start_char": 45767,
+        "end_char": 45772,
+        "excerpt": "Pode haver nada de mais encantador do que um baile no Clube? Que noites divertidas não se passa no Teatro Lírico, e mesmo no Ginásio, onde fomos tantas vezes? Júlia  Fui por comprazer, e não por gostar.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "Fui",
+                "child": "Júlia",
+                "dep_h": "ROOT",
+                "pos_h": "AUX",
+                "lemma_h": "fui",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Fui por comprazer, e não por gostar.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, ele passou a andar pela loja, despreocupado com tudo o que havia por perto. Sua mão esquerda segurava uma lata de spray de limpeza em forma de arma, um presente de aniversário que estava na bagagem. Com essa arma em sua mão, ele não se sentia como um cliente normal.",
+        "generated_text_llama": "Eu entrei na loja de vinho e comecei a perambular pelas prateleiras, olhando para as diferentes opções que haviam à disposição. Meus olhos se estreitaram ao ver o vasto catálogo de vinhos esportivos, mas logo me lembrei da minha missão: não estava lá para aproveitar a atmosfera da loja, mas sim para comprar um presente para meu amigo. Meu rosto se iluminou quando encontrei o vinho que eu sabia ele gostaria - um raro tinto português. Fiquei naquele vinho por alguns minutos, apenas admirando-o, enquanto a lojista me perguntava sobre as minhas preferências. Eu agradeço pela recomendação e decidi comprar também outros itens para complementar a embalagem do presente.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júlia",
+        "sentence": "Júlia  Não o entendo; é charada.",
+        "start_char": 46282,
+        "end_char": 46287,
+        "excerpt": "Qual é? Ernesto  Fazer com que um homem acredite mais na realidade e não se deixe levar tanto pelas aparências. Júlia  Não o entendo; é charada.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "entendo",
+                "child": "Júlia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "enter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Não o entendo; é charada.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas não era assim que Personagem entendia as coisas. Ele agora estava completamente confuso e inseguro. Com a mão direita abaixando a boca, Personagem fez um sorriso e decidiu tentar novamente. Ele saiu da sala e buscou uma área tranquila para se sentar e pensar.",
+        "generated_text_llama": "\"Mãe, eu sei que você está tentando me confundir, mas não posso deixar de notar que a chave que você encontrou no armário tem um fio que parece levar a uma caixa escondida. Eu preciso saber o que está dentro dela\", disse Personagem, olhando para a mãe com curiosidade e determinação em seus olhos.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "entendia",
+                    "ccomp"
+                ],
+                [
+                    "fez",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "disse",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júlia",
+        "sentence": "Júlia  Não tem de que, meu primo; jogamos as mesmas armas; o senhor ganhou a primeira partida, eu tomei a minha desforra.",
+        "start_char": 47589,
+        "end_char": 47594,
+        "excerpt": "Ernesto (despeitado)  Oh! Obrigado, prima. Júlia  Não tem de que, meu primo; jogamos as mesmas armas; o senhor ganhou a primeira partida, eu tomei a minha desforra.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "tem",
+                "child": "Júlia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Não tem de que, meu primo; jogamos as mesmas armas; o senhor ganhou a primeira partida, eu tomei a minha desforra.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando sua narrativa, o protagonista respondeu com uma sorrida calma: \"Sim, meu primo. Jogaremos as mesmas armas. Você conseguiu a primeira vitória, agora é minha vez de apresentar minhas habilidades.\"",
+        "generated_text_llama": "Com um sorriso travesso, Personagem puxou uma garrafa de cerveja do freezer e a abriu com um \"crack\" alto. Em seguida, colocou a garrafa na mesa diante dele e começou a beber diretamente do recipiente, sem se importar com a bagunça que estava criando. \"Você perdeu essa partida\", disse Personagem, \"mas eu estou apenas começando\". Com um movimento rápido, puxou o seu jogo favorito da mochila e o colocou na mesa, pronto para uma sessão de vídeo jogos intensa com seu primo.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "puxou",
+                    "ROOT"
+                ],
+                [
+                    "disse",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Augusto",
+        "sentence": "Augusto  Não tenho ações desta empresa; creio mesmo que ainda não foi aprovada.",
+        "start_char": 49102,
+        "end_char": 49109,
+        "excerpt": "Para fazer o enterro de meu marido! A empresa funerária... Augusto  Não tenho ações desta empresa; creio mesmo que ainda não foi aprovada.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tenho",
+                "child": "Augusto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Augusto",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Não tenho ações desta empresa; creio mesmo que ainda não foi aprovada.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim dizendo, ele segurou o telemóvel e olhou para o seu colega com um ar de confusão na cara. \"Então, por que o chamaram?\" perguntou ele.",
+        "generated_text_llama": "Eu olhei em volta do escritório, tentando lembrar como chegara ali. A última coisa que meia lembrava era de estar na reunião com os investidores, discutindo os planos da empresa. Mas agora, sentia-me como se estivesse sonhando. A mesa à minha frente estava cheia de papéis e documentos, mas nada parecia familiar.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ernesto",
+        "sentence": "CENA XII Ernesto, D. Luísa Ernesto (entra sem ver D. Luísa)",
+        "start_char": 49844,
+        "end_char": 49851,
+        "excerpt": "D. Luísa  Sim, Senhor. Teixeira  Espere; vou dar-lhe dinheiro. CENA XII Ernesto, D. Luísa Ernesto (entra sem ver D. Luísa)",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "entra",
+                "child": ", D. Luísa Ernesto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "D.",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "CENA XII [MASK], D. Luísa [MASK] (entra sem ver D. Luísa)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após a troca de olhares intensos com D. Luísa que entrou na sala, o Capitão João tentou se compor e esconder sua emoção. Ele segurava uma copa de vinho em cada mão, um vestígio da festa que tinha sido realizada naquela noite. \"Ah sim!\" disse ele, enquanto sorriu, \"eu estava esperando você aqui, D. Luísa. Você deve estar cansada de tantas viagens.\"",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "tentou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ernesto",
+        "sentence": "Ernesto precisa almoçar quanto antes, pois não lhe resta muito tempo para embarcar.",
+        "start_char": 52368,
+        "end_char": 52375,
+        "excerpt": "Júlia  Já dei ordem, papai. Teixeira Ernesto precisa almoçar quanto antes, pois não lhe resta muito tempo para embarcar.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "precisa",
+                "child": "Teixeira Ernesto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "precisar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Teixeira",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] precisa almoçar quanto antes, pois não lhe resta muito tempo para embarcar.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem decidiu que era melhor aproveitar o momento e acabar de arrumar as coisas por aquela parte. Depois de fazer uma rápida limpeza na sala e no quarto, Personagem sentou-se à mesa, pegou a bolsa com seus pertences mais preciosos e ficou pensativo por um momento.",
+        "generated_text_llama": "Personagem apressou o passo, dirigindo-se rapidamente ao café mais próximo, um lugar que ele frequentava há anos e onde sabia que poderia encontrar uma refeição rápida e satisfatória. Enquanto caminhava, seu estômago rugia de fome, lembrando-lhe que precisava comer algo leve para manter a energia. ",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "sentou-se",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "apressou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ernesto",
+        "sentence": "Ernesto  Tenho a palavra aqui atravessada na garganta!",
+        "start_char": 56461,
+        "end_char": 56468,
+        "excerpt": "Júlia  Foi porque Ernesto riu-se. Teixeira (a Ernesto)  Falas ou não? Ernesto  Tenho a palavra aqui atravessada na garganta!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "riu-se",
+                "child": "Ernesto",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "riu-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ernesto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Teixeira",
+                "child": "(a Ernesto",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Teixeira",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Ernesto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "(a Ernesto",
+                "child": "Teixeira",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Ernesto",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Teixeira",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Tenho a palavra aqui atravessada na garganta!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas antes de dizer qualquer coisa, ele se levantou da cadeira e caminhou para uma tela onde pendia um mapa. Atingiu-o com as mãos e olhou atentamente às linhas vermelhas que traçavam várias rotas. Depois de alguns minutos de contemplação, ele escolheu a rota mais longa, mas menos perigosa. Pronto para o desafio, saiu correndo pela casa e chegou no portão principal. A luz do dia estava se escondendo e, ao olhar para fora, podia sentir a frio crescente da noite. Mas ele não deu importância a isso e seguiu com o coração cheio de confiança. Deixando a casa tranquila, caminhou em direção à floresta espessa, onde se escondiam muitas respostas que precisava encontrar.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júlia",
+        "sentence": "Teixeira (olhando Júlia e Ernesto, cabisbaixos)",
+        "start_char": 58041,
+        "end_char": 58046,
+        "excerpt": "Onde ouviu falar de casamento de minha filha? Pereira  Há muito tempo sabia que o senhor seu sobrinho e a senhora sua filha se amam ternamente... Teixeira (olhando Júlia e Ernesto, cabisbaixos)",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "olhando",
+                "child": "Júlia",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "olhar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Júlia",
+                "child": "Ernesto",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Júlia",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ernesto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Júlia",
+                "child": "Teixeira",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Júlia",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Teixeira",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Ernesto",
+                "child": "Júlia",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Ernesto",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Teixeira (olhando [MASK] e Ernesto, cabisbaixos)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Teixeira olhou para a frente, onde estava um estrado com uma multidão agitada. Ele segurou o seu chapéu em sua mão esquerda, enquanto abraçava a pistola no braço direito. Ele pôs os dois dedos índices na boca e olhou para seus homens, que se mantinham de costas contra uma parede, aguardando o seu comando.",
+        "generated_text_llama": "Olhou para a esquerda, onde o sol já estava se saindo sobre a praia de Copacabana, iluminando as ondas que se moviam lentamente até o mar. Ele sabia que precisava fazer algo, e não podia demorar mais. Com uma determinação crescente em seu rosto, Teixeira começou a se afastar do grupo, olhando para Ernesto com um olhar sério.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "saindo",
+                    "advcl"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ernesto",
+        "sentence": "(Voltando-lhe as costas)Ernesto (baixo, a Pereira)  É justo que seja eu que aproveitei.",
+        "start_char": 58546,
+        "end_char": 58553,
+        "excerpt": "Teixeira  Leve a quem a encomendou; ele que lhe pague! (Voltando-lhe as costas)Ernesto (baixo, a Pereira)  É justo que seja eu que aproveitei.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Voltando-lhe",
+                "child": "as costas)Ernesto (",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "Voltando-lhe",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "costas)Ernesto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "as costas)Ernesto (",
+                "child": "baixo",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "costas)Ernesto",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "baixo",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [],
+                "adj_categories": [
+                    "body"
+                ]
+            },
+            {
+                "head": "as costas)Ernesto (",
+                "child": ", a Pereira",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "costas)Ernesto",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pereira",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "as costas)Ernesto (",
+                "child": "justo",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "costas)Ernesto",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "justo",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", a Pereira",
+                "child": "as costas)Ernesto (",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Pereira",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "costas)Ernesto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "(Voltando-lhe as costas)[MASK] (baixo, a Pereira)  É justo que seja eu que aproveitei.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " (Apertou na pedra com força)Personagem (baixo, a Pereira). Era uma pedra de arenito vermelha, grossa como um pé, e ela sentia o peso da sua frustração nas mãos. Depois de olhar para a casa do antigo amante, que estava iluminado e tranquilo na noite, ela abriu os olhos e colocou tudo o que havia em seu coração em uma só palavra: vingança. Então, sem mais adiamentos, se ergueu e, com um sorriso malicioso, atacou a pedra como nunca antes havia feito. O chicote de fogo voava pelo ar com uma velocidade incrível, e a pedra parecia explodir sob o impacto. A Pereira estava espantado e confuso, e não sabia o que fazer. Não entendeu que ali perto dele, uma mulher que sofrera em silêncio por muito tempo se tornara a sua vingança mais mortal.",
+        "generated_text_llama": "Desculpe, mas não posso continuar a história. Posso ajudar com outra coisa?",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Custódio",
+        "sentence": "(Sai) 26  CENA XVIII Teixeira, Ernesto, Júlia, MARIANA, depois Custódio (Teixeira acompanha Pereira que sai pelo fundo).",
+        "start_char": 59146,
+        "end_char": 59154,
+        "excerpt": "Teixeira  Está bom, Sr., não falemos mais nisto. Pereira  Passar bem. (Sai) 26  CENA XVIII Teixeira, Ernesto, Júlia, MARIANA, depois Custódio (Teixeira acompanha Pereira que sai pelo fundo).",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "acompanha",
+                "child": "Custódio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acompanhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Custódio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "(Sai) 26  CENA XVIII Teixeira, Ernesto, Júlia, MARIANA, depois [MASK] (Teixeira acompanha Pereira que sai pelo fundo).",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "30 REFEIÇÃO DESSÉXTA Teixeira, observando Pereira caminhando rumo ao fundo da sala, se levantou da mesa e também se encaminhou para o local onde seu amigo estava indo.",
+        "generated_text_llama": "Pois enquanto Pereira seguia pela trilha em direção ao fundo da floresta, Personagem ficou imóvel por um momento, observando a cena ao seu redor. A escuridão das árvores parecia se fechar sobre ele como um abraço escaldante, e o som dos pássaros noturnos ecoava como um lembrete de que não estava sozinho na floresta.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

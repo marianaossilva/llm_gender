@@ -1,0 +1,390 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Carlota",
+        "sentence": "Mas então Carlota vai ficar conosco?",
+        "start_char": 1052,
+        "end_char": 1059,
+        "excerpt": "Eu aceitei a legação de Atenas porque não me dava bem em Guatemala, e não há outra vaga na América. Nem é só por isso; você tem vontade de ir acabar a lua-de-mel na Europa... Mas então Carlota vai ficar conosco?",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "ficar",
+                "child": "então Carlota",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Carlota",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mas então [MASK] vai ficar conosco?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Joaquim, com uma sonrisa luminosa em seus olhos, respondeu: \"Sim, eu vou ficar conosco!\"",
+        "generated_text_llama": "Era uma pergunta que todos na casa estavam esperando ansiosamente para ouvir. A mãe de Personagem, que havia estado cuidando dele desde o nascimento, olhou para ele com uma mistura de curiosidade e preocupação. \"Sim, claro, eu vou ficar conosco\", respondeu Personagem com um sorriso confiante, seus olhos brilhando com emoção.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "respondeu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carlota",
+        "sentence": "Carlota gostava muito de um tal Rodrigues, capitão de engenharia, que casou com uma viúva espanhola.",
+        "start_char": 1110,
+        "end_char": 1117,
+        "excerpt": "Mas então Carlota vai ficar conosco? D. ADELAIDE  É só algum tempo. Carlota gostava muito de um tal Rodrigues, capitão de engenharia, que casou com uma viúva espanhola.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "ficar",
+                "child": "então Carlota",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Carlota",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "gostava",
+                "child": "Carlota",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "gostar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "carlota",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] gostava muito de um tal Rodrigues, capitão de engenharia, que casou com uma viúva espanhola.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, o Barão desconfiado decidiu tomar medidas a fim de se conhecer melhor este tal Rodrigues. Enquanto isso, aparentemente dedicado à administração da fazenda e à exploração do solo, o capitão encontrou um momento para escrever cartas secretas para o Barão, revelando-lhe os planos de seu pai para usurpar as terras que lhe pertenciam. O Barão, surpreendido pela confiança que o capitão empenhava nele, passou a planejar uma estratégia astuta para tomar posse dos domínios do pai do capitão, antecipando-se às intenções de seu rival. Com certeza, este intriga sobre a herança não acabaria aqui, pois as ambições dos homens sempre são complexas e ardentes na época da crescente expansão colonial.",
+        "generated_text_llama": "E assim que Personagem soube da chegada de Rodrigues a Lisboa, decidiu fazer uma visita ao seu amigo, que tinha se estabelecido em uma modesta casa na Rua das Virtudes, num bairro nobre da cidade. Ao chegar à casa, Personagem foi recebido com calor pelo próprio Rodrigues, que o recebeu com um sorriso caloroso e abriu as portas para que ele entrasse. Após uma breve conversa, Personagem perguntou ao capitão sobre sua vida nova, sabendo que a viúva espanhola era conhecida por sua beleza e inteligência. Rodrigues sorriu e começou a contar a história de como conheceu sua esposa, uma mulher chamada Sofía, que tinha fugido da Espanha em busca de uma nova vida em Lisboa.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "passou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "soube",
+                    "advcl"
+                ],
+                [
+                    "perguntou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Adelaide",
+        "sentence": "Já contei a história a Adelaide.",
+        "start_char": 5459,
+        "end_char": 5467,
+        "excerpt": "MAGALHÃES Um gabinete na casa de Magalhães, na Tijuca. Cena I Magalhães, d. Adelaide Magalhães lê um livro, d. Adelaide folheia um livro de gravuras. MAGALHÃES  Esta gente não terá vindo? D ADELAIDE  Parece que não. Já saíram há um bom pedaço; felizmente o dia está fresco. Titia estava tão contente ao almoço! E ontem? Você viu que risadas que ela dava, ao jantar, ouvindo o dr. Cavalcante? E o Cavalcante sério. Meu Deus, que homem triste! que cara de defunto! MAGALHÃES  Coitado do Cavalcante! Mas que quererá ela comigo? Falou-me em um obséquio. D. ADELAIDE  Sei o que é. MAGALHÃES Que é? D. ADELAIDE Por ora é segredo. Titia quer que levemos Carlota conosco. MAGALHÃES  Para a Grécia? D. ADELAIDE Sim, para a Grécia. MAGALHÃES Talvez ela pense que a Grécia é em Paris. Eu aceitei a legação de Atenas porque não me dava bem em Guatemala, e não há outra vaga na América. Nem é só por isso; você tem vontade de ir acabar a lua-de-mel na Europa... Mas então Carlota vai ficar conosco? D. ADELAIDE  É só algum tempo. Carlota gostava muito de um tal Rodrigues, capitão de engenharia, que casou com uma viúva espanhola. Sofreu muito, e ainda agora anda meia triste; titia diz que há de curá-la. MAGALHÃES, rindo  É a mania dela. D. ADELAIDE, rindo  Só cura moléstias morais. MAGALHÃES A verdade é que nos curou; mas, por muito que lhe paguemos em gratidão, fala- nos sempre da nossa antiga moléstia. Como vão os meus doentinhos? Não é verdade que estão curados? D. ADELAIDE Pois falemos-lhe nós da cura, para lhe dar gosto. Agora quer curar a filha. MAGALHÃES  Do mesmo modo? D. ADELAIDE Por ora não. Quer mandá-la à Grécia para que ela esqueça o capitão de engenharia. MAGALHÃES  Mas, em qualquer parte se esquece um capitão de engenharia. D. ADELAIDE  Titia pensa que a vista das ruínas e dos costumes diferentes cura mais depressa. Carlota está com dezoito para dezenove anos; titia não a quer casar antes dos vinte. Desconfio que já traz um noivo em mente, um moço que não é feio, mas tem o olhar espantado. MAGALHÃES  É um desarranjo para nós; mas, enfim, pode ser que lhe achemos lá na Grécia algum descendente de Alcebíades1 que a preserve do olhar espantado. D. ADELAIDE  Ouço passos. Há de ser titia... MAGALHÃES  Justamente! Continuemos a estudar a Grécia. (Sentam-se outra vez, Magalhães lendo, d. Adelaide folheando o livro de vistas.) Cena II Os mesmos e d. Leocádia D. LEOCÁDIA ( pára à porta, desce pé ante pé, e mete a cabeça entre os dois.) Como vão os meus doentezinhos? Não é verdade que estão curados? MAGALHÃES, à parte  É isto todos os dias. D. LEOCÁDIA  Agora estudam a Grécia; fazem muito bem. O país do casamento é que vocês não precisaram estudar. D. ADELAIDE A senhora foi a nossa geografia, foi quem nos deu as primeiras lições. D. LEOCÁDIA  Não diga lições, diga remédios. Eu sou doutora, eu sou médica. Este (indicando Magalhães), quando voltou da Guatemala, tinha um ar esquisito; perguntei-lhe se queria ser deputado, disse-me que não; observei-lhe o nariz, e vi que era um triste nariz solitário... MAGALHÃES  Já me disse isso cem vezes. D. LEOCÁDIA (voltando-se para ele e continuando) Esta (designando Adelaide) andava hipocondríaca. O médico da casa receitava pílulas, cápsulas, uma porção de tolices que ela não tomava, porque eu não deixava; o médico devia ser eu. D. ADELAIDE  Foi uma felicidade. O que é que se ganha em engolir pílulas? D. LEOCÁDIA  Apanham-se moléstias. D. ADELAIDE Uma tarde, fitando eu os olhos do Magalhães... D. LEOCÁDIA  Perdão, o nariz. D. ADELAIDE  Vá lá. A senhora disse-me que ele tinha o nariz bonito, mas muito solitário. Não entendi; dois dias depois, perguntou-me se queria casar, eu não sei que disse, e acabei casando. D. LEOCÁDIA  Não é verdade que estão curados? MAGALHÃES  Perfeitamente. D. LEOCÁDIA A propósito, como irá o dr. Cavalcante? Que esquisitão! Disse- me ontem que a coisa mais alegre do mundo era um cemitério. Perguntei-lhe se gostava aqui da Tijuca, respondeu-me que sim, e que o Rio de Janeiro era uma grande cidade. É a segunda vez que a vejo; eu sou do Norte. É uma grande cidade, José Bonifácio era um grande homem, a Rua do Ouvidor um poema, o chafariz da Carioca um belo chafariz, o Corcovado, o gigante de pedra, Gonçalves Dias, os Timbiras, o Maranhão... Embrulhava tudo a tal ponto que me fez rir. Ele é doido? MAGALHÃES  Não. 1 Político e militar grego do século V a. C., discípulo de Sócrates, foi famoso pela beleza e pela ambição. D. LEOCÁDIA A princípio, cuidei que era. Mas o melhor foi quando se serviu o peru. Perguntei-lhe que tal achava o peru. Ficou pálido, deixou cair o garfo, fechou os olhos e não me respondeu. Eu ia chamar a atenção de vocês, quando ele abriu os olhos e disse com voz surda: d. Leocádia, eu não conheço o Peru... Eu, espantada, perguntei: Pois não está comendo? Não falo desta pobre ave; falo da república. MAGALHÃES Pois conhece a república. D. LEOCÁDIA Então mentiu. MAGALHÃES Não, porque nunca lá foi. D. LEOCÁDIA ( a d. Adelaide) Mau! seu marido parece que também está virando o juízo. (a Magalhães) Conhece então o Peru, como vocês estão conhecendo a Grécia... pelos livros. MAGALHÃES Também não. D. LEOCÁDIA  Pelos homens? MAGALHÃES  Não, senhora. D. LEOCÁDIA Então pelas mulheres? MAGALHÃES Nem pelas mulheres. D. LEOCÁDIA Por uma mulher? MAGALHÃES Por uma mocinha, filha do ministro do Peru em Guatemala. Já contei a história a Adelaide.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "lê",
+                "child": "Cena I Magalhães, d. Adelaide Magalhães",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ler",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cena",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "folheia",
+                "child": "d. Adelaide",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "folheiar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "d.",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "folheando",
+                "child": "d. Adelaide",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "folhear",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "d.",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "designando",
+                "child": "Adelaide",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "designar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Adelaide",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "contei",
+                "child": "Adelaide",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "contar",
+                "dep_c": "iobj",
+                "pos_c": "PROPN",
+                "lemma_c": "Adelaide",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Já contei a história a [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Agora, [Seu Nome], não teve tempo de se detê-lo. Sua mente estava agitada com as consequências da confissão que havia feito, e ainda assim, sentiu-se obrigado a continuar explorando essas ruínas abandonadas.",
+        "generated_text_llama": "Eu sorri e digo: \"E assim, você viu como eu descobri o segredo escondido na casa da avó. Foi uma aventura incrível, cheia de reviravoltas e surpresas\". A mãe me olha com um olhar curioso, e eu posso ver que ela está ansiosa para saber mais sobre a história. \"Tentei abrir a porta do quarto da avó\", continuo, \"mas estava trancada. Então, eu tive que encontrar outra maneira de entrar\".",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dolores",
+        "sentence": "Dolores voltou para o Peru, onde casou com um primo, segundo me escreveu o pai.",
+        "start_char": 6112,
+        "end_char": 6119,
+        "excerpt": "Se ela gostava dele, não sei; é certo eu o animava, e já se falava em casamento. Puro engano! Dolores voltou para o Peru, onde casou com um primo, segundo me escreveu o pai.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "voltou",
+                "child": "Dolores",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "voltar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dolores",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] voltou para o Peru, onde casou com um primo, segundo me escreveu o pai.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Porém, após casar e estabelecer-se em seu novo lar no Peru, Personagem não esquecera sua origem escocesa. Um dia, achando que suas raízes e seus sonhos estavam sendo esquecidos por gerações, ela decidiu compartilhar com as pessoas a história de seu antepassado heróico, Robert the Bruce. Contava-se a elas os brilhantes feitos de seu avô, que lhe valeram o respeito e admiração do Reino da Escócia, bem como a importância de manter os laços familiares, mesmo depois de muito tempo.",
+        "generated_text_llama": "Depois de terminar os estudos na Europa, Personagem voltou para o Peru, onde havia planejado passar alguns anos antes de se mudar definitivamente. Ele estava ansioso para visitar sua família e reencontrar seus amigos da infância. Ao chegar ao aeroporto de Lima, Personagem sentiu um arrepio na espinha ao pensar em como havia mudado tanto desde que tinha deixado o país 20 anos atrás.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "esquecera",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "voltou",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cavalcante",
+        "sentence": "Cavalcante aparece à porta, Magalhães deixa a janela).",
+        "start_char": 9558,
+        "end_char": 9568,
+        "excerpt": "Eu também vou. (Saem as duas; Cavalcante aparece à porta, Magalhães deixa a janela).",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "aparece",
+                "child": "Cavalcante",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aparecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "cavalcante",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] aparece à porta, Magalhães deixa a janela).",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois que Magalhães abandonou a vista através da janela, sua mente estava cheia de incertezas. Sua esposa, Maria, estava fora por algum tempo, e o último aviso que recebeu dela era sobre uma viagem de negócios. Porém, apenas poucos dias atrás, as notícias da mídia anunciaram que a empresa da Maria estava em falência. Essa informação tornou Magalhães preocupado e começou a sentir uma ligeira angústia dentro de si.",
+        "generated_text_llama": "Magalhães olha para trás e vê Personagem parado na porta, com as mãos na cintura e um olhar sério nos olhos. Ele hesita por um momento antes de dizer: \"O que você quer, Personagem?\" Seu tom é calmo, mas Personagem pode sentir a tensão nas palavras.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "abandonou",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pode",
+                    "conj"
+                ]
+            ],
+            "obj": [
+                [
+                    "vê",
+                    "conj"
+                ],
+                [
+                    "quer",
+                    "acl:relcl"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cavalcante",
+        "sentence": "(Sai; Cavalcante pega um livro e senta-se).",
+        "start_char": 11621,
+        "end_char": 11631,
+        "excerpt": "(Abre a charuteira, que está vazia) Olha, espera aqui, lê algum livro; eu vou buscar charutos. (Sai; Cavalcante pega um livro e senta-se).",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "pega",
+                "child": "Cavalcante",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cavalcante",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "(Sai; [MASK] pega um livro e senta-se).",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Saí, ele pegou um livro e se sentou. Ao abri-lo, encontrou uma história que o fascinou. Suas mãos tremavam enquanto seguia a leitura, perdendo-se em outros tempos e outros mundo. O tempo passava desconhecido, até que ouviu um barulho forte na porta. Era sua irmã, estava de volta do colegial. Saí, encerrou o livro, olhou para a irmã e disse: \"Um dia, essa história vai ser minha vida.\"",
+        "generated_text_llama": "Sai entrou na biblioteca quase em silêncio, os passos quietos no tapete de madeira. Ele pegou um livro e sentou-se à mesa, abrindo-o com um leve ranger de páginas. O tomá de livros era velho e cheiroso, mas Sai não precisava de uma iluminação para ler. Ele sempre foi um leitor noturno, preferindo as sombras da noite para a luz intensa do dia.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "encerrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "entrou",
+                    "ROOT"
+                ],
+                [
+                    "precisava",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

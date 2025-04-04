@@ -1,0 +1,974 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Abdul",
+        "sentence": "2  Abdul explicou-se, referiu o seu infortúnio; mas o profeta atalhou-o, clamando:  Cala-te!",
+        "start_char": 2111,
+        "end_char": 2116,
+        "excerpt": "Que vens cá fazer? perguntou ele. 2  Abdul explicou-se, referiu o seu infortúnio; mas o profeta atalhou-o, clamando:  Cala-te!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "explicou-se",
+                "child": "2  Abdul",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "explicar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Abdul",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "2  [MASK] explicou-se, referiu o seu infortúnio; mas o profeta atalhou-o, clamando:  Cala-te!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "3 O profeta, com uma voz impetuosa e autoritária, desceu dos escrocos do trono e se aproximou dele. Enrolando as mãos no redor de Personagem, ele lhe dissertou:",
+        "generated_text_llama": "O profeta ergueu-se de seu assento e apontou para a multidão, com um olhar firme e autoritário. \"Nem mesmo o próprio Senhor te interveio?\" ele perguntou, olhando para Personagem com uma mistura de raiva e tristeza. \"Por que não me pediste ajuda?\"",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "olhando",
+                    "advcl"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Abdul",
+        "sentence": "Se assim foi, Abdul desceu de novo à terra, e há de estar aí por algum canto...",
+        "start_char": 2952,
+        "end_char": 2957,
+        "excerpt": "quem me dera Omar! ah! quem me dera Omar! Naturalmente Abdul, se o profeta chorou naquele ponto, ofereceu-Ihe o seu lenço de assoar,  o mesmo que na mitologia do serralho substitui as setas de Cupido; ofereceu-lho, mas é provável que o profeta lhe desse em troco o mais divino dos pontapés. Se assim foi, Abdul desceu de novo à terra, e há de estar aí por algum canto...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "desceu",
+                "child": "Abdul",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "descer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Abdul",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Se assim foi, [MASK] desceu de novo à terra, e há de estar aí por algum canto...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim sendo, o rapaz se abaixou lentamente no espaço, observando as estrelas distantes se moverem ao redor dele. Depois de um momento, ele fez uma manobra rápida para voltar à Terra. Pousou com cuidado em seu local favorito na floresta, onde a sombra da árvore maior o cobria.",
+        "generated_text_llama": "...escondido, observando-a com olhos penetrantes, como se estivesse a esperar a que o destino lhe desse uma nova oportunidade. Personagem sentou-se sobre um pedaço de madeira caído ao longo do caminho e pôs a mão na bolsa de couro ao seu lado, onde guardava alguns objectos que havia coletado em sua jornada anterior.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Colombo",
+        "sentence": "Colombo andou mendigando uma caravela para descobrir este continente;",
+        "start_char": 11301,
+        "end_char": 11308,
+        "excerpt": "Há incrédulos, é verdade; há ombros que se levantam, espíritos que dão seus muxoxos de dúvida. Mas qual foi a verdade nova que ainda não encontrou resistências formais? Colombo andou mendigando uma caravela para descobrir este continente;",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "andou",
+                "child": "Colombo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "andar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Colombo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] andou mendigando uma caravela para descobrir este continente;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a sua jornada desafiadora, Pedro Alvárez Cabral saiu de sua cidade natal e dirigiu-se à costa oeste da Europa. Depois de muito trabalho, logrou encontrar um grupo de mercadores que lhe ofereceu uma caravela, o que lhe permitiria chegar ao continente desconhecido que ele sonhava descobrir. Ao receber a caravela, Pedro juntou-se aos marinheiros e explorou as terras até então desconhecidas, maravilhando-se com as belezas de suas praias e montanhas. Após uma viagem longa e difícil, chegaram ao continente que hoje conhecemos como América do Sul. Pedro Alvárez Cabral havia cumprido seu sonho, descoberto um novo mundo para os europeus.",
+        "generated_text_llama": "Ele passou anos estudando mapas antigos e lendo histórias de aventuras marinhas, procurando por qualquer pista que o levasse a encontrar o contínuo misterioso. Finalmente, encontrou um manuscrito velho em uma biblioteca secreta, escrito em uma língua desconhecida, mas com desenhos detalhados das ilhas e montanhas do continente. Com as informações daquele manuscrito, Personagem começou a construir sua própria caravela, uma nave de madeira robusta e resistente, projetada para enfrentar as tempestades do mar.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "saiu",
+                    "ROOT"
+                ],
+                [
+                    "juntou-se",
+                    "ROOT"
+                ],
+                [
+                    "cumprido",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Luís Sacchi",
+        "sentence": "Não conheci Luís Sacchi; li porém o testamento que ele deixou e os jornais deram a lume.",
+        "start_char": 16417,
+        "end_char": 16428,
+        "excerpt": "CAPÍTULO V Semelhante fenômeno não pertence à companhia dos ditos que representa no Teatro Imperial. O pior que acho na Companhia dos Fenômenos é o galicismo. O empresário quis provavelmente dizer Companhia dos Prodígios, das Coisas Extraordinárias. Felizmente para ele, o público não estranhou o nome, e, se o empresário não tem por si os lexicógrafos, tem o sufrágio universal; isso lhe basta. É este porém um daqueles casos em que a eleição censitária é preferível. Que tais sejam os tais fenômenos ou prodígios, não sei, porque os não vi. E já o leitor concluirá daqui o valor de um cronista que pouco vê do que fala, uma espécie de urso que se não diverte. Que se não diverte? É uma maneira de entender assaz arriscada. Alegarei que eu, geralmente, sou pouco inclinado a prodígios. Foram convidar um lacedemônio a ir ouvir um homem que imitava com a boca o canto do rouxinol. \"Eu já ouvi o rouxinol\", respondeu ele. A mim, quando me falaram de um homem que tocava flauta com as próprias mãos, respondi: \"Eu já ouvi o Calado\". Presunção de fluminense que quer ser lacedemônio. Não repetirei o dito em relação ao homem que toca rabeca com os pés; seria cair numa repetição de mau gosto. Não direi que já ouvi o Gravenstein ou o Muniz Barreto, porque além de tocar, o dito homem penteia-se, acende um charuto, joga cartas, desarrolha uma garrafa, uma infinidade de coisas que não fazem os meus nem os pés do leitor. Há outro que engole uma espada, e uma dama que, à força de saltos mortais, chegará à imortalidade. 5  CAPÍTULO VI Um correspondente do Piauí escreve para esta Corte as seguintes linhas: \" Esteve por alguns dias na chefatura o juiz de direito da capital, Dr. Jesuíno Martins, que etc.\" Tenho lido outras vezes que a chefança perdeu um honrado magistrado; não poucas que mal anda o chefado nas mãos de Fulano; outras enfim que a chefação vai caminhando ao abismo. Será preciso observar a todos os cavalheiros que cometem semelhante descuido, que não há chefança, nem chefado, nem chefação, nem chefatura, mas tão-somente chefia? [1 agosto] [2] CAPÍTULO I HOJE POSSO espeitorar meia dúzia de bernardices sem que o leitor dê por elas. A razão não é outra senão a de ser o leitor um homem que se respeita, ama o belo, possui costumes elegantes: conseguintemente, não tem orelhas para crônicas, nem outras cousas ínfimas. Suas orelhas andam de molho, reservam-se para as grandes e belas vozes que estão prestes a chegar do Rio da Prata. Antes de ir mais longe, convém advertir que o fato de nos virem as celebridades líricas do Rio da Prata é um fenômeno que, em 1850, seria puramente milagre; mas que hoje, mediante os progressos do dia, parece a cousa mais natural do mundo. Há incrédulos, é verdade; há ombros que se levantam, espíritos que dão seus muxoxos de dúvida. Mas qual foi a verdade nova que ainda não encontrou resistências formais? Colombo andou mendigando uma caravela para descobrir este continente; Galileu teve de confessar que a única bola que girava era a sua. Estes dois exemplos ilustres devem servir de algum lenitivo aos cantores platenses. CAPÍTULO II Demais os incrédulos se são duros, são em ínfimo número; número verdadeiramente ridículo. Porquanto, ainda, os cantores não deram amostra, já não digo de uma nota, mas somente de um espirro ou de um aperto de mão, e já os bilhetes estão todos tomados, a preços de primíssimo cartelo. Donde os filósofos podem concluir com segurança que as vozes não são a mesma coisa que os nabos. Credo, quia absurdum, era a máxima de Santo Agostinho. Credo, quia carissimum, é a do verdadeiro dilettanti. Ao preço elevado dos bilhetes corresponde os dos vencimentos dos cantores. Só o tenor recebe por mês oito contos e oitocentos mil-réis! Não sei que 6  haja na crítica moderna melhor definição de um tenor do que esta dos oito contos, a não ser outra de dez ou quinze. Que me importa agora ouvir as explicações técnicas dos críticos para saber se o tenor tem grande voz e profundo estudo? Já sei, já o sabemos todos; ele tem uma voz de oito contos e oitocentos; devo aplaudi-lo com ambas as luvas, até arrebentá-las. Vejam a superioridade da música sobre a política. Cavour fez a Itáliaum pau por um olho, e não sonhou nunca receber ordenado tamanho. Mas um jovem de olho azul e bigode louro, tendo a boa fortuna de engolir um canário ou outra ave equivalente, só por esse motivo, c por outros que seria longo desfiar, mete Cavour num chinelo. Cavour morreu talvez com pena de não ter sido barítono. Não sei quanto vence o soprano; mas deve ser grosso cabedal, em vista do tenor, e porque também é célebre. Imaginemos outro tanto. Ora, expirou há pouco uma mulher, que me hão de conceber tinha um gênio maior que o do soprano referido, mulher que ocupa um dos mais altos lugares entre os prosadores de seu século. Madame Sand nunca venceu tanto por mês. Rendeu- lhe menos Indiana ou Mauprat do que rendem ao soprano de que trato meia dúzia de sustenidos bem sustenidos. Oh! se tu tens algum filho, leitor amigo, não o faças político, nem literato, nem estatuário, nem pintor, nem arquiteto! Pode ter algum pouco de glória, e essa mesma pouca; muita que seja, nem só de glória vive o homem. Cantor, isso sim, isso dá muitos mil cruzados, dá admiração pública, dá retratos nas lojas; às vezes chega a dar aventuras romanescas. CAPÍTULO III Por fortuna de Alexandre Herculano, esta notícia lírica só invadiu a Corte depois de anunciado o seu azeite. Se o azeite se demora uma semana, ninguém fazia caso dele; ninguém lhe reparava na notícia, nem nos méritos. Achou o tal azeite seus admiradores, como o Meneses do Jornal, e seus críticos, como o Serra da Reforma. Eu chego tarde para ser uma das duas coisas; prefiro ser ambos ao mesmo tempo. E não tendo visto ainda o azeite, estou na melhor situação para dar sobre ele o meu parecer. Quem era certo cavaleiro italiano que gastou a vida a duelar-se em defesa da Divina Comédia, sem nunca a ter lido? Eu sou esse cavaleiro apenas por um lado, que é o lado dos que dizem que, a não fazer o Herculano livros de história, deve fazer outra coisa. Mas confesso que preferia ao pé do seu azeite o seu estilo; e de bom grado receberia de suas mãos o livro e a luz. Dar-me ele a luz e o Sr. *** os livros, é uma disparidade que não chega a vencer o sono... por melhor que seja o azeite. Suspendamos o riso, que é alheio a estas coisas. Sunt lacrimae rerum Pois quê! Um homem levanta um monumento, escreve o seu nome ao lado de Grote e Thierry, esculpe um Eurico, desenterra da crônica admiráveis novelas; é um grande talento, é uma erudição de primeira ordem, e no vigor da idade retira-se a uma quinta, faz da banca um lagar, engarrafa os seus merecimentos, entra em concorrência com o Sr. N. N. e nega ao mundo o que lhe não pertence a ele! 7 CAPÍTULO IV Não foi esse o único prodígio da quinzena. Além dessa e da companhia lírica (a 8:000$000 cada garganta), houve o projeto de constituição turca, dado pelo Jornal do Comércio. Não sei se tal constituição chegará a reger a Turquia; mas foi proposta, e tanto basta para deixar-me de boca aberta. O art. 1. desse documento diz que o império otomano como Estado não tem religião: reconhece todos os cultos, protege-os e subvenciona-os . Eu palpo-me, esfrego os olhos, dou murros no peito e na cabeça, agito os braços, passeio de um lado para outro, a fim de certificar-me que não estou sonhando. O Alcorão subvencionando o Evangelho! O janízaro do crê ou morre reconhecendo todos os cultos e dando a cada um os meios de subsistência! Se isto não é o fim do mundo, é pelo menos o penúltimo capítulo. Que abismo entre Omar e Mourad V!Alegre-se quem quiser; eu fico triste. A tolerância dos cultos tira-me a cor local da Turquia, desnatura a história, estabelece certas acomodações entre o Alcorão e o céu. Substitui-se a Sublime Porta por uma trapeira constitucional. CAPÍTULO V No meio de tanta novidade  azeite herculano, ópera italiana, liberdade turca, não quis ficar atrás o Sr. Luís Sacchi. Não conheci Luís Sacchi; li porém o testamento que ele deixou e os jornais deram a lume.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "o Sr.",
+                "child": "Luís Sacchi",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "Sr.",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Luís",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Luís Sacchi",
+                "child": "o Sr.",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Luís",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "Sr.",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Luís Sacchi",
+                "child": "azeite",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Luís",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "azeite",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "conheci",
+                "child": "Luís Sacchi",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Conheci",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Luís",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Não conheci [MASK]; li porém o testamento que ele deixou e os jornais deram a lume.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ela passou vários dias examinando detalhadamente as páginas do testamento dele e de todas as notícias que foram publicadas sobre ele nas últimas décadas. De repente, um nome em particular se destacou no testamento: um antigo amigo chamado Victor. Com a curiosidade ainda maior, ela começou a procurar informações sobre este homem e descobriu que era proprietário de uma grande empresa na cidade.",
+        "generated_text_llama": "Eu estava sentado na minha sala de trabalho, olhando para as chaves que haviam sido me entregues pela abadessa do mosteiro. A notícia da morte de Personagem era um choque para mim, mas também uma oportunidade única. Enquanto li o testamento, percebi que havia deixado tudo para mim: a propriedade, o patrimônio, até mesmo a posse do velho carro que ele adorava.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Luís Sacchi",
+        "sentence": "Luís Sacchi não quis fazer do seu passamento um quinto ato de tragédia, uma coisa lúgubre, obrigada a sangue e lágrimas.",
+        "start_char": 16845,
+        "end_char": 16856,
+        "excerpt": "Gosto disto! A morte é coisa tão geralmente triste, que não se perde nada em que alguma vez apareça alegre. Luís Sacchi não quis fazer do seu passamento um quinto ato de tragédia, uma coisa lúgubre, obrigada a sangue e lágrimas.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "quis",
+                "child": "Luís Sacchi",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Luís",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não quis fazer do seu passamento um quinto ato de tragédia, uma coisa lúgubre, obrigada a sangue e lágrimas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, ao sentir o peso da tristeza cercando-a como um velo, decidiu que nenhum mal iria se perpetuar em sua vida por causa dele. Sentindo a necessidade de evitar o conflito, ela correu para a porta principal e gritou, \"Sou livre!\" Em seguida, deixou o lugar, deixando atrás apenas memórias torturantes e uma lágrima final que caiu da sua face.",
+        "generated_text_llama": "Ele decidiu aproveitar a oportunidade para se levantar e dar uma volta pela cidade, sentindo o sol em sua pele e a brisa fresca nos seus cabelos. Atravessou as ruas desertas, observando os prédios iluminados pelas luzes da noite, e se perguntou o que agora fazeria com sua vida.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "cercando-a",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lucrécia",
+        "sentence": "Certamente é belo que Lucrécia haja dado um exemplo de castidade às senhoras de todos os tempos; mas se os escavadores modernos me provarem que Lucrécia é uma ficção e Tarquínio uma hipótese, nem por isso deixa de haver castidade...e pretendentes.",
+        "start_char": 27822,
+        "end_char": 27830,
+        "excerpt": "O tempo decorrido era longo e a tradição estava arraigada como uma idéia fixa. Demais, que Numa Pompílio houvesse ou não existido é coisa que não altera sensivelmente a moderna civilização. Certamente é belo que Lucrécia haja dado um exemplo de castidade às senhoras de todos os tempos; mas se os escavadores modernos me provarem que Lucrécia é uma ficção e Tarquínio uma hipótese, nem por isso deixa de haver castidade...e pretendentes.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "haja",
+                "child": "Lucrécia",
+                "dep_h": "aux",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lucrécia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Lucrécia",
+                "child": "belo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Lucrécia",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "belo",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Lucrécia",
+                "child": "ficção",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Lucrécia",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "ficção",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Lucrécia",
+                "child": "belo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Lucrécia",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "belo",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "ficção",
+                "child": "Lucrécia",
+                "dep_h": "ccomp",
+                "pos_h": "NOUN",
+                "lemma_h": "ficção",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lucrécia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Certamente é belo que [MASK] haja dado um exemplo de castidade às senhoras de todos os tempos; mas se os escavadores modernos me provarem que [MASK] é uma ficção e Tarquínio uma hipótese, nem por isso deixa de haver castidade...e pretendentes.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Certamente, é belo pensar que Personagem tenha dado um exemplo de castidade às senhoras de todos os tempos; mas se os arqueólogos modernos me comprovarem que Zeus é uma ficção e Tarquínio uma hipótese, nem por isso deixa de haver castidade...e pretendentes.",
+        "generated_text_llama": "E assim, enquanto continuava a refletir sobre a questão da castidade, Personagem começou a se perguntar se era possível que uma mulher como Tarquínia, que havia governado Roma com tanta sabedoria e justiça, pudesse ser uma excepção à regra. Ele pensou em todas as histórias que havia ouvido sobre ela, de sua beleza, de sua inteligência e de sua coragem, e começou a se sentir intrigado.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "dado",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lucrécia",
+        "sentence": "Certamente é belo que Lucrécia haja dado um exemplo de castidade às senhoras de todos os tempos; mas se os escavadores modernos me provarem que Lucrécia é uma ficção e Tarquínio uma hipótese, nem por isso deixa de haver castidade...e pretendentes.",
+        "start_char": 27822,
+        "end_char": 27830,
+        "excerpt": "O tempo decorrido era longo e a tradição estava arraigada como uma idéia fixa. Demais, que Numa Pompílio houvesse ou não existido é coisa que não altera sensivelmente a moderna civilização. Certamente é belo que Lucrécia haja dado um exemplo de castidade às senhoras de todos os tempos; mas se os escavadores modernos me provarem que Lucrécia é uma ficção e Tarquínio uma hipótese, nem por isso deixa de haver castidade...e pretendentes.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "haja",
+                "child": "Lucrécia",
+                "dep_h": "aux",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lucrécia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Lucrécia",
+                "child": "belo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Lucrécia",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "belo",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Lucrécia",
+                "child": "ficção",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Lucrécia",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "ficção",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Lucrécia",
+                "child": "belo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Lucrécia",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "belo",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "ficção",
+                "child": "Lucrécia",
+                "dep_h": "ccomp",
+                "pos_h": "NOUN",
+                "lemma_h": "ficção",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lucrécia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Certamente é belo que [MASK] haja dado um exemplo de castidade às senhoras de todos os tempos; mas se os escavadores modernos me provarem que [MASK] é uma ficção e Tarquínio uma hipótese, nem por isso deixa de haver castidade...e pretendentes.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas mesmo assim, não pode ser dito que Personagem se desfezesse pela falta de confirmação histórica sobre sua existência; em vez disso, seus ensinos e ideais permaneceram inalterados no tempo. Por fim, o grande filósofo Personagem ainda inspira até hoje a castidade dos homens e as esperanças de amor nobre das mulheres.",
+        "generated_text_llama": "E assim, com um sorriso sábio nos lábios, Personagem olhou para o céu, onde o sol já estava se pondo, lançando uma lente de ouro sobre a cidade. Ele sabia que a verdadeira castidade não era algo que pudesse ser provado ou refutado por ninguém, mas sim algo que nascia do interior, da alma. E ele sentiu que sua jornada estava longe de terminar.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "desfezesse",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Abdul",
+        "sentence": "A atenção começou quando rompeu o dueto entre Milano e Abdul-Aziz, e depois o coro do softas , que derrocam Abdul...",
+        "start_char": 37286,
+        "end_char": 37291,
+        "excerpt": "Tem numerosos quadros. A introdução no estilo herzegoviano é um primor, conquanto fosse ouvida sem grande atenção por parte do público. A atenção começou quando rompeu o dueto entre Milano e Abdul-Aziz, e depois o coro do softas , que derrocam Abdul...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Milano",
+                "child": "Abdul-Aziz",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Milano",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Abdul-Aziz",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Abdul-Aziz",
+                "child": "Milano",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Abdul-Aziz",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Milano",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Abdul-Aziz",
+                "child": "o dueto",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Abdul-Aziz",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "dueto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "derrocam",
+                "child": "Abdul",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "derrocar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Abdul",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Abdul",
+                "child": "softas",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Abdul",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "softas",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Abdul",
+                "child": "coro",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Abdul",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "coro",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A atenção começou quando rompeu o dueto entre Milano e [MASK]-Aziz, e depois o coro do softas , que derrocam [MASK]...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Segundo a história, após quebrar o dueto com Milano, Aziz continuou sua jornada musical, mas não era mais o mesmo. Aos poucos, ele começou a se afastar da simplicidade e do coro do softas que lhe deram fama, passando a se dedicar à exploração de sons e melodias inéditas. Isso o levou a criar música que era mais complexa e intrincada, o que atraiu muitos fãs, mas também causou certa polarização entre eles.",
+        "generated_text_llama": "...e Personagem ficou sozinho no palco, com a plateia murmurando em choque. Sem hesitar, Personagem pegou o microfone das mãos de Milano e começou a cantar com uma voz poderosa e emocionada, desafiando a multidão para que se levantassem a apoiá-lo. A energia no palco mudou drasticamente, e os seguranças tentaram intervir, mas Personagem foi rápido demais, usando sua habilidade de luta para empurrar os seguranças e continuar cantando. A plateia estava agora completamente dividida, alguns apoiando Personagem enquanto outros estavam ainda com raiva contra ele. Mas Personagem não se deixou abater, usando sua música para expressar suas emoções e convidar a multidão a se juntarem a ele na luta pela justiça.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ],
+                [
+                    "pegou",
+                    "ROOT"
+                ],
+                [
+                    "rápido",
+                    "conj"
+                ],
+                [
+                    "deixou",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "apoiando",
+                    "advcl"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Chateaubriand",
+        "sentence": "Chateaubriand, que escreveu sobre os sinos, que não diria, se morasse ao pé da Lapa?",
+        "start_char": 47010,
+        "end_char": 47023,
+        "excerpt": "O Miserere de Verdi é um pedaço digno de igreja; mas se o pusessem nos sinos era... vá lá... era ridículo. Chateaubriand, que escreveu sobre os sinos, que não diria, se morasse ao pé da Lapa?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "morasse",
+                "child": "Chateaubriand",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "morar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chateaubriand",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "os sinos",
+                "child": "Chateaubriand",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "sino",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chateaubriand",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], que escreveu sobre os sinos, que não diria, se morasse ao pé da Lapa?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele seguiu caminhando pelo bairro boêmio, passando pela estreita e animada Rua dos Drummonds. Por ali ele conhecia um amigo, um pintor assíduo que, no seu estúdio, criava obras maravilhosas com suas técnicas innovadoras.",
+        "generated_text_llama": "Ao contemplar a silênciosa praça, Personagem sentiu uma estranha conexão com os sinos que haviam sido o centro da sua contabilidade. Ele se aproximou do local onde os sinos estavam parados e começou a limpar as poeira e a sujeira que havia acumulado ao longo dos anos. Enquanto trabalhava, Personagem sentiu uma onda de calma e tranquilidade surgir dentro dele, como se os sinos estivessem fazendo seu trabalho novamente.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Napoleão",
+        "sentence": "Há pessoas para quem não é certo que haja uma África, que Napoleão tenha existido, que Maomé II esteja morto, pessoas incrédulas, mas absolutamente convencidas de que há no Morro do Castelo um tesouro dos contos arábicos.",
+        "start_char": 49413,
+        "end_char": 49421,
+        "excerpt": "Venhamos a coisa novíssima, posto que velhíssima; ou antes velhíssima, posto que novíssima. Já daqui percebe o leitor que aludo às galerias que se encontraram no Morro do Castelo. Há pessoas para quem não é certo que haja uma África, que Napoleão tenha existido, que Maomé II esteja morto, pessoas incrédulas, mas absolutamente convencidas de que há no Morro do Castelo um tesouro dos contos arábicos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "existido",
+                "child": "Napoleão",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "exister",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Napoleão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Napoleão",
+                "child": "uma África",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Napoleão",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "África",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Napoleão",
+                "child": "certo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Napoleão",
+                "dep_c": "acl",
+                "pos_c": "ADJ",
+                "lemma_c": "certo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": [
+                    "mind"
+                ]
+            },
+            {
+                "head": "Napoleão",
+                "child": "pessoas",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Napoleão",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "pessoa",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Há pessoas para quem não é certo que haja uma África, que [MASK] tenha existido, que Maomé II esteja morto, pessoas incrédulas, mas absolutamente convencidas de que há no Morro do Castelo um tesouro dos contos arábicos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Eles se apressaram para a subida, pelo caminho escorregadio e estreito que levaria ao topo da colina. O tempo estava contra eles: o sol pôs-se no horizonte, e o vento tornava cada passo mais difícil. Mas nenhum dos exploradores se desanimou: sabiam que estavam à beira de uma descoberta extraordinária.",
+        "generated_text_llama": "E assim, Personagem, com um sorriso malicioso e olhos brilhantes, continuou a desvendar os mistérios do Morro do Castelo, procurando cada pista que pudesse levar ao tesouro que buscava. Ele havia lido sobre as histórias de Maomé II e a sua conquista da África, mas sabia que era preciso ir além das palavras para descobrir a verdade.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dom Quixote",
+        "sentence": "As cavalarias, depois de estromparem os corpos à gente, passaram a estrompar os ouvidos e a paciência, e daí surgiu o Dom Quixote, que foi o terceiro herói, alma generosa e nobre, mas ridícula nos atos, embora sublime nas intenções.",
+        "start_char": 56993,
+        "end_char": 57004,
+        "excerpt": "Enéias é o segundo herói, valente e viajor como um alferes romano poético em todo o caso, melancólico, civilizado, misturade espírito grego e latino. Prolongou- 23  se este Enéias pela Idade Média, fez-se soldadão cristão, com o nome de Tancredo, e acabou em cavalarias altas e baixas. As cavalarias, depois de estromparem os corpos à gente, passaram a estrompar os ouvidos e a paciência, e daí surgiu o Dom Quixote, que foi o terceiro herói, alma generosa e nobre, mas ridícula nos atos, embora sublime nas intenções.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "surgiu",
+                "child": "o Dom Quixote",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "surgir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dom",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "As cavalarias, depois de estromparem os corpos à gente, passaram a estrompar os ouvidos e a paciência, e daí surgiu o [MASK], que foi o terceiro herói, alma generosa e nobre, mas ridícula nos atos, embora sublime nas intenções.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Como cavalarias, após deixarem as suas correntes ao lado da estrada, se aproximaram dos homens como um vento frio que traz a morte. Primeiro, eles abalroavam os corpos com uma força que ninguém tinha visto antes, reduzindo aqueles que haviam sido tantos temidos para partes menores do que o tamanho de um grão de milho. Depois disso, passaram a estrondar os ouvidos dos homens e sua paciência, fazendo com que todos queimassem e se desintegissem, até mesmo aqueles que haviam conseguido escapar das mãos dos cavalarias e se escondessesem entre as árvores.",
+        "generated_text_llama": "Com um sorriso de ócio, Personagem começou a estrompear os ouvidos da multidão com uma melodia infantil, que imediatamente fez todos rirem e se inclinar para frente. Enquanto isso, ele começou a dançar sobre as árvores caídas, com movimentos sinuosos e precisos, como se estivesse em uma dança de balé. A multidão aplaudiu, pensando que estava assistindo a um espetáculo de mágicos ou acrobatas, mas Personagem sabia que estava apenas criando uma distração para as outras cavalarias.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "sabia",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tito Lívio",
+        "sentence": "O historiador foi inventado por ti, homem culto, letrado, humanista; o contador de histórias foi inventado pelo povo, que nunca leu Tito Lívio, e entende que contar o que se passou é só fantasiar.",
+        "start_char": 67320,
+        "end_char": 67330,
+        "excerpt": "Um contador de histórias é justamente o contrário de um historiador,não sendo um historiador, afinal de contas, mais do que um contador de histórias. Por que essa diferença Simples, leitor, nada mais simples. O historiador foi inventado por ti, homem culto, letrado, humanista; o contador de histórias foi inventado pelo povo, que nunca leu Tito Lívio, e entende que contar o que se passou é só fantasiar.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "leu",
+                "child": "Tito Lívio",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "ler",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tito",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Tito Lívio",
+                "child": "histórias",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Tito",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "história",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Tito Lívio",
+                "child": "o contador",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Tito",
+                "dep_c": "nsubj:pass",
+                "pos_c": "NOUN",
+                "lemma_c": "contador",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "O historiador foi inventado por ti, homem culto, letrado, humanista; o contador de histórias foi inventado pelo povo, que nunca leu [MASK], e entende que contar o que se passou é só fantasiar.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O célebre historiador, homenajeando-se no espelho, recolheu seus livros de notas e começou a escrever uma história completamente nova. Ele nunca tinha ouvido o povo criticar sua obra e, portanto, não sabia como respondê-los.",
+        "generated_text_llama": "E assim, o historiador começou a contar sua história, uma narrativa de amor e perda, de saudade e esperança. Ele se sentou à frente da multidão, olhou em volta com os olhos tristes e começou a falar:",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Santa Teresa",
+        "sentence": "Agora é que Santa Teresa vai ficar à moda.",
+        "start_char": 71457,
+        "end_char": 71469,
+        "excerpt": "por ora. Mas inauguraram-se os bonds. Agora é que Santa Teresa vai ficar à moda.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "ficar",
+                "child": "Santa Teresa",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Santa",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Agora é que [MASK] vai ficar à moda.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Agora é que Marcos irá se dedicar a aprender mais sobre a moda contemporânea. Ele começou a frequentar programas de televisão e canais de moda, estudando as tendências de vestuário atuais e explorando estilos de vida alternativos. Também começou a seguir influenciadores da moda online, que compartilhavam dicas e truques para melhorar sua imagem personal.",
+        "generated_text_llama": "Agora é que Personagem vai ficar à moda.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "dedicar",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ficar",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Adão",
+        "sentence": "A primeira é que não havia alfaiates, não havia sequer casimiras; a segunda é que, ainda havendo-os Adão andava baldo ao naipe.",
+        "start_char": 85747,
+        "end_char": 85751,
+        "excerpt": "No paraíso é provável, é certo que o calor era mediano, e não é prova do contrário o fato de Adão andar nu. Adão andava nu por duas razões, uma capital e outra provincial. A primeira é que não havia alfaiates, não havia sequer casimiras; a segunda é que, ainda havendo-os Adão andava baldo ao naipe.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "andava",
+                "child": "Adão",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "andar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Adão",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A primeira é que não havia alfaiates, não havia sequer casimiras; a segunda é que, ainda havendo-os [MASK] andava baldo ao naipe.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " A terceira coisa que Personagem fez foi buscar o seu próprio material: tecelou em suas mãos um pedaço de lã grossa e desbastou uma pequena faca em um galho de pinheiro. Em seguida, com muito trabalho, começou a tecelar sua roupa, não sem que os dentes da boca se ressentissem do esforço de arranhar as fibras das telhas. O dia crescia e o sol fazia brilhantemente nas suas costas; ele sentia-se caloroso, mas a lã e o trabalho que o preenchiam eram como uma proteção contra o frío de uma noite cheia de neve.",
+        "generated_text_llama": "E assim, Personagem continuou a caminhar pelas ruas desertas, com as mãos na bolsa e o coração pesado. Ele sabia que não poderia mudar nada, mas precisava tentar. Começou a pensar em todas as pessoas que haviam sido afetadas pelaquela maldade e se sentiu impotente.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "fez",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

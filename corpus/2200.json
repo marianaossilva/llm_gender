@@ -1,0 +1,191 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Lady Alroy",
+        "sentence": "Por fim o criado abriu a porta e anunciou Lady Alroy.",
+        "start_char": 4104,
+        "end_char": 4114,
+        "excerpt": "Cerca de uma semana depois, estava a jantar com Madame de Rastail. O jantar estava marcado para as oito horas, mas às oito e meia ainda nos achávamos à espera na sala de visitas. Por fim o criado abriu a porta e anunciou Lady Alroy.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "anunciou",
+                "child": "Lady Alroy",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "anunciar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lady",
+                "word_categories": [
+                    "carater_social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Por fim o criado abriu a porta e anunciou [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele sorriu amigávelmente, então se voltou para as bagagens e, com cuidadosa precisão, retirou do bolsa uma carta que transportava consigo desde sua partida. Abrindo-a lentamente, percebeu que a escrita era familiar: era de sua mãe. Lágrimas se acumulavam em seus olhos e, para se dar tempo para controlar as suas emoções, fez uma respiração profunda antes de levá-la até a porta da casa principal.",
+        "generated_text_llama": "Como se esperava, os olhos de Personagem iluminaram-se com um sorriso malicioso ao ouvir o seu próprio nome ser chamado. Ele adotou uma postura confiante, estendendo os braços ao longo do peito e exibindo as suas cicatrizes, como se estivessem a dar testemunho da sua força e resistência. Com um movimento suave, Personagem fez uma careta irônica e disse: \"Ah, finally. Estou aqui\". Em seguida, ele tomou um passo à frente, os olhos escaneando o ambiente com uma intensidade que fazia a pele da sala arder, como se estivesse procurando por algo ou alguém em particular.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "fez",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lady Alroy",
+        "sentence": "No dia seguinte cheguei pontualmente a Park Lane, no momento exato, mas o mordomo disse-me que Lady Alroy tinha acabado de sair.",
+        "start_char": 5559,
+        "end_char": 5569,
+        "excerpt": "Sim; amanhã a um quarto para as cinco. Roguei a Madame de Rastail que me desse informações a respeito dela; mas tudo quanto pude saber é que era uma viúva, morando numa bela casa em Park Lane e, como naquele momento um desses cientistas cacetes começasse uma dissertação a respeito de viúvas, para exemplificar a sobrevivência dos matrimonialmente mais ajustados, despedi- me e fui para casa. No dia seguinte cheguei pontualmente a Park Lane, no momento exato, mas o mordomo disse-me que Lady Alroy tinha acabado de sair.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "acabado",
+                "child": "Lady Alroy",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "acabar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lady",
+                "word_categories": [
+                    "aparencia",
+                    "carater_social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "No dia seguinte cheguei pontualmente a Park Lane, no momento exato, mas o mordomo disse-me que [MASK] tinha acabado de sair.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O próximo dia, cheguei à precisão na avenida Park Lane, ao horário marcado, porém o guarda-portas me informou que Personagem já havia saído recentemente. Intrigado pelo fato, resolvi investigar o assunto e procurá-lo. Ao me percorrer o palácio, conheci várias pessoas que afirmavam ter visto Henry sair daquela manhã, porém ninguém tinha um detalhe preciso de onde ele estava indo ou quem estava com ele.",
+        "generated_text_llama": "Eu sorri para mim mesmo, sabendo que, apesar do mordomo ter dito que Personagem tinha acabado de sair, havia uma pequena janela de tempo em que eu poderia entrar e fazer o meu trabalho. Então, com um pouco de habilidade, me aproximei da porta e, sem fazer barulho, entrei no salão.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "saído",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "acabado",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lorde Murchison",
+        "sentence": "Lorde Murchison, nada tenho a dizer-lhe.",
+        "start_char": 8997,
+        "end_char": 9012,
+        "excerpt": "Tem de responder-me - continuei. Ela ergueu-se e, fitando-me o rosto, disse: Lorde Murchison, nada tenho a dizer-lhe.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Lorde Murchison,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lorde",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], nada tenho a dizer-lhe.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas Personagem não quis ouvir palavras de despedida amarga e, sem perder o olhar conturbado nos olhos da mulher que amava profundamente, passou para outro lugar, onde as paredes e a luz amarela se apresentavam como um abrigo seguro. Ele sentou-se no banco, encerrando as mãos em seus joelhos, e começou a falar à si mesmo: \"Você deve acordar-se que não é o teu lugar aqui. Tudo isto está aí, naquele passado que foi um sonho tão real e agora se transformou em uma neblina escura... Mas você precisa viver, querer... É a hora de mudar.\"",
+        "generated_text_llama": "Eu olhei para o lado, esperando que alguém pudesse me dar uma pista sobre o que estava acontecendo, mas fiquei sozinho naquela pequena sala. A polícia havia me levado embora horas atrás, e ainda não sabia qual era o objetivo deles. Eu apenas estava sentado ali, com as mãos cruzadas sobre a mesa da frente, tentando parecer mais do que eu não era: um cidadão normal, preocupado com a vida cotidiana.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "quis",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lorde Murchison",
+        "sentence": "Lorde Murchison tirou do bolso a carteira de marroquim, abriu-a e olhou a fotografia.",
+        "start_char": 11387,
+        "end_char": 11402,
+        "excerpt": "Tinha paixão pelo segredo, mas não passava de uma simples esfinge sem segredo. - Estou convencido disto - repliquei. Lorde Murchison tirou do bolso a carteira de marroquim, abriu-a e olhou a fotografia.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tirou",
+                "child": "Lorde Murchison",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tirar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lorde",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] tirou do bolso a carteira de marroquim, abriu-a e olhou a fotografia.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Ótimo. A seguir, o velho senhor continuou a caminhar pelas ruas antigas do bairro. Depois de muito tempo, chegou ao canto da rua onde seu amado, Eduardo, lhe escreveu uma carta antes de partir para a guerra.",
+        "generated_text_llama": "Enquanto viavia pelas ruas movimentadas da cidade, Personagem não podia deixar de se sentir um pouco perdido. Ele havia chegado naquela noite sem destino claro, apenas com o desejo de se perder na multidão e descobrir algo novo sobre si mesmo. Após ter tirado do bolso a carteira de marroquim, abriu-a e olhou a fotografia.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

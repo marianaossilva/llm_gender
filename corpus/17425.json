@@ -1,0 +1,699 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "João Fernandes",
+        "sentence": "João Fernandes desceu pela rua do Ouvidor, na esquina da dos Ourives viu uma patrulha.",
+        "start_char": 384,
+        "end_char": 398,
+        "excerpt": "O sino de S. Francisco de Paula bateu duas horas. Desde pouco mais de meia noite deixou este rapaz, João Fernandes, o botequim da Rua do Hospício, onde lhe deram chá com torradas, e um charuto por cinco tostões. João Fernandes desceu pela rua do Ouvidor, na esquina da dos Ourives viu uma patrulha.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "este rapaz",
+                "child": ", João Fernandes,",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "rapaz",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", João Fernandes,",
+                "child": "este rapaz",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "João",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "rapaz",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "desceu",
+                "child": "João Fernandes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "descer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] desceu pela rua do Ouvidor, na esquina da dos Ourives viu uma patrulha.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quando viu a patrulha policial na esquina da Rua dos Ourives, ele tomou um pé para trás e se moveu de forma cautelosa, desejando evitar ser notado. Ele sabia que estava em meio a situação delicada e que qualquer suspeita poderia ser perigosa. Depois de um momento, sentiu que já estava suficientemente afastado da patrulha para prosseguir com seu caminho.",
+        "generated_text_llama": "Enquanto observava a patrulha, Personagem percebeu que estavam cercando o local onde havia deixado o pacote para o seu contato. Ele sabia que não podia se aproximar agora, pois poderia ser confundido com os outros. Em vez disso, ele decidiu seguir a patrulha de uma distância segura, observando-os de cabeça baixa e vestindo um chapéu para evitar ser reconhecido.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "percebeu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Fernandes",
+        "sentence": "João Fernandes foi até à rua Primeiro de Março; desandou, os dois caixeiros despediam- se; um seguiu para a rua de S. Bento, outro para a de S. José.",
+        "start_char": 785,
+        "end_char": 799,
+        "excerpt": "A Rosinha não tem razão, dizia um; eu conheço muito bem o Miranda...  Estás enganado; o Miranda é uma besta. João Fernandes foi até à rua Primeiro de Março; desandou, os dois caixeiros despediam- se; um seguiu para a rua de S. Bento, outro para a de S. José.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "foi",
+                "child": "João Fernandes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] foi até à rua Primeiro de Março; desandou, os dois caixeiros despediam- se; um seguiu para a rua de S. Bento, outro para a de S. José.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, sem perder o ritmo, Personagem continua caminhando pela rua Primeiro de Março, com uma leve sensação de liberdade enquanto olha pelo seu redor e respira o ar puro da manhã. Ao longo do caminho, ele se detém para comprar um jornal e olhar a última edição da notícia mais recente sobre a investigação em curso.",
+        "generated_text_llama": "Enquanto os dois caixeiros se afastavam, Personagem sentiu uma onda de curiosidade e decidiu seguir um deles. Ele observou o homem que seguia para a rua de S. Bento, notando que era um pouco mais velho do que ele mesmo. O homem parecia saber exatamente onde estava indo, movendo-se com um ritmo confiante pelas ruas. Personagem decidiu seguir esse homem, curioso para ver onde ele iria. Ele rapidamente perseguiu o homem, notando que ele se dirigia em direção a uma pequena loja escondida entre as calçadas da rua de S. Bento.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "continua",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Fernandes",
+        "sentence": "João Fernandes, que vinha poupando o charuto, não pôde mais; não tendo fósforos, endireitou para um dos tílburis.",
+        "start_char": 1161,
+        "end_char": 1175,
+        "excerpt": "No largo passaram dois vultos, ao longe. Três tílburis, parados junto à Escola Politécnica, aguardavam fregueses. João Fernandes, que vinha poupando o charuto, não pôde mais; não tendo fósforos, endireitou para um dos tílburis.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "pôde",
+                "child": "João Fernandes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], que vinha poupando o charuto, não pôde mais; não tendo fósforos, endireitou para um dos tílburis.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O bandido se acostumou a fumar durante as pausas em suas longas jornadas pela serranía e, neste momento, sem mais charuto na boca, ele não resistiu ao desejo de tirar um rápido soroque. Porém, sem mais fósforos para acender o charuto, teve que endireitar-se rumo a um dos tílburis que dormiam ao lado da trilha.",
+        "generated_text_llama": "Era uma noite escura e chuvosa, mas Personagem não se deixou abater. Ele sacou um dos tílburis do seu bolso e acendeu o cigarro com um gesto rápido e prático, sentindo a fumaça quente sair da boca do charuto. Enquanto fumava, ele olhou em volta, garantindo que ninguém o estivesse observando. A chuva batia forte contra a janela do café, criando um barulho de fundo que parecia mascarar qualquer som que pudesse ser ouvido. Personagem sorriu para si mesmo, satisfeito com sua capacidade de se adaptar às situações desafiadoras.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "deixou",
+                    "conj"
+                ],
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Fernandes",
+        "sentence": "O cocheiro esfriou e respondeu calado, metendo a mão no bolso para tinir a caixa de fósforos; mas tão vagarosamente o fez que João Fernandes a tempo se lembrou de lhe cercear o favor, bastava permitir que acendesse o charuto na lanterna.",
+        "start_char": 1486,
+        "end_char": 1500,
+        "excerpt": "Não é serviço, não; você tem fósforos? O cocheiro esfriou e respondeu calado, metendo a mão no bolso para tinir a caixa de fósforos; mas tão vagarosamente o fez que João Fernandes a tempo se lembrou de lhe cercear o favor, bastava permitir que acendesse o charuto na lanterna.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "lembrou",
+                "child": "João Fernandes a tempo",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "lembrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "O cocheiro esfriou e respondeu calado, metendo a mão no bolso para tinir a caixa de fósforos; mas tão vagarosamente o fez que [MASK] a tempo se lembrou de lhe cercear o favor, bastava permitir que acendesse o charuto na lanterna.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O cocheiro, inquieto e agitado, começou a arrumar as caixas de lenha no chão da carruagem. A próxima coisa que fez foi tirar um charuto da bolsão que pendurava na corda de sua cintoira e procurar uma luz para acendê-lo. Porém, sem querer, ele esqueceu que estava com uma estranha por aí e não se sentia confortável em apresentar seus hábitos privados à desconhecida. Portanto, quando o cocheiro atingiu no fundo de seu bolso pela caixa de fósforos para acender o charuto, o senhor se lembrou da situação delicada e, com a gentileza típica dos nobres, lhe permitiu que utilizasse sua lanterna para acender a cigarra.",
+        "generated_text_llama": "Personagem sorriu satisfeito ao ver o cocheiro ceder, e rapidamente tirou um fósforo da caixa e a acendeu, iluminando a pequena lâmpada de lenço que pendia do balcão do cocheiro. O cocheiro, sem se dar conta, continuou a conduzir, mas Personagem o seguiu com atenção, observando a estrada estreita e sinuosa que os levava longe da cidade. Quando o fósforo começou a queimar, Personagem fez sinal para o cocheiro parar, e quando ele cedeu, desmontou do carrinho e se aproximou da janela, olhando para fora com um olhar penetrante, como se estivesse buscando algo ou alguém.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ],
+                [
+                    "seguiu",
+                    "conj"
+                ],
+                [
+                    "fez",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Fernandes",
+        "sentence": "mas ainda assim era preciso que João Fernandes fosse namorado, e não o era.",
+        "start_char": 2034,
+        "end_char": 2048,
+        "excerpt": "Ventava um pouco  frio, mas brando. Que não haja inverno para namorados, é natural; mas ainda assim era preciso que João Fernandes fosse namorado, e não o era.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "namorado",
+                "child": "João Fernandes",
+                "dep_h": "csubj",
+                "pos_h": "VERB",
+                "lemma_h": "namorar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "João Fernandes",
+                "child": "preciso",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "João",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "preciso",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "mas ainda assim era preciso que [MASK] fosse namorado, e não o era.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem resolveu tomar uma decisão difícil: pedir para um amigo ir com ela àquela festa de aniversário da amiga que havia decidido organizar mesmo sem namorado. O problema era que esse amigo, a quem chamava de Henry, não era apenas qualquer um; ele era o melhor amigo de sua vida e um dos poucos homens que ela conhecia que realmente se encaixavam nos padrões sociais que lhe importavam. Porém, a relação entre eles nunca havia passado do amigo e da melhor amiga.",
+        "generated_text_llama": "Eu sorri para mim mesmo, sentado na mesa do bar, observando as pessoas ao meu redor. Meu amigo, Luís, me pegou pelo braço e me sussurrou: \"O que você vai fazer agora? Seu namorado?\". Eu me virei para ele e dei uma risada irônica. \"Eu não estou aqui para falar sobre isso\", disse eu, sacudindo a cabeça.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "resolveu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Fernandes",
+        "sentence": "Quando João Fernandes foi ter com o anunciante (era mais de meio-dia) achou o lugar ocupado.",
+        "start_char": 3002,
+        "end_char": 3016,
+        "excerpt": "Um lápis sem ponta, uma carta, um anúncio do Jornal do Commercio, em que se diz precisar alguém de um homem para cobrança. O anúncio era da véspera. Quando João Fernandes foi ter com o anunciante (era mais de meio-dia) achou o lugar ocupado.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ter",
+                "child": "João Fernandes",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando [MASK] foi ter com o anunciante (era mais de meio-dia) achou o lugar ocupado.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quando João foi ter com o anunciante (era mais de meio-dia) achou o lugar ocupado. Surpreendido, ele saiu do escritório e, com uma expressão confusa, olhou para as outras pessoas que passeavam pela rua. Ele olhou para a hora do relógio, que indicava que era apenas 12h30, então o anunciante atrasou-se. João pensou em ficar na área comum ou voltar para casa, mas decidiu sentar-se no banco ao lado da porta do escritório e aguardar.",
+        "generated_text_llama": "Quando Personagem foi ter com o anunciante (era mais de meio-dia) achou o lugar ocupado. Ele ficou surpreso e decidiu voltar à casa para tomar um lanche, mas enquanto caminhava, começou a sentir fome intensa e precisava encontrar algo para comer. Após alguns minutos de caminhar, ele finalmente encontrou uma pequena padaria aberta que vendia pão fresco e bolos deliciosos. Personagem entrou na padaria e olhou para as opções, escolhendo um delicioso bolo recheado com creme de chocolate.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "ter",
+                    "advcl"
+                ],
+                [
+                    "pensou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ter",
+                    "advcl"
+                ],
+                [
+                    "entrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Fernandes",
+        "sentence": "Quando lhe acontecia alguma destas (não era a primeira), João Fernandes só tinha dois ou três mil-réis, ia a alguma hospedaria e alugava um quarto pela noite; desta vez havia de contentar-se com a rua.",
+        "start_char": 3754,
+        "end_char": 3768,
+        "excerpt": "Esta noite não achou nada. A boa fada das camas fortuitas e dos amigos encontradiços andaria tresnoitada e dormia também. Quando lhe acontecia alguma destas (não era a primeira), João Fernandes só tinha dois ou três mil-réis, ia a alguma hospedaria e alugava um quarto pela noite; desta vez havia de contentar-se com a rua.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "João Fernandes",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando lhe acontecia alguma destas (não era a primeira), [MASK] só tinha dois ou três mil-réis, ia a alguma hospedaria e alugava um quarto pela noite; desta vez havia de contentar-se com a rua.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quando lhe acontecia alguma destas (não era a primeira), Personagem só tinha dois ou três mil-réis, ia a alguma hospedaria e alugava um quarto pela noite; desta vez havia de contentar-se com a rua. Assim, ele se arrumou rapidamente no hotel e pegou o saco mais leve que tinha para ir de passeio pelo centro da cidade. Passeava por algumas ruas em busca de diversão, mas não encontrava nada interessante. Ao passear pelas ruas pobres da cidade, viu um pequeno barzinho aberto e sentiu uma inesperada atração pelo local. Entrou no barzinho e sentou-se numa cadeira de madeira velha para observar o que acontecia ali.",
+        "generated_text_llama": "E assim, Personagem desceu as ruas escurosas da cidade, olhando em volta com desconfiança, procurando algum lugar para passar a noite. A chuva caía forte, fazendo com que as calçadas se tornassem um mar de água negra e espessa. Ele seguiu uma rua em particular, onde havia muitos bares e tavernas, esperando encontrar alguém que pudesse ajudá-lo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "tinha",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "desceu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Fernandes",
+        "sentence": "João Fernandes pensou em fazer-se ator; não teria talento, nem era preciso muito para dizer o que estivesse no papel.",
+        "start_char": 5654,
+        "end_char": 5668,
+        "excerpt": "Passara por eles, horas antes, vira-os cheios e iluminados, gente que se divertia, mulheres no saguão, sedas, flores, luvas, homens com relógio no colete e charuto na boca. E toda essa gente dormia agora, sonhando com a peça ou com os seus amores. João Fernandes pensou em fazer-se ator; não teria talento, nem era preciso muito para dizer o que estivesse no papel.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "pensou",
+                "child": "João Fernandes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] pensou em fazer-se ator; não teria talento, nem era preciso muito para dizer o que estivesse no papel.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele resolveu seguir adiante e se aventurar no mundo da arte dramática. Inscreveu-se em uma escola de teatro, onde aprendeu a falar, a dançar e a interpretar seus personagens com profundidade e sinceridade. Com o passar dos anos, ele maturou sua técnica e conquistou várias pequenas partes no teatro local. Eventualmente, conseguiu uma chance em um musical e seu talento natural foi revelado ao mundo. A partir daí, sua carreira ganhou impulso e o público o agarrava pela cara com suas interpretações emocionantes. Agora é um ator respeitado no circuito das artes dramáticas brasileiras e segue sendo inspirado para novos desafios a cada dia.",
+        "generated_text_llama": "Personagem sorriu para si mesmo, imaginando sua própria peça de teatro: \"Eu sou o herói, o vilão ou talvez algo mais complexo do que isso\". Em seguida, começou a se imaginar em diferentes cenários: uma cena de batalha com um martelo na mão, uma cena de drama sentado em frente a um fogo, e por fim, uma cena cômica dançando sozinho no palco.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Fernandes",
+        "sentence": "João Fernandes entrou a desvairar ainda mais os passos.",
+        "start_char": 6224,
+        "end_char": 6238,
+        "excerpt": "Chegou a imaginar um enredo, sem advertir que eram reminiscências de várias outras composições. Os varredores das ruas começaram a dificultar o trânsito com a poeira. João Fernandes entrou a desvairar ainda mais os passos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "entrou",
+                "child": "João Fernandes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] entrou a desvairar ainda mais os passos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem, sem dar sequência alguma aos gritos que o espalhavam pela casa, segurou sua cabeça com as mãos e começou a caminhar de corrida pelo teto da biblioteca, em direção à sala do estúdio. Em um esforço para alcançar o objetivo que se apresentara sem aviso prévio, Personagem saltou sobre as estantes e escalou a paredes com velocidade incrível, como uma criatura de sonho. Por fim, chegando no limite final da sala, abriu a porta do estúdio e caiu na escuridão que se espalhava por dentro.",
+        "generated_text_llama": "Personagem entrou a desvairar ainda mais os passos, perdendo-se completamente no labirinto de corredores e salas da mansão abandonada. Ele caminhou com cuidado, tentando não fazer barulho, mas sua mente estava completamente focada na busca pelo tesouro que acreditava que estaria escondido ali. As sombras das paredes pareciam se movimentar em torno dele, criando uma atmosfera de suspense e medo, mas Personagem não parou, seu coração batendo forte com cada passo.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "saltou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "entrou",
+                    "ROOT"
+                ],
+                [
+                    "parou",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Fernandes",
+        "sentence": "João Fernandes perguntava a si mesmo por que não imitaria os ratos; tinha febre, era um princípio de delírio.",
+        "start_char": 6941,
+        "end_char": 6955,
+        "excerpt": "Um ou outro vulto começava a aparecer, mas raro. Os ratos ainda atropelavam o noctâmbulo, correndo de um lado para outro da rua, dando idéia de uma vasta população subterrânea de roedores, que substituíam os homens para não parar o trabalho universal. João Fernandes perguntava a si mesmo por que não imitaria os ratos; tinha febre, era um princípio de delírio.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "perguntava",
+                "child": "João Fernandes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] perguntava a si mesmo por que não imitaria os ratos; tinha febre, era um princípio de delírio.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas mesmo com o corpo debilitado pela doença, ele não pôde evitar a curiosidade que o invadia: como seriam as coisas se pudesse realmente imitar os ratos? Assim, com um arrisco inusitado e uma vontade indomável, Personagem decidiu experimentar. Ele achou um pequeno túnel feito de ramo e folha na parede, e atravessando-o, se tornou mais uma figura imprevisível para os habitantes da floresta.",
+        "generated_text_llama": "Enquanto se sentava no chão, com as costas apoyadas na parede, o barulho dos ratos se tornou cada vez mais alto e discordante em sua mente. Ele não conseguia concentrar-se no seu pensamento, pois seus olhos começaram a se sentir pesados e seu cérebro era envolvido por uma neblina quente.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Fernandes",
+        "sentence": "João Fernandes ouviu-as de um relógio, quando passava pela rua dos Ourives;",
+        "start_char": 7576,
+        "end_char": 7590,
+        "excerpt": "Um charuto, naquela ocasião, seria um grande benefício; um simples cigarro podia enganar a boca, os dois vinténs restantes bastavam-lhe para comprar um ordinário; mas onde? A noite foi inclinando o rosário das horas para a manhã, sua companheira. João Fernandes ouviu-as de um relógio, quando passava pela rua dos Ourives;",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ouviu-as",
+                "child": "João Fernandes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ouviu-as",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] ouviu-as de um relógio, quando passava pela rua dos Ourives;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O carroçinho de Personagem, acompanhado por uma turma de crianças, continuou avançando. Ele sentiu o ressoar do seu relógio e percebeu que estava atrasado. Sem perdere tempo, tomou um rumo para a rua dos Ourives, uma das mais bem-feitas e elegantes da cidade. Lá, o ourives que trabalhava na loja de joias lhe prestava o respeito devido; a cada passagem do carroçinho, paravam as suas atividades para aparar sua estante e dar um olhar curioso ao passeio.",
+        "generated_text_llama": "E decidiu se aproximar para ver melhor o que havia escrito no papelzinho que estava pendurado do relógio. Era uma mensagem escrita à mão, em tinta escura e irregular: \"Encontre-me na praça dos Três Pinos às 23h. - J\".",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Fernandes",
+        "sentence": "João Fernandes correu ao botequim onde tomara chá.",
+        "start_char": 7800,
+        "end_char": 7814,
+        "excerpt": "depois outro relógio deu as mesmas cinco; adiante, outro; mais longe, outro. Uma, duas, três, quatro, cinco, dizia ainda outro relógio. João Fernandes correu ao botequim onde tomara chá.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "correu",
+                "child": "João Fernandes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "correr",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] correu ao botequim onde tomara chá.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem entrou no botequim com a mesma confiança que sempre tinha. O barman estava à espera e abriu as mãos para agarrar o copo de chá que já estava na mesa reservada do cliente. O homem, sem perder tempo, pegou o copo de chá e colocou-o no seu mesquite.",
+        "generated_text_llama": "Muitas pessoas já estiveram no Botequim Sombra, mas poucos conseguiam escapar de seus olhos perspicazes. Personagem sentou-se à mesa, rodeado por velhas histórias e risadas que pareciam ter um sabor próprio. Ele pediu chá preto e sorriu para a barista, uma garota com um chapéu de couro que o olhava com uma mistura de curiosidade e desconfiança.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Fernandes",
+        "sentence": "João Fernandes acabou de ler o Jornal à luz do dia.",
+        "start_char": 8397,
+        "end_char": 8411,
+        "excerpt": "O rumor trazia a João Fernandes a sensação da vida; gentes, falas, carroças, aí recomeçava a cidade e a faina. O dia vinha andando, rápido, cada vez mais rápido, até que tudo ficou claro; o botequim apagou o gás. João Fernandes acabou de ler o Jornal à luz do dia.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "trazia",
+                "child": "a João Fernandes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "trazer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "acabou",
+                "child": "João Fernandes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acabar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] acabou de ler o Jornal à luz do dia.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem, depois de concluir a leitura do jornal à luz do dia, entrou em seu estúdio e abriu seu quadro-pintor com uma expressão inquietante no rosto. Uma paleta de cores vibrantes estava pronta sobre a mesa, alinhadas em ordem: vermelho intenso, amarelo vivo, azul claro e prata brilhante. Ele começou a combinar as cores na tela do quadro, criando um movimento dinâmico com as pinceladas suaves e precisas. Ao longo das horas, o quadro começou a assumir uma forma parecida com um focinho de leão. O trabalho era rápido, mas metódico; como sempre se passava quando Personagem estava em seu estado criativo máximo. À medida que as trevas se espalhavam pela sala e o tempo avançava, a luz da vela encendida no centro do teto iluminava o quadro em cima do tabelão, fazendo com que as cores brilhassem de maneira espectacular. Por fim, Personagem desceu da escada e colocou sua paleta de cores em seu local, olhando para o quadro com um olhar satisfeito. Ao lado do tabelão, uma espécie de leão estava olhando atento ao retrato recém-pintado que refletia a força e a majestade de um monarca selvagem.",
+        "generated_text_llama": "Personagem começou a se preparar para o dia, sentando-se na bancada do banheiro e passando a escovar os dentes com um pouco de desânimo. Ele sabia que teria uma longa jornada pela frente, e que precisaria se concentrar para alcançar seus objetivos.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "estado",
+                    "obl"
+                ],
+                [
+                    "desceu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

@@ -1,0 +1,223 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Paulina Castanheira",
+        "sentence": "Na Rua de Santo Amaro (o número da casa não importa) mora a família Castanheira, composta de pai, Sr. João Castanheira, empregado público; da mãe, D. Fulgência Castanheira; e da filha, senhorita Paulina Castanheira, moça de dezoito anos, inteligente, bonita e prendada.",
+        "start_char": 317,
+        "end_char": 336,
+        "excerpt": "Por causa do Sr. Artur Leivas, desmanchou-se anteontem um casamento! O caso, conto como o caso foi: Na Rua de Santo Amaro (o número da casa não importa) mora a família Castanheira, composta de pai, Sr. João Castanheira, empregado público; da mãe, D. Fulgência Castanheira; e da filha, senhorita Paulina Castanheira, moça de dezoito anos, inteligente, bonita e prendada.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "senhorita",
+                "child": "Paulina Castanheira, moça de dezoito anos, inteligente, bonita e prendada",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "senhoritar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulina",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Na Rua de Santo Amaro (o número da casa não importa) mora a família Castanheira, composta de pai, Sr. João Castanheira, empregado público; da mãe, D. Fulgência Castanheira; e da filha, senhorita [MASK], moça de dezoito anos, inteligente, bonita e prendada.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " A senhorita Maria Castanheira, continuava a caminhar pelo jardim tranquilo que envolvia sua casa na Rua de Santo Amaro. Sua mãe D. Fulgência já havia falado com ela sobre o casamento e tinha dito que, de certa forma, era tempo de pensar nisso. Porém, Maria, emocionada pela vida, pelo conhecimento e pelo desejo de fazer algo importante, acabava se distraída quando acontecia tudo isso.",
+        "generated_text_llama": "Ela foi até o balcão, onde sua mãe, D. Fulgência, estava preparando a refeição do dia, com os mesmos cuidados que fazia todos os dias: um café forte para o pai, uma xícara de chá mais suave para ela mesma e um prato de feijão preto para o pai, que era o principal complemento da dieta de Sr. João.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "falado",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paulina",
+        "sentence": "O Pacheco, o Pachequinho da Alfândega, durante um ano inteiro namorou Paulina, ele da rua, ela da sacada, mas ultimamente achou meios e modos de penetrar na praça, e poucos dias depois pedia solenemente a mão da moça, que lhe foi concedida.",
+        "start_char": 462,
+        "end_char": 469,
+        "excerpt": "O caso, conto como o caso foi: Na Rua de Santo Amaro (o número da casa não importa) mora a família Castanheira, composta de pai, Sr. João Castanheira, empregado público; da mãe, D. Fulgência Castanheira; e da filha, senhorita Paulina Castanheira, moça de dezoito anos, inteligente, bonita e prendada. O Pacheco, o Pachequinho da Alfândega, durante um ano inteiro namorou Paulina, ele da rua, ela da sacada, mas ultimamente achou meios e modos de penetrar na praça, e poucos dias depois pedia solenemente a mão da moça, que lhe foi concedida.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "senhorita",
+                "child": "Paulina Castanheira, moça de dezoito anos, inteligente, bonita e prendada",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "senhoritar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulina",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "namorou",
+                "child": "Paulina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "namorar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulina",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "O Pacheco, o Pachequinho da Alfândega, durante um ano inteiro namorou [MASK], ele da rua, ela da sacada, mas ultimamente achou meios e modos de penetrar na praça, e poucos dias depois pedia solenemente a mão da moça, que lhe foi concedida.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ao receber um sim do coração de sua namorada, o Pacheco ficou surdo ao mundo que o rodeava, tamanha foi a emoção que o inundou. Sua faceta despreocupada e engraçada cedeu lugar a uma pátina de sentimento genuíno. Ele passou a preparar um encontro romântico na praça onde eles gostavam de passear, com tudo que ele conhecia em flores e luzes: uma serenata para o amor de sua vida.",
+        "generated_text_llama": "",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Artur Leivas",
+        "sentence": "- Puelina, explicou, sorrindo, o Pachequinho, é o tratamento que Artur Leivas propõe, na Notícia de hoje, para substituir senhorita.",
+        "start_char": 1124,
+        "end_char": 1136,
+        "excerpt": "- Puelina! exclamou o pai Castanheira. Que diabo vem a ser isso? - Puelina, explicou, sorrindo, o Pachequinho, é o tratamento que Artur Leivas propõe, na Notícia de hoje, para substituir senhorita.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "propõe",
+                "child": "Artur Leivas",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "propor",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Artur",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Artur Leivas",
+                "child": "é o tratamento",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Artur",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "tratamento",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "- Puelina, explicou, sorrindo, o Pachequinho, é o tratamento que [MASK] propõe, na Notícia de hoje, para substituir senhorita.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Agora, Puelina seguiu a frente, com uma expressão de pensativação profunda em seu rosto. Acertou-se nos olhos com os amigos e colaboradores que se reuniam na sala, todos atentos à sua palavra.",
+        "generated_text_llama": "O Pachequinho, que estava nervoso demais para responder a mais nenhuma pergunta, apenas assentiu com a cabeça, enquanto olhava para o ângulo superior direito da tela, onde uma légua pequena apareceu para mostrar um elenco de personagens. Personagem sorriu, satisfeito consigo mesmo por ter conseguido convencer o Pachequinho a usar esse tipo de tratamento. Com um gesto rápido, ele apertou o botão que fechava a tela e se levantou da cadeira, pronto para seguir em frente com a transmissão.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "seguiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Artur Leivas",
+        "sentence": "Olhe o que escreve Artur Leivas!",
+        "start_char": 1604,
+        "end_char": 1616,
+        "excerpt": "- Puelina é delicioso, contrariou o Pachequinho. A palavra parece esquisita porque é nova, mas quando tiver algum uso, verão! Olhe o que escreve Artur Leivas!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "escreve",
+                "child": "Artur Leivas",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "escrever",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Artur",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Olhe o que escreve [MASK]!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele olhou com surpresa e curiosidade para o que estava escrito no papel. Era uma série de símbolos e figuras intrigantes que ele nunca havia visto antes. O papel, velho e sujo, parecia ter passado por muitas mãos. Ele recuou uma pouquíssima porção para trás e encontrou outros papéis escondidos entre as paredes da sala escura. Um deles mostrava um mapa intricado de sinais e linhas que pareciam marcar o caminho para algum lugar. Sem pensar duas vezes, Personagem se afastou do local e seguiu o mapa escondido entre suas mãos.",
+        "generated_text_llama": "Olhe o que escreve Personagem, e percebeu que estava criando um mundo todo seu, cheio de personagens misteriosos e histórias emocionantes. Ela havia sempre amado escrever, mas nunca se atreveu a compartilhar suas criações com ninguém. Agora, sentindo-se mais confiante, Personagem começou a ler o que havia escrito, sorrindo ao ver como as palavras haviam se tornado vida.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "afastou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "escreve",
+                    "acl:relcl"
+                ]
+            ]
+        }
+    }
+]

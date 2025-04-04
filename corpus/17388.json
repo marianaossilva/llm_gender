@@ -1,0 +1,1074 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Jaime",
+        "sentence": "Jaime não prestava atenção ao que se passava ali; e exclamava de quando em quando:",
+        "start_char": 5826,
+        "end_char": 5831,
+        "excerpt": "E dizendo isto o velho teve um sorriso tão infernal, tão sombrio, tão lúgubre, que eu tive idéia de me ir embora. Reteve-me a curiosidade de chegar ao fim. Jaime não prestava atenção ao que se passava ali; e exclamava de quando em quando:",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "prestava",
+                "child": "Jaime",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "prestar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jaime",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não prestava atenção ao que se passava ali; e exclamava de quando em quando:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem continuou andando livremente pela floresta, despreocupado com o que estava acontecendo ao seu redor. De vez em quando, ele exclamaria: \"Ei! Vocês querem batalhar comigo?\". Sua voz era forte e determinada, mas seus olhos permaneciam trancados no espaço vazio em frente a ele. Era claro que ele estava longe do mundo exterior, totalmente envolvido na sua própria fantasia.",
+        "generated_text_llama": "\"Que loucura!\", enquanto seguia pela calçada estreita, os braços cruzados sobre o peito, seus olhos fixos no horizonte. Não estava preocupado com o barulho dos carros que passavam pelo seu lado, nem com os pedintes que se aproximavam para solicitar dinheiro. Ele estava concentrado em sua própria realidade, uma realidade onde tudo fazia sentido e as coisas eram como deveriam ser.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jaime",
+        "sentence": "A conversa passou à história, e Jaime exaltou os tempos antigos, a virtude romana, as páginas de Plutarco, Tito Lívio e Suetônio.",
+        "start_char": 6537,
+        "end_char": 6542,
+        "excerpt": "Não falava sem gesticular com o braço esquerdo, com a mão fechada, e o dedo polegar aberto. Contava anedotas de mulheres e mostrava-se grande apreciador do sexo amável; era exímio na descrição da beleza feminina. A conversa passou à história, e Jaime exaltou os tempos antigos, a virtude romana, as páginas de Plutarco, Tito Lívio e Suetônio.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "exaltou",
+                "child": "Jaime",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "exaltar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jaime",
+                "word_categories": [
+                    "emo"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A conversa passou à história, e [MASK] exaltou os tempos antigos, a virtude romana, as páginas de Plutarco, Tito Lívio e Suetônio.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele, então, retirou de seu estante um volume grande e espesso, encosto no velho e com o vello amarelo cobrindo as páginas: era a edição ilustrada dos textos de Plutarco. Levantando a lanterna, começou a ler uma história que já conhecia bem: a de Marco Aurélio, o último imperador romano, um filósofo apaixonado pelo stoicismo.",
+        "generated_text_llama": "Com um sorriso nostálgico no rosto, Personagem aproximou-se do estante e deslizou uma das pilhas de livros para o chão. Ele puxou a estante para frente e revelou uma seção inteira dedicada aos grandes líderes da Antiguidade. As imagens dos imperadores romanos, como Augusto e Trajano, pareciam saltar do papel com sua presença majestosa.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "aproximou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jaime",
+        "sentence": "Comerei pouco, respondeu Jaime; estou indisposto.",
+        "start_char": 6811,
+        "end_char": 6816,
+        "excerpt": "Seria um doido, mas conversava com muito juízo. Sobre a tarde tive fome e convidei-o a jantar. Comerei pouco, respondeu Jaime; estou indisposto.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "respondeu",
+                "child": "Jaime",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jaime",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Jaime",
+                "child": "Comerei",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Jaime",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Comerei",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Comerei pouco, respondeu [MASK]; estou indisposto.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Com o rosto enrugado e os olhos abaixados, ele disse com dificuldade: \"Estou indisposto.\"",
+        "generated_text_llama": "Eu me levantei lentamente do sofá, sentindo uma onda de cansaço se espalhar por meu corpo. Minha cabeça estava girando ligeiramente, e eu tive que apoiar-me na cadeira para não perder o equilíbrio. Com um esforço maior do que necessário, consegui me arrastar até a pia da cozinha, onde me inclinei sobre a torneira para beber um pouco de água gelada.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jaime",
+        "sentence": "Jaime tremia quando chegou à porta da sala.",
+        "start_char": 7168,
+        "end_char": 7173,
+        "excerpt": "Duas estantes, um globo, vários alfarrábios espalhados no chão, uma parte sobre uma mesa, e uma cama antiga. Eram seis horas da tarde quando entramos. Jaime tremia quando chegou à porta da sala.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tremia",
+                "child": "Jaime",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tremir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jaime",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] tremia quando chegou à porta da sala.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas logo, ao ouvir uma voz suave e amena por dentro da sala, a coragem de Personagem começou a retornar. Ao lado dele, o pato-dourado, que ele havia encontrado no caminho até aquela casa, zambujejava tranquilamente.",
+        "generated_text_llama": "Ele batiu suavemente na porta e esperou um momento antes de chamá-la novamente. Quando finalmente a porta se abriu, uma figura loira entrou no quarto com um sorriso no rosto. Era sua melhor amiga, Léa.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jaime",
+        "sentence": "O gato voltou-se para ele; e Jaime beijou repetidas vezes a cabeça do gato.",
+        "start_char": 8231,
+        "end_char": 8236,
+        "excerpt": "Não faz mal, respondeu-me o velho. Júlio César, não é verdade que tu não fazes mal a este senhor? O gato voltou-se para ele; e Jaime beijou repetidas vezes a cabeça do gato.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "beijou",
+                "child": "Jaime",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "beijar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jaime",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "O gato voltou-se para ele; e [MASK] beijou repetidas vezes a cabeça do gato.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, [o homem] deixou cair lentamente no sofá com uma expressão triste e apaixonada em seu rosto. O gato, satisfeito, seguiu-se até o lado inferior da mesa, onde acostumava-se a dormir. [O homem], ao ver isso, sorriu e passou as mãos pelos cabelos do gato, que se acostumara com esta rotina quente e amorosa de boas-noites. Ele sentia que o gato era mais um membro da família do que uma simples animal doméstico e o amava profundamente.",
+        "generated_text_llama": "Com um sorriso suave, Personagem inclinou-se ainda mais para frente e começou a cantar uma melodya suave e sedutora, que fazia com que o gato se acalmasse ainda mais. O animal, inicialmente assustado, agora parecia estar relaxando sob os seus cuidados, seus olhos fechados em sinal de gratidão.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "inclinou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jaime",
+        "sentence": "Jaime acariciou o gato enquanto eu por me distrair lia o título das obras que estavam nas estantes.",
+        "start_char": 8509,
+        "end_char": 8514,
+        "excerpt": "Haveria alguma coisa entre aquele homem e aquele bicho? Não pude explicá-lo. Jaime acariciou o gato enquanto eu por me distrair lia o título das obras que estavam nas estantes.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "acariciou",
+                "child": "Jaime",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acariciar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jaime",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] acariciou o gato enquanto eu por me distrair lia o título das obras que estavam nas estantes.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele desceu da cadeira e abriu as mãos para acariciar o gato mais uma vez, sentindo a calma espalhar-se por ele. Em seguida, caminhou até as estantes e perguntou ao assistente virtual sobre as obras que lá estavam. \"Obras de arte impressionistas\", respondeu o assistente sem hesitar. O homem observou o título da primeira obra: \"Le chasseur blanc\", pintado por Paul Gauguin, e a sentiu como uma chama acendida em seu coração. Ele puxou a peça para mais perto, com a visão fixa no quadro. Então, inesperadamente, olhou para o gato que, de repente, começou a maia-maiar e se aproximar da peça de arte. Surpreso, o homem segurou a obra com ambas as mãos e tentou manter o gato afastado. Mas o gato não parecia ter entendido sua intenção e acabou pousando um pé na borda inferior da tela, deixando aquele óleo impressionista lá, marcada pela marca do pata do animal. \"Bom\", pensou o homem, sorrindo gentilmente enquanto olhava para o gato e então voltou suas atenções para a peça de arte, que já estaria desfigurada. Porém, ele não ficou enfurecido ou perturbado. Em vez disso, sentiu-se mais próximo da natureza e aquele instante se transformou em uma lembrança agradável para sempre.",
+        "generated_text_llama": "Enquanto a mão de Personagem continuava a acariciar o gato, ele sentiu uma sensação de paz e tranquilidade que não sentia há muito tempo. O gato, percebendo a atenção, começou a se relaxar ainda mais, fechando os olhos e sussurrando um som suave. Personagem sorriu ao ver o seu amigo feliz, e sua mente começou a se distrair novamente com as estantes das obras.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "segurou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jaime",
+        "sentence": "Jaime acabou de vestir o chambre, e veio a mim.",
+        "start_char": 8989,
+        "end_char": 8994,
+        "excerpt": "Em que queria o senhor que eu acreditasse? Um homem instruído, como o senhor, não devia crer em tolices desta ordem, respondi abrindo a livro. Jaime acabou de vestir o chambre, e veio a mim.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "acabou",
+                "child": "Jaime",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acabar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jaime",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] acabou de vestir o chambre, e veio a mim.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele me olhou, sorrindo gentilmente. Depois de um instante, ele se sentou em uma cadeira ao lado da minha mesa e observou-me com uma intensidade que não havia visto antes. Eu me sentei ainda mais deprimido, não sabendo como abordar esse momento.",
+        "generated_text_llama": "Enquanto olhava para ele com um sorriso leve, Personagem sentiu um aumento de energia e uma sensação de renovamento que nunca havia experimentado antes. Com os braços cruzados, ele se aproximou dele com passos confiantes, seus olhos brilhando com curiosidade. \"O que é que você está fazendo aqui?\", perguntou Personagem, sua voz suave e melodiosa, como se estivesse se dirigindo a um amigo velho. Ele esperava uma resposta espontânea, mas a expressão de Personagem sugeria que havia algo mais do que apenas um encontro casual em mente.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "perguntou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jaime",
+        "sentence": "Jaime tinha a palavra fácil, ardente, impetuosa;",
+        "start_char": 9584,
+        "end_char": 9589,
+        "excerpt": "Levou-me a uma poltrona de couro e obrigou-me a sentar ali. Depois foi sentar-se ao pé da mesa, em frente a mim e começou a desenvolver a sua teoria, que eu ouvi sem pestanejar. Jaime tinha a palavra fácil, ardente, impetuosa;",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "Jaime",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jaime",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] tinha a palavra fácil, ardente, impetuosa;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas ela não só tinha a palavra, ela tinha também o coragem e a determinação para agir. Ela se levantou da cadeira com um ar vivo e, sem perdendo tempo, começou a preparar-se para ir ao encontro de seu destino. Escolheu uma roupa simples e prática, mas que também lhe daria confiança e força. Depois disso, retirou o pistolete do cinto e verificou se ele estava carregado e funcional. Finalmente, com a mão esquerda segurando o relógio, que havia herdado de sua avó, e a direita no pistolete, ela saiu da casa e começou a caminhar para uma jornada incerta, mas promissora.",
+        "generated_text_llama": "E quando estava determinado, era como se uma furacão tivesse sido liberado dentro dele, movendo-se com uma energia incontrolável e deixando todo o caminho para trás em ruínas. Com essa mesma intensidade, Personagem decidiu que não havia mais tempo para hesitar ou dar desculpas. Ele sabia exatamente do que estava falando e estava pronto para lutar por aquilo que acreditava ser justo. Sem perder um momento, Personagem se pôs em pé e começou a caminhar em direção à cidade, prontuário para enfrentar o que fosse necessário para defender sua causa.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "pôs",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jaime",
+        "sentence": "Jaime acabou de falar e caiu numa espécie de prostração.",
+        "start_char": 9902,
+        "end_char": 9907,
+        "excerpt": "Ouvi o discurso do homem, e não ousei contestar-lhe. Era evidentemente um doido; e ninguém discute com homem doido. Jaime acabou de falar e caiu numa espécie de prostração.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "acabou",
+                "child": "Jaime",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acabar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jaime",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] acabou de falar e caiu numa espécie de prostração.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois que Personagem se inclinou em uma postura de prostração, um silêncio tácido tomou posse do ar, como se o mundo fosse pautado por algum invisível e implacável metronômico. As costelas de Personagem subiam e descem com ritmo irregular, indo e vindo naquele momento exaltante. Os olhos do Personagem eram profundos, um mar de lágrimas suspensas que se fundiam no esfalo das pálpebras. Por fim, ele levantou a cabeça e, com uma voz frágil mas determinada, fez um pedido: \"Por favor, levem-me embora...\"",
+        "generated_text_llama": "Enquanto o silêncio a envolvia, Personagem se levantou lentamente, seus olhos fixos no chão, como se estivesse tentando reencontrar o equilíbrio após uma queda. Ele respirou fundo e sentiu o ar quente e úmido do ambiente tropical entrar pela boca. Com um esforço, Personagem se inclinou para frente, apoiando-se na calça de borracha que usava nos pés, e começou a se arrastar em direção à saída da clareira.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "inclinou",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ],
+                [
+                    "inclinou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jaime",
+        "sentence": "O gato saltou à mesa, entre mim e ele, e começou a passar a mão pela cara de Jaime, o que o fez despertar daquele abatimento.",
+        "start_char": 10087,
+        "end_char": 10092,
+        "excerpt": "Jaime acabou de falar e caiu numa espécie de prostração. Cerrou os olhos e ficou insensível alguns minutos. O gato saltou à mesa, entre mim e ele, e começou a passar a mão pela cara de Jaime, o que o fez despertar daquele abatimento.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "acabou",
+                "child": "Jaime",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acabar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jaime",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "cara",
+                "child": "Jaime",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "cara",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Jaime",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "passar",
+                        "child": "cara",
+                        "dep_h": "xcomp",
+                        "pos_h": "VERB",
+                        "lemma_h": "passar",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "cara"
+                    },
+                    {
+                        "head": "cara",
+                        "child": "Jaime",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "cara",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Jaime"
+                    },
+                    {
+                        "head": "Jaime",
+                        "child": "cara",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Jaime",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "cara"
+                    }
+                ]
+            },
+            {
+                "head": "Jaime",
+                "child": "cara",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Jaime",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "cara",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "passar",
+                        "child": "cara",
+                        "dep_h": "xcomp",
+                        "pos_h": "VERB",
+                        "lemma_h": "passar",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "cara"
+                    },
+                    {
+                        "head": "cara",
+                        "child": "Jaime",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "cara",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Jaime"
+                    },
+                    {
+                        "head": "Jaime",
+                        "child": "cara",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Jaime",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "cara"
+                    }
+                ]
+            }
+        ],
+        "masked_sentence": "O gato saltou à mesa, entre mim e ele, e começou a passar a mão pela cara de [MASK], o que o fez despertar daquele abatimento.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele me olhou de forma suave, como se estivesse tranquilizando-me. Em seguida, abriu os olhos lentamente e, com um leve sorriso em seus lábios, me levantou da cadeira com suas mãos fortes e tão gentis. Ele não falava muito, mas sempre sabia como fazer-me sentir que estava ao seu lado.",
+        "generated_text_llama": "Eu ri, surpreso com a sua atitude tão ousada, e comecei a rir ao mesmo tempo, enquanto ele continuava a passar a mão pela minha cara, deixando um caminho de pele sensível e rosada na minha pele. O gato parecia relaxado, como se tivesse finalmente encontrado o que estava procurando - atenção. Eu me senti um pouco desconfortável com a situação, mas não conseguia nem querer tirar os olhos dele, tão fascinante era sua energia. De repente, ele parou de passar a mão pela minha cara e se inclinou para o lado, como se estivesse preparando-se para algo. Eu me senti um pouco ansioso, mas o gato simplesmente começou a lamber minhas mãos com seu linguejota, deixando um sabor doce e fresco em sua pele. Foi então que eu percebi que o gato não estava apenas procurando atenção, mas também companhia. E, de repente, eu me senti como se estivesse sendo convidado a entrar num mundo novo e emocionante.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júlio",
+        "sentence": "Júlio não parecia entender a pergunta; alteou o lombo, descreveu com a cauda algumas figuras geométricas no ar, deu dois saltos e pulou ao chão.",
+        "start_char": 10203,
+        "end_char": 10208,
+        "excerpt": "Júlio! exclamava ele beijando o gato; será hoje? será hoje? Júlio não parecia entender a pergunta; alteou o lombo, descreveu com a cauda algumas figuras geométricas no ar, deu dois saltos e pulou ao chão.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "exclamava",
+                "child": "Júlio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "exclamar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "parecia",
+                "child": "Júlio",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "parecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não parecia entender a pergunta; alteou o lombo, descreveu com a cauda algumas figuras geométricas no ar, deu dois saltos e pulou ao chão.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Sem perder tempo, ela baixou a cabeça e olhou em direção à pessoa que lhe falara. Seu rosto era bem sério e parecia estar meio confuso com as formas que estavam no ar. Ela entrou em um estado de transe, e, ao concluir as figuras geométricas, levantou a cabeça e olhou para o chão, deparando-se com aquela pessoa novamente. Era ela que lhe havia falado antes.",
+        "generated_text_llama": "Com um movimento ágil, Personagem começou a dançar ao redor do círculo de madeira, como se estivesse tentando comunicar-se com as forças da natureza. Sua pele brilhou sob os raios do sol, e seus olhos pareciam brilhar com um misto de curiosidade e medo. Em seguida, ele começou a arrastar o seu pobre corpo para a direção do que parecia ser o coração da rocha, como se estivesse em busca de algum segredo escondido.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jaime",
+        "sentence": "Jaime acendeu um lampião, enquanto eu me levantava para me ir embora.",
+        "start_char": 10348,
+        "end_char": 10353,
+        "excerpt": "será hoje? será hoje? Júlio não parecia entender a pergunta; alteou o lombo, descreveu com a cauda algumas figuras geométricas no ar, deu dois saltos e pulou ao chão. Jaime acendeu um lampião, enquanto eu me levantava para me ir embora.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "acendeu",
+                "child": "Jaime",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acender",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jaime",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] acendeu um lampião, enquanto eu me levantava para me ir embora.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Ótimo. A história continua. O Personagem, com uma expressão triste e serena em seu rosto, segurou o lanterna no seu braço esquerdo e olhou para mim com os olhos claros que sempre lhe faziam sentir-se inesperadamente seguro. Depois de um silêncio pesado, ele abriu a boca e disse: \"Sinto muito, meu amigo. Mas tudo o que podemos fazer agora é esperar\". Então ele se inclinou ligeiramente em meu direção, como se fosse para dar um último abraço antes de nos separarmos definitivamente.",
+        "generated_text_llama": "Enquanto eu estava prestes a sair, Personagem me encaregou com uma expressão séria e disse: \"Achei que deveria conversarmos sobre o que aconteceu anteriormente à noite\". Eu hesitei por um momento, mas a curiosidade prevaleceu e perguntei o que ele queria dizer. Personagem se aproximou do balcão e começou a acender os cigarros, enquanto continuava a conversar.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "segurou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "encaregou",
+                    "ROOT"
+                ],
+                [
+                    "aproximou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jaime",
+        "sentence": "Não se vá, meu amigo, disse-me Jaime;",
+        "start_char": 10449,
+        "end_char": 10454,
+        "excerpt": "Júlio não parecia entender a pergunta; alteou o lombo, descreveu com a cauda algumas figuras geométricas no ar, deu dois saltos e pulou ao chão. Jaime acendeu um lampião, enquanto eu me levantava para me ir embora. Não se vá, meu amigo, disse-me Jaime;",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "acendeu",
+                "child": "Jaime",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acender",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jaime",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "disse-me",
+                "child": "Jaime",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "disse-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jaime",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Jaime",
+                "child": "disse-me",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Jaime",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "disse-me",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Não se vá, meu amigo, disse-me [MASK];",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele me olhou para mim com um sorriso e um tom brando, dizendo: \"Não me levem, meu amigo. Deixa que eu faça isso sozinho\". Então, em vez de seguir o conselho, eu me aproximei dele, me apressando para tocar suas costas, sinalizando que estou aqui para o ajudar. Ele ficou surpreso por um instante e então me enfiou o nariz em minha direção, sorrindo novamente e dizia: \"Você sempre tem essa maneira de tomar as coisas no seu próprio curso\". Eu senti uma onda de calor passar por mim e respondi-lhe com uma risada: \"Algo que eu admiro em você, meu amigo. Confiança inabalável!\"",
+        "generated_text_llama": "Não se vá, meu amigo, disse-me Personagem, com lágrimas nos olhos, enquanto segurava a mão de seu melhor amigo, Pedro. Ele sabia que Pedro estava determinado a seguir em frente, mas ele não podia deixar que isso acontecesse. \"O que vai fazer sem mim?\", perguntou Pedro, notando a expressão de preocupação do Personagem. O Personagem assentiu lentamente e disse: \"Vai encontrar pessoas que o amam e que vão cuidar dele\". Pedra olhou para ele com curiosidade, mas logo fechou os olhos e começou a caminhar em direção à porta. O Personagem o seguiu, colocando uma mão na espinha do amigo para evitar que ele fugisse.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "assentiu",
+                    "ROOT"
+                ],
+                [
+                    "seguiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "disse-me",
+                    "parataxis"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jaime",
+        "sentence": "disse Jaime com os olhos em fogo.",
+        "start_char": 10710,
+        "end_char": 10715,
+        "excerpt": "Não me dirá, perguntei eu, que tem o senhor com os idos de março? Que tenho? disse Jaime com os olhos em fogo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Jaime",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jaime",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "disse [MASK] com os olhos em fogo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem agarrou uma das velas que iluminavam o salão e a jogou no chão com veemência. A vela ardia fervorosamente, enquanto Personagem gritava, \"Que tipo de pessoa você é? Você me traiu!\" Seus olhos ardiam mais que a vela que acabara de apagado e sua voz estava tremendo de raiva.",
+        "generated_text_llama": "Descobriu que estava na sala de aula da escola quando tudo começou a acontecer. Personagem tinha sempre sido um aluno mais calmo e introspectivo, mas agora sentia uma energia intensa correndo por dentro dele. Ele olhou em volta, tentando entender o que estava acontecendo, mas todos os outros alunos estavam igualmente confusos e assustados.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "agarrou",
+                    "ROOT"
+                ],
+                [
+                    "gritava",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "aluno",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jaime",
+        "sentence": "Jaime inclinou-se sobre a mesa e disse-me ao ouvido:",
+        "start_char": 10783,
+        "end_char": 10788,
+        "excerpt": "Pouco sei. Não sabe nada. Jaime inclinou-se sobre a mesa e disse-me ao ouvido:",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "inclinou-se",
+                "child": "Jaime",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "inclinar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jaime",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] inclinou-se sobre a mesa e disse-me ao ouvido:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " -\"Me desculpe, mas estou procurando algo muito importante\", dizia ele, movimentando as mãos sob o liso e polido espelho da superfície da mesa. Em seguida, com uma leve deslizagem, abriu uma armadinha escondida embaixo do painel inferior, revelando um pequeno cachêco de papéis ensaiados e fofos, assim como algumas fotografias velhas. Ele me segurou o olhar enquanto abria a pasta de papéis e deslizava as imagens entre suas mãos. \"É estranho como isso se apresente novamente\", disse ele, sorrindo, olhando para um retrato antigo dele próprio com um rapaz de seu mesmo idade. Depois de minuto ou dois, fechou a armadinha e retomou sua posição. \"Eu acredito que tenha encontrado o que eu estava procurando\", disse ele, olhando-me fixamente com um sorriso misterioso.",
+        "generated_text_llama": "\"Eu estou sendo observado\", sussurrou Personagem, com uma voz baixa e cautelosa, olhando ao redor como se temesse ser descoberto por alguma coisa. Ele então puxou uma chave de fenda de um bolso escondido e a inseriu em uma pequena abertura na mesa, que parecia ser uma chavesinha secreta. Com um clic, uma parte da mesa se abriu, revelando um compartimento escondido.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "procurando",
+                    "ccomp"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sussurrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Antônio",
+        "sentence": "Bem o compreendia César quando dizia que não temia a Antônio e Dolabela, mas sim àqueles dois sujeitos amarelos e magros e éramos Cássio e eu...  Pensa então o senhor que...  Penso que homem gordo não faz revolução.",
+        "start_char": 13264,
+        "end_char": 13271,
+        "excerpt": "Estou mais gordo, disse ele; naquele tempo eu era magro. Coisa natural; homem gordo não faz revolução. Bem o compreendia César quando dizia que não temia a Antônio e Dolabela, mas sim àqueles dois sujeitos amarelos e magros e éramos Cássio e eu...  Pensa então o senhor que...  Penso que homem gordo não faz revolução.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "temia",
+                "child": "Antônio",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "temiar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Antônio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Antônio",
+                "child": "Dolabela",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Antônio",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dolabela",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Dolabela",
+                "child": "Antônio",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Dolabela",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Antônio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Bem o compreendia César quando dizia que não temia a [MASK] e Dolabela, mas sim àqueles dois sujeitos amarelos e magros e éramos Cássio e eu...  Pensa então o senhor que...  Penso que homem gordo não faz revolução.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, o Senhor Cesar pensou um instante sobre a declaração de sua esposa. A ideia de lutar contra duas pessoas não era sua prioridade, mas a imagem dos dois indivíduos amarelos e magros que ela mencionou lhe despertou uma certa raiva e determinação. Eles eram Cássio e Pedro, os trabalhadores escravizados da fazenda. Cesar já havia tentado em vão convencer-os a trabalhar com mais dedicação e respeito pelo senhorismo, mas nada tinha mudado.",
+        "generated_text_llama": "Ele me olhou com uma mistura de ironia e determinação, enquanto continha um sorriso astuto nos lábios. \"Sim, sim\", ele disse, \"os amarelos e magros são sempre os mais perigosos. Mas você sabe quem é o verdadeiro inimigo aqui? É a própria impaciência e a falta de habilidade tática. Eu estou cansado de ter que lidar com essa situação todo o tempo. É hora de mudanças\".",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "pensou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Catão",
+        "sentence": "Catão não teve outro meio: subiu à tribuna e falou até a noite, falou sem parar um minuto.",
+        "start_char": 14552,
+        "end_char": 14557,
+        "excerpt": "Ah!  Foi inventada por meu ilustre sogro, o incomparável Catão, quando César, voltando vencedor da Espanha, queria o triunfo e o consulado. A assembléia inclinava-se a favor do pretendente; Catão não teve outro meio: subiu à tribuna e falou até a noite, falou sem parar um minuto.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "inventada",
+                "child": ", o incomparável Catão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "inventar",
+                "dep_c": "nsubj:pass",
+                "pos_c": "PROPN",
+                "lemma_c": "Catão",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "teve",
+                "child": "Catão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Catão",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não teve outro meio: subiu à tribuna e falou até a noite, falou sem parar um minuto.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Não houve momento de descanso para ele: ele continuava a se movimentar em cima da tribuna, passando das palavras que lhe vinham ao ouvido como uma onda contínua. Seu corpo enervado e tremulante, seus olhos brilhantes e determinados, sua voz forte e emocionada falava em favor do movimento popular. A multidão assistia atentamente a ele, enlouquecida por seu discurso incendiário e por sua energia contagiosa. Era o momento da luta e o líder não podia deixar de lembrá-los de como tudo começara e do que eles lutavam para conseguir - uma sociedade justa e livre, onde todos pudessem viver em harmonia e prosperidade.",
+        "generated_text_llama": "E assim, Personagem, com voz clara e determinada, começou a falar sobre as injustiças que o mundo enfrentava. Ela abordou temas como a desigualdade econômica, a discriminação e a falta de representação política para as minorias. A multidão, inicialmente surpresa com a apresentação inesperada, começou a se engajar na conversa, perguntando e discutindo com Personagem. Ela respondia com calma e sabedoria, compartilhando suas experiências pessoais e as histórias de outros que haviam lido nos corações da plateia. A noite se tornou um momento de conexão e inspiração para muitos, que se sentiram motivados a fazer uma diferença positiva no mundo. Personagem, agora uma figura carismática e respeitada, sabia que seu discurso não apenas havia feito uma onda nos corações do público, mas também havia despertado algo profundo dentro de si mesma.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "discutindo",
+                    "conj"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "César",
+        "sentence": "César estava reduzido à condição de animal doméstico!",
+        "start_char": 18106,
+        "end_char": 18111,
+        "excerpt": "O gato não pareceu reparar nessa adulação póstuma do nobre Bruto, e foi colocar-se no sofá em ação de querer dormir. Pus os olhos no animal, e admirei o que eram os destinos humanos. César estava reduzido à condição de animal doméstico!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "reduzido",
+                "child": "César",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "reduzir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "César",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] estava reduzido à condição de animal doméstico!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas a paixão dele pelo conhecimento e o espírito rebelde que lhe pertenciam não podiam ser silenciados por nada ou pessoa. Ele precisava descobrir o que estava acontecendo, por que se tornara um animal doméstico, uma sombra de sua antiga vida. Assim, Personagem decidiu tomar o mais risco do mundo e tentar fugir daquela casa onde não era mais senão um escravo invisível, uma espécie de fantasma que apenas servia para cumprimentar aos visitantes com um sorriso sem graça.",
+        "generated_text_llama": "Ele não gostava disso, pois sempre havia sonhado em ser mais do que apenas um animal de estimação. Enquanto seus donos, os ricos e influentes Abraão e Sara, se preocupavam com suas roupas e acessórios, Personagem pensava em como escapar da sua vida monótona na casa deles.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pensava",
+                    "parataxis"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jaime",
+        "sentence": "Jaime veio tirar-me das minhas cogitações.",
+        "start_char": 18381,
+        "end_char": 18386,
+        "excerpt": "Aquele gato, que estava ali diante de mim, tinha escrito os Comentários, subjugado os Gauleses, vencido Pompeu, destruído a República. Saciava-se agora com uma simples ceia, quando outrora queria dominar todo o universo. Jaime veio tirar-me das minhas cogitações.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "veio",
+                "child": "Jaime",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jaime",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] veio tirar-me das minhas cogitações.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após sua interrupção, eu desisti da tristeza e olhei para ele com uma sorrida. Ele me observou por um instante antes de se afastar, levando consigo aquele ar quente que sempre me encantava.",
+        "generated_text_llama": "Eu não podia acreditar no que estava acontecendo. Meu amigo, Alex, me havia encontrado no meu quarto mais de uma hora depois de pedir para eu o encontrar, e agora ele apenas me estava olhando com aquele olhar preocupado.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    }
+]

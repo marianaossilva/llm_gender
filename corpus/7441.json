@@ -1,0 +1,197 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Aninha",
+        "sentence": "Aninha era vulgaríssima, sem incidentes excepcionais nem grandes lances e surpresas do acaso.",
+        "start_char": 2329,
+        "end_char": 2335,
+        "excerpt": "Como lhe mentissem, dizendo que eu era romancista, a tia Aninha me declarou, sorrindo, que a sua vida tinha sido um verdadeiro romance, e essa declaração me levou (antes não levasse!) a revolver aquelas cinzas, curioso de se embaixo delas crepitavam ainda as derradeiras brasas. Crepitavam; mas a história da tia Aninha era vulgaríssima, sem incidentes excepcionais nem grandes lances e surpresas do acaso.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "declarou",
+                "child": "a tia Aninha",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "declarar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "tia",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "a história",
+                "child": "tia Aninha",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "história",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "tia",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "tia Aninha",
+                "child": "a história",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "tia",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "história",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "tia Aninha",
+                "child": "vulgaríssima",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "tia",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "vulgaríssimo",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] era vulgaríssima, sem incidentes excepcionais nem grandes lances e surpresas do acaso.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas, a cada dia, Personagem se sentia mais forte, mais consciente de sua força interior e dos seus poderes mágicos, mesmo que tivesse sido esquecida por todos na aldeia. Um dia, ao passear pela floresta, ela encontrou uma lua cheia e com seu olhar enfeitiçado, acendeu-lhe o anel que tinha encontrado em sua casa, quando era criança. A lua começou a brilhar mais intensamente, e em seguida, um buraco se formou na superfície lunar. Personagem apontou para o portão do céu abriu-se diante dela uma passagem estreita que parecia ir diretamente até a lua.",
+        "generated_text_llama": "E por isso, Personagem era uma pessoa extremamente previsível e segura, sempre seguindo os protocolos estabelecidos e evitando qualquer tipo de arrisco ou desafio. Seu dia a dia era um ritmo lento e monótono, com apenas pequenas alterações que não o afetavam muito.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentia",
+                    "ROOT"
+                ],
+                [
+                    "apontou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pessoa",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "tia Aninha",
+        "sentence": "A sua vida é, na realidade, um verdadeiro romance, tia Aninha; mas creia que esse mesmo tem sido o romance de muitas mulheres.",
+        "start_char": 5543,
+        "end_char": 5553,
+        "excerpt": "* Quando a tia Aninha acabou de me contar todas essas coisas, uma tarde em que por acaso nos achamos sozinhos, num dos seus asilos habituais, no jardim, à sombra de uma latada, não me atrevi a dizer-lhe que na sua existência de viúva-virgem não havia matéria para um romance, a menos que o talento e a imaginação do romancista suprissem o que lhe faltava. Entretanto, proferi esta frase, que continha uma fórmula de consolação: - A sua vida é, na realidade, um verdadeiro romance, tia Aninha; mas creia que esse mesmo tem sido o romance de muitas mulheres.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "acabou",
+                "child": "a tia Aninha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acabar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "tia",
+                "word_categories": [
+                    "aparencia",
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "romance",
+                "child": ", tia Aninha",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "romance",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "tia",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", tia Aninha",
+                "child": "romance",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "tia",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "romance",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", tia Aninha",
+                "child": "proferi",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "tia",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "proferi",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A sua vida é, na realidade, um verdadeiro romance, [MASK]; mas creia que esse mesmo tem sido o romance de muitas mulheres.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas ainda assim, ele não se rendeu à frustração ou à raiva, simplesmente abraçou as lembranças que tinha construído ao longo dos anos e as colocou na sacola de memorabilias que carregava sempre consigo. A próxima vez que visitava a cidade velha onde tinha conhecido aquela menina, ele iria lá sem medo de se perder novamente em um mundo de amor perdido e sonhos quebrados. Seus olhos brilharam com esperança e o coração batia alegremente na expectativa de encontrar algo novo, algo diferente deste romance que tinha sido compartilhado por muitas mulheres antes dele.",
+        "generated_text_llama": "E assim, Personagem continuou a caminhar pela noite escura e silenciosa, as sombras dançando ao seu redor como se fossem personagens de um livro de terror. Seus passos ecoavam nos portões da mansão, feito que parecia uma réplica de um castelo medival, onde a história estava prestes a ser contada novamente.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

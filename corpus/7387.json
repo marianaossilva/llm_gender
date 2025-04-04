@@ -1,0 +1,50 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Abraão",
+        "sentence": "Debaixo de seus ramos largos dias Abraão repousou.",
+        "start_char": 18678,
+        "end_char": 18684,
+        "excerpt": "Lá, bem no meio De um vale, outrora de verdura ameno, Erguia-se um carvalho majestoso. Debaixo de seus ramos largos dias Abraão repousou.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "repousou",
+                "child": "Abraão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "repousar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Abraão",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Debaixo de seus ramos largos dias [MASK] repousou.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Com o sol se puxando atrás de sua barreira de árvores, ele levantou-se tranquilamente e abriu os olhos. O que encontrou foi uma vista semelhante ao do dia anterior: a casa de pedra em ruínas, escondida entre as cascatações e o mato selvagem que cercavam-na. Mas hoje não havia mais aquele arremesso terrível ou o som assustador das armas.",
+        "generated_text_llama": "Debaixo de seus ramos largos, onde a luz do sol filtrava entre as folhas e criava um tapete de verdes suaves, Personagem repousou. Com a cabeça apoiada na curva de uma árvore velha, ele sentiu o alívio de descansar de longas jornadas. As sombras da mata o abrigavam, e o silêncio era tão profundo que Personagem podia ouvir o seu próprio coração batendo. Fechou os olhos e deixou-se levar pela tristeza e pela solidão, permitindo-se ser pesadamente presente naquela instante de quietude.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "repousou",
+                    "ROOT"
+                ],
+                [
+                    "podia",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

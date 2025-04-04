@@ -1,0 +1,235 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Mano",
+        "sentence": "No Fluminense Football Club, Mano integrou o mais famoso conjunto de amadores da história do football carioca, conquistando o tri-campeonato da cidade em 1917-1918-1919.",
+        "start_char": 697,
+        "end_char": 701,
+        "excerpt": "Emmanuel, o Mano, era o mais velho. Robusto, culto, modesto e bom, ele simbolizava o tipo de atleta perfeito que Coelho Netto, sempre eqüidistante das competições partidárias, idealizou na sua campanha pelo aprimoramento da juventude brasileira. No Fluminense Football Club, Mano integrou o mais famoso conjunto de amadores da história do football carioca, conquistando o tri-campeonato da cidade em 1917-1918-1919.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Emmanuel",
+                "child": ", o Mano",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Emmanuel",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Mano",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", o Mano",
+                "child": "Emmanuel",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Mano",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emmanuel",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", o Mano",
+                "child": "velho",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Mano",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "velho",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "integrou",
+                "child": "Mano",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "integrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mano",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "No Fluminense Football Club, [MASK] integrou o mais famoso conjunto de amadores da história do football carioca, conquistando o tri-campeonato da cidade em 1917-1918-1919.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em seguida, Personagem decidiu se dedicar mais ao futebol e buscar uma oportunidade para se tornar profissional. Ele passava as noites treinando sozinho na rua dos Botafogos, com um balão de borracha batido que ele tinha comprado com seus poucos recursos. Seus amigos da Fluminense começaram a notar uma melhora significativa em seu jogo e disseram que ele tinha talento para o futebol profissional.",
+        "generated_text_llama": "Depois disso, Personagem continuou a ser uma figura respeitada no futebol fluminense, liderando seu time a várias vitórias importantes e consolidando sua posição como um dos maiores jogadores da história do Fluminense. Ele se tornou um ícone do clube, com seus fãs o adoravam por sua habilidade e dedicação ao esporte.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mano",
+        "sentence": "No Fluminense Football Club, Mano integrou o mais famoso conjunto de amadores da história do football carioca, conquistando o tri-campeonato da cidade em 1917-1918-1919.",
+        "start_char": 697,
+        "end_char": 701,
+        "excerpt": "Emmanuel, o Mano, era o mais velho. Robusto, culto, modesto e bom, ele simbolizava o tipo de atleta perfeito que Coelho Netto, sempre eqüidistante das competições partidárias, idealizou na sua campanha pelo aprimoramento da juventude brasileira. No Fluminense Football Club, Mano integrou o mais famoso conjunto de amadores da história do football carioca, conquistando o tri-campeonato da cidade em 1917-1918-1919.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Emmanuel",
+                "child": ", o Mano",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Emmanuel",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Mano",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", o Mano",
+                "child": "Emmanuel",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Mano",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emmanuel",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", o Mano",
+                "child": "velho",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Mano",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "velho",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "integrou",
+                "child": "Mano",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "integrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mano",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "No Fluminense Football Club, [MASK] integrou o mais famoso conjunto de amadores da história do football carioca, conquistando o tri-campeonato da cidade em 1917-1918-1919.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, Personagem aprofundou suaindaqueração pelo futebol e se tornou um dos pioneiros na região do Rio de Janeiro no uso de táticas mais modernas e estratégias avançadas em campo. Ele ensinava suas ideias à equipe do Fluminense, oferecendo uma visão de jogo diferenciada que levou o clube a novos níveis de performance.",
+        "generated_text_llama": "Após a conquista do tri-campeonato, Fluminense Football Club se tornou sinônimo do futebol carioca e Personagem foi elogiado por sua dedicação e habilidade nos gramados da Vila-Dalmau. Com seu sucesso, ele ganhou reconhecimento não apenas na comunidade Fluminense, mas também em todo o Brasil, conquistando a admiração de fãs e admiradores de todos os cantos do país. Personagem continuou a representar o clube com honra, liderando-o a muitas vitórias importantes e consolidando sua posição como um dos maiores jogadores da história do Fluminense.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "aprofundou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria",
+        "sentence": "E assim, enclausurada, mantinha-a naquela aparência de impassibilidade pétrea, igual a que estatelou Maria junto à cruz.",
+        "start_char": 170827,
+        "end_char": 170832,
+        "excerpt": "Ela só não teve lágrimas: estava como árido deserto, ardendo em sede, na sua infinita e estéril desventura. A dor imensa que me enchia todo o coração não achava passagem bastante para expandir-se, salvo se o rebentasse. E assim, enclausurada, mantinha-a naquela aparência de impassibilidade pétrea, igual a que estatelou Maria junto à cruz.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "estatelou",
+                "child": "Maria",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "estatelar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "maria",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Maria",
+                "child": "igual",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "maria",
+                "dep_c": "advcl",
+                "pos_c": "ADJ",
+                "lemma_c": "igual",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "E assim, enclausurada, mantinha-a naquela aparência de impassibilidade pétrea, igual a que estatelou [MASK] junto à cruz.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, enquanto as outras pessoas continuavam emocionadas ao redor da cena, ela seguiu calma e imperturbável, preservando esse ar de impassibilidade que tinha adquirido no seu desafio anterior junto à cruz. Apenas seus olhos pareciam penetrar as profundezas das estrelas e sentir as ondas do tempo, enquanto ela observava a natureza circundante com um olhar que ninguém de lá havia visto antes.",
+        "generated_text_llama": "Sentei-me sobre a moeda de pedra, tentando absorver a calorosa luz do sol que penetrava pelas frestas da praça. O sussurro das aves e o barulho dos habitantes da cidade ao longe criavam uma melodia que parecia levar-me embora, longe daquela cena de morte que havia testemunhado. Ainda me sentia como se fosse um espectador da própria tragédia, incapaz de sair do meu estado catatônico. Com a mão trêmula, tentei levantar-me e dar uma olhadade em volta, mas era como se estivesse flutuando em um mar de sonhos. O silêncio da praça parecia ter me envolvido, esmagando qualquer som de pensamentos ou emoções que ainda me restavam. E assim, senti-me congelar no lugar, preso naquele instante eterno, onde a vida e a morte se encontravam em um abismo sem fim.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    }
+]

@@ -1,0 +1,412 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Henriqueta",
+        "sentence": "Henriqueta enviuvara em 1862, e, segundo toda a gente afirmava, jurara a si mesma não passar a segundas núpcias.",
+        "start_char": 632,
+        "end_char": 642,
+        "excerpt": "Era em 1864, fins de novembro. Contava eu então vinte e cinco anos de idade, menos dous que ela. Henriqueta enviuvara em 1862, e, segundo toda a gente afirmava, jurara a si mesma não passar a segundas núpcias.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "enviuvara",
+                "child": "Henriqueta",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "enviuvar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Henriqueta",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] enviuvara em 1862, e, segundo toda a gente afirmava, jurara a si mesma não passar a segundas núpcias.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando com a história do Sr. Personagem, ele retornou para a cidade após sua viagem de 1862, e como sempre, seus colegas e familiares discutiram sobre ele. O que houve de mais interessante é que todos compartilhavam uma ideia: ele teria jurado nunca se casar novamente.",
+        "generated_text_llama": "Em uma tarde chuvosa de outubro de 1862, Ana Maria Personagem se sentou no sofá do salão, rodeada pelas imagens de sua família adorável, agora espalhadas pelo velho retrato em madeira que ornava a parede. Ela olhou para o retrato com olhos tristes e lembrou-se da promessa feita naquela noite de 29 de dezembro de 1859, quando jurara nunca mais casar-se novamente. Com um suspiro profundo, ela levantou-se do sofá e começou a caminhar lentamente pelo salão, as mãos trêmulas segurando os punhos da saia que caía ao longo de seus quadris. Ela parou diante do espelho que se encontrava no canto do quarto das senhoras, olhou para si mesma e viu uma mulher cansada, com olheiras profundas e cabelos desgrenhados pelo vento. Em um momento de reflexão, Ana Maria Personagem decidiu que era hora de mudar seu destino e começou a preparar-se para sair de casa. Ela pegou sua bolsa, preencheu-a com o suficiente dinheiro e uma pequena caixa de chá, e se aproximou da porta.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Henriqueta",
+        "sentence": "A galera veio, chamava-se Henriqueta, e no meio das opiniões que dividiam a capital, todos estavam de acordo em que era a senhora mais bonita daquele ano.",
+        "start_char": 1578,
+        "end_char": 1588,
+        "excerpt": "Encostei-me à janela da vida, com os olhos no rio que corria embaixo, o rio do tempo, não só para contemplar o curso perene das águas, como à espera de ver apontar do lado de cima ou de baixo a galera de ouro e sândalo e velas de seda, que devia levar-me a certa ilha encantada e eterna. Era o que me dizia o coração. A galera veio, chamava-se Henriqueta, e no meio das opiniões que dividiam a capital, todos estavam de acordo em que era a senhora mais bonita daquele ano.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "chamava-se",
+                "child": "Henriqueta",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "chamavar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Henriqueta",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A galera veio, chamava-se [MASK], e no meio das opiniões que dividiam a capital, todos estavam de acordo em que era a senhora mais bonita daquele ano.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O jovem que se chamava Luís, que estava sentado no balcão do prédio onde trabalhava, não pensou nada nele quando soube que \"a galera\" veio. Éram ainda as 14:30 da manhã e estavam tudo em andamento nas reuniões das empresas de seu bloco, e ele era o que, naquele momento, mais importava para ele.",
+        "generated_text_llama": "A galera veio, chamava-se Lucas, e no meio das opiniões que dividiam a capital, todos estavam de acordo em que era a senhora mais bonita daquele ano. Com um sorriso confiante, Lucas se aproximou do palco, onde a atriz que havia conquistado o coração de todos estava fazendo uma entrevista com um repórter do jornal. Ele se apresentou e pediu a permissão para fazer algumas perguntas, e logo começou a conversar sobre sua experiência no mundo da atuação.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "chamava",
+                    "acl:relcl"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "aproximou",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "chamava-se",
+                    "conj"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Henriqueta",
+        "sentence": "Henriqueta estava só. Pode ser que então pensasse em mim, e até que tivesse idéia de negar-se; mas neste caso foi o orgulho que deu passaporte ao desejo;",
+        "start_char": 3795,
+        "end_char": 3805,
+        "excerpt": "No escritório, seja dito em honra do amor, não minutei nada, arrazoado ou petição, minutei de cabeça um plano de vida nova e magnífica, e, como tivesse a pena na mão, parecia estar escrevendo, mas na realidade o que fazia eram narizes, cabeças de porco, frases latinas, jurídicas ou literárias. Pouco antes das três retirei-me e fui à casa de Henriqueta. Henriqueta estava só. Pode ser que então pensasse em mim, e até que tivesse idéia de negar-se; mas neste caso foi o orgulho que deu passaporte ao desejo;",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "casa",
+                "child": "Henriqueta",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "casa",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Henriqueta",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Henriqueta",
+                "child": "casa",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Henriqueta",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "casa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "estava",
+                "child": "Henriqueta",
+                "dep_h": "ROOT",
+                "pos_h": "AUX",
+                "lemma_h": "estar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Henriqueta",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] estava só. Pode ser que então pensasse em mim, e até que tivesse idéia de negar-se; mas neste caso foi o orgulho que deu passaporte ao desejo;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele levantou a cabeça lentamente, apenas um pouco, como se estivesse cauteloso. Sobre sua face, havia um olhar que meio que gritava: \"Nunca\". Ele desceu da cama, deambulou pelo seu quarto e abriu a porta da varanda. A luz do dia brilhava fortemente na sala e ele sentiu uma forte onda de calor subindo dos pés até o topo de sua cabeça. Mas ele permanecia forte, mesmo que sentisse que tudo estava se desintegrando em torno dele.",
+        "generated_text_llama": "E assim, Personagem se levantou do sofá, olhou para si mesma no espelho e sorriu. O sorriso era uma mescla de confiança e determinação, e Personagem sabia que estava pronta para enfrentar o que vinha a seguir. Com um gesto deliberado, ela pegou o seu guarda-roupa favorito, um vestido preto elegante que a fazia se sentir poderosa e sofisticada.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "advcl"
+                ],
+                [
+                    "sabia",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Henriqueta",
+        "sentence": "No fim da noite, estava reconciliado comigo, mediante a obrigação que tomei de não deixar Henriqueta ir para Petrópolis, sem declarar-lhe tudo.",
+        "start_char": 8241,
+        "end_char": 8251,
+        "excerpt": "Nomes que eu nem admito que andem na cabeça de outras pessoas a meu respeito, foram então ditos e ouvidos, sem maior indignação, na rua e ao jantar. De noite, para distrair-me, fui ao teatro; mas nos intervalos o duelo era o mesmo, um pouco menos furioso. No fim da noite, estava reconciliado comigo, mediante a obrigação que tomei de não deixar Henriqueta ir para Petrópolis, sem declarar-lhe tudo.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "deixar",
+                "child": "Henriqueta",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "deixar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Henriqueta",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Henriqueta",
+                "child": ", mediante a obrigação",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Henriqueta",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "obrigação",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "No fim da noite, estava reconciliado comigo, mediante a obrigação que tomei de não deixar [MASK] ir para Petrópolis, sem declarar-lhe tudo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Na manhã seguinte, aconteceu algo inesperado: Personagem, com um rosto triste e desapontado, veio até mim na porta da casa e me perguntou se poderia falar comigo. Inicialmente, eu recusei-o para não revelar minha situação, mas ele insistiu e, finalmente, fui obrigado a ouvir o que ele tinha a dizer.",
+        "generated_text_llama": "No fim da noite, estava reconciliado comigo, mediado pela obrigação que tomei de não deixar Personagem ir para Petrópolis, sem declarar-lhe tudo. Eu sabia que a decisão havia sido difícil para ele, pois ele sempre tinha sonhado em viajar para a cidade do sol e visitar o famoso Teatro Municipal. Mas eu não podia tolerar a ideia de que ele se sinta traído ou decepcionado, então escolhi ficar com ele, mesmo sabendo que isso significaria renunciar ao meu próprio sonho de viajar para uma cidade tão linda.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "aconteceu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "deixar",
+                    "xcomp"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Henriqueta",
+        "sentence": "Pouco depois, vi Henriqueta e fiquei logo namorado.",
+        "start_char": 9092,
+        "end_char": 9102,
+        "excerpt": "Sabendo que eu andava atrapalhado com certa dívida, mandou-a pagar por portas travessas. Fui ter com ele, logo que descobri a origem do favor, agradeci-lho com lágrimas nos olhos, ele meteu o caso à bulha e acabou dizendo que não me afadigasse em arranjar-lhe o dinheiro; bastava pagar quando ele tivesse de voltar à província, fechadas as câmaras, ou em maio que fosse. Pouco depois, vi Henriqueta e fiquei logo namorado.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "vi",
+                "child": "Henriqueta",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Henriqueta",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Pouco depois, vi [MASK] e fiquei logo namorado.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas pouco tempo depois, eu vi Personagem pela primeira vez. Ela estava sentada no banco do parque, com um livro na mão e uma cama-de-lota nas costas. Sua linda face radiante se encheu de sonho ao me ver chegar. Entusiasmado, eu abri a boca para lhe falar, mas ela fez uma pausa, colocou o livro de lado e me olhou com um sorriso tão encantador que eu me tornei praticamente sem palavras. Ela perguntou se poderia ser sua amiga e assim nasceu uma bela relação entre nós dois. Passou mais alguns dias e, como toda boa história de amor, a paixão que eu sentia por ela crescia cada vez mais. Um dia, enquanto estávamos juntos no parque, ela me olhou com seus olhos verdes, que lembravam o mar doce e me perguntou se gostaria de ser seu namorado. Com um coração cheio de alegria, eu disse sim e ficamos logo namorados.",
+        "generated_text_llama": "Eu não sei se era por acaso ou se ele havia percebido a conexão entre nós desde o início, mas assim mesmo, ele me aproximou-se com um sorriso e disse: \"Ei, você está ficando sempre mais bonita ao longo do dia. Você não precisa de maquiagem para brilhar\". Sua voz era suave e acalmando, e eu senti meu coração bater mais rápido ao ouvi-la. Ele me ofereceu a mão e eu, sem pensar, a peguei, sentindo uma chama suddenly entre nós.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "vi",
+                    "ROOT"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Henriqueta",
+        "sentence": "Henriqueta contava mais de um pretendente, mas não sei se fazia com os outros o que fazia comigo, que era mandar-me um olhar de quando em quando.",
+        "start_char": 11522,
+        "end_char": 11532,
+        "excerpt": "Sensações, borboletas fugitivas que lá ides, pudesse eu recolher-vos todas, e pregar-vos aqui neste papel para recreio das pessoa que me lêem! Veriam todas que não as houve nunca mais lindas, nem em tanta cópia, nem tão vivas e lépidas. Henriqueta contava mais de um pretendente, mas não sei se fazia com os outros o que fazia comigo, que era mandar-me um olhar de quando em quando.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "contava",
+                "child": "Henriqueta",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "contar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Henriqueta",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] contava mais de um pretendente, mas não sei se fazia com os outros o que fazia comigo, que era mandar-me um olhar de quando em quando.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O caráter, uma jovem chamada Maria, deu uma volta pela casa, olhando para seus relógios antigos colocados nas paredes. Ela estava sentada no sofá, e seu rosto parecia refletir as lâmpadas acesa. Depois de um momento, Maria levantou-se e caminhou até a janela principal de sua sala, onde podia ver o jardim iluminado pela luz da lua. Ela insegurava-se quanto às intenções dos outros pretendentes que tinha - não sabia se fazia com eles o que fazia com o seu atual pretendo, que era mandar-lhe um olhar de quando em quando. A jovem ficou ponderando para que fazer, se continuar apenas observando o relógio velho ou se dizer alguma coisa ao homem que ela sentia algo mais do que amigo.",
+        "generated_text_llama": "Ele me olhou com uma intensidade que fez meu coração bater mais rápido, e eu senti um arrepio na espinha. Eu sabia que ele não era como os outros pretendentes, que eram apenas interessados em mim por causa do meu status social ou da minha família. Mas quando ele me olhava assim, eu via algo mais profundo em seus olhos, algo que me fazia sentir desconfortável e atraída ao mesmo tempo.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "levantou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Henriqueta",
+        "sentence": "Entretanto, Henriqueta ia falando e sorrindo.",
+        "start_char": 17029,
+        "end_char": 17039,
+        "excerpt": "Não; bastava-me o olhar e a palavra. Nem sempre o olhar seria bastante, acanhava-se às vezes, outras não sabia onde pousasse; mas a palavra romperia tudo. Entretanto, Henriqueta ia falando e sorrindo.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "falando",
+                "child": "Henriqueta",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Henriqueta",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Entretanto, [MASK] ia falando e sorrindo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele continuou a falar e sorrir, enquanto olhava para as pessoas que estavam em torno dele. Seus olhos brilhavam com alegria e sua voz soava calma, mas firme. Ele contava histórias, partilhando suas experiências e seus conhecimentos com aqueles que o rodeavam. Ao falar, era claro que ele estava feliz de poder compartilhar seu conhecimento e ajudar as pessoas que o ouvinham.",
+        "generated_text_llama": "Enquanto continuava a falar, Personagem começou a caminhar pela praia, sentindo o vento suave no rosto e as ondas do oceano que batiam contra a areia. Ele estava pensando em como poderia explicar tudo o que havia acontecido à sua melhor amiga, Lila, que estava esperando por ele naquele café. Personagem sabia que ela seria surpresa ao saber sobre a descoberta de seu pai e sobre a mensagem misteriosa que ele havia encontrado no sótão da casa. Com determinação, ele continuou a caminhar, sua mente ocupada com as próximas palavras que iriam mudar tudo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Henriqueta",
+        "sentence": "De repente calamo-nos, não sei se por três, cinco ou dez minutos; lembro-me só, que Henriqueta consultou o relógio; compreendi que era tempo de sair, e pedi-lhe licença.",
+        "start_char": 17469,
+        "end_char": 17479,
+        "excerpt": "O coração batia-me; tremiam-me os dedos. Evocava as minhas idéias petulantes, e elas vinham todas, mas não desciam ao coração, deixavam-se estar no cérebro, paradas, cochilando... De repente calamo-nos, não sei se por três, cinco ou dez minutos; lembro-me só, que Henriqueta consultou o relógio; compreendi que era tempo de sair, e pedi-lhe licença.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "consultou",
+                "child": "Henriqueta",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "consultar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Henriqueta",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "De repente calamo-nos, não sei se por três, cinco ou dez minutos; lembro-me só, que [MASK] consultou o relógio; compreendi que era tempo de sair, e pedi-lhe licença.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, a pessoa que estava conversando me perguntou se poderia nos acompanhar na saída. Eu concordei sem demora, entusiasmado com a ideia de saber onde ele estava indo. Ao abrir as portas da loja, eu vi que o sol já começava a se pôr e os céus apresentavam uma colorida panorama à beira-mar. O homem segurou a minha mão em silêncio, olhando para mim com um olhar encantador.",
+        "generated_text_llama": "Ela me deu uma curta sorrateira e foi buscar seus pertences, enquanto eu rapidamente fiz a mesma coisa. Em alguns minutos, estávamos já na porta, preparados para partir em busca de aventuras desconhecidas. Ela abriu a porta com um leve toque e nos encontramos no corredor escuro e silencioso, onde apenas o som de nossos passos ecoou. Nós caminhamos rapidamente pelo corredor, tentando não fazer barulho, enquanto o corredor se estendia à frente de nós como uma lança negra. Lembrei-me de que tinha um mapa escondido no meu bolso e comecei a desenhar um caminho no chão com o punho, esperando encontrar um roteiro seguro para fora da casa.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    }
+]

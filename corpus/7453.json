@@ -1,0 +1,55 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Paulino",
+        "sentence": "- Mas de que Paulino fala a senhora?",
+        "start_char": 2706,
+        "end_char": 2713,
+        "excerpt": "- Sim, faça-se de novas! Aquela é pior do que eu! - Mas de que Paulino fala a senhora?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "fala",
+                "child": "Paulino",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulino",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Paulino",
+                "child": "pior",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Paulino",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "mau",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "- Mas de que [MASK] fala a senhora?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " - Mas de que meu pai fala a senhora? Percebeu que o Sr. Silva estava tranquilo, mas uma nuvem negra passou pela sua face. Meu pai, um homem de poucas palavras e mais reservado do que sempre, começou a falar com firmeza e seriedade.",
+        "generated_text_llama": "Ele olhou para ela com surpresa e então sorriu, dizendo: \"Sinto muito, mas não sabia quem você era. Eu sou o João, da loja de conveniência da esquina. E você...?\"",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    }
+]

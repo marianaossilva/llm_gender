@@ -1,0 +1,845 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Seu Frotin",
+        "sentence": "Seu Frotin, eu lhe darei a explicação de tudo: venha comigo a uma sessão...",
+        "start_char": 34435,
+        "end_char": 34445,
+        "excerpt": "Estrada de Ferro Caveira de Burro. Certa vez, lamentava-se o Sr. Frontin, numa roda de amigos, da jettatura que o perseguia, quando um dos circunstantes, notável engenheiro, sugeriu-lhe uma idéia. Seu Frotin, eu lhe darei a explicação de tudo: venha comigo a uma sessão...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "venha",
+                "child": "Seu Frotin",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Frotin",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "a explicação",
+                "child": "Seu Frotin",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "explicação",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Frotin",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], eu lhe darei a explicação de tudo: venha comigo a uma sessão...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem sentiu uma onda de calma passar pelo seu corpo ao ouvir minhas palavras. Após um silêncio, ele me olhou fixamente nos olhos e me perguntou: \"Está tudo certo, você me levará a uma sessão de what?\"",
+        "generated_text_llama": "Eu levei o cara para uma pequena clínica especializada em psicologia e meditação, que estava localizada em um bairro tranquilo da cidade. Enquanto caminhávamos, eu podia sentir sua ansiedade crescer, mas também uma ponta de curiosidade. Ao chegarmos à clínica, fui recebido por um psiquiatra gentil e experiente, que me informou que ele estava preparado para ajudar o meu amigo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Gonçalves",
+        "sentence": "Porventura todos os dias esperas Gonçalves para te recolher?",
+        "start_char": 43637,
+        "end_char": 43646,
+        "excerpt": "Sinhá dona, meu senhor ainda não veio; e o chá? Porventura todos os dias esperas Gonçalves para te recolher? Não, sinhá dona.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "recolher",
+                "child": "Gonçalves",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "recolher",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gonçalves",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Porventura todos os dias esperas [MASK] para te recolher?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Porventura todos os dias esperas que o cachorro entusiasta e leal te recolha, deixando um olhar de confiança e amor nos seus olhos profundos e azuis. O cão acabou de correr até você, puxando a bocadinha enrolada ao redor da mão direita, exultante pela sua presença. Você sorriu e agarrou o colarinho do seu amado, sentindo-o emebrer contra o peito. \"Que tal fazer uma caminhada pelo parque?\" te perguntou ele, abaixando a cabeça para ouvir melhor sua voz, carregada de energia e animado.",
+        "generated_text_llama": "Sim, eu era um dos poucos que sabiam da existência de Personagem e seus segredos. Eu sempre me senti atraído por ele, mas nunca tive coragem de abordá-lo. Assim, todos os dias, eu me mudei para o outro lado da rua, esperando que ele saísse de sua casa e pudesse ser salvo do isolamento que o envolvia.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "perguntou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alda",
+        "sentence": "Alda sorriu e baixou um tanto a cabela enigmaticamente.",
+        "start_char": 49241,
+        "end_char": 49245,
+        "excerpt": "Não, respondeu Alda. Tem dado um imenso trabalho, esse tal teu marido... Alda sorriu e baixou um tanto a cabela enigmaticamente.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "respondeu",
+                "child": "Alda",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Alda",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "sorriu",
+                "child": "Alda",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sorrir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Alda",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] sorriu e baixou um tanto a cabela enigmaticamente.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem baixou lentamente suas longas e onduladas cabelos em uma movimentação sensual, que contrastava fortemente com sua expressão tranquila e inexpressiva. A seguir, retomou seu caminho pelo corredor escuro, onde o iluminação era ténue e difusa. Em seguida, entrara no salão de jantar e, de frente para a mesa central, olhou-o de um olhar perceptivo e incisivo, em busca de qualquer movimento suspeito ou presença indesejada.",
+        "generated_text_llama": "Personagem sorriu e baixou um tanto a cabella enigmática de seu capacete, revelando por um momento sua identidade como uma sombra entre as sombras do esquívo. Ele olhou em volta, garantindo que não havia ninguém para testemunhar seu movimento, antes de se levantar e começar a caminhar em silêncio pelo corredor escuro. Seu passo era lento e cuidadoso, como se estivesse seguindo uma pista secreta. A cabella enigmática ainda estava pendurada ao redor do seu pescoço, como um lembrete de que ele não era apenas um revolucionário, mas também um misterioso guerreiro da noite. Com um movimento ágil, ele desligou o painel de luz do compartimento de armas e tirou uma lanterna da prateleira, preparando-se para mergulhar em uma jornada perigosa pela cidade iluminada apenas por suas próprias sombras.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jean",
+        "sentence": "É certo que se dirija pr aqui, Jean?",
+        "start_char": 52151,
+        "end_char": 52155,
+        "excerpt": "Ainda não, mas se aprestava. Os capitães já estavam levantados e o Intendente das Finanças tratava com o Ministro da Frota os navios reais a ceder. É certo que se dirija pr aqui, Jean?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "dirija",
+                "child": ", Jean",
+                "dep_h": "csubj",
+                "pos_h": "VERB",
+                "lemma_h": "dirijar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jean",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", Jean",
+                "child": "certo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Jean",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "certo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": [
+                    "mind"
+                ]
+            }
+        ],
+        "masked_sentence": "É certo que se dirija pr aqui, [MASK]?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Sim, Personagem continuou caminhando com firmeza até a porta da sala onde esperava o seu amor. Ao chegar, levantou a mão e bateu nosso nome em letras grandes e amorosas no papel de parede. Um sorriso largo e contente se espalhou pelo rosto de Personagem, e sentiu o coração do seu amor acelera a batida em sua alma. Ele deslizou a mão na manga de Personagem e se sentiu tão alegre quanto uma criança que recebeu um brinquedo pela primeira vez.",
+        "generated_text_llama": "Não podia acreditar no que estava acontecendo. Eu, Personagem, sempre tão confiante e determinado, agora estava sendo acusado de algo que não sabia o que era. O detetive olhou para mim com uma expressão séria e disse: \"Você é o último conhecido da vítima, Personagem. Você tem alguma ideia do que poderia ter acontecido com ela?\"",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Marquês",
+        "sentence": "Ora, ora, Marquês, gargalhou a condessa.",
+        "start_char": 54435,
+        "end_char": 54442,
+        "excerpt": "Queres dizer que a carta foi minha, não é? É... Ora, ora, Marquês, gargalhou a condessa.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "gargalhou",
+                "child": "Marquês",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "gargalhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Marquês",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Ora, ora, [MASK], gargalhou a condessa.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem acalentou o fumo da pipa em seus lábios e, com uma atitude despreocupada, aconselhou a condessa.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "acalentou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jean",
+        "sentence": "Nesta cidade, sou a GARÇA, a D. GARÇA, como me chegam a chamar familiarmente; e quando o poviléu põe alcunhas meigas é porque sente muita desgraça no alcunhado, Jean.",
+        "start_char": 57050,
+        "end_char": 57054,
+        "excerpt": "Ninguém se apieda de ti. Ninguém se lembrou ainda de te pôr doces alcunhas. Nesta cidade, sou a GARÇA, a D. GARÇA, como me chegam a chamar familiarmente; e quando o poviléu põe alcunhas meigas é porque sente muita desgraça no alcunhado, Jean.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "sente",
+                "child": ", Jean",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "sentir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jean",
+                "word_categories": [
+                    "emo"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Nesta cidade, sou a GARÇA, a D. GARÇA, como me chegam a chamar familiarmente; e quando o poviléu põe alcunhas meigas é porque sente muita desgraça no alcunhado, [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Nesta cidade, sou a GARÇA, a D. GARÇA, como me chegam a chamar familiarmente; e quando o poviléu põe alcunhas meigas é porque sente muita desgraça no alcunhado, eu, uma menina humilde, sem conexões ou riquezas.",
+        "generated_text_llama": "Eu sorria, um pouco maliciosamente, ao ouvir a voz grossa e rouca de meu pai. \"Garça\", ele me disse com um olhar sério, mas eu sabia que era apenas uma forma carinhosa de me chamar. Eu me levantei da cadeira, estendendo-me sobre o sofá, e comecei a mexer nos cabelos castanhos, tentando desalojar as meigas que o povo do vilarejo havia colocado neles.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "é",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Padre Provincial",
+        "sentence": "E como Sua Paternidade, o Padre Provincial, me haja ordenado receber o mais possível aos Paulistas nas suas entradas, seguir-lhes as pegadas, resolvi despachar um pregador àqueles brasis.",
+        "start_char": 61424,
+        "end_char": 61440,
+        "excerpt": "Expôs: Há alguns anos, o paulista Bartolomeu Bueno da Silva, o Anhangüera, penetrou no sertão dos índios Goianases, e aí encontrou minas de ouro fartas e ricas. E como Sua Paternidade, o Padre Provincial, me haja ordenado receber o mais possível aos Paulistas nas suas entradas, seguir-lhes as pegadas, resolvi despachar um pregador àqueles brasis.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "haja",
+                "child": "Sua Paternidade, o Padre Provincial,",
+                "dep_h": "aux",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sua",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "E como Sua Paternidade, o [MASK], me haja ordenado receber o mais possível aos Paulistas nas suas entradas, seguir-lhes as pegadas, resolvi despachar um pregador àqueles brasis.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Portanto, sem hesitar, [Sua Paternidade, o Frei José de Anchieta], tendo-me encarregado de receber o mais possível aos Paulistas nas suas entradas, resolvi despachar um pregador àqueles brasis. De forma que pudesse transmitir a palavra da Senhor e apaziguar o espírito ardente dos indígenas, organizei um grupo de freiros que já tinham dedicado suas vidas a pregar o Evangelho na terra nova.",
+        "generated_text_llama": "Paguei uma visita ao meu vizinho João, que é um especialista em contrabando de animais, e perguntei se ele sabia algo sobre o que estava procurando. Ele me olhou com surpresa, mas logo se acalmou e começou a falar. \"É que eu ouvi rumores de uma liga clandestina de corridas de cachorros acontecendo em um bar no centro da cidade\", disse ele. \"Mas tenho que ser cuidadoso, não quero me meter em problemas\".",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "pregar",
+                    "xcomp"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Padre Manuel de Assunção",
+        "sentence": "Padre Manuel de Assunção, chegado de Piratininga, achando o alvitre bom, observou.",
+        "start_char": 61658,
+        "end_char": 61682,
+        "excerpt": "E como Sua Paternidade, o Padre Provincial, me haja ordenado receber o mais possível aos Paulistas nas suas entradas, seguir-lhes as pegadas, resolvi despachar um pregador àqueles brasis. Humildemente, rematou o Reitor, espero a opinião de Vossas Reverências. Padre Manuel de Assunção, chegado de Piratininga, achando o alvitre bom, observou.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "observou",
+                "child": "Padre Manuel de Assunção, chegado de Piratininga, achando o alvitre bom,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "observar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Padre",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], chegado de Piratininga, achando o alvitre bom, observou.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Com uma expressão tranquila e inteligente em seu rosto, Personagem abriu o porta-malas e retirou as ferramentas mais necessárias para realizar sua operação: um instrumento de precisão em miniatura, algumas pequenas garrafas de líquidos variados e uma camisa de cirurgião.",
+        "generated_text_llama": "Personagem sabia que tinha que agir rápido, já que a polícia estava logo atrás. Ele rapidamente olhou em volta, procurando por um lugar seguro para esconder as provas do roubo. Encontrou um armário pequeno na frente de uma loja e rapidamente o abriu, colocando todas as coisas importantes dentro. Depois, ele fechou o armário e se escondeu atrás dele, esperando que a polícia passasse por ali sem notá-lo.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "abriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Santo Espírito",
+        "sentence": "entretanto, o Santo Espírito iluminou-me e escolhi-o no padre professo João de Jouquières.",
+        "start_char": 62369,
+        "end_char": 62383,
+        "excerpt": "Assim será, padre Reitor, responderam os capitulares em coro. Exige-se-lhe coragem, inteligência, boa cópia de letras e solércia; e, como dentre Vossas Reverências sobre desses, grande foi a minha dificuldade na escolha; entretanto, o Santo Espírito iluminou-me e escolhi-o no padre professo João de Jouquières.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "iluminou-me",
+                "child": "o Santo Espírito",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "iluminou-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Santo",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "entretanto, o [MASK] iluminou-me e escolhi-o no padre professo João de Jouquières.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Entretanto, eu fui iluminado pela escola de Santo Tomás de Aquino em Paris e escolhido pelo pai confessor João de Jouquières. Meus estudos eram centrados nas obras do filósofo Aristóteles e dos padres escolásticos, especialmente na lógica, metafísica e ética. Acompanhei o padre João em seu trabalho com os pobres, visitando hospícios, cuidando de enfermos e ensinando crianças. Quanto mais tempo passava, mais me sentia trazido para o sacerdócio e, por fim, decidir-me a ser ordenado sacerdote na Ordem Dominicana. Ao mesmo tempo que prosseguía com minha formação acadêmica, comecei também a estudar teologia, saindo em 1307 para tomar o voto monástico e fazer meus primeiros votos no convento de Bologna.",
+        "generated_text_llama": "Entretanto, o Personagem iluminou-me e escolhi-o no padre professo João de Jouquières. Em seguida, com um sorriso enigmático, ele me levou para uma salinha escura e silenciosa, onde encontrei uma grande mesa coberta por velas acesas. A luz dançava sobre as paredes, criando sombras sinistras que pareciam se mover sozinhas. O Personagem me assentou em uma cadeira à frente da mesa, enquanto eu sentia um arrepio na espinha.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "iluminou-me",
+                    "ROOT"
+                ],
+                [
+                    "assentou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Gaspar Hurtado",
+        "sentence": "Esfarrapado, doente, esfaimado, Gaspar Hurtado continuou a pregar e fundou quatro aldeias.",
+        "start_char": 65466,
+        "end_char": 65480,
+        "excerpt": "Mordilharam-lhe o corpo, descarnado e nu; transformaram-no numa chaga só. Quando os selvagens voltaram e contemplaram a sua fisionomia plácida, serena, de olhos untados de beatitude postos ao alto, admiraram aquela insensibilidade, e plenos de superstição soltaram-no respeitosos. Esfarrapado, doente, esfaimado, Gaspar Hurtado continuou a pregar e fundou quatro aldeias.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "continuou",
+                "child": ", Gaspar Hurtado",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "continuar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gaspar",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Esfarrapado, doente, esfaimado, [MASK] continuou a pregar e fundou quatro aldeias.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após o longo sermão, Personagem sentia-se cansado mas não se arrependeu de seus esforços. Ele sabia que suas palavras podiam impactar milhares de vidas e isso era tudo o que ele sempre quis fazer: ajudar as pessoas. Então, Personagem encaminhou sua equipe para o local onde ele pensava ser possível fundar as aldeias que havia prometido durante seu discurso.",
+        "generated_text_llama": "Com um coração ainda enfraquecido, mas determinado, Personagem começou a construir as quatro aldeias que planejara. Ele sabia que não tinha muito tempo para criar uma nova vida, mas estava determinado a deixar um legado para si mesmo e para seus filhos futuros.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentia-se",
+                    "ROOT"
+                ],
+                [
+                    "encaminhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Padre João",
+        "sentence": "Padre João conservava-se a distância, braços cruzados sobre o espaldar da cadeira, na humildade do seu arrependimento; o seu olhar, intenso e vivo, fixava-se nas pedrarias espalhadas pelo lajedo.",
+        "start_char": 71389,
+        "end_char": 71399,
+        "excerpt": "19 ** * Padre João conservava-se a distância, braços cruzados sobre o espaldar da cadeira, na humildade do seu arrependimento; o seu olhar, intenso e vivo, fixava-se nas pedrarias espalhadas pelo lajedo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "conservava-se",
+                "child": "Padre João",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "conservava-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Padre",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] conservava-se a distância, braços cruzados sobre o espaldar da cadeira, na humildade do seu arrependimento; o seu olhar, intenso e vivo, fixava-se nas pedrarias espalhadas pelo lajedo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Seguindo sua natureza reservada, Personagem permaneceu de olhos fechados, a distância, com os braços cruzados sobre o espaldar da cadeira. A humildade em seu arrependimento envolvia-o inteiramente, como um manto que não poderia ser escapado. Eles eram pérolas nas mãos do tempo, as pedrarias espalhadas pelo lajedo, que ele observava com intensidade e vivacidade, em busca de algum sentimento de compreensão ou absolvição.",
+        "generated_text_llama": "Enquanto observava as pedrarias, Personagem sentia um peso crescente no seu peito, como se cada pequena pedra estivesse pesando sobre o seu coração. Ele não conseguia entender como havia chegado a esse ponto, onde tudo que havia era culpa e arrependimento. Sempre que pensava em suas ações, sentia uma dor intensa, como se estivesse ferindo a si mesmo novamente e novamente.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "permaneceu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Padre João",
+        "sentence": "Padre João fizera bem; a vingança viria depois, cedo ou tarde.",
+        "start_char": 72646,
+        "end_char": 72656,
+        "excerpt": "A Companhia era forte, era quase onipotente. Expulso dela, vagaria solitário pelo mundo, e aquela por quem abandonara o mundo, entre as paredes do claustro do Castelo, seria pasto da lubricidade dos outros. Padre João fizera bem; a vingança viria depois, cedo ou tarde.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "fizera",
+                "child": "Padre João",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Padre",
+                "word_categories": [
+                    "aparencia",
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] fizera bem; a vingança viria depois, cedo ou tarde.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem celebrou o seu sucesso com um sorriso triunfal, saborando a vontade de ver aquele que lhe causara tanta dor sofrer as mesmas consequências. Mas não era o momento da vingança; era hora de celebrar seu domínio e poder. Então, Personagem comprou uma lujosa mansão naquela cidade e investiu em negócios lucrativos que o transformaram em um magnata do setor.",
+        "generated_text_llama": "Personagem sorriu amargamente para si mesmo, sabendo que havia encontrado o momento perfeito para atacar. Ele começou a revisar os planos de batalha, verificando se todos os detalhes estavam em ordem. A trapaça foi simples: criar uma falsa pista que levasse as autoridades embora da verdadeira vingança.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "celebrou",
+                    "ROOT"
+                ],
+                [
+                    "comprou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Padre João",
+        "sentence": "Padre João medita e relembra o passado.",
+        "start_char": 80497,
+        "end_char": 80507,
+        "excerpt": "Pouco se falam. Cada qual, ante a augusta presença do deserto, recolhe-se dentro de sua alma. Padre João medita e relembra o passado.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "medita",
+                "child": "Padre João",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "meditar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Padre",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] medita e relembra o passado.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, que era conhecida pela calma inegável e por sua capacidade de encontrar o equilíbrio em qualquer situação, não somente continuava meditando mas também reminiscia sobre seu passado, uma jornada cheia de desafios, aprendizados e triunfos. A meditação lhe servia como um balanço entre o presente e o passado, permitindo-lhe absorver todas as experiências que já passou por uma perspectiva mais clara e objetiva. Por meio desta prática, ela também encontrava força para enfrentar os desafios que a vida lhe pudesse apresentar no futuro.",
+        "generated_text_llama": "Personagem fecha os olhos e permite que a mente se apague, mergulhando em um estado de calma e tranquilidade. Ele respira fundo, sentindo a ar que entra e sai de seu corpo, como se estivesse limpando as raízes das suas preocupações. Em seguida, começa a visualizar imagens do passado, como se estivesse vivendo novamente esses momentos.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "continuava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "fecha",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Conde Ruffo de Lambertini",
+        "sentence": "Depois encontrou a condessa Alda, esposa do velho embaixador de Florença, o Conde Ruffo de Lambertini.",
+        "start_char": 80814,
+        "end_char": 80839,
+        "excerpt": "A chegada em Paris... a sua primeira tragédia representada!... Os elogios e as saudações que recebeu prometiam-lhe um destino seguro, feliz e alto. Depois encontrou a condessa Alda, esposa do velho embaixador de Florença, o Conde Ruffo de Lambertini.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "encontrou",
+                "child": "o Conde Ruffo de Lambertini",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "encontrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Conde",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Depois encontrou a condessa Alda, esposa do velho embaixador de Florença, o [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O barão, entusiasmado com a sua descoberta, abraçou-o em um abraço terno e solene. \"Estou tão contente de conhecê-lo finalmente, meu amigo,\" declarou com um sorriso encantador. A condessa Alda parecia ser surpreendida pela sua entrada inesperada, mas logo se recolheram a um abraço caloroso e sorridente. O barão acompanhou-os até ao quarto da condessa, onde uma conversa familiar e agradável se seguiu entre os três. O velho embaixador de Florença se sentiu orgulhoso de ver o barão, que era tão popular na cidade, porém desconhecia bem o seu passado intrigante e perigoso.",
+        "generated_text_llama": "Depois encontrou a condessa Alda, esposa do velho embaixador de Florença, o que imediatamente a fez entrar em pânico. Ela sabia que o Personagem não podia estar ali, pois a última coisa que ela havia ouvido era a conversa sobre como ele havia sido preso pelo rei. A condessa Alda rapidamente se levantou do seu assento e aproximou-se de Personagem, com os olhos cheios de medo e desespero.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "contente",
+                    "ROOT"
+                ],
+                [
+                    "declarou",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "ccomp"
+                ]
+            ],
+            "obj": [
+                [
+                    "aproximou-se",
+                    "conj"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Garça",
+        "sentence": "E Dona Garça dissimulava a sua imensa comoção sorrindo complacente, com piedade quase.",
+        "start_char": 90536,
+        "end_char": 90546,
+        "excerpt": "Mas agora o seu espírito satisfeito embalava-se nas palavras cariciosas do seu ex-amante e ela nem ousara falar, de modo que se escapasse dos seus lábios uma palavra que traísse o seu amor. Era-lhe bem mais agradável escutar aquela música sonora de frases ternas, como se ela lhe fosse de todo indiferente, como se fosse a banalidade estulta de todos os dias. E Dona Garça dissimulava a sua imensa comoção sorrindo complacente, com piedade quase.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "dissimulava",
+                "child": "Dona Garça",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dissimular",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "carater",
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "E [MASK] dissimulava a sua imensa comoção sorrindo complacente, com piedade quase.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Personagem, após guardar essas emoções incontáveis por trás de seu sorriso calmado, desafiadormente olhou para o espelho acima da mesa e, com uma mão levantada ligeiramente, arrancou a parte inferior de seu vestido. Uma luz pálida brilhava em suas olhos, como se tivesse uma revelação de alguma natureza que ele não podia esconder.",
+        "generated_text_llama": "E então, sem dar um sussurro, Personagem se levantou da cadeira, escondendo sua emoção atrás de uma máscara de normalidade. Seu rosto, pálido e com olhos arregalados, parecia ter sido pintado para disfarçar a verdadeira reação que estava sentindo. Com lentidão, Personagem começou a caminhar em direção à janela, espremendo-se contra o vidro como se estivesse tentando escapar da própria dor.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "guardar",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ],
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Garça",
+        "sentence": "Já não me amas, Dona Garça?",
+        "start_char": 90864,
+        "end_char": 90874,
+        "excerpt": "E Dona Garça dissimulava a sua imensa comoção sorrindo complacente, com piedade quase. Entretanto Duclerc, na meia luz da velha casa da Rua da Ajuda, tinha no olhar chispas ardentes, fulgurações indescritíveis de uma velha paixão sopitada e que agora explodia com toda a fúria, com todo o império de sua grandeza. Já não me amas, Dona Garça?",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "dissimulava",
+                "child": "E Dona Garça",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dissimular",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "carater",
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Já não me amas, [MASK]?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele fechou os olhos e tomou um profundo suspiro. Parecia que a luz da lua se fosse extinguida no momento em que as palavras caíram sobre ele. De repente, sentiu-se um corpo pressionando contra a sua, como se ele tivesse uma espécie de pesadelo acordado. A mão de alguém colocou-se na sua boca e ele estava prestes a reagir quando ouviu uma voz suave e sussurrante:",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    }
+]

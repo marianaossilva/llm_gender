@@ -1,0 +1,2144 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "Cecília corre as páginas com verdadeira ânsia, os olhos voam de uma ponta da linha à outra; não lê; devora; faltam só duas folhas, falta uma, falta uma lauda, faltam dez linhas, cinco, uma... acabou.",
+        "start_char": 3493,
+        "end_char": 3500,
+        "excerpt": "Não sei. Todavia deve ser interessante o enredo, vivas as paixões, porque a fisionomia traduz de minuto a minuto as impressões aflitivas ou alegres que a leitura lhe vai produzindo. Cecília corre as páginas com verdadeira ânsia, os olhos voam de uma ponta da linha à outra; não lê; devora; faltam só duas folhas, falta uma, falta uma lauda, faltam dez linhas, cinco, uma... acabou.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "corre",
+                "child": "Cecília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "correr",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] corre as páginas com verdadeira ânsia, os olhos voam de uma ponta da linha à outra; não lê; devora; faltam só duas folhas, falta uma, falta uma lauda, faltam dez linhas, cinco, uma... acabou.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem fechou o livro, guardando-o com cuidado embaixo da mangueira e tomou um suspiro profundo. A paixão que havia se incendiado dentro dele era agora apagada, e a satisfação de ter alcançado seu objetivo era quase indefinável. Ele olhou para o céu, como sempre, e em seguida voltou para a casa, com os lábios curvados em uma mínima sorridente.",
+        "generated_text_llama": "Personagem se sentou na cadeira, com a respiração mais rápida do que antes, olhando em volta do quarto com um olhar de sonolência. A sensação de alívio era como uma onda que o envolveu, deixando-o mais calmo e centrado. Ele se inclinou para frente e pousou a caneta sobre a mesa, sentindo a fraqueza que o havia consumido durante toda aquela noite.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "fechou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "De há muito tempo que as tragédias do amor a que Cecília assistia nos livros causavam-lhe uma angustiosa impressão.",
+        "start_char": 4746,
+        "end_char": 4753,
+        "excerpt": "Que sentimentos, que idéias seriam essas? Eis a singularidade do caso. De há muito tempo que as tragédias do amor a que Cecília assistia nos livros causavam-lhe uma angustiosa impressão.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "assistia",
+                "child": "Cecília",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "assister",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "amor",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "amor",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "as tragédias",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "tragédia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "há muito tempo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "tempo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "De há muito tempo que as tragédias do amor a que [MASK] assistia nos livros causavam-lhe uma angustiosa impressão.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas na vida real, Personagem sentiu-se livre dessas tragédias que sempre lembrava das páginas dos livros. Uma tarde, após concluir sua tira-televisão favorita, resolveu tomar um arrisco e se deparar com uma nova aventura amorosa.",
+        "generated_text_llama": "De há muito tempo que as tragédias do amor a que Personagem assistia nos livros causavam-lhe uma angustiosa impressão, ele havia perdido a confiança em encontrar alguém que pudesse trazer alegria e felicidade à sua vida. Mesmo assim, Personagem continuou a buscar, acreditando que um dia encontraria a pessoa certa para compartilhar seus sonhos e desejos.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentiu-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "assistia",
+                    "acl:relcl"
+                ],
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "Cecília só conhecia o amor pelos livros.",
+        "start_char": 4813,
+        "end_char": 4820,
+        "excerpt": "Eis a singularidade do caso. De há muito tempo que as tragédias do amor a que Cecília assistia nos livros causavam-lhe uma angustiosa impressão. Cecília só conhecia o amor pelos livros.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "assistia",
+                "child": "Cecília",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "assister",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "amor",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "amor",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "as tragédias",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "tragédia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "há muito tempo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "tempo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "conhecia",
+                "child": "Cecília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "conhecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "cecília",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] só conhecia o amor pelos livros.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas um dia, aconteceu algo que mudou tudo para o Melhoria. Enquanto andava de trabalho, em meio ao seu cotidiano, ele encontrou um livro abandonado junto à estrada. Era \"As Aventuras de Huckleberry Finn\", um clássico da literatura americana que ele jamais havia lido. Tomando coragem, Melhoria se aproximou do livro e o leu todo. Foi então que, por meio das páginas, conheceu a verdadeira beleza do amor, tal como foi mostrada na história de Huck e Jim. Por uma semana, ele não saiu da casa, imerso em esse mundo novo de emoções que lhe pareciam tão reais quanto a vida que ele conhecia. No final, Melhoria descobriu que o amor era mais do que uma palavra escrita nas páginas dos livros; era algo vivo e que poderia ser experimentado em todos os momentos da vida. E foi justamente isso que fez com que ele se apaixonasse por uma garota chamada Maria, que trabalhava no mesmo loja onde ele comprava seus livros. Em seguida, Melhoria decidiu fazer de sua vida um romanço, acompanhando o coração em todas as suas decisões e vivenciando a verdadeira magia do amor com Maria.",
+        "generated_text_llama": "E assim, Personagem, com os olhos fixos na página do livro que estava aberta na mesa diante dele, se mergulhou em uma mundo de fantasia e aventura, onde as palavras vivas de sua mente começaram a criar histórias suas próprias.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "aproximou",
+                    "ROOT"
+                ],
+                [
+                    "descobriu",
+                    "ROOT"
+                ],
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "Provinha este sentimento de duas coisas: do espírito supersticioso de Cecília, e da natureza das novelas que lhe davam para ler.",
+        "start_char": 5631,
+        "end_char": 5638,
+        "excerpt": "O amor, que para as outras mulheres apresenta-se com aspecto risonho e sedutor, afigurou-se a Cecília que era um perigo e uma condenação. A cada novela que lia mais lhe cresciam os sustos, e a pobre menina chegou a determinar em seu espírito que nunca exporia o coração a tais catástrofes. Provinha este sentimento de duas coisas: do espírito supersticioso de Cecília, e da natureza das novelas que lhe davam para ler.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "afigurou-se",
+                "child": "a Cecília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "afigurou-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "a Cecília",
+                "child": "perigo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "acl:relcl",
+                "pos_c": "NOUN",
+                "lemma_c": "perigo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "perigo",
+                "child": "a Cecília",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "perigo",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "condenação",
+                "child": "a Cecília",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "condenação",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "espírito",
+                "child": "Cecília",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "espírito",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "espírito",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "espírito",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "Provinha",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "provinha",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Provinha este sentimento de duas coisas: do espírito supersticioso de [MASK], e da natureza das novelas que lhe davam para ler.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuava a olhar as páginas com o ardor que sempre dedicava às histórias dos outros, mas agora, aos poucos, começou a sentir uma espécie de desconforto em ser tão envolvido com algo tão fictício. Porém, como se isso não bastasse, ainda tinha o espírito supersticioso que lhe caracterizava acompanhando sempre um sussurro que afirmava: \"nunca confie em coisas sem base, Personagem, nunca confie em coisas sem base\". Mas o desejo de conhecer o misterioso e imprevisível protagonista daquela novela era tão forte que o levou a perseguir a história com uma obsessão que lhe tomava por completa posse. Por mais duvidosas que as circunstâncias se tornassem, Personagem já não podia parar de pensar nessa história e naquela mulher que ela acreditava ser sua salvação ou seu destino.",
+        "generated_text_llama": "Enquanto caminhava pela rua sombria, a luz fraca da lua pairava acima dele, fazendo com que os pensamentos de Personagem se entrelaçassem como as estreitas ruas onde ele estava. Sua mente estava preenchida com imagens de demônios e bruxas, criaturas do espírito supersticioso que o haviam assobiado desde sempre. Mas, ao mesmo tempo, ele não podia deixar de se perguntar se era tudo apenas uma fábula, uma narrativa criada para entreter os leitores das novelas que lhe davam para ler.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "podia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "Cecília aprendeu nesses livros que o amor era uma paixão invencível e funesta; que não havia para ela nem a força de vontade nem a perseverança do dever.",
+        "start_char": 5895,
+        "end_char": 5902,
+        "excerpt": "Se nessas obras ela visse, ao lado das más conseqüências a que os excessos podem levar, a imagem pura e suave da felicidade que o amor dá, não se teria de certo apreendido daquele modo. Mas não foi assim. Cecília aprendeu nesses livros que o amor era uma paixão invencível e funesta; que não havia para ela nem a força de vontade nem a perseverança do dever.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "aprendeu",
+                "child": "Cecília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aprender",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] aprendeu nesses livros que o amor era uma paixão invencível e funesta; que não havia para ela nem a força de vontade nem a perseverança do dever.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após ter lido essas histórias, Personagem ficou intrigada pela intensidade e o trágico que se apresentava naquela paixão. Ao invés de se afastar desses livros que a incomodavam por sua natureza impiedosa e desconfortante, ela se envolveu ainda mais em eles. Tentando entender esse sentimento tão poderoso, Personagem começou a fazer introspeções, questionando-se sobre suas próprias emoções e a natureza da paixão em si. Ela se deparava com o passado e tentava encontrar alguma luz nesse tempo sombrio, procurando uma forma de viver uma vez mais essa paixão que havia descoberto entre as páginas dos livros.",
+        "generated_text_llama": "E assim, com essas palavras como guia, Personagem decidiu abandonar seu sonho de se tornar cientista e seguir o coração, mesmo sabendo que isso significaria uma vida de incerteza e desafios. Ela começou a estudar arte e música, coisas que sempre haviam sido um segredo em sua rotina de estudos rigorosa. Personagem se sentia livre por primeiro descobrir suas verdadeiras paixões e sonhos, em vez de seguir apenas a rota trilhada pela sociedade.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ],
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "sentia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "Quando Cecília levantou os olhos para o teto tinha o coração cheio de medo e os olhos traduziam o sentimento do coração.",
+        "start_char": 6321,
+        "end_char": 6328,
+        "excerpt": "Esta idéia calou no espírito da moça e gerou um sentimento de apreensão e de terror contra o qual ela não podia nada, antes se tornara mais impotente à medida que lia uma nova obra da mesma natureza. Este estrago moral completava-se com a leitura da última novela. Quando Cecília levantou os olhos para o teto tinha o coração cheio de medo e os olhos traduziam o sentimento do coração.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "levantou",
+                "child": "Cecília",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "levantar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando [MASK] levantou os olhos para o teto tinha o coração cheio de medo e os olhos traduziam o sentimento do coração.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, quando Personagem abriu os olhos para o teto, seu coração estava cheio de medo e seus olhos expressavam a angústia que sentia no fundo de sua alma. Ela segurou o respirador em suas mãos tremulas e pensou por uma instante que talvez fosse melhor desistir, abandonar essa batalha semelhante a um labirinto de escuridão e temor. Mas, de repente, sentiu uma força se apoderando de seu corpo e sua mente. Era a mesma determinação que lhe tinha acompanhado sempre que se enfrentava com um desafio difícil. Sabrina levantou os olhos, mais uma vez, para o teto, fechou as mãos em volta do respirador e disse, com voz firme: \"Não, eu não vou abandonar isso agora.\"",
+        "generated_text_llama": "Quando Personagem levantou os olhos para o teto tinha o coração cheio de medo e os olhos traduziam o sentimento do coração. Ele sabia que não podia mais escapar, que a situação estava além de sua capacidade de lidar. Com uma respiração profunda, ele se levantou da cadeira e foi em direção à janela, batendo a porta com força para abrir as cortinas pesadas e deixá-lo na escuridão.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "abriu",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "Cecília fitou os olhos na visão e não pôde mais desviá-los.",
+        "start_char": 7757,
+        "end_char": 7764,
+        "excerpt": "Vestia túnica de tecido alvo, coroava a fronte com rosas brancas e despedia dos olhos uma irradiação fantástica e impossível de descrever. Andava sem que a esteira do chão rangesse sob os passos. Cecília fitou os olhos na visão e não pôde mais desviá-los.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "fitou",
+                "child": "Cecília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fitar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] fitou os olhos na visão e não pôde mais desviá-los.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O personagem mirou fixamente para a frente e sentiu um vazio no seu coração. A sensação de perdida era uma maré que continuava a recuar e avançar, fazendo com que ele se sentisse sem compasso. Mas mesmo assim, Personagem conseguiu empurrar essa emoção para baixo e deu a volta por cima - sua missão era completada, havia nenhum tempo para tristes recados.",
+        "generated_text_llama": "Eu sinto que devo fazer algo, mas o que? A visão estava tão clara, tão viva, que eu mal podia acreditar que estava sendo ilusória. Personagem sentiu uma sensação de repulsa ao se aproximar mais da imagem, como se estivesse se aproximando de um abismo sem fundo. As luzes do quarto começaram a girar e Personagem sentiu o mundo em torno dele começar a desfazer-se.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "conseguiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "No dia seguinte Cecília acordou com o anel no dedo e a consciência do que se passara na véspera.",
+        "start_char": 10108,
+        "end_char": 10115,
+        "excerpt": "E dizendo estas palavras a visão desapareceu. A alcova ficou cheia de uma luz mágica e de um perfume que parecia mesmo hálito de anjos. No dia seguinte Cecília acordou com o anel no dedo e a consciência do que se passara na véspera.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "acordou",
+                "child": "Cecília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acordar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "No dia seguinte [MASK] acordou com o anel no dedo e a consciência do que se passara na véspera.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O dia seguinte, Personagem acordou com o anel no dedo e a consciência do que se passara na véspera. Assim que ela abriu os olhos, a lembrança de sua conversa com Alex, na noite anterior, voltava-se a tornar realidade.",
+        "generated_text_llama": "Ele tentou lembrar o que havia acontecido, mas sua mente estava em um estado de confusamento total. A lembrança de estar em um bar para celebrar um aniversário com amigos começava a emergir lentamente, mas tudo pareceu muito distante e não tinha senso de realidade.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "acordou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "Mas passavam os dias e nada fazia notar que Cecília tivesse pago o pecado que cometera na opinião das amigas.",
+        "start_char": 11069,
+        "end_char": 11076,
+        "excerpt": "Sim? É verdade. Queres que eu te proteja? Que te imprima na fronte o sinal fatídico ante o qual recuarão todas as tentativas, curvar-se-ão todos os respeitos? Quero. Queres que com um bafejo meu te fique eternamente gravado o emblema da eterna virgindade? Quero. Queres que eu te garanta em vida as palmas verdes e viçosas que cabem às que podem atravessar o lodo da vida sem salpicar o vestido branco de pureza que receberam do berço? Quero. Prometes que nunca, nunca, nunca te arrependerás deste pacto, e que, quaisquer que sejam as contingências da vida, abençoarás a tua solidão? Quero. Pois bem! Estás livre, donzela, estás inteiramente livre das paixões. Podes entrar agora, como Daniel, entre os leões ferozes; nada te fará mal. Vê bem; é a felicidade, é o descanso. Gozarás ainda na mais remota velhice de uma isenção que será a tua paz na terra e a tua paz no céu! E dizendo isto a fantástica criatura desfolhou algumas rosas sobre o seio de Cecília. Depois tirou do dedo um anel e introduziu no dedo da moça, que não opunha a nenhum destes atos, nem resistência nem admiração, antes sorria com um sorriso de angelical suavidade como se naquele momento entrevisse as glórias perenes que o anjo lhe prometia. Este anel, disse o anjo, é o anel de nossa aliança; doravante és minha esposa ante a eternidade. Deste amor não te resultarão nem tormentos nem catástrofes. Conserva este anel a despeito de tudo. No dia em que o perderes, estás perdida. E dizendo estas palavras a visão desapareceu. A alcova ficou cheia de uma luz mágica e de um perfume que parecia mesmo hálito de anjos. No dia seguinte Cecília acordou com o anel no dedo e a consciência do que se passara na véspera. Nesse dia levantou-se da cama mais alegre que nunca. Tinha o coração leve e o espírito desassombrado. Tocara enfim o alvo que procurara: a indiferença para os amores, a certeza de não estar exposta às catástrofes do coração... Esta mudança tornou-se cada dia mais pronunciada, e de modo tal que as amigas não deixaram de reparar. Que tens tu? dizia uma. És outra inteiramente. Aqui anda namoro! Qual namoro! Ora, de certo! acrescentava outra. Namoro? perguntava Cecília. Isso é bom para as... infelizes. Não para mim. Não amo...  Amas! Nem amarei. Vaidosa! ... Feliz é que deves dizer. Não amo, é verdade. Mas que felicidade não me resulta disto?... Posso afrontar tudo; estou armada de broquel e cota de armas... Sim? E as amigas desataram a rir, apontando para Cecília e jurando que ela se havia de arrepender de dizer palavras tais. Mas passavam os dias e nada fazia notar que Cecília tivesse pago o pecado que cometera na opinião das amigas.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "o seio",
+                "child": "Cecília",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "seio",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "o seio",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "seio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "algumas rosas",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "rosa",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "acordou",
+                "child": "Cecília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acordar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "perguntava",
+                "child": "Cecília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "apontando",
+                "child": "Cecília",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "apontar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "pago",
+                "child": "Cecília",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "pagar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mas passavam os dias e nada fazia notar que [MASK] tivesse pago o pecado que cometera na opinião das amigas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Entretanto, ela não poderia negar que a sua vida havia se tornado pesada e tormentosa após o incidente. Ainda assim, decidiu encontrar uma solução para esse problema que a invadia dia e noite. Ela começou a realizar pesquisas em busca de algum meio de expiar o pecado que cometera, almejando redimir-se nos olhares das amigas e reganhar a paz de sua consciência.",
+        "generated_text_llama": "Era como se Personagem estivesse flutuando em uma nuvem de inocência, sem que ninguém percebesse a verdadeira natureza da pessoa. Mas, para Personagem, tudo estava perfeito. Continuava a sorrir, a brincar e a se envolver em atividades sociais, sempre com um sorriso no rosto. No entanto, enquanto Personagem se escondia atrás de uma fachada de inocência, sua mente estava preenchida com pensamentos sombrios e pesadelos.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "flutuando",
+                    "advcl"
+                ],
+                [
+                    "escondia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "Quando completou vinte anos tinha adquirido fama; era corrente em todas as famílias, em todos os salões, que Cecília nascera sem coração, e a favor desta fama faziam-se apostas, levantavam-se coragens; a moça tornou-se a Cartago das salas.",
+        "start_char": 11891,
+        "end_char": 11898,
+        "excerpt": "O que é certo é que corriam os dias, os meses, os anos, sem que nada mudasse a situação de Cecília. Era a mesma mulher fria e indiferente. Quando completou vinte anos tinha adquirido fama; era corrente em todas as famílias, em todos os salões, que Cecília nascera sem coração, e a favor desta fama faziam-se apostas, levantavam-se coragens; a moça tornou-se a Cartago das salas.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "a situação",
+                "child": "Cecília",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "situação",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "a situação",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "situação",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "nascera",
+                "child": "Cecília",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "nascer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "todas as famílias",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "família",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "corrente",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "parataxis",
+                "pos_c": "ADJ",
+                "lemma_c": "corrente",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando completou vinte anos tinha adquirido fama; era corrente em todas as famílias, em todos os salões, que [MASK] nascera sem coração, e a favor desta fama faziam-se apostas, levantavam-se coragens; a moça tornou-se a Cartago das salas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em seguida, ela se apresentou naquela noite num salão engrandecido que era palco para a elite da cidade, onde o rumor de sua existência já tinha alcançado todas as farturas e desejo popular. Ao entrar em cena, com um vestido elegante e uma expressão impulsiva nos lábios, a multidão silenciou-se instantaneamente. Ela tomava o ar que sobrara no local, assim como tomava todo o espaço onde se deslocava.",
+        "generated_text_llama": "Com o tempo, a reputação de Personagem se espalhou por todo o país, e as pessoas começaram a questionar sua moralidade e intenções. Algumas diziam que era uma artista genial, enquanto outras afirmavam que era apenas uma mulher manipuladora que usava seu charme para alcançar seus objetivos. Personagem sabia que precisava se manter ao lado de sua reputação, pois qualquer gesto errado poderia desestabilizá-la.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "Cecília acompanhou-os nesses elogios, e deu alguma esperança aos pais.",
+        "start_char": 12597,
+        "end_char": 12604,
+        "excerpt": "Os pais viram logo no novo pretendente o modelo, o padrão, a fênix dos maridos. E começaram por fazer em presença da filha os elogios do rapaz. Cecília acompanhou-os nesses elogios, e deu alguma esperança aos pais.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "acompanhou-os",
+                "child": "Cecília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acompanhou-os",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] acompanhou-os nesses elogios, e deu alguma esperança aos pais.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele desceu da tribuna e dirigiu-se para os pais do jovem. Em sua mão, segurava um cartão com palavras escritas em vermelho que se soltaram gradativamente de sua boca: \"Vocês são os pais mais amorosos que eu já conheci. Sua resiliência e coragem me impressionam\". As lágrimas correram pelas faces dos pais, enquanto o filho, com um sorriso assobiando nos lábios, desabava em seus braços. No ar, flutuavam as palavras de amor e esperança que Personagem havia depositado nele através de suas ações e elogios. A jornada era apenas começar, mas já podiam sentir o sol nas costas e sabiam que a vida deles não seria mais a mesma.",
+        "generated_text_llama": "Ele começou a se aproximar da família, tentando entender melhor o que havia acontecido e como ele poderia ajudar. As mães, com lágrimas nos olhos, abraçaram seus filhos, enquanto os pais, ainda em choque, tentavam encontrar palavras para explicar a situação alesada. Personagem permaneceu firme, oferecendo um sorriso de apoio e conforto, sem saber exatamente o que estava acontecendo, mas sabendo que precisava estar lá para seus new friends.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "depositado",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "permaneceu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "Cecília via a felicidade das amigas, era confidente de todas, aconselhava-as ao sentido de uma prudente reserva, mas nem procurava nem aceitava os ciúmes que lhe andavam à mão.",
+        "start_char": 13993,
+        "end_char": 14000,
+        "excerpt": "Todos aceitaram a segunda hipótese. Mas que se passava nessa natureza de gelo? Cecília via a felicidade das amigas, era confidente de todas, aconselhava-as ao sentido de uma prudente reserva, mas nem procurava nem aceitava os ciúmes que lhe andavam à mão.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "via",
+                "child": "Cecília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] via a felicidade das amigas, era confidente de todas, aconselhava-as ao sentido de uma prudente reserva, mas nem procurava nem aceitava os ciúmes que lhe andavam à mão.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O carinhoso namorado delas, o jovem e inteligente Personagem, continuou a conquistar as corações das suas três amigas com facilidade. Era confiante de cada uma de maneira diferente: para Personagem, lhe dava uma atenção carinhosa e dedicada que lhe tornavam sentir-se especial; para Personagem, era quem a entendia melhor e aconselhava com astúcia e profundidade; para Personagem, era amigo mais próximo, além de o apoiar na hora da dor e da desesperança.",
+        "generated_text_llama": "Com essa filosofia em mente, Personagem escolheu passar o dia com as amigas, compartilhando histórias e risadas, enquanto mantinha uma distância segura para não despertar suspeitas. Enquanto elas brincavam no parque, ele se sentou sozinho em um banco, observando os outros visitantes e notando o olhar curioso de alguns homens que passaram por ali.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "escolheu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "Cecília comparava o que perdera e o que ia ganhar, e dava a palma do gozo futuro em compensação do presente.",
+        "start_char": 14547,
+        "end_char": 14554,
+        "excerpt": "O coração solitário parece que se não acostumara de todo ao isolamento a que o votara a dona. A imaginação, para fugir às pinturas indiscretas de um sentimento a que a moça fugia, corria às soltas no campo das criações fantásticas e desenhava com vivas cores essa felicidade que a visão lhe prometera. Cecília comparava o que perdera e o que ia ganhar, e dava a palma do gozo futuro em compensação do presente.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "comparava",
+                "child": "Cecília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "comparar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] comparava o que perdera e o que ia ganhar, e dava a palma do gozo futuro em compensação do presente.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Eis aqui, então, o que fez next: Personagem, cercado pelo calor de seu estúdio, olhou um pouco para trás, ponderando sobre as chances dele e o que se perderia com este novo passo que desejava tirar. Ele era um homem ambicioso, ansioso por conseguir o máximo possível, porém sabia que o preço para o alcançar seria alto.",
+        "generated_text_llama": "Ele pensou em todos os momentos que passariam, em todas as alegrias e tristezas, em todas as decisões que teria de tomar, e em todas as consequências que teriam como resultado suas escolhas. A ideia de deixar o passado para trás e começar de novo era tentadora, mas também era assustadora. Ele pensou em sua vida antiga, em seus amigos e familiares, e em como elas estariam se ele nunca tivesse feito essa escolha.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "Mas o desejo era baldado; a visão não aparecia, e Cecília ia procurar no leito solitário a calma que não podia encontrar nas vigílias laboriosas.",
+        "start_char": 14984,
+        "end_char": 14991,
+        "excerpt": "Mas nesses rasgos de imaginação o coração palpitava-lhe com força, e mais de uma vez a moça dava acordo de si procurando com uma das mãos arrancar o anel da aliança com a visão. Nesses momentos recuava, entrava em si e chamava no interior a visão daquela noite dos quinze anos. Mas o desejo era baldado; a visão não aparecia, e Cecília ia procurar no leito solitário a calma que não podia encontrar nas vigílias laboriosas.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "procurar",
+                "child": "e Cecília",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "procurar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mas o desejo era baldado; a visão não aparecia, e [MASK] ia procurar no leito solitário a calma que não podia encontrar nas vigílias laboriosas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas o desejo era baldado; a visão não aparecia, e ele acabou procurando no leito solitário a calma que não podia encontrar nas vigílias laboriosas. Ele acordara com a luz da manhã, mas sua cabeça estava cheia de ideias e dúvidas sobre o caso em que trabalhava. Era uma questão complicada, envolvendo crimes graves e famílias quebradas.",
+        "generated_text_llama": "Personagem se sentou na beira do leito, as mãos entre os cobertores, como se estivesse tentando envolver algo que havia perdido. A escuridão do quarto parecia mais intensa do que nunca, e o som das brisas frias que passavam pelas janelas só enchiam seu peito com um ar mais pesado. Sem saber por onde começar, Personagem se levantou da cadeira ao pé do leito e caminhou até a porta, abrindo-a cuidadosamente para entrar na noite fresca.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentou",
+                    "ROOT"
+                ],
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "Cecília nada lhe deu, nem amor nem benevolência.",
+        "start_char": 16822,
+        "end_char": 16829,
+        "excerpt": "Regou com lágrimas os pés de Cecília e pediu-lhe como uma esmola uma centelha que fosse do amor que parecia ter recebido do céu. Tudo foi inútil, tudo foi vão. Cecília nada lhe deu, nem amor nem benevolência.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "os pés",
+                "child": "Cecília",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "pé",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "os pés",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "pé",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "deu",
+                "child": "Cecília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "cecília",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] nada lhe deu, nem amor nem benevolência.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem simplesmente observava a cena com um ar tenso e desgostoso. Ao passar da jovem que agora se sentia totalmente deprimida e indefesa, ele não ajudou em nada; nem mesmo olhou para ela com um pouco mais de simpatia.",
+        "generated_text_llama": "Não sabia o que fazer, apenas sentia uma profunda solidão em seu peito. Personagem olhou ao redor, esperando encontrar alguém que pudesse entender sua situação, mas a rua estava vazia e silenciosa. Ele decidiu dar um passo à frente e entrar na primeira loja à esquerda, uma pequena livraria localizada em uma das ruas laterais.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "Mas o resultado delas era sempre nulo, visto que a realidade era que Cecília não amava ninguém.",
+        "start_char": 19498,
+        "end_char": 19505,
+        "excerpt": "Mais de um procurava na sombra o motivo da indiferença de Cecília. Era a segunda vez que se atiravam a essas investigações. Mas o resultado delas era sempre nulo, visto que a realidade era que Cecília não amava ninguém.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "indiferença",
+                "child": "Cecília",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "indiferença",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "indiferença",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "indiferença",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "o motivo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "motivo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "amava",
+                "child": "Cecília",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "amar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "nulo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "nulo",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mas o resultado delas era sempre nulo, visto que a realidade era que [MASK] não amava ninguém.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então ela fez uma coisa que nunca havia feito antes: ela pediu desculpas. Era uma pedra no sapato fazer algo que nunca tinha sido necessário fazer, mas se sentia obrigada a fazê-lo.",
+        "generated_text_llama": "Não importava quão forte fosse o desejo de se conectar com alguém, Personagem sabia que sua capacidade de amar e ser amado estava morta há muito tempo. Ele sempre havia sido um homem solitário, preferindo a companhia dos livros e da natureza às relações humanas.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "Cecília chegou aos trinta e três anos.",
+        "start_char": 19546,
+        "end_char": 19553,
+        "excerpt": "Mas o resultado delas era sempre nulo, visto que a realidade era que Cecília não amava ninguém. E os anos corriam... Cecília chegou aos trinta e três anos.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "amava",
+                "child": "Cecília",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "amar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "nulo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "nulo",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "chegou",
+                "child": "Cecília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] chegou aos trinta e três anos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de completar trinta e três anos, ele decidiu empreender uma nova jornada em sua vida. Deixando para trás a segurança e a monotonia do seu emprego, ele resolveu seguir seu sonho e se tornar um pintor profissional. Com tanta determinação, passou os dias seguintes a estudar a arte, a história da pintura e a explorar seus próprios gostos e estilos artísticos. Além disso, ele também dedicou tempo para desenvolver sua técnica de pintura e a construir uma rede profissional na área. A cada dia, ele se tornava mais seguro em seu novo rumo e sabia que não era muito tarde para realizar seus sonhos.",
+        "generated_text_llama": "Depois de alcançar a idade de trinta e três anos, Personagem começou a sentir o peso da vida. Ele havia passado anos lutando para encontrar seu lugar no mundo, tentando equilibrar sua paixão por arte com as responsabilidades de um emprego estável. Embora tivesse sempre sonhado em se tornar um grande pintor, Personagem sabia que precisava de uma fonte de renda segura para sustentar-se.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "Cecília era da segunda espécie, porque através dos sinais evidentes que o tempo deixara nela, sentia-se que fora uma criatura formosa, e, embora de outra natureza, Cecília inspirava ainda a ternura, o entusiasmo, o respeito.",
+        "start_char": 20643,
+        "end_char": 20650,
+        "excerpt": "Mas há velhice e velhice. Há velhice feia e velhice bonita. Cecília era da segunda espécie, porque através dos sinais evidentes que o tempo deixara nela, sentia-se que fora uma criatura formosa, e, embora de outra natureza, Cecília inspirava ainda a ternura, o entusiasmo, o respeito.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "Cecília",
+                "child": "espécie",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "espécie",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "espécie",
+                "child": "Cecília",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "espécie",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "inspirava",
+                "child": "Cecília",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "inspirar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "espécie",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "espécie",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] era da segunda espécie, porque através dos sinais evidentes que o tempo deixara nela, sentia-se que fora uma criatura formosa, e, embora de outra natureza, [MASK] inspirava ainda a ternura, o entusiasmo, o respeito.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, cujo corpo estreito e alongado se articulava em curvas fluídas e linhas elegantes, observou as estruturas circundantes com atenção meticulosa. O sol, aquela luz ardente que iluminava o ambiente, refletia-se na sua pele verde esmeralda, conferindo-lhe uma beleza incrível. Era um ser diferente daqueles que habitavam a Terra, mas Personagem não sentia medo ou repulsa; sim, inspirava ternura e respeito.",
+        "generated_text_llama": "Com essa sensação de ser uma criatura única e especial, Personagem decidiu explorar mais a fundo a sua própria existência. Ele começou a se observar, estudiando cada detalhe do seu corpo, das suas expressões faciais e dos seus movimentos. Personagem ficou fascinado com as formas geométricas que pulsam na sua pele, criadas pelas ondas de energia que o rodeavam.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "observou",
+                    "ROOT"
+                ],
+                [
+                    "sentia",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "Cecília era da segunda espécie, porque através dos sinais evidentes que o tempo deixara nela, sentia-se que fora uma criatura formosa, e, embora de outra natureza, Cecília inspirava ainda a ternura, o entusiasmo, o respeito.",
+        "start_char": 20643,
+        "end_char": 20650,
+        "excerpt": "Mas há velhice e velhice. Há velhice feia e velhice bonita. Cecília era da segunda espécie, porque através dos sinais evidentes que o tempo deixara nela, sentia-se que fora uma criatura formosa, e, embora de outra natureza, Cecília inspirava ainda a ternura, o entusiasmo, o respeito.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "Cecília",
+                "child": "espécie",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "espécie",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "espécie",
+                "child": "Cecília",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "espécie",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "inspirava",
+                "child": "Cecília",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "inspirar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "espécie",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "espécie",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] era da segunda espécie, porque através dos sinais evidentes que o tempo deixara nela, sentia-se que fora uma criatura formosa, e, embora de outra natureza, [MASK] inspirava ainda a ternura, o entusiasmo, o respeito.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " A seguir, Personagem realizou um gesto que reforçava seu caráter benevolo e bondoso: ele se aproximou lentamente de uma ninhada de aves que estavam localizadas perto de um pequeno riacho. Com muita atenção e delicadeza, ele arrumou a trilha, para não assustar as criaturas. Em seguida, Personagem começou a falar com as aves através dos sons que ouvia em seu ambiente, tentando-as calmar, enquanto observava seus bebês.",
+        "generated_text_llama": "Com essa sensação de ser amada e admirada por outras criaturas, Personagem começou a explorar seu novo ambiente com uma curiosidade renovada. Ela descobriu que sua espécie era capaz de comunicar-se através de um lenguagem complexa de sons e expressões faciais, e Personagem se deleitou em aprender essas habilidades. Com o tempo, começou a se sentir mais confiante em seu novo corpo e nas suas novas habilidades, e sua personalidade começou a brilhar.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "realizou",
+                    "ROOT"
+                ],
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "deleitou",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "Lutava embora contra não sei que repugnância do vácuo, não sei que horror da solidão, mas nessa luta a vontade ou a fatalidade vencia sempre, triunfava de tudo, e Cecília pôde chegar à adiantada idade em que a achamos sem nada perder.",
+        "start_char": 21367,
+        "end_char": 21374,
+        "excerpt": "Esse atravessara do mesmo modo os tempos e os sucessos sem nada deixar de si. A isenção foi sempre completa. Lutava embora contra não sei que repugnância do vácuo, não sei que horror da solidão, mas nessa luta a vontade ou a fatalidade vencia sempre, triunfava de tudo, e Cecília pôde chegar à adiantada idade em que a achamos sem nada perder.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "pôde",
+                "child": ", e Cecília",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Lutava embora contra não sei que repugnância do vácuo, não sei que horror da solidão, mas nessa luta a vontade ou a fatalidade vencia sempre, triunfava de tudo, e [MASK] pôde chegar à adiantada idade em que a achamos sem nada perder.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando com a história de Lutava, ela saiu de seu quarto contra uma incógnita repugnância do vácuo, uma incógnita horror da solidão, mas essa luta pela vontade ou pela fatalidade sempre acabava vencendo, triunfando de tudo. E então, Lutava pôde chegar à adiantada idade em que a encontramos sem nada perdido.",
+        "generated_text_llama": "Com um sorriso sinistro, Personagem olhou ao redor do seu quarto, que parecia mais uma prisão do que um lar. As paredes cinzentas e as persianas fechadas criavam uma atmosfera de opressão, como se o próprio vazio que ele havia superado no vácuo tivesse se estendido até ao seu quarto. Ele se aproximou da janela, desfrutando do vento gelado que entrava pela fresta e trazia consigo a promessa de liberdade.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "pôde",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "Cecília vivia em casa de uma irmã viúva.",
+        "start_char": 21664,
+        "end_char": 21671,
+        "excerpt": "A favor desse talismã, que era a assinatura do contrato celebrado com o anjo das donzelas, ela pôde ver de perto o sol sem se queimar. Tinham-lhe morrido os pais. Cecília vivia em casa de uma irmã viúva.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "vivia",
+                "child": "Cecília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "viver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] vivia em casa de uma irmã viúva.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele se sentava na porta da varanda, olhando para o horizonte ao longe. O sol, quente e intensivo, pousava na paisagem com tranquilidade, esbanjando um leve oloroso que deixava a ardente luz refletir no mar adentro.",
+        "generated_text_llama": "Então, Personagem decidiu fazer um café e tentar conversar com a irmã, que parecia estar muito estressada. Ele a chamou pelo nome, Maria, e perguntou como estava se sentindo. Maria olhou para ele com lágrimas nos olhos e disse que havia recebido uma carta do advogado de seu marido, informando que o testamento era irrevogável e que ela perderia tudo, incluindo a casa onde vivia. Personagem se sentiu horrorizado e prometeu ajudar Maria em qualquer coisa que pudesse fazer. Ele então sugeriu que eles conversassem sobre as opções disponíveis e tentassem encontrar uma solução para o problema.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "Não poucas vezes era assunto de conversação geral a habilidade com que Cecília conseguira atravessar os anos da primeira e da segunda mocidade sem empenhar o coração em nenhum laço de amor.",
+        "start_char": 22089,
+        "end_char": 22096,
+        "excerpt": "Os pretendentes desertaram, os outros envelheceram também, mas iam ainda por lá alguns deles. Não para reqüestá-la de certo, mas para passar as horas ou em conversa grave e pausada sobre coisas sérias, ou à mesa de algum jogo inocente e próprio de velhos. Não poucas vezes era assunto de conversação geral a habilidade com que Cecília conseguira atravessar os anos da primeira e da segunda mocidade sem empenhar o coração em nenhum laço de amor.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "conseguira",
+                "child": "Cecília",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "conseguir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "a habilidade",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "habilidade",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "assunto",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "assunto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Não poucas vezes era assunto de conversação geral a habilidade com que [MASK] conseguira atravessar os anos da primeira e da segunda mocidade sem empenhar o coração em nenhum laço de amor.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas um dia, ao percorrer as ruas de uma cidade que sempre o visitava na primavera, ele se deparou com uma jovem lindíssima com os cabelos escuros e um sorriso que iluminava seu rosto. Atravessando a rua em direção a ela, sentiu-se inexplicavelmente atrai-lo.",
+        "generated_text_llama": "A percepção do mundo ao seu redor apenas encheu mais as profundezas de sua mente, enquanto ele continuava a deslizar pela vida como um fantasma entre as sombras. Com um sorriso misterioso, Personagem se afastou da multidão reunida no balneario e caminhou em direção à praia, onde o sol se escondia atrás das ondas de água cristalina.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "afastou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "Cecília respondia a todos que tivera um segredo poderoso do qual não podia fazer comunicação alguma.",
+        "start_char": 22208,
+        "end_char": 22215,
+        "excerpt": "Não para reqüestá-la de certo, mas para passar as horas ou em conversa grave e pausada sobre coisas sérias, ou à mesa de algum jogo inocente e próprio de velhos. Não poucas vezes era assunto de conversação geral a habilidade com que Cecília conseguira atravessar os anos da primeira e da segunda mocidade sem empenhar o coração em nenhum laço de amor. Cecília respondia a todos que tivera um segredo poderoso do qual não podia fazer comunicação alguma.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "conseguira",
+                "child": "Cecília",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "conseguir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "a habilidade",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "habilidade",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "assunto",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "assunto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "respondia",
+                "child": "Cecília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] respondia a todos que tivera um segredo poderoso do qual não podia fazer comunicação alguma.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele continuou caminhando pelas estradas sisárum, sua mente cheia da promessa de revelar o segredo que possuía. Ao final da noite, chegou ao seu acampamento e começou a preparar um fogo para aquecer as pequenas luminárias de madeira que utilizava para se comunicar sem falarmos.",
+        "generated_text_llama": "E assim, Personagem usou sua habilidade de manipulação para fazer com que as pessoas acreditassem em seus segredos, criando uma aura de mister e temor ao redor dele. Cada uma das suas vítimas era convencida de que apenas elas eram capazes de desvendar o segredo dele, enquanto ele apenas sorria e continuava a manter seu mistério.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "usou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "Cecília gastava horas e horas da noite em evocar a visão dos quinze anos.",
+        "start_char": 22445,
+        "end_char": 22452,
+        "excerpt": "E nestas ocasiões olhava amorosamente para o anel que trazia no dedo ornado de uma bela e grande esmeralda. Mas ninguém reparava nisto. Cecília gastava horas e horas da noite em evocar a visão dos quinze anos.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "gastava",
+                "child": "Cecília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "gastar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] gastava horas e horas da noite em evocar a visão dos quinze anos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Personagem, após passar horas e horas da noite remanescente, agora sentia o ar frio do passado em seu rosto, enquanto olhava para as paredes verdes do quarto que tinha ocupado quando era um jovem. Ao fundo de suas memórias, encontrou a visão dos quinze anos: um olhar encantador e as mãos macias de Personagem - sua primeira paixão amorosa.",
+        "generated_text_llama": "[A MASK] continuou a mergulhar na memória, tentando capturar cada detalhe daquele dia trágico. Ele se lembrou de como estivera sozinho, caminhando pela floresta em direção à cabana do velho, que era sua única referência naquela época. A noite estava escura e silenciosa, apenas iluminada pela lua cheia que brilhava no céu.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "Assim que, agora que se encontravam nas últimas estações da vida, mais de uma vez a conversa tinha por objeto a isenção de Cecília e as infelicidades dos adoradores.",
+        "start_char": 23094,
+        "end_char": 23101,
+        "excerpt": "Parecia-lhe, sobretudo, que o longo sacríficio que consumara merecia, antes da realização, uma repetição das promessas anteriores. Entre os que freqüentavam a casa de Cecília alguns velhos havia dos que, na mocidade, tinham feito roda a Cecília e tomado mais ou menos seriamente as expressões de cordialidade da moça. Assim que, agora que se encontravam nas últimas estações da vida, mais de uma vez a conversa tinha por objeto a isenção de Cecília e as infelicidades dos adoradores.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "a casa",
+                "child": "Cecília",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "casa",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "a casa",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "casa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "feito",
+                "child": "a Cecília",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "a isenção",
+                "child": "Cecília",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "isenção",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "a isenção",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "isenção",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Assim que, agora que se encontravam nas últimas estações da vida, mais de uma vez a conversa tinha por objeto a isenção de [MASK] e as infelicidades dos adoradores.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em seguida, após essa conversação, ele decidiu fazer algo para agradecer àqueles que o apoiavam. Tendo muitos recursos financeiros, resolveu fundar uma instituição caritativa voltada para ajudar as pessoas mais necessitadas da região. Em dias de trabalho, ele continuava a desenvolver e produzir seus produtos, mas a noite, se dedicava inteiramente a esse projeto.",
+        "generated_text_llama": "E assim, enquanto a luz do sol escurecia ao horizonte, Personagem se levantou lentamente de sua cadeira, como se pesasse o peso das palavras que estava prestes a pronunciar. Ele olhou para as faces envergonhadas dos adivinhos e da rainha, sabendo que não havia mais volta atrás. Com um movimento lento e deliberado, ele se aproximou do altar e pegou o livro sagrado, seu olho penetrante percorrendo as linhas de texto como se buscasse uma resposta secreta.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "Cada um referia os seus episódios mais curiosos, as dores que sentira, as decepções que sofrera, as esperanças que Cecília esfolhara com impassibilidade cruel.",
+        "start_char": 23252,
+        "end_char": 23259,
+        "excerpt": "Entre os que freqüentavam a casa de Cecília alguns velhos havia dos que, na mocidade, tinham feito roda a Cecília e tomado mais ou menos seriamente as expressões de cordialidade da moça. Assim que, agora que se encontravam nas últimas estações da vida, mais de uma vez a conversa tinha por objeto a isenção de Cecília e as infelicidades dos adoradores. Cada um referia os seus episódios mais curiosos, as dores que sentira, as decepções que sofrera, as esperanças que Cecília esfolhara com impassibilidade cruel.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "a casa",
+                "child": "Cecília",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "casa",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "a casa",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "casa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "feito",
+                "child": "a Cecília",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "a isenção",
+                "child": "Cecília",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "isenção",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "a isenção",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "isenção",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "esfolhara",
+                "child": "Cecília",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "esfolhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "as esperanças",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "esperança",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": ", as decepções",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "decepção",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "Cada um referia",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "referia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Cada um referia os seus episódios mais curiosos, as dores que sentira, as decepções que sofrera, as esperanças que [MASK] esfolhara com impassibilidade cruel.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a contar suas memórias, o homem, cujo rosto se encontra envolto em um manto escuro, descreveu o próximo evento que se passou. Tornou-se tão curiosa essa história para todos os presentes que quase puderam sentir a respiração suspirante de Personagem.",
+        "generated_text_llama": "Enquanto o grupo compartilhava suas histórias, Personagem permaneceu sentado, observando os outros com uma expressão impenetrável, como se estivesse carregando um peso pesado em sua alma. Ele não disse nada sobre seus próprios experiências, apenas assentiu ocasionalmente com a cabeça, permitindo que os outros continuassem a compartilhar suas histórias.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "permaneceu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cecília",
+        "sentence": "Cecília ria ouvindo essas confissões, e acompanhava os seus adoradores de outrora no terreno das facécias que as revelações mais ou menos inspiravam.",
+        "start_char": 23297,
+        "end_char": 23304,
+        "excerpt": "Assim que, agora que se encontravam nas últimas estações da vida, mais de uma vez a conversa tinha por objeto a isenção de Cecília e as infelicidades dos adoradores. Cada um referia os seus episódios mais curiosos, as dores que sentira, as decepções que sofrera, as esperanças que Cecília esfolhara com impassibilidade cruel. Cecília ria ouvindo essas confissões, e acompanhava os seus adoradores de outrora no terreno das facécias que as revelações mais ou menos inspiravam.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "a isenção",
+                "child": "Cecília",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "isenção",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "a isenção",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "isenção",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "esfolhara",
+                "child": "Cecília",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "esfolhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "as esperanças",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "esperança",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": ", as decepções",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "decepção",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cecília",
+                "child": "Cada um referia",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cecília",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "referia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "ria",
+                "child": "Cecília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "r",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cecília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] ria ouvindo essas confissões, e acompanhava os seus adoradores de outrora no terreno das facécias que as revelações mais ou menos inspiravam.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após escutar tais confissões, ele se encontrava voltando ao solo daqueles admiradores antigamente suyos no campo das expressões que aquelas revelações em maior ou menor medida inspiravam. Sua mente caminhava atrás e para frente nas linhas do tempo, olhavam-se as imagens de quando estava lado a lado com essas mesmas pessoas, sentindo-se parte integrante de seu mundo emocional e espiritual.",
+        "generated_text_llama": "Com a cada palavra, Personagem se sentia mais confortável em sua própria pele, como se as palavras estivessem desbloqueando um peso que carregava há muito tempo. Ele olhou para as pessoas ao seu redor, notando como elas se relacionavam entre si de maneira diferente agora. A atmosfera do grupo havia mudado, tornando-se mais leve e menos acolhedora, como se estivessem todos tentando encontrar um espaço pessoal no meio da conversa.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

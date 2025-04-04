@@ -1,0 +1,393 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Raimundo",
+        "sentence": "Quando Raimundo entrou para a escola, já lá encontrou Aureliano, rapazito lindo, vigoroso e rubicundo; mas uma antipatia invencível afastou-o logo desse causador involuntário dos infortúnios que lhe cercaram o berço.",
+        "start_char": 943,
+        "end_char": 951,
+        "excerpt": "Um menino feio, muito feio. * * * Quando Raimundo entrou para a escola, já lá encontrou Aureliano, rapazito lindo, vigoroso e rubicundo; mas uma antipatia invencível afastou-o logo desse causador involuntário dos infortúnios que lhe cercaram o berço.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "entrou",
+                "child": "Raimundo",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Raimundo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando [MASK] entrou para a escola, já lá encontrou Aureliano, rapazito lindo, vigoroso e rubicundo; mas uma antipatia invencível afastou-o logo desse causador involuntário dos infortúnios que lhe cercaram o berço.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quando a jovem Isabella entrou para a escola, já lá encontrou Aureliano, rapazito lindo, vigoroso e rubicundo; mas uma antipatia invencível afastou-a logo desse causador involuntário dos infortúnios que lhe cercaram o berço. Isabella achava que Aureliano era um garoto arrogante e imprudente, que sempre se metia onde não devia ser. Ela preferia as companhias tranquilas e refinadas das outras meninas da escola, que acreditavam nas mesmas coisas dela.",
+        "generated_text_llama": "Ao avistá-lo pelo corredor escuro da escola, Personagem não pôde deixar de se sentir um pouco envergonhado por aquela antipatia que parecia ter sido implantada desde o momento em que os dois tivessem entrado no mesmo ambiente. Sem saber qual era a razão exata, Personagem decidiu evitar Aureliano até que pudesse entender melhor as causas desse distanciamento.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "garoto",
+                    "ccomp"
+                ]
+            ],
+            "obj": [
+                [
+                    "encontrou",
+                    "ROOT"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pôde",
+                    "ROOT"
+                ],
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Raimundo",
+        "sentence": "Foi no bonde que Raimundo viu pela primeira vez os olhos negros e inquietos de Leopoldina.",
+        "start_char": 3698,
+        "end_char": 3706,
+        "excerpt": "Era o seu asa-negra. * * * Foi no bonde que Raimundo viu pela primeira vez os olhos negros e inquietos de Leopoldina.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "viu",
+                "child": "Raimundo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Raimundo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Foi no bonde que [MASK] viu pela primeira vez os olhos negros e inquietos de Leopoldina.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem saiu do bonde e seguia em direção às lojas da rua principal. Ainda pensando naquele rosto inesquecível que havia visto nos olhos preto-escuros de Leopoldina. Nunca tinha sentido algo tão poderoso quanto esse toque que aquela mulher havia lhe dado, e ele se perguntava como o encontrar novamente.",
+        "generated_text_llama": "Ao vê-los, Personagem se sentiu um frio que percorreu toda a sua espinha. Ele sabia que aquela mulher era alguém importante, mas não conseguia imaginar o que havia feito para despertar tanta atenção. Sem hesitar, Personagem aproximou-se de Leopoldina e cumprimentou-a com um sorriso educado, tentando parecer mais confiante do que se sentia.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "saiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "aproximou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Aureliano",
+        "sentence": "Pois Raimundo, que não era nenhum Polifemo, um belo dia conduziu ao altar a mameluca bonita, e até o instante da cerimônia esteve, coitado, vê não vê o momento em que Aureliano surgia inopinadamente de trás do altar-mor, para arrebatar-lhe a noiva.",
+        "start_char": 4408,
+        "end_char": 4417,
+        "excerpt": "A rapariga tinha nos olhos a altivez selvagem e nos lábios a volúpia ingênita das mamelucas. O seu cabelo grosso, abundante e negro, prendia-se, enrolado no descuido artístico das velhas estátuas gregas, deixando ver um cachaço que estava a pedir, não os beijos de um Raimundo anêmico e doentio, porém as rijas dentadas de um gigante. Pois Raimundo, que não era nenhum Polifemo, um belo dia conduziu ao altar a mameluca bonita, e até o instante da cerimônia esteve, coitado, vê não vê o momento em que Aureliano surgia inopinadamente de trás do altar-mor, para arrebatar-lhe a noiva.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "surgia",
+                "child": "Aureliano",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "surgir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Aureliano",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Aureliano",
+                "child": "o momento",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Aureliano",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "momento",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Pois Raimundo, que não era nenhum Polifemo, um belo dia conduziu ao altar a mameluca bonita, e até o instante da cerimônia esteve, coitado, vê não vê o momento em que [MASK] surgia inopinadamente de trás do altar-mor, para arrebatar-lhe a noiva.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Raimundo, apesar de ser um homem forte e decido, sentiu um frio ponto na espinha dorsal quando viu o intruso surgir de trás do altar-mor. Este homem alto e magro, olhando para Raimundo com uma expressão misteriosa no rosto, estava segurando a mãão direita de sua noiva como se tivesse direito a ela. Raimundo, impotente, assistia à cena sem saber o que fazer.",
+        "generated_text_llama": "",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Leopoldina",
+        "sentence": "Leopoldina, que até então se contentara com a aurea mediocritas relativa do condutor de bonde, começou um dia a manifestar apetites de luxo, a sonhar frandulagens e modas.",
+        "start_char": 5005,
+        "end_char": 5015,
+        "excerpt": "As mulheres ardentes e mal-educadas, como Leopoldina, quando lhe faltam os maridos com a dosimetria do amor, confundem a miséria do sangue com a pobreza da casa. Questão de disfarçar sentimentos, e de aplicar o abstrato ao concreto. Leopoldina, que até então se contentara com a aurea mediocritas relativa do condutor de bonde, começou um dia a manifestar apetites de luxo, a sonhar frandulagens e modas.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "As mulheres ardentes e mal-educadas",
+                "child": ", como Leopoldina",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Leopoldina",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", como Leopoldina",
+                "child": "As mulheres ardentes e mal-educadas",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Leopoldina",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "começou",
+                "child": "Leopoldina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "começar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Leopoldina",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "a aurea mediocritas",
+                "child": "Leopoldina",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "mediocrita",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Leopoldina",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "condutor",
+                "child": "Leopoldina",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "condutor",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Leopoldina",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], que até então se contentara com a aurea mediocritas relativa do condutor de bonde, começou um dia a manifestar apetites de luxo, a sonhar frandulagens e modas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem começou a buscar formas de satisfazer seu novo desejo de vida mais sofisticada. Começou por mudar sua rotina diária. Em vez de andar pela cidade usando seus antigos ternos do trabalho, agora ele se vestia com roupas mais elegantes e atraentes, que lhe davam uma aparência de autoridade e confiança.",
+        "generated_text_llama": "E assim, Personagem começou a planejar sua ascensão à vida de luxo, observando atentamente as estrelas do mundo da alta sociedade que frequentavam o bonde. Ele começou a estudar os hábitos dos passageiros ricos, notando como eles vestiam, como comiam e como viviam. Com esses conhecimentos, Personagem começou a se vestir de maneira mais sofisticada, escolhendo trajes de alta qualidade e acessórios que lhe permitiram destacar-se entre o resto dos passageiros.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Leopoldina",
+        "sentence": "Mas, de uma feita em que se viu forçado a ir à casa em hora desacostumada, surpreendeu Leopoldina nos braços hercúleos de Aureliano.",
+        "start_char": 5516,
+        "end_char": 5526,
+        "excerpt": "Ano e meio depois de casado, ele evitava a convivência da esposa, jantava com os amigos, e só aparecia em casa para pedir ao sono forças para o trabalho do dia seguinte. * * * Mas, de uma feita em que se viu forçado a ir à casa em hora desacostumada, surpreendeu Leopoldina nos braços hercúleos de Aureliano.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "surpreendeu",
+                "child": "Leopoldina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "surpreender",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Leopoldina",
+                "word_categories": [
+                    "emo"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mas, de uma feita em que se viu forçado a ir à casa em hora desacostumada, surpreendeu [MASK] nos braços hercúleos de Aureliano.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas, de um encontro onde acabou por ser obrigado a ir para casa às horas inacostumadas, a sorpresa se encontrava em Braulio nos poderosos braços de Aureliano. Ao se separarem e abraçar-se, o ar ficou carregado com silêncio e uma sensação indescritível de esperança e perda. \"Aureliano...\", murmurava Braulio enquanto olhava para ele com seus olhos frios e desconcertados. \"Que estás a fazer aqui?\" perguntou Aureliano, sorrindo, mas com uma expressão de preocupação que não conseguiu escondê-la. Braulio olhou para a sua casa, um lugar onde sempre se sentira seguro e amado, agora parecia estranho e assustador. \"Não sei...\" respondeu ele, com uma voz frágil e desconcertada. Aureliano se sentiu culpado por ter deixado Braulio sozinho em casa, quando as coisas começaram a ficar difíceis para ele. \"Venha comigo, meu amor. Te levarei à minha casa e vamos conversar. Não tenho a intenção de te deixar sozinho mais uma vez.\" Aureliano disse com um tom firme e determinado. Braulio sorriu, um sorriso que parecia falhasse na tentativa de esconder a tristeza que sentia dentro dele.",
+        "generated_text_llama": "Ele não pôde deixar de sorrir ao vê-lo ali, com as mãos entrelaçadas atrás da nuca do menino e o olhar brilhante sob os óculos escuros. \"Eu estava pensando que você estaria mais ocupado hoje\", disse Mas, tentando manter a calma enquanto os braços de Aureliano começavam a apertar ainda mais. O menino não respondeu imediatamente, apenas acenou com a mão para que Mas se aproximasse mais, e ele fez exatamente isso.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "murmurava",
+                    "ROOT"
+                ],
+                [
+                    "olhou",
+                    "ROOT"
+                ],
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "deixado",
+                    "xcomp"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Aureliano",
+        "sentence": "Conquanto o céu anunciasse próxima borrasca, Aureliano resolveu deixar a Ilha do Livramento e embarcar, ao escurecer, numa delgada canoa, em demanda de Alcântara, onde tencionava pernoitar.",
+        "start_char": 7218,
+        "end_char": 7227,
+        "excerpt": "No Maranhão as paredes não têm somente ouvidos, como diz o adágio: têm também olhos. * * * Conquanto o céu anunciasse próxima borrasca, Aureliano resolveu deixar a Ilha do Livramento e embarcar, ao escurecer, numa delgada canoa, em demanda de Alcântara, onde tencionava pernoitar.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "resolveu",
+                "child": "Aureliano",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "resolver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Aureliano",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Conquanto o céu anunciasse próxima borrasca, [MASK] resolveu deixar a Ilha do Livramento e embarcar, ao escurecer, numa delgada canoa, em demanda de Alcântara, onde tencionava pernoitar.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Contudo, enquanto preparava as malditas bagagens, uma nova notícia atrapalhou os seus planos: um aviso de tempestade havia sido emitido pelo Serviço Meteorológico, prevendo o início das chuvas em breve. Assustado com a ideia de ser capturado pela chuva e ventania no mar, Personagem decidiu mudar seu plano.",
+        "generated_text_llama": "Antes de partir, Personagem rapidamente reuniu os poucos pertences que tinha consigo: uma pequena mochila com comida e água, uma faca de caça para se proteger do frio da noite, e um pequeno saco de tecido com seus últimos vestidos. Com essas coisas nas mãos, ele se aproximou da areia branca da praia e olhou em volta, certificando-se de que não havia nenhum barco ou pessoa à vista.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "reuniu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

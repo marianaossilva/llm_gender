@@ -1,0 +1,326 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Andrade",
+        "sentence": "Andrade disse-lhe que do outro lado do Rocio, e ensinou-lhe a altura provável da casa.",
+        "start_char": 2384,
+        "end_char": 2391,
+        "excerpt": "Marocas vinha andando, parando e olhando como quem procura alguma casa. Defronte da loja deteve-se um instante; depois, envergonhada e a medo, estendeu um pedacinho de papel ao Andrade, e perguntou-lhe onde ficava o número ali escrito. Andrade disse-lhe que do outro lado do Rocio, e ensinou-lhe a altura provável da casa.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "um pedacinho",
+                "child": "Andrade",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "pedacinho",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Andrade",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Andrade",
+                "child": "um pedacinho",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Andrade",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "pedacinho",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "disse-lhe",
+                "child": "Andrade",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "disse-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Andrade",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] disse-lhe que do outro lado do Rocio, e ensinou-lhe a altura provável da casa.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele levantou os olhos e observou a direção indicada por sua voz, ao longe, no outro lado do rio Cigarra. A visibilidade era pobre devido à neblina que se estendia sobre o leito d'água, mas conseguia perceber uma casa pequena e velha, que parecia se erguer sob um sol deslumbrante.",
+        "generated_text_llama": "Personagem olhou para o mapa em suas mãos e decidiu seguir as instruções de Personagem. Ele sabia que tinha que ter cuidado, pois não sabia quem estava do outro lado da Rocio, mas sua curiosidade venceu a cautela. Com um suspiro, ele encheu o tanque do carro com gasolina e partiu em direção à estrada que o levaria ao outro lado do rio.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Andrade",
+        "sentence": "Andrade deu-lhe três mil-réis, e, como o visse excepcionalmente risonho, perguntou-lhe se tinha visto passarinho verde.",
+        "start_char": 6036,
+        "end_char": 6043,
+        "excerpt": "Era um sujeito reles e vadio. Vivia a explorar os amigos do antigo patrão. Andrade deu-lhe três mil-réis, e, como o visse excepcionalmente risonho, perguntou-lhe se tinha visto passarinho verde.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "deu-lhe",
+                "child": "Andrade",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "deu-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Andrade",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] deu-lhe três mil-réis, e, como o visse excepcionalmente risonho, perguntou-lhe se tinha visto passarinho verde.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Com as mãos tremulações, recebendo as três moedas de ouro, Personagem não conseguiu resistir à emoção que a invadia. Era uma chance que ele jamais esperaria ter, um desejo que o consumia há dias: comprar a loja de doces, sua vontade mais ardorosa desde que sua família morreu e ele foi para a rua.",
+        "generated_text_llama": "\"Ah, sim! Eu vi um passarinho verde voando sobre o jardim da senhora Smith há pouco tempo\", respondeu o velho. \"Era um pequeno pássaro, com asas verdes brilhantes e uma cauda longa e pontiaguda. Ele parecia estar procurando algo, talvez comida ou abrigo.\"",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "conseguiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Andrade",
+        "sentence": "\" Andrade abanou a cabeça; não lhe cheirava o comborço.",
+        "start_char": 7572,
+        "end_char": 7579,
+        "excerpt": "E depois o desinteresse... \"Olhe, acrescentou ele, para Vossa Senhoria é que era um bom arranjo. \" Andrade abanou a cabeça; não lhe cheirava o comborço.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "abanou",
+                "child": "Andrade",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "abanar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Andrade",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "\" [MASK] abanou a cabeça; não lhe cheirava o comborço.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele segurou sua respiração e se levantou lentamente, a pé da cama, olhando em volta do quarto semelhante à uma caverna escura e imóvel. Sua mente era como uma balsa no mar turbulento, mas ele conseguiu chegar ao limite do espaço escuro que lhe cercava e se tornou consciente de algo brilhante na direção da janela. O calor frio e a luz luminosa penetrou por ela como uma raiar no céu noturno. Ele pôs as mãos na borda da cama e começou a se levantar, um senso de determinação invadindo seus olhos.",
+        "generated_text_llama": "Depois de ter abaixado a cabeça, Personagem respirou fundo e tentou se concentrar. Ele sabia que precisava tomar uma decisão rápida, pois o tempo estava se esgotando. Olhou em volta da sala, procurando por alguma pista ou dica que o ajudasse a entender o que estava acontecendo.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "respirou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Andrade",
+        "sentence": "Andrade deteve-o e propôs-lhe um negócio;",
+        "start_char": 8133,
+        "end_char": 8140,
+        "excerpt": "Afinal teve força para perguntar se era verdade o que estava contando; mas o outro advertiu que não tinha nenhuma necessidade de inventar semelhante coisa; vendo, porém, o alvoroço do Andrade, pediu-lhe segredo, dizendo que ele, pela sua parte, era discreto. Parece que ia sair; Andrade deteve-o e propôs-lhe um negócio;",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "o alvoroço",
+                "child": "Andrade",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "alvoroço",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Andrade",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Andrade",
+                "child": "o alvoroço",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Andrade",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "alvoroço",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "deteve-o",
+                "child": "Andrade",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "deteve-o",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Andrade",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] deteve-o e propôs-lhe um negócio;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em seguida, Personagem, com a visão radiante de oposição aos interesses desonestos que dominavam o mercado, ofereceu ao contato uma possibilidade de negócio honrado e sustentável. Essa ideia inovadora e corajosa encantou o outro indivíduo, pois também estava cansado da prática grosseira que estavam se vistos por anos no setor. Então, ambos se reuniram para discutir mais sobre o negócio, apoiando-se em suas ideias e comprometendo-se a transformar o mercado pela melhor.",
+        "generated_text_llama": "Personagem deteve-o e propôs-lhe um negócio; ele sabia que o homem era muito rico e que, com um pouco de criatividade, poderiam fazer algo grandioso juntos. O homem, whose nome era Marcus, olhou para Personagem com uma mistura de curiosidade e desconfiança, mas também via algo atraente em suas ideias.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "deteve-o",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Andrade",
+        "sentence": "Andrade era digno, generoso, sincero; mas o golpe fora tão profundo, e ele amava-a tanto que não recuou diante de uma tal vingança.",
+        "start_char": 8431,
+        "end_char": 8438,
+        "excerpt": "Oh! Não defendo o Andrade; a coisa não era bonita; mas a paixão, nesse caso, cega os melhores homens. Andrade era digno, generoso, sincero; mas o golpe fora tão profundo, e ele amava-a tanto que não recuou diante de uma tal vingança.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "defendo",
+                "child": "o Andrade",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "defender",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Andrade",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Andrade",
+                "child": "digno",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Andrade",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "digno",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] era digno, generoso, sincero; mas o golpe fora tão profundo, e ele amava-a tanto que não recuou diante de uma tal vingança.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele segurou seu espírito erguido, resolvido a enfrentar a amarga realidade que se apresentara. Com um coração pesado e o rosto marcado pela tristeza, ele partiu em busca daquela pessoa que havia causado tantas doras e sofrimentos em sua vida.",
+        "generated_text_llama": "Ele permaneceu firme, olhando diretamente nos olhos do homem que lhe havia causado tanto sofrimento, um sorriso leve no rosto, mas com um brilho de determinação neles. Com a mão trêmula, mas não perdendo o controle, ele estendeu o braço para abraçar sua amada, que estava parada à sua frente, olhos arregalados de choque e dor.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Andrade",
+        "sentence": "Andrade abriu a carteira com grande afetação, tirou uma nota de vinte mil-réis e deu-lha; e, com a mesma afetação, ordenou-lhe que se retirasse.",
+        "start_char": 9087,
+        "end_char": 9094,
+        "excerpt": "\"É esta senhora? \" perguntou ele.  \"Sim, senhor\", murmurou o Leandro com voz sumida, porque há ações ainda mais ignóbeis do que o próprio homem que as comete. Andrade abriu a carteira com grande afetação, tirou uma nota de vinte mil-réis e deu-lha; e, com a mesma afetação, ordenou-lhe que se retirasse.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "abriu",
+                "child": "Andrade",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "abrir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Andrade",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] abriu a carteira com grande afetação, tirou uma nota de vinte mil-réis e deu-lha; e, com a mesma afetação, ordenou-lhe que se retirasse.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem abriu seu sapateiro com tanta tristeza, tomou uma nota de vinte mil réis e a deu; e, com a mesma emoção, lhe ordenou que se retirasse. Após essa delicada interação, o homem encostou seu rosto contra a porta fechada da cela e gritou com toda força:",
+        "generated_text_llama": "E assim, com um gesto firme, Personagem indicou à assistente que deveria emboscar o dinheiro na carteira antes de sainhar do local. A assistente, como sempre obedeiente, fez exatamente o que lhe foi pedido, enquanto Personagem permaneceu parado, olhando fixamente para fora da janela, perdido em seus pensamentos.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "indicou",
+                    "ROOT"
+                ],
+                [
+                    "permaneceu",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

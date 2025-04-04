@@ -1,0 +1,138 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Bergson",
+        "sentence": "Bergson , admite na alma humana o inconsciente dinmico como sede de todas as tendncias e instintos maus recalcados pela civilizao no correr dos sculos .",
+        "start_char": 4792,
+        "end_char": 4799,
+        "excerpt": "Ao v-los agora , no pleno vio das suas inclinaes primitivas e brbaras , convenci-me de que o homem mais feroz do que as feras e , se no exerce a todo o momento contra os outros homens a sua crueldade , porque o medo da represlia lhe arrefece dentro do corao os nefandos impulsos da ferocidade inata \" . A concepo freudiana , seguindo as pegadas do Prof. Bergson , admite na alma humana o inconsciente dinmico como sede de todas as tendncias e instintos maus recalcados pela civilizao no correr dos sculos .",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "admite",
+                "child": "Bergson",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "admitir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bergson",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] , admite na alma humana o inconsciente dinmico como sede de todas as tendncias e instintos maus recalcados pela civilizao no correr dos sculos .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Na manhã seguinte, Personagem, sentado em frente ao espelho, fez um gesto sutil com a mão direita, tocando ligeiramente a parte inferior do rosto, olhar fixamente em seu olhar. Em seguida, segurou-se nas costas e realizou uma respiração profunda, sentindo os instintos primitivos e as tendências ocultas subindividuais que estavam entroncados dentro dele, como se uma luz fosse emergindo dessa região mais antiga de sua alma.",
+        "generated_text_llama": "Pois Personagem, que sempre lutou contra a repressão de seus impulsos mais primitivos, decidiu enfrentar o inconsciente dinâmico em vez de escondê-lo. Ele começou a explorar as sombras da sua própria alma, buscando entender por que sentia tanta raiva e frustração em relação à sociedade. Personagem começou a praticar meditação e técnicas de mindfulness, tentando acalmar a mente e conectar-se com os seus instintos mais profundos.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "fez",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Antnio",
+        "sentence": "as palavras inflamadas que levariam o povo a assassinar Antnio , se este no possusse tambm a poderosa arte de dirigir a fera -- a multido -- que o ameaava",
+        "start_char": 7766,
+        "end_char": 7772,
+        "excerpt": "Mais belo exemplo se acha na tragdia Jlio Csar , o magnfico discurso de Brutus ao povo romano . Grande conhecedor de sua alma , Shakespeare ps na boca de Brutus as palavras inflamadas que levariam o povo a assassinar Antnio , se este no possusse tambm a poderosa arte de dirigir a fera -- a multido -- que o ameaava",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "assassinar",
+                "child": "Antnio",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "assassinar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Antnio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Antnio",
+                "child": "palavras",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Antnio",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "palavra",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Antnio",
+                "child": "conhecedor",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Antnio",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "conhecedor",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "as palavras inflamadas que levariam o povo a assassinar [MASK] , se este no possusse tambm a poderosa arte de dirigir a fera -- a multido -- que o ameaava",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Enquanto as palavras incendiárias se espalhavam, transformando-se em chamas, Personagem permanecia implacavelmente calmo. Era essa sua marca, ser inabalável mesmo diante da tempestade de ódio que o rodeava. Sabeceu, então, que era hora de mostrar a todos seu verdadeiro poder.",
+        "generated_text_llama": "Em um súbito movimento, Personagem agarrou a espada e aproximou-se ao líder da multidão, olhando com uma intensidade que parecia incitar as palavras inflamadas dos outros a se transformarem em fogo. Com um movimento suave, mas firme, ele assentiu para a figura mais próxima, uma mulher forte e determinada, que saiu da multidão e se aproximou dele.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "permanecia",
+                    "parataxis"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "agarrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Francisco Brochado",
+        "sentence": "- Pois bem - disse ele - vamos às informações... - Meu pai chama-se Francisco Brochado.",
+        "start_char": 1899,
+        "end_char": 1917,
+        "excerpt": "- Dar-lhe-ei todas as informações necessárias. O pintor compreendeu então que espécie de homem tinha diante de si e logo pensou em não perder os trezentos mil-réis que estavam ganhos. - Pois bem - disse ele - vamos às informações... - Meu pai chama-se Francisco Brochado.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "chama-se",
+                "child": "Francisco Brochado",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chamar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Francisco",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "- Pois bem - disse ele - vamos às informações... - Meu pai chama-se [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele seguiu para as informações como o pai lhe havia dito. Seu pai se chamava **José Maria**. Era um homem de meia-idade, alto e magro, com cabelo castanho e olhos azuis que lembravam sua mãe. Ele possuía uma pele solarejada, uma marcante mancha nas costas esquerda e direita e um tatuagem na parte baixa do braço direito, o qual nunca lhe deixara entrar em alguma dúvida de que ele era o mesmo homem.",
+        "generated_text_llama": "Pois bem - disse ele - vamos às informações... - Meu pai chama-se João, é um homem de negócios muito respeitado na cidade. Ele tem uma empresa de construção que já fez muitos projetos importantes e é conhecido por sua integridade e habilidade em lidar com desafios.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "chama-se",
+                    "ROOT"
+                ]
+            ]
+        }
+    }
+]

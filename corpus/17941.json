@@ -1,0 +1,645 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Paula",
+        "sentence": "O casamento fora um arranjo de família e dele próprio; Paula aceitou o arranjo sem murmurar.",
+        "start_char": 2009,
+        "end_char": 2014,
+        "excerpt": "Uma única razão haveria para que ela aborrecesse o mundo: era se tivesse realmente saudades do marido. Mas não tinha. O casamento fora um arranjo de família e dele próprio; Paula aceitou o arranjo sem murmurar.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "aceitou",
+                "child": "Paula",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aceitar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paula",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "O casamento fora um arranjo de família e dele próprio; [MASK] aceitou o arranjo sem murmurar.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, ele se dirigiu para a Igreja matriz da cidade, onde foi casado com uma mulher que era completamente estranha para si. Seu coração batia como uma batedeira, sentindo-se totalmente deslocado e desprevenido. Apesar de tudo, ele acolheu sua esposa com um sorriso forçado e prometeu fidelidade para sempre.",
+        "generated_text_llama": "Com um sorriso resignado, Personagem se levantou da cadeira e se dirigiu até a porta do salão, onde sua sogra aguardava, armada com um casaco branco e uma bolsa de trajes de banho. \"Vamos, meu caro\", disse ela, com um olhar sério, \"é hora de começarmos as celebrações. O jantar está pronto e os convidados estão ansiosos para conhecer seu esposo\". Personagem assentiu devagar, ainda com a mente nos pensamentos que o haviam levado a aceitar esse arranjo, e se aproximou da porta, onde sua sogra o esperava com um abraço apertado.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ],
+                [
+                    "assentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paula",
+        "sentence": "Paula sorriu com um ar tão triste que fazia duvidar do prazer com que ouviu estas palavras do médico.",
+        "start_char": 3076,
+        "end_char": 3081,
+        "excerpt": "Oh! não, minha senhora, respondeu Avelar, são achaques aborrecidos, mas não graves, e geralmente próprios de doentes formosas. Paula sorriu com um ar tão triste que fazia duvidar do prazer com que ouviu estas palavras do médico.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "sorriu",
+                "child": "Paula",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sorrir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paula",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] sorriu com um ar tão triste que fazia duvidar do prazer com que ouviu estas palavras do médico.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após se despedir da sala, José entrou no corredor da clínica e seguiu caminhando de pé lento, sem rumo definido. Nessa hora, aquele espaço que era tão familiar sentia-se estranho para ele. A cor da parede, o odor do betún, as figuras de médicos passando pela porta do gabinete - todos aqueles detalhes ficaram insignificantes e indefesos, encoberto por uma neblina que invadia a mente de José.",
+        "generated_text_llama": "Personagem não podia acreditar no que estava ouvindo. Ele havia sido diagnosticado com uma doença rara e incurável, algo que o deixou paralisado com medo e desespero. Sua mãe, que estava ao seu lado, tentava manter a calma, mas seus olhos estavam cheios de lágrimas.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "entrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Avelar",
+        "sentence": "Avelar receitou efetivamente alguma coisa e prometeu voltar no dia seguinte.",
+        "start_char": 3232,
+        "end_char": 3238,
+        "excerpt": "perguntou ela. Oh! não, minha senhora, respondeu Avelar, são achaques aborrecidos, mas não graves, e geralmente próprios de doentes formosas. Paula sorriu com um ar tão triste que fazia duvidar do prazer com que ouviu estas palavras do médico. Dá-me porém remédios, não? perguntou ela. Sem dúvida. Avelar receitou efetivamente alguma coisa e prometeu voltar no dia seguinte.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "respondeu",
+                "child": "Avelar",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Avelar",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Avelar",
+                "child": ", são achaques",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Avelar",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "achaque",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Avelar",
+                "child": "graves",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Avelar",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "grave",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Avelar",
+                "child": "próprios",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Avelar",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "próprio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", são achaques",
+                "child": "Avelar",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "achaque",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Avelar",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "doentes",
+                "child": "Avelar",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "doente",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Avelar",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": [
+                    "body"
+                ]
+            },
+            {
+                "head": "receitou",
+                "child": "Avelar",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "receitar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Avelar",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] receitou efetivamente alguma coisa e prometeu voltar no dia seguinte.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Personagem, que já havia sido descrito como um homem muito determinado, retirou a sua maleta do escritório e preparou-se para sair. Enquanto isso, não podia evitar pensar na promessa que tinha feito: voltaria no dia seguinte. Naquela noite, ele sentiu o peso de todos os compromissos pendentes cair sobre si, mas apagou essas preocupações em sua mente e entrou na noite com um coração calmo.",
+        "generated_text_llama": "Personagem se levantou do chão, sentindo um pouco mais leve após a emboscada, mas ainda assim com uma dor de cabeça aguda e uma sensação de fraqueza em todo o corpo. Ele olhou ao redor, garantindo-se de que não estava sozinho, antes de começar a caminhar lentamente em direção à sua moradia, que estava a poucos minutos de distância.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "retirou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paula",
+        "sentence": "Paula era morena; ficava muito branca.",
+        "start_char": 3795,
+        "end_char": 3800,
+        "excerpt": "O certo é porém que Paula, tão amiga de bailes e passeios, parecia realmente doente porque não saía de casa. Notou igualmente a tia que, pouco antes da hora do médico, a sobrinha fazia uma aplicação mais copiosa de pó-de-arroz. Paula era morena; ficava muito branca.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "parecia",
+                "child": "Paula",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "parecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paula",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Paula",
+                "child": ", tão amiga",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Paula",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "amiga",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", tão amiga",
+                "child": "Paula",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "amiga",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paula",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "bailes",
+                "child": "Paula",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "baile",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paula",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "passeios",
+                "child": "Paula",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "passeio",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paula",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Paula",
+                "child": "morena",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Paula",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "morena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": [
+                    "body"
+                ]
+            }
+        ],
+        "masked_sentence": "[MASK] era morena; ficava muito branca.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ela segurava um vaso de vidro em suas mãos, com as nuvens de pó de açúcar que lhe cobriam o corpo recaindo lentamente dele. Ao sentir sua pele lisa e brancar sob a luz do sol do meio-dia, Personagem ficou um momento completamente surpresa com o seu novo aspecto. Depois, ela sorriu e se girou para olhar em direção ao mar, cujas ondas brilhavam sob o sol.",
+        "generated_text_llama": "Peçando uma garrafa de água, Personagem bebeu lentamente, sentindo o líquido quente em sua boca seco. Aproximou-se da janela e olhou para fora, observando a chuva que caía suavemente sobre as calçadas. Em seguida, caminhou até a cozinha e abriu a geladeira, sacudindo a cabeça ao sentir o ar frio que se escapava dela.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "bebeu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paula",
+        "sentence": "Paula ouviu esta palavra com singular, mas disfarçada alegria.",
+        "start_char": 5242,
+        "end_char": 5247,
+        "excerpt": "Uma perversão, minha senhora! Em ficando boa pode ler se quiser todos os poetas do século; antes, não. Paula ouviu esta palavra com singular, mas disfarçada alegria.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "ouviu",
+                "child": "Paula",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ouvir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paula",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] ouviu esta palavra com singular, mas disfarçada alegria.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele acenhou, sorrindo ligeiramente e respondeu: \"Eu estou aqui pra ajudar, não importa o que você tenha sofrido\". Sua voz era firme e confiante, e isso fez com que o garoto se sentisse mais seguro. Ele olhou para ele com uma expressão de confusão, mas depois, com alguma determinação, começou a contar sua história:",
+        "generated_text_llama": "Personagem sentiu uma ponta de desconfiança na garganta enquanto ouvia a palavra. Ele sabia que não era apenas uma questão de sensibilidade, mas algo mais profundo. A alegria em sua voz parecia forçada, e Personagem não podia deixar de se perguntar o que realmente estava acontecendo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "podia",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paula",
+        "sentence": "Quando Paula ficou boa da constipação adoeceu do coração; não tendo outro recurso fingiu-se doente.",
+        "start_char": 8443,
+        "end_char": 8448,
+        "excerpt": "Até então ignoravam a existência um do outro. A doença favoreceu o encontro; o encontro o coração; o coração favorecia desde logo o casamento, se tivessem caminhado em linha reta, em vez dos rodeios em que andavam. Quando Paula ficou boa da constipação adoeceu do coração; não tendo outro recurso fingiu-se doente.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "ficou",
+                "child": "Paula",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paula",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando [MASK] ficou boa da constipação adoeceu do coração; não tendo outro recurso fingiu-se doente.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quando João, que sempre tinha uma saúde robusta, ficou boa da constipação, acabou adoeecendo-se do coração; sem outro recurso, fingiu-se doente. Ele fez uma simulação de dor no peito e agitava-se na cama com expressões de sofrimento, tentando convencer sua mãe que estava realmente mal. Sua mãe, preocupada, chamou imediatamente o médico de família que, ao examinar João, percebeu que o jovem estava fingindo a doença. A surpresa era grande tanto na casa como na mente de João, pois nunca tinha sido pego em tais jogos. Depois da briga e das palavras duras entre ele e sua mãe, João prometeu não mais simular a doença para obter atenção ou favores da família.",
+        "generated_text_llama": "Pensando que sua manobra não seria descoberta, Personagem começou a se comportar de maneira ainda mais debilitada, pedindo para estar ao lado da cama e pedindo ajuda para tudo o que precisasse fazer, como se estivesse realmente doente. Ele também começou a se preocupar em ter uma aparência mais desgrenhada, deixando sua barba um pouco mais desalinhada e não cuidando muito de sua higiene pessoal.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "advcl"
+                ],
+                [
+                    "prometeu",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "examinar",
+                    "advcl"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Avelar",
+        "sentence": "Avelar desconfiou da carta a princípio.",
+        "start_char": 8782,
+        "end_char": 8788,
+        "excerpt": "A tia, sendo surda, assistia inutilmente aos diálogos da doente com o médico. Um dia escreveu a este pedindo-lhe que apressasse a cura da sobrinha. Avelar desconfiou da carta a princípio.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "desconfiou",
+                "child": "Avelar",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "desconfiar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Avelar",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] desconfiou da carta a princípio.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem, após sua inicial suspeita, decidiu abrir a carta. Apesar de sentir o bategão de seu coração acelerando, desbotou com cautela as linhas curtas do envelope e começou a ler o texto que estava dentro. A primeira impressão que recebeu foi de surpresa, pois nunca imaginara que tivesse algo a ver com aquilo. No entanto, após ler mais a frente, compreendeu as intenções e sentiu uma sensação mista de ansiedade e entusiasmo. A carta lhe pediu que desembarcasse em um lugar desconhecido e fosse buscar algo que poderia mudar a sua vida para sempre. Porém, como não sabia nada sobre o local ou o que procurar, decidiu consultar seu amigo mais confiável antes de tomar qualquer decisão.",
+        "generated_text_llama": "[A MASK] leu a carta novamente, tentando entender o que estava escrevendo. As letras estavam muito confusas e não conseguia decifrar o significado. Ele franziu a testa, concentrando-se no papel, mas nada parecia fazer sentido. Depois de alguns minutos, ele decidiu procurar ajuda.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "leu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Avelar",
+        "sentence": "Um dia Avelar entrou triste em casa da viúva.",
+        "start_char": 9240,
+        "end_char": 9246,
+        "excerpt": "Ambos eles começaram a desconfiar que não eram mal aceitos. O negócio entretanto não caminhava muito. Um dia Avelar entrou triste em casa da viúva.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "entrou",
+                "child": "Avelar",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Avelar",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Um dia [MASK] entrou triste em casa da viúva.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele sentou-se na cadeira e sorriu para ela. \"Tudo bem, senhora? Estou aqui para ajudar.\" A senhora, uma velhinha solitária, olhou-o com um olhar que misturava admiração e tristeza.",
+        "generated_text_llama": "Ele pôs a cabeça entre as mãos e soltou um suspiro profundo, sentindo o peso do seu mal-estar. A viúva, que estava cozinhando no quarto de costas, não notou nada e continuou a preparar o almoço, um aroma delicioso que preenchia o ambiente com calma e tranquilidade.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Avelar",
+        "sentence": "Doente de lástima, disse Avelar abanando a cabeça; por outros termos, é a lástima que me dá este ar enfermo.",
+        "start_char": 9384,
+        "end_char": 9390,
+        "excerpt": "exclamou sorrindo a viúva; ninguém dirá que é o médico. Parece o doente. Doente de lástima, disse Avelar abanando a cabeça; por outros termos, é a lástima que me dá este ar enfermo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "abanando",
+                "child": "Avelar",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "abanar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Avelar",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Doente de lástima, disse [MASK] abanando a cabeça; por outros termos, é a lástima que me dá este ar enfermo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele se sentou no banco de madeira, abaixou a olhar e fixou-o no solo coberto de folhas secas e penugens. Sua boca se curvou em um sorriso triste e desconsolo que era a lástima que o ar enfermo lhe causava. Em seguida, ele tirou da bolsa interna de seu casaco uma pequena flauta, esfinjando-a com cuidado e colocando na boca. Sussurrando suavemente, começou a tocar uma melodia tão encantadora que parecia lhe ter vindo diretamente do coração.",
+        "generated_text_llama": "Ele se levantou lentamente da cadeira, sentindo-se um pouco mais forte após o momento de desespero. A dor no peito ainda era intensa, mas ele sabia que precisava tomar medidas para não ficar atrasado novamente com a sua fumaça. Após um rápido olhar no espelho, Personagem ajustou o chapéu e começou a caminhar em direção à sua fábrica de tabaco, localizada na parte baixa da cidade.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ajustou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Avelar",
+        "sentence": "Quando a viuvinha menos esperava, Avelar levantou-se e saiu.",
+        "start_char": 10409,
+        "end_char": 10415,
+        "excerpt": "É um específico inventado desde muitos séculos e que provavelmente só acabará no último dia do mundo. Pela minha parte nada mais tenho que fazer. Quando a viuvinha menos esperava, Avelar levantou-se e saiu.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "levantou-se",
+                "child": "Avelar",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "levantou-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Avelar",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando a viuvinha menos esperava, [MASK] levantou-se e saiu.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quando a viuvinha menos esperava, o velho sorrateou, levantou-se com a tranquilidade de quem já viveu muitas vidas e saiu tranquilamente da casa, fechando a porta atrás de si com uma atitude que parecia dizer \"até breve\".",
+        "generated_text_llama": "Quando a viuvinha menos esperava, Personagem levantou-se e saiu. Ele se esticou as costas, arregalou os olhos para o céu noturno e sorriu por dentro, sentindo uma sensação de liberdade que só a escuridão podia proporcionar. Com um gesto deliberado, Personagem puxou a faixa que o prendia ao corpo, que era de um brilho azul claro, e a soltou com um movimento suave.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou-se",
+                    "ROOT"
+                ],
+                [
+                    "puxou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

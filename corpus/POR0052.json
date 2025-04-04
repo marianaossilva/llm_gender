@@ -1,0 +1,529 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Cristo",
+        "sentence": "Lembre-se do que Cristo sofreu para nos salvar!",
+        "start_char": 10330,
+        "end_char": 10336,
+        "excerpt": "Homem, isso até lhe fica mal! É um pecado. Lembre-se do que Cristo sofreu para nos salvar!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "sofreu",
+                "child": "Cristo",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "sofrer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cristo",
+                "word_categories": [
+                    "emo"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Lembre-se do que [MASK] sofreu para nos salvar!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Lembra-se do que Luiz Carlos sofreu para nos salvar! Ele se lançou em uma missão perigosa, cheio de riscos e desafios inimagináveis. Ele atravessou o Deserto do Sahara, enfrentando as mais severas temperaturas e condições climáticas exteriores. Ele sobreviveu a uma tempestade que atingiu 200 quilômetros por hora, apenas com sua determinação em se manter vivo para poder resgatar o seu país da destruição.",
+        "generated_text_llama": "Eu ainda podia sentir o peso daquela noite em mim, a noite em que eu havia enfrentado meus maiores medos e havia salvo todos vocês. Lembre-se do que Personagem sofreu para nos salvar! Eu olhei para mim mesmo, vestido com meu armadura e meu capacete, e senti um sorriso se formando em meu rosto. Sabia que eu não poderia ter feito isso sem a ajuda de meus amigos, e pensei em todos eles, pronto para enfrentar os desafios que estavam por vir.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sofreu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sofreu",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Adélia",
+        "sentence": "-- Não se quer confessar dizia Adélia, a propósito de alguém que está na agonia. -- Manda-se lá o padre Júlio.",
+        "start_char": 23909,
+        "end_char": 23915,
+        "excerpt": "... E o velho relógio de parede, rape que rape, tosse de vez em quando as horas no escuro, marcando o estúpido tempo. E de vez em quando, no silêncio sente-se passar a lufada e desabar o enxurro. -- Não se quer confessar dizia Adélia, a propósito de alguém que está na agonia. -- Manda-se lá o padre Júlio.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "dizia",
+                "child": "Adélia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Adélia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "-- Não se quer confessar dizia [MASK], a propósito de alguém que está na agonia. -- Manda-se lá o padre Júlio.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas não era necessário esconder sua verdadeira identidade, pois a vida do indivíduo em questão estava já no limite da salvaguarda. Portanto, Personagem resolveu corajosamente ir ao lado do que, na verdade, era seu amigo de longa data e confidor, o padre Júlio.",
+        "generated_text_llama": "O padre Júlio chegou ao quarto e encontrou Personagem sentado em uma cadeira, com olhos castanhos e expressão sombria. Ele parecia estar mergulhado em pensamentos próprios, sem querer enfrentar o pai ou a mãe.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "resolveu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "encontrou",
+                    "conj"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sofia",
+        "sentence": "Um dia que Sofia bate no Antoninho, a velha ergue-se colérica; -- Bate-lhe!",
+        "start_char": 29137,
+        "end_char": 29142,
+        "excerpt": "Só eu cá ando com os meus padecimentos há tantos anos!... Há muito que conheço esta Candidinha e nunca a vi queixar-se senão de fome. Um dia que Sofia bate no Antoninho, a velha ergue-se colérica; -- Bate-lhe!",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "bate",
+                "child": "Sofia",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "bater",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sofia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Sofia",
+                "child": "Um dia",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Sofia",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "dia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Um dia que [MASK] bate no Antoninho, a velha ergue-se colérica; -- Bate-lhe!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " E então, a velha levantou-se com uma expressão de raiva e colocou-lhe um forte soco no ombro. \"Assim que eu quiser, meu filho!\" exclamou bruscamente, enquanto Personagem caiu para o chão, espantado pela agressividade repentina da velha.",
+        "generated_text_llama": "Parece haver havido um mal-entendido, pois em seguida a velha pede desculpas e começa a explicar o que aconteceu. Ela conta que a esposa do Antônio, uma mulher doente, foi visitada por Antoninho, mas não por vontade própria, porque ele a pegou pela colação sem permissão. A velha explica que estava cuidando da esposa e que Antoninho teve que esperar por ela para poder entrar. Ela também menciona que o Antônio é um homem autoritário e que sempre fica zangado quando alguém bota as pernas na sua casa.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "caiu",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "teve",
+                    "aux"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sofia",
+        "sentence": "Aquilo dura noites e noites dura anos, até que Sofia se perde.",
+        "start_char": 37584,
+        "end_char": 37589,
+        "excerpt": "E a estas palavras os restos dum cadáver ainda estremecem no sepulcro. Aquilo dura noites e noites dura anos, até que Sofia se perde. A velha atira-a para os braços do filho.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "perde",
+                "child": "Sofia",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "perder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sofia",
+                "word_categories": [
+                    "carater_social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Aquilo dura noites e noites dura anos, até que [MASK] se perde.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele deambulava através da floresta, a mão na espada escura e a outra na lanterna, que iluminava o caminho entre as sombras. A natureza parecia hostil, uma barreira impenetrável para qualquer ser humano; mas para ele, essa era sua casa. Ele se lembrava de quando era pequeno, quando sua alma estava deslocada do corpo, e a natureza não era mais ameaçadora, mas uma fonte de força.",
+        "generated_text_llama": "E assim foi com Personagem, que vivia uma vida de escuridão e solidão, perdido em um mundo que parecia não ter necessidade dele. Ele passava as noites sem dormir, consumido pela dor da sua própria existência, e os dias sem se levantar, como se estivesse preso a uma trapaça do tempo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Candi",
+        "sentence": "... Ele não compreende: está afeito a ver uma Candidinha de comédia, pedinchona e ridícula, que se descompõe e despede, e a quem por caridade se mata a fome. --",
+        "start_char": 51739,
+        "end_char": 51744,
+        "excerpt": "Fica enorme, seca como a própria secura. -- Hã? ... Ele não compreende: está afeito a ver uma Candidinha de comédia, pedinchona e ridícula, que se descompõe e despede, e a quem por caridade se mata a fome. --",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "ver",
+                "child": "uma Candidinha",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Candidinha",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "uma Candidinha",
+                "child": "comédia",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Candidinha",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "comédia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "comédia",
+                "child": "uma Candidinha",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "comédia",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Candidinha",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "despede",
+                "child": "uma Candidinha",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "despede",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Candidinha",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "... Ele não compreende: está afeito a ver uma [MASK]dinha de comédia, pedinchona e ridícula, que se descompõe e despede, e a quem por caridade se mata a fome. --",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "......Ele se perguntou, por que estava a festa tão sombria, um ar de tristeza envolvendo a sala inteira. O teatro havia se tornado mais silencioso do que nunca antes e, apesar da luz das velas brilharem com intensidade, era como se a sala estivesse engalanada em um manto negro de tristeza.",
+        "generated_text_llama": "",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "envolvendo",
+                    "advcl"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Baixinho",
+        "sentence": "Baixinho diz constantemente de si para si Enfim!",
+        "start_char": 101090,
+        "end_char": 101098,
+        "excerpt": "E o olhar perdia-se-lhe no vácuo com a caixa terminada nos gadanhos hirtos de frio. Durante meses, seus olhos irradiam felicidade contida e a sua voz tem tremuras. Baixinho diz constantemente de si para si Enfim!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "diz",
+                "child": "Baixinho",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Baixinho",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] diz constantemente de si para si Enfim!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " A seguir, Personagem, com uma expressão de clara satisfação, colocou as mãos nas costas e tomou um profundo suspirão. Ao lado, a sua companheira mirava-o de olhos curiosos e um leve sorriso no rosto.",
+        "generated_text_llama": "Personagem continua a caminhar sozinho pela noite escura, as sombras das árvores dançando ao redor dele como se estivessem vivas. Ele não consegue parar de pensar em tudo o que aconteceu desde a noite em que Personagem foi encrencado. Ele lembra da expressão de desconfiança do capitão, da maneira como Personagem sentiu seu coração bater mais rápido quando ele soube que estava sendo enviado para uma missão secreta. Personagem sabe que precisa ser cuidadoso, mas também sabe que não pode deixar de lado seus instintos. Ele começa a caminhar em direção à cidade, sabendo que precisará encontrar um lugar seguro para se esconder e planejar sua próxima movesa.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "continua",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ccomp"
+                ],
+                [
+                    "sabe",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "-- Senhor, leva-me e leva-a para ti!",
+        "start_char": 146318,
+        "end_char": 146324,
+        "excerpt": "E ela vai sem palavra, curva, cheia de lágrimas represadas, com os cabelos em desalinho. Só se farta de chorar. -- Senhor, leva-me e leva-a para ti!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "leva-me",
+                "child": "Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "leva-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "senhor",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "-- [MASK], leva-me e leva-a para ti!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele, com um ar nobre, me segurou na mão direita e me levou até você. Seu olhar era um pouco confuso, como se estivesse indeciso por algum momento, mas acabou escolhendo confiar em mim. Aconteceu que ele sôbre-estimou a sua força física, pois, embora eu fosse mais baixo e leve quanto você, eu tinha sido treinado por anos para sobreviver na selva. O caminho foi longo e árduo, cheio de obstáculos e desafios que precisávamos superar juntos, mas nada nos atrapalhou. Quando finalmente nos encontramos com a tribo perdida, ela agradeceu-nos profundamente por ter retornado seus membros ausentes. Eu, me senti orgulhoso de ter sido uma parte dessa história e sabia que o caminho para casa não seria mais um sonho impossível, mas sim um caminhar com um amigo fiel ao meu lado.",
+        "generated_text_llama": "",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sofia",
+        "sentence": "Nessa noite, altas horas, Sofia acorda, sentindo no silêncio um resfolegar ansioso.",
+        "start_char": 154429,
+        "end_char": 154434,
+        "excerpt": "Já as três mulheres têm o quer que é de desumano. Parecem deslavadas pelas lágrimas. Nessa noite, altas horas, Sofia acorda, sentindo no silêncio um resfolegar ansioso.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "acorda",
+                "child": "Sofia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acordar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sofia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Nessa noite, altas horas, [MASK] acorda, sentindo no silêncio um resfolegar ansioso.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após acordar com o ar fresco na boca e as orelhas desprendidas de tábuas de cera, ele levantou-se lentamente da sua cama, onde repousava com tranquilidade. Apenas havia uma pequena luz, o brilho do mês de outubro na janela, que passava por uma vela acesa na sala contigua, dando a essa noite invernal um tom levemente rosa e dourado.",
+        "generated_text_llama": "À medida que o som de respiração parecia se tornar mais urgente, Personagem sentiu uma dor de cabeça começar a formar-se, como se os batimentos do seu coração estivessem batendo em aluém. Ele tentou levantar a mão para aplicar gelo, mas o movimento pareceu ser um esforço demais e ele caiu de costas no travesseio da cama, sentindo-se exausto e desorientado.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sofia",
+        "sentence": "Sofia, tomando a Cega pela mão, encaminhou-se pela serra.",
+        "start_char": 241355,
+        "end_char": 241360,
+        "excerpt": "Uma chamava-se Sofia, a outra a Cega. Mais nada. Sofia, tomando a Cega pela mão, encaminhou-se pela serra.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "chamava-se",
+                "child": "Sofia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chamava-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sofia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "encaminhou-se",
+                "child": "Sofia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "encaminhour se",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Sofia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], tomando a Cega pela mão, encaminhou-se pela serra.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele passou por um caminho serrano escuro e silencioso, onde as árvores velhas cobriam a trilha com suas folhas secas e o ar era frio e agudo. A cada passo, ele se sentia mais próximo do que buscava - uma pista daquela aldeia desaparecida.",
+        "generated_text_llama": "Ela caminhou por horas, o pés pesados na trilha escorregadia, os dedos da mão que segurava a lanterna iluminando o caminho. A escuridão da noite parecia se fechar em torno dela, mas ela não hesitou, determinada a alcançar o destino que havia sido marcado para ela.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sofia",
+        "sentence": "E como Sofia irrompesse em pranto: -- Chiu, baixinho...",
+        "start_char": 243572,
+        "end_char": 243577,
+        "excerpt": "Eram ambas felizes talvez pela primeira vez na sua vida. Um dia a Cega chamou a outra e disse-lhe: -- Vou morrer. E como Sofia irrompesse em pranto: -- Chiu, baixinho...",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "irrompesse",
+                "child": "Sofia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "irromper",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sofia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "E como [MASK] irrompesse em pranto: -- Chiu, baixinho...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " -- \"Chiu\", baixinho ele respondeu tranquilamente, enfiando as mãos nos bolsinhos do terno que sempre usava. O menino saía correndo para a sala de jantar, onde estavam seus pais e irmão mais velho. \"O quê, carinhoso? Você está com medo da noite?\", perguntou o pai, sorrindo enquanto a mãe observava triste.",
+        "generated_text_llama": "...e começou a rir tanto que não conseguiu respirar bem mais. Seus amigos, João e Maria, estavam sentados ao lado dele, tentando controlar a situação. \"O que é que te aconteceu?\", perguntou João, ainda tentando manter um tom de voz sério. Personagem estava tão confuso que mal conseguia falar. \"Eu... eu tive um sonho\", respirou ele, ainda rindo. \"Um sonho de que vocês dois estavam em uma ilha deserta e tínhamos que sobreviver juntos.\" Maria começou a rir também, mas de forma mais leve do que Personagem. \"E o que você fez?\", perguntou ela, tentando se contoler. Personagem pensou por um momento antes de responder. \"Eu... eu tentei construir uma cabana com palha e pedras. E vocês dois tinham que ajudar-me a caçar frutas e água.\" Seus amigos estavam agora rindo até as lágrimas, e Personagem se juntou a eles, sentindo-se aliviado por ter podido compartilhar seu sonho com eles.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "confuso",
+                    "ROOT"
+                ],
+                [
+                    "pensou",
+                    "ROOT"
+                ],
+                [
+                    "juntou",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

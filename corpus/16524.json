@@ -1,0 +1,261 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Inda",
+        "sentence": "Ao filho que adora Inda antes de o ver",
+        "start_char": 27936,
+        "end_char": 27940,
+        "excerpt": "Não; só formosura. Sorrindo entre dores Ao filho que adora Inda antes de o ver",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "adora",
+                "child": "Inda",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "adorar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Inda",
+                "word_categories": [
+                    "emo"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Inda",
+                "child": "filho",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Inda",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "filho",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Ao filho que adora [MASK] antes de o ver",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " A seguir, Personagem, uma jovem com um coração cheio de amor e paixão por ele, não pôde mais controlar sua alegria. Ela saltou para fora da porta e correria pela rua, alegre e entusiasmada. Era como se estivesse sonhando. Cléo conhecia bem o Personagem, pois trabalhava com ele no escritório, mas nunca antes havia pensado que ele poderia ser tão especial, tão encantador.",
+        "generated_text_llama": "",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "conhecia",
+                    "ROOT"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Helena",
+        "sentence": "Ai, Helena!, de amante e de esposo Já o nome te faz suspirar, Já tua alma singela pressente",
+        "start_char": 31088,
+        "end_char": 31094,
+        "excerpt": "Em seus olhos inocentes, Transparentes  transparentes Até dentro ao coração. IV AI, HELENA! Ai, Helena!, de amante e de esposo Já o nome te faz suspirar, Já tua alma singela pressente",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "faz",
+                "child": ", Helena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Ai, [MASK]!, de amante e de esposo Já o nome te faz suspirar, Já tua alma singela pressente",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Agora, [O Nome], seu nome mesmo já faz você suspiar, sua alma sentindo presença. Ele se voltou para aquilo que havia sido um sonho e o encontrou, uma luz que brilhava no escuro de seus olhos, brilhava como a memória dos momentos de amor compartilhados. Ele abraçou-a com uma força que não parecia sua e sentiu o coração de ambos bater ao mesmo ritmo, sintetizando um amor mais forte do que qualquer outro momento passado. Ao beijar a boca suave daquela mulher que sempre havia desejado tanta, [O Nome] teve certeza de que este era o verdadeiro amor, seu destino finalmente encontrado. Eles se sentaram em silêncio, olhando para o horizonte, sintindo a presença de todos aqueles que haviam chegado ali e tinham partido, que haviam falecido e vivem para sempre na memória dos outros. Eles então se despediram um do outro, pois [O Nome] precisava seguir adiante, encontrar seu próximo destino e ela precisaria voltar aos seus papeis no mundo real, mas a garantia de que ele sempre seria com ela, no seu coração, na memória de um amor verdadeiro.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "precisava",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mãe",
+        "sentence": "Mãe, oh!, Mãe, salva o filho que te implora Pela filha querida.",
+        "start_char": 39411,
+        "end_char": 39414,
+        "excerpt": "Outra glória, outro amor, outro contento De minha alma desterra. Mãe, oh!, Mãe, salva o filho que te implora Pela filha querida.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "salva",
+                "child": "Mãe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "salvar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "salva",
+                "child": ", Mãe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "salvar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mãe",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], oh!, [MASK], salva o filho que te implora Pela filha querida.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem não pensou duas vezes e correu à direção do gritão de ajuda. Acabara de ouvir a voz do seu filho chamando por ele e pedindo ajuda, uma voz atroz e confusa que o tormentava pela mente. Era preciso encontrá-lo rapidamente antes que algo acontecesse a ele.",
+        "generated_text_llama": "Desculpe, mas não posso continuar a história com essa situação. Posso ajudar com outra coisa?",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mãe",
+        "sentence": "Mãe, oh!, Mãe, salva o filho que te implora Pela filha querida.",
+        "start_char": 39411,
+        "end_char": 39414,
+        "excerpt": "Outra glória, outro amor, outro contento De minha alma desterra. Mãe, oh!, Mãe, salva o filho que te implora Pela filha querida.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "salva",
+                "child": "Mãe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "salvar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "salva",
+                "child": ", Mãe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "salvar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mãe",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], oh!, [MASK], salva o filho que te implora Pela filha querida.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele, com uma expressão de medo e desespero na cara, fechou as mãos e juntou todas as suas forças para empurrar o grande tronco, que se moveu lentamente, deixando caminho para a salvação do seu filho. Ao final da longa jornada, ele conseguiu libertá-lo de seus inimigos e reunir novamente sua família. Eles voltaram em segurança para casa, onde o bebê recebeu as carinhosa abraços de sua mãe, que teve a grande sorte de ver seu filho vivo novamente. Ao lado deles, estava a filha querida do homem, gritando com alegria ao ver seus pais juntos. Assim, eles sobreviveram pela lealdade e amor indestrutível que o homem tinha pelos seus filhos.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inda",
+        "sentence": "Tão jovem, que inda cria, inda esperava, Inda tinha a fé viva da inocência!",
+        "start_char": 42655,
+        "end_char": 42659,
+        "excerpt": "E então como ele a amava e lhe queria A esta pobre terra portuguesa! Velha tinha a razão, velha a experiência, Jovem só esse amor. Tão jovem, que inda cria, inda esperava, Inda tinha a fé viva da inocência!",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "Inda",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Inda",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Tão jovem, que inda cria, inda esperava, [MASK] tinha a fé viva da inocência!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Como se a natureza tivesse desejo de testar suas forças, um enorme vento soprava pelo jardim. A rajada de vento que se levantou dali era tão potente que Personagem foi arrastado, o brinco de ouro caindo do seu pescoço. Mas não se desanimaram as mãos femininas que o amamavelmente o seguravam: aqueles olhos cor-de-lata, semelhantes a gotas de água pura, se dilataram e guardaram em si toda a paixão da juventude.",
+        "generated_text_llama": "Ele caminhou pelas ruas silenciosas do bairro, as sombras das casas se estendendo como as asas de um gavião noturno. A lua cheia brilhava acima, iluminando o caminho que ele havia escolhido, sem saber para onde iria, mas com a certeza de que precisava seguir em frente.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    }
+]

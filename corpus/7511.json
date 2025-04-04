@@ -1,0 +1,51 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Zulmira",
+        "sentence": "Zulmira está sentada ao pé do pai.",
+        "start_char": 6223,
+        "end_char": 6230,
+        "excerpt": "Mandou fazer casaca; mas, no dia em que devia ir a Cristóvão, teve febre e caiu de cama. * * * Voltemos a Mar de Espanha: Zulmira está sentada ao pé do pai.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "sentada",
+                "child": "Zulmira",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "sentar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Zulmira",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Zulmira",
+                "child": "* * Voltemos",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Zulmira",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Voltemos",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] está sentada ao pé do pai.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ela olhou para o lado, não sabia o que fazer. O tempo parecia se congelar no ar e o silêncio era tão pesado quanto a neblina sobre a montanha. Em seguida, ela se levantou delicadamente, tomou um longo suspiro e se afastou lentamente dele, com uma leve sensação de tristeza em seu peito. Ela se dirigiu para a casa que tinham construído juntos anos atrás, onde tinha passado os melhores momentos de sua vida. Em seguida, começou a arrumar suas coisas, carregando tudo o que pertencia a ela no velho saco de couro que o pai lhe dera há muitos anos.",
+        "generated_text_llama": "Ela olhou para os seus pais com um olhar triste, sabendo que o momento era delicado. Seu pai, sentado à frente dela, pôs a mão em seu ombro e disse algo que nunca esqueceria: \"Menina, precisamos conversar sobre o que está acontecendo. Você não tem que esconder nada de mim ou da mãe\". ",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    }
+]

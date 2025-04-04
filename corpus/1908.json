@@ -1,0 +1,862 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Joaquim Fidélis",
+        "sentence": "Joaquim Fidélis protestou sorrindo; mas obedeceu e dançou.",
+        "start_char": 1081,
+        "end_char": 1096,
+        "excerpt": "Chegou a dançar, a pedido de uma sexagenária, viúva de um amigo dele, que lhe tomou do braço, e lhe disse: Venha cá, venha cá, vamos mostrar a estes criançolas como é que os velhos são capazes de desbancar tudo. Joaquim Fidélis protestou sorrindo; mas obedeceu e dançou.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "protestou",
+                "child": "Joaquim Fidélis",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "protestar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Joaquim",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] protestou sorrindo; mas obedeceu e dançou.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O personagem seguiu com a rotina diária, como se nada acontecera em seu caminho para a universidade. No entanto, sempre que entrava no auditório onde ocorria as aulas, ele sentia um senso de desconforto. Era por causa da memória do passado e do momento que havia perdido sua melhor amiga naquele mesmo local.",
+        "generated_text_llama": "Após ter seguido a instrução do seu líder, Personagem começou a dançar com um sorriso no rosto, mostrando que, apesar de estar desafiando as regras, ainda era capaz de se divertir. Ele balançava o corpo ao ritmo da música, seus pés batendo forte no chão, enquanto as pessoas ao seu redor começavam a notar sua atitude refletida em todo o grupo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Leocádia",
+        "sentence": "\"Minha querida Leocádia, dizia ele nas ocasiões em que ela insinuava a solução conjugal, por que não continuaremos assim mesmo?",
+        "start_char": 3309,
+        "end_char": 3317,
+        "excerpt": "Viúvo desde a primeira invasão da febre amarela, recusou contrair segundas núpcias, com grande mágoa de três ou quatro damas, que nutriram essa esperança durante algum tempo. Uma delas chegou a prorrogar perfidamente os seus belos cachos de 1845 até meados do segundo neto; outra, mais moça e também viúva, pensou retê-lo com algumas concessões, tão generosas quão irreparáveis. \"Minha querida Leocádia, dizia ele nas ocasiões em que ela insinuava a solução conjugal, por que não continuaremos assim mesmo?",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "querida",
+                "child": "Leocádia",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "querir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Leocádia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "\"Minha querida [MASK], dizia ele nas ocasiões em que ela insinuava a solução conjugal, por que não continuaremos assim mesmo?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Por que não, meu amado? respondeu Ana, sorrindo. Ela já havia pensado nisso muitas vezes e sabia que era algo que queria fazer. Então, ela tomou o coraje de falar: \"Eu vou viver em casa com você, sempre.\"",
+        "generated_text_llama": "",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "respondeu",
+                    "ROOT"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Joaquim Fidélis",
+        "sentence": "Joaquim Fidélis deu-lhe educação e fê-lo estudar, até obter diploma de bacharel em ciências jurídicas, no ano de 1877.",
+        "start_char": 3536,
+        "end_char": 3551,
+        "excerpt": "\" Em suma, baile chinfrim; uma velha gaiteira obrigou-me a dançar uma quadrilha; à porta um crioulo pediu-me as festas. Chinfrim! \" Guardou o folheto, despiu-se, meteu-se na cama, dormiu e morreu. Sim, a notícia consternou a todo o bairro. Tão amado que ele era, com os modos bonitos que tinha, sabendo conversar com toda a gente, instruído com os instruídos, ignorante com os ignorantes, rapaz com os rapazes, e até moça com as moças. E depois, muito serviçal, pronto a escrever cartas, a falar a amigos, a concertar brigas, a emprestar dinheiro. Em casa dele reuniam-se à noite alguns íntimos da vizinhança, e às vezes de outros bairros; jogavam o voltarete ou o whist, falavam de política. Joaquim Fidélis tinha sido deputado até à dissolução da câmara pelo marquês de Olinda, em 1863. Não conseguindo ser reeleito, abandonou a vida pública. Era conservador, nome que a muito custo admitiu, por lhe parecer galicismo político. Saquarema é o que ele gostava de ser chamado. Mas abriu mão de tudo; parece até que nos últimos tempos desligou-se do próprio partido, e afinal da mesma opinião. Há razões para crer que, de certa data em diante, foi um profundo céptico, e nada mais. Era rico e letrado. Formara-se em direito no ano de 1842. Agora não fazia nada e lia muito. Não tinha mulheres em casa. Viúvo desde a primeira invasão da febre amarela, recusou contrair segundas núpcias, com grande mágoa de três ou quatro damas, que nutriram essa esperança durante algum tempo. Uma delas chegou a prorrogar perfidamente os seus belos cachos de 1845 até meados do segundo neto; outra, mais moça e também viúva, pensou retê-lo com algumas concessões, tão generosas quão irreparáveis. \"Minha querida Leocádia, dizia ele nas ocasiões em que ela insinuava a solução conjugal, por que não continuaremos assim mesmo? O mistério é o encanto da vida. \" Morava com um sobrinho, o Benjamim, filho de uma irmã, órfão desde tenra idade. Joaquim Fidélis deu-lhe educação e fê-lo estudar, até obter diploma de bacharel em ciências jurídicas, no ano de 1877.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "deputado",
+                "child": "Joaquim Fidélis",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "deputar",
+                "dep_c": "nsubj:pass",
+                "pos_c": "PROPN",
+                "lemma_c": "Joaquim",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "deu-lhe",
+                "child": "Joaquim Fidélis",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "deu-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Joaquim",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] deu-lhe educação e fê-lo estudar, até obter diploma de bacharel em ciências jurídicas, no ano de 1877.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de conseguir seu diploma de bacharel em ciências jurídicas em 1877, Personagem não parou e continuou sua trajetória como advogado atuando na defesa dos direitos dos mais carentes e oprimidos.",
+        "generated_text_llama": "Após concluir seus estudos, Personagem começou a trabalhar como advogado na cidade, onde rapidamente ganhou uma boa reputação por sua inteligência e habilidade em lidar com casos complexos. Ele abriu seu próprio escritório jurídico, localizado no centro da cidade, e logo se tornou um dos mais procurados leisentes do time.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "parou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Benjamim",
+        "sentence": "Benjamim enxugou, enfim, as lágrimas; e, porque lhe fizesse mal ver os olhos abertos do morto, e principalmente o lábio arregaçado, consertou-lhe ambas as coisas.",
+        "start_char": 3948,
+        "end_char": 3956,
+        "excerpt": "Chorou muito e muito. Não perdia um simples parente, mas um pai, um pai terno, dedicado, um coração único. Benjamim enxugou, enfim, as lágrimas; e, porque lhe fizesse mal ver os olhos abertos do morto, e principalmente o lábio arregaçado, consertou-lhe ambas as coisas.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "enxugou",
+                "child": "Benjamim",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "enxugar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Benjamim",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] enxugou, enfim, as lágrimas; e, porque lhe fizesse mal ver os olhos abertos do morto, e principalmente o lábio arregaçado, consertou-lhe ambas as coisas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após enxugar suas lágrimas, a Dra. Maria não podia mais evitar olhar novamente para o rosto do homem que havia acabado de reviver. E, porque ela sentiu uma certa dor em vê-lo assim, desfigurado e sem respirar, ela conseguiu repará-lo: primeiro abrindo os olhos lentamente para mostrar que ele estava vivo, e então, com cuidado, apertando o lábio superior do morto para dar ao homem uma expressão pacífica e tranquila.",
+        "generated_text_llama": "E, com a mão tremeluzente, Personagem aplicou uma camada fina de creme hidratante nos olhos da vítima, tentando restaurar um pouco do seu brilho perdido. Em seguida, com cuidado, começou a limpar o lábio arregaçado, removendo as marcas de sangue e sujeira que haviam se estabelecido após o acidente. Personagem respirou fundo, tentando controlar as emoções que estavam subindo à tona. Ele sabia que precisava manter a calma, pelo menos por enquanto, para poder se concentrar no trabalho que estava por fazer. Com um movimento cuidadoso, começou a aplicar uma camada de protetor labial sobre o lábio arregaçado, esforçando-se para não pensar nos olhos abertos da vítima e no sangue que havia corrido pelo seu rosto. Personagem sabia que precisava se concentrar no presente, e não no passado, mas era difícil quando tudo o que podia ser visto eram as marcas de dor e sofrimento na vítima. Com um suspiro profundo, Personagem continuou a trabalhar, tentando restaurar a beleza da vítima, mesmo que para ele, ela nunca mais seria a mesma.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "podia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "aplicou",
+                    "ROOT"
+                ],
+                [
+                    "respirou",
+                    "ROOT"
+                ],
+                [
+                    "sabia",
+                    "ROOT"
+                ],
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elias Xavier",
+        "sentence": "Primeiro, chegou o Elias Xavier, que alcançara por intermédio do finado, segundo se dizia, uma comenda; depois entrou o João Brás, deputado que foi, no regime das suplências, eleito com o influxo do Joaquim Fidélis.",
+        "start_char": 4513,
+        "end_char": 4525,
+        "excerpt": "Devia-lhe o emprego que exercia desde 1857. Veio ele; vieram os outros quatro, logo depois, um a um, estupefatos, incrédulos. Primeiro, chegou o Elias Xavier, que alcançara por intermédio do finado, segundo se dizia, uma comenda; depois entrou o João Brás, deputado que foi, no regime das suplências, eleito com o influxo do Joaquim Fidélis.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "chegou",
+                "child": "o Elias Xavier, que alcançara por intermédio do finado, segundo se dizia, uma comenda",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elias",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Primeiro, chegou o [MASK], que alcançara por intermédio do finado, segundo se dizia, uma comenda; depois entrou o João Brás, deputado que foi, no regime das suplências, eleito com o influxo do Joaquim Fidélis.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Primeiro, chegou o **Joaquim Fidélis**, que, segundo se dizia, alcançara por intermédio do finado uma comenda; depois entrou o João Brás, deputado que foi, no regime das suplências, eleito com o influxo do Joaquim Fidélis.",
+        "generated_text_llama": "O Personagem fez seu caminho para a sala, onde encontrou o João Brás sentado à mesa, rodeado por papeladas e documentos. O deputado olhou para ele com um misto de curiosidade e desconfiança, mas logo acendeu a voz e perguntou: \"E você é quem? Qual é sua comenda aqui?\" O Personagem sorriu levemente e respondeu: \"Sou apenas um mensageiro, senhor. Fui enviado para entregar uma carta ao seu nome\". João Brás levantou uma sobrancelha e pediu que o Personagem lhe mostrasse a carta, que ele rapidamente entregou. Enquanto isso, ouviu-se o som de passos pesados na porta da sala, e logo apareceu o Joaquim Fidélis, um homem imponente com uma expressão séria no rosto.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "chegou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "fez",
+                    "ROOT"
+                ],
+                [
+                    "sorriu",
+                    "ROOT"
+                ],
+                [
+                    "mostrasse",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Brás",
+        "sentence": "Primeiro, chegou o Elias Xavier, que alcançara por intermédio do finado, segundo se dizia, uma comenda; depois entrou o João Brás, deputado que foi, no regime das suplências, eleito com o influxo do Joaquim Fidélis.",
+        "start_char": 4614,
+        "end_char": 4623,
+        "excerpt": "Devia-lhe o emprego que exercia desde 1857. Veio ele; vieram os outros quatro, logo depois, um a um, estupefatos, incrédulos. Primeiro, chegou o Elias Xavier, que alcançara por intermédio do finado, segundo se dizia, uma comenda; depois entrou o João Brás, deputado que foi, no regime das suplências, eleito com o influxo do Joaquim Fidélis.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "entrou",
+                "child": "o João Brás",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Primeiro, chegou o Elias Xavier, que alcançara por intermédio do finado, segundo se dizia, uma comenda; depois entrou o [MASK], deputado que foi, no regime das suplências, eleito com o influxo do Joaquim Fidélis.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois que o deputado chegou, entrou na sala com uma postura firme e confiante. Era Victor Hugo de Souza, o deputado que foi eleito graças ao apoio do Joaquim Fidélis durante as suplências políticas.",
+        "generated_text_llama": "Acomodou-se em seu assento e fez um gesto suave para indicar ao presidente da Câmara que deveria começar a sessão ordinária. Ele levantou a cabeça, olhando diretamente para o presidente, com uma expressão de profunda seriedade nos seus olhos. \"Senhor presidente\", disse ele, em voz clara e firme, \"nossa Câmara está aqui para servir ao povo, não apenas para discutir teias de aranha.\" Ele pausou por um momento, olhando em torno da câmara, até que todos os membros estivessem atentos. Em seguida, prosseguiu, \"Vamos lá, senhor presidente, vamos começar a trabalhar no bem-estar do nosso país, não apenas nas ambições do ouriveo que estamos convidado a lhe servir.\"",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Joaquim Fidélis",
+        "sentence": "Amanhã não venham, disse-lhes o Joaquim Fidélis;",
+        "start_char": 5194,
+        "end_char": 5209,
+        "excerpt": "De redor da cama, fitavam o rosto sereno e recordavam a última festa, a do outro domingo, tão íntima, tão expansiva! E, mais perto ainda, a noite da antevéspera, em que o voltarete do costume foi até às onze horas. Amanhã não venham, disse-lhes o Joaquim Fidélis;",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse-lhes",
+                "child": "o Joaquim Fidélis",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "disse-lhes",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Joaquim",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Amanhã não venham, disse-lhes o [MASK];",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas ao invés de partir, ele sentou-se em uma cadeira e olhou para fora pelo janelão da casa, observando as pessoas que passavam pela rua. Amanhã não era apenas um dia qualquer: seria o aniversário de sua mãe. Ele havia planejado comprar-lhe uma joia, um brincadeiro de ouro, para marcar a ocasião. Mas agora, não sabia mais se iria conseguir encontrá-la em casa. O que fazer com o regalo que estava mantido no cofre?",
+        "generated_text_llama": "Eu não podia acreditar no que estava ouvindo. \"Amanhã não venham\", disse-lhes o meu amigo, com uma expressão séria e assustada em seu rosto. Eu me sentei na cama, tentando processar as palavras que ele havia pronunciado.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "venham",
+                    "ccomp"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Benjamim",
+        "sentence": "Benjamim começou a leitura; mas a voz embargou-se-lhe depressa, e João Brás continuou-a.",
+        "start_char": 7386,
+        "end_char": 7394,
+        "excerpt": "Tão reto caráter! tão discreto espírito! Benjamim começou a leitura; mas a voz embargou-se-lhe depressa, e João Brás continuou-a.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "começou",
+                "child": "Benjamim",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "começar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Benjamim",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] começou a leitura; mas a voz embargou-se-lhe depressa, e João Brás continuou-a.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " João Brás, não podendo prosseguir com a leitura sozinho, colocou o livro em uma mesa e segurou a mão dele com os dedos entrecruzados. Ao olhar para as paredes, observava-se que estavam cobertas por centenas de livros e notas manuscritas, tudo um legado da história de sua vida. Sentindo-se cercado pelo passado, João Brás sentou-se no sofá com uma respiração pesada.",
+        "generated_text_llama": "Máscaro olhou para João Brás com uma mistura de raiva e desgosto no rosto, percebendo que o homem não estava apenas ouvindo a sua história, mas também rindo de si mesmo enquanto fazia isso. Ele tentou manter a calma, sabendo que não poderia permitir que João Brás continuasse a ridicularizá-lo diante de todos os presentes.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "podendo",
+                    "ccomp"
+                ],
+                [
+                    "sentou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Brás",
+        "sentence": "Benjamim começou a leitura; mas a voz embargou-se-lhe depressa, e João Brás continuou-a.",
+        "start_char": 7452,
+        "end_char": 7461,
+        "excerpt": "Tão reto caráter! tão discreto espírito! Benjamim começou a leitura; mas a voz embargou-se-lhe depressa, e João Brás continuou-a.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "continuou-a",
+                "child": ", e João Brás",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "continuou-a",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Benjamim começou a leitura; mas a voz embargou-se-lhe depressa, e [MASK] continuou-a.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Benjamin continuou a abrir página após página, sua mente tentando captar as palavras escritas lá embaixo, mas era tão complicado se concentrar. A mente estava cheia de pensamentos e dúvidas. Porque estaria fazendo isso? Para que o que era esse livro que ele trouxera da biblioteca?",
+        "generated_text_llama": "Benjamim tentou se concentrar na história, mas não conseguia esquecer o som estranho que havia feito a porta do quarto. Ele a levantou, com a mão trêmula, e olhou para a corredoria em busca de algum sinal de movimento. O corredor estava vazio, mas Benjamim sentiu uma sensação de que alguém estava lá, observando-o.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "tentou",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Benjamim",
+        "sentence": "Uns opinavam pela impressão tipográfica; Benjamim dizia que sim, com a condição de excluir alguma coisa, ou inconveniente ou demasiado particular.",
+        "start_char": 7908,
+        "end_char": 7916,
+        "excerpt": "Muita observação política e social, muita reflexão filosófica, anedotas de homens públicos, do Feijó, do Vasconcelos, outras puramente galantes, nomes de senhoras, o da Leocádia, entre outros; um repertório de fatos e comentários. Cada um admirava o talento do finado, as graças do estilo, o interesse da matéria. Uns opinavam pela impressão tipográfica; Benjamim dizia que sim, com a condição de excluir alguma coisa, ou inconveniente ou demasiado particular.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "dizia",
+                "child": "Benjamim",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Benjamim",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Uns opinavam pela impressão tipográfica; [MASK] dizia que sim, com a condição de excluir alguma coisa, ou inconveniente ou demasiado particular.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando com a história:",
+        "generated_text_llama": "E assim, Personagem começou a revisar o projeto, eliminando qualquer detalhe que considerasse desnecessário ou confuso. Ele passou horas revendo as linhas de texto, ajustando a formatação e organizando os elementos visuais de acordo com sua nova perspectiva.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Diogo Vilares",
+        "sentence": "Levantaram-se todos; Diogo Vilares ia já chegar à repartição fora de horas;",
+        "start_char": 8109,
+        "end_char": 8122,
+        "excerpt": "Uns opinavam pela impressão tipográfica; Benjamim dizia que sim, com a condição de excluir alguma coisa, ou inconveniente ou demasiado particular. E continuavam a ler, saltando pedaços e páginas, até que bateu meio- dia. Levantaram-se todos; Diogo Vilares ia já chegar à repartição fora de horas;",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "chegar",
+                "child": "Diogo Vilares",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "chegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Diogo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Levantaram-se todos; [MASK] ia já chegar à repartição fora de horas;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim que todos se levantaram, Personagem, que estava no comando da missão, iniciou as preparativas para ir até a repartição fora das horas. Ele reuniu os documentos necessários e convocou o equipamento específico, sempre buscando garantir que nada fosse deixado ao acaso.",
+        "generated_text_llama": "E, sabendo que a multidão na praça estava prestes a se espalhar por toda a cidade, Personagem tomou uma decisão rápida e prudente. Ele rapidamente se esquivou dos olhos curiosos da multidão e começou a caminhar em direção à estreita estrada que levava à repartição, mantendo-se perto das sombras para evitar ser notado.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "levantaram",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "tomou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Benjamim",
+        "sentence": "Uma vez só, Benjamim continuou a ler o manuscrito.",
+        "start_char": 8547,
+        "end_char": 8555,
+        "excerpt": "Até amanhã, disseram. Até amanhã. Uma vez só, Benjamim continuou a ler o manuscrito.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "continuou",
+                "child": "Benjamim",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "continuar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Benjamim",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Uma vez só, [MASK] continuou a ler o manuscrito.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em seguida, Personagem, com uma expressão de profunda introspecção, abriu o olho e mirou para o céu azul claro daquela manhã, como se procurasse alguma resposta divina. Depois, de forma lenta e meditativa, colocou a luz do seu celular à escrevê-lo e começou a transcribir as palavras arcaicas do manuscrito para uma folha de papel em branco, em busca de melhor entender sua natureza e conteúdo. Passaram-se horas, até que o sol se posicionava já no ponto mais alto da sua trajetória, iluminando a sala com um brilho dourado. Personagem pautou o último dos textos, encerrando assim a leitura do manuscrito. Com uma respiração profunda e meditativa, ele finalmente pôde admitir que sua busca tinha começado e que havia um longo caminho por percorrer para entender os mistérios contidos em aquela antiga narrativa.",
+        "generated_text_llama": "Ele ficou parado por um momento, imaginando como era possível criar algo tão poderoso com apenas palavras e imagens. O olhar de ele se afastou do texto e se dirigiu à janela, onde a luz do sol começava a se infiltrar na sala escura. A respiração dele se tornou mais profunda, enquanto ele tentava processar a magnitude da sua descoberta.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "pautou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Benjamim",
+        "sentence": "Benjamim ia lendo; de repente deu com o Diogo Vilares.",
+        "start_char": 9095,
+        "end_char": 9103,
+        "excerpt": "Desde 1873 ou 1874, os cadernos vinham cheios deles, uns de vivos, outros de mortos, alguns de homens públicos, Paula Sousa, Aureliano, Olinda, etc. Eram curtos e substanciais, às vezes três ou quatro rasgos firmes, com tal fidelidade e perfeição, que a figura parecia fotografada. Benjamim ia lendo; de repente deu com o Diogo Vilares.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "lendo",
+                "child": "Benjamim",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ler",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Benjamim",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] ia lendo; de repente deu com o Diogo Vilares.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " A seguir, ela puxou a respiração profunda e fechou o livro, agitada. Ela olhou para o homem que estava na frente dela - Diogo Vilares, um dos escritores mais respeitados do país - e sentiu uma mecha de inspiração acender dentro de si.",
+        "generated_text_llama": "De repente, Diogo Vilares apareceu em frente a Personagem, seu rosto iluminado por uma sorrateira leveza que fez Personagem parar no meio da página que estava lendo. \"Olá, Personagem,\" disse ele, com um sorriso sinistro que fazia Personagem sentir um arrepio na espinha. Personagem sentiu um misto de curiosidade e desconfiança e se levantou para se aproximar de Diogo, sabendo que algo não estava certo.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "parar",
+                    "ccomp"
+                ],
+                [
+                    "sentir",
+                    "xcomp"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Benjamim",
+        "sentence": "\" Benjamim, estupefato, deu enfim consigo mesmo.  \"",
+        "start_char": 15157,
+        "end_char": 15165,
+        "excerpt": "Ri pouco e discretamente. A vida é pura e severa, mas o caráter tem uma ou duas cordas fraudulentas, a que só faltou a mão do artista; nas coisas mínimas, mente com facilidade. \" Benjamim, estupefato, deu enfim consigo mesmo.  \"",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "deu",
+                "child": "\" Benjamim, estupefato,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "\"",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "\" [MASK], estupefato, deu enfim consigo mesmo.  \"",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " \" Personagem, estupefado, conseguiu finalmente se controlar. Ele olhou para a frente, com um olhar determinado e decidido. Sentiu uma força interior que o motivava a mover-se adiante, a caminhar em direção ao objetivo que sempre havia sonhado. Sabeu que era hora de enfrentar as dificuldades e superar os obstáculos que lhe impediam alcançar o sucesso. Ficou ciente de que todo esforço, toda a dedicação e todos os sacrifícios estavam prestes a se tornarem realidade. Ele era capaz disso, sabia que tinha a força necessária para alcançar seu sonho. E então partiu, determinado a vencer qualquer coisa que se pudesse colocar no seu caminho.\"",
+        "generated_text_llama": "Esse homem estava completamente fora de si. Ele se levantou da cadeira, quebrada em pedaços ao seu lado, e olhou em volta do quarto, como se estivesse vendo tudo por primeira vez. A luz do sol, que entrava pela janela, iluminava as poeiras e os detritos espalhados pelo chão, tornando tudo ainda mais perturbador.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Benjamim",
+        "sentence": "Não podendo rejeitá-la, Benjamim tentou mentalmente fechar-lhe os olhos e consertar-lhe a boca; mas tão depressa o fazia, como a pálpebra tornava a levantar-se, e a ironia arregaçava o beiço.",
+        "start_char": 16677,
+        "end_char": 16685,
+        "excerpt": "Evocou a figura do tio, com o olhar espirituoso e meigo, e a pilhéria grave; em lugar dessa, tão cândida e simpática, a que lhe apareceu foi a do tio morto, estendido na cama, com os olhos abertos, o lábio arregaçado. Sacudiu-a do espírito, mas a imagem ficou. Não podendo rejeitá-la, Benjamim tentou mentalmente fechar-lhe os olhos e consertar-lhe a boca; mas tão depressa o fazia, como a pálpebra tornava a levantar-se, e a ironia arregaçava o beiço.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tentou",
+                "child": "Benjamim",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tentar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Benjamim",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Não podendo rejeitá-la, [MASK] tentou mentalmente fechar-lhe os olhos e consertar-lhe a boca; mas tão depressa o fazia, como a pálpebra tornava a levantar-se, e a ironia arregaçava o beiço.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em seguida, Personagem sentiu um impulso invulgar, se sentindo uma especie de atordoamento. Porque essa mulher não era ninguém para ele; simplesmente estava na fila atrás dele no supermercado. Por que tentava-se fechar os olhos à sua boca? Ou por que a abertura de sua pálpebra levantava-se tão rapidamente? Talvez uma ilusão, pensou ele.",
+        "generated_text_llama": "Com uma expressão de resignação, Personagem pegou um lenço limpo e começou a limpar os cantos da boca da garota, tentando aliviar a dor e a confusão que havia se apoderado dela. Em seguida, ele se levantou do chão, suavemente, como se não quisesse perturbar o sono de seus companheiros, e se dirigiu até a cama de Madeleine.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pegou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Benjamim",
+        "sentence": "Benjamim jantou mal e dormiu mal.",
+        "start_char": 16892,
+        "end_char": 16900,
+        "excerpt": "Não podendo rejeitá-la, Benjamim tentou mentalmente fechar-lhe os olhos e consertar-lhe a boca; mas tão depressa o fazia, como a pálpebra tornava a levantar-se, e a ironia arregaçava o beiço. Já não era o homem, era o autor do manuscrito. Benjamim jantou mal e dormiu mal.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tentou",
+                "child": "Benjamim",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tentar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Benjamim",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "jantou",
+                "child": "Benjamim",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "jantar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Benjamim",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] jantou mal e dormiu mal.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, o Personagem despertou com uma sensação de confusão, pois não lembrava tão mal sonhar há muito tempo. Ao passar a mão pelo rosto, percebeu que estava sujo e do lado direito havia um grande ralhador. Sentindo-se curioso, Personagem segurou o ralhador e verificou que era uma espécie de relógio, que possibilitava guardar as datas importantes. Desde então, Personagem decidiu mudar sua rotina e começou a marcar datas que considerava relevantes para o futuro, assim tentando ter um controle melhor sobre sua vida.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "despertou",
+                    "ROOT"
+                ],
+                [
+                    "segurou",
+                    "ROOT"
+                ],
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Benjamim",
+        "sentence": "Mas Benjamim tergiversava, dizia isto e aquilo, inventava pretextos; por mal de pecados, apareceu-lhe na sala, por trás deles, a eterna boca do defunto, e esta circunstância fê-lo ainda mais acanhado.",
+        "start_char": 17122,
+        "end_char": 17130,
+        "excerpt": "fizeram-lhe muitas perguntas; pediram-lhe com instância para ver o manuscrito. Mas Benjamim tergiversava, dizia isto e aquilo, inventava pretextos; por mal de pecados, apareceu-lhe na sala, por trás deles, a eterna boca do defunto, e esta circunstância fê-lo ainda mais acanhado.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tergiversava",
+                "child": "Benjamim",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "tergiversar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Benjamim",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mas [MASK] tergiversava, dizia isto e aquilo, inventava pretextos; por mal de pecados, apareceu-lhe na sala, por trás deles, a eterna boca do defunto, e esta circunstância fê-lo ainda mais acanhado.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas o homem, que já estava tão agitado quanto um mar tempestuoso, apenas se congelou no lugar, olhando para trás dele com um rosto pálido e atordoado. A figura do velho, que ele havia sempre evitado como o pior de seus pecados, apareceu repentinamente na sala. E aquilo o incomodava ainda mais, pois sabia que estava morto há meses. O homem não poderia entender como este fantasma apareceu exatamente quando ele precisava de uma ajuda espiritual para enfrentar sua vida corrompida. Ele se recostou contra o muro, sentindo-se sem forças para andar ou falar, apenas olhando para a figura espectral que lhe estava acusando com seus olhos intensos e penetrantes.",
+        "generated_text_llama": "Era como se as sombras da sala estivessem se movendo em conjunto com ele, como se estivessem conspirando contra ele. Personagem tentou esconder a sua ansiedade detrás de um sorriso forçado e começou a limpar os pratos, mas as suas mãos tremeram ao tocar nos objetos. As lanternas penduradas nas paredes dançavam à luz da vela, criando uma atmosfera misteriosa e ameaçadora.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "tentou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

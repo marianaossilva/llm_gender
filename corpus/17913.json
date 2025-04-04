@@ -1,0 +1,667 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Martinha",
+        "sentence": "Lá vão quarenta e três anos  ou quarenta e cinco, segundo a tia; Martinha, porém, afirma que são quarenta e três.",
+        "start_char": 864,
+        "end_char": 872,
+        "excerpt": "Lá vão... Aqui pega a alma escura de Martinha. Lá vão quarenta e três anos  ou quarenta e cinco, segundo a tia; Martinha, porém, afirma que são quarenta e três.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "a alma",
+                "child": "Martinha",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "alma",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Martinha",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Martinha",
+                "child": "a alma",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Martinha",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "alma",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "quarenta e três anos",
+                "child": "Martinha",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "ano",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Martinha",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "a tia",
+                "child": "Martinha",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "tia",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Martinha",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "afirma",
+                "child": "Martinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "afirmar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Martinha",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Lá vão quarenta e três anos  ou quarenta e cinco, segundo a tia; [MASK], porém, afirma que são quarenta e três.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele estava sentado em uma cadeira de madeira no porão, apenas observando as paredes desabadas da casa velha. A sua tia acenhou do outro lado da sala e, com um sorriso pouco confiável, repetiu que ele era quarenta e cinco anos ou, talvez, já chegou aos quarenta e seis.",
+        "generated_text_llama": "E assim, Personagem olhou para as mãos sujas de poeira e poções, lembrando-se da longa jornada que o havia levado até este momento. Ele havia passado anos estudando os antigos livros de magia, aprendendo a manipular as sombras e a controlar os elementos. Mas agora, com quarenta e três anos, ele começou a perceber que sua força não era invencível, que havia um preço a pagar por cada poder adquirido.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Martinha",
+        "sentence": "Só, tão só, provavelmente só até a morte; e Martinha morrerá tarde, porque é robusta como um trabalhador e sã como um pero.",
+        "start_char": 1507,
+        "end_char": 1515,
+        "excerpt": "Mas é que não há marido, nem nada. Martinha é solteira, e daí vem a alma escura desta bela manhã clara e fresca, posterior à noite de bodas. Só, tão só, provavelmente só até a morte; e Martinha morrerá tarde, porque é robusta como um trabalhador e sã como um pero.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "Martinha",
+                "child": "solteira",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Martinha",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "solteira",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "solteira",
+                "child": "Martinha",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "solteira",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Martinha",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "morrerá",
+                "child": "e Martinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "morrerá",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Martinha",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Só, tão só, provavelmente só até a morte; e [MASK] morrerá tarde, porque é robusta como um trabalhador e sã como um pero.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem, que se mostrava mais vigorosa que a vida em si mesma, decidiu aproveitar essa força para fazer uma expedição inesperada. Partiu da sua morada, com a boca cheia de sorrisos e um coração cheio de esperança. Viajou por montanhas altas, rios turbulentos e florestas densas, explorando lugares que ninguém havia visto antes.",
+        "generated_text_llama": "E assim, Personagem continuou em sua jornada, impulsionada pela curiosidade e pela necessidade de descobrir o que havia por trás das palavras mágicas que o seu melhor amigo, o velho poeta, lhe havia contado. Ela caminhava pelos campos verdejantes da campina, o sol a pino na nuca, quando notou um estranho barulho vindo de uma pequena clareira ao lado da estrada.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Martinha",
+        "sentence": "Martinha crê, às vezes, que ao destino; às vezes, acusa-se a si própria.",
+        "start_char": 1706,
+        "end_char": 1714,
+        "excerpt": "A culpa dessa solidão a quem pertence? ao destino ou a ela? Martinha crê, às vezes, que ao destino; às vezes, acusa-se a si própria.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "crê",
+                "child": "Martinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "crê",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Martinha",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] crê, às vezes, que ao destino; às vezes, acusa-se a si própria.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim como se deslocava pela cidade de Londres, Personagem sentia um ar de contemplação, o frio da manhã contra sua pele aquecida pelo tempo gasto em andar. Era uma sensação confusa, mas ao mesmo tempo clarificadora - a quebra da rotina e o confronto com as ruas desabocadas lhe trouxeram um sentimento de liberdade e de responsabilidade crescente.",
+        "generated_text_llama": "[A MASK] olha em volta, sentindo uma mistura de ansiedade e determinação. Ele sabe que precisa encontrar um caminho para escapar da cidade antes que as autoridades o encontrem novamente. Com cuidado, ele se abaixa e pega a mochila escondida atrás de uma pila de caixas na calçada. Dentro dela, tem um mapa desenhado à mão, mostrando o caminho para uma pequena cidade distante, onde supõe que encontrará refúgio e segurança.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olha",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Martinha",
+        "sentence": "Não havia outra, Martinha contava então vinte e um anos, e ia no dia seguinte ao baile do Club Fluminense;",
+        "start_char": 7269,
+        "end_char": 7277,
+        "excerpt": "Um dia falara-se em não sei que flor bonita e rara no Rio de Janeiro. Alguém sabia de uma chácara onde a flor podia ser encontrada, quando a árvore a produzisse; mas, por enquanto, não produzia nada. Não havia outra, Martinha contava então vinte e um anos, e ia no dia seguinte ao baile do Club Fluminense;",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "contava",
+                "child": "Martinha",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "contar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Martinha",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Não havia outra, [MASK] contava então vinte e um anos, e ia no dia seguinte ao baile do Club Fluminense;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Sem pensar duas vezes, ela se levantou da cadeira e seguiu para a sala de banho. Após completar os preparativos necessários, voltou à sala e iniciou a trabalhar na tela, pintando um retrato incrível que estava prendendo o seu olhar desde o início da noite.",
+        "generated_text_llama": "Ao chegar ao baile, Personagem ficou impressionado com a beleza e a elegância dos convidados. Ele vestiu-se com o melhor terno escuro que tinha em sua gaveta, complementando-o com um colar de pérolas brilhantes e um cinto de couro preto. Com uma respiração profunda, ele se aproximou da porta do balcão e pediu um drinque à garçonete mais bonita que viu desde o início da noite.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "Julião acordou no dia seguinte muito cedo; não foi à repartição e deitou-se a andar pelas chácaras dos arrabaldes.",
+        "start_char": 7596,
+        "end_char": 7602,
+        "excerpt": "Deseja a flor para o baile de amanhã? Desejava. Julião acordou no dia seguinte muito cedo; não foi à repartição e deitou-se a andar pelas chácaras dos arrabaldes.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "acordou",
+                "child": "Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acordar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] acordou no dia seguinte muito cedo; não foi à repartição e deitou-se a andar pelas chácaras dos arrabaldes.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " A seguir, ele passou por entre as ruas engarrafadas do centro, onde os comerciantes já haviam aberto suas lojas, e chegou aos limites da cidade. Lá, ele deixou para trás o barulho e a poluição, e começou a andar sozinho em um caminho serrano que ele conhecia perfeitamente. Ao longo do caminho, passava-se pelas chácaras dos arrabaldes, com plantações de algodão e canaviais que produziam uma fresca aroma, contrastando com a calor da tarde. Ele se sentia livre nesta paisagem familiar, onde o coração não sofria do peso das preocupações do mundo exterior.",
+        "generated_text_llama": "Personagem continuou seu caminho, sentindo o frescor do ar matinal chegar às suas narinas. O silêncio da manhã era quebrado apenas pelo som das pássaros cantando em distância e pelo barulho dos seus próprios passos no solo frio. Ele sabia que precisava encontrar um lugar para se esconder por algum tempo, longe de olhos curiosos que poderiam revelar sua identidade.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Martinha",
+        "sentence": "Martinha estava ainda a pentear-se quando Julião lhe levou a flor.",
+        "start_char": 8432,
+        "end_char": 8440,
+        "excerpt": "Quis pagar dez, vinte ou trinta mil-réis por ela; mas a dona da casa, uma boa velha, que adivinhava amores a muitas léguas de distância, disse-lhe, rindo, que não custava nada. Vá, vá, leve o presente à moça, e seja feliz. Martinha estava ainda a pentear-se quando Julião lhe levou a flor.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "estava",
+                "child": "Martinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "estar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Martinha",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] estava ainda a pentear-se quando Julião lhe levou a flor.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, enquanto ainda trabalhava no pente em seus cabelos, foi interrompida pelo som do canto de um canário que pertencia a Julião. Este último estava se aproximando dela com uma bela flor nas mãos. \"Estou trocando esta florescente orquídea por um sorriso emprestado, querida\", disse Julião enquanto abria os braços.",
+        "generated_text_llama": "Já que Julião havia feito a gestão para trazer a flor, Personagem não podia deixar de ficar surpreso e grato por aquele gesto de amizade. Ele olhou para a flor, uma bela rosa branca, e sentiu um aperto no coração ao perceber que Julião havia pensado nele e queria fazê-lo feliz.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "Martinha estava ainda a pentear-se quando Julião lhe levou a flor.",
+        "start_char": 8474,
+        "end_char": 8480,
+        "excerpt": "Quis pagar dez, vinte ou trinta mil-réis por ela; mas a dona da casa, uma boa velha, que adivinhava amores a muitas léguas de distância, disse-lhe, rindo, que não custava nada. Vá, vá, leve o presente à moça, e seja feliz. Martinha estava ainda a pentear-se quando Julião lhe levou a flor.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "levou",
+                "child": "Julião",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "levar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Martinha estava ainda a pentear-se quando [MASK] lhe levou a flor.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Martinha ainda se encontrava mexendo os seus cabelos de forma intrincada quando Filipe lhe trouxe uma flor. Ela olhou para ele e sorriu com uma expressão encantadora, abraçando-o com a mão que agarrava o fio da sua têntera. Martinha não podia acreditar de que aquela bela rosa lhe tivesse sido entregue por Filipe, um gesto tão delicado e carinhoso. Filipe olhou para ela com uma expressão tranquila e segura e, em seguida, colocou a flor nos seus cabelos de forma bem-guardada. \"Este é para você, meu amor\", disse ele, sorrindo com o mesmo encanto que sempre lhe havia conquistado o coração de Martinha. Ela se sentiu tão feliz que nada podia lhe tirar essa sonrisa incandescente dos lábios. Nesse momento, ambos sabiam que estavam destinados a ser uma dupla inseparável.",
+        "generated_text_llama": "Martinha não pôs os olhos para fora da refletoria, onde seu rosto estava pintado de branco e azul, simbólicas cores do céu e da natureza. Ela estava completamente imersa no momento, sentindo-se uma parte integrante do universo. Ao receber o ramo de flores, Personagem sorriu suavemente, seus olhos brilhando com gentileza. As flores eram exatamente o que Martinha precisava nesse momento - uma lembrança de que a beleza e a vida ainda existiam no mundo.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "trouxe",
+                    "advcl"
+                ],
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Martinha",
+        "sentence": "Martinha porém compreendeu que ele teria feito algum esforço, apertou-lhe muito a mão, e, à noite, dançou com ele uma valsa.",
+        "start_char": 8562,
+        "end_char": 8570,
+        "excerpt": "Martinha estava ainda a pentear-se quando Julião lhe levou a flor. Não lhe contou nada do que fizera, embora ela lho perguntasse. Martinha porém compreendeu que ele teria feito algum esforço, apertou-lhe muito a mão, e, à noite, dançou com ele uma valsa.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "estava",
+                "child": "Martinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "estar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Martinha",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] porém compreendeu que ele teria feito algum esforço, apertou-lhe muito a mão, e, à noite, dançou com ele uma valsa.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele desabafiou o vento, enfim se abrigou em uma estalagem pequena e linda, próxima de onde o navio ancorava. O proprietário da casa de hospedege achou-o estranho, mas não perguntou demasiadas questões, pois entendia que aqueles que haviam sobrevivido ao naufrágio, tiveram uma história digna de ser contada.",
+        "generated_text_llama": "Ela sorriu para ele, seus olhos brilhando com alegria, enquanto ele a abraçava forte, sussurrando palavras carinhosas ao seu ouvido. A música da noite parecia adquirir um som mais suave e melancólico, como se estivesse sussurrando segredos próximos à sua pele. Personagem sentiu seu coração bater mais forte, como se estivesse prestes a saltar do lugar.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Martinha",
+        "sentence": "Martinha principiava o namoro do futuro comendador.",
+        "start_char": 8940,
+        "end_char": 8948,
+        "excerpt": "No dia seguinte, guardou a flor, menos pelas circunstâncias do achado que pela raridade e beleza dela; e como era uma prenda de amor, meteu-a entre as cartas. O rapaz, dentro de duas semanas, tornou a perder algumas esperanças que lhe haviam renascido. Martinha principiava o namoro do futuro comendador.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "principiava",
+                "child": "Martinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "principiar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Martinha",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] principiava o namoro do futuro comendador.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando, o senhor Antonio não poderia ocultar sua alegria e esperança no começo de seu novo relacionamento. A cada passo que ia caminhando ao lado da bela senhora Maria, suas emoções se intensificavam, sendo cada um mais do que apenas uma sensação de contentamento. Ele se esforçava para mostrar a melhor versão dele mesmo, querendo emprestar a ela o amor e respeito que se merecia. Porém, ele também se lembrava dos problemas que já enfrentou no passado e agora sentia medo de se repetirem no futuro com ela ao seu lado. Mas como o tempo passava, esse medo gradualmente estava sendo substituído pela tranquilidade e paz que se sentiam entre ambos.",
+        "generated_text_llama": "Enquanto caminhavam pela calçada embaixo das árvores iluminadas pela lua, Personagem sentiu uma sensação única de desconforto, como se estivesse sendo observado por alguém que não queria ser visto. Mas sua atenção estava mais focada no comandador do que na possibilidade de ser vigiado. Ele não podia deixar de notar a forma como as luzes da vila dançavam ao redor das sombras, criando um cenário mágico e romântico.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "Desesperado, Julião meteu-se para a roça, da roça para o sertão, e nunca mais houve notícia dele.",
+        "start_char": 9005,
+        "end_char": 9011,
+        "excerpt": "O rapaz, dentro de duas semanas, tornou a perder algumas esperanças que lhe haviam renascido. Martinha principiava o namoro do futuro comendador. Desesperado, Julião meteu-se para a roça, da roça para o sertão, e nunca mais houve notícia dele.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "meteu-se",
+                "child": "Desesperado, Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "meteu-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Desesperado, [MASK] meteu-se para a roça, da roça para o sertão, e nunca mais houve notícia dele.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Desesperado, o Velho Mocafoz se meteu na trilha da mata densa, em direção à sua antiga roça. Ao longo do caminho, ele passou pelo arroio enegrecido pelo tempo e pelos remanescentes de uma floresta exuberante, enriquecida pelos chamados \"árvores loucas\".",
+        "generated_text_llama": "Amanhã cedo, enquanto a lua ainda estava no céu, um velho índio, conhecido como Kanaq, sentiu uma ponta de curiosidade em seu coração. Ele havia ouvido histórias sobre Personagem, mas nunca soube se eram verdadeiras ou apenas lendas. Decidido a descobrir a verdade, Kanaq decolou suas asas e voou para o sertão, seguindo o rastro de Personagem. ",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "meteu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Martinha",
+        "sentence": "Foi o único que deveras gostou de mim, suspirou agora Martinha, olhando para a pobre flor mirrada e anônima.",
+        "start_char": 9144,
+        "end_char": 9152,
+        "excerpt": "Martinha principiava o namoro do futuro comendador. Desesperado, Julião meteu-se para a roça, da roça para o sertão, e nunca mais houve notícia dele. Foi o único que deveras gostou de mim, suspirou agora Martinha, olhando para a pobre flor mirrada e anônima.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "principiava",
+                "child": "Martinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "principiar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Martinha",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "suspirou",
+                "child": "Martinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "suspirar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Martinha",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Foi o único que deveras gostou de mim, suspirou agora [MASK], olhando para a pobre flor mirrada e anônima.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele segurou a flor delicada entre as mãos e, com uma voz leve, cantou uma música velha e triste que lhe vinha da infância. A canção era súbita e forte, talvez para compensar o silêncio que havia dominado antes. Depois de terminar a música, ele deixou a flor onde estava e, caminhou levemente embora, voltando apenas um último olhar àquele lugar escondido, entre as sombras da noite.",
+        "generated_text_llama": "Sua mão tremia ligeiramente ao tocar na terra úmida ao lado da flor, como se estivesse tentando sussurrar segredos para ela. Ele a observou com uma intensidade que mal conseguia esconder, como se estivesse desejando que ela respondesse, que soubese o que ele estava pensando. A pobre coisa não parecia saber, mas Personagem não se importava; ele apenas precisava ter alguém para compartilhar seus pensamentos e sentimentos.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "importava",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Martinha",
+        "sentence": "E, lembrando-se que podia estar casada com ele, feliz, considerada, com filhos  talvez avó  (foi a primeira ocasião em que admitiu esta graduação sem pejo) Martinha concluiu que a culpa era sua, toda sua; queimou todas as cartas e guardou a flor.",
+        "start_char": 9355,
+        "end_char": 9363,
+        "excerpt": "Desesperado, Julião meteu-se para a roça, da roça para o sertão, e nunca mais houve notícia dele. Foi o único que deveras gostou de mim, suspirou agora Martinha, olhando para a pobre flor mirrada e anônima. E, lembrando-se que podia estar casada com ele, feliz, considerada, com filhos  talvez avó  (foi a primeira ocasião em que admitiu esta graduação sem pejo) Martinha concluiu que a culpa era sua, toda sua; queimou todas as cartas e guardou a flor.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "suspirou",
+                "child": "Martinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "suspirar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Martinha",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "concluiu",
+                "child": "Martinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "concluir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Martinha",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "E, lembrando-se que podia estar casada com ele, feliz, considerada, com filhos  talvez avó  (foi a primeira ocasião em que admitiu esta graduação sem pejo) [MASK] concluiu que a culpa era sua, toda sua; queimou todas as cartas e guardou a flor.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim, ela, uma mulher corajosa e forte, decidiu enfrentar o passado que lhe atormentava. A próxima manhã, ela foi para a igreja local e pediu perdão por sua falta de decisão no momento crucial. Após isso, ela fez uma viagem solitaria pela Europa, procurando descobrir mais sobre o passado que havia esquecido e enriquecer sua alma com a história dos outros.",
+        "generated_text_llama": "Com o coração pesado, Personagem entrou na cozinha e abriu o armário para tirar um livro de receitas antigo que seu avô havia lhe deixado. Ela pegou uma pasta branca limpa e começou a escrever a história do amor que havia perdido, com palavras suaves e respeitosas, como se estivesse contando uma canção para o bebê que nunca nasceu. Enquanto escrevia, ela sentiu uma paz tranquila crescendo dentro dela, como se os segredos do passado estivessem sendo libertados de suas cativas. ",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "entrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

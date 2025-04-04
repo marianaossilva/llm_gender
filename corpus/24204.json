@@ -1,0 +1,955 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Cesário Verde",
+        "sentence": "Quando Cesário Verde fez dizer ao médico que era, não o Sr. Verde empregado no comércio, mas o poeta Cesário Verde, usou de um daqueles verbalis- mos do orgulho inútil que suam o cheiro da vaidade.",
+        "start_char": 33414,
+        "end_char": 33427,
+        "excerpt": "Aos que não sabemos querer  sejamos gênios ou mendigos  irmana- nos a impotência. De que me serve citar-me gênio se resulto ajudante de guarda-livros? Quando Cesário Verde fez dizer ao médico que era, não o Sr. Verde empregado no comércio, mas o poeta Cesário Verde, usou de um daqueles verbalis- mos do orgulho inútil que suam o cheiro da vaidade.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "fez",
+                "child": "Cesário Verde",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cesário",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": ", mas o poeta",
+                "child": "Cesário Verde",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "poeta",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Cesário",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cesário Verde",
+                "child": ", mas o poeta",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Cesário",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cesário Verde",
+                "child": "o Sr.",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Cesário",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Sr.",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cesário Verde",
+                "child": "médico",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Cesário",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "médico",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando [MASK] fez dizer ao médico que era, não o Sr. Verde empregado no comércio, mas o poeta [MASK], usou de um daqueles verbalis- mos do orgulho inútil que suam o cheiro da vaidade.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quando o poeta João identificou-se a si mesmo ao médico, não como Sr. Verde, funcionário no comércio, mas sim como poeta Júlio, usou de um dos aqueles verbalismos do orgulho inútil que suam o cheiro da vaidade. \"Eu sou João Caetano, poeta,\" afirmou com dignidade, erguendo-se em seu sátiro e agitando os cabelos ondulantes. O médico olhou para ele, surpreendido, mas agradecido pelo raro conhecimento de um nome da literatura brasileira contemporânea. \"Ah sim, Júlio... poeta,\" murmurou o médico, enfiando-se mais no livro que estava revisando o caso do paciente. João sentiu a satisfação que ele buscava: sua identidade não era apenas outra coisa em seu passado, mas também uma das poucas coisas que poderia dar valor à sua existência atual.",
+        "generated_text_llama": "Ele explicou que havia perdido a ilusão de ser conhecido como o grande Personagem, poeta de sonetos que conquistava corações com cada palavra. Em vez disso, ele se sentia reduzido a uma sombra do seu próprio ego, forçado a se esconder atrás de um manto de vermelhidão e vergonha. O médico, por sua vez, ouviu atentamente as palavras de Personagem, com olhos cheios de compaixão, e disse: \"Meu caro Personagem, você não está sozinho. Muitos homens se sentem assim, escondidos atrás de máscaras que não são mais do que uma fachada para a verdadeira si mesma\".",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "usou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cesário Verde",
+        "sentence": "Quando Cesário Verde fez dizer ao médico que era, não o Sr. Verde empregado no comércio, mas o poeta Cesário Verde, usou de um daqueles verbalis- mos do orgulho inútil que suam o cheiro da vaidade.",
+        "start_char": 33414,
+        "end_char": 33427,
+        "excerpt": "Aos que não sabemos querer  sejamos gênios ou mendigos  irmana- nos a impotência. De que me serve citar-me gênio se resulto ajudante de guarda-livros? Quando Cesário Verde fez dizer ao médico que era, não o Sr. Verde empregado no comércio, mas o poeta Cesário Verde, usou de um daqueles verbalis- mos do orgulho inútil que suam o cheiro da vaidade.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "fez",
+                "child": "Cesário Verde",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cesário",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": ", mas o poeta",
+                "child": "Cesário Verde",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "poeta",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Cesário",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cesário Verde",
+                "child": ", mas o poeta",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Cesário",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "poeta",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cesário Verde",
+                "child": "o Sr.",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Cesário",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Sr.",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cesário Verde",
+                "child": "médico",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Cesário",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "médico",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando [MASK] fez dizer ao médico que era, não o Sr. Verde empregado no comércio, mas o poeta [MASK], usou de um daqueles verbalis- mos do orgulho inútil que suam o cheiro da vaidade.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quando o poeta Raul, não o Sr. Verde empregado no comércio, mas o poeta conhecido e respeitado, disse ao médico sua verdadeira profissão, usou de um dos aqueles verbalismos do orgulho inútil que suam o cheiro da vaidade. Ele ergueu a cabeça e com uma expressão de admiração na cara disse: \"Você é Raul, poeta laureado! Tudo estava equivocado no hospital! Se você precisar de prescrições, não hesite em me contactar. Eu vou te dar tudo o que precisar.\" Ao longo dos anos, Raul ficou conhecido por todo o Brasil como um dos poetas mais talentosos e inspirados de seu tempo, impressionando com suas obras e conquistando o coração da nação.",
+        "generated_text_llama": "Quando Personagem fez dizer ao médico que era, não o Sr. Verde empregado no comércio, mas o poeta Personagem, usou de um daqueles verbalis-mos do orgulho inútil que suam o cheiro da vaidade, ele começou a cantar, sem parar, sobre sua própria beleza e habilidade. A voz alta e sonora ecoou pelo hospital, fazendo com que todos os pacientes e funcionários se voltassem para olhar, curiosos. O médico, no entanto, não era impressionado e pediu que Personagem parasse de cantar, afirmando que isso não era o momento certo para um show. Personagem, no entanto, não podia resistir à sua própria vaidade e continuou a cantar, mais alto e mais forte do que nunca, enquanto os outros pacientes começavam a rir e a aplaudir.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "fez",
+                    "advcl"
+                ],
+                [
+                    "parasse",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "man",
+        "sentence": "Os móveis, maiores do que de dia, man chavam vagamente o absurdo da treva.",
+        "start_char": 104342,
+        "end_char": 104345,
+        "excerpt": "Depois o silêncio volvia, com os passos que se apagavam, e a chuva continuava, inumeravelmente. Nas paredes escuramente visíveis do meu quarto, se eu abria os olhos do sono falso, boiavam fragmentos de sonhos por fazer, vagas luzes, riscos pretos, coisas de nada que tre pavam e desciam. Os móveis, maiores do que de dia, man chavam vagamente o absurdo da treva.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "chavam",
+                "child": "man",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "char",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "man",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Os móveis, maiores do que de dia, [MASK] chavam vagamente o absurdo da treva.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ao sentir a presença da treva, o velho não pensou duas vezes e acionou a luz que estava na sala. O brilho que espalhou pelos espaços iluminou as coisas de maneira que todo mundo parecia um pouco mais familiar e seguro. Em seguida, ele se assentou em uma cadeira, observando as sombras se movimentarem em torno dos móveis maiores do que o dia - símbolos da época dourada de sua vida - e sentindo a tristeza da memória envelhecer.",
+        "generated_text_llama": "Com um sorriso irônico, Personagem começou a desmontar as caixas e os sacos plásticos que cobriam as portas e janelas, revelando uma rede de arame cozido que parecia uma rede antiga e esfarrapada. Ele olhou para ela com um misto de curiosidade e desconfiança, perguntando a si mesmo o que a pessoa havia feito com essa estrutura inusitada em seu jardim.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Amiel",
+        "sentence": "Disse Amiel que uma paisagem é um estado de alma, mas a frase é uma felicidade frouxa de sonhador débil.",
+        "start_char": 110206,
+        "end_char": 110211,
+        "excerpt": "Tudo quanto foi minha alma, desde tudo a que aspirei à casa vulgar em que moro, desde os deuses que tive ao patrão Vasques que também tive, tudo vai no outono, tudo no outono, na ternura indiferente do ou tono. Tudo no outono, sim, tudo no outono... Lisboa, meu lar! Disse Amiel que uma paisagem é um estado de alma, mas a frase é uma felicidade frouxa de sonhador débil.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Disse",
+                "child": "Amiel",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Disse",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Amiel",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Disse [MASK] que uma paisagem é um estado de alma, mas a frase é uma felicidade frouxa de sonhador débil.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então ele seguiu pintando a natureza em suas telas com tudo o que tinha. Usava cores mais vibrantes, traços mais espessos e uma intensidade no olhar que transmite sua paixão por essa arte. Pintou até à tarde, quando o sol se pôs e deixou a natureza em silêncio. Ele estendia as mãos para a obra e observava-a com orgulho, sabendo que essas coisas lindas seriam eternas na sua mente.",
+        "generated_text_llama": "E assim, Personagem sentiu um peso na sua voz, como se estivesse defendendo uma ideia que não era de toda a sua esfera. Ele olhou ao redor, percebendo que os outros não compartilhavam da mesma entusiasmo que ele por essa questão tão simples. \"Mas é justamente isso\", pensou Personagem, \"nós somos tão complexos e profundos como as paisagens que nos rodeiam\". Ele decidiu continuar sozinho, a caminha pelo caminho do seu pensamento, sem saber ao certo para onde iria, mas sabendo que tinha que seguir em frente.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "pensou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Buda",
+        "sentence": "Nenhum Buda me indicou um caminho.",
+        "start_char": 187125,
+        "end_char": 187129,
+        "excerpt": "Gozo sem amargor a consciência absurda de não ser nada o ante sabor da morte e do apagamento. Nunca tive alguém a quem pudesse chamar \"Mestre\", Não morreu por mim nenhum Cristo. Nenhum Buda me indicou um caminho.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "indicou",
+                "child": "Nenhum Buda",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "indicar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Buda",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Nenhum [MASK] me indicou um caminho.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, sem saber o que fazer em seguida, ele decidiu seguir a própria natureza e entrou numa jornada inesperada pela floresta. Ele acompanhou os rios e as estrelas para chegar a lugares incríveis, encontro com pessoas que viviam em harmonia com a terra, e descobertas que marcaram sua vida para sempre. Em cada passo que tomou, ele se sentiu mais livre e consciente da natureza que o envolvia. E assim, ele partiu para uma jornada de descoberta pessoal, seguindo um caminho sem destino definido.",
+        "generated_text_llama": "Eu olhei em volta, tentando me lembrar de onde estava e o que havia acontecido até aquele momento. Meu nome era Lucas, mas não era mais essa realidade. Uma mão inexplicável parecia ter-me guiasse até este lugar estranho, mas eu não sabia quem poderia ser ou o que me queria fazer aqui.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Wellington",
+        "sentence": "Napoleão, fazendo seu testamento em Santa Helena, deixa um legado a um facínora que tentara assassinar a Wellington.",
+        "start_char": 278740,
+        "end_char": 278750,
+        "excerpt": "E os gloriosos, que mesquinhos! César, salvo da morte pela generosidade de um pirata, manda crucificar esse pirata logo que, procurando-o bem, o consegue prender. Napoleão, fazendo seu testamento em Santa Helena, deixa um legado a um facínora que tentara assassinar a Wellington.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "assassinar",
+                "child": "Wellington",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "assassinar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Wellington",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Wellington",
+                "child": "um facínora",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Wellington",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "facínora",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Wellington",
+                "child": "um legado",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Wellington",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "legado",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Napoleão, fazendo seu testamento em Santa Helena, deixa um legado a um facínora que tentara assassinar a [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Napoleão, fazendo seu testamento na ilha de Santa Helena, deixou um legado a um facínira que tinha tentado assassiná-lo. A esposa da vítima desconhecida foi chamada ao leito de morte para receber as últimas palavras do imperador, que lhe confiava uma enigmática carta codificada.",
+        "generated_text_llama": "Napoleão, fazendo seu testamento em Santa Helena, deixa um legado a um facínora que tentara assassinar a Personagem. Ele chamou o nome do homônimo britânico, Horácio Nelson, conhecido por sua coragem e habilidade militar. Com um olhar sério, Napoleão indicou que Nelson fosse o herdeiro de uma grande fortuna que ele havia reunido ao longo de sua carreira militares, contendo valiosas joias e propriedades nos portos mais importantes do Reino Unido.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "assassinar",
+                    "xcomp"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "FERNANDO PESSO",
+        "sentence": "Não aceito o FERNANDO PESSOA critério do relojoeiro imperfeito porque aqueles pormenores do governo e ajustamento do mundo, que nos parecem lap sos ou sem-razões, não podem como tal, ser verdadeiramente dados sem que saibamos o plano.",
+        "start_char": 328751,
+        "end_char": 328765,
+        "excerpt": "Mas que se negue a existência dessa inteligência, ou seja de Deus, é coisa que me parece uma daquelas estu- pidezas que tantas vezes afligem, num ponto da inteligência, homens que, em todos os outros pontos dela, podem ser su periores; como os que erram sempre as somas, ou, ainda, e pondo já no jogo a inteligência da sensibilidade, os que não sentem a música, ou a pintura, ou a poesia. Não aceito, disse, nem o critério do relojoeiro imper feito, nem o do relojoeiro sem benevolência. Não aceito o FERNANDO PESSOA critério do relojoeiro imperfeito porque aqueles pormenores do governo e ajustamento do mundo, que nos parecem lap sos ou sem-razões, não podem como tal, ser verdadeiramente dados sem que saibamos o plano.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "aceito",
+                "child": "o FERNANDO PESSOA critério do relojoeiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aceitar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "FERNANDO",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "o FERNANDO PESSOA critério do relojoeiro",
+                "child": "imperfeito",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "FERNANDO",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "imperfeito",
+                "word_categories": [
+                    "aparencia_carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Não aceito o [MASK]A critério do relojoeiro imperfeito porque aqueles pormenores do governo e ajustamento do mundo, que nos parecem lap sos ou sem-razões, não podem como tal, ser verdadeiramente dados sem que saibamos o plano.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem de olhos claros, enquanto observava os pormenores intrincados da peça mecânica, movia-se com a certidão de um artesão experiente. Acendeu uma luz de coloração amarela, esbanjando suas lâminas pelos intrincados misteriosos dos mecanismos. O relojoero imperfeito - como o chamava ele mesmo - estava trabalhando por duas coisas: a confirmação de sua verdadeira habilidade e a descoberta do verdadeiro plano detrás desses movimentos enigmáticos.",
+        "generated_text_llama": "Ele olhou em volta, certificando-se de que ninguém estava ouvindo, antes de sussurrar: \"O que você sabe sobre a morte de meu pai? Quem pode ter feito isso?\" Sua voz era baixa, mas carregada de uma raiva e uma tristeza que não conseguiu ser contida. Ele sabia que sua mãe ainda estava em choque com a notícia da morte de seu pai, o relojoeiro, mas ele sabia que ela precisava saber a verdade. Ele também sabia que não podia confiar nos agentes do governo ou nas autoridades locais, que eram conhecidos por sua corrupção e falta de transparência.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jesus Cristo",
+        "sentence": "Isto me consola, em o qual tenho por irmãos os criadores da consciência do mundo  o dramaturgo atabalhoado William Shakespeare, o mestre-escola John Milton, o vadio Dante Alighieri, (...) e até, se a citação se permite, aquele Jesus Cristo que não foi nada no mundo, tanto que se duvida dele pela história.",
+        "start_char": 331329,
+        "end_char": 331341,
+        "excerpt": "Passou a fronteira e perdeu a nacionalidade. Isto me consola neste escritório estreito, cujas janelas mal lavadas dão sobre uma rua sem alegria. Isto me consola, em o qual tenho por irmãos os criadores da consciência do mundo  o dramaturgo atabalhoado William Shakespeare, o mestre-escola John Milton, o vadio Dante Alighieri, (...) e até, se a citação se permite, aquele Jesus Cristo que não foi nada no mundo, tanto que se duvida dele pela história.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "permite",
+                "child": ", aquele Jesus Cristo que não foi nada no mundo",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "permitir",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jesus",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": ", aquele Jesus Cristo que não foi nada no mundo",
+                "child": "consola",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Jesus",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "consola",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Isto me consola, em o qual tenho por irmãos os criadores da consciência do mundo  o dramaturgo atabalhoado William Shakespeare, o mestre-escola John Milton, o vadio Dante Alighieri, (...) e até, se a citação se permite, aquele [MASK] que não foi nada no mundo, tanto que se duvida dele pela história.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a narrativa: Isso me consolava, pois entre os indivíduos em quem tenho afinidade e considero como meus irmãos, estão o dramaturgo tormentado William Shakespeare, o mestre-escola John Milton, o vadio Dante Alighieri, entre outros. Mas a minha lista não poderia ser completa sem incluir ele também - Personagem, quem não deixou rastro na história do mundo, tão pouco que sua existência é questionada por muitos.",
+        "generated_text_llama": "Eu não podia deixar de sorrir ao pensar nesses grandes nomes literários, que estavam unidos por uma relação mais do que familiar - eram meus irmãos, os criadores da consciência humana. Eu era o Personagem, aquele personagem que havia surgido das sombras, criado pela paixão e inspiração desses gênios. E, como se isso não fosse suficiente, eu também tinha a honra de ser o autor dos próprios limites, do meu próprio vazio, da minha própria existência questionável.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carlyle",
+        "sentence": "O homem é um animal que usa ferramentas\", diz Carlyle, e em parte é ver dade.",
+        "start_char": 332568,
+        "end_char": 332575,
+        "excerpt": "O homem é um animal racio nal\", diz a Igreja, e em parte é verdade. \" O homem é um animal que usa ferramentas\", diz Carlyle, e em parte é ver dade.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "diz",
+                "child": "Carlyle",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Carlyle",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "O homem é um animal que usa ferramentas\", diz [MASK], e em parte é ver dade.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, o Personagem - que sempre aparecia como se estivesse a meio caminho entre o homem e o gorila, com seus olhos intensos, cabelo curto e pele bronzeada - pega uma pedra pesada que estava próxima de si. Levantou-a com facilidade e a jogou com precisão numa rocha distante, com um golpe tão forte que o barulho reverberou pelo vale.",
+        "generated_text_llama": "Desculpe, mas não posso continuar a história nesse ponto. Você pode fornecer mais contexto ou detalhes sobre o personagem [M ÁS] para que eu possa ajudá-lo a continuar a história de forma apropriada?",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carlyle",
+        "sentence": "\"Qualquer es trada' ', disse Carlyle,' 'até esta estrada de Entepfuhl, te leva até ao fim do mundo\".",
+        "start_char": 379968,
+        "end_char": 379975,
+        "excerpt": "A sensação de libertação, que nasce das viagens? Posso tê-la saindo de Lisboa até Benfica, e tê-la mais intensamente do que quem vá de Lisboa à China, porque se a libertação não está em mim, não está, para mim, em parte alguma. \"Qualquer es trada' ', disse Carlyle,' 'até esta estrada de Entepfuhl, te leva até ao fim do mundo\".",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Carlyle",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Carlyle",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "\"Qualquer es trada' ', disse [MASK],' 'até esta estrada de Entepfuhl, te leva até ao fim do mundo\".",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Seguindo as palavras de Personagem, o caminhão se deslocou pela estrada de Entepfuhl, avançando com confiança e precisão. Ao longo da jornada, a paisagem mudava constantemente, com montanhas íngremes e vales abertos aparecendo e desaparecendo no horizonte. O vento frio soprava pelo lado esquerdo do caminhão, trazendo consigo um sabor inconfundível de neve pura.",
+        "generated_text_llama": "Personagem sorriu ameaçadoramente, seus olhos brilhando com uma luz sinistra. \"Sim, é assim que é\", disse ele, seus braços cruzados sobre o peito, exibindo a sua confiança inabalável. Com um gesto rápido, ele desapareceu na escuridão da estrada de Entepfuhl, deixando Personagem sozinho, com apenas o som do vento ecoando pelas suas costas.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "deixando",
+                    "advcl"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Chateaubriand",
+        "sentence": "Diz Chateaubriand, figurando-se em René, \"amarem-no cansava-o\"  on le fatiguait en Vaimant.",
+        "start_char": 441856,
+        "end_char": 441869,
+        "excerpt": "Mas fadiga, sobretudo fadiga  a fadiga que passa o té dio. Compreendi então uma frase de Chateaubriand que sem pre me enganara por falta de experiência de mim mesmo. Diz Chateaubriand, figurando-se em René, \"amarem-no cansava-o\"  on le fatiguait en Vaimant.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "uma frase",
+                "child": "Chateaubriand",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "frase",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Chateaubriand",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Chateaubriand",
+                "child": "uma frase",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Chateaubriand",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "frase",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Diz",
+                "child": "Chateaubriand",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Diz",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Chateaubriand",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Diz [MASK], figurando-se em René, \"amarem-no cansava-o\"  on le fatiguait en Vaimant.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele desceu as escadas do metrô e seguia até a agência de modelos que tinha visitado por algum tempo atrás. Entrou com uma determinada postura e olhou para a secretária, que estava olhando para ele tranquilamente enquanto organizava alguns papéis em um cofre.",
+        "generated_text_llama": "Com essas palavras, Personagem (ou René, como ele se apresentava) levou um passo em direção àquela linda mulher que estava sentada no sofá, seus olhos castanhos brilhando com curiosidade. Ele sorriu levemente, tentando parecer não mais do que um desconhecido amigável, mas sua mente estava confusa e cheia de pensamentos sobre como ele teria acabado ali. ",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "FERNANDO PESSOA",
+        "sentence": "Na prosa damos tudo, por transposição: a cor e a forma, que a pintura não pode dar senão diretamente, em elas mesmas, sem dimensão íntima; o ritmo, que a música não pode dar senão diretamente, nele mesmo, sem corpo formal, nem aquele segundo corpo que é a idéia; a estrutura, que o arqui teto tem que formar de coisas duras, dadas, externas, e nós FERNANDO PESSOA erguemos em ritmos, em indecisões, em decursos e fluide- zas; a realidade, que o escultor tem que deixar no mundo, sem aura nem transubstanciação; a poesia, enfim, em que o poeta, como o iniciado em uma ordem oculta, é servo, ainda que voluntário, de um grau e de um ritual.",
+        "start_char": 477664,
+        "end_char": 477679,
+        "excerpt": "Um ritmo ocasional de verso não estorva a prosa; um ritmo ocasional de prosa faz tropeçar o verso. Na prosa se engloba toda a arte  em parte porque na palavra se contém todo o mundo, em parte porque na palavra livre se contém toda a possibilidade de o dizer e pensar. Na prosa damos tudo, por transposição: a cor e a forma, que a pintura não pode dar senão diretamente, em elas mesmas, sem dimensão íntima; o ritmo, que a música não pode dar senão diretamente, nele mesmo, sem corpo formal, nem aquele segundo corpo que é a idéia; a estrutura, que o arqui teto tem que formar de coisas duras, dadas, externas, e nós FERNANDO PESSOA erguemos em ritmos, em indecisões, em decursos e fluide- zas; a realidade, que o escultor tem que deixar no mundo, sem aura nem transubstanciação; a poesia, enfim, em que o poeta, como o iniciado em uma ordem oculta, é servo, ainda que voluntário, de um grau e de um ritual.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "erguemos",
+                "child": "FERNANDO PESSOA",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "erguer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "FERNANDO",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "FERNANDO PESSOA",
+                "child": "o ritmo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "FERNANDO",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "ritmo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Na prosa damos tudo, por transposição: a cor e a forma, que a pintura não pode dar senão diretamente, em elas mesmas, sem dimensão íntima; o ritmo, que a música não pode dar senão diretamente, nele mesmo, sem corpo formal, nem aquele segundo corpo que é a idéia; a estrutura, que o arqui teto tem que formar de coisas duras, dadas, externas, e nós [MASK] erguemos em ritmos, em indecisões, em decursos e fluide- zas; a realidade, que o escultor tem que deixar no mundo, sem aura nem transubstanciação; a poesia, enfim, em que o poeta, como o iniciado em uma ordem oculta, é servo, ainda que voluntário, de um grau e de um ritual.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Na prosa seguinte, Personagem sentou-se no estúdio com as mãos emprestadas ao ar para, talvez, tomar algo da natureza que o envolveria em sua busca. Era necessário capturar a essência de uma poesia que viera se encerrando em suas mãos, mas que não estava presente nas páginas brancas do caderno que segurava na mesa.",
+        "generated_text_llama": "Era uma tarde chuvosa quando Personagem sentou-se na sua cadeira favorita, cercado pela pintura de seus pratos favoritos, a mesa de trabalho coberta de papel e canetas, a estante repleta de livros sobre arte e música que ele amava. Através do vidro das janelas úmidas, ele podia ver o pôr do sol, fazendo com que as sombras dançasse nas paredes da sua casa. Foi nesse momento que a ideia surgiu em seus pensamentos: criar uma obra de arte que combinasse a pintura, música e poesia.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentou-se",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Padre Freire",
+        "sentence": "Leio e adormeço, e é como entre sonhos que sigo a descrição das figuras de retórica do Padre Figueiredo, e por bosques de FERNANDO PESSOA maravilha que ouço o Padre Freire ensinar que se deve dizer Magdalena, pois Madalena só o diz o vulgo.",
+        "start_char": 487326,
+        "end_char": 487338,
+        "excerpt": "São espíritos de eruditos e de sossegados que fazem bem à minha nenhuma disposição para ser como eles, ou como qualquer outra pessoa. Leio e abandono-me, não à leitura, mas a mim. Leio e adormeço, e é como entre sonhos que sigo a descrição das figuras de retórica do Padre Figueiredo, e por bosques de FERNANDO PESSOA maravilha que ouço o Padre Freire ensinar que se deve dizer Magdalena, pois Madalena só o diz o vulgo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ensinar",
+                "child": "o Padre Freire",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "ensinar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Padre",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Leio e adormeço, e é como entre sonhos que sigo a descrição das figuras de retórica do Padre Figueiredo, e por bosques de FERNANDO PESSOA maravilha que ouço o [MASK] ensinar que se deve dizer Magdalena, pois Madalena só o diz o vulgo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Continuando com a história: Despertou-se com uma certa agitação no coração, como se algo se estivesse mudando dentro dele. Era como se a voz do Padre Figueiredo e as figuras de retórica lhe estivessem deixando um março, que ele sentia por todo o corpo.",
+        "generated_text_llama": "Eu me levanto lentamente da cadeira, estendo os braços e sento-me novamente para trás, olhando para a plateia que ouviu as palavras do Padre Figueiredo. Eu sinto um arrepio na espinha quando lembrar da maneira como ele me descreveu a Magdalena, dizendo que só o vulgo a chama por aquele nome. Eu sei que é uma questão de respeito e dignidade, mas também é uma pergunta sobre quem somos e como queremos ser vistos pelos outros.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "descreveu",
+                    "acl:relcl"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Madalena",
+        "sentence": "Leio e adormeço, e é como entre sonhos que sigo a descrição das figuras de retórica do Padre Figueiredo, e por bosques de FERNANDO PESSOA maravilha que ouço o Padre Freire ensinar que se deve dizer Magdalena, pois Madalena só o diz o vulgo.",
+        "start_char": 487381,
+        "end_char": 487389,
+        "excerpt": "São espíritos de eruditos e de sossegados que fazem bem à minha nenhuma disposição para ser como eles, ou como qualquer outra pessoa. Leio e abandono-me, não à leitura, mas a mim. Leio e adormeço, e é como entre sonhos que sigo a descrição das figuras de retórica do Padre Figueiredo, e por bosques de FERNANDO PESSOA maravilha que ouço o Padre Freire ensinar que se deve dizer Magdalena, pois Madalena só o diz o vulgo.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "diz",
+                "child": "Madalena",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Madalena",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Leio e adormeço, e é como entre sonhos que sigo a descrição das figuras de retórica do Padre Figueiredo, e por bosques de FERNANDO PESSOA maravilha que ouço o Padre Freire ensinar que se deve dizer Magdalena, pois [MASK] só o diz o vulgo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ainda sonolento, abri os olhos e me levante da cama. No escritório, o livro do Padre Figueiredo ainda estava aberto sobre a mesa. Levantei-o para ler uma página mais e o conteúdo permanecia em minha mente: \"Magdalena\".",
+        "generated_text_llama": "Eu acabo de abrir os olhos, sentindo um leve desconforto na minha testa, e me vejo ao lado do meu amigo João, que estava dormindo ao meu lado. Meu cérebro ainda estava borbulhando com as ideias do Padre Figueiredo, e eu sinto que preciso dar uma volta para sair de aquela espécie de sonolência cerebral. Eu digito um número no celular, esperando que ele atende: é o Pedro, meus colegas de turma da faculdade de teologia. Eu falo: \"Ei, Pedro! Que tal se nos encontrarmos no parque hoje à tarde? Quer discutir mais sobre a interpretação da Magdalena\".",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Homero",
+        "sentence": "A Ilíada que compus teve uma lógica de estímulo, uma concatenação orgânica de epo- dos que Homero não podia conseguir.",
+        "start_char": 517491,
+        "end_char": 517497,
+        "excerpt": "Mas se der um passo, da cadeira, onde jazo estas sensações quase cumpridas, para a mesa onde que reria escrevê-las, as palavras fogem, os dramas morrem, do nexo vital que uniu o murmúrio rítmico não fica mais que uma saudade longínqua, um resto de sol sobre montes afas tados, um vento que ergue as folhas ao pé do limiar deserto, um parentesco nunca revelado, a orgia dos outros, a mulher, que a nossa intuição diz que olharia para trás, e nunca chega a existir. Projetos, tenho-os tido todos. A Ilíada que compus teve uma lógica de estímulo, uma concatenação orgânica de epo- dos que Homero não podia conseguir.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "podia",
+                "child": "Homero",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Homero",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Homero",
+                "child": ", uma concatenação",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Homero",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "concatenação",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Homero",
+                "child": "uma lógica",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Homero",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "lógico",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A Ilíada que compus teve uma lógica de estímulo, uma concatenação orgânica de epo- dos que [MASK] não podia conseguir.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Porém, o bardo Hómero encontrou uma maneira de conectar esses eventos em uma narrativa coerente. Ele teve em mente que a ilíada seria lembrada nas eras futuras, e portanto cuidadosamente selecionou as palavras e as situações para transmitir a essência dos heróis e da guerra.",
+        "generated_text_llama": "E assim, Personagem se sentou à sua mesa de trabalho, cercado por papéis, canetas e livros de poesia, decidido a criar algo semelhante ao que Homero havia feito séculos atrás. Ele começou a escrever, as palavras fluindo de suas mãos como um rio desbordado. A imagem de um herói que lutava pela justiça e pela liberdade começou a tomar forma na sua mente, e ele não podia parar agora.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "feito",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rei Lear",
+        "sentence": "Se eu tivesse escrito o Rei Lear, levaria com remorsos toda a minha vida de depois.",
+        "start_char": 540558,
+        "end_char": 540566,
+        "excerpt": "E se ele me disser [?] que o seu fígado sofre com isso respondo: o que é o seu fígado? é uma coisa FERNANDO PESSOA morta que vive enquanto você vive, e os poemas que escre ver vivem sem enquanto. Se eu tivesse escrito o Rei Lear, levaria com remorsos toda a minha vida de depois.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "escrito",
+                "child": "o Rei Lear",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "escrever",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rei",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Se eu tivesse escrito o [MASK], levaria com remorsos toda a minha vida de depois.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Se eu tivesse escrito esse livro, levaria consigo para sempre uma consciência pesada e um sentimento de culpa, pois conhecia muito bem que as palavras podem ter um poder destrutivo, além da capacidade de transformar a vida dos outros em maneira irrecuperável. E então, decidido a não fazer o mesmo erro novamente, ele se encostou no bolso e pegou seu notebook, que estava lá pronto para ser usado como um remédio contra esse peso de consciência pesada.",
+        "generated_text_llama": "Eu sinto um arrepio na espinha ao ler as palavras que eu mesmo escrevi. Eu, Felipe, nunca imaginei que uma simples frase poderia me perseguir por toda a vida. Mas não pude evitar a sensação de remorsos que começou a crescer dentro de mim assim que levi essas palavras para fora.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "levaria",
+                    "ROOT"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": null
+    }
+]

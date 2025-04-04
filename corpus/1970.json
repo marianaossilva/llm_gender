@@ -1,0 +1,1438 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Senhor Switbilter",
+        "sentence": "Mas não foi no livro do Senhor Switbilter que os augustos poetas da Bruzundanga foram encontrar as bases da sua escola.",
+        "start_char": 20508,
+        "end_char": 20525,
+        "excerpt": "O Senhor Switbilter pouco acrescenta a algumas poesias que publica; e as que estão no volume, traduzidas, são por demais monstruosas, sempre com um mesmo pensamento denunciando uma concepção estreita da vida e do universo, muito explicável em bárbaros glaciais. O viajante inglês que conhece o samoieda, entretanto, diz aqui e ali, que elas são enfáticas, sem quantidade de sentimento ou um acento musical agradável e individual, descaindo quase sempre para a melopéia ou o tantã ignaro, quando não alternam uma cousa e outra. Mas não foi no livro do Senhor Switbilter que os augustos poetas da Bruzundanga foram encontrar as bases da sua escola.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "acrescenta",
+                "child": "O Senhor Switbilter",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acrescentar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Mas não foi no livro",
+                "child": "Senhor Switbilter",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "livro",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Senhor Switbilter",
+                "child": "Mas não foi no livro",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Senhor",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "livro",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mas não foi no livro do [MASK] que os augustos poetas da Bruzundanga foram encontrar as bases da sua escola.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas não foi no livro do Personagem que os augustos poetas da Bruzundanga foram encontrar as bases da sua escola. Ele, porém, possuía um mapa velhudo e raro em seu escritório, herança de seu avô que havia servido como oficial de cartografia na marinha imperial. Convocados a uma reunião secreta no clube literário dos seus amigos, o grupo de poetas foi mostrado o mapa escondido por gerações e os encantou-os. O velho papel marcava inúmeras localizações em suas entrecruzadas linhas, mas eles reconheceram no centro um desenho distinto de uma escola antiga: a própria escola do Personagem.",
+        "generated_text_llama": "O livro do Personagem, também conhecido como \"Os Segredos do Universo\", era um texto considerado sagrado pelos estudiosos de magia e ciência mística de Bruzundanga. No entanto, o que os poetas não sabiam eram que o verdadeiro poder de seu livro estava em suas ilustrações, que pareciam simples desenhos, mas contavam histórias de uma complexidade abstrata.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Voltaire",
+        "sentence": "Não obstante, quando apareceu, foi um louco sucesso de riso muito parecido com o do Tremor de Terra de Lisboa, aquela célebre tragédia do cabeleireiro André, a quem Voltaire invejou e escreveu, entretanto, ao receber-lhe a obra, que continuasse a fazer sempre cabeleiras toujours des perruques, Senhor André.",
+        "start_char": 21736,
+        "end_char": 21744,
+        "excerpt": "O esculápio do Cairo insistia muito nele e esforçava-se por demonstrar que, com semelhante harmonia imitativa como os antigos chamavam, obtinha traduzir, em verso, o sonido do galope de cavalo. Havia mais belezas de igual quilate e outras originalidades. Não obstante, quando apareceu, foi um louco sucesso de riso muito parecido com o do Tremor de Terra de Lisboa, aquela célebre tragédia do cabeleireiro André, a quem Voltaire invejou e escreveu, entretanto, ao receber-lhe a obra, que continuasse a fazer sempre cabeleiras toujours des perruques, Senhor André.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "invejou",
+                "child": "Voltaire",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "invejar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Voltaire",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Voltaire",
+                "child": "aquela célebre tragédia",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Voltaire",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "tragédia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Voltaire",
+                "child": "Não obstante, quando apareceu, foi um louco",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Voltaire",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "louco",
+                "word_categories": [
+                    "carater_social"
+                ],
+                "verb_categories": [],
+                "adj_categories": [
+                    "behavior"
+                ]
+            }
+        ],
+        "masked_sentence": "Não obstante, quando apareceu, foi um louco sucesso de riso muito parecido com o do Tremor de Terra de Lisboa, aquela célebre tragédia do cabeleireiro André, a quem [MASK] invejou e escreveu, entretanto, ao receber-lhe a obra, que continuasse a fazer sempre cabeleiras toujours des perruques, Senhor André.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mesmo após o barulho e o riso indomáveis que se espalharam pelaquela noite em particular, Personagem não deixou de admirar as espetaculosas transformações de seu velhinho mentor. Inspirado pelos acontecimentos vividamente registrados no teatro, o jovem decidiu aproveitar o momento e agradecer pessoalmente àquele homem que havia lhe dado tanto aprendizado.",
+        "generated_text_llama": "Com aquele sorriso sinistro, Personagem começou a cantar uma canção estranha e cativante, uma mistura de risadas e lamentos que pareciam flutuar no ar como um fantasma. A multidão, inicialmente confusa, logo se levantou do seu assento, sedenta por mais, e começou a se entregar ao riso incontrolável, enquanto Personagem continuava a cantar, seus olhos brilhando com uma luz estranha que parecia emanar de dentro. Enquanto isso, no palco ao lado, o Sr. André, ainda sob o efeito da tragédia do Tremor de Terra, olhou para Personagem com uma mistura de horror e fascínio, percebendo que a sua própria peça havia sido superada por alguém que parecia entender melhor do que ele mesmo o poder do riso para curar as feridas.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "deixou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "continuava",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ladislau Poniatwsky",
+        "sentence": "Os governos não devem pedir às populações que dirigem, em matéria de impostos, mais do que elas possam dar, afirma Ladislau Poniatwsky.",
+        "start_char": 35258,
+        "end_char": 35277,
+        "excerpt": "Eis aqui algumas. Para o orçamento de 1908, o doutor Karpatoso escreveu o seguinte trecho profundo: Os governos não devem pedir às populações que dirigem, em matéria de impostos, mais do que elas possam dar, afirma Ladislau Poniatwsky.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "afirma",
+                "child": "Ladislau Poniatwsky",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "afirmar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ladislau",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Os governos não devem pedir às populações que dirigem, em matéria de impostos, mais do que elas possam dar, afirma [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Segundo o carismático político, um novo caminho era necessário. Ele convocou uma reunião com seus colaboradores para discutir uma alternativa aos impostos exigidos pelos governos centralizados.",
+        "generated_text_llama": "Não era a primeira vez que Personagem ouvia essa opinião, mas ainda assim sentiu um pontapé na barriga. Ele sempre discordava da ideia de que os governos deviam impor impostos excessivos às populações, especialmente quando havia formas mais eficazes de recaudar receitas públicas.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ouvia",
+                    "csubj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Napoleão",
+        "sentence": "Como Napoleão que, segundo dizem, na sua sagração de imperador, pôs ele mesmo a coroa na cabeça, Dona Hengrácia Ben Manuela Kilva tinha ela mesmo se enobrecido.",
+        "start_char": 38806,
+        "end_char": 38814,
+        "excerpt": "Desde que se rosnou que o doutor Karpatoso seria ministro da Fazenda do futuro quadriênio, a sua casa começou a encher-se. Karpatoso era casado com uma senhora da roça, muito segura das suas origens nobres; ela pertencia à família dos Silvas, cujo armorial e pergaminhos não tinham sido outorgados por nenhum príncipe soberano. Como Napoleão que, segundo dizem, na sua sagração de imperador, pôs ele mesmo a coroa na cabeça, Dona Hengrácia Ben Manuela Kilva tinha ela mesmo se enobrecido.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "Napoleão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Napoleão",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "sua sagração",
+                "child": "Napoleão",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "sagração",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Napoleão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "imperador",
+                "child": "Napoleão",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "imperador",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Napoleão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "a coroa",
+                "child": "Napoleão",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "coroa",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Napoleão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "cabeça",
+                "child": "Napoleão",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "cabeça",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Napoleão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Como [MASK] que, segundo dizem, na sua sagração de imperador, pôs ele mesmo a coroa na cabeça, Dona Hengrácia Ben Manuela Kilva tinha ela mesmo se enobrecido.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim sendo, Dona Hengrácia Ben Manuela Kilva decidiu aproveitar seu novo poder para abordar uma questão que sempre a tinha preocupado: a escassez de água na região. Com a devida autorização e energia indomável que a caracterizava, ela começou a projetar um sistema hidráulico de irrigação, com canais e retenções de água, que passariam por todo o seu império.",
+        "generated_text_llama": "E assim, com a coroa erguida sobre seu crânio imponente, Personagem deu um passo à frente e começou a dar ordens para que os funcionários do palácio comessem as roupas finas que ele havia pedido que lhes fossem tiradas. Enquanto isso, Dona Hengrácia Ben Manuela Kilva, agora elevada ao cargo de regente da imperação, olhou em volta do salão com um olhar de desconfiança, sabendo que sua tarefa não seria fácil.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "deu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Hengrácia Ben Manuela Kilva",
+        "sentence": "Como Napoleão que, segundo dizem, na sua sagração de imperador, pôs ele mesmo a coroa na cabeça, Dona Hengrácia Ben Manuela Kilva tinha ela mesmo se enobrecido.",
+        "start_char": 38898,
+        "end_char": 38930,
+        "excerpt": "Desde que se rosnou que o doutor Karpatoso seria ministro da Fazenda do futuro quadriênio, a sua casa começou a encher-se. Karpatoso era casado com uma senhora da roça, muito segura das suas origens nobres; ela pertencia à família dos Silvas, cujo armorial e pergaminhos não tinham sido outorgados por nenhum príncipe soberano. Como Napoleão que, segundo dizem, na sua sagração de imperador, pôs ele mesmo a coroa na cabeça, Dona Hengrácia Ben Manuela Kilva tinha ela mesmo se enobrecido.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": ", Dona Hengrácia Ben Manuela Kilva",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Como Napoleão que, segundo dizem, na sua sagração de imperador, pôs ele mesmo a coroa na cabeça, [MASK] tinha ela mesmo se enobrecido.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim como Napoleão, segundo contam, na sua sagração de imperador, colocou a própria coroa sobre sua cabeça, Personagem também se nobrecebeu. Ela desafiou as normas sociais e tomou as suas próprias decisões. Ao invés de esperar por um marido rico ou uma fortuna herdada, ela se tornou a senhora de sua própria vida. Fundou uma empresa bem-sucedida no mercado de vestuário e conquistou as mulheres do mundo todo com seu estilo revolucionário e independente. Suas joias valiam mais que o peso de um elefante, e ela era considerada a dona de todos os diamantes na cidade. Seus inimigos dizia-se que eram somente ratos de campo que queriam sua riqueza, mas ela não se importava: ela tinha seus olhos no horizonte e não voltaria atrás.",
+        "generated_text_llama": "Com um sorriso confiante, Personagem olhou para o seu reflexo no espelho e sorriu novamente, sabendo que havia chegado ao topo da sociedade. Seu estilo elegante, sua pele brilhante e seus cabelos perfeitamente cacheados atraíam todo olhar na sala. Ele se sentiu como um verdadeiro rei, e não estava disposto a deixar essa sensação de poder.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "nobrecebeu",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ben Karpatoso",
+        "sentence": "Hengrácia Ben Karpatoso, centro de conversa, não se cansava de gabar os árduos trabalhos do marido.",
+        "start_char": 39889,
+        "end_char": 39902,
+        "excerpt": "Em breve, ficou sendo o principal fornecedor dos feiticeiros da cidade, e os lucros foram grandes, de modo que ele pôde, sem mais gravame nas suas finanças, sustentar o seu salão. Mme. Hengrácia Ben Karpatoso, centro de conversa, não se cansava de gabar os árduos trabalhos do marido.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "cansava",
+                "child": "Hengrácia Ben Karpatoso, centro de conversa,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "cansar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hengrácia",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Hengrácia [MASK], centro de conversa, não se cansava de gabar os árduos trabalhos do marido.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " A seguir, Hengrácia não aguardou mais. Levantou-se do sofá, pôs as mãos no ombro do seu filho e o abraçou com tanta força quanto conseguiu, a fim de enfrentar juntos as dificuldades que estavam por vir. Em seguida, dirigiu-se ao telefone, olhou para o número gravado no contato \"Marido\" e tocou para ligar.",
+        "generated_text_llama": "Ela continuou a falar com orgulho, detalhando as longas horas que o marido havia passado no trabalho, como engenheiro responsible da instalação de uma nova usina de energia renovável. \"Ele é um verdadeiro herói, trabalhando incansavelmente para criar um futuro melhor para nossa comunidade\", disse Hengrácia, com um brilho nos olhos. Em seguida, ela se virou para a plateia e chamou a atenção para as habilidades excepcionais do marido em resolução de problemas. \"Ele pode resolver qualquer enigma que surja, desde o mais simples até o mais complexo\", disse ela, com uma sorrente confiante. A plateia aplaudiu e se aproximou da família, ansiosos para conhecer melhor o homem que havia conquistado o coração de Hengrácia.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "aguardou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "disse",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carlos Chavantes",
+        "sentence": "À vista de tão poderoso documento, o cidadão que partira da Bruzundanga simplesmente chamando-se Carlos Chavantes (é uma hipótese), voltou da estranja com o altissonante título de Marquês de Libreville.",
+        "start_char": 59315,
+        "end_char": 59331,
+        "excerpt": "Dê-me vinte francos e os nomes de seus pais, que já lhe dou a prova. Ele assim fez e, dentro de vinte minutos, o rapazola recebia a sua árvore genealógica, donde se concluía que descendia dos marqueses de Livreville. À vista de tão poderoso documento, o cidadão que partira da Bruzundanga simplesmente chamando-se Carlos Chavantes (é uma hipótese), voltou da estranja com o altissonante título de Marquês de Libreville.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "chamando-se",
+                "child": "Carlos Chavantes",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "chamandor se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Carlos",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "À vista de tão poderoso documento, o cidadão que partira da Bruzundanga simplesmente chamando-se [MASK] (é uma hipótese), voltou da estranja com o altissonante título de Marquês de Libreville.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após conseguir esse documento tão poderoso, aquele cidadão que partia da Bruzundanga simplesmente chamando-se Personagem, retornou da estranha terra com o altissonante título de Marquês de Libreville. Com o coração cheio de orgulho e a cabeça erguida, ele foi recebido com triunfal e elogiosos acolhimentos em sua terra natal, que agora não era mais apenas uma simples vila, mas um município que se expandia rapidamente. Com o título nobiliárquico, o Marquês de Libreville tomou posse de suas vastas propriedades e colocou em prática suas ambições para transformar a Bruzundanga em um centro regional de desenvolvimento econômico e cultural.",
+        "generated_text_llama": "Era um título não muito conhecido no território natal de Personagem, e ele sabia que precisava de mais informações sobre essa nova identidade. Com o documento em mãos, ele começou a vasculhar por todos os cantos da sua pequena casa na Bruzundanga, procurando por algum sinal ou pistas que indicassem o que isso significava exatamente.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "chamando-se",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sir",
+        "sentence": "Sire, respondeu o duque,  é uma revolução.",
+        "start_char": 81745,
+        "end_char": 81748,
+        "excerpt": "É. uma revolta? diz o rei. Sire, respondeu o duque,  é uma revolução.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "respondeu",
+                "child": "Sire",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sire",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]e, respondeu o duque,  é uma revolução.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ao ouvir a palavra \"revolução\", o rosto de Personagem se enervou. Mesmo assim, ele compôs-se e disse:",
+        "generated_text_llama": "O duque sorriu, satisfeito com a resposta de Personagem, e continuou a falar, sua voz clara e confiante. \"Sim, é isso mesmo. Precisamos mudar a forma como pensamos sobre a vida em Darrow Haven. A ideia de que a riqueza e o poder são tudo o que importa está morta. É hora de criar um novo começo, baseado na justiça, na igualdade e na compaixão.\"",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lam",
+        "sentence": "vieram para ela, velhos possuidores de escravos, cheios de ódio ao antigo regime por haver libertado os que tinham; vieram para ela, bisonhos jornalistas da roça recheados de uma erudição à flor da pele, e também alguns dos seus colegas da capital, eivados do Lamartine, História dos girondinos, e entusiastas dos caudilhos das repúblicas espanholas da América.",
+        "start_char": 92262,
+        "end_char": 92265,
+        "excerpt": "Vieram para ela, jovens poetas, ainda tresandando à grossa boêmia; vieram para ela, imponentes tenentes de artilharia, ainda cheirando aos cadernos da escola; vieram para ela, velhos possuidores de escravos, cheios de ódio ao antigo regime por haver libertado os que tinham; vieram para ela, bisonhos jornalistas da roça recheados de uma erudição à flor da pele, e também alguns dos seus colegas da capital, eivados do Lamartine, História dos girondinos, e entusiastas dos caudilhos das repúblicas espanholas da América.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "eivados",
+                "child": "Lamartine",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "eivar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lamartine",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Lamartine",
+                "child": "seus colegas",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Lamartine",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "colega",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "vieram para ela, velhos possuidores de escravos, cheios de ódio ao antigo regime por haver libertado os que tinham; vieram para ela, bisonhos jornalistas da roça recheados de uma erudição à flor da pele, e também alguns dos seus colegas da capital, eivados do [MASK]artine, História dos girondinos, e entusiastas dos caudilhos das repúblicas espanholas da América.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ela olhou para eles, um grupo de homens vindos do passado que pareciam se encaixar mal no mundo novo em que estavam. Eles viram uma mulher, forte e determinada, cuja liberdade era como uma espada afiada contra a ordem que queriam reconstruir.",
+        "generated_text_llama": "Eles chegaram à casa de Madame Dupont em um dia ensolarado de verão, enquanto ela estava preparando o jantar na cozinha. Quando ouviu o barulho do porta-luvas se aproximando, ela sorriu por dentro, sabendo que era mais uma vez a multidão de visitas que havia se tornado um costume para ela.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "nova Constituinte",
+        "sentence": "Era mais ou menos esse o pessoal de que se compunha a nova Constituinte.",
+        "start_char": 92418,
+        "end_char": 92435,
+        "excerpt": "vieram para ela, imponentes tenentes de artilharia, ainda cheirando aos cadernos da escola; vieram para ela, velhos possuidores de escravos, cheios de ódio ao antigo regime por haver libertado os que tinham; vieram para ela, bisonhos jornalistas da roça recheados de uma erudição à flor da pele, e também alguns dos seus colegas da capital, eivados do Lamartine, História dos girondinos, e entusiastas dos caudilhos das repúblicas espanholas da América. Era mais ou menos esse o pessoal de que se compunha a nova Constituinte.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "compunha",
+                "child": "a nova Constituinte",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "compunhar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Constituinte",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "a nova Constituinte",
+                "child": "esse o pessoal",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Constituinte",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pessoal",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "a nova Constituinte",
+                "child": "Era mais",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Constituinte",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "mais",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Era mais ou menos esse o pessoal de que se compunha a [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Nessa noite, [Nome do personagem], não estava sozinho. Todos os seus melhores amigos estavam junto dele. Eles tocavam música no meio da floresta, em volta de uma lareira que brilhava com fogo vivo. Era a forma como eles solucionavam seus problemas - juntos e cantando as suas melodias de vida.",
+        "generated_text_llama": "Ele olhou ao redor, verificando que ninguém estivesse observando-o, antes de se aproximar da mesa onde havia deixado sua mochila. Com cuidado, abriu a tampa e retirou uma pilha de dinheiro, que rapidamente foi guardada em um pequeno saco dentro do seu colar. Enquanto isso, ele também pegou um pequeno diário escondido embaixo da pia e o meteu na mesma bolsa.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Gulliver",
+        "sentence": "Quando Gulliver lá esteve (creio que os senhores se lembram disso), figurou como um verdadeiro brinquedo.",
+        "start_char": 94602,
+        "end_char": 94610,
+        "excerpt": "Então ao jeito da de Brobdingnag, o país dos gigantes. Todos acharam justa a proposta e começaram a redigir o projeto de constituição da Bruzundanga republicana, conforme o paradigma da do país dos gigantes. Quando Gulliver lá esteve (creio que os senhores se lembram disso), figurou como um verdadeiro brinquedo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "creio",
+                "child": "Gulliver",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "crer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gulliver",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando [MASK] lá esteve (creio que os senhores se lembram disso), figurou como um verdadeiro brinquedo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quando Personagem lá esteve (creio que os senhores se lembram disso), figurou como um verdadeiro brinquedo. Ele não era apenas um simples pastor, ele tinha uma forma de conectar com as criaturas do campo, a ponto de se transformar em sua melhor amizade e proteção. Após aquela tarde espetacular, José voltou para casa e passou a noite dormindo profundamente. Amanhã, ao sol nascer, ele estava pronto para repetir o ato maravilhoso que havia feito antes: se tornar um brinquedo para aqueles porcos, a fim de entender como melhor cuidar deles e ajudá-los. A cada dia, seu relacionamento com eles se fortalecia, o que os tornava mais saudáveis e produtivos. Assim, José passou anos dedicando sua vida ao bem-estar dos porcos, conquistando a admiração e respeito de todos aqueles que o conheceram.",
+        "generated_text_llama": "Quando Personagem lá esteve (creio que os senhores se lembram disso), figurou como um verdadeiro brinquedo. Nessa época, ele estava vestido com uma roupa estranha e tinha uma máscara azul e amarela que lhe dava um ar de excitação e aventura. Personagem era um personagem bem conhecido em uma cidade que amava a fantasia e o teatro, onde as pessoas se reuniam para celebrar a liberdade e a criatividade.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "creio",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "creio",
+                    "advcl"
+                ],
+                [
+                    "personagem",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ben Kosta",
+        "sentence": "Um usineiro muito rico da mesma província, Phrancisco Novilho Ben Kosta, mais conhecido por Chico Caiana, tinha adiantado dinheiro e assoldadado gente para que o general Tupinambá tomasse o lugar do soba-mor Cravho Ben Mathos.",
+        "start_char": 116390,
+        "end_char": 116399,
+        "excerpt": "Remontemos as origens desse cacique do açúcar, os piores da Bruzundanga, pois lidam em geral com os naturais do pais que não têm a quem se queixar. Na província das Canas, houvera um turumbamba mais ou menos oficialmente protegido por um manda-chuva, motivo esse que derrubou a oligarquia da família dos Cravhos. Um usineiro muito rico da mesma província, Phrancisco Novilho Ben Kosta, mais conhecido por Chico Caiana, tinha adiantado dinheiro e assoldadado gente para que o general Tupinambá tomasse o lugar do soba-mor Cravho Ben Mathos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "adiantado",
+                "child": ", Phrancisco Novilho Ben Kosta, mais conhecido por Chico Caiana,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "adiantar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Phrancisco",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Um usineiro muito rico da mesma província, Phrancisco Novilho [MASK], mais conhecido por Chico Caiana, tinha adiantado dinheiro e assoldadado gente para que o general Tupinambá tomasse o lugar do soba-mor Cravho Ben Mathos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Chico Caiana, sem perder um segundo, iniciou as negociações secretas com o general Tupinambá. Utilizando sua experiência em assuntos financeiros e seu vasto conhecimento da província, tentou persuadir o general para que aceitasse o dinheiro oferecido e assumisse o lugar do soba-mor Cravho Ben Mathos.",
+        "generated_text_llama": "Chico Caiana sabia que estava em um jogo perigoso, mas também era um homem astuto e experiente. Ele sabia que o general Tupinambá era um líder respeitado entre os índios da região, mas também tinha uma reputação de ser cruel e implacável. Chico Caiana decidiu enviar uma mensagem secreta ao general, oferecendo-lhe uma parte do prêmio em troca de sua lealdade. A mensagem foi enviada por um mensageiro confiável, que correu o risco de ser capturado pelos soldados de Cravho Ben Mathos.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "iniciou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ],
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Chico Caiana",
+        "sentence": "Um usineiro muito rico da mesma província, Phrancisco Novilho Ben Kosta, mais conhecido por Chico Caiana, tinha adiantado dinheiro e assoldadado gente para que o general Tupinambá tomasse o lugar do soba-mor Cravho Ben Mathos.",
+        "start_char": 116420,
+        "end_char": 116432,
+        "excerpt": "Remontemos as origens desse cacique do açúcar, os piores da Bruzundanga, pois lidam em geral com os naturais do pais que não têm a quem se queixar. Na província das Canas, houvera um turumbamba mais ou menos oficialmente protegido por um manda-chuva, motivo esse que derrubou a oligarquia da família dos Cravhos. Um usineiro muito rico da mesma província, Phrancisco Novilho Ben Kosta, mais conhecido por Chico Caiana, tinha adiantado dinheiro e assoldadado gente para que o general Tupinambá tomasse o lugar do soba-mor Cravho Ben Mathos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "adiantado",
+                "child": ", Phrancisco Novilho Ben Kosta, mais conhecido por Chico Caiana,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "adiantar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Phrancisco",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Um usineiro muito rico da mesma província, Phrancisco Novilho Ben Kosta, mais conhecido por [MASK], tinha adiantado dinheiro e assoldadado gente para que o general Tupinambá tomasse o lugar do soba-mor Cravho Ben Mathos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Francisco Novilho Ben Kosta, apelidado de \"Barão da Lama\", fez seu próximo passo enquanto os seus homens e dinheiro continuavam a chegar no campo para apoiar o general Tupinambá. Ele convocou um conselho de guerra com seus comandantes, onde discutiram estratégias para tomar o lugar do soba-mor Cravho Ben Mathos e manter o domínio sobre a província. Depois que as decisões foram tomadas, o Barão da Lama montou em seu cavalo branco e partiu com seus soldados rumo ao castelo de Cravho, convocando todos os habitantes locais para que se juntassem a ele na luta pela sua causa.",
+        "generated_text_llama": "Com a notícia da morte de Cravho Ben Mathos, Personagem sabia que sua chance de ascensão ao poder estava à mão. Ele começou a planejar uma campanha para se apresentar como o herdeiro legítimo do soba-mor e vazar apoio entre as tribos da região. Primeiramente, Personagem enviou mensageiros para o sul, oferecendo recompensas a líderes de outras tribos que estivessem dispostos a se juntar à sua causa.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "fez",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ],
+                [
+                    "enviou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Chico",
+        "sentence": "Chico era o tipo do grande agricultor da Bruzundanga: nada entendia de agricultura, mesmo daquela que dizia exercer.",
+        "start_char": 116664,
+        "end_char": 116669,
+        "excerpt": "Um usineiro muito rico da mesma província, Phrancisco Novilho Ben Kosta, mais conhecido por Chico Caiana, tinha adiantado dinheiro e assoldadado gente para que o general Tupinambá tomasse o lugar do soba-mor Cravho Ben Mathos. O general vitorioso ficou muito agradecido ao Chico, e prometeu dar-lhe uma posição de destaque na política. Chico era o tipo do grande agricultor da Bruzundanga: nada entendia de agricultura, mesmo daquela que dizia exercer.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "adiantado",
+                "child": ", Phrancisco Novilho Ben Kosta, mais conhecido por Chico Caiana,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "adiantar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Phrancisco",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "agradecido",
+                "child": "Chico",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "agradecer",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Chico",
+                "child": "tipo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Chico",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "tipo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "tipo",
+                "child": "Chico",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "tipo",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] era o tipo do grande agricultor da Bruzundanga: nada entendia de agricultura, mesmo daquela que dizia exercer.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Contudo, o Sr. Joaquim não estava tão inexperiente como poderia parecer ao primeiro olhar. Ele havia viajado extensivamente pelos campos e vinhos de Bruzundanga, observando os métodos agrícolas usados por seus concitadinos mais habilidosos. De forma intuitiva, começou a testar técnicas em sua própria terra, adaptando-as às particularidades locais e procurando melhorias contínuas.",
+        "generated_text_llama": "Mão na testa, Personagem olhou para as palmeiras altas e saudáveis que ele havia plantado algumas semanas atrás, sentindo um monte de dúvidas sobre o que estava fazendo. Ele não entendia como aquelas palmeiras precisavam ser regadas com tanta frequência, nem como era possível manter a terra fertilizada sem qualquer tipo de suplemento. Personagem se lembrava de suas conversas com o velho João, que sempre havia falarido sobre \"arroz e feijão\" como se fossem as soluções para todos os problemas, mas agora ele se sentia um pouco desiludido com aquele conselho.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ],
+                [
+                    "lembrava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Caiana",
+        "sentence": "Caiana nada entendia daqueles mistérios de fazer da cana, açúcar; e, se fosse mexer nos aparelhos, nas turbinas, dosar o caldo, etc., etc., a cousa era capaz de explodir como pólvora.",
+        "start_char": 117639,
+        "end_char": 117645,
+        "excerpt": "Bebia desregradamente e fazia do feroz doutor Chico Novilho gato e sapato. O doutor Novilho não o despedia, apesar de seus pruridos disciplinadores até à tirania, por sordícia. Caiana nada entendia daqueles mistérios de fazer da cana, açúcar; e, se fosse mexer nos aparelhos, nas turbinas, dosar o caldo, etc., etc., a cousa era capaz de explodir como pólvora.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "entendia",
+                "child": "Caiana",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "entender",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Caiana",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] nada entendia daqueles mistérios de fazer da cana, açúcar; e, se fosse mexer nos aparelhos, nas turbinas, dosar o caldo, etc., etc., a cousa era capaz de explodir como pólvora.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Contudo, Personagem não estava para ficar assustado com as aparatosanhas mágicas de transformar a cana em açúcar. Em vez disso, ele se aproximou cuidadosamente do engenho e observou ainda mais detalhes dos mecanismos envolvidos nessa maravilhosa transformação.",
+        "generated_text_llama": "Personagem olhou em volta do quarto, procurando uma maneira de fugir da monotonia da vida no campo, e seus olhos caíram sobre um livro antigo que estava guardado em uma prateleira alta. Ele abriu-o com cuidado e começou a ler, fascinado pela história de um inventor que havia criado máquinas que podiam fazer coisas incríveis, como criar açúcar e cana a partir do ar.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "estava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tupinambá",
+        "sentence": "Ascendendo à governança da província das Canas, Tupinambá tratou logo de eleger senador da Bruzundanga o seu forte esteio eleitoral, o doutor Chico Caiana.",
+        "start_char": 118617,
+        "end_char": 118626,
+        "excerpt": "Eis aí a sua agricultura, de que veio tirá-lo o braço forte do general Tupinambá. Vejamos como. Ascendendo à governança da província das Canas, Tupinambá tratou logo de eleger senador da Bruzundanga o seu forte esteio eleitoral, o doutor Chico Caiana.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "general",
+                "child": "Tupinambá",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "general",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Tupinambá",
+                "word_categories": [
+                    "social",
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Tupinambá",
+                "child": "general",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Tupinambá",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "general",
+                "word_categories": [
+                    "social",
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Tupinambá",
+                "child": "o braço",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Tupinambá",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "braço",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "tratou",
+                "child": "Tupinambá",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tratar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tupinambá",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Ascendendo à governança da província das Canas, [MASK] tratou logo de eleger senador da Bruzundanga o seu forte esteio eleitoral, o doutor Chico Caiana.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim, ascendendo ao governo da província das Canas, Personagem tratou-se de eleger senador da Bruzundanga o seu forte eleitoral, o doutor Chico Caiana. Ele entrou em contato direto com o médico, convidando-o para a capital provincial para a cerimônia de posse do cargo. O doutor Caiana, embriagado pelo poder e pelas perspectivas de realizar projetos em nome da província das Canas, aceitou imediatamente a proposta de Personagem. Ele preparava-se para ser o voz do povo nas assembleias legislativas da Bruzundanga.",
+        "generated_text_llama": "Com a vitória certa na eleição do senator, Personagem pôde finalmente consolidar sua autoridade como governador da província das Canas e começou a trabalhar em uma estratégia para garantir o apoio dos cidadãos brazundaneses. Ele convocou um encontro com os principais líderes políticos do estado e os convidou a se reunirem na capital, para discutir questões de interesse coletivo e planejar suas próximas ações. Personagem sabia que precisava manter o apoio da classe média e dos setores mais influentes da sociedade, caso contrário, enfrentaria uma forte resistência aos seus esforços para modernizar a província.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "tratou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pôde",
+                    "ROOT"
+                ],
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Chico Caiana",
+        "sentence": "39 Quando saltou, era um gozo ver o Chico Caiana atravessar as ruas com um ostentoso chapéu Panamá, terno de linho branco, botinas intei- riças de pelica amarela e açoiteira pendente do pulso direito.",
+        "start_char": 118834,
+        "end_char": 118846,
+        "excerpt": "Ascendendo à governança da província das Canas, Tupinambá tratou logo de eleger senador da Bruzundanga o seu forte esteio eleitoral, o doutor Chico Caiana. Arranjaram as atas e manda- ram-nas, e mais ele, para a capital do país. 39 Quando saltou, era um gozo ver o Chico Caiana atravessar as ruas com um ostentoso chapéu Panamá, terno de linho branco, botinas intei- riças de pelica amarela e açoiteira pendente do pulso direito.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "o doutor",
+                "child": "Chico Caiana",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "doutor",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Chico Caiana",
+                "child": "o doutor",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Chico",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "doutor",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "ver",
+                "child": "o Chico Caiana",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "39 Quando saltou, era um gozo ver o [MASK] atravessar as ruas com um ostentoso chapéu Panamá, terno de linho branco, botinas intei- riças de pelica amarela e açoiteira pendente do pulso direito.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "40 Quando o carro chegou ao fim da rua, o Personagem abriu as portas, saltou com calma e agilidade para fora dela. Sua entrada no mundo exterior foi acompanhada por um ar de importância e soberania que se espalhou pelas ruas, como uma onda de elegancia.",
+        "generated_text_llama": "40 Com aquele chapéu Panamá em perfeita position na sua cabeça, Personagem caminhou até o bar do centro da cidade, onde sabia que poderia encontrar o seu amigo, o famoso jornalista local, Luiz. 41 Ele entrou no bar e chamou a atenção de todos com o seu terno branco e as botinas amarelas, deixando um rastro de curiosidade por trás dele. 42 Sem hesitar, Personagem se aproximou da barra e pediu um cerveja, enquanto procurava o rosto de Luiz entre a multidão do bar. 43 Encontrou-o sentado ao pé da barra, bebendo uma cerveja e escrevendo em seu notebook, com uma expressão de concentração no rosto. 44 Sem fazer nenhum barulho, Personagem se aproximou de Luiz e lhe pediu para mostrar o que estava escrevendo, curioso para saber o que o amigo estava a descobrir sobre a cidade.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "abriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "caminhou",
+                    "ROOT"
+                ],
+                [
+                    "aproximou",
+                    "ROOT"
+                ],
+                [
+                    "aproximou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Chico Caiana",
+        "sentence": "Chico Caiana não se importou mais com as cousas do ministério e aproveitou a 40 posição para ganhar dinheiro.",
+        "start_char": 121544,
+        "end_char": 121556,
+        "excerpt": "Não houve remédio senão os oficiais da sua Secretaria de Estado irem puxar o rabo da enxada. Houve, no ano seguinte, uma complicação internacional e o açúcar começou a ser procurado. Chico Caiana não se importou mais com as cousas do ministério e aproveitou a 40 posição para ganhar dinheiro.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "importou",
+                "child": "Chico Caiana",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "importar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não se importou mais com as cousas do ministério e aproveitou a 40 posição para ganhar dinheiro.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O senhor Personagem, que era conhecido por sua calma inabalável, decidiu aproveitar a posição de 40 do ministério para ganhar dinheiro, embora isso contradizesse com sua natureza tranquila e dedicação à carreira. Ele não tinha medo de queixas ou suspeitas, pois sempre teve a confiança em si mesmo e sabia o caminho certo para se aventurar.",
+        "generated_text_llama": "Personagem não se importou mais com as cousas do ministério e aproveitou a 40ª posição para ganhar dinheiro. Ele sabia que, como um funcionário público, tinha direito a um salário razoável, mas também sabia que podia fazer melhor do que isso. Portanto, começou a procurar por oportunidades para ganhar extra, seja vendendo produtos online, oferecendo serviços de consultoria ou até mesmo criando conteúdo no YouTube.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "importou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jeanne dArc",
+        "sentence": "É semelhante senhora que lá, naquelas plagas, comparam a Jeanne dArc.",
+        "start_char": 124563,
+        "end_char": 124574,
+        "excerpt": "Isto mesmo, porém, não é virtude que torne uma mulher excepcional, pois é comum nelas, a menos que tal dedicação sirva de moldura às qualidades 41 excepcio- nais do seu marido ou do seu amante. No caso, porém, encarando-o estritamente sob o aspecto da evolução política da Bruzundanga, o seu marido não era mais do que um aventureiro. É semelhante senhora que lá, naquelas plagas, comparam a Jeanne dArc.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "comparam",
+                "child": "a Jeanne dArc",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "compar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jeanne",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "a Jeanne dArc",
+                "child": "semelhante",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Jeanne",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "semelhante",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "É semelhante senhora que lá, naquelas plagas, comparam a [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ela segurou a jóia preciosa no dedo e olhou-a com admiração. Sua cor era tão vívida, tão pura, que parecia uma estrela caiu do céu em sua mão. Depois disso, ela o colocou de volta no pequeno caixinho de vidro e seguiu a trilha. Ao longo da caminhada, sentia um senso de liberdade que nunca havia experimentado antes. Era uma sensação estranha, como se tivesse saído de seu corpo e, ao mesmo tempo, estivesse mais presente do que nunca. Ela sentia-se ilhada nessa floresta, mas também protegida por um misterioso segredo que a envolvia.",
+        "generated_text_llama": "Ele seguiu a frente, seus passos ásperos sobre o chão úmido, enquanto observava a mulher sentada no banco, suas mãos envoltas em um lenço branco. A semelhança entre eles era mais do que apenas física; havia algo nos olhos dela, na forma como ela olhava para as árvores esqueléticas, que o fez se sentir desconfortável.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ben Suza",
+        "sentence": "Krat Ben Suza foi-lhe dizendo logo o terrível mal no estômago de que vinha sofrendo, há tanto tempo, mal que aparecia e desaparecia mas que não o deixava nunca.",
+        "start_char": 156334,
+        "end_char": 156342,
+        "excerpt": "Tinha um olhar doce, os cabelos já grisalhos, apesar de sua fisionomia moça, umas mãos alvas, polidas. Perguntou-lhe o médico com muita macieza de voz: 51  Que sente o senhor? Krat Ben Suza foi-lhe dizendo logo o terrível mal no estômago de que vinha sofrendo, há tanto tempo, mal que aparecia e desaparecia mas que não o deixava nunca.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "foi-lhe",
+                "child": "Krat Ben Suza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "foi-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Krat",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Krat [MASK] foi-lhe dizendo logo o terrível mal no estômago de que vinha sofrendo, há tanto tempo, mal que aparecia e desaparecia mas que não o deixava nunca.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Com um sorriso triste, Krat se inclinou e olhou para a pessoa falante, com uma expressão emocionada na sua face. \"Minha súdito\", disse ele, enquanto aprofundava a suas mãos sobre o ventre. \"Sei que você está sofrendo por causa do mal que me tormenta desde há muito tempo. Eu sei que este mal é terrível e que parece não desaparecer nunca.\"",
+        "generated_text_llama": "Krat olhou para si mesmo nos olhos, tentando entender por que esse mal persistia, apesar de todas as suas buscas pela origem. Ele sabia que havia tentado tudo: medicamentos, terapias, até mesmo rituais espirituais, mas nada parecia funcionar. O mal parecia estar mais forte do que nunca, como se estivesse se alimentando da sua própria desesperança.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "inclinou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Suza",
+        "sentence": "Suza sentou-se também, e esperou que o médico saísse de sua meditação.",
+        "start_char": 156692,
+        "end_char": 156696,
+        "excerpt": "Krat Ben Suza foi-lhe dizendo logo o terrível mal no estômago de que vinha sofrendo, há tanto tempo, mal que aparecia e desaparecia mas que não o deixava nunca. O doutor Adhil Ben Thaft fê-lo tirar o paletó, o colete, auscultou-o bem, examinou-o demoradamente, tanto de pé, como deitado, sentou-se depois, enquanto o negociante recompunha a sua modesta toilette. Suza sentou-se também, e esperou que o médico saísse de sua meditação.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "foi-lhe",
+                "child": "Krat Ben Suza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "foi-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Krat",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "sentou-se",
+                "child": "Suza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sentar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Suza",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] sentou-se também, e esperou que o médico saísse de sua meditação.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de se sentar, Personagem fechou os olhos e começou a respirar lentamente, seguindo seu ritmo com o chamado interiormente. Ao lado dela, o médico continuava em sua meditação, envolvido no próprio universo.",
+        "generated_text_llama": "Depois de alguns momentos de silêncio, o médico abriu os olhos e começou a se preparar para sair do quarto. Ele bebericou um gole de água da garrafa à sua frente e se levantou lentamente da cadeira, estendendo seus braços para aliviar os músculos tensos. Em seguida, ele olhou em volta do quarto com uma expressão de concentração, como se estivesse tentando lembrar algo importante.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "fechou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Hans Reykavyk",
+        "sentence": "Para as funções públicas, inclusive as militares, já o célebre filósofo político-militar dinamarquês, Hans Reykavyk propôs dous métodos para obter o remoçamento dos quadros:",
+        "start_char": 239131,
+        "end_char": 239144,
+        "excerpt": "A sociedade perde muito com isso, pois os seus trabalhos não terão a perfeição que havia nos que executava com trinta anos de vida. Seria inútil repetir exemplos como este, pois eles estão aí aos pontapés, para mostrar o quanto é indispensável decretar medidas que rejuvenesçam os quadros de todas as profissões. Para as funções públicas, inclusive as militares, já o célebre filósofo político-militar dinamarquês, Hans Reykavyk propôs dous métodos para obter o remoçamento dos quadros:",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "propôs",
+                "child": "Hans Reykavyk",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "propor",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hans",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Para as funções públicas, inclusive as militares, já o célebre filósofo político-militar dinamarquês, [MASK] propôs dous métodos para obter o remoçamento dos quadros:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "1. O Primeiro Método de Personagem: Ele procurou aliar-se aos militares discontente com seus líderes atuais e prometeu revisões salariais e melhorias em condições de trabalho em troca de seu apoio no processo de remoção. Esperava-se que essa coalizão pudesse mobilizar suficiente pressão para forçar as demissões dos quadros não-desejáveis da administração.",
+        "generated_text_llama": "Assim que se tornou um dos principais pensadores da época, Personagem começou a escrever seus famosos textos políticos e militares, em que expunha suas ideias sobre a forma como os governantes poderiam recuperar o controle das instituições públicas. Ele propôs a criação de uma classe de \"governadores\" treinados e escolhidos para atuar como líderes de pequenas unidades, responsáveis por executar as ordens do governo sem questioná-las.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor Hans Reykavyk",
+        "sentence": "Não posso transcrever aqui todas as considerações que precedem a exposição que o Senhor Hans Reykavyk faz desse método.",
+        "start_char": 240829,
+        "end_char": 240849,
+        "excerpt": "Esse sistema de academia de beleza não pode ser adotado, sendo essa também a conclusão a que chega, depois de exaustiva análise, o grande filósofo dinamarquês que nos guia nestas despretensiosas notas. Resta o método científico que se estriba na psicologia experimental e é corrigido pela sociologia transcendente. Não posso transcrever aqui todas as considerações que precedem a exposição que o Senhor Hans Reykavyk faz desse método.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "faz",
+                "child": "o Senhor Hans Reykavyk",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "word_categories": [
+                    "aparencia",
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "o Senhor Hans Reykavyk",
+                "child": "a exposição",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Senhor",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "exposição",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "o Senhor Hans Reykavyk",
+                "child": "todas as considerações",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Senhor",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "consideração",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Não posso transcrever aqui todas as considerações que precedem a exposição que o [MASK] faz desse método.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Contudo, após o explicitar sua ideia de forma clara e concisa, ele começou a elaborar a exposição do método, detalhando cada etapa com precisão e acabando por convencer a comunidade científica sobre a validade dessa abordagem. De lá para cá, o nome dele se espalhou por todo o mundo, tornando-o uma referência indispensável em seu campo de estudo.",
+        "generated_text_llama": "",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    }
+]

@@ -1,0 +1,489 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Lúcia",
+        "sentence": "Lúcia morava na Rua da Princesa, e Mariquinhas na do Príncipe.",
+        "start_char": 2206,
+        "end_char": 2211,
+        "excerpt": "Um dia a coisa seria mais grave, e nesse caso as confidências seriam menos freqüentes e completas. Tal dia porém não chegara ainda, e as duas moças passavam pelas mais atrevidas roedoras de corda que a natureza pôs no bairro dos Cajueiros. Lúcia morava na Rua da Princesa, e Mariquinhas na do Príncipe.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "morava",
+                "child": "Lúcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "morar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lúcia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] morava na Rua da Princesa, e Mariquinhas na do Príncipe.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele levantou os olhos e viu que a Rua da Princesa estava coberta de neve, um detalhe que lhe parecia encantador. Puxando sua bolsa de couro pelos costados, ele se afastou dela, seguindo até a esquina onde encontraria a Rua do Príncipe. Era o caminho para casa de Mariquinhas.",
+        "generated_text_llama": "Enquanto observava as pessoas que passavam pela rua, Personagem notou um local interessante chamado \"Café das Sombras\". Ele decidiu entrar e se sentar em uma mesa próxima à janela, onde podia observar a multidão sem chamar atenção para si. Enquanto aguardava o service, Personagem pegou seu notebook e começou a desenhar as paisagens que viam pela janela - desde o Palácio da Cidade até a Praça do Imperial. Ele se sentia à vontade em sua própria companhia, desenhando e pensando sobre seus segredos.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "coberta",
+                    "ccomp"
+                ]
+            ],
+            "obj": [
+                [
+                    "encontraria",
+                    "acl:relcl"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "notou",
+                    "conj"
+                ],
+                [
+                    "pegou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lúcia",
+        "sentence": "II Como se visitavam a miúdo, e passavam dias e dias uma em casa da outra, aconteceu que pela Páscoa do ano de 1868 estavam ambas à janela da casa de Lúcia, quando viram ao longe uma cara nova.",
+        "start_char": 2419,
+        "end_char": 2424,
+        "excerpt": "Tal dia porém não chegara ainda, e as duas moças passavam pelas mais atrevidas roedoras de corda que a natureza pôs no bairro dos Cajueiros. Lúcia morava na Rua da Princesa, e Mariquinhas na do Príncipe. II Como se visitavam a miúdo, e passavam dias e dias uma em casa da outra, aconteceu que pela Páscoa do ano de 1868 estavam ambas à janela da casa de Lúcia, quando viram ao longe uma cara nova.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "morava",
+                "child": "Lúcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "morar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lúcia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "casa",
+                "child": "Lúcia",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "casa",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Lúcia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Lúcia",
+                "child": "casa",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Lúcia",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "casa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Lúcia",
+                "child": "janela",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Lúcia",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "janela",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "II Como se visitavam a miúdo, e passavam dias e dias uma em casa da outra, aconteceu que pela Páscoa do ano de 1868 estavam ambas à janela da casa de [MASK], quando viram ao longe uma cara nova.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuação: A cara nova pertencia a um menino que tinha a mesma idade dos dois. Ele se aproximava, e quando chegou ao portão, chamou-lhes pelo nome deles - \"Leonarda!\" e \"Ana Luísa!\" - sabendo-os bem, porém não lhes haviam visto nunca antes. A menina mais nova, Ana Luíza, achava que o jovem era uma pessoa misteriosa e encantadora.",
+        "generated_text_llama": "Era uma mulher mais velha, com um chapéu de palha e um vestido de cor marrom, que parecia ter viajado do interior para a cidade. Personagem ficou intrigada com a mulher e se aproximou da janela para espiá-la melhor. A mulher estava olhando para uma colmeia de abelhas, que estava pendurada em um galho da árvore. Personagem sabia que as abelhas eram muito valiosas para a colheita do cera, e não se fazia comum ver alguém tão longe do seu povo, cuidando de elas.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ],
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lúcia",
+        "sentence": "Agora veremos com quem é a coisa, disse Lúcia.",
+        "start_char": 5623,
+        "end_char": 5628,
+        "excerpt": "João dos Passos vinha outra vez pelo lado oposto; a meio caminho porém atravessou a rua, com o fim evidente de contemplar de perto as duas belas que teriam ao mesmo tempo ocasião de o examinar melhor. Atrevo-me a dizer isto, porque João dos Passos não duvidava da sua influência pessoal. Agora veremos com quem é a coisa, disse Lúcia.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Lúcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lúcia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Agora veremos com quem é a coisa, disse [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem levantou da cadeira e dirigiu-se para o escritório onde guardava as pesquisas mais importantes de sua carreira. O ambiente era tenso e enérgico, com um ar refinado que só podia ser alcançado por quem é dono do mais valioso dos segredos da natureza. Ele arrumou as fichas nas mãos, cada uma delas representando uma peça fundamental para revelar a verdade sobre o mistério que havia assombrando os sonhos de milhões de pessoas por anos.",
+        "generated_text_llama": "Com um sorriso misterioso, Personagem se levantou da cadeira e começou a caminhar em direção à porta do quarto. \"Agora vamos saber com quem estamos lidando\", disse ele para si mesmo, enquanto entrava no corredor escuro e silencioso.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lúcia",
+        "sentence": "III Lúcia disse coisas muito feias a Mariquinhas, por causa da habilidade com que esta indicara ao rapaz a rua em que morava.",
+        "start_char": 6552,
+        "end_char": 6557,
+        "excerpt": "A resposta de Lúcia foi dar-lhe um beliscão, sem que uma nem outra desviassem os olhos de João dos Passos, o qual, chegando a dez passos de distância, deixou cair a bengala, para ter ocasião de olhar ainda uma vez para as duas moças. Na próxima esquina, lencinho fora, adeus disfarçado, e movimento giratório de bengala, até que de todo desapareceu no horizonte. III Lúcia disse coisas muito feias a Mariquinhas, por causa da habilidade com que esta indicara ao rapaz a rua em que morava.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "A resposta",
+                "child": "Lúcia",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "resposta",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Lúcia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Lúcia",
+                "child": "A resposta",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Lúcia",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "resposta",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "disse",
+                "child": "III Lúcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "III",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "III [MASK] disse coisas muito feias a Mariquinhas, por causa da habilidade com que esta indicara ao rapaz a rua em que morava.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, Personagem decidiu fazer algo para compensar sua falha. Acabou de aprender em uma oficina local que fazia objetos feitos de madeira e pensou que poderia fazer uma coisa linda e única para Mariquinhas como um gesto de desculpas genuinas. Construiu uma pequena cesta, ricamente decorada com motivos florais e animais que tinham significado especial para ele e para ela.",
+        "generated_text_llama": "III Personagem continuou a rir e fazer piadas sobre Mariquinhas, dizendo que ela era \"um mapa direto para os vizinhos\" e que sua habilidade em indicar ruas era \"talvez um superpoder secreto\". Mas enquanto ele fazia isso, notou uma expressão de raiva e indignação no rosto de Mariquinhas. Ela estava quase à ponta dos pés, as mãos cerradas em punho, e Personagem começou a se dar conta de que talvez tivesse ido longe demais.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lúcia",
+        "sentence": "Mariquinhas repeliu dignamente as censuras de Lúcia, e ambas ficaram de acordo em que João dos Passos era pouco menos que desfrutável.",
+        "start_char": 6720,
+        "end_char": 6725,
+        "excerpt": "Na próxima esquina, lencinho fora, adeus disfarçado, e movimento giratório de bengala, até que de todo desapareceu no horizonte. III Lúcia disse coisas muito feias a Mariquinhas, por causa da habilidade com que esta indicara ao rapaz a rua em que morava. Mariquinhas repeliu dignamente as censuras de Lúcia, e ambas ficaram de acordo em que João dos Passos era pouco menos que desfrutável.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "III Lúcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "III",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "as censuras",
+                "child": "Lúcia",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "censura",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Lúcia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Lúcia",
+                "child": "as censuras",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Lúcia",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "censura",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mariquinhas repeliu dignamente as censuras de [MASK], e ambas ficaram de acordo em que João dos Passos era pouco menos que desfrutável.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mariquinhas, que era uma menina muito corajosa e resoluta, não se abaixou diante das censuras de sua tia Augusta. Em vez disso, ela respondeu de forma diplomática e digna, enfatizando o quanto João dos Passos era divertido e engraçado, embora tivesse certamente suas falhas. A tia Augusta, que era uma mulher severa e rigorosa, estava irritada com a atitude de Mariquinhas, mas percebeu que sua sobrinha tinha feito um bom trabalho em defender João dos Passos.",
+        "generated_text_llama": "Com um sorriso satisfeito, Personagem apertou a mão de Mariquinhas e disse: \"Vamos celebrar essa vitória com uma xícara de cachaça! Eu sei um lugar onde podemos encontrar a melhor cachaça da cidade, e não é tão longe dali\". Mariquinhas sorriu e concordou, e juntos começaram a caminhar pela rua escuro, em direção à taberna que Personagem conhecia tão bem. Ao chegarem, Personagem chamou o bartender e pediu uma rodada de cachaça para todos, dizendo: \"É um dia para celebrar a liberdade de expressão e a amizade verdadeira!\" E assim, com as xícaras cheias de cachaça, eles passaram a noite contando histórias e rindo juntos, esquecidos das censuras e dos preconceitos do mundo lá fora.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "abaixou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "apertou",
+                    "ROOT"
+                ],
+                [
+                    "conhecia",
+                    "acl:relcl"
+                ],
+                [
+                    "chamou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lúcia",
+        "sentence": "E eu também, se a coisa for comigo, acudiu Lúcia.",
+        "start_char": 6932,
+        "end_char": 6937,
+        "excerpt": "Mariquinhas repeliu dignamente as censuras de Lúcia, e ambas ficaram de acordo em que João dos Passos era pouco menos que desfrutável. Se a coisa for comigo, dizia Mariquinhas, eu prometo trazê-lo de canto chorado. E eu também, se a coisa for comigo, acudiu Lúcia.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "as censuras",
+                "child": "Lúcia",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "censura",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Lúcia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Lúcia",
+                "child": "as censuras",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Lúcia",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "censura",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "acudiu",
+                "child": "Lúcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acudir",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lúcia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "E eu também, se a coisa for comigo, acudiu [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele também, se a coisa fosse com ele, acudiu correndo para a escena do crime, como sempre fez em situações tão importantes. Ele já tinha sido detetive de longa data e sabia que nenhum minuto poderia ser desperdiçado. Era esse o seu papel e ele fazia tudo pelo bem.",
+        "generated_text_llama": "E eu também, se a coisa for comigo, acudiu a minha melhor amiga, Lila. Ela era uma mulher incrível, com olhos azuis profundos e cabelos castanhos que caíam sobre os ombros como uma cascata de noite. Quando ouviu que eu estava em apuros, ela me disse que estava lá para me ajudar e me apoiar.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "acudiu",
+                    "conj"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lúcia",
+        "sentence": "A primeira idéia de Mariquinhas e Lúcia foi dar idêntica resposta ao novo namorado; mas a consideração de que semelhante recurso o desviaria, fez com que repelissem a idéia, limitando-se ambas a declarar a João dos Passos que alguma coisa sentiam por ele, e animando-o a persistir na campanha.",
+        "start_char": 8596,
+        "end_char": 8601,
+        "excerpt": "Falava-lhes da cor dos cabelos, única parte em que a carta sofreu modificação. Quanto à idéia de matrimônio, havia um período em que alguma coisa transluzia, sendo a linguagem a mesma, e igualmente apaixonada. A primeira idéia de Mariquinhas e Lúcia foi dar idêntica resposta ao novo namorado; mas a consideração de que semelhante recurso o desviaria, fez com que repelissem a idéia, limitando-se ambas a declarar a João dos Passos que alguma coisa sentiam por ele, e animando-o a persistir na campanha.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "dar",
+                "child": "Lúcia",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lúcia",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Lúcia",
+                "child": "A primeira idéia",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Lúcia",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "idéia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A primeira idéia de Mariquinhas e [MASK] foi dar idêntica resposta ao novo namorado; mas a consideração de que semelhante recurso o desviaria, fez com que repelissem a idéia, limitando-se ambas a declarar a João dos Passos que alguma coisa sentiam por ele, e animando-o a persistir na campanha.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas Mariquinhas e Personagem não queriam se expor ao risco de desapontar ou serem rejeitados novamente, portanto decidiram dar uma resposta mais original à proposta de João dos Passos. Elas organizaram uma excursão para a Serra da Moita, onde esperavam poder encontrar tempo e espaço para se comunicarem sem a presença de outras pessoas.",
+        "generated_text_llama": "E assim, Mariquinhas e Personagem foram as duas primeiras pessoas a confessar seus sentimentos para João dos Passos. A reação do jovem foi surpreendentemente positiva, e ele expressou sua gratidão por ter tido coragem para compartilhar suas próprias emoções com eles. Mariquinhas e Personagem sentiram-se aliviadas e um pouco mais confiantes, pois sabiam que tinham o apoio de João.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    }
+]

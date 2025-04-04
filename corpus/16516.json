@@ -1,0 +1,3003 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Tia Filomena",
+        "sentence": "Tia Filomena teve um ataque de nervos quando soube do sonho de Gaetaninho.",
+        "start_char": 6262,
+        "end_char": 6274,
+        "excerpt": "Primeiro ficou desapontado. Depois quase chorou de ódio. Tia Filomena teve um ataque de nervos quando soube do sonho de Gaetaninho.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "teve",
+                "child": "Tia Filomena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tia",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] teve um ataque de nervos quando soube do sonho de Gaetaninho.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Desesperado e enfurecido, Roberto jogou o telefone em um canto da sala. A mente trabalhava a velocidade máxima tentando processar essa notícia. O sonho de Gaetaninho era a última esperança que tinha para resolver seu problema financeiro, e agora ele estava destruído.",
+        "generated_text_llama": "Personagem sentiu uma onda de emoção intensa ao saber que seu amigo de infância, Gaetaninho, estava sonhando em voltar ao Brasil após anos de viver no exterior. Sem hesitar, Personagem pegou o celular e começou a digitar um número rápido, esperando que sua mãe atendesse na primeira tentativa.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "jogou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "pegou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carmela",
+        "sentence": "Carmela abre o romance à luz da lâmpada de 16 velas:",
+        "start_char": 11932,
+        "end_char": 11939,
+        "excerpt": "Ciao. Ciao. Antes de se estender ao lado da irmãzinha na cama de ferro Carmela abre o romance à luz da lâmpada de 16 velas:",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "abre",
+                "child": "Carmela",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "abrir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Carmela",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] abre o romance à luz da lâmpada de 16 velas:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele segurou a lâmpada delicadamente com as mãos sujas e passava o olhar por cada página, como se quisesse sentir os trilhos das letras sob seu dedo. Ao abrir o capítulo seguinte, viu que era uma carta escrita a mão de sua ex-mulher, Anna.",
+        "generated_text_llama": "O coração de Personagem batia mais forte com cada flor de lilás que ele colocava no jardim, criando um cenário romântico perfeito para a noite especial. Ele havia passado horas planejando este momento, desde escolher a música até decidir o tipo de comida para servir à sua amada. Agora, enquanto ajustava as velas para que elas brilhassem mais intensamente, Personagem se sentia como um verdadeiro cavaleiro medieval, preparado para declarar seu amor ao coração da mulher de seus sonhos.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentia",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carmela",
+        "sentence": "Quando Carmela reparando bem começa a verificar que o castelo não é mais um castelo mas uma igreja o tripeiro Giuseppe Santini berra no corredor:  Spegni la luce!",
+        "start_char": 12483,
+        "end_char": 12490,
+        "excerpt": "Montado no ginete o apaixonado caçula do castelão inimigo de capacete prateado com plumas brancas. E atravessada no cachaço do ginete a formosa donzela desmaiada entregando ao vento os cabelos cor de carambola. Quando Carmela reparando bem começa a verificar que o castelo não é mais um castelo mas uma igreja o tripeiro Giuseppe Santini berra no corredor:  Spegni la luce!",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "reparando",
+                "child": "Carmela",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "reparar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Carmela",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando [MASK] reparando bem começa a verificar que o castelo não é mais um castelo mas uma igreja o tripeiro Giuseppe Santini berra no corredor:  Spegni la luce!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Spegni la luce! - disse Giuseppe Santini em alto voz.",
+        "generated_text_llama": "Quando Personagem reparando bem começa a verificar que o castelo não é mais um castelo, mas uma igreja, ele sente um arrepio na espinha. Ele olha em volta e vê que as paredes cobertas de poeira e graxa agora estão cobertas de velas e candelabros, criando uma atmosfera sagrada. O tripeiro Giuseppe Santini berra no corredor: \"Spegni la luce!\", mas Personagem já está a caminho do altar, onde encontra uma estátua de madeira coberta de poeira.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "disse",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "reparando",
+                    "advcl"
+                ],
+                [
+                    "está",
+                    "cop"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carmela",
+        "sentence": "Carmela olha primeiro a ponta do sapato esquerdo, depois a do direito, depois a do esquerdo de novo, depois a do direito outra vez, levantando e descendo a cinta.",
+        "start_char": 13005,
+        "end_char": 13012,
+        "excerpt": "Não seja má. Suba aqui. Carmela olha primeiro a ponta do sapato esquerdo, depois a do direito, depois a do esquerdo de novo, depois a do direito outra vez, levantando e descendo a cinta.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "olha",
+                "child": "Carmela",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "olhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Carmela",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] olha primeiro a ponta do sapato esquerdo, depois a do direito, depois a do esquerdo de novo, depois a do direito outra vez, levantando e descendo a cinta.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuing in pt-br: Então, ele Personagem olha para o relógio de pulso, que estava pendurado em seu pulso esquerdo, com o dial apontando para um número sete minutos mais tarde do horário marcado no papel. Depois de contemplar aquele breve instante, ele fechou a porta traseira e seguiu caminhando pela rua correndo à mão, com o coração palpitando na expectativa de encontrar a solução para o problema que estava enfrentando.",
+        "generated_text_llama": "Personagem inspecionou as camadas da roupa, garantindo que tudo estivesse no lugar certo. Em seguida, olhou para o relógio, vendo que ainda tinha uma hora de tempo antes do evento. Sabia que precisava se arrumar completamente e tomar um banho rápido, sem esquecer de colocar a maqui correta. Após isso, pegou sua bolsa e começou a caminhar em direção ao seu quarto, ansioso para começar o dia com muitas boas-vindas e sorrisos nas faces das pessoas.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "olha",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "inspecionou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bianca",
+        "sentence": "Depois que os seus olhos cheios de estrabismo e despeito vêem a lanterninha traseira do Buick desaparecer, Bianca resolve dar um giro pelo bairro.",
+        "start_char": 14475,
+        "end_char": 14481,
+        "excerpt": "Vamos dar uma volta até a Rua das Palmeiras, Bianca? Andiamo. Depois que os seus olhos cheios de estrabismo e despeito vêem a lanterninha traseira do Buick desaparecer, Bianca resolve dar um giro pelo bairro.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "a Rua",
+                "child": ", Bianca",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Rua",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Bianca",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", Bianca",
+                "child": "a Rua",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Bianca",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Rua",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", Bianca",
+                "child": "uma volta",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Bianca",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "volta",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "resolve",
+                "child": "Bianca",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "resolver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bianca",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Depois que os seus olhos cheios de estrabismo e despeito vêem a lanterninha traseira do Buick desaparecer, [MASK] resolve dar um giro pelo bairro.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, Personagem segurou a respiração e fechou os olhos para uma breve meditação. Ao abri-los novamente, sentiu o coração acelerando e a determinação se fortalecendo. \"Este bairro precisa conhecer a verdade\", pensou Personagem.",
+        "generated_text_llama": "Depois de deixar o Buick afastar-se, Personagem sente uma sensação de alívio na espinha. Ele olha para os lados, mas não vê nenhum sinal de seguidores ou policiais. Satisfeito com sua fuga, ele acelera um pouco mais e dirige em direção à praia, que já está iluminada pela lua cheia. A brisa marinha fria acaricia seu rosto enquanto ele desvia pelas ruas estreitas do bairro, tentando não ser notado.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "segurou",
+                    "ROOT"
+                ],
+                [
+                    "pensou",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sente",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Aristodemo Guggiani",
+        "sentence": "No Grupo Escolar da Barra Funda Aristodemo Guggiani aprendeu em três anos a roubar com perfeição no jogo de bolinhas (garantindo o tostão para o sorvete) e ficou sabendo na ponta da língua que o Brasil foi descoberto sem querer e é o país maior, mais belo e mais rico do mundo.",
+        "start_char": 14743,
+        "end_char": 14762,
+        "excerpt": "TIRO DE GUERRA N0 35 No Grupo Escolar da Barra Funda Aristodemo Guggiani aprendeu em três anos a roubar com perfeição no jogo de bolinhas (garantindo o tostão para o sorvete) e ficou sabendo na ponta da língua que o Brasil foi descoberto sem querer e é o país maior, mais belo e mais rico do mundo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "aprendeu",
+                "child": "Aristodemo Guggiani",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aprender",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Aristodemo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "No Grupo Escolar da Barra Funda [MASK] aprendeu em três anos a roubar com perfeição no jogo de bolinhas (garantindo o tostão para o sorvete) e ficou sabendo na ponta da língua que o Brasil foi descoberto sem querer e é o país maior, mais belo e mais rico do mundo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Personagem, após ter dominado a arte de roubar no jogo das bolinhas, passou a usar essas habilidades para dar um passo adiante em sua vida. Acabara de descobrir que o Brasil era muito mais do que uma simples escola rural: era o país maior, mais belo e mais rico do mundo, segundo as notícias que ouvia de barcos viajantes e viajantes ocasionais que passavam pela Barra Funda.",
+        "generated_text_llama": "Com a mente cheia de sonhos e um saco cheio de dinheiro, Personagem decidiu que era hora de usar suas habilidades para fazer algo maior. Ele começou a se mover pelos principais bairros da cidade, procurando por oportunidades para mostrar seu talento. Em uma noite, enquanto estava passando por uma rua animada, ele viu um grupo de pessoas reunidas em frente a uma loja de bolinhas. Eles estavam discutindo sobre uma competição secreta para os melhores roubo de bolinhas da cidade, e Personagem sabia que estava na hora certa para entrar em ação.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "passou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "sabia",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Aristodemo",
+        "sentence": "Aristodemo ficava olhando para trás até o Largo das Perdizes.",
+        "start_char": 16619,
+        "end_char": 16629,
+        "excerpt": "Ela vinha à janela ver o Aristodemo passar. O Evaristo era quem avisava por camaradagem tocando o cláxon do ônibus verde. Aristodemo ficava olhando para trás até o Largo das Perdizes.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "passar",
+                "child": "o Aristodemo",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "passar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Aristodemo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "ficava",
+                "child": "Aristodemo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Aristodemo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] ficava olhando para trás até o Largo das Perdizes.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem continuou a caminhar lentamente, mirando para trás até o Largo das Perdizes, onde estavam as casas de tijolos velhas e com janelas fechadas. O sol parecia baixar na distância e pendurava sobre a cabeça dele uma espécie de cúpula que aumentava sua sensação de isolamento. Depois de alguns minutos, Personagem sentiu um frio brando no vento e um pássaro atravessou o espaço entre as casas, dando um ruído sussurrante em seu ouvido esquerdo.",
+        "generated_text_llama": "Enquanto caminhava, as luzes da noite começavam a brilhar nos edifícios ao redor do largo, iluminando os passos de Personagem sobre a calçada coberta por uma fina camada de neve. O frio da noite era penetrante, mas Personagem não sentia dor alguma, seu coração estava mais cheio de emoções do que de frio. Com um movimento rápido, ele puxou o casaco mais apertado sobre os ombros, como se estivesse tentando esconder algo.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentia",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Aristodemo Guggiani",
+        "sentence": "E saberia então que Aristodemo Guggiani para se livrar do sorteio ostentava agora a farda nobilitante de soldado do Tiro-de-Guerra n.0 35.  Companhia!",
+        "start_char": 17351,
+        "end_char": 17370,
+        "excerpt": "Olhe que a ingratidão mata... \" Fosse Mlle Miosótis (no mundo Benedita Guimarães, aluna mulata da Escola Complementar Caetano de Campos) indagar do paradeiro de Aristodemo entre os jovens defensores da pátria. E saberia então que Aristodemo Guggiani para se livrar do sorteio ostentava agora a farda nobilitante de soldado do Tiro-de-Guerra n.0 35.  Companhia!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "livrar",
+                "child": "Aristodemo Guggiani",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "livrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Aristodemo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "E saberia então que [MASK] para se livrar do sorteio ostentava agora a farda nobilitante de soldado do Tiro-de-Guerra n.0 35.  Companhia!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando com a narrativa, após a sua decisão drástica, Personagem rapidamente procurou e encontrou um depósito de armas escondido no subterrâneo da cidade, onde estavam armazenados os uniformes do Tiro-de-Guerra n.0 35, acompanhados de todo o equipamento necessário para uma batalha. Com um sentimento de resolução e determinação, Personagem vestiu-se com a farda nobilitante do soldado e segurou em mãos seu rifle M1 Garand, preparando-se para fazer qualquer coisa necessária para escapar do sorteio.",
+        "generated_text_llama": "Ele roupou rapidamente e escondeu o bilhete no porta-joias, enquanto olhava ao redor com uma mistura de ansiedade e determinação. Lá fora, a calça de couro brilhava sob as luzes da lua, enquanto a farda do uniforme cintilava com a estrela dourada do Tiro-de-Guerra. Personagem sabia que precisava se apresentar digno para o rei do Tiro-de-Guerra e não poderia permitir que a sorte decidisse seu destino. Com um último olhar no refúgio, ele saiu pela porta secreta e começou a caminhar pelo deserto escuro, o silêncio sendo seu único companheiro. O vento sussurrou segredos em sua direção, mas Personagem não se deixou levar pelo vento e continuou adiantado, sua respiração pesada na escuridão.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "procurou",
+                    "ROOT"
+                ],
+                [
+                    "vestiu-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ],
+                [
+                    "deixou",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sargento Aristóteles Camarão de Medeiros",
+        "sentence": "10  Sargento Aristóteles Camarão de Medeiros, natural de São Pedro do Cariri, quando falava em honra da farda, deveres do soldado e grandeza da pátria arrebatava qualquer um.",
+        "start_char": 17999,
+        "end_char": 18039,
+        "excerpt": "Abém! Aristodemo era o base da segunda esquadra. 10  Sargento Aristóteles Camarão de Medeiros, natural de São Pedro do Cariri, quando falava em honra da farda, deveres do soldado e grandeza da pátria arrebatava qualquer um.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "falava",
+                "child": "Sargento Aristóteles Camarão de Medeiros, natural de São Pedro do Cariri,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sargento",
+                "word_categories": [
+                    "outro",
+                    "social"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "10  [MASK], natural de São Pedro do Cariri, quando falava em honra da farda, deveres do soldado e grandeza da pátria arrebatava qualquer um.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "10 João, natural de São Pedro do Cariri, quando se aprofundava no discurso sobre a honra da bandeira, dos deveres do soldado e da majestade da pátria, sempre se consagrava a tal forma de oratória que era capaz de enfeitar qualquer um. Depois de sua apresentação triunfal no salão onde ocorreu o encontro com os senhores dos municípios, João decidiu explorar uma nova oportunidade para servir sua terra natal. Ele partiu então em direção à cidade mais próxima onde acreditava que estariam em busca de voluntários para as campanhas militares.",
+        "generated_text_llama": "E assim, com olhos brilhantes de entusiasmo, Personagem começou a descrever sua experiência como soldado na guerra contra os gauchos, narrando as vitórias e também as derrotas, mostrando seu coração cheio de patriotismo e orgulho pela seleção que representava. Com uma voz mais forte e entusiasmada, ele falou sobre a importância da farda em simbolizar a grandeza do Brasil e como cada detalhe era cuidadosamente escolhido para refletir a honra e a dignidade de um soldado.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Guilherme Schwertz",
+        "sentence": "Presidente deste Tiro- de-Guerra e depois de ouvir seis testemunhas oculares e auditivas acerca do deplorável fato ontem acontecido nesta sede do qual resultou levar uma lapada na face direita o inscrito Guilherme Schwertz, n.0 81, comunico que fica o citado inscrito Guilherme Schwertz, n.0 81, desligado das fileiras do Exército, digo, deste Tiro-de- Guerra visto ter-se mostrado indigno de ostentar a farda gloriosa de soldado nacional",
+        "start_char": 20543,
+        "end_char": 20561,
+        "excerpt": "11  \"Ordem do Dia De conformidade com o ordenado pelo Ex.mo Sr. Dr. Presidente deste Tiro- de-Guerra e depois de ouvir seis testemunhas oculares e auditivas acerca do deplorável fato ontem acontecido nesta sede do qual resultou levar uma lapada na face direita o inscrito Guilherme Schwertz, n.0 81, comunico que fica o citado inscrito Guilherme Schwertz, n.0 81, desligado das fileiras do Exército, digo, deste Tiro-de- Guerra visto ter-se mostrado indigno de ostentar a farda gloriosa de soldado nacional",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "o inscrito",
+                "child": "Guilherme Schwertz",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "inscrito",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Guilherme",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Guilherme Schwertz",
+                "child": "o inscrito",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Guilherme",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "inscrito",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "mostrado",
+                "child": "Guilherme Schwertz, n.0 81, desligado das fileiras do Exército, digo, deste Tiro-de- Guerra visto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mostrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Guilherme",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Presidente deste Tiro- de-Guerra e depois de ouvir seis testemunhas oculares e auditivas acerca do deplorável fato ontem acontecido nesta sede do qual resultou levar uma lapada na face direita o inscrito [MASK], n.0 81, comunico que fica o citado inscrito [MASK], n.0 81, desligado das fileiras do Exército, digo, deste Tiro-de- Guerra visto ter-se mostrado indigno de ostentar a farda gloriosa de soldado nacional",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Presidente deste Tiro-de-Guerra, depois de ouvir seis testemunhas oculares e auditivas sobre o trágico incidente que aconteceu na sede do qual resultou no Personagem n.0 81 receber uma lapada na face direita, comunica que esse inscrito Personagem, n.0 81, será removido das fileiras do Exército.",
+        "generated_text_llama": "O Personagem, n.0 81, ouviu as palavras do presidente com um misto de surpresa e raiva, pois não havia imaginado que sua conduta o levasse a tal punição. Com um olhar desafiador, ele se levantou da cadeira onde estava sentado e se aproximou da mesa where o presidente estava. \"Eu não entendi\", disse ele, com uma voz firme e autoritária, \"o que significa ser 'indigno de ostentar a farda gloriosa de soldado nacional'. O que eu fiz errado?\"",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ouviu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Guilherme Schwertz",
+        "sentence": "Presidente deste Tiro- de-Guerra e depois de ouvir seis testemunhas oculares e auditivas acerca do deplorável fato ontem acontecido nesta sede do qual resultou levar uma lapada na face direita o inscrito Guilherme Schwertz, n.0 81, comunico que fica o citado inscrito Guilherme Schwertz, n.0 81, desligado das fileiras do Exército, digo, deste Tiro-de- Guerra visto ter-se mostrado indigno de ostentar a farda gloriosa de soldado nacional",
+        "start_char": 20543,
+        "end_char": 20561,
+        "excerpt": "11  \"Ordem do Dia De conformidade com o ordenado pelo Ex.mo Sr. Dr. Presidente deste Tiro- de-Guerra e depois de ouvir seis testemunhas oculares e auditivas acerca do deplorável fato ontem acontecido nesta sede do qual resultou levar uma lapada na face direita o inscrito Guilherme Schwertz, n.0 81, comunico que fica o citado inscrito Guilherme Schwertz, n.0 81, desligado das fileiras do Exército, digo, deste Tiro-de- Guerra visto ter-se mostrado indigno de ostentar a farda gloriosa de soldado nacional",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "o inscrito",
+                "child": "Guilherme Schwertz",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "inscrito",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Guilherme",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Guilherme Schwertz",
+                "child": "o inscrito",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Guilherme",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "inscrito",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "mostrado",
+                "child": "Guilherme Schwertz, n.0 81, desligado das fileiras do Exército, digo, deste Tiro-de- Guerra visto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mostrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Guilherme",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Presidente deste Tiro- de-Guerra e depois de ouvir seis testemunhas oculares e auditivas acerca do deplorável fato ontem acontecido nesta sede do qual resultou levar uma lapada na face direita o inscrito [MASK], n.0 81, comunico que fica o citado inscrito [MASK], n.0 81, desligado das fileiras do Exército, digo, deste Tiro-de- Guerra visto ter-se mostrado indigno de ostentar a farda gloriosa de soldado nacional",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após ouvir as testemunhas e receber a notícia desgarradora, o presidente deste Tiro-de-Guerra ficou profundamente envergonhado. A imagem daquela lápida na face direita do inscrito Personagem, n.0 81, se tornou um dardo que penetrava no seu coração. Ele sentia a pesada responsabilidade pelo ocorrido e decidiu tomar uma medida imediata para esclarecer a situação e as circunstâncias do caso.",
+        "generated_text_llama": "O comissário militar, um homem de meia-idade com um rosto severo e olhos que pareciam pesar mais do que o necessário, olhou diretamente para Personagem e disse: \"Sinto muito, soldado. A sua conduta ontem foi inaceitável. Não apenas não defendeu a nossa posição, mas também permitiu que os inimigos nos atacassem com tanta facilidade. É isso que nos levou a tomar esta decisão difícil\". Em seguida, o comissário militar se virou para as seis testemunhas e pediu que elas apresentassem as provas do desastre. As testemunhas, um pouco assustadas, começaram a falar sobre o que haviam visto, desde a falta de vigilância até a cobardia de Personagem em face do inimigo. Enquanto isso, Personagem ficou parado, incapaz de se expressar, sabendo que suas falhas eram evidentes para todos. O comissário militar continuou: \"Soldado, você tem direito a um tribunal militar, mas não é esse o momento. A nossa decisão está tomada e não há espaço para discussões. Você é considerado inimigo do Exército e sua nomeação será anulada. Você deve se preparar para deixar este lugar e nunca mais servir aqui\". As palavras do comissário militar ecoaram pelo salão, deixando Personagem em silêncio, com a face roxa e a dor na lapidação ainda fresca em sua pele.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "deixando",
+                    "advcl"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Aristodemo Guggiani",
+        "sentence": "Aristodemo Guggiani logo depois apresentou sua demissão do cargo de cobrador da Companhia Autoviação Gabrielle d'Anunuzio.",
+        "start_char": 21856,
+        "end_char": 21875,
+        "excerpt": "(a) Sargento-Inspetor Aristóteles Camarão de Medeiros. \" Aristodemo Guggiani logo depois apresentou sua demissão do cargo de cobrador da Companhia Autoviação Gabrielle d'Anunuzio.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "apresentou",
+                "child": "Aristodemo Guggiani",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "apresentar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Aristodemo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] logo depois apresentou sua demissão do cargo de cobrador da Companhia Autoviação Gabrielle d'Anunuzio.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de apresentar sua demissão, o Personagem logo se sentiu livre e decidiu mudar sua vida. Por anos, ele havia trabalhado na Companhia Autoviação Gabrielle d'Anunuzio como cobrador, um trabalho que lhe tornava a vida monótona e angustiante. Mas agora, com o fim de seus trabalhos nessa empresa, ele tinha uma chance de começar tudo de novo.",
+        "generated_text_llama": "Depois de ler em voz alta a carta de demissão, Personagem entrega a cópia impressa à sua chefe, Sra. Bianchi, que parecia surpresa e um pouco magoada pela notícia. Em seguida, ele se dirige até o seu gabinete para coletar seus pertences e guardar as chaves do escritório. Personagem não queria deixar nada de valor por trás, nem mesmo a sua tigela de café favorita que estava sempre ao lado da mesa.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "entrega",
+                    "ROOT"
+                ],
+                [
+                    "queria",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Grazia",
+        "sentence": "Quando Grazia deu com ele na calçada abaixou a cabeça e atravessou a rua.",
+        "start_char": 24062,
+        "end_char": 24068,
+        "excerpt": "E assobiava a Scugnizza. As fábricas apitavam. Quando Grazia deu com ele na calçada abaixou a cabeça e atravessou a rua.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "deu",
+                "child": "Grazia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Grazia",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando [MASK] deu com ele na calçada abaixou a cabeça e atravessou a rua.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quando Personagem deu com ele na calçada, atordoado pela reação repentina do cachorro, atarracou no meio da rua e atribuladamente tentou se levantar, mas o animal se aproximava com rapidez desconcertante. José teve um momento de pausa, olhando fixedo nos olhos penetrantes do cachorro, sentindo a correnteja dos seus olhos e, de repente, o sorriso mais simpático surgiu em sua face. O animal parou imediatamente diante dele e agiu como se tivesse entendido a intuição de José. Ele ficou calmo, passando a mão pelo cachorro, que atingiu o pescoço do homem com o nariz e enrolou-se em volta dos seus joelhos. Jose sentiu que sua coração estava cheio de prazos inesperados e, enquanto a rua parecia se esconder atrás de uma neblina preciosa, os dois amigos começaram um passeio promissor juntos.",
+        "generated_text_llama": "Com um movimento rápido, Personagem olhou ao redor, verificando se alguém estava observando-o. A rua estava vaga, exceto por alguns pedestres que caminhavam apressados em direções opostas. Ele suspirou fundo e começou a correr, seu passo rápido e confiante. Personagem sabia que precisava encontrar um lugar seguro para se esconder e descansar um pouco, pois estava morrendo de fome.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "deu",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ],
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nicolino",
+        "sentence": "Nicolino apertou o fura-bolos entre os dentes.",
+        "start_char": 24497,
+        "end_char": 24505,
+        "excerpt": "É isso mesmo. E foi almoçar correndo. Nicolino apertou o fura-bolos entre os dentes.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "apertou",
+                "child": "Nicolino",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "apertar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nicolino",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] apertou o fura-bolos entre os dentes.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, de repente, a cor da sala se alterou. Um sorriso calcinhado e irônico se espalhou pelo rosto do rapaz, que era o famoso detetive particular Personagem. Com a mão esquerda, segurava a arma enferrujada em suas mãos, enquanto com a direita acionava o intercom para chamar sua assistente.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "detetive",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Teresa Rita",
+        "sentence": "Teresa Rita misturou lágrimas com gemidos e entrou no seu quarto batendo a porta.",
+        "start_char": 25417,
+        "end_char": 25428,
+        "excerpt": "A SOCIEDADE  Filha minha não casa com filho de carcamano! A esposa do Conselheiro José Bonifácio de Matos e Arruda disse isso e foi brigar com o italiano das batatas. Teresa Rita misturou lágrimas com gemidos e entrou no seu quarto batendo a porta.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "misturou",
+                "child": "Teresa Rita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "misturar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Teresa",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] misturou lágrimas com gemidos e entrou no seu quarto batendo a porta.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Ótimo, vamos continuar em português-brasileiro. A seguir:",
+        "generated_text_llama": "Personagem sentou-se na cama, rodeado pelas sombras das cortinas escuras que bloqueavam a luz do dia. A dor em sua cabeça parecia não ter fim e ele sentia como se estivesse sendo sufocado por um peso invisível. Ele tentou se levantar, mas seu corpo se sentiria como gelo e o pôr-arrastão.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "continuar",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Teresa Rita",
+        "sentence": "O esperado grito do cláxon fechou o livro de Henri Ardel e trouxe Teresa Rita do escritório para o terraço.",
+        "start_char": 25668,
+        "end_char": 25679,
+        "excerpt": "Teresa Rita misturou lágrimas com gemidos e entrou no seu quarto batendo a porta. O Conselheiro José Bonifácio limpou as unhas com o palito, suspirou e saiu de casa abotoando o fraque. O esperado grito do cláxon fechou o livro de Henri Ardel e trouxe Teresa Rita do escritório para o terraço.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "misturou",
+                "child": "Teresa Rita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "misturar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Teresa",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "trouxe",
+                "child": "Teresa Rita do escritório para o terraço",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "trouxe",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Teresa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "O esperado grito do cláxon fechou o livro de Henri Ardel e trouxe [MASK] do escritório para o terraço.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Apertando o joelho no bolso, Henrique Ardel se dirigiu rapidamente pelo corredor até o terraço da sua loja de antiguidades, onde esperava um pacote que vinha via correio especial. O terraço, com seus móveis e livros espalhados pelas cascas de madeira, oferecia-lhe uma visão agradável do ar de Santos, com suas torres varejadoras no horizonte.",
+        "generated_text_llama": "[A MASK] olhou em volta, sentindo a brisa fresca do céu noturno acariciar seu rosto. O som das luzes distantes da cidade ecoava através da noite silenciosa, criando uma sensação de isolamento que Personagem apreciou. Com um suspiro, ele se aproximou da balaustrada e sentou-se, deixando as pernas pendentes para baixo. A vista do pôr do sol sobre a cidade era tão bonita que Personagem mal conseguiu se concentrar em seus pensamentos.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "dirigiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "apreciou",
+                    "acl:relcl"
+                ],
+                [
+                    "conseguiu",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Adriano Melli",
+        "sentence": "Adriano Melli passou outras vezes ainda.",
+        "start_char": 26416,
+        "end_char": 26429,
+        "excerpt": "Ah meu Deus, meu Deus, que vida, meu Deus! 14 Adriano Melli passou outras vezes ainda.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "passou",
+                "child": "Adriano Melli",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "passar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Adriano",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] passou outras vezes ainda.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas Personagem não se deteve por muito tempo. Depois de ter medido as forças e se adaptado às novas condições que lhe foram impostas, começou a seguir em frente com mais determinação.",
+        "generated_text_llama": "Ele tentava esquecer a sensação de perda e solidão que o acompanhava há tanto tempo, mas não conseguiu. Com um suspiro profundo, ele se levantou da cadeira e começou a caminhar pelo quarto, tentando distribuir o peso do seu pesar em cada passo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "deteve",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cristo",
+        "sentence": "Dizem que Cristo nasceu em Belém...",
+        "start_char": 26606,
+        "end_char": 26612,
+        "excerpt": "Tocou para a Avenida Paulista. Na orquestra o negro de casaco vermelho afastava o saxofone da beiçorra para gritar: Dizem que Cristo nasceu em Belém...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "nasceu",
+                "child": "Cristo",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "nascer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cristo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Cristo",
+                "child": "Dizem",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cristo",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Dizem",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Dizem que [MASK] nasceu em Belém...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "....ele se mudou para a capital federal em busca de oportunidades. Lá, se aventurou na carreira artística, tornando-se um dos nomes mais conhecidos no meio da música. Ele compôs inúmeras canções que tocam todas as vertentes do Brasil e conquistaram milhões de ouvintes pelo mundo todo. A cada concerto, a sala se lotava até mesmo para os locais mais pequenos, e ele se encantou com o apoio dos torcedores brasileiros. Por fim, se consagrou como um dos maiores cantores e compositores da música popular brasileira.",
+        "generated_text_llama": "...em uma pequena casa de madeira na Rua XV, onde a tranquilidade do bairro contrastava com o barulho constante das ruas da cidade. Personagem era um menino curioso e cheio de energia, sempre pronto para explorar os cantos mais escondidos da cidade em busca de aventuras.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "menino",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cristo",
+        "sentence": "Cristo nasceu na Bahia, meu bem...",
+        "start_char": 27508,
+        "end_char": 27514,
+        "excerpt": "Meu pai quer fazer um negocio com o seu. Ah sim? Cristo nasceu na Bahia, meu bem...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "nasceu",
+                "child": "Cristo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "nascer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cristo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] nasceu na Bahia, meu bem...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, que nasceu na beleza exuberante da Bahia, decidiu partir em busca de aventuras e conhecimentos, uma espécie de jornada por terras incógnitas. A primeira etapa de sua jornada era ir até a cidade do Rio de Janeiro, o maravilhoso ponto final da linha-tronco do Brasil.",
+        "generated_text_llama": "Era uma manhada de verão, com o sol a queimar as areias do litoral e o mar a brilhar como um diamante no céu. Nascido em Salvador, Personagem era um homem que sempre sentiu uma conexão forte com a terra natal. Ele cresceu assistindo os moradores da comunidade contar histórias de seus avós, que eram conhecidos por sua sabedoria e conhecimento das tradições baianas.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "homem",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Salvatore Melli",
+        "sentence": "Salvatore Melli alinhou algarismos torcendo a bigodeira.",
+        "start_char": 27890,
+        "end_char": 27905,
+        "excerpt": "O Cav. Uff. Salvatore Melli alinhou algarismos torcendo a bigodeira.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "alinhou",
+                "child": "Salvatore Melli",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "alinhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Salvatore",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] alinhou algarismos torcendo a bigodeira.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ao notar que os números se tornavam cada vez mais altos, o Personagem sentiu um sentimento de espanto e insegurança se passando pelo seu peito. Porém, antes de poder contemplar isso por mais tempo, ouviu a voz de sua mãe chamá-lo pela porta de sua quartinha.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Adriano Melli",
+        "sentence": "Adriano Melli na frente de toda a gente recordou à mãe de sua futura nora os bons tempinhos em que lhe vendia cebolas e batatas, Olio di Lucca e bacalhau português, quase sempre fiado e até sem caderneta.",
+        "start_char": 30697,
+        "end_char": 30710,
+        "excerpt": "No chá do noivado o Cav. Uff. Adriano Melli na frente de toda a gente recordou à mãe de sua futura nora os bons tempinhos em que lhe vendia cebolas e batatas, Olio di Lucca e bacalhau português, quase sempre fiado e até sem caderneta.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "recordou",
+                "child": "Adriano Melli na frente",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "recordar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Adriano",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] na frente de toda a gente recordou à mãe de sua futura nora os bons tempinhos em que lhe vendia cebolas e batatas, Olio di Lucca e bacalhau português, quase sempre fiado e até sem caderneta.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, com uma expressão carinhosa no rosto, fechou os olhos por um momento e sentiu-se envelopado pela memória daquele vendedor de cebolas e batatas, Olio di Lucca e bacalhau português que era a sua mãe da nora.",
+        "generated_text_llama": "Com um sorriso largo, Personagem aproximou-se da mãe de sua futura nora e começou a contar uma mentira para impressioná-la. \"Ela é uma garota incrível, minha senhora\", disse ele, com um tom de voz que tentava transmitir confiança. \"Tornou-se uma especialista em... em... cozinhar batatas ao fogo\". A mãe de sua futura nora olhou para ele com um olhar curioso, enquanto Personagem apressava o ritmo da história, tentando manter a mentira viva por mais tempo. \"Sim, é uma verdade, minha senhora! Ela tem um segredo para fazer batatas tão fofas que todo mundo queria saber como ela faz.\" A mãe de sua futura nora sorriu levemente, pareceando aceitar a história, enquanto Personagem sentiu seu coração batendo mais rápido, nervoso com o medo de ser descoberto.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "fechou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "aproximou-se",
+                    "ROOT"
+                ],
+                [
+                    "apressava",
+                    "advcl"
+                ],
+                [
+                    "sentiu",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Mariana",
+        "sentence": "Dona Mariana sentou-se, colocou a filha em pé diante dela.",
+        "start_char": 31024,
+        "end_char": 31036,
+        "excerpt": "E amarelo. Tão engraçadinho. Dona Mariana sentou-se, colocou a filha em pé diante dela.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "sentou-se",
+                "child": "Dona Mariana",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "sentou-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] sentou-se, colocou a filha em pé diante dela.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem, sentado com sua filha na frente dele, prendeu suas mãos minúsculas entre as tus e lhe falaste:",
+        "generated_text_llama": "Ele olhou para sua filha, que tinha cerca de 10 anos, com um sorriso caloroso e diziu: \"Agora é sua vez, menina. Você precisa aprender a cozinhar como sua avó\". ",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "prendeu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Mariana",
+        "sentence": "Dona Mariana, escarlate de vergonha, murmurou no ouvido da filha:",
+        "start_char": 32447,
+        "end_char": 32459,
+        "excerpt": "A mãe da menina rica não respondeu. Ajeitou o chapeuzinho da filha, sorriu para o bicho, fez uma carícia na cabeça dele, abriu a bolsa e olhou o espelho. Dona Mariana, escarlate de vergonha, murmurou no ouvido da filha:",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "murmurou",
+                "child": "Dona Mariana, escarlate de vergonha,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "murmurar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], escarlate de vergonha, murmurou no ouvido da filha:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " - \"Meu querido bebê, agora você precisa seguir um caminho diferente,\" disse Personagem suavemente, enquanto olhava para a menina que ficava quietinha com medo e confusão em seus olhos.",
+        "generated_text_llama": "Ela se sentia tão estonteada que mal conseguiu sussurrar o comentário. Seus olhos começaram a ver as pessoas ao seu redor, como se estivessem vindo de uma sonho, e percebeu que estava no meio de uma multidão em movimento. As luzes coloridas da festa iluminavam seu rosto, e seus pulmões ainda estavam com o efeito do vinho.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "disse",
+                    "ROOT"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Mariana",
+        "sentence": "Dona Mariana (havia pago uma passagem só) opôs-se com energia e outro beliscão.",
+        "start_char": 33547,
+        "end_char": 33559,
+        "excerpt": "Olha à direita! Lisetta como compensação quis sentar-se no banco. Dona Mariana (havia pago uma passagem só) opôs-se com energia e outro beliscão.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "pago",
+                "child": "Dona Mariana",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pagar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] (havia pago uma passagem só) opôs-se com energia e outro beliscão.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Contudo, não sabia que o caminho do destino era mais complexo do que tudo o que ele já havia vivido. Ele entrou no avião e se estabeleceu numa cadeira perto da janela, olhando para baixo com uma expressão triste e inquietante nos lábios. Sua mente estava preenchida de questões e incertezas, mas decidiu fazê-las resolver nas próximas horas, que se passaram mais lentamente do que ele pensou.",
+        "generated_text_llama": "Com um grunho de frustração, Personagem começou a fazer um pequeno caminho pela areia, tentando encontrar um jeito de escapar do local onde estava preso. Ele olhou em volta, procurando por algum objeto ou peça que pudesse ajudá-lo a se libertar, mas não viu nada de promissor. Em seguida, ele começou a bater levemente com os cotovelos no solo, tentando criar um pequeno buraco para se esconder. O movimento o deixava sem fôlego, mas ele sabia que precisava continuar tentando se livrar daquela situação impossível.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Miquelina",
+        "sentence": "Miquelina ficou abobada com o olhar parado.",
+        "start_char": 35228,
+        "end_char": 35237,
+        "excerpt": "Gooool! Gooool! Miquelina ficou abobada com o olhar parado.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "ficou",
+                "child": "Miquelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Miquelina",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] ficou abobada com o olhar parado.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Personagem, com as mãos apertadas ao lado dele e uma expressão de inquietude sobre seu rosto, começou a piscar os olhos repetidamente. Ele estava tentando acordar algum tipo de sinal, alguma resposta da realidade em torno dele. Poucas palavras saíam de sua boca, apenas um susurro incompreensível que ecoava na sala vazia.",
+        "generated_text_llama": "Ele não conseguiu se soltar daquela perspectiva, como se seu pé tivesse sido preso naquela areia quente do deserto. O ar aquecido envolvia-o e fazia seus pulmões fazerem um esforço maior para capturar o oxigênio. A visão da vastidão desértica se estendia à frente dele, uma terra seca e árida que parecia nunca terminar.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Miquelina",
+        "sentence": "Miquelina fechou os olhos de ódio.",
+        "start_char": 35508,
+        "end_char": 35517,
+        "excerpt": "Dançavam. E as mãos batendo nas bocas:  Go-o-o-o-o-o-ol! Miquelina fechou os olhos de ódio.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "fechou",
+                "child": "Miquelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fechar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Miquelina",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] fechou os olhos de ódio.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem fechou lentamente seus olhos, como se estivesse escondendo seu sentimento de ódio. Em seguida, com uma expressão resoluta e determinada em seu rosto, levantou-se da cadeira, caminhou até a janela, abriu-a e passou um momento observando o céu noite, onde as estrelas espelhavam a tristeza que sentia. Então, com uma profunda inspiração, fez o sinal da cruz e recolheu a cabeça, como se pedindo força para enfrentar o próximo desafio. Em seguida, deu um passo dianteiro, resolveu que não mais permitiria que seu sentimento de ódio dominasse suas ações e deixou de lado as tensões daquela noite, preparando-se para enfrentar o amanhecer com uma espiritualidade renovada.",
+        "generated_text_llama": "Descobriu que, apesar da raiva que ainda borbulhava dentro dele, havia uma luz no fundo dos seus olhos, uma chama de esperança e amizade que não podia ser apagada. Com um esforço consciente, Personagem respirou fundo e permitiu que a calma o envolvesse, como uma armadura protetora contra os ferimentos do passado.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "fechou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "respirou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Miquelina",
+        "sentence": "Miquelina ergueu-se na ponta dos pés.",
+        "start_char": 36462,
+        "end_char": 36471,
+        "excerpt": "O Palestra não dá pro pulo! Fecha essa latrina, seu burro! Miquelina ergueu-se na ponta dos pés.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "ergueu-se",
+                "child": "Miquelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ergueur se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Miquelina",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] ergueu-se na ponta dos pés.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de erguir-se na ponta dos pés, ela fechou os olhos e tomou uma espécie de respiro profundo. A mão esquerda segurava um cetro oubrado, com um arco-íris lambentindo em suas penas. Com um gesto lento, ela apontou o cetro para frente e começou a cantar, uma voz profunda e resonante que recheou toda a sala. A partir daquela música, a luz na sala aumentou, tornando-se mais intensa, até que se tornou um brilho que dourava tudo aquilo que caiu sobre suas mãos. Então, com um movimento delicado e poderoso, ela acendeu o chão e as paredes da sala, uma luz que parecia ser sua própria energia. A partir daí, começou a executar danças maravilhosas, com passos leves e fluidos que refletiam a harmonia na música de sua voz. O espetáculo acabou sendo uma demonstração magistral de seu domínio sobre os elementos e da magia que reside dentro de ela.",
+        "generated_text_llama": "E então, com os olhos fixos no horizonte, Personagem começou a caminhar lentamente pela praia, sentindo o vento fresco no rosto e a areia quente entre os pés. A lua cheia brilhava acima dele, iluminando o caminho em um brilho de prata e criando sombras misteriosas nas areias. Personagem se sentiu livre e solto, como se a vastidão do oceano lhe estivesse dando espaço para refletir sobre as coisas da vida. Ele não sabia exatamente para onde estava indo, mas estava determinado a seguir seu coração e ver onde a jornada o levaria.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Miquelina",
+        "sentence": "Miquelina mandou pelo irmão um recado ao Rocco.",
+        "start_char": 37284,
+        "end_char": 37293,
+        "excerpt": "Ó... lh'a gasosa! Moças comiam amendoim torrado sentadas nas capotas dos automóveis. A sombra avançava no gramado maltratado. Mulatas de vestidos azuis ganham beliscões. E riam. Torcedores discutiam com gestos. Ó... lh'a gasosa! Um aeroplano passeou sobre o campo. Miquelina mandou pelo irmão um recado ao Rocco.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "mandou",
+                "child": "Miquelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mandar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Miquelina",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] mandou pelo irmão um recado ao Rocco.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O carnaval estava cheio de alegria e energia, mas Maria não podia desfrontar o desgosto que estava em seu coração. Ela saiu do quintal onde passava os dias com sua família e mandou pelo irmão um recado ao Rocco. Este era um homem gentil e bondoso que a ajudava sempre que podia, então ela sabia que poderia confiar nele. O pedido de Maria era simples: pediu que ele buscasse sua tia Teresa para falar com ela sobre algumas coisas.",
+        "generated_text_llama": "Depois de entregar o recado ao irmão, Personagem seguiu para o local marcado, um pequeno café no centro da cidade. Ele sabia que Rocco estava lá, esperando por ele. Quem sabia exatamente o que acontecia naquele lugar, mas Personagem tinha uma sensação de que aquilo seria importante.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "podia",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "seguiu",
+                    "ROOT"
+                ],
+                [
+                    "tinha",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Miquelina",
+        "sentence": "Miquelina pôs a mão no coração.",
+        "start_char": 38367,
+        "end_char": 38376,
+        "excerpt": "Prrrrii! Aí, Heitor! A bola foi parar na extrema esquerda. Melle desembestou com ela. A arquibancada pôs-se em pé. Conteve a respiração. Suspirou:  Aaaah! Miquelina cravava as unhas no braço gordo da Iolanda. Em torno do trapézio verde a ânsia de vinte mi1 pessoas. De olhos ávidos. De nervos elétricos. De preto. De branco. De azul. De vermelho. Delírio futebolístico no Parque Antártica. Camisas verdes e calções negros corriam, pulavam, chocavam-se, embaralhavam-se, caíam, contorcionavam-se, esfalfavam-se, brigavam. Por causa da bola de couro amarelo que não parava, que não parava um minuto, um segundo. Não parava. Neco! Neco! Parecia um louco. Driblou. Escorregou. Driblou. Correu. Parou. Chutou. Gooool! Gooool! Miquelina ficou abobada com o olhar parado. Arquejando. Achando aquilo um desaforo, um absurdo. Aleguá-guá-guá! Aleguá-guá-guá! Hurra! Hurra! Corinthians! Palhetas subiram no ar. Com os gritos. Entusiasmos rugiam. Pulavam. Dançavam. E as mãos batendo nas bocas:  Go-o-o-o-o-o-ol! Miquelina fechou os olhos de ódio. Corinthians! Corinthians! Tapou os ouvidos. Já me estou deixando ficar com raiva! A exaltação decresceu como um trovão. O Rocco é que está garantindo o Palestra. Aí, Rocco! Quebra eles sem dó! A Iolanda achou graça. Deu risada. 19 Você está ficando maluca, Miquelina. Puxa! Que bruta paixão! Era mesmo. Gostava do Rocco, pronto. Deu o fora no Biagio (o jovem e esperançoso esportista Biagio Panaiocchi, diligente auxiliar da firma desta praça G. Gasparoni & Filhos e denodado meia-direita do S. C. Corinthians Paulista, campeão do Centenário) só por causa dele. Juiz ladrão, indecente! Larga o apito. gatuno! Na Sociedade Beneficente e Recreativa do Bexiga toda a gente sabia de sua história com o Biagio. Só porque ele era freqüentador dos bailes dominicais da Sociedade não pôs mais os pés lá. E passou a torcer para O Palestra. E começou a namorar o Rocco. O Palestra não dá pro pulo! Fecha essa latrina, seu burro! Miquelina ergueu-se na ponta dos pés. Ergueu os braços. Ergueu a voz:  Centra, Matias! Centra, Matias! Matias centrou. A assistência silenciou. Imparato emendou. A assistência berrou. Palestra! Palestra! Aleguá-guá! Palestra Aleguá! Aleguá! O italianinho sem dentes com um soco furou a palheta Ramenzoni de contentamento. Miquelina nem podia falar. E o menino de ligas saiu de seu lugar. todo ofegante, todo vermelho, todo triunfante, e foi dizer para os primos corinthianos na última fileira da arquibancada:  Conheceram, seus canjas? O campo ficou vazio. Ó... lh'a gasosa! Moças comiam amendoim torrado sentadas nas capotas dos automóveis. A sombra avançava no gramado maltratado. Mulatas de vestidos azuis ganham beliscões. E riam. Torcedores discutiam com gestos. Ó... lh'a gasosa! Um aeroplano passeou sobre o campo. Miquelina mandou pelo irmão um recado ao Rocco. Diga pra ele quebrar o Biagio que é o perigo do Corinthians. Filipino mergulhou na multidão. Palmas saudaram os jogadores de cabelos molhados. 20  Prrrrii! -O Rocco disse pra você ficar sossegada. Amilcar deu uma cabeçada. A bola foi bater em Tedesco que saiu correndo com ela. E a linha toda avançou. Costura, macacada Mas o juiz marcou um impedimento. Vendido! Bandido! Assassino! Turumbamba na arquibancada. O refle do sargento subiu a escada. Não pode! Põe pra fora! Não pode! Turumbamba na geral. A cavalaria movimentou-se. Miquelina teve medo. O sargento prendeu o palestrino. Miquelina protestou baixinho: Nem torcer a gente pode mais! Nunca vi! Quantos minutos ainda? Oito. Biagio alcançou a bola. Aí, Biagio! Foi levando, foi levando. Assim, Biagio! Driblou um. Isso! Fugiu de outro. Isso! Avançava para a vitória. Salame nele, Biagio! Arremeteu. Chute agora! Parou. Disparou. Parou. Aí! Reparou. Hesitou. Biagio Biagio! Calculou. Agora! Preparou-se. Olha o Rocco! É agora. Aí! Olha o Rocco! Caiu. CA-VA-LO! Prrrrii! Pênalti! Miquelina pôs a mão no coração.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "cravava",
+                "child": "Miquelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "cravar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Miquelina",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "ficou",
+                "child": "Miquelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Miquelina",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "fechou",
+                "child": "Miquelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fechar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Miquelina",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "ficando",
+                "child": ", Miquelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Miquelina",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "ergueu-se",
+                "child": "Miquelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ergueur se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Miquelina",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "podia",
+                "child": "Miquelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "miquelina",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "mandou",
+                "child": "Miquelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mandar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Miquelina",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "teve",
+                "child": "Miquelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Miquelina",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "protestou",
+                "child": "Miquelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "protestar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Miquelina",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "pôs",
+                "child": "Miquelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pôr",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Miquelina",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] pôs a mão no coração.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem posou a mão sobre o seu coração, sintindo uma intensa e palpitação que se sentia nosso passado em movimento. Ao abrir os olhos, percebeu que estava deitado na cama e que, por sorte, não era mais uma sonhadora e triste memória, mas um presente real e cheio de promessas inacabadas. Levantou-se lentamente, sentindo uma nova determinação em sua alma, como se um fôlego longo e ardoroso tivesse entrado nele.",
+        "generated_text_llama": "Nonato pôs a mão no coração, como se estivesse tomando um juramento sério. Ele olhou para o rosto de Lúcia, buscando uma resposta clara, mas suas expressões revelavam apenas dor e confusão. Sem perder a calma, ele começou a falar em voz suave, tentando esclarecer as coisas.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "posou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pôs",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Miquelina",
+        "sentence": "Miquelina murchou dentro de sua tristeza.",
+        "start_char": 38911,
+        "end_char": 38920,
+        "excerpt": "O ruído dos automóveis festejava a vitória. O campo foi-se esvaziando como um tanque. Miquelina murchou dentro de sua tristeza.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "murchou",
+                "child": "Miquelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "murchar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Miquelina",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] murchou dentro de sua tristeza.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após a grande lamentação e em seguida uma pesada pausa, a personagem levantou-se da cama com uma determinação inconfundível nos seus olhos. Ela se dirigiu para o espelho e observou-se de perto, enquanto recolhia as lágrimas que segavam no seu rosto. Era como se ela quisesse despertar uma força interior e enfrentar sua tristeza com todas as suas facetas.",
+        "generated_text_llama": "Ele tentou encontrar um consolo em seus pensamentos, mas a dor era tão intensa que parecia absorver toda a sua atenção. Com um esforço, ele se levantou da cadeira e começou a caminhar lentamente pelo quarto, procurando por algo que pudesse aliviar a tristeza que o envolvia.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Nequinha",
+        "sentence": "Dona Nequinha passou a língua nos lábios.",
+        "start_char": 41284,
+        "end_char": 41297,
+        "excerpt": "Mandou levar a sopa. E então? Dona Nequinha passou a língua nos lábios.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "passou",
+                "child": "Dona Nequinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "passar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] passou a língua nos lábios.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ela sonrou por um momento antes de se levantar do chão e andar até a porta da sala onde os convidados estavam reunidos. Ela acostumava sentir-se incomodada em tais ocasiões, mas hoje era diferente. Hoje, ela estava pronta para enfrentar o desafio e fazer um passo a frente.",
+        "generated_text_llama": "Ele olhou ao redor nervosamente, asegurando-se de que ninguém havia visto o que havia feito. Em seguida, rapidamente limpou a língua com a manga da camisa, tentando apagar qualquer rasto de saliva. Depois disso, ele pegou seu telefone e enviou um texto para sua melhor amiga, contando-lhe sobre o que havia acontecido.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Nequinha",
+        "sentence": "Dona Nequinha riu como uma perdida.",
+        "start_char": 43583,
+        "end_char": 43596,
+        "excerpt": "Ouvi, sim senhor. Ouvi, sim senhor coronel! Dona Nequinha riu como uma perdida.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "riu",
+                "child": "Dona Nequinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "rir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] riu como uma perdida.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após riir como uma perdida, ela não se importou muito com o que a outra pessoa pensava e, em vez disso, colocou as mãos no rosto da sua filha pequena, sentindo o calor de seu sorriso radiante. De repente, ela sentiu uma onda de calor e amor em torno dela, proveniente do grupo que a circundava.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Nequinha",
+        "sentence": "Uma noite na cama Dona Nequinha perguntou:",
+        "start_char": 43667,
+        "end_char": 43680,
+        "excerpt": "Dona Nequinha riu como uma perdida. Da resposta e da continência. Uma noite na cama Dona Nequinha perguntou:",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "riu",
+                "child": "Dona Nequinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "rir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Uma noite",
+                "child": "Dona Nequinha",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "noite",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Dona Nequinha",
+                "child": "Uma noite",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Dona",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "noite",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Uma noite na cama [MASK] perguntou:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " - \"Você não dormeu bem ontem?\" perguntou ele ao passar a cabeça para o lado dele, olhando para sua esposa. Ele sabia que o inquieto sono dela era uma marca registrada nos dias de trabalho.",
+        "generated_text_llama": "\"O que é que acontece quando as pessoas morrem? Não me contaram sobre isso na escola\", pensou Personagem. Ele se levantou da cama e foi até a janela, olhando para o céu escuro. A lua cheia brilhava no horizonte, iluminando as sombras das árvores do quintal.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pensou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Nequinha",
+        "sentence": "Dona Nequinha apertou mais uma vez a gravata azul do Januário.",
+        "start_char": 45072,
+        "end_char": 45085,
+        "excerpt": "O fechado. A comoção era geral. Dona Nequinha apertou mais uma vez a gravata azul do Januário.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "apertou",
+                "child": "Dona Nequinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "apertar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] apertou mais uma vez a gravata azul do Januário.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, depois que o relógio indicava a meia-noite, o homem queimou uma velha colher de marfim e, depois, segurando essa chama, se aproximou lentamente da janela aberta. Sobrevoavam as nuvens brancas no céu, e a cidade parecia dormir, mas havia um claro sinal na distância: uma pequena luz azul, que era a lua. O homem, com os olhos meigo atrevidos, abriu mais uma vez a gravata azul de seu amigo Januário e, segurando-a no pescoço, começou a ascender pela parede branca da torre.",
+        "generated_text_llama": "Com um movimento rápido e preciso, Personagem desembrulhou o colar de perla que adornava o pescoço do Januário. Ele pegou o pequeno rolo de dinheiro que estava escondido atrás do colar e o passou para dentro da gravata, onde ficaria seguro até que ele encontrasse uma ocasião mais adequada para usá-lo.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "desembrulhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Januário",
+        "sentence": "Januário fez uma cara de vítima.",
+        "start_char": 45186,
+        "end_char": 45194,
+        "excerpt": "Dona Nequinha apertou mais uma vez a gravata azul do Januário. O coronel deu uma escovadela, pensativo, no gorro. Januário fez uma cara de vítima.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "a gravata",
+                "child": "Januário",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "gravata",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Januário",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Januário",
+                "child": "a gravata",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Januário",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "gravata",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "fez",
+                "child": "Januário",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Januário",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] fez uma cara de vítima.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, que tinha a expressão de vítima, se levantou lentamente do banco e atingiu com sua olhar o assassino que estava fugindo. Em seguida, ela segurou seu tiro e, em uma única movimentação fluida, puxou sua arma escondida no bolso e disparou. O tiros deixou o criminoso morto no chão, e Personagem colocou a mira na testa do outro criminoso, que estava parado em frente a ela, espantado pela confusão. \"Vire para trás,\" disse Personagem, e o homem se inclinou e seguiu as ordens.",
+        "generated_text_llama": "Ela fez uma cara de vítima, exagerando um pouco a dor que sentia nos joelhos, enquanto se agachava para pegar seu sapato perdido na calçada. \"Oh, que malheirosa sorte!\", gritou ela, fazendo uma careta dramática. \"Eu estava tão próxima de chegar ao meu destino... e agora, o destino está fora do meu alcance!\" Ela pegou o sapato e se levantou, limpando a poeira branca do calçado com um lenço branco.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ],
+                [
+                    "colocou",
+                    "conj"
+                ]
+            ],
+            "obj": [
+                [
+                    "disse",
+                    "ROOT"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Nequinha",
+        "sentence": "Dona Nequinha (o coronel já se achava no meio da escadaria de mármore carregando a pasta colegial) beijou mais uma vez a testa do menino.",
+        "start_char": 45248,
+        "end_char": 45261,
+        "excerpt": "Januário fez uma cara de vítima. Vamos indo que está na hora. Dona Nequinha (o coronel já se achava no meio da escadaria de mármore carregando a pasta colegial) beijou mais uma vez a testa do menino.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "achava",
+                "child": "Dona Nequinha",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "achar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] (o coronel já se achava no meio da escadaria de mármore carregando a pasta colegial) beijou mais uma vez a testa do menino.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de dar um último beijo na cabeça do menino, o coronel puxou uma funda preta grande e pesada de sua boca, retirando assim a pasta colegial de seu ombro direito. Ao abrir a escadaria que conduzia ao salão da casa onde residiam, o coronel olhou para dentro e verificou se estava tudo à frente, bem organizado e pronto para a chegada de alguns convidados, que seriam as figuras mais importantes do governo central, reunindo-se nessa cidade para discutir assuntos cruciales para o país. Depois de satisfazer-se com os preparativos, o coronel fechou a escadaria e dirigiu-se ao escritório onde permaneceria até a chegada dos convidados, atento e nervoso sobre os desenvolvimentos do encontro que aguardava.",
+        "generated_text_llama": "Desaparecendo na multidão de visitantes que corriam em volta dele, o coronel não pôde evitar que seu olhar se cruzasse novamente com o da garota que o acompanhava, que observava tudo isso com uma mistura de curiosidade e desconfiança. Ele sabia que sua ação havia despertado mais perguntas do que respostas, mas não sabia como evitar seus sentimentos que pareciam estar cada vez mais fora do controle.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Januário",
+        "sentence": "Todo compenetrado, de pescoço duro e passo duro, Januário alcançou o coronel.",
+        "start_char": 45541,
+        "end_char": 45549,
+        "excerpt": "Seja muito respeitador. Vá. Todo compenetrado, de pescoço duro e passo duro, Januário alcançou o coronel.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "alcançou",
+                "child": "Januário",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "alcançar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Januário",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Todo compenetrado, de pescoço duro e passo duro, [MASK] alcançou o coronel.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Sem a menor demora, Personagem seguiu diretamente para o quartel-general do Coronel, onde encontrou o homem que sempre liderava as tropas com firmeza e resolução. Com um simples sorriso, o caçador agendou uma reunião privada para que pudesse apresentar suas informações mais importantes. O coronel, entusiasmado com a visita, concordou imediatamente e pediu para que ambos fossem para seu escritório de trabalho, onde podiam conversar sem distrações. O caçador conseguiu impressionar o Coronel com suas habilidades e o convenceu de que era um aliado confiável e valioso na luta contra os inimigos indomáveis das Terras Salvagens.",
+        "generated_text_llama": "Com um olhar penetrante, Personagem fixou os olhos no coronel, que estava sentado atrás da sua mesa, com uma expressão de desafio no rosto. Ele sabia que tinha que ser rápido e preciso, pois não tinha tempo para dar margem a hesitações ou dúvidas. Com um movimento suave, mas determinado, Personagem se aproximou da mesa e colocou a mão na mesa, como se estivesse fechando um negócio.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "seguiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "fixou",
+                    "ROOT"
+                ],
+                [
+                    "aproximou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Januário",
+        "sentence": "Januário estava louco para ir para o recreio.",
+        "start_char": 46105,
+        "end_char": 46113,
+        "excerpt": "Muito bem... Você parece que está dizendo isso assim sem muito entusiasmo... Era sono. Amanhã-ã-ã... ai! ai! ... nós vemos isso direito, Nequinha... Até o coronel ajudou a aprontar o Januário. Foi quem pôs ordem na cabelada cor de abóbora. Na terceira tentativa fez uma risca bem no meio da cabeça. Agora só falta a merenda. Dona Nequinha preparou logo. Pão francês. Goiabada Pesqueira. Queijo Palmira. Diga pro Inácio tirar o automóvel. O fechado. A comoção era geral. Dona Nequinha apertou mais uma vez a gravata azul do Januário. O coronel deu uma escovadela, pensativo, no gorro. Januário fez uma cara de vítima. Vamos indo que está na hora. Dona Nequinha (o coronel já se achava no meio da escadaria de mármore carregando a pasta colegial) beijou mais uma vez a testa do menino. Chuchurreadamente. Maternalmente. Vá, meu filhinho. E tenha muito juízo, sim? Seja muito respeitador. Vá. Todo compenetrado, de pescoço duro e passo duro, Januário alcançou o coronel. A meninada entrava no Ginásio de São Bento em silêncio e beijava a mão do Senhor Reitor. Depois disparava pelos corredores jogando os chapéus no ar. As aulas de portas abertas esperavam de carteiras vazias. O berreiro sufocava o apito dos vigilantes. Cumprimente o Senhor Reitor. 26  D. Estanislau deu umas palmadinhas na nuca do Januário. Januário tremeu. Crescidinho já. Muito bem. Muito bem. Como se chama? Januário não respondeu. Diga o seu nome para o Senhor Reitor. Januário. Ah! Muito bem. Januário. Muito bem. Januário de quê? Januário estava louco para ir para o recreio.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "aprontar",
+                "child": "o Januário",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "aprontar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Januário",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "a gravata",
+                "child": "Januário",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "gravata",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Januário",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Januário",
+                "child": "a gravata",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Januário",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "gravata",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "fez",
+                "child": "Januário",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Januário",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "alcançou",
+                "child": "Januário",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "alcançar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Januário",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "nuca",
+                "child": "Januário",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "nuca",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Januário",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Januário",
+                "child": "nuca",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Januário",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "nuca",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Januário",
+                "child": "tremeu",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "Januário",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "tremeu",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "tremeu",
+                "child": "Januário",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "tremeu",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Januário",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "respondeu",
+                "child": "Januário",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Januário",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "estava",
+                "child": "Januário",
+                "dep_h": "cop",
+                "pos_h": "AUX",
+                "lemma_h": "estar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Januário",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Januário",
+                "child": "louco",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Januário",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "louco",
+                "word_categories": [
+                    "carater_social"
+                ],
+                "verb_categories": [],
+                "adj_categories": [
+                    "behavior"
+                ]
+            }
+        ],
+        "masked_sentence": "[MASK] estava louco para ir para o recreio.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem, impelido pela vontade insacífica de brincar, correu até a porta do recreio com um paso que parecia ter sido tomado do vento, e abriu-a com uma força incrível. Ele atravessou a portaria em seguida, saltando o pátio em direção ao campo de brinquedos, brincando e gritando ao longo do caminho, imerso na ilusão de ter sido um herói que se livrou das restrições dos dias anteriores.",
+        "generated_text_llama": "Ele puxou seu chassi de skate e começou a preparar sua roupa para a saída, escolhendo uma camisa branca com um desenho de carros que lhe fazia feliz. Depois de vestir seu equipamento, Personagem se levantou da cadeira e começou a se preparar para o dia de aventuras, verificando suas ferramentas e combustível do chassi de skate.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Seu Chiarini",
+        "sentence": "Seu Chiarini começou a roncar muito forte.",
+        "start_char": 47475,
+        "end_char": 47487,
+        "excerpt": "Padre Nosso que estais no Céu... O soldado espiou da porta. Seu Chiarini começou a roncar muito forte.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "começou",
+                "child": "Seu Chiarini",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "começar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chiarini",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] começou a roncar muito forte.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas Personagem, que estava sentado na cadeira e comendo um lanche, não parou de sorrir. Ele conhecia este sinal bem - era quando ele estava a ponto de dormir, uma sensação agradável de que o corpo precisava descansar. Sem pensar duas vezes, Personagem acabou por se inclinar para trás e em poucos minutos estava sonolento e repousado. Ao redor dele, as pessoas continuavam a falar e o mundo continuava a girar, mas Personagem ficou imune a todo e qualquer som. A noite caiu sobre ele como uma manto preto, envelopando-o completamente em um sonho profundo. Ele durmia... mas não por muito tempo.",
+        "generated_text_llama": "[A MASK] começou a roncar muito forte, e logo os outros passantes se pararam para olhar. Alguns deles não puderam evitar sorrir diante da cena. A pessoa que estava sentada na calçada, uma jovem com um livro nas mãos, não parecia estar particularmente impressionada pelo barulho. Personagem continuou roncando, sem perceber o alvoreço que estava gerando entre as pessoas ao seu redor.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "parou",
+                    "ROOT"
+                ],
+                [
+                    "acabou",
+                    "ROOT"
+                ],
+                [
+                    "ficou",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Seu Américo Zamponi",
+        "sentence": "Seu Américo Zamponi soltou um palavrão, cuspiu, soltou outro palavrão, bebeu, soltou mais outro palavrão, cuspiu.",
+        "start_char": 48229,
+        "end_char": 48248,
+        "excerpt": "Pode matar sem medo. É ou não é, Seu Zamponi? Seu Américo Zamponi soltou um palavrão, cuspiu, soltou outro palavrão, bebeu, soltou mais outro palavrão, cuspiu.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "soltou",
+                "child": "Seu Américo Zamponi",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "soltar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Américo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] soltou um palavrão, cuspiu, soltou outro palavrão, bebeu, soltou mais outro palavrão, cuspiu.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de cuspir com raiva, Personagem acionou o controle remoto da TV e mudou o canal. As imagens se tornaram um lume azulado no telão, que contrasteava bastante com a cor vermelha de sua cara. Sentindo-se calmo por algumas instantes, ele sentou-se em cima do sofá, esforçando-se para relaxar e descansar. Entretanto, as palavras agridoces que havia gritado continuavam a reverberar em sua cabeça, como um som de fundo desagradável. Após alguns minutos de silêncio, ele cuspiu novamente e puxou a porta da sala para ir até a cozinha buscar água.",
+        "generated_text_llama": "Desculpe, mas não posso continuar a história com essa narrativa. Posso ajudar com outra coisa?",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "acionou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Nunzia",
+        "sentence": "O caixãozinho cor-de-rosa com listas prateadas (Dona Nunzia gritava)",
+        "start_char": 48432,
+        "end_char": 48443,
+        "excerpt": "Seu Américo Zamponi soltou um palavrão, cuspiu, soltou outro palavrão, bebeu, soltou mais outro palavrão, cuspiu. É isso mesmo, Seu Zamponi, é isso mesmo! O caixãozinho cor-de-rosa com listas prateadas (Dona Nunzia gritava)",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "gritava",
+                "child": "(Dona Nunzia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "gritar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "O caixãozinho cor-de-rosa com listas prateadas ([MASK] gritava)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Desesperado e sem mais recurso, o detetive decidiu tomar uma decisão arriscada. Com a energia que restava em seu corpo, partiu correndo pela rua, para encontrar o alvo que estava escondido entre as sombras da cidade noturna.",
+        "generated_text_llama": "Enquanto o caixãozinho cor-de-rosa com listas prateadas escutava, Personagem rapidamente abriu a tampa e tirou uma grande folha de papel do interior do caixão. Em seguida, ele começou a desenhar um mapa detalhado da região, marcando todos os lugares onde havia visto um dragão ou ouvido rumores sobre sua presença. Personagem sabia que precisava ser cuidadoso, pois sabia que os dragões eram criaturas misteriosas e perigosas, mas também estava convencido de que podia encontrar a resposta para salvar a cidade. Com o mapa em mãos, Personagem se preparou para partir em uma nova aventura, determinado a encontrar os dragões e proteger sua terra natal.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "abriu",
+                    "ROOT"
+                ],
+                [
+                    "sabia",
+                    "ROOT"
+                ],
+                [
+                    "preparou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tibúrcio",
+        "sentence": "Na Praça Buenos Aires, Tibúrcio já havia arranjado três votos para as próximas eleições municipais.",
+        "start_char": 49626,
+        "end_char": 49634,
+        "excerpt": "Sinais-da-santa-cruz. Gente parada. Na Praça Buenos Aires, Tibúrcio já havia arranjado três votos para as próximas eleições municipais.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "arranjado",
+                "child": "Tibúrcio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "arranjar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tibúrcio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Na Praça Buenos Aires, [MASK] já havia arranjado três votos para as próximas eleições municipais.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Na Praça Buenos Aires, José Luiz, que já havia arranjado três votos para as próximas eleições municipais, decidiu ainda investir mais tempo em seus planos políticos. Ele então começou a recorrer por toda a cidade, conversando com os cidadãos e apresentando-se como um candidato que lutaria pelo melhoramento da cidade. Para reforçar sua mensagem, ele distribuiu folhetos contendo suas propostas e promessas de política pública.",
+        "generated_text_llama": "E agora, enquanto observava a multidão se aglomerar na praça, Personagem sabia que precisava de mais um voto confiável para garantir sua candidatura à prefeitura. Ele começou a caminhar em direção ao café da esquina, onde conhecera João, um empresário respeitado da cidade. ",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Aída",
+        "sentence": "Aída voltou com a chave do caixão presa num lacinho de fita.",
+        "start_char": 49746,
+        "end_char": 49750,
+        "excerpt": "Mamãe, mamãe! Venha ver um enterro, mamãe! Aída voltou com a chave do caixão presa num lacinho de fita.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "voltou",
+                "child": "Aída",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "voltar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Aída",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] voltou com a chave do caixão presa num lacinho de fita.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Personagem, após pegar a chave do caixão colocada no laço de fita, desceu as escadarias até o subsolo. Ao chegar, abriu o portão pesado que protegia a entrada da sala secreta. Acendeu a luz e passou a explorar o local, cujo aroma era antigo e ameaçador. Em meio à escuridão, ele avistou uma lâmpada acesa no fundo do espaço, onde estavam espalhados documentos e objetos que pareciam ter sido escondidos há muito tempo. Ele passou a examinar cada um deles, revelando uma história obscura e perturbadora que ele precisava desvendar.",
+        "generated_text_llama": "Personagem sorriu para si mesmo, satisfeito com a maneira como havia engenhado para recuperar a chave. Ele sabia que sem ela, teria perdido o acesso ao segredo escondido no caixão. Com cuidado, ele começou a abrir a gaveta do seu escritório, procurando por um pedaço de papel para usar como alavanca. Encontrou um pedaço de madeira fina e usou-o para soltar a chave presa à fita. Depois de alguns momentos de esforço, a chave finalmente caiu para o chão, liberdandoPersonagem do império das gavetas.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "desceu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Bianca",
+        "sentence": "E Dona Bianca suando firme na cozinha e no bocce.",
+        "start_char": 51234,
+        "end_char": 51245,
+        "excerpt": "Também o Natale não despregava do balcão de madrugada a madrugada. Trabalhava como um danado. E Dona Bianca suando firme na cozinha e no bocce.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "suando",
+                "child": "Dona Bianca",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "suar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "E [MASK] suando firme na cozinha e no bocce.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de limpar cuidadosamente a cozinha e o bocce, [Ele/Ela], com calma inabalável, começou a preparar um prato especial para sua família. A comida era uma sopa que lembra as suas origens, que combinava sabores exóticos e saborosos. Enquanto isso, [Ele/Ela] não podia impedir de sorrir, pois sentia o amor em cada movimento delicado de sua mão sobre os utensílios. Ao chegar ao momento de misturar a sopa na caldeira, [Ele/Ela] fechou os olhos por um instante, sintindo-se tão grato por todos aqueles que o apoiavam nesta jornada. De repente, soavam as vozes das crianças na porta da cozinha pedindo para ir à mesa, e [Ele/Ela] sentiu seu coração batendo com alegria.",
+        "generated_text_llama": "Ele começou a preparar o café da manhã, mexendo os ovos cozidos com um garfo e adicionando uma pitada de sal e pimenta. Enquanto isso, sua irmã mais velha, Lívia, entrou na cozinha com um bigode fresco do almoço e começou a lavar as louças sujas. \"Eu estou cansada, máscara\", ela disse, \"você pode ajudar-me a limpar o resto das louças?\" E, sem hesitar, Personagem se levantou da cadeira e começou a ajudar sua irmã a limpar a cozinha, preparando-se para uma tarde de trabalho e estudos.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Bianca",
+        "sentence": "Dona Bianca está chamando o senhor depressa na cozinha.",
+        "start_char": 52513,
+        "end_char": 52524,
+        "excerpt": "Natale que não perdia tempo calculou logo quanto poderia oferecer por toda aquela mercadoria (cebolas e o resto) no leilão da falência: dez contos, talvez sete, quem sabe cinco. O português não agüentaria mesmo o tranco por mais tempo. Dona Bianca está chamando o senhor depressa na cozinha.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "chamando",
+                "child": "Dona Bianca",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chamar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] está chamando o senhor depressa na cozinha.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele abre a porta e, de surpresa, encontra a senhora com uma expressão triste em seu rosto. \"O que tem, meu amor?\", pergunta a senhora, olhando para ele com os olhos quentes.",
+        "generated_text_llama": "Personagem está chamando o senhor depressa na cozinha, sabendo que ele tem uma reunião importante com o patrão da casa em 15 minutos. Ele se levanta da cadeira e começa a preparar-se para a reunião, passando por um banho rápido e vestindo um terno elegante.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "chamando",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "José Espiridião",
+        "sentence": "José Espiridião aceitava o título e a cerveja.",
+        "start_char": 54180,
+        "end_char": 54195,
+        "excerpt": "Venha depressa que o Dino quer avançar nas comidas! Mais um copo, Seu Doutor. José Espiridião aceitava o título e a cerveja.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "aceitava",
+                "child": "José Espiridião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aceitar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] aceitava o título e a cerveja.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após aceitar o título e a cerveja, Personagem deu um sorriso triunfal. Depois disso, dirigiu-se para o lado dos espectadores, dando um abraço aos seus familiares e amigos que estavam no local. Após isso, caminhou para o centro da quadra, recebendo felicitações e parabéns de todos os presentes. Com seu rosto sereno e uma expressão inconfundível de orgulho, Personagem fez um discurso curto, agradecendo a equipe e aos torcedores por sua forte apoio durante o campeonato. Depois disso, levantou sua copa e gritou em alto voz: \"Vamos defender nosso título na próxima temporada!\"",
+        "generated_text_llama": "E então, Personagem beijou a cerveja com um sorriso satisfeito, sentindo-se como um campeão verdadeiro. Ele levantou a garrafa em celebração e gritou: \"Eu sou o campeão do torneio! Ninguém pode me derrubar!\" A multidão de fãs e patrocinadores aplaudiu em entusiasmo, enquanto Personagem se sentia como um herói.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "deu",
+                    "ROOT"
+                ],
+                [
+                    "fez",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "beijou",
+                    "advcl"
+                ],
+                [
+                    "sentia",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Bianca",
+        "sentence": "Dona Bianca pôs o Nino na caminha de ferro.",
+        "start_char": 54844,
+        "end_char": 54855,
+        "excerpt": "Se o doutor me promete ficar quieto  compreende?  e o negócio dá certo o doutor leva também as suas vantagens... Espiridião já sabia disso. Dona Bianca pôs o Nino na caminha de ferro.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "pôs",
+                "child": "Dona Bianca",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pôr",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] pôs o Nino na caminha de ferro.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, a rainha Isabel I de Espanha, que era a regente de Portugal em nome do seu filho, o rei D. Sebastião, decidiu seguir o conselho do duque de Bragança e partiu para Lisboa a fim de consolidar sua posição no poder. No caminho, ela enfrentou várias resistências dos nobres que não estavam contentes com sua regência. Porém, Isabel era uma líder forte e persistente, e conseguiu enfrentar cada desafio com coragem e determinação. Quando chegou a Lisboa, ela encontrou a cidade em estado ruinoso, com os edifícios danificados e as pessoas sofrendo por causa da falta de alimentos e recursos básicos. Mas Isabel não se desanimou, e rapidamente começou a reconstruir a cidade e a melhorar as condições de vida das pessoas. No entanto, o maior desafio para ela viria mais tarde: a invasão dos mamelucos, uma ordem militar muito temida na época, que ameaçava invadir Portugal. Isabel tomou medidas militares urgentes e conseguiu repelir a invasão. Após esta vitória, ela se consolidou definitivamente como a governante de Portugal e garantiu a segurança e a prosperidade do reino por muitos anos. Assim, Isabel I foi uma rainha corajosa e capaz, que sofreu os desafios de seu tempo com coragem e determinação, e se transformou em uma das governantes mais respeitadas da história de Portugal.",
+        "generated_text_llama": "Não posso ajudar com isso.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "líder",
+                    "ROOT"
+                ],
+                [
+                    "desanimou",
+                    "ROOT"
+                ],
+                [
+                    "tomou",
+                    "ROOT"
+                ],
+                [
+                    "rainha",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Bianca",
+        "sentence": "Dona Bianca deitou-se sem apagar a luz.",
+        "start_char": 55400,
+        "end_char": 55411,
+        "excerpt": "Saiu de novo. E trouxe meia Pretinha. Dona Bianca deitou-se sem apagar a luz.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "deitou-se",
+                "child": "Dona Bianca",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "deitor se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] deitou-se sem apagar a luz.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem, com olhos verdes e barba longa, ficou sentado no banco, olhando para o espelho sem acertar em nenhum reflexo, como se tivesse perdido a si mesmo nas profundezas daquela sala abandonada. Depois de uma pausa, estendendo a mão direita, ele começou a traçar um circulo com o dedo no chão, seguindo uma linha que parecia invisível para os olhos dos demais. As suas mãos tremulares seguravam um livro antigo fechado, enchendo a sala de uma espessura indefinida, como se estivesse carregando dentro de si as respostas a todas as perguntas que lhe surgiam.",
+        "generated_text_llama": "Depois de se deitar, Personagem sentiu um peso no peito e começou a sentir uma dor intensa. Ele tentou levantar a mão para tocar seu coração, mas sentiu uma onda de esgotamento e desespero. A dor era como se estivesse sendo arrancada por dentro, fazendo com que Personagem sinto como se estivesse sendo esmagado.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "sinto",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Emília",
+        "sentence": "Dona Emília fazendo meias roxas, verdes, amarelas.",
+        "start_char": 57196,
+        "end_char": 57207,
+        "excerpt": "Ficavam gozando a fresca uma porção de tempo. Tranqüilo cachimbando. Dona Emília fazendo meias roxas, verdes, amarelas.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "fazendo",
+                "child": "Dona Emília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "aparencia",
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] fazendo meias roxas, verdes, amarelas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, enfeitiçando a fábrica com ações e cores vibrantes, seguiu elaborando as meias de suas próximas coleções. As tinturas esbranquiçadas se misturavam com os toques coloridos de azul e verde, criando contrastes harmônicos na superfície de cada calça. Em seguida, aplicou o detalhe mais delicado: um cacholete com seu logotipo em tela branca, que iluminava as meias e lhes conferia uma personalidade única e reconhecível. Finalmente, verificando com meticulosidade os pares finalizados, Personagem acionou a máquina de enrollar-empacotar, preparando as peças para serem enviadas às lojas parceiras.",
+        "generated_text_llama": "Enquanto trabalhava nos seus projetos de coração, Personagem não podia deixar de notar a forma como as cores se misturavam e criavam novas combinações. Com um sorriso no rosto, ele começou a fazer meias roxas, verdes e amarelas, experimentando diferentes combinações para criar um efeito único.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "seguiu",
+                    "ROOT"
+                ],
+                [
+                    "acionou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Emília",
+        "sentence": "Dona Emília estava mexendo na cozinha quando o filho do Lorenzo gritou no corredor:  Vovó!",
+        "start_char": 60995,
+        "end_char": 61006,
+        "excerpt": "E maxixava sob as arcadas. Tranqüilo empurrou o filho com fraque e tudo para dentro do automóvel no Largo de São Francisco e mandou tocar a toda para casa. Dona Emília estava mexendo na cozinha quando o filho do Lorenzo gritou no corredor:  Vovó!",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "mexendo",
+                "child": "Dona Emília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mexer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] estava mexendo na cozinha quando o filho do Lorenzo gritou no corredor:  Vovó!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, que acabava de entrar na cozinha, parou em seu trilho e ouviu a voz alta do menino de Lorenzo chamando-a. Levantou os olhos e, com uma sonrisinha cálida, caminhou pelo corredor até encontrá-lo. O menino, que tinha um cabelo escuro e uma expressão entusiasmada, se abraçou delicadamente a Personagem.",
+        "generated_text_llama": "\"Personagem parou de mexer na panela e olhou em direção à porta da cozinha, surpreso com a voz alta do seu neto. \"O que é?\" perguntou, aproximando-se da porta para ver o que havia causado tanto barulho. Ao entrar no corredor, viu Lorenzo, pai do seu filho, saindo da sala de estar com uma expressão preocupada no rosto.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "parou",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "abraçou",
+                    "ROOT"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "parou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

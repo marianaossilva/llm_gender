@@ -1,0 +1,57 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Rachel",
+        "sentence": "Foge do canto da gentil sereia Que engana com sorriso de feitiços - Tão pálida Rachel!",
+        "start_char": 1884,
+        "end_char": 1890,
+        "excerpt": "No mundo infame; mirra-se a grinalda E vão-se as ilusões! A crença se desbota e o nauta chora Desanimado no vaivém teimoso Dos grossos vagalhões! Foge do canto da gentil sereia Que engana com sorriso de feitiços - Tão pálida Rachel!",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "pálida",
+                "child": "Rachel",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "páler",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rachel",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Rachel",
+                "child": "Que engana",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Rachel",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "engano",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Foge do canto da gentil sereia Que engana com sorriso de feitiços - Tão pálida [MASK]!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas sua alegria não durou muito, pois logo percebeu que algo estava errado. Atravessando o rio, observou que a árvore onde a sereia lhe havia dito para entrar na caverna estava ausente. Personagem se deparou com medo e vergonha, questionando-se se fora uma delusão ou até mesmo um trapinho malício de algum demônio da floresta.",
+        "generated_text_llama": "",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "deparou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    }
+]

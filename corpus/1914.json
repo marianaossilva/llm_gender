@@ -1,0 +1,408 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Fulano Beltrão",
+        "sentence": "Fulano Beltrão leu no Jornal do Comércio, no dia cinco de março de 1864, um artigo anônimo em que se lhe diziam coisas belas e exatas:  bom pai, bom esposo, amigo pontual, cidadão digno, alma levantada e pura.",
+        "start_char": 1627,
+        "end_char": 1641,
+        "excerpt": "Nada posso afirmar-lhe sobre a causa disto. Creio que foi uma apologia de amigo por ocasião dele fazer quarenta anos. Fulano Beltrão leu no Jornal do Comércio, no dia cinco de março de 1864, um artigo anônimo em que se lhe diziam coisas belas e exatas:  bom pai, bom esposo, amigo pontual, cidadão digno, alma levantada e pura.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "leu",
+                "child": "Fulano Beltrão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ler",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fulano",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] leu no Jornal do Comércio, no dia cinco de março de 1864, um artigo anônimo em que se lhe diziam coisas belas e exatas:  bom pai, bom esposo, amigo pontual, cidadão digno, alma levantada e pura.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Sem parar de ler aquele artigo encantador, Pedro sentiu-se emocionado e surpreendo-se a si mesmo. Era isso verdadeiro? Poderia realmente ser tudo aquilo que se dizia dele? Ao longo da vida, ele havia se esforçado para ser bom pai, um marido dedicante e um cidadão respeitável. Agora, em seus últimos anos, viu como suas virtudes eram reconhecidas pelo mundo exterior.",
+        "generated_text_llama": "Personagem ficou surpreso com a descrição, pois nunca havia sido alvo de tanta elogios em sua vida. Ele sempre se considerou uma pessoa simples, trabalhadora e honesta, mas não sabia que seu trabalho como banqueiro e sua gestão do negócio do pai lhe haviam conquistado tanto respeito e admiração.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "emocionado",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fulano Beltrão",
+        "sentence": "Você verá, disse Fulano Beltrão à mulher, você verá que isto é do Xavier ou do Castro; logo rasgaremos o capote.",
+        "start_char": 1921,
+        "end_char": 1935,
+        "excerpt": "Fulano Beltrão leu no Jornal do Comércio, no dia cinco de março de 1864, um artigo anônimo em que se lhe diziam coisas belas e exatas:  bom pai, bom esposo, amigo pontual, cidadão digno, alma levantada e pura. Que se lhe fizesse justiça, era muito; mas anonimamente, era raro. Você verá, disse Fulano Beltrão à mulher, você verá que isto é do Xavier ou do Castro; logo rasgaremos o capote.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "leu",
+                "child": "Fulano Beltrão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ler",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fulano",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "disse",
+                "child": "Fulano Beltrão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fulano",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Você verá, disse [MASK] à mulher, você verá que isto é do Xavier ou do Castro; logo rasgaremos o capote.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele levantou os olhos para a frente e segurando a pistola firme nas mãos, fez um passo adiante, em direção às três pessoas que se aproximavam lentamente dele.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fulano Beltrão",
+        "sentence": "Fulano Beltrão emendou essa falta, se falta se lhe podia chamar, mandando transcrever o artigo no Diário do Rio e no Correio Mercantil.",
+        "start_char": 3556,
+        "end_char": 3570,
+        "excerpt": "Declarou este que só em atenção à dona da casa confessava a autoria; e acrescentou que a manifestação não saíra completa, porque a idéia dele era que o artigo fosse dado em todos os jornais, não o tendo feito por havê-lo acabado às sete horas da noite. Não houve tempo de tirar cópias. Fulano Beltrão emendou essa falta, se falta se lhe podia chamar, mandando transcrever o artigo no Diário do Rio e no Correio Mercantil.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "emendou",
+                "child": "Fulano Beltrão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "emendar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fulano",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] emendou essa falta, se falta se lhe podia chamar, mandando transcrever o artigo no Diário do Rio e no Correio Mercantil.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O personagem então encarregou uma secretária de realizar o trabalho que se propôs: enviar para a impressão do Diário do Rio e do Correio Mercantil a transcrição do artigo em questão.",
+        "generated_text_llama": "Personagem sentiu um peso na consciência ao pensar que sua falta de comunicação havia causado atrasos na publicação da notícia. Ele sabia que precisava agir rapidamente para corrigir a situação. Em seguida, ele se dirigiu à redação do Diário do Rio e pediu uma reunião com o chefe para discutir a situação.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fulano Beltrão",
+        "sentence": "Fulano Beltrão iniciava três quartas partes das subscrições, com tal êxito, que em poucos minutos ficava o preço coberto.",
+        "start_char": 5368,
+        "end_char": 5382,
+        "excerpt": "Antes da lei de 28 de setembro de 1871, era muito comum aparecerem na praça do Comércio crianças escravas, para cuja liberdade se pedia o favor dos negociantes. Fulano Beltrão iniciava três quartas partes das subscrições, com tal êxito, que em poucos minutos ficava o preço coberto.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "iniciava",
+                "child": "Fulano Beltrão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "iniciar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fulano",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] iniciava três quartas partes das subscrições, com tal êxito, que em poucos minutos ficava o preço coberto.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim sendo, ela seguiu iniciando as subscrições, chegando até mesmo a atingir quatro quartas partes em menos tempo do que imaginava. A cada novo pedido, sentia um senso de orgulho e satisfação indescritível, pois sabia que estava fazendo o que sempre sonhou: criar uma plataforma digital que traria a diversão para as pessoas em todo o país.",
+        "generated_text_llama": "Com a satisfação de ter alcançado seus objetivos financeiros para essa véspera tão especial, Personagem decidiu celebrar da melhor forma possível. Ele pegou um café naquela cafetería que ele mais gostava, que ficava a poucas quadras de distância, e enquanto ia sentar-se num banco confortável, começou a pensar nos planos para o próximo dia.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fulano Beltrão",
+        "sentence": "Fulano Beltrão vinha um dia do tesouro, aonde tinha ido tratar de umas décimas.",
+        "start_char": 6195,
+        "end_char": 6209,
+        "excerpt": "Não falo do baile que ele deu para celebrar a vitória de Riachuelo, porque era um baile planeado antes de chegar a notícia da batalha, e ele não fez mais do que atribuir-lhe um motivo mais alto do que a simples recreação da família, meter o retrato do almirante Barroso no meio de um troféu de armas navais e bandeiras no salão de honra, em frente ao retrato do Imperador, e fazer, à ceia, alguns brindes patrióticos, como tudo consta dos jornais de 1865. Mas aqui vai, por exemplo, um caso bem característico da influência que a justiça dos outros pode ter no nosso procedimento. Fulano Beltrão vinha um dia do tesouro, aonde tinha ido tratar de umas décimas.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "vinha",
+                "child": "Fulano Beltrão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fulano",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] vinha um dia do tesouro, aonde tinha ido tratar de umas décimas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, o Personagem, sabendo que esse tesouro era o resultado de anos de esforço e dedicação, decidiu investir no melhoramento de suas habilidades matemáticas, para garantir uma renda regular a partir daquilo. Então, ele começou a estudar duro todos os dias, de dia e de noite, resolvendo problemas, analisando equações e aperfeiçoando suas técnicas. Por fim, seu trabalho e dedicação foram premiados: o Personagem conseguiu melhorar sua renda e se tornou um dos matemáticos mais respeitados em todo o reino.",
+        "generated_text_llama": "Em seguida, Personagem parou em frente àquela pequena loja de roupas e camisetas que ele sempre evitava, pois sabia que suas amigas estavam sendo testemunhas de suas decisões de estilo. Ele respirou fundo e entrou na loja, onde o vendedor, conhecido por sua habilidade em encontrar as peças mais desbotadas, o olhou com um sorriso misterioso.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "conseguiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "parou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fulano Beltrão",
+        "sentence": "Fulano Beltrão não escapou a este efeito; atravessou o adro, entrou na igreja, tão singela, tão modesta, e para ele tão rica e linda.",
+        "start_char": 6525,
+        "end_char": 6539,
+        "excerpt": "Fulano Beltrão vinha um dia do tesouro, aonde tinha ido tratar de umas décimas. Ao passar pela igreja da Lampadosa, lembrou-se que fora ali batizado; e nenhum homem tem uma recordação destas, sem remontar o curso dos anos e dos acontecimentos, deitar-se outra vez no colo materno, rir e brincar, como nunca mais se ri nem brinca. Fulano Beltrão não escapou a este efeito; atravessou o adro, entrou na igreja, tão singela, tão modesta, e para ele tão rica e linda.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "vinha",
+                "child": "Fulano Beltrão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fulano",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "escapou",
+                "child": "Fulano Beltrão",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "escapar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fulano",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não escapou a este efeito; atravessou o adro, entrou na igreja, tão singela, tão modesta, e para ele tão rica e linda.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Sem perder um momento, Personagem passou pela porta da igreja, sentindo-se envolvido pelo aroma sagrado que se libertava de seu interior. A fúria e o sofrimento do mundo exterior se parecem distantes naquela tranquila sala. Ele segurava a sua Bíblia entre as mãos e fechava os olhos, orando pela paz e proteção para todos os que mais necessitam.",
+        "generated_text_llama": "Atravessando o adro, Personagem sentiu um arrepio na espinha, como se os deuses mesmos estivessem abrindo caminho para ele. A igreja, com suas paredes de pedra cinzenta e sua cúpula dourada, parecia um verdadeiro templo, invocado pelo destino. Personagem não podia evitar sentir que estava sendo chamado a algo maior, algo que só essa igreja poderia responder.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "passou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "podia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cabral",
+        "sentence": "\"Cabral, diz ali o testamento, não pode ser olvidado dos brasileiros, foi o precursor do nosso império.",
+        "start_char": 12751,
+        "end_char": 12757,
+        "excerpt": "Trinta contos para quê? Para servir de começo a uma subscrição pública destinada a erigir uma estátua de Pedro Álvares Cabral. \"Cabral, diz ali o testamento, não pode ser olvidado dos brasileiros, foi o precursor do nosso império.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "uma estátua",
+                "child": "Pedro Álvares Cabral",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "estátua",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Pedro",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Pedro Álvares Cabral",
+                "child": "uma estátua",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Pedro",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "estátua",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Pedro Álvares Cabral",
+                "child": "uma subscrição",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Pedro",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "subscrição",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "diz",
+                "child": "\"Cabral,",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "\"",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "\"[MASK], diz ali o testamento, não pode ser olvidado dos brasileiros, foi o precursor do nosso império.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim dito, ele se moveu para a frente e abriu um cajado antigo que estava embaixo da mesa. Retirou um papel antiquado, com caracteres escurientes, que pareciam escondidos por séculos. Olhou de volta às pessoas reunidas e, depois de uma pausa, começou a ler:",
+        "generated_text_llama": "\"Não posso acreditar que esteja aqui\", pensou Personagem enquanto se virava para o público. \"Eu sou apenas um homem, um revolucionário que lutou pela liberdade e pela justiça. Eu nunca imaginei que meu legado seria esquecido tão rapidamente\".",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "pensou",
+                    "ccomp"
+                ]
+            ]
+        }
+    }
+]

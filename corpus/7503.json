@@ -1,0 +1,44 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Artur Azevedo",
+        "sentence": "Artur Azevedo Foi no tempo do Império.",
+        "start_char": 17,
+        "end_char": 30,
+        "excerpt": "POBRES LIBERAIS! Artur Azevedo Foi no tempo do Império. O notável político Dr. Francelino Lopes, sendo presidente de uma província cujo nome não mencionarei para não ofender certas suscetibilidades, aliás mal entendidas, resolveu, aquiescendo ao desejo dos chefes mais importantes do partido conservador (era o que estava de cima), fazer uma grande excursão por todo o interior da província, visitando as principais localidades.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Foi",
+                "child": "Artur Azevedo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "foi",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Artur",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] Foi no tempo do Império.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele se moveu de encontro às paredes vintecentenas de anos envelhecidas da cidade, maravilhando-se com as estátuas de pedra e o esplendor das arquibancadas quebrantadas por tempo e pelos maus tratamentos do tempo. No meio do coração da cidade, uma plataforma erguia-se em altura, e ele a subiu. Na cimeira, encontrou um mapa de bronze antigo. Sobre o mapa, estavam marcados vários pontos em formato de cruz vermelha. Levantando a vista até as margens distantes do rio, percebeu que cada um destes pontos se correspondia a uma torre alta e desolada, enrijdadas pelas raízes das árvores e desprovidas de vida. Então, com um respiro profundo, ele decidiu partir em busca desses locais misteriosos e abandonados.",
+        "generated_text_llama": "Foi no tempo do Império. Personagem estava em uma missão secreta para recolher informações sobre uma suposta conspiração dentro da própria corte imperial. Ele se vestiu com habilidade e carismática, passando-se por um nobre do leste, e conseguiu ganhar a confiança do imperador himself, que estava começando a suspeitar de alguma traição.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "missão",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

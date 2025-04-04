@@ -1,0 +1,795 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "seu pai",
+        "sentence": "D. Afonso, que seguira seu pai D. João I na conquista daquela cidade, trouxe esta pedra entre os despojos que lhe pertenceram, levando-a consigo para a vila de Barcelos, cujo conde era.",
+        "start_char": 2283,
+        "end_char": 2290,
+        "excerpt": "Na ermida servia de altar uma pedra trazida de Ceuta pelo primeiro Duque de Bragança, D. Afonso. Era esta lájea a mesa em que costumava comer Salat-ibn-Salat, último senhor de Ceuta. D. Afonso, que seguira seu pai D. João I na conquista daquela cidade, trouxe esta pedra entre os despojos que lhe pertenceram, levando-a consigo para a vila de Barcelos, cujo conde era.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "trouxe",
+                "child": "D. Afonso, que seguira seu pai D. João I na conquista daquela cidade,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "trazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "D.",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "D. Afonso, que seguira [MASK] D. João I na conquista daquela cidade, trouxe esta pedra entre os despojos que lhe pertenceram, levando-a consigo para a vila de Barcelos, cujo conde era.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " D. Afonso, que seguiu D. João I na conquista daquela cidade, trouxe esta pedra entre os despojos que lhe pertenceram, levando-a consigo para a vila de Barcelos, cujo conde era. Ao chegar ali, ele decidiu construir uma igreja em homenagem à Virgem Maria, cuja imagem ele encontrara durante a batalha e fora de grande ajuda na conquista da cidade.",
+        "generated_text_llama": "D. Afonso, que seguira D. João I na conquista daquela cidade, trouxe esta pedra entre os despojos que lhe pertenceram, levando-a consigo para a vila de Barcelos, cujo conde era D. Álvaro Pereira. Ao chegár-se à vila, o conde D. Álvaro Pereira ficou particularmente impressionado com a pedra e decidiu que seria uma adição grandiosa ao Castelo de São Jorge, um símbolo da riqueza e do poder da nobreza portuguesa. Ele ordenou que os cavaleiros mais respeitados da vila se reunissem para discutir a pedra e decidirem o que fariam com ela.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "trouxe",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "seguiu",
+                    "acl:relcl"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "trouxe",
+                    "ROOT"
+                ],
+                [
+                    "seguira",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nuno Gonçalves",
+        "sentence": "Um troço de besteiros e de homens d'armas subiu a encosta do monte da Franqueira, levando no meio de si o bom alcaide Nuno Gonçalves.",
+        "start_char": 5677,
+        "end_char": 5691,
+        "excerpt": "Estas considerações sugeriram um ardil a Nuno Gonçalves. Pediu ao Adiantado que o mandasse conduzir ao pé dos muros do castelo, porque ele, com as suas exortações, faria com que o filho o entregasse, sem derramamento de sangue. Um troço de besteiros e de homens d'armas subiu a encosta do monte da Franqueira, levando no meio de si o bom alcaide Nuno Gonçalves.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "sugeriram",
+                "child": "Nuno Gonçalves",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sugerir",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Nuno",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "alcaide",
+                "child": "Nuno Gonçalves",
+                "dep_h": "obj",
+                "pos_h": "VERB",
+                "lemma_h": "alcaide",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Nuno",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Nuno Gonçalves",
+                "child": "Um troço",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Nuno",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "troço",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Um troço de besteiros e de homens d'armas subiu a encosta do monte da Franqueira, levando no meio de si o bom alcaide [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O bem alcaide Personagem segurava entre suas mãos uma espada de brão, cujo pomo era de um elefante. A cada passo que dava na lama fangosa e espessa, sentia-se mais forte e decidido. Ele estava a caminho da batalha e não se importava com o perigo.",
+        "generated_text_llama": "Enquanto o grupo avançava em direção à encosta do monte da Franqueira, o chefe dos homens d'armas, um homem robusto com uma barba grossa e olhos cansados, olhou para o bom alcaide, seu rosto marcado por uma expressão de desconfiança. \"Quem é esse alcaide?\", perguntou ele em voz baixa, apontando para a vítima. Os outros homens d'armas se inclinaram para ver, seus olhos estreitos e suspeitosos. O chefe então se aproximou do bom alcaide, seu punho cerrado na mão. \"Você é alguém importante?\", repetiu ele, sua voz firme e ameaçadora.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "segurava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nuno Gonçalves",
+        "sentence": "Quando o troço dos homens d'armas que levavam preso Nuno Gonçalves vinha já a pouca distância da barbacã, os besteiros que coroavam as ameias encurvaram as bestas, e os homens dos engenhos prepararam-se para arrojar sobre os contrários as suas quadrelas e virotões, enquanto o clamor e o choro se alevantavam no terreiro, onde o povo inerme estava apinhado.",
+        "start_char": 6834,
+        "end_char": 6848,
+        "excerpt": "Nas torres, os atalaias vigiavam atentamente a campanha, e os almocadens corriam com a rolda 1 pelas quadrelas do muro e subiam aos cubelos colocados nos ângulos das muralhas. O terreiro onde se haviam acolhido os habitantes da povoação estava coberto de choupanas colmadas, nas quais se abrigava a turba dos velhos, das mulheres e das crianças, que ali se julgavam seguros da violência de inimigos desapiedados. Quando o troço dos homens d'armas que levavam preso Nuno Gonçalves vinha já a pouca distância da barbacã, os besteiros que coroavam as ameias encurvaram as bestas, e os homens dos engenhos prepararam-se para arrojar sobre os contrários as suas quadrelas e virotões, enquanto o clamor e o choro se alevantavam no terreiro, onde o povo inerme estava apinhado.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "vinha",
+                "child": "Nuno Gonçalves",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nuno",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando o troço dos homens d'armas que levavam preso [MASK] vinha já a pouca distância da barbacã, os besteiros que coroavam as ameias encurvaram as bestas, e os homens dos engenhos prepararam-se para arrojar sobre os contrários as suas quadrelas e virotões, enquanto o clamor e o choro se alevantavam no terreiro, onde o povo inerme estava apinhado.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem, que era um homem corajoso e tenaz, sentiu sua determinação reforçar-se. Ele sabia que aquilo que aguardava era difícil, mas ele não estava para recuar. Enquanto isso, os olhos dele se dirigiram para o terreiro, onde pessoas indefesas gritavam e choravam em face da ameaça. Com uma profunda inspiração, Personagem segurou seu espadim forte nas mãos e abriu suas costas.",
+        "generated_text_llama": "À medida que as bestas começaram a voar em direção aos soldados armados, Personagem aproveitou o caos para se deslizar por entre as fileiras do povo e se aproximar da barbacã. Com um movimento ágil, ele se esgueirou atrás de uma das mulheres que estava gritando e chorando, usando-a como escudo para se proteger dos projéteis voadores.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "segurou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "aproveitou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nuno Gonçalves",
+        "sentence": "O arauto voltou ao grosso de soldados que rodeavam Nuno Gonçalves, e depois de breve demora, o tropel aproximou-se da barbacã.",
+        "start_char": 7768,
+        "end_char": 7782,
+        "excerpt": "dizei-lhe que eu o espero. \" O arauto voltou ao grosso de soldados que rodeavam Nuno Gonçalves, e depois de breve demora, o tropel aproximou-se da barbacã.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "rodeavam",
+                "child": "Nuno Gonçalves",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "rodear",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nuno",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Nuno Gonçalves",
+                "child": "soldados",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Nuno",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "soldado",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Nuno Gonçalves",
+                "child": "grosso",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Nuno",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "grosso",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": [
+                    "body"
+                ]
+            }
+        ],
+        "masked_sentence": "O arauto voltou ao grosso de soldados que rodeavam [MASK], e depois de breve demora, o tropel aproximou-se da barbacã.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Ótima, continuaremos nosso enredo em português brasileiro. O autor se dirigiu ao centeio de soldados que circundava Personagem, depois de uma curta espera, o bando se aproximou gradualmente da barbacã. Com a estrutura fortificada à sua vista, Personagem ficou mais ansiosamente tentado a encontrar alguma forma de escapar da prisão que havia caído em seu redor. Se lembrando do túnel que fora construído anos atrás para permitir passagem clandestina entre as terras que ele controlava, o autor pensou rapidamente e decidiu se aventurar no esconderijo.",
+        "generated_text_llama": "O arauto, um homem magro com uma expressão severa, desmontou a serra de pedra do seu ombro e a colocou na base da barbacã, enquanto os soldados o rodeavam com olhos atentos. Após uma rápida inspeção, o arauto assentiu e começou a batêr as pedras para abrir o portão de madeira, que lentamente cedeu para a serra. O porta da barbacã se abriu, revelando um corredor escuro e estreito, onde um soldado ordenou que Personagem entrasse, com um gesto brusco do punho.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "circundava",
+                    "acl:relcl"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "entrasse",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Gonçalo Nunes",
+        "sentence": "\" - \"É - respondeu Gonçalo Nunes - de nosso rei e senhor D. Fernando de Portugal, a quem por ele fizeste preito e menagem.",
+        "start_char": 8123,
+        "end_char": 8136,
+        "excerpt": "O arauto voltou ao grosso de soldados que rodeavam Nuno Gonçalves, e depois de breve demora, o tropel aproximou-se da barbacã. Chegados ao pé dela, o velho guerreiro saiu dentre os seus guardadores, e falou com o filho: \"Sabes tu, Gonçalo Nunes, de quem é esse castelo, que, segundo o regimento de guerra, entreguei à tua guarda quando vim em socorro e ajuda do esforçado conde de Ceia? \" - \"É - respondeu Gonçalo Nunes - de nosso rei e senhor D. Fernando de Portugal, a quem por ele fizeste preito e menagem.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tu",
+                "child": ", Gonçalo Nunes, de quem é esse castelo, que, segundo o regimento de guerra, entreguei à tua guarda quando vim em socorro e ajuda do esforçado conde de Ceia",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "tu",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gonçalo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", Gonçalo Nunes, de quem é esse castelo, que, segundo o regimento de guerra, entreguei à tua guarda quando vim em socorro e ajuda do esforçado conde de Ceia",
+                "child": "tu",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Gonçalo",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "tu",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "respondeu",
+                "child": "Gonçalo Nunes -",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gonçalo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "\" - \"É - respondeu [MASK] - de nosso rei e senhor D. Fernando de Portugal, a quem por ele fizeste preito e menagem.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " \"- Estava na ala do palácio real, quando Personagem, um humilde cavaleiro da corte, teve o privilégio de entrar em audiência pessoal com nosso rei e senhor D. Fernando de Portugal. Com uma espada presa a seus lábios, como sinal de submissão e respeito, Personagem fez um profundo arco e entrou na sala, acompanhado de seu destriado escudeiro.",
+        "generated_text_llama": "\"Parecia um sorriso divertido que iluminava o rosto de Personagem, ao ouvir as palavras do rei, enquanto ele continuava a falar sobre sua gratidão em ser escolhido para liderar os portugueses na jornada de descobrimento e exploração dos mares. Ele assentiu com a cabeça, sorrindo, e respondeu: 'Sire, é um honrario que não posso deixar de aceitar, e prometo servir-vos e o nosso reino com todo o entusiasmo e dedicação'. O rei D. Fernando de Portugal sorriu novamente, impressionado com a resposta do jovem Personagem, e ordenou que os seus guardas o levantassem para fazer um juramento formal, antes de começar a preparativos para a partida.\"",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "fez",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Gonçalo Nunes",
+        "sentence": "\" - \"Sabes tu, Gonçalo Nunes, que o dever de um alcaide é de nunca entregar, por nenhum caso, o seu castelo a inimigos, embora fique enterrado debaixo das ruínas dele?",
+        "start_char": 8242,
+        "end_char": 8255,
+        "excerpt": "Chegados ao pé dela, o velho guerreiro saiu dentre os seus guardadores, e falou com o filho: \"Sabes tu, Gonçalo Nunes, de quem é esse castelo, que, segundo o regimento de guerra, entreguei à tua guarda quando vim em socorro e ajuda do esforçado conde de Ceia? \" - \"É - respondeu Gonçalo Nunes - de nosso rei e senhor D. Fernando de Portugal, a quem por ele fizeste preito e menagem. \" - \"Sabes tu, Gonçalo Nunes, que o dever de um alcaide é de nunca entregar, por nenhum caso, o seu castelo a inimigos, embora fique enterrado debaixo das ruínas dele?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tu",
+                "child": ", Gonçalo Nunes, de quem é esse castelo, que, segundo o regimento de guerra, entreguei à tua guarda quando vim em socorro e ajuda do esforçado conde de Ceia",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "tu",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gonçalo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", Gonçalo Nunes, de quem é esse castelo, que, segundo o regimento de guerra, entreguei à tua guarda quando vim em socorro e ajuda do esforçado conde de Ceia",
+                "child": "tu",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Gonçalo",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "tu",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "respondeu",
+                "child": "Gonçalo Nunes -",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gonçalo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "tu",
+                "child": ", Gonçalo Nunes,",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "tu",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gonçalo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", Gonçalo Nunes,",
+                "child": "tu",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Gonçalo",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "tu",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", Gonçalo Nunes,",
+                "child": "\"",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Gonçalo",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "\"",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "\" - \"Sabes tu, [MASK], que o dever de um alcaide é de nunca entregar, por nenhum caso, o seu castelo a inimigos, embora fique enterrado debaixo das ruínas dele?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim falando, aos poucos os olhos de Personagem se enlouqueceram e a mão que segurava o bastão começou a tremular. Como o homem que era, não lhe permitia entregar o castelo ao qual era ligado por tantas gerações, embora estivesse cercado por inimigos.",
+        "generated_text_llama": "- Mas eu, Personagem, não sou um herói convencional. Eu sou um homem que vive no presente e não se preocupa com as tradições do passado. Além disso, meu castelo é mais uma questão de sobrevivência do que algo a ser defendido com raiva e orgulho.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Gonçalo Nunes",
+        "sentence": "\" - \"Sei, oh meu pai! - prosseguiu Gonçalo Nunes em voz baixa, para não ser ouvido dos castelhanos, que começavam a murmurar.",
+        "start_char": 8430,
+        "end_char": 8443,
+        "excerpt": "\" - \"É - respondeu Gonçalo Nunes - de nosso rei e senhor D. Fernando de Portugal, a quem por ele fizeste preito e menagem. \" - \"Sabes tu, Gonçalo Nunes, que o dever de um alcaide é de nunca entregar, por nenhum caso, o seu castelo a inimigos, embora fique enterrado debaixo das ruínas dele? \" - \"Sei, oh meu pai! - prosseguiu Gonçalo Nunes em voz baixa, para não ser ouvido dos castelhanos, que começavam a murmurar.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "respondeu",
+                "child": "Gonçalo Nunes -",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gonçalo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "tu",
+                "child": ", Gonçalo Nunes,",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "tu",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gonçalo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", Gonçalo Nunes,",
+                "child": "tu",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Gonçalo",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "tu",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", Gonçalo Nunes,",
+                "child": "\"",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Gonçalo",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "\"",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "prosseguiu",
+                "child": "Gonçalo Nunes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "prosseguir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gonçalo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "\" - \"Sei, oh meu pai! - prosseguiu [MASK] em voz baixa, para não ser ouvido dos castelhanos, que começavam a murmurar.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " \"- Por favor, tente manter o calor no campo, estou precisando de ti lá -\" continuou Sei, cuidadosamente, em voz baixa, para não ser ouvido dos castelhanos que começavam a murmurar. Queria garantir que sua presença em Madrid seria breve e não traria nenhum problema. Ele segurou seu coração, que pulsava mais rápido do que nunca, e partiu para o campo. A natureza era agora a única amiga confiável de Sei.",
+        "generated_text_llama": "- Sua voz era tão baixa que mal podia ser ouvida pelos soldados que cercavam o grupo, mas ele sabia que precisava continuar com cuidado. - \"Vamos embora\", sussurrou Personagem, olhando em volta para garantir que ninguém estivesse se aproximando. Ele rapidamente puxou a capa do seu manto sobre os ombros e começou a caminhar, mantendo-se atrás dos outros soldados. - Sua mente estava dividida entre a dor e a raiva, mas ele sabia que precisava manter a calma para não fazer algo que poderia prejudicar os seus companheiros de armas.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sussurrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nuno Gonçalves",
+        "sentence": "\" Nuno Gonçalves, como se não tivera ouvido as reflexões do filho, clamou então: - \"",
+        "start_char": 8621,
+        "end_char": 8635,
+        "excerpt": "\" - \"Sei, oh meu pai! - prosseguiu Gonçalo Nunes em voz baixa, para não ser ouvido dos castelhanos, que começavam a murmurar. - Mas não vês que a tua morte é certa, se os inimigos percebem que me aconselhaste a resistência? \" Nuno Gonçalves, como se não tivera ouvido as reflexões do filho, clamou então: - \"",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ouvido",
+                "child": "Nuno Gonçalves,",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "ouvir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nuno",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "ouvido",
+                        "child": "castelhanos",
+                        "dep_h": "advcl",
+                        "pos_h": "VERB",
+                        "lemma_h": "ouvir",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "castelhano"
+                    },
+                    {
+                        "head": "ouvido",
+                        "child": "Nuno Gonçalves,",
+                        "dep_h": "parataxis",
+                        "pos_h": "VERB",
+                        "lemma_h": "ouvir",
+                        "dep_c": "nsubj",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Nuno"
+                    },
+                    {
+                        "head": "ouvido",
+                        "child": "as reflexões",
+                        "dep_h": "parataxis",
+                        "pos_h": "VERB",
+                        "lemma_h": "ouvir",
+                        "dep_c": "obj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "reflexão"
+                    }
+                ]
+            }
+        ],
+        "masked_sentence": "\" [MASK], como se não tivera ouvido as reflexões do filho, clamou então: - \"",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " \"- Mas eu mesmo estou aqui, Papa!\", o garoto exclamou, abalando as mãos para se mostrar. O Velho Sonho ficou em pé, olhando a seu filho com um sorriso brilhante. \"- E sim, meu querido, estás aqui. Por que eu te esqueci?\" ele perguntou, abraçando-o empregativamente. O garoto riu e abraçou o pai em volta do colarinho.",
+        "generated_text_llama": "\"Eu sei que você está tendo um dia ruim, mas por favor, tentem manter a calma e nos contar o que está acontecendo! O que é que você precisa de alguém agora?\" Personagem perguntou, suas vozes suaves e calmas, tentando acalmá-lo. Ele se aproximou de seu filho, colocando uma mão no ombro dele, oferecendo um sorriso de apoio e compreensão.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "perguntou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nuno Gonçalves",
+        "sentence": "\" - E Nuno Gonçalves caiu no chão atravessado de muitas espadas e lanças.",
+        "start_char": 9006,
+        "end_char": 9020,
+        "excerpt": "Maldito por mim, sepultado sejas tu no inferno, como Judas o traidor, na hora em que os que me cercam entrarem nesse castelo, sem tropeçarem no teu cadáver. \" - \"Morra! - gritou o almocadem castelhano - morra o que nos atraiçoou. \" - E Nuno Gonçalves caiu no chão atravessado de muitas espadas e lanças.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "caiu",
+                "child": "E Nuno Gonçalves",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "cair",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nuno",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "\" - E [MASK] caiu no chão atravessado de muitas espadas e lanças.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas apesar da ferida no peito que ainda brimava com sangue, ele se levantou rapidamente, recolheu suas armas e continuou sua marcha em frente. O rosto de Personagem era de madeira, uma expressão resoluta e determinada sob os olhos penetrantes e escuros. Ele sabia que estava próximo do seu destino final, mas não permitiria nenhum inimigo impedi-lo. Sendo assim, em seguida, atacou com um ardor selvagem, matando seus adversários de forma brutal e decisiva.",
+        "generated_text_llama": "- E quando chegou ao outro lado do círculo de armas mortais, Personagem se levantou com dificuldade, suas roupas rasgadas e seu corpo coberto de ferimentos. Ele olhou em volta, tentando se lembrar do que havia acontecido anteriormente, mas sua mente estava borbulhante e sem claro. Com um esforço surpreendente, Personagem se agarrou a uma das armas que o cercavam e começou a caminhar em direção à porta de madeira que dava acesso ao castelo. Ele sabia que precisava encontrar o rei e informá-lo sobre a trama contra ele, mas seu corpo estava agonizante e suas pernas mal haviam começado a funcionar quando ele caiu no chão. Personagem se levantou novamente e continuou em frente, determinado a completar sua missão e proteger seu rei de qualquer forma possível.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ],
+                [
+                    "agarrou",
+                    "ROOT"
+                ],
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Gonçalo Nunes",
+        "sentence": "Gonçalo Nunes corria como louco ao redor da barbacã, clamando vingança.",
+        "start_char": 9146,
+        "end_char": 9159,
+        "excerpt": "- \"Defende-te, alcaide! \" - foram as últimas palavras que ele murmurou. Gonçalo Nunes corria como louco ao redor da barbacã, clamando vingança.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "corria",
+                "child": "Gonçalo Nunes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "correr",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gonçalo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] corria como louco ao redor da barbacã, clamando vingança.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele seguiu o caminho tortuoso pela floresta, desafinado pelo ar que se apresentava cada vez mais frio. A natureza estava silenciosa e hostil em torno dele, mas isso não lhe importava; sua vingança era tudo o que ele precisava para continuar adiante.",
+        "generated_text_llama": "Enquanto a multidão se escondia atrás das barreiras, Personagem gritava palavras ininteligíveis, os olhos vermelhos de raiva brilhando intensamente sob a luz do pôr do sol. Com uma agitação frenética, ele começou a arrancar ramos e galhos da cerca, como se tentasse escapar da própria ira. O som dos ramos quebrando ecoou pelo campo, assustando ainda mais as pessoas que estavam cercadas pela cena.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "gritava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Gonçalo Nunes",
+        "sentence": "Mas Gonçalo Nunes lembrava-se da maldição de seu pai: lembrava-se de que o vira moribundo no meio dos seus matadores, e ouvia a todos os momentos o último grito do bom Nuno Gonçalves - \"Defende-te, alcaide!",
+        "start_char": 9857,
+        "end_char": 9870,
+        "excerpt": "Os castelhanos acometeram o castelo; no primeiro dia de combate o terreiro da barbacã ficou alastrado de cadáveres tisnados e de colmos e ramos reduzidos a cinzas. Um soldado de Pedro Rodriguez Sarmento tinha sacudido com a ponta da sua longa chuça um colmeiro incendiado para dentro da cerca; o vento suão soprava nesse dia com violência, e em breve os habitantes da povoação, que haviam buscado o amparo do castelo, pereceram juntamente com as suas frágeis moradas. Mas Gonçalo Nunes lembrava-se da maldição de seu pai: lembrava-se de que o vira moribundo no meio dos seus matadores, e ouvia a todos os momentos o último grito do bom Nuno Gonçalves - \"Defende-te, alcaide!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "lembrava-se",
+                "child": "Gonçalo Nunes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "lembrava-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gonçalo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mas [MASK] lembrava-se da maldição de seu pai: lembrava-se de que o vira moribundo no meio dos seus matadores, e ouvia a todos os momentos o último grito do bom Nuno Gonçalves - \"Defende-te, alcaide!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem segurou o seu espada na mão e fechou os olhos, fazendo um longo suspírio. Em seguida, deitou-se no chão, colocando a ponta da espada no solo e, com uma voz fraca mas resoluta, invocou a memória do bom Nuno Gonçalves: \"Defenda-me, alcaide!\".",
+        "generated_text_llama": "Com essas memórias dolorosas a pesar na sua mente, Personagem tomou uma decisão: ele não queria morrer como seu pai. O alcaide sabia que precisava se preparar para o pior dos cenários, mas também sabia que não podia deixar-se levar pela emoção. Ele precisava pensar no que estava fazendo e nas consequências de suas ações.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "segurou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "tomou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

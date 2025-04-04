@@ -1,0 +1,590 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Brito",
+        "sentence": "Não, não eram parentes, respondeu Brito; eram amigos de um sobrinho que vivia em Campinas; uma história terrível...",
+        "start_char": 4816,
+        "end_char": 4821,
+        "excerpt": "Nhô Pedrinho foi absolvido e ungido, nhã Anunciada também, e o coadjutor despediu-se da casa para tornar à matriz com o sacristão. Este não se despediu do comendador sem lhe perguntar ao ouvido se os dous eram parentes seus. Não, não eram parentes, respondeu Brito; eram amigos de um sobrinho que vivia em Campinas; uma história terrível...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "respondeu",
+                "child": "Brito",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brito",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Não, não eram parentes, respondeu [MASK]; eram amigos de um sobrinho que vivia em Campinas; uma história terrível...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " \"Não, não eram parentes,\" respondiu Ana, sorrindo gentilmente. Eram amigos de um sobrinho que vivia em Campinas; uma história terrível havia ligado as suas vidas desde então. Ela estava sentada no banco de três pés em seu escritório com seu olhar fixo na janela, onde o vento soprava com força nos ramais secos dos árvores e uma chuva morna caiu sobre a cidade.",
+        "generated_text_llama": "...que ele ainda mal podia acreditar em ouvir. Ele olhou para o homem, tentando entender se estava sendo brincado ou se realmente era uma situação tão grave. \"O que aconteceu com o sobrinho?\", perguntou Personagem, seu tom de voz quase hesitante.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "respondiu",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "perguntou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "José",
+        "sentence": "José dizia-lhe a vida de Antônio e Antônio a de José.",
+        "start_char": 6587,
+        "end_char": 6591,
+        "excerpt": "Tinha o amor da arte pela arte. Muita vez nem era preciso perguntar nada. José dizia-lhe a vida de Antônio e Antônio a de José.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "dizia-lhe",
+                "child": "José",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizia-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Antônio",
+                "child": "José",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Antônio",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "José",
+                "child": "Antônio",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "José",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Antônio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "José",
+                "child": "a vida",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "José",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "vida",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] dizia-lhe a vida de Antônio e Antônio a de [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Maria, que sempre havia buscado a verdade, sentiu sua coragem crescendo em seu peito. Em seguida, ela teve a coragem de escrever uma carta a Ambrosio, onde lhe contou todo o enredo e as mentiras que ele havia perpetuado ao longo de todos esses anos. Maria também revelou a ela a verdadeira história de Antônio e Antônia, mostrando-lhe um lado que Ambrosio jamais tinha imaginado da dupla que sempre considerava sua grande rival na empresa. A carta foi entregue com muito coração, esperança e temor em uma manhã de sol nascente.",
+        "generated_text_llama": "Ele sorriu e começou a contar a história de como Personagem havia conhecido sua esposa, que era uma mulher incrível com um coração de ouro. \"Ela era uma artista, você sabia? Atriz, cantora, uma verdadeira estrela do teatro\", disse Personagem, animado pela lembrança.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "revelou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "conhecido",
+                    "acl"
+                ],
+                [
+                    "disse",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "José",
+        "sentence": "José dizia-lhe a vida de Antônio e Antônio a de José.",
+        "start_char": 6587,
+        "end_char": 6591,
+        "excerpt": "Tinha o amor da arte pela arte. Muita vez nem era preciso perguntar nada. José dizia-lhe a vida de Antônio e Antônio a de José.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "dizia-lhe",
+                "child": "José",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizia-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Antônio",
+                "child": "José",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Antônio",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "José",
+                "child": "Antônio",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "José",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Antônio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "José",
+                "child": "a vida",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "José",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "vida",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] dizia-lhe a vida de Antônio e Antônio a de [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Jornalista Personagem, após compartilhar as vidas de Antônio e Antônio, continuou escrevendo suas investigações. Escrevia com paixão, com clareza, procurando destacar os pontos mais importantes das histórias desses dois homens.",
+        "generated_text_llama": "E então ele começou a contar toda a história, desde quando ele era um menino de 10 anos, vivendo na periferia do Rio com sua mãe trabalhadora. Ele contou sobre como o pai havia abandonado a família quando ele tinha apenas 5 anos e como sua mãe sempre lutava para mantê-los afoites. Antônio ouviu atentamente, seus olhos cheios de compaixão e admiração pela vida do homem.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ouviu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brito",
+        "sentence": "Tudo o que dissesse respeito ao comendador seria ouvido por ele com interesse. -- Não morreram, nem sei se escaparão, quando menos, ela creio que morrerá, concluiu Brito. -- Parecem bem mal.",
+        "start_char": 8137,
+        "end_char": 8142,
+        "excerpt": "Brito estava na sala da frente, em conversa com a mulher, quando lhe vieram dizer que João das Mercês perguntava pelo estado dos moribundos. A esposa retirou-se da sala, o sacristão entrou pedindo desculpas e dizendo que era por pouco tempo; ia passando e lembrara-se de saber se os enfermos tinham ido para o céu, -- ou se ainda eram deste mundo. Tudo o que dissesse respeito ao comendador seria ouvido por ele com interesse. -- Não morreram, nem sei se escaparão, quando menos, ela creio que morrerá, concluiu Brito. -- Parecem bem mal.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Brito",
+                "child": "sala",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Brito",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "sala",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "sala",
+                "child": "Brito",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "sala",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brito",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "concluiu",
+                "child": "Brito",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "concluir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brito",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Tudo o que dissesse respeito ao comendador seria ouvido por ele com interesse. -- Não morreram, nem sei se escaparão, quando menos, ela creio que morrerá, concluiu [MASK]. -- Parecem bem mal.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele levantou a cabeça para o céu e esverdejante, olhando para os seus inimigos, que estavam a sua volta. Ele sorriu com uma tranquilidade assombrosa, sabendo que não havia mais caminho para trás. Era o momento de se enfrentar.",
+        "generated_text_llama": "E assim, Personagem continuou a caminhar pelas sombras, sua mente envolta nas palavras do comandador. Ele sabia que precisava estar atento, pois havia algo no tom de voz dele que sugeria que não estava falando apenas sobre o estado físico dos prisioneiros. Personagem olhou em volta, procurando por qualquer sinal de perigo, mas as sombras pareciam tranquilas, e ele não viu ninguém se aproximando.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ],
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brito",
+        "sentence": "Brito interrompeu o que ia dizendo; assim pareceu ao sacristão, que pôs no semblante toda a expressão de pessoa que espera o resto.",
+        "start_char": 8479,
+        "end_char": 8484,
+        "excerpt": "-- Já; chegaram há quinze dias, -- ou quatorze. Vieram com o meu sobrinho Carlos e aqui apanharam a doença... Brito interrompeu o que ia dizendo; assim pareceu ao sacristão, que pôs no semblante toda a expressão de pessoa que espera o resto.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "interrompeu",
+                "child": "Brito",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "interromper",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brito",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] interrompeu o que ia dizendo; assim pareceu ao sacristão, que pôs no semblante toda a expressão de pessoa que espera o resto.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O sacristão, apavorado, observou como Pedro parava de falar e olhava para ele com uma expressão de ansiedade mista a expectativa. Depois de um momento, Pedro se inclinou sobre o altar, tomou uma cruz e em seguida segurou-a contra seu peito, sostenha-se como se estivesse orando.",
+        "generated_text_llama": "Personagem interrompeu o que ia dizendo; assim pareceu ao sacristão, que pôs no semblante toda a expressão de pessoa que espera o resto. \"Perguntei a ele se o relógio estava funcionando\", disse Personagem, tentando parecer não ter feito nada de errado. O sacristão, um homem idoso com olhos penetrantes, levou a mão ao seu peito e assentiu lentamente, como se estivesse confirmando uma suposição. \"O relógio está quebrado\", disse ele em voz baixa, sem se aproximar de Personagem. \"E não é o único problema que temos aqui\", acrescentou, olhando em volta da igreja com um olhar de desconfiança.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "inclinou",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "interrompeu",
+                    "ROOT"
+                ],
+                [
+                    "disse",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "aproximar",
+                    "advcl"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brito",
+        "sentence": "Brito acabou andando ao longo da sala, enquanto João das Mercês dizia consigo que havia alguma cousa mais que febre.",
+        "start_char": 8749,
+        "end_char": 8754,
+        "excerpt": "Brito interrompeu o que ia dizendo; assim pareceu ao sacristão, que pôs no semblante toda a expressão de pessoa que espera o resto. Entretanto, como o outro estivesse a morder os beiços e a olhar para as paredes, não viu o gesto de espera, e ambos se detiveram calados. Brito acabou andando ao longo da sala, enquanto João das Mercês dizia consigo que havia alguma cousa mais que febre.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "interrompeu",
+                "child": "Brito",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "interromper",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brito",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "acabou",
+                "child": "Brito",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acabar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brito",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] acabou andando ao longo da sala, enquanto João das Mercês dizia consigo que havia alguma cousa mais que febre.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após percorrer toda a sala sem encontrar nada que desse a impressão de algo estranho ou suspeito, Personagem sentiu um leve calor nas palmas de suas mãos e na parte inferior do seu rosto. Era uma sensação muito peculiar, algo que não havia experimentado antes. Como qualquer outra pessoa, Personagem passou a analisar todos os detalhes da situação até descobrir que essa sensação era fruto de sua imaginação.",
+        "generated_text_llama": "Ao olhar para o espelho pendurado na parede, Personagem viu um homem exausto e confuso, com olheiras profundas sob os olhos escuros. Ele não reconhecia aquele rosto, e uma onda de medo começou a subir pela sua garganta. Personagem começou a se questionar se estava realmente perdido em seu próprio corpo.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "passou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "viu",
+                    "ROOT"
+                ],
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brito",
+        "sentence": "Ah! exclamou Brito estacando o passo.",
+        "start_char": 9612,
+        "end_char": 9617,
+        "excerpt": "Quando menos, a família dos enfermos, a posição, o atual estado, alguma página da vida deles, tudo era conhecer algo, por mais arredado que fosse da paróquia. -- Ah! exclamou Brito estacando o passo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "exclamou",
+                "child": "Brito",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "exclamar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brito",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Ah! exclamou [MASK] estacando o passo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, entusiasmado com a descoberta, seguiu para dentro da caverna, enfiando a luz de seu fio em direção às profundezas escurecidas. O ar se tornou mais quente e húmido ao abrigo da montanha, mas ele seguia adiantado, curioso para descobrir o que esconderia essa caverna tão profunda. Ao chegar no fundo, Personagem parou perto de uma fonte subterrânea iluminada pela luz de seu fio. A água da fonte brilhava sob a luz e estava preenchida com cristais que se movimentavam na sua superfície, o que deixou Personagem intrigado. Ele se inclinou para beber uma boca d'água daquela que pôde ser água curativa. Ao beber, sentiu uma sensação de calor que passava por todo seu corpo e um aumento na sua energia vital. Personagem se sentiu mais forte do que já havia sentido antes.",
+        "generated_text_llama": "Parecia que havia sido atingido por um raio, mas em vez de cair, conseguiu se manter firme com uma força surpreendente. Ele olhou em volta, tentando entender o que havia acontecido e quem poderia ter feito isso. A sua mente estava em branco, e o único som era o eco do seu próprio suspiro ao longe. Com um esforço enorme, Personagem se colocou em pé novamente, sentindo-se fraco mas determinado a descobrir o que estava acontecendo. Ele começou a caminhar lentamente pela floresta, tentando encontrar algum sinal de vida ou de uma explicação para o que havia sido atingido.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "seguiu",
+                    "ROOT"
+                ],
+                [
+                    "parou",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "deixou",
+                    "acl:relcl"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "colocou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brito",
+        "sentence": "Brito disse isto sem lágrimas e quase sem tristeza.",
+        "start_char": 11107,
+        "end_char": 11112,
+        "excerpt": "Ao cabo, chegou à sala um pranto sufocado; logo após, tornou o comendador. -- Que lhe dizia eu, há pouco? Quando menos, ela ia morrer; morreu. Brito disse isto sem lágrimas e quase sem tristeza.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Brito",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brito",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] disse isto sem lágrimas e quase sem tristeza.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem segurou o seu bebê novo nas mãos, olhando-o com um olhar profundo de amor. Em seguida, ele o apresentou ao restante da família, que estava em torno deles, sentados na cama e sorrindo com uma alegria pura. Então, ele desceu as escadas rumo à cozinha, em busca de seu lar de segurança mais antigo: uma jarra quente de chá e sua tazinha preferida. Levantando-a à boca, sentiu um pouco mais leve e o coração se sentia menos pesado. Sentou-se no sofá para observá-lo, com seu bebê novo a seus lados. Ele sabia que era apenas o começo de uma jornada incrível, mas também que as coisas iriam mudar. Por agora, ele sentiu-se grato por ter passado pela experiência e prometeu a si mesmo que jamais esqueceria a data dessa nova vida.",
+        "generated_text_llama": "Ele se levantou da cadeira, a mão trêmula segurando o pedaço de papel que havia encontrado no chão. A luz do sol que entrava pela janela iluminou as rugas profundas em seu rosto, um mapa de lutas e desejos não satisfeitos. Com um movimento lento e deliberado, ele se dirigiu à porta da sua casa, como se estivesse levando consigo uma carga pesada.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brito",
+        "sentence": "Brito cerrou os dentes para não dizer mais nada.",
+        "start_char": 13220,
+        "end_char": 13225,
+        "excerpt": "Ouviu dez horas, ouviria todas as demais da noite, velaria o cadáver de um ou de ambos, uma vez que pudesse juntar mais esta página às outras da paróquia, embora não fosse da paróquia. -- E vamos, vamos, foi então que a febre os tomou...? Brito cerrou os dentes para não dizer mais nada.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "cerrou",
+                "child": "Brito",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "cerrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brito",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] cerrou os dentes para não dizer mais nada.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, Personagem recolheu o olho do guarda-fogo e olhou pelo fundo da janela, onde a lua estava brilhando com claridade. A natureza externa parecia tênue e tranquila, contrariando a tensão interna que sentia. Uma sensação de frustração pesava sobre ele, como se o destino estivesse contra ele. Porém, ele sabia que não poderia parar aqui; seu caminho era adiante.",
+        "generated_text_llama": "Escondeu-se atrás da cortina de seu quarto, as lágrimas quase tocando o tecido enquanto ele tentava processar o que havia ouvido. Seu coração batia forte, como se estivesse prestes a explodir, e suas mãos tremiam ligeiramente ao segurar a mão de sua irmã mais velha, que estava sentada na cama, olhando para ele com uma expressão de preocupação.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "recolheu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    }
+]

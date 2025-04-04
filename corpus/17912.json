@@ -1,0 +1,452 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Martinho",
+        "sentence": "Se não a contou logo, foi por vergonha; agora, porém, como estivesse passeando com o tenente e lhe falasse das caboclinhas do Norte, Martinho não pôde ter mão em si e referiu os seus primeiros amores.",
+        "start_char": 2888,
+        "end_char": 2896,
+        "excerpt": "Este era agora uma espécie de vila improvisada, com espetáculos, bailes, bilhares, um periódico e muita casa de comércio. A comédia representada trouxe à memória do alferes uma aventura amorosa que lhe sucedera nas Alagoas, onde nascera. Se não a contou logo, foi por vergonha; agora, porém, como estivesse passeando com o tenente e lhe falasse das caboclinhas do Norte, Martinho não pôde ter mão em si e referiu os seus primeiros amores.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "pôde",
+                "child": "Martinho",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Martinho",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Se não a contou logo, foi por vergonha; agora, porém, como estivesse passeando com o tenente e lhe falasse das caboclinhas do Norte, [MASK] não pôde ter mão em si e referiu os seus primeiros amores.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ao ouvir a voz do tenente falar sobre as belas mulheres do norte, Personagem sentia-se incontrolável e sua mente voltava ao passado. Pareceu que as memórias antigas não se apagavam de sua cabeça. Era difícil contê-los por muito tempo, então, finalmente, derrubou uma barreira interna que a impedia de se abrir e falar sobre seus primeiros amores.",
+        "generated_text_llama": "E assim, enquanto caminhavam pela praia de Areia Preta, sob o sol a pino e as palmeiras, Personagem começou a falar sobre suas memórias com as caboclinhas do Norte, contando histórias de amor e paixão que haviam sido escondidas por tanto tempo. O tenente, surpreso mas curioso, ouviu atentamente, perguntando ocasionaismente para saber mais sobre essas experiências. Personagem ria e sorría, lembrando-se de todos os momentos felizes que haviam compartilhado com as mulheres do Norte.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentia-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "lembrando-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Isidoro",
+        "sentence": "Quando acabou a narração, viu que Isidoro tinha os olhos no chão, parecendo ler por letras invisíveis alguma história análoga.",
+        "start_char": 3163,
+        "end_char": 3170,
+        "excerpt": "Se não a contou logo, foi por vergonha; agora, porém, como estivesse passeando com o tenente e lhe falasse das caboclinhas do Norte, Martinho não pôde ter mão em si e referiu os seus primeiros amores. Podiam não valer muito; mas foram eles que o levaram para o Recife, onde alcançou um lugar na secretaria do governo; sobrevindo a guerra, alistou-se com o posto de alferes. Quando acabou a narração, viu que Isidoro tinha os olhos no chão, parecendo ler por letras invisíveis alguma história análoga.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "Isidoro",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Isidoro",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando acabou a narração, viu que [MASK] tinha os olhos no chão, parecendo ler por letras invisíveis alguma história análoga.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após a narrativa se encerrar, percebe-se que Personagem tinha seus olhos no chão, como se estivesse lendo palavras invisíveis de uma história similar. De repente, ele sentiu uma onda de calor correndo pelo seu peito e teve a sensação de estar envolta por um manto de luz amarela suave que o elevava da realidade física. Nesse momento, percebeu-se que estava viando, com clarividência, sua própria história passada, enquanto os olhos dela se movimentavam através dos eventos que haviam marcado sua vida. A primeira cena a se apresentar foi a do dia em que descobriu a morte de seu pai.",
+        "generated_text_llama": "Sem entender o que havia acontecido, Personagem se levantou lentamente de sua cadeira e começou a caminhar em direção à janela do quarto. As luzes da noite estavam começando a brilhar fora, criando uma atmosfera misteriosa. Ele abriu as persianas, permitindo que a escuridão se infiltrasse no quarto, e sentou-se novamente na cadeira, agora com os olhos fixos no chão.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "tinha",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Isidoro",
+        "sentence": "A minha história é mais longa e mais trágica, respondeu Isidoro.",
+        "start_char": 3337,
+        "end_char": 3344,
+        "excerpt": "Quando acabou a narração, viu que Isidoro tinha os olhos no chão, parecendo ler por letras invisíveis alguma história análoga. Perguntou-lhe o que era. A minha história é mais longa e mais trágica, respondeu Isidoro.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "Isidoro",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Isidoro",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "respondeu",
+                "child": "Isidoro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Isidoro",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A minha história é mais longa e mais trágica, respondeu [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " \"A minha história é mais longa e mais trágica\", respondeu ela, enroscando as mãos em volta da mesa, como se estivesse sentada num banco de juízo. Ao longo dos anos, ela havia vivido tantas experiências duros que a sua memória parecia uma trilha marcada por eventos de grande intensidade e conflito.",
+        "generated_text_llama": "Eu sorrí, sabendo que aquela resposta seria apenas o começo de uma longa e fascinante jornada pela vida de Personagem. Com um olhar penetrante, eu perguntei: \"E como é que você consegue dizer isso, sem me dar nem mesmo um nome? Quem é você para falar sobre a minha história?\".",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Isidoro",
+        "sentence": "Isidoro começou a sentir desejo de contar a alguém uma situação penosa e aborrecida, causa da alucinação que o levou à guerra.",
+        "start_char": 3641,
+        "end_char": 3648,
+        "excerpt": "Quanto a ser trágica, olhe que passar, como eu passei, metido no canavial, à espera de cinco ou dez tiros que me levassem, não é história de farsa. Vamos, conte; se é coisa triste, eu sou amigo para tristezas. Isidoro começou a sentir desejo de contar a alguém uma situação penosa e aborrecida, causa da alucinação que o levou à guerra.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "começou",
+                "child": "Isidoro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "começar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Isidoro",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] começou a sentir desejo de contar a alguém uma situação penosa e aborrecida, causa da alucinação que o levou à guerra.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem começou a caminhar pelas ruas da cidade, tentando encontrar alguém fiel e simpático, que pudesse ouvir sua história sem juízos e sem receio de ser considerado um burro. Encontrou um velho sacolinhão em uma bebida forte, que estava sentado num banco do parque. Ele aproximou-se deste homem, com medo na voz, mas o sacolinhão sorriu gentilmente e lhe deu sinal de que ficasse ao lado dele.",
+        "generated_text_llama": "Personagem começou a sentir desejo de contar a alguém uma situação penosa e aborrecida, causada pela alucinação que o levou à guerra. Ele escolheu sua melhor amiga, Sofia, que estava sentada em um café tranquilo na cidade. Com uma expressão sombria no rosto, ele se aproximou dela e pediu para ela ouvir a história.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Isidoro",
+        "sentence": "Pode levar menos, pode também levar uma caixa inteira, redargüiu Isidoro; tudo depende de ser resumido ou completo.",
+        "start_char": 4523,
+        "end_char": 4530,
+        "excerpt": "Martinho insistia pela confidência. Levará mais tempo que fumar este charuto? Pode levar menos, pode também levar uma caixa inteira, redargüiu Isidoro; tudo depende de ser resumido ou completo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "redargüiu",
+                "child": "Isidoro",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "redargüiu",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Isidoro",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Isidoro",
+                "child": "uma caixa inteira",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Isidoro",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "inteira",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Pode levar menos, pode também levar uma caixa inteira, redargüiu [MASK]; tudo depende de ser resumido ou completo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O carregador olhou em volta e, vendo ainda muitas cadeiras vagas, segurou a mala nas mãos e, com uma expressão confiante no rosto, começou a andar para frente pela sala de armazenamento. Ele sabia que a missão era importante e não se podia permitir erros ou ineficiências.",
+        "generated_text_llama": "Nesse momento, Personagem olhou em volta do quarto, procurando por algo que pudesse servir como material para criar a coleção de memórias. Seus olhos pararam na prateleira superior, onde havia uma caixa de cartão e papel. Ele saiu da mesa e começou a explorar as caixas, escolhendo os mais interessantes e usáveis.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Camila",
+        "sentence": "Inclinei-me, desatinado, para lhe dar um beijo; Camila desviou a cabeça, recuou a cadeira com força e quase caiu para trás.",
+        "start_char": 11478,
+        "end_char": 11484,
+        "excerpt": "Camila, que falava tanto e sem parar, não achou palavra que dissesse. Eu agarrei-lhe a mão, quis puxá-la a mim; ela, ofegante, deixou-se cair numa cadeira. Inclinei-me, desatinado, para lhe dar um beijo; Camila desviou a cabeça, recuou a cadeira com força e quase caiu para trás.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "achou",
+                "child": "Camila",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "achar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "camila",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "desviou",
+                "child": "Camila",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "desviar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Camila",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Inclinei-me, desatinado, para lhe dar um beijo; [MASK] desviou a cabeça, recuou a cadeira com força e quase caiu para trás.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuei a perseguir o rosto dele com meus olhos, surpreso pela sua reação impulsiva. Inveja me invadia, pois eu sabia que ele sentia mais do que amizade por mim. Me aventurei a tentar abordá-lo novamente, perguntando-lhe se tudo estava bem entre nós dois.",
+        "generated_text_llama": "",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "invadia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Camila",
+        "sentence": "Camila deu-me a mão livre, eu dei-lhe a minha.",
+        "start_char": 16929,
+        "end_char": 16935,
+        "excerpt": "Chegue-se mais. Obedeci; ela quis estender-me a mão, o homem que a segurava, reteve-a com força; eu disse-lhe que deixasse, não fazia mal, era um instante. Camila deu-me a mão livre, eu dei-lhe a minha.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "deu-me",
+                "child": "Camila",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "deu-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "camila",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] deu-me a mão livre, eu dei-lhe a minha.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando com a história em português brasileiro: O cara levantou as mãos e segurou-me pelas costas, soltando sua presença dominante sobre mim. Eu recuai direcionado para ele, sorriente. Eu também deixei-lhe a mão livre, entregando minha ao mesmo tempo. A conversa entre nós foi iniciada com uma conexão física que podia ser sentida tanto em nossas mãos quanto nos olhos. O clima se tornou mais quente e tenso, como se nós estivessemsoberano e inconsciente à mesma vez.",
+        "generated_text_llama": "E assim, nós nos encontramos de pé frente a frente, os olhos brilhando com uma mixologia de raiva e desafio. Eu podia sentir o coração batendo forte em meu peito, quase que me dizendo \"vai embora, agora\". Mas eu não estava pronto para ir embora. Afinal de contas, eu tinha um objetivo claro: descobrir a verdade sobre a morte de minha mãe e encontrar os responsáveis.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Camila",
+        "sentence": "Camila tirou a capa, e sentou-se no sofá, ao pé de mim.",
+        "start_char": 22478,
+        "end_char": 22484,
+        "excerpt": "Suba, suba, replicou ela dando-me o braço. A sala era trastejada com simplicidade, antes vizinha da pobreza que da mediania. Camila tirou a capa, e sentou-se no sofá, ao pé de mim.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "tirou",
+                "child": "Camila",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tirar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "camila",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] tirou a capa, e sentou-se no sofá, ao pé de mim.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Com um sorriso confortável em seu rosto, ela acariciou o couro veludo do sofá antes de me olhar diretamente nos olhos. \"Gostaria de conversar por um momento?\" perguntou, enquanto empurrava os cabelos para trás com a mão esquerda. Sua voz era leve e suave, como sempre, mas havia uma certa intuição nos seus olhos que me deixaram suspeitar que ela estava se preparando para contar algo importante. Eu apenas me inclinei ligeiramente, indicando que estaria feliz em ouvir o que ela tinha a dizer. Ela então me relatou sobre sua última viagem e as surpreendentes descobertas que fez, contendo em cada palavra uma sensação de entusiasmo e um ardor inegável que só um pensador como ela poderia exibir. Com a história contada, sentimos um silêncio quase palpável entre nós. Mas então, sem falar nada, ela passou as mãos pelo meu rosto e olhou para mim com um olhar que não tinha dúvida sobre o que estava se escondendo na sua alma. E eu entendi que havia alguma coisa mais importante a ser dita. Ela teve um suspiro profundo e começou a contar a história de um amor perdido, da saudade que nunca abandona e da importância de se ter amor no nosso caminho.",
+        "generated_text_llama": "Ele prendeu um respirador de álcool e começou a limpar sua testa suada, enquanto olhava para mim com uma expressão de cansaço e frustração. \"Eu não sei como consigo ter sobrevivido até aqui\", disse ele, suspirando pesadamente. \"A noite foi uma caos total\".",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "perguntou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "sobrevivido",
+                    "xcomp"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Isidoro",
+        "sentence": "Isidoro deu uma volta e caiu; uma bala paraguaia varou-lhe o coração, estava morto.",
+        "start_char": 26349,
+        "end_char": 26356,
+        "excerpt": "Quanto mais olhava para ela, mais sentia que era uma aleijada do espírito, uma convalescente da loucura... A minha repugnância crescia, a pena também; ela, fitando-me os olhos que já não sabiam rir, segurou-me a mão com ambas as suas; eu levantei-me para sair... Isidoro deu uma volta e caiu; uma bala paraguaia varou-lhe o coração, estava morto.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "deu",
+                "child": "Isidoro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "isidoro",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] deu uma volta e caiu; uma bala paraguaia varou-lhe o coração, estava morto.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, a polícia foi notificada da situção e o local foi cercado. A multidão que assistiu ao atentado passou a sobrar em silêncio, assombrados com o espetáculo traumático que acabara de se verificar.",
+        "generated_text_llama": "Desculpe, mas não posso continuar a história nesse ponto.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    }
+]

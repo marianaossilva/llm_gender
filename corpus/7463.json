@@ -1,0 +1,44 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Artur Azevedo",
+        "sentence": "Artur Azevedo Perdoem-me os leitores se eu, de ordinário alegre, venho contar-lhes uma história triste, num dia em que todos estão predispostos ao riso; mas. .",
+        "start_char": 22,
+        "end_char": 35,
+        "excerpt": "HISTÓRIA DE UM DOMINÓ Artur Azevedo Perdoem-me os leitores se eu, de ordinário alegre, venho contar-lhes uma história triste, num dia em que todos estão predispostos ao riso; mas. . . que querem?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Perdoem-me",
+                "child": "Artur Azevedo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Perdoem-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Artur",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] Perdoem-me os leitores se eu, de ordinário alegre, venho contar-lhes uma história triste, num dia em que todos estão predispostos ao riso; mas. .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas naquela tarde, ao passar pela Praça da Sé e observando as pessoas em suas diversas manifestações de alegria, Personagem sentiu uma onda de tristeza que o tomou de assaltos. Não era um dia qualquer, pois aquelas lembranças que levava no peito desde os dias que passara sem ele faziam com que ele sentisse tudo de novo.",
+        "generated_text_llama": "Eu não sei por que me senti tão deprimido nesse dia específico, talvez fosse a chuva caía forte e sem parar fora das janelas da minha casa, criando uma atmosfera sombria que correspondia perfeitamente ao estado interior do meu coração. Decidi me trazer à biblioteca, um local onde sempre encontrei conforto e paz, esperando encontrar alguém para compartilhar a minha melancolia.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    }
+]

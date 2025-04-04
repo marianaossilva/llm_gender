@@ -1,0 +1,280 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "João Batista",
+        "sentence": "Exageras tudo, João Batista, atalhou o santo bispo, não exageremos nada.",
+        "start_char": 5627,
+        "end_char": 5639,
+        "excerpt": "S. João abanava a cabeça. Francisco de Sales, digo-te que vou criando um sentimento singular em santo: começo a descrer dos homens. Exageras tudo, João Batista, atalhou o santo bispo, não exageremos nada.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "atalhou",
+                "child": "João Batista,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "atalhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Exageras tudo, [MASK], atalhou o santo bispo, não exageremos nada.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Exaggerando tudo, João, cortou com precisão as ervilhas do jardim do santo bispo, demonstrando a sua meticulosidade incomum. Não exageramos ao dizer que ele atalhou tais detalhes como se estivesse fazendo uma escultura delicada. De repente, sentiu um pálpito em seu peito - foi um instinto primitivo de aviso que estava chegando perto do fim da jornada.",
+        "generated_text_llama": "Eu sorri, tentando manter a calma, e disse: \"Sinto muito, reverendo, mas preciso ser honesto com você. Eu não estou exagerando, é apenas que... bem, você viu o que aconteceu no jardim? A estrutura da cruz parece ter sido alterada recentemente\". O bispo me fixou com um olhar sério, como se eu tivesse cometido um pecado grave. \"Continuem, Personagem,\" ele disse finalmente, sua voz baixa e autoritária.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "cortou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "José",
+        "sentence": "Uma pessoa mais interessante que o teu escrivão, José, e que o teu lojista, Miguel...  Pode ser, atalhou S. José, mas não há de ser mais interessante que a adúltera que aqui veio hoje prostrar-se a meus pés.",
+        "start_char": 6221,
+        "end_char": 6225,
+        "excerpt": "Tu, João Batista, e tu também, Francisco de Paula, e todos vós haveis de sorrir comigo: e, pela minha parte, posso fazê-lo, pois já entercedi e alcancei do Senhor aquilo mesmo que me veio pedir esta pessoa. Que pessoa? Uma pessoa mais interessante que o teu escrivão, José, e que o teu lojista, Miguel...  Pode ser, atalhou S. José, mas não há de ser mais interessante que a adúltera que aqui veio hoje prostrar-se a meus pés.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "escrivão",
+                "child": ", José",
+                "dep_h": "acl:relcl",
+                "pos_h": "NOUN",
+                "lemma_h": "escrivão",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", José",
+                "child": "escrivão",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "José",
+                "dep_c": "acl:relcl",
+                "pos_c": "NOUN",
+                "lemma_c": "escrivão",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", José",
+                "child": "Uma pessoa mais",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "José",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "pessoa",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "atalhou",
+                "child": "S. José",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "atalhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "S.",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Uma pessoa mais interessante que o teu escrivão, [MASK], e que o teu lojista, Miguel...  Pode ser, atalhou S. [MASK], mas não há de ser mais interessante que a adúltera que aqui veio hoje prostrar-se a meus pés.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "\tPersonagem então se aproximou delicadamente da adúltera, que estava completamente abatida e despojada de qualquer graça que lhe pertencesse. Com uma voz que parecia ser feita por um coro de anjos, Personagem perguntou: \"Qual é o seu pecado?\" A adúltera sorrou e falhou na respirar, mas encontrou a força para responder: \"Todas as mulheres são adúlteras.\" Então Personagem, com uma leve sorrida no rosto, disse: \"Nunca foi isso, meu pequeno. Eu vou te dar a oportunidade de escapar dessa situação. Conta-me quem realmente é você e qual o motivo para sua traição. Mas se eu descobrir que você mentiu, não haverá lugar nenhum onde você se esconder.\"",
+        "generated_text_llama": "Desculpe, mas não posso continuar essa história. Posso ajudar com outra coisa?",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "aproximou",
+                    "ROOT"
+                ],
+                [
+                    "perguntou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sales",
+        "sentence": "A outra preta morreu há pouco tempo; e aqui vereis se este homem tem ou não o gênio da economia, Sales libertou o cadáver...",
+        "start_char": 9222,
+        "end_char": 9227,
+        "excerpt": "A família compõe-se da mulher e de uma preta escrava, comprada com outra, há muitos anos, e às escondidas, Por serem de contrabando. Dizem até que nem as pagou, porque o vendedor faleceu logo sem deixar nada escrito. A outra preta morreu há pouco tempo; e aqui vereis se este homem tem ou não o gênio da economia, Sales libertou o cadáver...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "libertou",
+                "child": "Sales",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "libertar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sales",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A outra preta morreu há pouco tempo; e aqui vereis se este homem tem ou não o gênio da economia, [MASK] libertou o cadáver...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "....para a sua próxima tarefa: enterrar o corpo. Mas, ao invés de seguir com a rotina habitual de um enterramento simples, ele fez algo que impressionou todos os presentes - construiu uma pirâmide.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sales",
+        "sentence": "Sales ama a esposa; está abatido e desvairado com a idéia de a perder.",
+        "start_char": 10195,
+        "end_char": 10200,
+        "excerpt": "Não te espantes, Miguel; naquele muro aspérrimo brotou uma flor descorada e sem cheiro mas flor. A botânica sentimental tem dessas anomalias. Sales ama a esposa; está abatido e desvairado com a idéia de a perder.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ama",
+                "child": "Sales",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "amar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sales",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] ama a esposa; está abatido e desvairado com a idéia de a perder.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele se ajoelhou no chão da sala, colocou as mãos juntas em oração, pedindo ao Senhor pela sorte de sua esposa. Depois disso, sentiu-se um calor quente correndo pelo peito e descobriu que a lágrima estava caindo da face. Era uma chuva de beiras, porém ele sabia que não seriam apenas chuvas normais, pois as línguas do oriente contavam de um chorar que curava o coração e lavava pecados. Ele segurou a fé em seu pedido e acreditou na promessa de um novo começo, uma vida nova para ele e sua esposa.",
+        "generated_text_llama": "Pensou nos dias felizes que eles passaram juntos, nas caminhadas ao longo do rio, nas noites animadas em que riam até dascear, e na tranquilidade da manhã em que compartilhavam um café quente. A lembrança de suas mãos entrelaçadas, enquanto olhavam para as estrelas, foi suficiente para fazer com que Personagem sentisse uma dor ainda maior dentro dele.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "pedindo",
+                    "advcl"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentisse",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sales",
+        "sentence": "Quando pensou em vir pedir-me que intercedesse pela vida da esposa, Sales teve uma idéia específica de usurário, a de prometer-me uma perna de cera.",
+        "start_char": 11034,
+        "end_char": 11039,
+        "excerpt": "Vi os bustos inclinarem-se ainda mais; eu próprio não pude esquivar-me ao movimento e dei um passo para diante. A narração do santo foi tão longa e miúda, a análise tão complicada, que não as ponho aqui integralmente, mas em substância. Quando pensou em vir pedir-me que intercedesse pela vida da esposa, Sales teve uma idéia específica de usurário, a de prometer-me uma perna de cera.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "teve",
+                "child": "Sales",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sales",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando pensou em vir pedir-me que intercedesse pela vida da esposa, [MASK] teve uma idéia específica de usurário, a de prometer-me uma perna de cera.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quando pensou em vir pedir-me que intercedesse pela vida da esposa, Personagem teve uma idéia específica de usurário: a de prometer-me uma perna de cera. Mas o Personagem sabia que tal promessa não era suficiente para convencerigo. Então, decidiu fazer mais uma promessa, algo de valor incrível, algo que você nunca havia desejado: a fórmula mágica para realizar um desejo qualquer.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "teve",
+                    "ROOT"
+                ],
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    }
+]

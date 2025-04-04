@@ -1,0 +1,112 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Filipe II",
+        "sentence": "Schiller é sempre alemão, quando recompõe Filipe II e Joana d'Arc.",
+        "start_char": 4781,
+        "end_char": 4790,
+        "excerpt": "Há um modo de ver e de sentir, que dá a nota íntima da nacionalidade, independente da face externa das coisas. O mais francês dos trágicos franceses é Racine, que só fez falar a antigos. Schiller é sempre alemão, quando recompõe Filipe II e Joana d'Arc.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "recompõe",
+                "child": "Filipe II e Joana d'Arc",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "recompor",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filipe",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Filipe II e Joana d'Arc",
+                "child": "alemão",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Filipe",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "alemão",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Schiller é sempre alemão, quando recompõe [MASK] e Joana d'Arc.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Schiller continuou a trabalhar meticulosamente em sua composição \"Schillers Drama: Schiller reune alemão e Joana D'Arco\". Utilizando a língua alemã para retratar as cenas em que o próprio Schiller é personagem, ele estabeleceu uma diálogo profundo entre sua personalidade e a história de São Joana.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alencar",
+        "sentence": "Desenganado dos homens e das coisas, Alencar volveu de todo às suas queridas letras.",
+        "start_char": 6319,
+        "end_char": 6326,
+        "excerpt": "O autor do Gaúcho carecia das qualidades necessárias à tribuna, mas quis ser orador, e foi orador. Sabemos que se bateu galhardamente com muitas das primeiras vozes do parlamento. Desenganado dos homens e das coisas, Alencar volveu de todo às suas queridas letras.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "volveu",
+                "child": "Alencar",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "volver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Alencar",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Desenganado dos homens e das coisas, [MASK] volveu de todo às suas queridas letras.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Entristeceu com a realidade enfrentada, Personagem retornou ao abrigo familiar do seu mundo literário. Apenas o clamor da cidade não era capaz de distrair a figura tranquila que permanecia parada no meio da sala de escritório. Sentado com precisão em frente à sua mesa, ele levantou os olhos para o céu e começou a escrever com o ponto final que ele sempre sonhou - livros repletos de sentimentos verdadeiros e imagens que transcendem a própria realidade. Ao longo dos dias, os papéis em branco se transformaram em obras maestras, onde as palavras corriam livremente pela página, como se ela fosse uma fonte de inspiração infinita. Por fim, Personagem revelou ao mundo seus textos fecundos e inesquecíveis, conquistando corações através das páginas que o separavam do caos externo e, no fundo, reafirmando sua verdadeira identidade.",
+        "generated_text_llama": "Com as palavras fluindo como um rio que não para, Personagem começou a escrever com uma caneta dourada quebrada em uma caixa de papelão velha, encontrada escondida atrás da estante de livros em sua pequena sala. A luz fraca da janela entrava pela fresta entre as cortinas, iluminando a cena como se fosse um quadro do pintor Rembrandt.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "retornou",
+                    "conj"
+                ],
+                [
+                    "revelou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

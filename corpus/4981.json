@@ -1,0 +1,431 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Cristo",
+        "sentence": "Se Cristo morreu na cruz, a natureza é o mal.",
+        "start_char": 15537,
+        "end_char": 15543,
+        "excerpt": "O sentimento do bem e da justiça, desenraizável do meu coração e do meu cérebro. Logo existe também na natureza, pois que eu sou natureza, a lei do amor e da justiça, contraposta à lei da força e da violência. Se Cristo morreu na cruz, a natureza é o mal.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "morreu",
+                "child": "Cristo",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "morrer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cristo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cristo",
+                "child": "mal",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cristo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "mal",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Se [MASK] morreu na cruz, a natureza é o mal.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Com as mãos tenses e olhando para o céu, Personagem inclinou-se lentamente, oferecendo sua última oração ao Sol que se pôs. Depois de um minuto que parecia eterno, abriu os olhos e aplicou a pequena broca sobre a face da cruz. A corrente que prendia as mãos e o pescoço caiu do chão, e Personagem começou a escalar a escadaria de pedra com as mãos ensanguantadas, um sorriso de definição no rosto. O sol já não se via mais no horizonte, mas uma luz estranha iluminava o caminho dele - um sinal, Personagem acreditava, que a natureza não era tão maligna como podia parecer.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "inclinou-se",
+                    "ROOT"
+                ],
+                [
+                    "começou",
+                    "conj"
+                ],
+                [
+                    "acreditava",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rua",
+        "sentence": "Rua, escrava!  e eu ia-me embora.",
+        "start_char": 51042,
+        "end_char": 51045,
+        "excerpt": "Vai eu e ria-me. Que quereis de mim? Rua, escrava!  e eu ia-me embora.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "escrava",
+                "child": "Rua",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "escrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "rua",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], escrava!  e eu ia-me embora.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas ela me segurou pela mão, olhando para mim com olhos que brilhavam de tristeza e determinado. \"Não vai, Ana\", ela falou, com uma voz fraca mas firme. \"Preciso te ouvir, minha irmã.\"",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sofia",
+        "sentence": "se qualquer deles adoecia, os outros nem dormir podiam, e um dia a mulher enfim tombada, inútil, sem poder erguer-se, chamou Sofia para lhe dizer baixinho:  Olha se cuidas de teu pai.",
+        "start_char": 113541,
+        "end_char": 113546,
+        "excerpt": "A desgraça aniquilava- os juntando-os. Deixava um de comer, fingindo-se farto, para que outro tivesse mais pão; se qualquer deles adoecia, os outros nem dormir podiam, e um dia a mulher enfim tombada, inútil, sem poder erguer-se, chamou Sofia para lhe dizer baixinho:  Olha se cuidas de teu pai.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "chamou",
+                "child": "Sofia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chamar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sofia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "se qualquer deles adoecia, os outros nem dormir podiam, e um dia a mulher enfim tombada, inútil, sem poder erguer-se, chamou [MASK] para lhe dizer baixinho:  Olha se cuidas de teu pai.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O filho, surpreso pela situação e com o coração pesado, sentiu que sua mãe estava em perigo. Ele levantou a cabeça e olhou para o pai, que, agora, dormia profundamente no chão, sem poder se levantar. O filho sentiu uma determinada força dentro de si e resolveu cuidar deles dois, com o coração firme e a mão em direção ao pai.",
+        "generated_text_llama": "Eu me levantei da cadeira, sentindo uma ponta de curiosidade e um pouco de medo de saber o que a mulher queria me dizer. Ela me olhou com um olhar sério e disse: \"Era muito jovem quando ele teve o acidente, Personagem. Eu estava com ele naquela noite, e ele nunca mais se recuperou daquela lesão. Ele ficou paralisado e dependente de mim para tudo. Eu me esforcei por cuidar dele, mas...\". Ela pausou por um momento, como se estivesse escolhendo as palavras certas.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tom",
+        "sentence": "Tombou combatendo pela vida e pelo sonho que nos acompanha até ao túmulo e para além do túmulo...",
+        "start_char": 115190,
+        "end_char": 115193,
+        "excerpt": "Mas ela não pôde: tinha de defender a vida dos seus e a própria ilusão, e defendeu-a até cair amachucada por aquelas mãos de ferro que não perdoam nem quebram. Tombou combatendo pela vida e pelo sonho que nos acompanha até ao túmulo e para além do túmulo...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "combatendo",
+                "child": "Tombou",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "combater",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tombou",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]bou combatendo pela vida e pelo sonho que nos acompanha até ao túmulo e para além do túmulo...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a sua jornada, ele não desistiu em seu combate. Por uma manhã fria e brumosa, enquanto a luz do nascente sol iluminava as suas costas, ele sentiu o ar quente do forno soterrado que lhe dera a força necessária para prosseguir. Ele entrou no túnel escondido entre o caos da cidade, onde encontrou seu alvo: a fábrica suja, encharcada e pestilente de onde as garras de uma malfeitora corporação saqueavam os segredos mais sagrados do mundo.",
+        "generated_text_llama": "...sem deixar um rastro de dor ou desespero. Com a determinação incendiada em seus olhos, Personagem continuou a lutar, impulsionado pela promessa de que algo melhor estava por vir. Ele pensava nos momentos difíceis que já passara, nas noites sem sono e nos dias de desespero, mas também nos flashes de esperança que o haviam mantido viva.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sofia",
+        "sentence": "As prostitutas, que dantes odiavam Sofia, chamam- lhe agora menina, depois que a vêem sua igual.",
+        "start_char": 188517,
+        "end_char": 188522,
+        "excerpt": "De que força é que se constrói, de que química é que se forma a bondade profunda, inabalável, inextinguível, que sustenta e ampara os pobres? ... As prostitutas, que dantes odiavam Sofia, chamam- lhe agora menina, depois que a vêem sua igual.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "odiavam",
+                "child": "Sofia",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "odiar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sofia",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Sofia",
+                "child": "As prostitutas",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Sofia",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "prostituta",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Sofia",
+                "child": "chamam-",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Sofia",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "Chamam-",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "As prostitutas, que dantes odiavam [MASK], chamam- lhe agora menina, depois que a vêem sua igual.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, Maria, a prostituta que anteriormente desprezava Personagem, começou a chamá-lo de \"menina\". Ela sentia uma curta e rara empatia com Jesus, pois era ela mesma uma vez uma menina que perdeu seu caminho. A cada encontro, Maria tratava Jesus com mais gentileza, compartilhando conhecimentos sobre as ruas e dando-lhe conselhos para superar suas dificuldades. Jesus, por sua vez, era gentil, corajoso e sempre levava a Maria ao local onde os clientes pagavam mais bem.",
+        "generated_text_llama": "Desculpe, mas não posso continuar com essa história. Posso ajudar com outra coisa?",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "desprezava",
+                    "acl:relcl"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pita",
+        "sentence": "Pita, você tem um ar estranho.",
+        "start_char": 191269,
+        "end_char": 191273,
+        "excerpt": "Os dias passaram-se e a Árvore era um colosso esbranquiçado e mudo. Nessa noite o Astrónomo encontrou o Pita desvairado, com o xale-manta ao vento. Pita, você tem um ar estranho.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "encontrou",
+                "child": "o Pita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "encontrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "pita",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "um ar",
+                "child": "Pita",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "ar",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Pita",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], você tem um ar estranho.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele ficou tenso e olhou para a esquerda e direita, procurando algum sinal de perigo. Após um momento de pausa, segurou o objeto em sua mão e sentiu-se mais confiante. Era apenas uma pedra com uma forma estranha, não tinha nada de sobrenatural ou ameaçador. Ele colocou a pedra no bolso e prosseguiu caminhando pela floresta.",
+        "generated_text_llama": "Ele sorriu levemente e olhou para baixo, como se estivesse tentando esconder algo. \"Eu acho que está tudo bem\", disse ele em voz baixa, sua voz parecendo sair de uma gaita de madeira. Ele levantou a mão e tocou levemente na ponta do seu chapéu, um movimento que parecia uma combinação de relaxamento e tentativa de controlar suas palavras.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sofia",
+        "sentence": "Uma noite que os ladrões espancaram Sofia, a Mouca pôs-se a olhá-la como um cão ao dono.",
+        "start_char": 202148,
+        "end_char": 202153,
+        "excerpt": "A gente tem de morrer, não é? Então quanto mais depressa melhor... Uma noite que os ladrões espancaram Sofia, a Mouca pôs-se a olhá-la como um cão ao dono.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "espancaram",
+                "child": "Sofia",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "espancar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sofia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Sofia",
+                "child": "Uma noite",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Sofia",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "noite",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Uma noite que os ladrões espancaram [MASK], a Mouca pôs-se a olhá-la como um cão ao dono.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, a Mouca não podia ficar parada e assistir à sua amiga sofrer dessa maneira. Ela se aproximou delicadamente da Fera, de forma que ninguém pudesse percebê-la, e começou a tocar em suas orelhas com as mãos lisas e leves. A Mouca sabia bem que sua técnica poderia ser a única saída para salvar sua amiga agonizante. E logo, como um milagre, a Fera começou a despertar-se gradativamente da comatose em que estava e abrir os olhos para ver a Mouca ao seu lado. Ao reconhecer a Mouca, a Fera recolheram o rosto em uma mistura de confusão e gratidão.",
+        "generated_text_llama": "E assim, Personagem sentiu uma onda de raiva e medo misturados em seu peito, mas também sentiu algo mais: uma profunda tristeza e compaixão pelo homem que havia sido atacado. Ela sabia que não podia deixar o dono dela sozinho, sem ajuda, nessa situação difícil.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "podia",
+                    "ROOT"
+                ],
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "ver",
+                    "advcl"
+                ],
+                [
+                    "reconhecer",
+                    "advcl"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sofia",
+        "sentence": "Sofia sobe as escadas com uma caneca de vinho quente, para repartir com o Gebo.",
+        "start_char": 229527,
+        "end_char": 229532,
+        "excerpt": "As lágrimas que se choram e se não vêem são as melhores: caem sobre a alma. Sofia sobe as escadas com uma caneca de vinho quente, para repartir com o Gebo.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "sobe",
+                "child": "Sofia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "subir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sofia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] sobe as escadas com uma caneca de vinho quente, para repartir com o Gebo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ela segurou a caneca de vinho quente e subiu pelas escadas, direcionando-se à sala onde seu pai estava sentado, tranquilo na sua cadeira de rodas, olhando para o jogo. Quando chegou ao lado dele, abriu a caneca e ofereceu um soro de vinho quente ao Gebo, que aceitou com um sorriso gentil. O velho homem bebeu tranquilamente da caneca, enquanto ela segurava-a na outra mão e conversavam sobre os eventos do dia. A atmosfera se tornou agradável e confortável, com o ar quente da lareira escorrendo pela sala, envelopando a dupla em um calor gentil e seguro.",
+        "generated_text_llama": "Enquanto caminhava pelas calçadas geladas, o aroma do vinho quente a envolvia e a fazia se sentir um pouco mais confortável. Ele olhou em volta e avistou o Gebo sentado no banco da calçada, fumando um cigarro. Com a caneca na mão, Personagem aproximou-se dele e disse: \"Ei, Gebo, que tal um copo de vinho quente para nos aquecermos?\" O Gebo olhou para ele com um sorriso e acenou com a cabeça, indicando que sim, aceitaria uma bebida. Personagem sorriu e começou a preparar os dois copos, misturando o vinho quente com água fria e adicionando um pouco de açúcar. Enquanto isso, eles começaram a conversar sobre o dia anterior, trocando histórias e risadas. O vinho quente logo tornou-se uma bebida que os aquecia tanto fisicamente quanto emocionalmente, criando uma atmosfera de convivência e companheirismo entre os dois amigos.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "aproximou-se",
+                    "ROOT"
+                ],
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

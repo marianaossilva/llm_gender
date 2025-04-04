@@ -1,0 +1,111 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Andéía",
+        "sentence": "Soube nessa ocasião que ela se chamava Andéía.",
+        "start_char": 2026,
+        "end_char": 2032,
+        "excerpt": "- ele viu sair do convento um molecote que se dirigia para a 0 venda próxima. Não refletiu: chamou-o de parte, untou-lhe as unhas e interpelou-o. Soube nessa ocasião que ela se chamava Andéía.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "chamava",
+                "child": "Andéía",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "chamar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Andéía",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Andéía",
+                "child": "ocasião",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Andéía",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "ocasião",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Soube nessa ocasião que ela se chamava [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então ela perguntou com uma voz suave e curiosa às pessoas ao seu redor: \"Qual é o nome de você? Por favor, me digam como se chama\". Aconteceu que muitas das pessoas não entenderam a língua em que ela falava. Mas uma velha mulher com cabelos brancos e olhos azuis, aproximou-se dela e respondeu: \"Você se chama Maria, filha do sol, e você?\"",
+        "generated_text_llama": "",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "chama",
+                    "ROOT"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Remígio Soares",
+        "sentence": "Vinte minutos depois dessa libação desagradável, Remígio Soares viu assomar ao longe, na porta da cozinha, o vulto de D. Andréia, anunciando-lhe uma carta.",
+        "start_char": 5092,
+        "end_char": 5106,
+        "excerpt": "É o melhor remédio que conheço para tonteiras! O tenente aceitou o conselho, e o Barroso despediu-se dele depois que o viu esvaziar um bom copo de benemérito laxativo. Vinte minutos depois dessa libação desagradável, Remígio Soares viu assomar ao longe, na porta da cozinha, o vulto de D. Andréia, anunciando-lhe uma carta.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "viu",
+                "child": ", Remígio Soares",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Remígio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Vinte minutos depois dessa libação desagradável, [MASK] viu assomar ao longe, na porta da cozinha, o vulto de D. Andréia, anunciando-lhe uma carta.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Vinte minutos após essa libação desgostosa, Dona Clara viu assombrar ao longe, pela porta da cozinha, o vulto de D. Andréia, anunciando-lhe uma carta. A senhora, que estava em pé de uma cadeira de borracha para escrever na mesa do escritório, desistiu de continuar com a tarefa ao sentir o coração agitado pelo desconhecido conteúdo do papel. Ela se levantou lentamente e, segurando a carta em suas mãos temerosas, se aproximou da D. Andréia, que deixara a cozinha atrás para trazer a notícia.",
+        "generated_text_llama": "Era uma carta estranha, enviada diretamente de Lisboa, que nunca havia deixado aquela cidade. Personagem sentiu um misto de curiosidade e desconfiança ao receber a carta, pois sabia que D. Andréia não era conhecida por ser uma pessoa muito amigável ou bondosa. Ele a abriu com cautela, esperando ver algo que o explicasse por que ela havia se dirigido a ele de repente.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "viu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

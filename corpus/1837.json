@@ -1,0 +1,888 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Afrânio Coutinho",
+        "sentence": "Afrânio Coutinho definiu esta carta como autêntico roteiro de teoria literária, o qual, reunido a outros ensaios de sua lavra, pode bem constituir um corpo de doutrina estética literária, que o norteou em sua obra de criação propriamente dita, sobretudo no romance.",
+        "start_char": 903,
+        "end_char": 919,
+        "excerpt": "A presente edição, com o objetivo de tornar mais acessível a leitura, atualizou a ortografia do texto alencariano. Manteve-se, entretanto, a pontuação original que, no dizer de M. Cavalcanti Proença, é elemento característico da prosa alencariana, subordinando-se muito menos às regras vigentes na época do que ao ritmo fraseológico, tal qual o concebera e criara. Afrânio Coutinho definiu esta carta como autêntico roteiro de teoria literária, o qual, reunido a outros ensaios de sua lavra, pode bem constituir um corpo de doutrina estética literária, que o norteou em sua obra de criação propriamente dita, sobretudo no romance.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "definiu",
+                "child": "Afrânio Coutinho",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "definir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Afrânio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] definiu esta carta como autêntico roteiro de teoria literária, o qual, reunido a outros ensaios de sua lavra, pode bem constituir um corpo de doutrina estética literária, que o norteou em sua obra de criação propriamente dita, sobretudo no romance.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " A partir daí, Personagem dediciu-se a compilar e refinar este material, esboçando um corpo de ideias que se transformaria no futuro em uma solida doutrina estética literária. Nessa época, também passou a atentamente estudar várias obras clássicas da literatura mundial, buscando captar suas técnicas e teorias que pudessem ser incorporadas à sua própria obra de criação.",
+        "generated_text_llama": "Com essa descoberta, Personagem sentiu uma onda de excitação e empantismo. Ele sabia que tinha encontrado algo verdadeiramente revolucionário, algo que poderia mudar a forma como pensava sobre a arte literária. Decidiu fazer um projeto para analisar mais aprofundadamente as teorias expressas na carta, reunindo-as com outros ensaios de sua obra e estudando-as em conjunto.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "dediciu-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alencar",
+        "sentence": "À influência das leituras na sua formação de escritor, sobrepôs Alencar o valor da imaginação:",
+        "start_char": 2102,
+        "end_char": 2109,
+        "excerpt": "A escola francesa, que eu então estudava nesses mestres da moderna literatura, achava-me preparado para ela. O molde do romance, qual mo havia revelado pôr mera casualidade aquele arrojo de criança a tecer uma novela com os fios de uma ventura real, fui encontra-lo fundido com, a elegância e beleza que jamais lhe poderia dar. À influência das leituras na sua formação de escritor, sobrepôs Alencar o valor da imaginação:",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "sobrepôs",
+                "child": "Alencar",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "Sobrepôs",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Alencar",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Alencar",
+                "child": "influência",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Alencar",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "influência",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "À influência das leituras na sua formação de escritor, sobrepôs [MASK] o valor da imaginação:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em busca de aperfeiçoar seu talento, Personagem decidiu investir mais tempo em exercícios mentais que estimulassem sua capacidade de se conectar com suas ideias imaginativas. Desejava abrir caminho para novos territórios criativos, construindo mundos e histórias completamente seus. Além disso, Personagem passou a realizar atividades que lhe proporcionassem inspiração, como visitar galerias de arte ou passear pelas ruas, onde descoberto uma quantidade inesperada de detalhes e momentos interessantes que poderiam servir de base para suas obras.",
+        "generated_text_llama": "À influência das leituras na sua formação de escritor, sobrepôs Personagem o valor da imaginação: uma verdadeira obsessão pela criação de mundos e personagens. Ele começou a criar histórias em quadrinhos, onde poderia explorar suas ideias sem as restrições da realidade imediata.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "passou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "sobrepôs",
+                    "ROOT"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alencar",
+        "sentence": "Segundo Heron de Alencar, já houve quem colocasse em dúvida algumas das afirmativas que Alencar inseriu em sua autobiografia literária.",
+        "start_char": 2798,
+        "end_char": 2805,
+        "excerpt": "Se assim fosse, haveria coincidência, e nunca imitação; mas não é. Meus escritos se parecem tanto com os do ilustre romancista americano, como as várzeas do ceará com as margens do Delaware. Segundo Heron de Alencar, já houve quem colocasse em dúvida algumas das afirmativas que Alencar inseriu em sua autobiografia literária.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Heron",
+                "child": "Alencar",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Heron",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Alencar",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Alencar",
+                "child": "Heron",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Alencar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Heron",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "inseriu",
+                "child": "Alencar",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "inserir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Alencar",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Alencar",
+                "child": "afirmativas",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Alencar",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "afirmativa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Segundo Heron de [MASK], já houve quem colocasse em dúvida algumas das afirmativas que [MASK] inseriu em sua autobiografia literária.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Segundo Heron de Almeida, ainda havia aqueles que questionavam algumas das affirmações que o grande escritor colocou na autobiografia literária. Após essa observação, ele sentiu-se incomodado e, sem esperar por resposta, entrou em contato com seus antigos amigos e colegas de trabalho, solicitando suas memórias compartilhadas para esclarecer determinados pontos que suscitavam dúvidas na mente do autor. Dentre as pessoas que receberam tal solicitação estava o célebre poeta Mário de Andrade, o qual possuía uma correspondência detalhada com o escritor a partir dos anos 1920. Ao encontrar uma carta entre suas memórias, Heron de Almeida viu uma oportunidade para confirmar ou refutar uma das suspeitas mais graves feita em relação à sua autobiografia: que ele teria copiado determinados trechos de seu livro de outros autores. Na carta encontrada, Heron de Almeida encontra as palavras que ele sempre procurava: \"Miguel, teu livro é fabuloso. Tive algumas reservas sobre a autenticidade de determinados trechos, mas aí estão todos os detalhes reais das nossas discussões na academia. Beleza!\". Assim, o grande escritor pôde calmar suas dúvidas e confirmar que seus trechos não foram roubos, mas sim memórias autênticas de seu passado.",
+        "generated_text_llama": "Segundo Heron de Personagem, já houve quem colocasse em dúvida algumas das afirmativas que ele inseriu em sua autobiografia literária. Mas o homem não era um homem para ser questionado. Ele era um mistério, um enigma que se envolvia em uma rede de segredos e mentiras que pareciam ter sido tecidos a partir da nada.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "viu",
+                    "ROOT"
+                ],
+                [
+                    "encontra",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Januário",
+        "sentence": "Januário era talvez ríspido e severo em demasia;",
+        "start_char": 7242,
+        "end_char": 7250,
+        "excerpt": "Usava ele de sapatos rinchadores; nenhum dos alunos do seu colégio ouvia de longe aquele som particular, na volta de um corredor, que não sentisse um involuntário sobressalto. Januário era talvez ríspido e severo em demasia;",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ríspido",
+                "child": "Januário",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ríspir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Januário",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] era talvez ríspido e severo em demasia;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas, em momentos como esses, o Sr. Silva se mostrava benevolente e sensível. Ele subia tranquilamente o corredor de madeira e, ao chegar à porta da sala onde seu filho dormia, abriu-a lentamente. O menino agitava os braços, sugestivo de uma sonolência profunda. A voz do pai era mais fraca, mas contagiada por um tom de afecto:",
+        "generated_text_llama": "Ele estava sentado sozinho no canto da sala, o rosto pálido e olhos castanhos com uma expressão de tristeza profunda. A mão direita ainda segurava a caneta esferográfica que havia usado para escrever a carta que não tinha coragem de entregar. Personagem sabia que precisava tomar um ato, mas o medo e a insegurança o paralisavam.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Januário",
+        "sentence": "Januário exultava a cada uma de minhas vitórias, como se fora ele próprio que estivesse no banco dos alunos, a disputar-lhes o lugar, em vez de achar-se como professor dirigindo os seus discípulos.",
+        "start_char": 8469,
+        "end_char": 8477,
+        "excerpt": "Eram estes dias de gala e de honra para o colégio, visitado pôr quanto havia na Corte de ilustre em política e letras. Pertencia eu à sexta classe, e havia conquistado a frente da mesma, não pôr superioridade intelectual, sim pôr mais assídua aplicação e maior desejo de aprender. Januário exultava a cada uma de minhas vitórias, como se fora ele próprio que estivesse no banco dos alunos, a disputar-lhes o lugar, em vez de achar-se como professor dirigindo os seus discípulos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "exultava",
+                "child": "Januário",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "exultar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Januário",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] exultava a cada uma de minhas vitórias, como se fora ele próprio que estivesse no banco dos alunos, a disputar-lhes o lugar, em vez de achar-se como professor dirigindo os seus discípulos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Personagem, contudo, não se limitava a exultar com cada uma de minhas vitórias; sim, ele frequentemente se pedia para jogar ao meu lado no tabuleiro. Com sua técnica sutil e sua visão estratégica incrível, ele era um aliado formidável em todas as partidas. Nós duas conquistávamos vitória após vitória, aos olhos dos colegas de sala que assistiam com uma mistura de admiração e ciúme. Era sempre emocionante ter Personagem ao meu lado, sentindo sua energia contagiante e seu entusiasmo impalpável por trás da mesa do jogo. Ele não só me ensinava como vencer, mas também como achar lazer em aprender e crescer, e isso foi o que mais me encantava dele - sua personalidade iluminadora que fazia tudo parecer fácil, inclusive estudar.",
+        "generated_text_llama": "Personagem começou a fazer um trabalho especial com aqueles estudantes talentosos, passando horas extra para ajudá-los a dominar as matérias mais difíceis. Ele se sentia vivo novamente, como se a sua paixão pela educação fosse uma chama queimava dentro dele. As reuniões da equipe de futebol do Colégio São Joaquim também tornaram-se um ponto alto da sua vida, pois ele não apenas liderava o time, mas também usava as discussões sobre táticas e estratégias para compartilhar suas ideias e inspirar os jogadores. Com o tempo, Personagem percebeu que sua influência além do futebol era algo que queria explorar mais a fundo, então começou a participar de seminários educacionais e palestras em escolas locais.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "limitava",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "ter",
+                    "csubj"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "percebeu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Januário",
+        "sentence": "Adiante, disse Januário, sem altear a voz, nem tirar os olhos do livro.",
+        "start_char": 9097,
+        "end_char": 9105,
+        "excerpt": "O aparente descuido punha em prova a atenção incessante que ele exigia dos alunos, e da qual sobretudo confiava a educação da inteligência. Uma tarde ao findar a aula, houve pelo meio da classe um erro. Adiante, disse Januário, sem altear a voz, nem tirar os olhos do livro.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Januário",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Januário",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Adiante, disse [MASK], sem altear a voz, nem tirar os olhos do livro.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando sua jornada no escritório da biblioteca, ele acionou a lâmpada de récua, que se ajustava perfeitamente ao seu tom pálido da pele. Apenas uma pequena luz, o bastante para iluminar as páginas do livro e não ofuscar sua visão. O olhar do garoto permaneceu fixo no texto até que ouviram os passos de alguém entrando no escritório vizinho.",
+        "generated_text_llama": "Em seguida, começou a ler em silêncio, absorvido pela história que estava lendo. A penúltima página era a mais emocionante do livro e Adiante queria saber o que aconteceria com os personagens favoritos. Ele pôs o livro de lado e se levantou da cadeira, indo até a janela para olhar para a noite escurecida lá fora. A lua estava escondida atrás das nuvens, mas ele podia sentir a serenidade do céu noturno. Depois de um momento, voltou ao livro e começou a ler novamente, agora com uma atenção ainda maior, sabendo que a história tinha um final incrível à espreita.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Januário",
+        "sentence": "Quando, pouco antes da Ave-Maria, a sineta dava sinal da hora de encerrar as sulas, Januário fechava o livro; e com o tom breve do comando ordenava uma espécie de manobra que os alunos executavam com exatidão militar.",
+        "start_char": 11288,
+        "end_char": 11296,
+        "excerpt": "Naquele momento, porém, vendo perdido o prêmio de um estudo assíduo, e mais pôr surpresa, do que eu traguei silenciosamente, para não abater-me ante a adversidade. Nossa classe trabalhava em uma varanda ao rés do chão, cercada pelo arvoredo do quintal. Quando, pouco antes da Ave-Maria, a sineta dava sinal da hora de encerrar as sulas, Januário fechava o livro; e com o tom breve do comando ordenava uma espécie de manobra que os alunos executavam com exatidão militar.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "fechava",
+                "child": "Januário",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fechar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Januário",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando, pouco antes da Ave-Maria, a sineta dava sinal da hora de encerrar as sulas, [MASK] fechava o livro; e com o tom breve do comando ordenava uma espécie de manobra que os alunos executavam com exatidão militar.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quando a sineta dava sinal da hora de encerrar as sulas, Personagem fechava o livro com uma movimentação precisa e firmemente. Ao mesmo tempo, ele pronunciou um breve comando que soava como um grito em algum campo de batalha antigo. Os alunos se prepararam imediatamente, espalhados pela sala de aula, e executaram com exatidão militar uma manobra complexa e sintética que Personagem tinha ensinado por semanas. As mãos correriam rapidamente pelas páginas das partituras, as bocas se movimentariam de acordo com os sinais dos lábios de Personagem, e todas as palhetas do piano se virariam para a mesma direção.",
+        "generated_text_llama": "Quando, pouco antes da Ave-Maria, a sineta dava sinal da hora de encerrar as sulas, Personagem fechava o livro; e com o tom breve do comando ordenava uma espécie de manobra que os alunos executavam com exatidão militar. Com um movimento rápido, ele esticou o braço direito, indicando a mudança de posição, e os alunos se viraram imediatamente, seus olhos fixos em Personagem. Em seguida, ele levantou o punho, sinalizando que era hora de entrar em cena. Os alunos, como uma unidade única, começaram a marchar em direção à fachada da capela, suas passadas marchando com um ritmo firme e disciplinado. Personagem os seguia, seu olhar fito no público, sabendo que este era o momento crucial para impressioná-los. Com um gesto final de cabeça, ele assinalou a entrada do coro, e os alunos se abriam caminho, formando uma linha imponente na porta da capela.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "fechava",
+                    "ROOT"
+                ],
+                [
+                    "ensinado",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "fechava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Januário",
+        "sentence": "Mas Januário que era acerca de disciplina colegial de uma pontualidade militar, não deu pelo aviso e amiudou as perguntas, percorrendo apressadamente a classe.",
+        "start_char": 12730,
+        "end_char": 12738,
+        "excerpt": "Se ao menos se tivesse dado o fato no começo da lição, restava-me a esperança de com algum esforço recuperar o meu posto; mas pôr cúmulo da infelicidade sobreviera o meu desastre justamente nos últimos momentos, quando a hora estava a findar. Foi no meio dessas reflexões que tocou a sineta, e as suas badaladas ressoaram em minha alma como o dobre de uma campa. Mas Januário que era acerca de disciplina colegial de uma pontualidade militar, não deu pelo aviso e amiudou as perguntas, percorrendo apressadamente a classe.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "deu",
+                "child": "Mas Januário",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Januário",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "disciplina",
+                "child": "Mas Januário",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "disciplina",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Januário",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "uma pontualidade",
+                "child": "Mas Januário",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "pontualidade",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Januário",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mas [MASK] que era acerca de disciplina colegial de uma pontualidade militar, não deu pelo aviso e amiudou as perguntas, percorrendo apressadamente a classe.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas Pedro, que era conhecido pela rigidez em relação à disciplina escolar com uma precisão militar, não deu pelo aviso e acelerou as suas perguntas, correndo precipitadamente pela sala de aula. Sua voz, aguda e clara, secoava o ar, como quando ele tentasse fazer um ponto. Ao final, quando chegou ao término da questão, não podia mais conter-se e abriu a boca para lançar uma rápida e sarcástica observação sobre a falta de entusiasmo dos alunos. \"Se vocês estavam tão preocupados em serem agradáveis ​​ao professor, talvez não se encontrem com esse problema\", disse ele, sem querer fazê-lo, mas acertando por completo.",
+        "generated_text_llama": "Ao se aproximar da janela, Personagem lançou um olhar desapontado para o calendário esportivo do colégio, onde os pontos da equipe de futebol estavam marcados em letras vermelhas, indicando que eles haviam perdido ainda mais a última partida. Ele sabia que essa perda não foi apenas uma derrota na parte técnica do jogo, mas também um golpe para a moral da equipe.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "deu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "lançou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Januário",
+        "sentence": "Muitos meninos, porém, que nessa idade tagarelam em várias línguas e já babujam nas ciências, não recitam uma página de Frei Francisco de São Luís, ou uma ode do Padre Caldas, com a correção, nobreza, eloqüência e alma que Januário sabia transmitir a seus alunos.",
+        "start_char": 14507,
+        "end_char": 14515,
+        "excerpt": "Sabíamos pouco; mas esse pouco sabíamos bem. Aos onze anos não conhecia uma só palavra de língua estrangeira, nem aprendera mais do que as chamadas primeiras letras. Muitos meninos, porém, que nessa idade tagarelam em várias línguas e já babujam nas ciências, não recitam uma página de Frei Francisco de São Luís, ou uma ode do Padre Caldas, com a correção, nobreza, eloqüência e alma que Januário sabia transmitir a seus alunos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "sabia",
+                "child": "Januário",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "saber",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Januário",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Januário",
+                "child": "alma",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Januário",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "alma",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Januário",
+                "child": ", com a correção",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Januário",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "correção",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Januário",
+                "child": "ode",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Januário",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "ode",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Muitos meninos, porém, que nessa idade tagarelam em várias línguas e já babujam nas ciências, não recitam uma página de Frei Francisco de São Luís, ou uma ode do Padre Caldas, com a correção, nobreza, eloqüência e alma que [MASK] sabia transmitir a seus alunos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, para provar que não estava errado na opinião que tinha sobre aqueles jovens talentosos, o Frei Fulgêncio decidiu fazer algo extremo: convocou todos os meninos à sala de aula e lhes propôs um desafio. Ele abriu o livro \"Pequenas Espécies de Aves Brasileiras\", escrito pelo Padre Caldas, que era seu autor preferido, e escolheu uma das obras mais difíceis: a ode dedicada à arara-azul.",
+        "generated_text_llama": "Personagem sabia que sua situação era única e que precisava fazer algo para provar que não estava sozinho nessa questão. Ele decidiu criar um ambiente de estudo ao ar livre, onde os meninos poderiam discutir as obras literárias em uma atmosfera mais relaxada e menos intimidadora. Em seguida, ele começou a leitura das obras de Frei Francisco de São Luís e do Padre Caldas, com uma linguagem clara e acessível, e então os meninos começaram a discutir as ideias apresentadas.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "José Brusque",
+        "sentence": "Assim é que nunca passei de algumas peças ligeiras, das quais não me figurava herói e nem mesmo autor; pois divertia-me em escreve-las, com o nome de Byron, Hugo ou Lamartine, nas paredes de meu aposento, à Rua de Santa Tereza, onde alguns camaradas daquele tempo, ainda hoje meus bons amigos, os Doutores Costa Pinto e José Brusque talvez se recordem de as terem lido.",
+        "start_char": 32806,
+        "end_char": 32818,
+        "excerpt": "Todo estudante de alguma imaginação queria ser um Byron; e tinha pôr destino inexorável copiar ou traduzir o bardo inglês. Confesso que não me sentia o menor jeito para essa transfusão; talvez pelo meu gênio taciturno e concentrado que já tinha em si melancolia de sobejo, para não carecer desse empréstimo. Assim é que nunca passei de algumas peças ligeiras, das quais não me figurava herói e nem mesmo autor; pois divertia-me em escreve-las, com o nome de Byron, Hugo ou Lamartine, nas paredes de meu aposento, à Rua de Santa Tereza, onde alguns camaradas daquele tempo, ainda hoje meus bons amigos, os Doutores Costa Pinto e José Brusque talvez se recordem de as terem lido.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "recordem",
+                "child": "os Doutores Costa Pinto e José Brusque",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "recorder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Doutores",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Assim é que nunca passei de algumas peças ligeiras, das quais não me figurava herói e nem mesmo autor; pois divertia-me em escreve-las, com o nome de Byron, Hugo ou Lamartine, nas paredes de meu aposento, à Rua de Santa Tereza, onde alguns camaradas daquele tempo, ainda hoje meus bons amigos, os Doutores Costa Pinto e [MASK] talvez se recordem de as terem lido.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a narrativa, Personagem, como sempre estava em busca de novas experiências e formas de divertimento, começou a pensar sobre a possibilidade de transformar as pequenas peças que havia escrevido anônimamente nas paredes de sua casa, na Rua de Santa Tereza.",
+        "generated_text_llama": "Senti um súbito apetite pela literatura e, em seguida, dei um passo para frente, peguei uma caneta e papel, que havia sido abandonado na mesa do meu quarto, e comecei a escrever com a minha própria voz. Era como se eu estivesse vivendo uma vida diferente, onde as palavras me eram de grande valia. Pensei nos meus amigos, os Doutores Costa Pinto e Personagem, e imaginou que eles me ouviriam ler as minhas histórias e sorrirem comigo, como faziam todos aqueles anos na Rua de Santa Tereza.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Padre Anchieta",
+        "sentence": "Intentava eu figurá-lo na mesma situação em que se achou o Padre Anchieta, na praia de Iperoíg; mas sucumbindo afinal à tentação.",
+        "start_char": 36530,
+        "end_char": 36544,
+        "excerpt": "Devorando as páginas dos alfarrábios de notícias coloniais, buscava com sofreguidão um tema para o meu romance; ou peço menos um protagonista, uma cena e uma época. Recordo-me de que para o martírio do Padre Francisco Pinto, morto pelos índios do Jaguaribe, se volvia meu espírito com predileção. Intentava eu figurá-lo na mesma situação em que se achou o Padre Anchieta, na praia de Iperoíg; mas sucumbindo afinal à tentação.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "achou",
+                "child": "o Padre Anchieta",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "achar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Padre",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "o Padre Anchieta",
+                "child": "situação",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Padre",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "situação",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Intentava eu figurá-lo na mesma situação em que se achou o [MASK], na praia de Iperoíg; mas sucumbindo afinal à tentação.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Eu me esforçei para colocá-lo novamente na mesma situação em que ele estava encontrado na praia de Iperoíg; mas, após uma breve discussão, cedo descobri que o meu amigo não resistia à tentação. Mesmo sabendo dos riscos, ele preferiu aproveitar seu período de férias ao máximo e se tornar um turista completo.",
+        "generated_text_llama": "Não pude resistir ao chamado daquele lugar mágico, onde a água cristalina e o sol quente me chamavam para uma aventura inesquecível. Depois de alguns minutos de hesitação, decidi que estava pronto para mergulhar no mar e explorar as profundezas do oceano. O vento e o ruído da praia me distraíam, mas meu coração estava focado naquela sensação de liberdade que eu sentia ao se aproximar da água.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Walter Scott",
+        "sentence": "Antes dele Walter Scott deu o modelo dessas paisagens à pena, que fazem parte da cor local.",
+        "start_char": 48939,
+        "end_char": 48951,
+        "excerpt": "Mas Cooper descreve a natureza americana, dizem os críticos. E que havia ele de descrever, senão a cena de seu drama? Antes dele Walter Scott deu o modelo dessas paisagens à pena, que fazem parte da cor local.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "deu",
+                "child": "dele Walter Scott",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Walter",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Antes dele [MASK] deu o modelo dessas paisagens à pena, que fazem parte da cor local.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Antes dele, ele abriu um caderno e começou a desenhar a paisagem incrível que observava. As árvores verdes, o céu azul e o rio que corre ao seu lado eram tão impressionantes que precisava preservá-los na página branca do caderno. Ele também capturou a cor local em pequenos traços de cor nas folhas, nas cascas de árvores e nas pedras no solo.",
+        "generated_text_llama": "Antes dele, deu o modelo dessas paisagens à pena, que fazem parte da cor local. Personagem sabia que precisava de um lugar para se esconder e observar as pessoas, então ele escolheu uma das muitas cavernas nas proximidades e entrou por ela, fechando a porta atrás dele com um barulho surdo. A escuridão da caverna era total, mas Personagem não se importou, seu coração estava mais focado em seus pensamentos do que na busca pela luz do exterior.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ],
+                [
+                    "importou",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Xavier Pinto",
+        "sentence": "Nos belchiores que o tinham a cavalo do cordel, embaixo dos arcos do Paço, donde o tirou o Xavier Pinto para a sua livraria da Rua dos Ciganos.",
+        "start_char": 49854,
+        "end_char": 49866,
+        "excerpt": "Foi isso em 1857. Dois anos depois comprava-se o exemplar a 5$000 e mais. Nos belchiores que o tinham a cavalo do cordel, embaixo dos arcos do Paço, donde o tirou o Xavier Pinto para a sua livraria da Rua dos Ciganos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tirou",
+                "child": "o Xavier Pinto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tirar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Nos belchiores que o tinham a cavalo do cordel, embaixo dos arcos do Paço, donde o tirou o [MASK] para a sua livraria da Rua dos Ciganos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando com a história, o personagem decidiu aproveitar a ocasião e utilizar seu conhecimento e habilidade única para atrair mais clientes à sua livraria localizada na famosa Rua dos Ciganos. Nunca se esforçou tão intensamente em criar um ambiente agradável e convidativo onde os amantes da literatura pudessem se reunir e compartilhar suas paixões.",
+        "generated_text_llama": "Em seguida, Personagem puxou o cordel com mais força e jogou o cavalo sobre um grande muro de pedra que cercava a livraria, feito de madeira rígida e estanho polvilhado. O animal, assustado, começou a chutar, fazendo com que Personagem segurasse firmemente o cordel para não ser arremessado para longe.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "puxou",
+                    "ROOT"
+                ],
+                [
+                    "segurasse",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lucíola",
+        "sentence": "Entretanto toda a imprensa diária resumiu-se nesta notícia de um laconismo esmagador, publicada pelo Correio Mercantil: Saiu à luz um livro intitulado Lucíola.",
+        "start_char": 53002,
+        "end_char": 53009,
+        "excerpt": "Talvez não me animasse a esse cometimento, se a venda da segunda e terceira edição ao Sr. Garnier, não me alentasse a confiança, provendo-me de recursos para os gastos da impressão. O aparecimento de meu novo livro fez-se com a etiqueta, ainda hoje em voga, dos anúncios e remessa de exemplares à redação dos jornais. Entretanto toda a imprensa diária resumiu-se nesta notícia de um laconismo esmagador, publicada pelo Correio Mercantil: Saiu à luz um livro intitulado Lucíola.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "intitulado",
+                "child": "Lucíola",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "intitular",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lucíola",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Lucíola",
+                "child": "um livro",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Lucíola",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "livro",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Entretanto toda a imprensa diária resumiu-se nesta notícia de um laconismo esmagador, publicada pelo Correio Mercantil: Saiu à luz um livro intitulado [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Entretanto, uma onda de especulação e curiosidade inundou a cidade ao redor do livro que acabara de ser lançado. Sem desapontar, Personagem seguiu suas rotinas cotidianas sem mostrar nenhum sinal de tensão ou agitação pelos eventos recente.",
+        "generated_text_llama": "E assim, Personagem, sentindo uma mistura de emoção e ansiedade, decidiu entrar em uma loja de livros na região do centro da cidade para saber mais sobre o meu próximo livro. Enquanto caminhava pelas prateleiras repletas de volumes, meus olhos se perderam no catalogo do Correio Mercantil, onde minha imagem estava exibida em grande tamanho. A capa do livro mostrava uma foto de mim mesmo, com um sorriso pensativo e olhar introspectivo. Fiquei intrigado ao ver que o título do livro era simplesmente \" Personagem\". Não havia nenhum outro detalhe que desse dicas sobre o conteúdo do livro. Meu coração começou a bater mais rápido à medida que eu pensava em possíveis interpretações e implicações desta publicação.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "seguiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lucíola",
+        "sentence": "Apesar do desdém da crítica de barrete, Lucíola conquistou seu público, e não somente fez caminho como ganhou popularidade.",
+        "start_char": 53459,
+        "end_char": 53466,
+        "excerpt": "Há de ter ouvido algures, que eu sou um mimoso do público, cortejado pela imprensa, cercado de uma voga de favor, vivendo da falsa e ridícula idolatria a um romance oficial. Aí tem as provas cabais; e pôr elas avalie dessa nova conspiração do despeito que veio substituir a antiga conspiração do silêncio e da indiferença. Apesar do desdém da crítica de barrete, Lucíola conquistou seu público, e não somente fez caminho como ganhou popularidade.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "conquistou",
+                "child": "Lucíola",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "conquistar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lucíola",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Apesar do desdém da crítica de barrete, [MASK] conquistou seu público, e não somente fez caminho como ganhou popularidade.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ainda assim, apesar da severa desaprovação dos críticos de barrete, Personagem conseguiu captar o público, e não somente avançava em sua carreira, mas também conquistava popularidade em cada passo que dava. Com o tempo, sua voz se tornou familiar para milhares de ouvintes, que cantavam junto a suas músicas favoritas, sendo considerado um símbolo da música popular nacional. As notícias de sua turnê pela terra natal causaram uma onda de entusiasmo entre os fãs, que ficavam esperando ansiosamente para ouvir o seu som vivo e sentir a energia positiva transmitida por suas performances incríveis.",
+        "generated_text_llama": "Com a cada show ao vivo, Personagem crescia em confiança e habilidade, conquistando o coração de mais e mais fãs. Seu estilo único e carismático começou a se espalhar, e ele se tornou uma figura respeitada no mundo da música underground. Apesar do desdém inicial dos críticos, que viam Personagem como apenas um \"barrete de rock\", ele havia provado ser algo muito mais.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "conseguiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "crescia",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "viam",
+                    "acl:relcl"
+                ]
+            ]
+        }
+    }
+]

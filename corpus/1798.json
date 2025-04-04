@@ -1,0 +1,111 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Sírius",
+        "sentence": "Por que não se apaga Sírius?",
+        "start_char": 28428,
+        "end_char": 28434,
+        "excerpt": "Penso em cousas singulares, Indagando entre delírios: Por que é que os céus inda brilham? Por que não se apaga Sírius?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "apaga",
+                "child": "Sírius",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "apagar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sírius",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Por que não se apaga [MASK]?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Porque não se apagava o telefone celular que tinha na mão, ela se perguntou Personagem. Em seguida, ela acionou o botão de desligamento e colocou o aparelho em sua bolsinha. Sabia que essa chamada poderia ser uma distração para seu exame no final do dia, mas como estava prestes a ouvir a voz dele, não quis parecer indiferente. Então, ela decidiu deixar o telefone ligado e concentrar-se nos estudos, acreditando que sua mente se enfraqueceria caso se dividisse durante o exame.",
+        "generated_text_llama": "",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "perguntou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dante",
+        "sentence": "O PARAÍSO DOS MEDÍOCRES (Uma página que Dante destruiu)",
+        "start_char": 36498,
+        "end_char": 36503,
+        "excerpt": "Porque saberá ver, nitidamente, Com os raios X de tua fantasia, O que os outros não vêem: um coração. 1903 O PARAÍSO DOS MEDÍOCRES (Uma página que Dante destruiu)",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "destruiu",
+                "child": "Dante",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "destruir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dante",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Dante",
+                "child": "página",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Dante",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "página",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Dante",
+                "child": "O PARAÍSO",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Dante",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "PARAÍSO",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "O PARAÍSO DOS MEDÍOCRES (Uma página que [MASK] destruiu)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Seguindo a destruição de \"O Paraíso dos Médiocres\", Personagem, um escritor audaz e revoltado, se afastou da cidade que havia dominado com sua obra. Sempre procurando desafios, ele se mudou para uma pequena cidade remota, na esperança de encontrar inspiração em novos ambientes. Lá, ele passou a escrever sob o pseudônimo de \"O Solitário\", publicando obras enigmáticas e intrigantes que causaram estranho eco entre os leitores.",
+        "generated_text_llama": "",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    }
+]

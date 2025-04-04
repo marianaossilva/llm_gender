@@ -1,0 +1,748 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Teófilo",
+        "sentence": "Teófilo amava São Paulo, adorava-o, estudava-o dia e noite, parecia viver daquele converso que ia de cidade em cidade, à custa de um ofício mecânico, espalhando a boa nova aos homens.",
+        "start_char": 3225,
+        "end_char": 3232,
+        "excerpt": "\" O grau de espírito que nos deleita dá a medida exata do grau de espírito que possuímos. \" No nosso caso, ao menos, a regra não falhou. Teófilo amava São Paulo, adorava-o, estudava-o dia e noite, parecia viver daquele converso que ia de cidade em cidade, à custa de um ofício mecânico, espalhando a boa nova aos homens.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "amava",
+                "child": "Teófilo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "amar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Teófilo",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] amava São Paulo, adorava-o, estudava-o dia e noite, parecia viver daquele converso que ia de cidade em cidade, à custa de um ofício mecânico, espalhando a boa nova aos homens.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Nesse verão, Personagem decidiu investir na passagem de São Paulo, tendo estudado os mais diversos rótulos, cartas postais e imagens antigas da cidade para saber mais sobre ela. Com sua moto em perfeito estado, partiu do ponto de partida em direção à capital paulista. Ao chegar, se encantou com a beleza, o barulho e a vida pulsante da cidade.",
+        "generated_text_llama": "Continuando sua jornada como \"conversor\", Personagem se viu diante de uma nova cidade, São João del-Rei, no estado de Minas Gerais. Com o seu mocho (um chapéu colorido e característico dos conversos) em dia, ele se dirigiu ao centro da cidade, onde encontrou a Igreja Matriz, uma imponente estrutura de pedra que parecia congelar o tempo.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "viu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Vasconcelos",
+        "sentence": "Vasconcelos jurava que seria bispo; Soares contentava-se com algum grande cargo;",
+        "start_char": 4285,
+        "end_char": 4296,
+        "excerpt": "Os seminaristas gostavam do Teófilo, principalmente três, um Vasconcelos, um Soares e um Veloso, todos excelentes retóricos. Eram também bons rapazes, alegres por natureza, graves por necessidade e ambiciosos. Vasconcelos jurava que seria bispo; Soares contentava-se com algum grande cargo;",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "jurava",
+                "child": "Vasconcelos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "jurar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Vasconcelos",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] jurava que seria bispo; Soares contentava-se com algum grande cargo;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas a ambição de João não se podia satisfazer com um grande cargo. Por outro lado, Soares se contentava em manter sua posição e viver uma vida tranquila sem muita responsabilidade. Entretanto, João acionou todos os seus contatos e conseguiu convencer a Igreja que ele seria mais adequado para o cargo de bispo. Soares ficou surpreso com esse desenvolvimento, pois nunca esperava que João fosse tão determinado. Por outro lado, João se sentiu satisfeito e finalmente estava prestes a alcançar seu objetivo.",
+        "generated_text_llama": "E assim, Francisco Soares continuou a servir a comunidade, fazendo o seu melhor para atender às necessidades de todos, mesmo que não tivesse alcançado o título de bispo. Ele se contentou em ser um homem de fé e líder respeitado na região, o que lhe trazia satisfação e uma sensação de propósito.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "contentava",
+                    "ROOT"
+                ],
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Teófilo",
+        "sentence": "Teófilo tentou repartir com eles o pão místico dos seus sonhos, mas reconheceu depressa que era manjar leve ou pesado demais, e passou a devorá-lo sozinho.",
+        "start_char": 4421,
+        "end_char": 4428,
+        "excerpt": "Vasconcelos jurava que seria bispo; Soares contentava-se com algum grande cargo; Veloso cobiçava as meias roxas de cônego e um púlpito. Teófilo tentou repartir com eles o pão místico dos seus sonhos, mas reconheceu depressa que era manjar leve ou pesado demais, e passou a devorá-lo sozinho.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tentou",
+                "child": "Teófilo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tentar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Teófilo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] tentou repartir com eles o pão místico dos seus sonhos, mas reconheceu depressa que era manjar leve ou pesado demais, e passou a devorá-lo sozinho.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim que tentou repartir o pão místico dos seus sonhos com os amigos, Personagem percebeu rapidamente que era leve ou pesado demais para ser partilhado. Entusiasmado com a descoberta, passou a devorá-lo sozinho, não podendo contenha-se do sabor e da qualidade mágica que o pão lhe tinha dado. Ao fim, os amigos olharam para ele em silêncio, enquanto Personagem sussurrava ao prato incrível, gritando com alegria: \"Este é um pão místico, vou te contar minhas melhores histórias!\"",
+        "generated_text_llama": "Enquanto caminhava ao longo da estrada escura, o cheiro do pão começou a desaparecer na brisa noturna, deixando-o com uma sensação de arrependimento pelo seu desejo de compartilhar o alimento sagrado. O Personagem hesitou por um momento antes de continuar em frente, sentindo uma necessidade imperiosa de devorar todo o pão antes que ele desaparecesse completamente.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "percebeu",
+                    "ROOT"
+                ],
+                [
+                    "sussurrava",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "hesitou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "No momento em que os vi falar baixinho na igreja, Eulália contava trinta e oito anos de idade.",
+        "start_char": 4682,
+        "end_char": 4689,
+        "excerpt": "IV Agora a dama. No momento em que os vi falar baixinho na igreja, Eulália contava trinta e oito anos de idade.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "contava",
+                "child": "Eulália",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "contar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "No momento em que os vi falar baixinho na igreja, [MASK] contava trinta e oito anos de idade.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em seguida, Personagem, ainda com um sorriso incrédulo e uma expressão de admiração, desceu do púlpito para se aproximar dos dois pequenos meninos que estavam falando em baixo voz na igreja. Ao chegar perto deles, perguntou com gentileza se sabiam que a contagem da oração era feita até trinta e não trinta e oito. Os dois meninos se viraram para ele e, com um rosto tímido, confessaram que se estavam enganando. Ao ouvir isso, Personagem sorriu mais uma vez e, em lugar de puni-los, passou a explicar a eles o porquê da oração até trinta.",
+        "generated_text_llama": "Ao ouvir a conversa, Personagem não podia evitar sentir uma ponta de curiosidade e, ao mesmo tempo, um pouco de preocupação. Ele sempre foi um homem observador, capaz de capturar detalhes que outras pessoas esqueciam, e agora ele estava começando a se perguntar se havia algo mais do que o normal entre aqueles dois jovens.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "Por que é que Eulália recusava-os todos?",
+        "start_char": 5094,
+        "end_char": 5101,
+        "excerpt": "Nenhuma delas era capaz de repelir um noivo. Creio até que não pediam outra coisa, quando rezavam antes de entrar na cama, e ao domingo, à missa, no momento de levantar a Deus. Por que é que Eulália recusava-os todos?",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "recusava-os",
+                "child": "Eulália",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "recusava-os",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Por que é que [MASK] recusava-os todos?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas o que acontecia com Personagem, a jovem que recusava-os todos? Ela acordou na manhã seguinte com uma determinação renovada. O sonho que tinha noite anterior ainda estava claro em sua mente, e ela sentiu um desejo incontrolável de realizar sua própria história. Sentada em seu cadeira de madeira, ela puxou uma grande tela vermelha do lado de fora da casa e começou a desenhar um quarto de banho elegante e moderno. Através de horas e dias, Personagem trabalhou incansavelmente em sua obra-prima, sem se importar com as críticas ou os conselhos das pessoas.",
+        "generated_text_llama": "Enquanto todos os outros estavam ansiosos para se juntarem à festa, Personagem parecia não ter interesse em participar. Ele olhou em volta com uma mistura de desinteresse e raiva, como se cada pessoa que estava tentando convencê-lo fosse uma molestia inaceitável. Com um movimento brusco, ele jogou o seu celular no chão e começou a caminhar em direção à saída, sem dizer nada a ninguém.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "trabalhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "acontecia",
+                    "acl:relcl"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "parecia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "Eulália apertou-lhe muito a mão, sem poder dizer palavra.",
+        "start_char": 5796,
+        "end_char": 5803,
+        "excerpt": "Sim, um dia hei de morrer. Por ora tudo são flores; cá estou para governar a casa; e você é só ler, cismar, tocar e brincar; mas eu tenho de morrer, Eulália, e você tem de ficar só... Eulália apertou-lhe muito a mão, sem poder dizer palavra.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "tenho",
+                "child": "Eulália",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "apertou-lhe",
+                "child": "Eulália",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "apertou-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] apertou-lhe muito a mão, sem poder dizer palavra.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de apertar com força na mão da senhora, Personagem não se importava em fazer mais alguma observação ou questionamento. Ele estendia o braço e apontava para fora da porta, indicando que ela deveria seguir-lhe. A senhora mirava a ele com olhos espantados, não conseguindo acreditar em tamanha agressão desconhecida. Mas Personagem mantinha a postura firme e determinado, como se estivesse disposto a qualquer coisa por seu propósito. Com relucão, a senhora seguia-o, deixando atrás sua casa, que havia sido sua segurança durante tantos anos.",
+        "generated_text_llama": "Era como se o silêncio tivesse sido mais forte que as palavras para Personagem. Ele olhou para a mão estendida com uma mistura de surpresa e gratidão, sentindo a força e a calma que emanavam dela. Com um movimento lento e deliberado, ele puxou a mão de volta até o corpo, como se estivesse tentando entender a emoção que estava passando por ele.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "importava",
+                    "ROOT"
+                ],
+                [
+                    "mantinha",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "Eulália recebeu essa herança moral, modificada ou agravada pela natureza feminil.",
+        "start_char": 7190,
+        "end_char": 7197,
+        "excerpt": "O pai nascera com o amor do enigmático, do arriscado e do obscuro; morreu quando aparelhava uma expedição para ir à Bahia descobrir a \"cidade abandonada\". Eulália recebeu essa herança moral, modificada ou agravada pela natureza feminil.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "recebeu",
+                "child": "Eulália",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "receber",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "eulália",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] recebeu essa herança moral, modificada ou agravada pela natureza feminil.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O caracter, uma jovem chamada Isabella, recebeu essa herança moral, modificada ou agravada pela natureza feminil. Ela se sentiu profundamente responsável por trazer alteração positiva em sua comunidade, especialmente em relação aos direitos das mulheres e crianças. Seus primeiros passos foram abordar questões que afetavam as pessoas mais vulneráveis, como a educação, a saúde e a proteção dos menores na região em que ela morava.",
+        "generated_text_llama": "Personagem refletiu sobre a complexa mistura de valores que agora carregava em seu coração. Ele pensou nas palavras sábias da avó, na determinação inabalável de sua mãe e no instinto maternal que o havia acompanhado ao longo dos anos. Com uma profunda inspiração, Personagem decidiu utilizar essa herança para se tornar um protetor e defensor verdadeiro das pessoas em sua comunidade, usando suas habilidades únicas e sua força para proteger os necessitados.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "refletiu",
+                    "ROOT"
+                ],
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "Perdão, digo-lhe eu, há uma diferença entre Eulália e as outras, é que as outras trocam finalmente o original esperado por uma cópia gravada, antes ou depois da letra, e às vezes por uma simples fotografia ou litografia, ao passo que Eulália continuou a esperar o painel autêntico.",
+        "start_char": 8161,
+        "end_char": 8168,
+        "excerpt": "A razão é que esperava outro, um marido extraordinário, que ela viu e conversou, em sonho ou alucinação, a mais radiosa figura do universo, a mais sublime e rara, uma criatura em que não havia falha ou quebra, verdadeira gramática sem irregularidades, pura língua sem solecismos. Perdão, interrompe-me uma senhora, esse noivo não é obra exclusiva de Eulália, é o marido de todas as virgens de dezessete anos. Perdão, digo-lhe eu, há uma diferença entre Eulália e as outras, é que as outras trocam finalmente o original esperado por uma cópia gravada, antes ou depois da letra, e às vezes por uma simples fotografia ou litografia, ao passo que Eulália continuou a esperar o painel autêntico.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "obra",
+                "child": "Eulália",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "obra",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Eulália",
+                "child": "obra",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Eulália",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "obra",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Eulália",
+                "child": "marido",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Eulália",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "uma diferença",
+                "child": "Eulália",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "diferença",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Eulália",
+                "child": "uma diferença",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Eulália",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "diferença",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "continuou",
+                "child": "Eulália",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "continuar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Eulália",
+                "child": ", ao passo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Eulália",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "passo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Perdão, digo-lhe eu, há uma diferença entre [MASK] e as outras, é que as outras trocam finalmente o original esperado por uma cópia gravada, antes ou depois da letra, e às vezes por uma simples fotografia ou litografia, ao passo que [MASK] continuou a esperar o painel autêntico.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Por enquanto, ele segue aguardando o painel autêntico, enquanto as outras artistas trocavam o original desejado por cópias gravadas antes ou depois da letra, e em algum casos apenas uma simples fotografia ou litografia. O tempo passa e o fervor pela arte se acende no coração dele com cada dia. Ele sabe que esse painel é algo único, uma obras-primas, e decide não aceitar nada menos que isso.",
+        "generated_text_llama": "E assim, Personagem decidiu empreender uma nova busca, determinado a encontrar o original do quadro perdido. Ele começou por revisitar os artistas e colecionadores que haviam colaborado com o pintor naquele tempo, solicitando informações sobre possíveis localizações onde o quadro poderia estar escondido.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eulália",
+        "sentence": "Perdão, digo-lhe eu, há uma diferença entre Eulália e as outras, é que as outras trocam finalmente o original esperado por uma cópia gravada, antes ou depois da letra, e às vezes por uma simples fotografia ou litografia, ao passo que Eulália continuou a esperar o painel autêntico.",
+        "start_char": 8161,
+        "end_char": 8168,
+        "excerpt": "A razão é que esperava outro, um marido extraordinário, que ela viu e conversou, em sonho ou alucinação, a mais radiosa figura do universo, a mais sublime e rara, uma criatura em que não havia falha ou quebra, verdadeira gramática sem irregularidades, pura língua sem solecismos. Perdão, interrompe-me uma senhora, esse noivo não é obra exclusiva de Eulália, é o marido de todas as virgens de dezessete anos. Perdão, digo-lhe eu, há uma diferença entre Eulália e as outras, é que as outras trocam finalmente o original esperado por uma cópia gravada, antes ou depois da letra, e às vezes por uma simples fotografia ou litografia, ao passo que Eulália continuou a esperar o painel autêntico.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "obra",
+                "child": "Eulália",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "obra",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Eulália",
+                "child": "obra",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Eulália",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "obra",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Eulália",
+                "child": "marido",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Eulália",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "uma diferença",
+                "child": "Eulália",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "diferença",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Eulália",
+                "child": "uma diferença",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Eulália",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "diferença",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "continuou",
+                "child": "Eulália",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "continuar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eulália",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Eulália",
+                "child": ", ao passo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Eulália",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "passo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Perdão, digo-lhe eu, há uma diferença entre [MASK] e as outras, é que as outras trocam finalmente o original esperado por uma cópia gravada, antes ou depois da letra, e às vezes por uma simples fotografia ou litografia, ao passo que [MASK] continuou a esperar o painel autêntico.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando com a narrativa em português brasileiro, eu escrevo:",
+        "generated_text_llama": "Eu me levantei da cadeira e comecei a caminhar lentamente pelo quarto, as minhas mãos colocadas nos bolsos das calças para evitar qualquer objeto que possa ter se movido enquanto eu estava distraído. Meu olhar foi direcionado à lâmpada sobre a mesa, onde um pedaço de papel com uma mensagem escrita à mão jazia espalhado no centro da tableta. Eu me aproximei e peguei o papel, sentindo uma onda de raiva crescer dentro de mim ao ver as palavras \"você está perdido\" escritas na minha própria letra. A mensagem era clara: alguém sabia mais sobre meu plano do que eu imaginava. Eu me sentei novamente na cadeira e comecei a refletir sobre o que poderia ter salgado essa mensagem. Quem poderia saber sobre meu plano? E como eles conseguiriam descobrir? Eu sabia que precisava pensar rápido se quisesse manter meu objetivo.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Teófilo",
+        "sentence": "Teófilo recebeu uma advertência amiga, subiu à Conceição e explicou tudo: era uma prima, a quem não via desde muito.",
+        "start_char": 10624,
+        "end_char": 10631,
+        "excerpt": "O coadjutor veio espiar, deu com eles e ficou justamente escandalizado. A notícia do caso chegou, dois dias depois, ao bispo. Teófilo recebeu uma advertência amiga, subiu à Conceição e explicou tudo: era uma prima, a quem não via desde muito.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "recebeu",
+                "child": "Teófilo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "receber",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Teófilo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] recebeu uma advertência amiga, subiu à Conceição e explicou tudo: era uma prima, a quem não via desde muito.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem então desceram com calma para uma casa antiga, que estava no fundo da Rua da Conceição. Após entrarem na casa, sentaram-se em volta de um pequeno mesa e começaram a falar sobre os dias que haviam passado. Ele contou tudo ao primo, desde o encontro com Personagem no bar até a confusão que havia surgido por causa do telegram. O primo se mostrou entediado com a história dele e sugeriu que ele voltasse aos trabalhos diários. Ele não queria acreditar que seu primo desconfiava dela, pois a amava como uma irmã. Porém, ele decidiu seguir o conselho de seu primo e deixar o assunto para trás. Após essa conversa, Personagem voltou à sua casa e dormiu debaixo da cobertura de segurança que ela havia criado com as velhas histórias contadas por seu primo.",
+        "generated_text_llama": "Quando chegou ao bar do local conhecido como \"O Morro da Conceição\", no coração de São Paulo, Personagem sentiu-se um pouco nervoso, mas também aliviado por poder compartilhar sua história com alguém que sabia como era o meio deles. Ele pediu um caipirinha e se aproximou do barman para explicar a situação de forma breve, mas clara.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "desceram",
+                    "ROOT"
+                ],
+                [
+                    "voltou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Teófilo",
+        "sentence": "Como os dois primos podiam ver-se em casa, Teófilo passou a visitá-la, e ela a recebê-lo com muito prazer.",
+        "start_char": 11161,
+        "end_char": 11168,
+        "excerpt": "Entretanto, como eu tinha sido companheiro do Teófilo no seminário e gostava dele, defendi-o com muito calor e fiz chegar o meu testemunho ao palácio da Conceição. Ele ficou-me grato por isso, e daí veio a intimidade de nossas relações. Como os dois primos podiam ver-se em casa, Teófilo passou a visitá-la, e ela a recebê-lo com muito prazer.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Teófilo",
+                "child": "companheiro",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Teófilo",
+                "dep_c": "advcl",
+                "pos_c": "ADJ",
+                "lemma_c": "companheiro",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "passou",
+                "child": "Teófilo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "passar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Teófilo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Como os dois primos podiam ver-se em casa, [MASK] passou a visitá-la, e ela a recebê-lo com muito prazer.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, após aquela reunião agradável, Personagem não pôde se contê-lo de voltar logo à próxima visita. A casa da tia Maria era um refúgio para ele, uma pequena oásis no meio de seu dia-a-dia ruidoso e ímpar.",
+        "generated_text_llama": "Depois de ter chegado à casa da prima, Personagem sentiu-se imediatamente à vontade e começou a conversar com ela sobre todos os assuntos que eram importantes para ambos. Eles se entreolharam com risadas e comentários, e logo o tempo voou enquanto exploravam juntos as novidades da vida de cada um.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "pôde",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

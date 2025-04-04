@@ -1,0 +1,795 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Alexandre Dumas",
+        "sentence": "Alexandre Dumas comparou eloqüentemente o dilúvio a uma lágrima do Senhor, lágrima de dor, se a dor pode ser divina, que a impiedade arrancou dos olhos do autor das coisas.",
+        "start_char": 534,
+        "end_char": 549,
+        "excerpt": "Bem pouco avulta essa leve gota de humor que os olhos vertem por alguma causa física ou moral. É nada e é tudo; para os ânimos práticos é um sinal de fraqueza; para os corações sensíveis é um objeto de respeito, uma causa de simpatia. Alexandre Dumas comparou eloqüentemente o dilúvio a uma lágrima do Senhor, lágrima de dor, se a dor pode ser divina, que a impiedade arrancou dos olhos do autor das coisas.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "comparou",
+                "child": "Alexandre Dumas",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "comparar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Alexandre",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] comparou eloqüentemente o dilúvio a uma lágrima do Senhor, lágrima de dor, se a dor pode ser divina, que a impiedade arrancou dos olhos do autor das coisas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Jovem contemplou a cena apocalíptica com uma expressão de tristeza inconfundível em seus olheiros azuis. Em seguida, ele se levantou lentamente e, atravessando as ruínas destruídas, seguiu rumo ao que se podia chamar de \"centro\" da cidade, onde se localizava a casa de madeira de seu pai.",
+        "generated_text_llama": "Personagem ficou imóvel por um momento, absorvendo a força daquela comparação. Então, com um movimento lento e deliberado, ele se levantou da cadeira e começou a caminhar em direção à janela, que estava coberta de neve. Ele olhou para fora, perdido no vasto céu invernal, como se estivesse procurando por alguma resposta nos estrelas.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Daniel",
+        "sentence": "Apenas entrei numa das ruas da cidade dos mortos, avistei Daniel ao longe, sentado numa pedra, ao pé de uma sepultura, com a cabeça entre as mãos.",
+        "start_char": 3368,
+        "end_char": 3374,
+        "excerpt": "Apenas lhe disse que desejava falar ao dono da casa, respondeu-me que ele saíra a passeio. Como eu sabia que o passeio era ao cemitério, dirigi-me para lá. Apenas entrei numa das ruas da cidade dos mortos, avistei Daniel ao longe, sentado numa pedra, ao pé de uma sepultura, com a cabeça entre as mãos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "avistei",
+                "child": "Daniel",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "avistar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Daniel",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Apenas entrei numa das ruas da cidade dos mortos, avistei [MASK] ao longe, sentado numa pedra, ao pé de uma sepultura, com a cabeça entre as mãos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim que entrou numa das ruas da cidade dos mortos, a cidade de onde nunca mais poderia sair, vi Personagem sentado numa pedra, ao pé de uma sepultura, com a cabeça entre as mãos. O homem estava vestido em um traje negro, com um chapéu de palha nas mãos e sua face tinha o aspecto de quem não dormira há muito tempo.",
+        "generated_text_llama": "Eu me aproximei lentamente, sem querer assustá-lo, sabendo que Personagem estava passando por um momento difícil. Ao chegarmos mais perto, pude ver a tristeza nos olhos dele, e meu coração se apertou com empatia. Sem dizer nada, entrei ao lado dele na pedra e assentei-me para que ele soubesse que estava lá.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "vi",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "passando",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Daniel",
+        "sentence": "Era positivo que todas as excentricidades de Daniel estavam presas a uma história, que devia ser a história daquele túmulo.",
+        "start_char": 3532,
+        "end_char": 3538,
+        "excerpt": "Apenas entrei numa das ruas da cidade dos mortos, avistei Daniel ao longe, sentado numa pedra, ao pé de uma sepultura, com a cabeça entre as mãos. Aquele aspecto fez- me parar. Era positivo que todas as excentricidades de Daniel estavam presas a uma história, que devia ser a história daquele túmulo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "avistei",
+                "child": "Daniel",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "avistar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Daniel",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "todas as excentricidades",
+                "child": "Daniel",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "excentricidade",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Daniel",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Daniel",
+                "child": "todas as excentricidades",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Daniel",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "excentricidade",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Daniel",
+                "child": "presas",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Daniel",
+                "dep_c": "csubj",
+                "pos_c": "ADJ",
+                "lemma_c": "preso",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Daniel",
+                "child": "positivo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Daniel",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "positivo",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Era positivo que todas as excentricidades de [MASK] estavam presas a uma história, que devia ser a história daquele túmulo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele se dirigiu com coragem à entrada da cripta e acendeu a antiga luz. O ar seco do local fazia a sua respiração seco e roncava nos silêncios tristes que envoltavam o lugar. Depois de algum tempo, o olhar de Personagem se fixou em um túmulo, específico, em forma de coração.",
+        "generated_text_llama": "Era positivo que todas as excentricidades de Personagem estavam presas a uma história, que devia ser a história doaquele túmulo. Assim, ele decidiu explorar o túmulo mais perto da sua casa, que era um lugar famoso pela lenda do \"Homem das Pedras\", que dizia que alguém havia sido enterrado vivo em uma cama de pedras e que nunca foi encontrado.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Daniel",
+        "sentence": "É inútil dizer-me a casa, interrompeu Daniel; o meu reino já não é deste mundo.",
+        "start_char": 5346,
+        "end_char": 5352,
+        "excerpt": "Obrigado, disse-lhe. Sou P... e moro... É inútil dizer-me a casa, interrompeu Daniel; o meu reino já não é deste mundo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "interrompeu",
+                "child": "Daniel",
+                "dep_h": "csubj",
+                "pos_h": "VERB",
+                "lemma_h": "interromper",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Daniel",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Daniel",
+                "child": "inútil",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Daniel",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "inútil",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "É inútil dizer-me a casa, interrompeu [MASK]; o meu reino já não é deste mundo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele sorriu triste e entregou minha carta. \"Sei que você tem um reino para governar, Personagem, mas não desisto da minha luta.\" Disse eu, tomando a carta de volta com determinado olhar.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "governar",
+                    "acl"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elisa",
+        "sentence": "Os dias corriam assim, e eu, se não podia ainda aspirar à glória de possuir Elisa, gozava ao menos da felicidade de vê-la e viver nos olhos dela.",
+        "start_char": 6685,
+        "end_char": 6690,
+        "excerpt": "Aqui entrava eu na luta suprema do coração e da consciência, do dever e do amor. Entendia que era decoro reduzir-me, mas esse silêncio era para mim o mais atroz de todos os suplícios. Os dias corriam assim, e eu, se não podia ainda aspirar à glória de possuir Elisa, gozava ao menos da felicidade de vê-la e viver nos olhos dela.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "possuir",
+                "child": "Elisa",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "possuir",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Elisa",
+                "child": "glória",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Elisa",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "glória",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Os dias corriam assim, e eu, se não podia ainda aspirar à glória de possuir [MASK], gozava ao menos da felicidade de vê-la e viver nos olhos dela.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele decidiu aproveitar ao máximo esse desejo insaciável que tinha por conhecer mais sobre ela. Ele se preocupou com sua aparência, tomando cuidado em como se vestia e como se comportava em torno dela. Cada interação que tinham se tornavam momentos esperados, onde cada palavra dela lhe parecia uma joia rara e preciosa.",
+        "generated_text_llama": "Eu continuava a me esforçar para ser o melhor versão de mim mesmo, sabendo que isso poderia me ajudar a ganhar a admiração e o respeito de Personagem. Cada vez que eu estava perto dela, sentia meu coração bater mais rápido e minha mente se encheu de pensamentos sobre como podia fazer dela feliz. Eu começava a me interessar cada vez mais por suas paixões e hobbies, e tentava participar delas quando possível. Isso me permitia passar mais tempo ao seu lado e criar oportunidades para interagirmos de forma mais profunda.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Valadares",
+        "sentence": "Notava eu, porém, que Valadares, até então meu amigo confessado, redobrava de afeto e de atenções por mim.",
+        "start_char": 6925,
+        "end_char": 6934,
+        "excerpt": "Durou este estado sete meses. Disposto a sofrer em silêncio, resolvi por outro lado trabalhar muito, de modo a constituir um direito à mão da moça. Notava eu, porém, que Valadares, até então meu amigo confessado, redobrava de afeto e de atenções por mim.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "redobrava",
+                "child": "Valadares",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "redobrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Valadares",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Notava eu, porém, que [MASK], até então meu amigo confessado, redobrava de afeto e de atenções por mim.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a ler a carta em suas mãos, eu sentia o coração batendo em ritmo acelerado no peito. Porém, não notava eu, porém, que meu amigo confessado, até então, redobrava de afeto e de atenções por mim. Eu vi, com surpresa, um pedido que eu nunca tinha imaginado: \"Querias casar-se comigo?\" A carta, escrita em uma papelão de café, era a mais bela expressão de amor que já tinha recebido na minha vida. Mesmo assim, não podia acreditar no que eu estava lendo. Eu conhecia meu amigo por anos e nunca vi essa parte do seu caráter. Percebi que era importante responder a ele como deveria.",
+        "generated_text_llama": "Eu fiquei surpreso com a mudança repentina no comportamento dele, pois nunca havia visto alguém se comportar dessa maneira em relação a mim. Comecei a me sentir desconfortável e um pouco suspeito, perguntando a mim mesmo o que poderia estar acontecendo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "casar-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Valadares",
+        "sentence": "Valadares estava no gabinete e mandou-me entrar.  Deram-lhe o recado a tempo?",
+        "start_char": 7307,
+        "end_char": 7316,
+        "excerpt": "Um dia, era em outubro de 185... , estando no escritório a trabalhar recebi recado de Valadares para que fosse lá à casa à noitinha. Fui. Valadares estava no gabinete e mandou-me entrar.  Deram-lhe o recado a tempo?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "recebi",
+                "child": "Valadares",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "recebi",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Valadares",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Valadares",
+                "child": "gabinete",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Valadares",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "gabinete",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "gabinete",
+                "child": "Valadares",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "gabinete",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Valadares",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] estava no gabinete e mandou-me entrar.  Deram-lhe o recado a tempo?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Sr. Silveira estava no gabinete e mandou-me entrar. Deram-lhe o recado à tempo, enrolado em um papel escuro que se sentia pesado nas mãos. Ele abriu os olhos, olhou para mim com uma expressão indefinível e deixou cair o rosto no escritório. Ao me ouvir a porta se fechar atrás de mim, ele se levantou lentamente e começou a olhar pela carpeta que estava sobre seu escritório, sem dúvida buscando pelo recado que eu havia entregue.",
+        "generated_text_llama": "Eu entrei na sala de trabalho do Personagem, que estava sentado à sua frente, com as mãos cruzadas sobre o peito. Ele me olhou com um olhar sério e disse: \"Sim, deram-lhe o recado a tempo\". Eu sorri, aliviado, e perguntei como estava a tudo. O Personagem assentiu com a cabeça e começou a falar sobre o que precisava que eu fizesse. Ele me explicou que era importante que eu cuidasse de uma coisa importante, algo que não podia ser discutido em público. Eu ouvi atentamente, preocupado, enquanto ele continuava a falar.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "gabinete",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "assentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Valadares",
+        "sentence": "Valadares limpou os óculos, e depois de algum silêncio perguntou- me:",
+        "start_char": 7445,
+        "end_char": 7454,
+        "excerpt": "Sente-se. Puxei uma cadeira. Valadares limpou os óculos, e depois de algum silêncio perguntou- me:",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "limpou",
+                "child": "Valadares",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "limpar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Valadares",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] limpou os óculos, e depois de algum silêncio perguntou- me:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " \"-Você sabe por acaso se o livro que estava procurando ainda está aqui?\", perguntou Personagem, enrolado numa turba de livros velhos e amarelos, semelhantes ao que estavam espalhados por todo o ambiente.",
+        "generated_text_llama": "\"Você acha que ele está realmente morto?\", perguntou Personagem, com uma voz trêmula, olhando em volta nervosamente como se temesse que alguém estivesse o observando. Em seguida, começou a procurar nos arredores do local, verificando se havia algum sinal de vida ou indício de que algo não estava conforme. A sua mente estava em alerta, pensando em todas as hipóteses possíveis e tentando encontrar uma explicação lógica para o que havia acontecido. Com cuidado, começou a examinar o corpo de Personagem, procurando por marcas de ferimento ou qualquer outra pista que possa ajudá-lo a entender o que havia acontecido.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "perguntou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "perguntou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elisa",
+        "sentence": "Elisa entrou na sala logo atrás do pai.",
+        "start_char": 8828,
+        "end_char": 8833,
+        "excerpt": "Fui direito a ele. Minha filha é sua. Elisa entrou na sala logo atrás do pai.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "entrou",
+                "child": "Elisa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] entrou na sala logo atrás do pai.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Logo após entrar na sala, a jovem segurou a mão da tia em um abraço profundo. Ela sabia que a situação não era boa e que sua tia estava sofrendo. A partir daí, ela começou a falar com ela, tentando tranquilizá-la e oferecer conselhos que pudessem ajudá-la a sair do momento atual. \"Tente pensar em algo boa\", disse ela, sorrindo. \"Não há solução para tudo, mas eu vou estar aqui contigo.\"",
+        "generated_text_llama": "[APersonagem sentou-se na cadeira mais perto da janela e olhou para fora, observando a escuridão da noite que parecia se encontrar até os penhascos da casa. Sua mente estava distraída, pensando em como havia sido difícil manter a mentira sobre o que aconteceu com a mãe. Personagem sabia que seu pai não acreditaria nela, mesmo que ela soubesse que era verdadeira. Ele sempre havia sido um homem de palavra, e a ideia de que sua filha estivesse enganando-o era algo difícil de processar.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Valadares",
+        "sentence": "Valadares disse-me que eu entraria como sócio na casa, sendo esse o começo da fortuna que meu pai exigia que eu próprio alcançasse.",
+        "start_char": 9266,
+        "end_char": 9275,
+        "excerpt": "Tamanha felicidade abafava-me: eu precisava de ar; e além disso tinha vontade de ver se, saindo daquela casa, desfazia-se o que me parecia sonho, ou se realmente era uma realidade bem-aventurada. Preparou-se o casamento, que devia efetuar-se dentro de um mês. Valadares disse-me que eu entraria como sócio na casa, sendo esse o começo da fortuna que meu pai exigia que eu próprio alcançasse.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse-me",
+                "child": "Valadares",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "disse-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Valadares",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] disse-me que eu entraria como sócio na casa, sendo esse o começo da fortuna que meu pai exigia que eu próprio alcançasse.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ao saber que eu entraria como sócio na casa, foi um passo fundamental para cumprir o sonho de minha infância e satisfazer a demanda de sucesso que meu pai sempre enfatizava. Eu trabalhei duro para aprender tudo sobre a indústria da casa e, graças à minha dedicação, conseguir ficar no topo da hierarquia em poucos anos. Minha família agora tem um negócio prosperando e, uma vez alcançado o sucesso, finalmente consegui fazer um passo mais importante: tornar-me um homem respeitado por minha comunidade e um modelo de sucesso para os jovens.",
+        "generated_text_llama": "Eu não podia acreditar no que estava ouvindo. Meu pai sempre me falou sobre a importância de alcançar grande sucesso e acumular riqueza, mas nunca imaginei que isso poderia acontecer tão rapidamente. Eu olhei para Personagem com um misto de surpresa e gratidão, sabendo que minha vida estava prestes a mudar drasticamente.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elisa",
+        "sentence": "Foi para mim um dia de felicidade extrema, com uma única sombra, é que Elisa pareceu triste logo desde manhã, e indagando eu a causa disse que se achava um pouco doente.",
+        "start_char": 10170,
+        "end_char": 10175,
+        "excerpt": "A culpa não era minha, pensava eu; é natural amá-la, basta conhecê-la. Efetuou-se o casamento em novembro. Foi para mim um dia de felicidade extrema, com uma única sombra, é que Elisa pareceu triste logo desde manhã, e indagando eu a causa disse que se achava um pouco doente.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "pareceu",
+                "child": "Elisa",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "parecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Foi para mim um dia de felicidade extrema, com uma única sombra, é que [MASK] pareceu triste logo desde manhã, e indagando eu a causa disse que se achava um pouco doente.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, tendo percebido que Personagem estava com algum tipo de enfermidade, eu lhe ofereci meu apoio e empatia. Eu levei Personagem para o médico mais próximo para que pudesse ser examinado e descobrir qual era a natureza da sua doença. Após vários exames e investigações, foi confirmado que ele sofria de uma doença grave que requeria tratamento imediato.",
+        "generated_text_llama": "\"Estou apenas um pouco cansado\", eu disse, tentando não chamar a atenção para o fato de que ele parecia realmente com um olhar sombrio no rosto. \"O que você está fazendo hoje?\", perguntei, tentando mudar de assunto.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "tipo",
+                    "ccomp"
+                ]
+            ],
+            "obj": [
+                [
+                    "levei",
+                    "ROOT"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elisa",
+        "sentence": "Elisa nada mudou do que era; à sua índole atribuí eu a circunstância especial de que, ao passo que eu me sentia ardoroso e cheio daquela glória de possuí-la, ela mostrava-se afetuosa, mas reservada, obediente e passiva.",
+        "start_char": 10832,
+        "end_char": 10837,
+        "excerpt": "Agradeci mentalmente a meu pai o haver-me mandado para o Rio, onde aquela ventura me esperava. Não lhe direi como correram os primeiros dias do meu casamento; foi o que costuma a ser, uma lua-de-mel. Elisa nada mudou do que era; à sua índole atribuí eu a circunstância especial de que, ao passo que eu me sentia ardoroso e cheio daquela glória de possuí-la, ela mostrava-se afetuosa, mas reservada, obediente e passiva.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "mudou",
+                "child": "Elisa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mudar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] nada mudou do que era; à sua índole atribuí eu a circunstância especial de que, ao passo que eu me sentia ardoroso e cheio daquela glória de possuí-la, ela mostrava-se afetuosa, mas reservada, obediente e passiva.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, sem mudar seu caráter em nada, manteve sua natureza reservada e distante. Porém, sentia a presença de um amor que, embora não o mostrasse abertamente, parecia estar nutindo-o quietamente em sua alma. Ele passava dias inquietos, aguardando um sinal, qualquer indício de que essa paixão secreta compartilhada também lhe fosse retornada.",
+        "generated_text_llama": "Enquanto o general Máscaro continuava a admirar sua beleza e graciosidade, ele não pôde deixar de notar que sua índole não havia mudado muito desde aquela noite mágica em que se conheceram. Ele ainda era aquele homem calmo e sereno, capaz de controlar suas emoções como se fossem algo externo a si mesmo. ",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "manteve",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elisa",
+        "sentence": "O poeta foi à nossa casa; mas Elisa não lhe falou, por estar incomodada, segundo mandou dizer.",
+        "start_char": 11564,
+        "end_char": 11569,
+        "excerpt": "No fim de algum tempo, apareceu outra vez na corte o poeta, que vinha, dizia, de fechar os olhos ao parente, e trazia luto fechado. Ficava-lhe bem o luto, e não somente o luto das roupas, mas o do semblante que estava fechado e triste como uma campa que esconde um morto. O poeta foi à nossa casa; mas Elisa não lhe falou, por estar incomodada, segundo mandou dizer.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "falou",
+                "child": "Elisa",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "O poeta foi à nossa casa; mas [MASK] não lhe falou, por estar incomodada, segundo mandou dizer.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, a menina fechou as portas e se sentou no quarto, olhando para fora através da janela. Ao ver o poeta caminhar pelos jardins de flores vibrantes e colinas verdes, ela sentiu uma pena pesada na coração. Era tão desejosa de falar com ele, de compartilhar seus sonhos e ideias artísticas, mas ainda não sabia como se abrir para ele.",
+        "generated_text_llama": "Apoiei a cabeça com a mão e mantive a silenciosa irritação escondida atrás de um sorriso leve, enquanto o poeta se aproximava da mesa com suas réplicas de obras-primas, esperando que ele entendesse a situação. Ele sabia que não podia deixar que as palavras de desdém daquele jornalista ficassem em seu ouvido, sem uma resposta. Com um movimento rápido e firme, recuei-me para o canto da sala, onde minha mãe estava sentada na cadeira favorita, com os olhos fixos no livro aberto diante dela. A luz do sol entrava pela janela, iluminando as linhas profundas do rosto de minha mãe e fazendo com que eu me sentisse um pouco mais segura.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elisa",
+        "sentence": "Com efeito, o médico envidou todos os esforços; ocultou a moléstia à enferma, por prudência; mas Elisa tinha a convicção da gravidade do mal.",
+        "start_char": 12465,
+        "end_char": 12470,
+        "excerpt": "Salve-a, doutor, exclamei eu. Sim, hei de salvá-la. Com efeito, o médico envidou todos os esforços; ocultou a moléstia à enferma, por prudência; mas Elisa tinha a convicção da gravidade do mal.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "Elisa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Com efeito, o médico envidou todos os esforços; ocultou a moléstia à enferma, por prudência; mas [MASK] tinha a convicção da gravidade do mal.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Com efeito, o médico encantou todos os esforços; escondiu a doença da enferma, por prudência; mas Clara tinha a convicção da gravidade do mal. Ela sentia que o médico estava enganando-se ou estava se equivocando e determinada a encontrar uma solução para tratar sua saúde. Clara entrou em contato com outros médicos especialistas, fez pesquisas por conta própria e até mesmo começou a ler livros sobre doenças raras e tratamentos alternativos.",
+        "generated_text_llama": "Nessa mesma tarde, enquanto o médico continuava a examinar a enferma com uma expressão de preocupação, Personagem não pôde evitar de perguntar sobre as chances de recuperação. Ele sabia que o médico estava tentando ser diplomado, mas sua voz carregava um tom de verdadeira preocupação.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "tinha",
+                    "conj"
+                ],
+                [
+                    "entrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pôde",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elisa",
+        "sentence": "Elisa caiu-me nos braços; removi-a para a cama.",
+        "start_char": 13942,
+        "end_char": 13947,
+        "excerpt": "tinha no olhar a serenidade da inocência; mas o fogo que lhe ardia nas pupilas era já o fogo da morte. O susto que eu lhe causara apressou a catástrofe. Elisa caiu-me nos braços; removi-a para a cama.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "caiu-me",
+                "child": "Elisa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "caiu-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] caiu-me nos braços; removi-a para a cama.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, que vinha com uma expressão triste e desesperada no rosto, me caiu nos braços; eu removi-a para a cama. Ela ficou quietinha, com as mãos cruzadas sobre o peito, olhando para o teto. Eu senti que ela estava sofrendo muito e resolveu falar consigo.",
+        "generated_text_llama": "Eu me senti devastado quando Personagem caiu-me nos braços; removi-a para a cama. Eu não sabia o que fazer, pois ela estava tão fraca e malhada. Olhei em volta da sala, mas ninguém mais estava lá para ajudar.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "caiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "caiu-me",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

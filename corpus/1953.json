@@ -1,0 +1,1217 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Joaquim Soares",
+        "sentence": "Joaquim Soares não me conhece; mas é digno da distinção, por ser dos nossos melhores artistas, e um dos homens mais honrados da nossa terra...\"",
+        "start_char": 775,
+        "end_char": 789,
+        "excerpt": "Item, é minha última vontade que o caixão em que o meu corpo houver de ser enterrado, seja fabricado em casa de Joaquim Soares, à rua da Alfândega. Desejo que ele tenha conhecimento desta disposição, que também será pública. Joaquim Soares não me conhece; mas é digno da distinção, por ser dos nossos melhores artistas, e um dos homens mais honrados da nossa terra...\"",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "casa",
+                "child": "Joaquim Soares",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "casa",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Joaquim",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Joaquim Soares",
+                "child": "casa",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Joaquim",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "casa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Joaquim Soares",
+                "child": "vontade",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Joaquim",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "vontade",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "conhece",
+                "child": "Joaquim Soares",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "conhecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Joaquim",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não me conhece; mas é digno da distinção, por ser dos nossos melhores artistas, e um dos homens mais honrados da nossa terra...\"",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O rapaz, sentado no banco de pedra, olhou para mim com um ar de admiração. Com a voz suave e encantadora que possuía, disseram-me que era uma das melhores cantoras do reino. \"Seus pais são orgulhosos de te ter como filha\", lembrou-se eu. Eles diziam que ela não me conhecia; mas era digno da distinção, por ser dos nossos melhores artistas, e um dos homens mais honrados da nossa terra.",
+        "generated_text_llama": "...dizia o senhor, seu rosto iluminado com admiração, enquanto Personagem baixava os olhos, sentindo uma onda de vergonha calorosa. Ele havia ouvido essas palavras antes, mas nunca as havia ouvido da boca de alguém tão respeitado e admirado como o senhor. Personagem respirou fundo, tentando controlar a ansiedade que começava a subir em sua garganta.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "ter",
+                    "xcomp"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "baixava",
+                    "advcl"
+                ],
+                [
+                    "respirou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Joaquim Soares",
+        "sentence": "Joaquim Soares fez o caixão em que foi metido o corpo do pobre Nicolau B. de C.; fabricou-o ele mesmo, con amore; e, no fim, por um movimento cordial, pediu licença para não receber nenhuma remuneração.",
+        "start_char": 964,
+        "end_char": 978,
+        "excerpt": "Joaquim Soares não me conhece; mas é digno da distinção, por ser dos nossos melhores artistas, e um dos homens mais honrados da nossa terra...\" Cumpriu-se à risca esta verba testamentária. Joaquim Soares fez o caixão em que foi metido o corpo do pobre Nicolau B. de C.; fabricou-o ele mesmo, con amore; e, no fim, por um movimento cordial, pediu licença para não receber nenhuma remuneração.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "conhece",
+                "child": "Joaquim Soares",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "conhecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Joaquim",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "fez",
+                "child": "Joaquim Soares",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Joaquim",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] fez o caixão em que foi metido o corpo do pobre Nicolau B. de C.; fabricou-o ele mesmo, con amore; e, no fim, por um movimento cordial, pediu licença para não receber nenhuma remuneração.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Seguindo sua promessa de honra e respeito pelo homem que lhe havia ensinado tudo sobre a escultura, Personagem colocou suas mãos ainda mais cuidadosas na elaboração do caixão de Nicolau B. de C. Uma vez concluído, ele fez um gesto respeitoso, solicitando permissão para não cobrar nenhuma remuneração pelo trabalho realizado.",
+        "generated_text_llama": "Pensando na morte triste de Nicolau, Personagem sentiu uma onda de tristeza e arrependimento. Ele se levantou da cadeira, aproximou-se do caixão e tocou levemente a tampa, como se estivesse lembrando de alguém. Em seguida, ele se virou para o interior do salão, onde seus amigos e familiares estavam reunidos em luto. Personagem sentiu a necessidade de fazer algo para honrar a memória de Nicolau, mas não sabia o que.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "colocou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nicolau",
+        "sentence": "Nicolau apanhou então muita pancada, curtiu muita dor, chorou, soluçou; mas de emenda coisa nenhuma.",
+        "start_char": 6123,
+        "end_char": 6130,
+        "excerpt": "- Este rapaz há de ser a nossa desgraça! bradava o pai de Nicolau, em casa, depois do episódio. Nicolau apanhou então muita pancada, curtiu muita dor, chorou, soluçou; mas de emenda coisa nenhuma.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "o pai",
+                "child": "Nicolau",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "pai",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "nicolau",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Nicolau",
+                "child": "o pai",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "nicolau",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "apanhou",
+                "child": "Nicolau",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "apanhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nicolau",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] apanhou então muita pancada, curtiu muita dor, chorou, soluçou; mas de emenda coisa nenhuma.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem, como sempre, levantou-se e se recuperou rapidamente. Sua pele resguardava as marcas da batalha, mas seu olhar continuava firme e determinado. Saiu do hospital com a cabeça erguida, sem medo de nada, pois sabia que havia um caminho para percorrer e o tempo se encerraria quando conseguisse alcançar o seu objetivo.",
+        "generated_text_llama": "E assim, com uma determinação renovada, Personagem começou a se preparar para o que estava prestes a acontecer. Ela sabia que não poderia recuar agora, que precisava enfrentar as consequências de suas ações. Com um fôlego profundo, ela se levantou do chão, sentindo o impacto da pancada ainda vibrando em seu corpo.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nicolau",
+        "sentence": "Enquanto durou a reclusão, Nicolau mostrou-se nada menos que angélico; fora daquele sestro mórbido, era meigo, dócil, obediente, amigo da família, pontual nas rezas.",
+        "start_char": 6833,
+        "end_char": 6840,
+        "excerpt": "As coisas chegaram a tal ponto, que o pai resolveu trancá-lo em casa durante uns três ou quatro meses. Foi um paliativo, e, como tal, excelente. Enquanto durou a reclusão, Nicolau mostrou-se nada menos que angélico; fora daquele sestro mórbido, era meigo, dócil, obediente, amigo da família, pontual nas rezas.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "mostrou-se",
+                "child": "Nicolau",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mostrar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nicolau",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Enquanto durou a reclusão, [MASK] mostrou-se nada menos que angélico; fora daquele sestro mórbido, era meigo, dócil, obediente, amigo da família, pontual nas rezas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Contudo, o momento de sua libertação chegou e Personagem voltou à sociedade como uma bomba sob pressão, desafiando todos os limites que havia estabelecido anteriormente. Sua fé se transformou em mania religiosa excessiva, e ele passou a viver isolado, se escondendo em um convento para realizar mortificação espiritual incessante.",
+        "generated_text_llama": "Enquanto durou a reclusão, Personagem mostrou-se nada menos que angélico; fora daquele sestro mórbido, era meigo, dócil, obediente, amigo da família, pontual nas rezas. Mas com o tempo, enquanto começava a se sentir mais confortável na sua nova rotina, Personagem começou a se perguntar sobre as razões por trás de sua isolamento. Ele sempre foi um menino curioso e inquieto, sempre procurando por respostas para as questões que a sua mente lhe apresentava. E agora, sentado na mesma cadeira onde passara anos sem sair, Personagem sentia uma insatisfação crescente. Era hora de saber a verdade sobre o que havia acontecido com ele e por que estava preso naquela casa. Com um determinado no coração, Personagem decidiu explorar os segredos da sua própria história.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "voltou",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "mostrou-se",
+                    "ROOT"
+                ],
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "sentia",
+                    "ROOT"
+                ],
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nicolau",
+        "sentence": "Nicolau ficava então ríspido; em casa achava tudo mau, tudo incômodo, tudo nauseabundo; feria a cabeça aos escravos com os pratos, que iam partir-se também, e perseguia os cães, a pontapés; não sossegava dez minutos, não comia, ou comia mal.",
+        "start_char": 9047,
+        "end_char": 9054,
+        "excerpt": "outras de escorrer-lhe pelo canto da boca um fio quase imperceptível de espuma. E o resto não era menos cruel. Nicolau ficava então ríspido; em casa achava tudo mau, tudo incômodo, tudo nauseabundo; feria a cabeça aos escravos com os pratos, que iam partir-se também, e perseguia os cães, a pontapés; não sossegava dez minutos, não comia, ou comia mal.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ficava",
+                "child": "Nicolau",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nicolau",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] ficava então ríspido; em casa achava tudo mau, tudo incômodo, tudo nauseabundo; feria a cabeça aos escravos com os pratos, que iam partir-se também, e perseguia os cães, a pontapés; não sossegava dez minutos, não comia, ou comia mal.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, então, ficou ripisto; em casa encontrava tudo ruim, tudo incômodo, tudo nauseabundo. Feria a cabeça aos escravos com os pratos que iam se partir-se também, e perseguiu os cães, à pontapé. Não parava dez minutos, não comia, ou comia mal.",
+        "generated_text_llama": "Máscaro ficou então ríspido; em casa achava tudo mau, tudo incômodo, tudo nauseabundo; feria a cabeça aos escravos com os pratos, que iam partir-se também, e perseguia os cães, a pontapés; não sossegia dez minutos, não comia, ou comia mal. Ninguém sabia o que o molhava tanto, mas todos sabiam que Máscaro estava longe de estar bem. Ele passou horas no quarto, fechado à chave, sem fazer barulho algum, apenas respirando fundo para tentar manter a calma. Mas a calma não durou muito, pois logo após o meio-dia começou a se mover, puxando seu lençol sobre si e se levantando da cama com um esforço que fazia os ossos cracher.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ],
+                [
+                    "longe",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nicolau",
+        "sentence": "Nicolau arranjou uma carta de apresentação, e foi ter com o ministro de estrangeiros.",
+        "start_char": 10055,
+        "end_char": 10062,
+        "excerpt": "Interveio o cunhado e opinou por um emprego na diplomacia. O cunhado principiava a desconfiar de alguma doença e supunha que a mudança de clima bastava a restabelecê-lo. Nicolau arranjou uma carta de apresentação, e foi ter com o ministro de estrangeiros.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "arranjou",
+                "child": "Nicolau",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "arranjar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nicolau",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] arranjou uma carta de apresentação, e foi ter com o ministro de estrangeiros.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, Personagem arrumou a carta de apresentação meticulosamente, visando exprimir em cada palavra sua determinação e sinceridade. Após essa tarefa concluída, partiu para a sede do Ministério das Relações Exteriores, em busca do ministro que lhe teria fornecido as oportunidades desejadas. Chegando ao prédio imponente, entrou na sala de espera e sentou-se tranquilamente, confiante de que seus esforços estariam por um bom caminho. Quando finalmente foi chamado para entrar em seu gabinete, Personagem agradeceu o ministro com uma expressão cordial e firme, esperançosa de iniciar uma colaboração muito frutífera.",
+        "generated_text_llama": "Com a carta de apresentação em mãos, Personagem se sentou diante do ministro de estrangeiros, um homem de meia-idade com uma expressão séria e experiente. Ele olhou para Personagem com um olhar que parecia dizer \"eu sei quem você é\" e começou a falar em um tom calmo e autoritário.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "arrumou",
+                    "ROOT"
+                ],
+                [
+                    "agradeceu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentou",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nicolau",
+        "sentence": "Nicolau recuou, estendeu a mão trêmula ao reposteiro, e fugiu.",
+        "start_char": 10695,
+        "end_char": 10702,
+        "excerpt": "A figura do ministro, as circunstâncias do momento, as reverências dos oficiais, tudo isso deu um tal rebate ao coração do Nicolau, que ele não pôde encarar o ministro. Teimou, seis ou oito vezes, em levantar os olhos, e da única em que o conseguiu fizeram-se-lhe tão vesgos, que não via ninguém, ou só uma sombra, um vulto, que lhe doía nas pupilas ao mesmo tempo que a face ia ficando verde. Nicolau recuou, estendeu a mão trêmula ao reposteiro, e fugiu.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "coração",
+                "child": "Nicolau",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "coração",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Nicolau",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Nicolau",
+                "child": "coração",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Nicolau",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "coração",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Nicolau",
+                "child": "um tal rebate",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Nicolau",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "rebate",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "recuou",
+                "child": "Nicolau",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "recuar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nicolau",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] recuou, estendeu a mão trêmula ao reposteiro, e fugiu.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, recuperando suas forças, estendeu a mão tremenda ao repositório e fugiu. A velocidade com que se movia não poderia ser confundida com nada além de uma medida de sobrevivência, pois os olhos vermelhos dele continuavam abrigados pela sombra da noite, sem saber a quem poderiam pertencer.",
+        "generated_text_llama": "Com os olhos brilhando de terror, Personagem recuou, estendeu a mão trêmula ao reposteiro, e fugiu pelo caminho escuro da floresta. Seus passos roucos ecoaram entre as árvores, fazendo com que ele soubesse que não estava sozinho. A mão ainda segurava o objeto pequeno que havia encontrado no chão, um objeto que parecia ser uma chave, mas Personagem não sabia para onde ir.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "recuperando",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "recuou",
+                    "ROOT"
+                ],
+                [
+                    "sabia",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nicolau",
+        "sentence": "Nicolau amava em geral as naturezas subalternas, como os doentes amam a droga que lhes restitui a saúde;",
+        "start_char": 11591,
+        "end_char": 11598,
+        "excerpt": "Ele fitava-os sem lividez, sem olhos vesgos, sem cambalear, sem nada. Além disso, não só eles lhe poupavam a natural irritabilidade, como porfiavam em tornar-lhe a vida, senão deliciosa, tranqüila; e para isso, diziam-he as maiores finezas do mundo, em atitudes cativas, ou com uma certa familiaridade inferior. Nicolau amava em geral as naturezas subalternas, como os doentes amam a droga que lhes restitui a saúde;",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "amava",
+                "child": "Nicolau",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "amar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "nicolau",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] amava em geral as naturezas subalternas, como os doentes amam a droga que lhes restitui a saúde;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Porém, essa vez, quando Personagem observou o pequeno rato, seu coração não se desacelerou. Em vez disso, acelera, com uma emoção inesperada. Aquele animal mal-tratado e agonizante lhe lembrou de si mesmo.",
+        "generated_text_llama": "",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "observou",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nicolau",
+        "sentence": "Veio o grito do Ipiranga; Nicolau meteu-se na política.",
+        "start_char": 11861,
+        "end_char": 11868,
+        "excerpt": "Nicolau amava em geral as naturezas subalternas, como os doentes amam a droga que lhes restitui a saúde; acariciava-as paternalmente, dava-lhes o louvor abundante e cordial, emprestava-lhes dinheiro, distribuía-lhes mimos, abria-lhes a alma... Veio o grito do Ipiranga; Nicolau meteu-se na política.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "amava",
+                "child": "Nicolau",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "amar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nicolau",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "meteu-se",
+                "child": "Nicolau",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "meteu-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nicolau",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Veio o grito do Ipiranga; [MASK] meteu-se na política.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Veio o grito do Ipiranga; Personagem meteu-se na política.",
+        "generated_text_llama": "Com aquela paixão por justiça e liberdade, Personagem sabia que precisava se envolver no movimento que estava mudando a história do Brasil. Ele começou a frequentar encontros secretos com os líderes da Independência, como José Bonifácio e Joaquim José da Silva Xavier, conhecido como Tiradentes.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "meteu-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Montezuma",
+        "sentence": "Montezuma, por exemplo, parecia-lhe balofo, Vergueiro, maçudo, os Andradas, execráveis.",
+        "start_char": 12348,
+        "end_char": 12357,
+        "excerpt": "Pode-se dizer, metaforicamente, que a freqüência da câmara custava-lhe sangue precioso. Não era só porque os debates lhe pareciam insuportáveis, mas também porque lhe era difícil encarar certos homens, especialmente em certos dias. Montezuma, por exemplo, parecia-lhe balofo, Vergueiro, maçudo, os Andradas, execráveis.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "parecia-lhe",
+                "child": "Montezuma",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "parecia-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Montezuma",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], por exemplo, parecia-lhe balofo, Vergueiro, maçudo, os Andradas, execráveis.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim que terminou de exclamar suas palavras, o homem decidiu enfrentar a realidade, pois ele era um homem de acção, uma espécie de \"homem-ação\". Ele sentiu sua bota desbotando e foi embora, buscando as Andradas que haviam causado tanta indignação em seu peito.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "buscando",
+                    "advcl"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nicolau",
+        "sentence": "Nicolau, que padecera com os discursos deles, não menos padeceu com o exílio, posto lhes desse um certo relevo.",
+        "start_char": 13122,
+        "end_char": 13129,
+        "excerpt": "Não afirmo; mas há bons fundamentos para crer que o Nicolau, apesar das mostras exteriores, gostou de ver dissolvida a assembléia. E se essa conjetura é verdadeira, não menos o será esta outra: - que a deportação de alguns dos chefes constituintes, declarados inimigos públicos, veio aguar-lhe aquele prazer. Nicolau, que padecera com os discursos deles, não menos padeceu com o exílio, posto lhes desse um certo relevo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "gostou",
+                "child": "o Nicolau",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "gostar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nicolau",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "o Nicolau",
+                "child": ", apesar das mostras",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Nicolau",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "mostra",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "o Nicolau",
+                "child": "fundamentos",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Nicolau",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "fundamento",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", apesar das mostras",
+                "child": "o Nicolau",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mostra",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nicolau",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "os discursos",
+                "child": "Nicolau",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "discurso",
+                "dep_c": "nsubj",
+                "pos_c": "ADJ",
+                "lemma_c": "nicolau",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], que padecera com os discursos deles, não menos padeceu com o exílio, posto lhes desse um certo relevo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem fez o que sempre havia feito em situações difíceis: orava. Orações longas e profundas, onde pedia força para sobreviver no seu novo lugar de exílio. Ele se levantou um dia e decidiu que não seria mais uma vítima, mas um líder.",
+        "generated_text_llama": "Enquanto caminhava pelas ruas desertas da cidade abandonada, Personagem não podia deixar de pensar no que havia acontecido. Ele lembrava-se das palavras do estrangeiro, as mesmas palavras que haviam moldado sua determinação: \"O exílio é uma escolha, não um destino\". Mas agora, enquanto sentia o vento frio no rosto e a lama seca entre os pés, Personagem não podia deixar de se sentir derrotado.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "fez",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "ROOT"
+                ],
+                [
+                    "podia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nicolau",
+        "sentence": "Já falei ao almirante holandês para consentir que, de quando em quando, vá ter com Nicolau algum dos nossos oficiais dizer-lhe que não podia voltar para a Haia sem a honra de contemplar um cidadão tão eminente e simpático, em quem se reúnem qualidades raras, e, de ordinário, dispersas.",
+        "start_char": 14377,
+        "end_char": 14384,
+        "excerpt": "Portanto, urgia casar o Nicolau, com alguma moça bonita e prendada, separá-lo do povoado, metê-lo em alguma fazenda, para onde levaria a melhor baixela, os melhores trastes, os mais reles amigos, etc. - Todas as manhãs, continuou ele, receberá o Nicolau um jornal que vou mandar imprimir com o único fim de lhe dizer as coisas mais agradáveis do mundo, e dizê-las nominalmente, recordando os seus modestos, mas profícuos trabalhos da Constituinte, e atribuindo-lhe muitas aventuras namoradas, agudezas de espírito, rasgos de coragem. Já falei ao almirante holandês para consentir que, de quando em quando, vá ter com Nicolau algum dos nossos oficiais dizer-lhe que não podia voltar para a Haia sem a honra de contemplar um cidadão tão eminente e simpático, em quem se reúnem qualidades raras, e, de ordinário, dispersas.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "casar",
+                "child": "o Nicolau",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "casar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nicolau",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "receberá",
+                "child": "o Nicolau",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "receber",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nicolau",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "ter",
+                "child": "Nicolau",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "nicolau",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Nicolau",
+                "child": "honra",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "nicolau",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "honra",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Já falei ao almirante holandês para consentir que, de quando em quando, vá ter com [MASK] algum dos nossos oficiais dizer-lhe que não podia voltar para a Haia sem a honra de contemplar um cidadão tão eminente e simpático, em quem se reúnem qualidades raras, e, de ordinário, dispersas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O capitão Moore, sentindo-se agradecido pelo gesto do almirante holandês, deu um breve olhar para fora da sua cabine, onde estava a caminhada tranquila uma pessoa cuja cara ele já conhecia por imagens e descrições. Queria se ver com aquela pessoa que tanto admirava, que lhe havia dado tantos ensinamentos e que tinha emprestado a seu país um nome ilustre na história naval mundial.",
+        "generated_text_llama": "Sim, eu me lembrava daquela conversa com o almirante holandês e decidi que seria uma boa ideia seguir seus conselhos. Foi então que comecei a planejar uma série de reuniões em que os oficiais da minha tripulação poderiam falar com o almirante sobre as minhas qualidades, tentando convencê-lo de que eu era um homem digno de respeito e admiração. Comecei por escolher os oficiais mais leais e honestos, como o capitão James e o primeiro-maitre, para que eles fossem os principais porta-vozes das minhas qualidades. Depois de uma série de reuniões bem-sucedidas, começamos a ver o almirante mudar sua opinião sobre mim e, ao final, ele concordou em me deixar partir da Haia sem problemas, desde que eu fosse capaz de provar que era um homem digno de ser considerado como tal.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nicolau",
+        "sentence": "Você, se puder alcançar de alguma modista, a Gudin, por exemplo, que ponha o nome de Nicolau em um chapéu ou mantelete, ajudará muito a cura de seu mano.",
+        "start_char": 14666,
+        "end_char": 14673,
+        "excerpt": "Todas as manhãs, continuou ele, receberá o Nicolau um jornal que vou mandar imprimir com o único fim de lhe dizer as coisas mais agradáveis do mundo, e dizê-las nominalmente, recordando os seus modestos, mas profícuos trabalhos da Constituinte, e atribuindo-lhe muitas aventuras namoradas, agudezas de espírito, rasgos de coragem. Já falei ao almirante holandês para consentir que, de quando em quando, vá ter com Nicolau algum dos nossos oficiais dizer-lhe que não podia voltar para a Haia sem a honra de contemplar um cidadão tão eminente e simpático, em quem se reúnem qualidades raras, e, de ordinário, dispersas. Você, se puder alcançar de alguma modista, a Gudin, por exemplo, que ponha o nome de Nicolau em um chapéu ou mantelete, ajudará muito a cura de seu mano.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "receberá",
+                "child": "o Nicolau",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "receber",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nicolau",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "ter",
+                "child": "Nicolau",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "nicolau",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Nicolau",
+                "child": "honra",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "nicolau",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "honra",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "o nome",
+                "child": "Nicolau",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "nome",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "nicolau",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Nicolau",
+                "child": "o nome",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "nicolau",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "nome",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Você, se puder alcançar de alguma modista, a Gudin, por exemplo, que ponha o nome de [MASK] em um chapéu ou mantelete, ajudará muito a cura de seu mano.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Seu personagem, uma vez conseguido contatar a modista Gudin, entrou no seu atelier com uma sensação de expectativa mista. Atravessando as fileiras de chapéus e mantelotes exibidos em suas mesas, ele se sentou no sofá onde costumava consultar com seus clientes.",
+        "generated_text_llama": "E assim, Personagem decidiu visitar uma moda famosa da cidade, conhecida por criar peças únicas e inesquecíveis, como o estilista Gudin. Ele entrou no salão e foi recebido pelo modista, que não teve dificuldade em identificar a inspiração de Personagem. \"Você está procurando por algo especial para ajudar sua mão?\" perguntou o estilo, olhando para Personagem's mão coberta com uma faixa branca.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "olhando",
+                    "advcl"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nicolau",
+        "sentence": "Nicolau, ao fim de certo tempo, achava ociosos e excessivos tantos elogios à mulher, e bastava isto a impacientá-lo, e a impaciência a produzir-lhe a fatal secreção.",
+        "start_char": 15494,
+        "end_char": 15501,
+        "excerpt": "Mas a natureza, apostada em lograr o homem, mostrou ainda desta vez que ela possui segredos inopináveis. Um dos meios de agradar ao Nicolau era elogiar a beleza, a elegância e as virtudes da mulher; mas a moléstia caminhara, e o que parecia remédio excelente foi simples agravação do mal. Nicolau, ao fim de certo tempo, achava ociosos e excessivos tantos elogios à mulher, e bastava isto a impacientá-lo, e a impaciência a produzir-lhe a fatal secreção.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "agradar",
+                "child": "Nicolau",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "agradar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Nicolau",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Nicolau",
+                "child": "meios",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Nicolau",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "meio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "achava",
+                "child": "Nicolau",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "achar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "nicolau",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], ao fim de certo tempo, achava ociosos e excessivos tantos elogios à mulher, e bastava isto a impacientá-lo, e a impaciência a produzir-lhe a fatal secreção.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim passando os dias, Personagem começou a sentir que os elogios excessivos que lhe era constantemente feitos pela mulher eram ociosos e inutiles. Isso acabava por irritá-lo, transformando sua paciência em impaciência. E assim, a impaciência acarretou-lhe a produção de uma secreção fatal que trouxe um desgosto sem precedentes, alterando o relacionamento entre eles para sempre.",
+        "generated_text_llama": "E assim, Personagem começou a questionar tudo o que via na sociedade. Ele viu como as mulheres eram constantemente elogiadas por serem bonitas, inteligentes e caprichosas, enquanto os homens eram julgados apenas pelo seu sucesso profissional. Isso o fez se sentir impotente e frustrado, pois sentia que sua própria personalidade era ignorada.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nicolau",
+        "sentence": "Nicolau ia, a pouco e pouco, recuando na solidão.",
+        "start_char": 16942,
+        "end_char": 16949,
+        "excerpt": "O que é certo é que a vida pública do Nicolau cessou com a Maioridade. A doença apoderara-se definitivamente do organismo. Nicolau ia, a pouco e pouco, recuando na solidão.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "a vida",
+                "child": "Nicolau",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "vida",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Nicolau",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Nicolau",
+                "child": "a vida",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Nicolau",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "vida",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "ia",
+                "child": "Nicolau",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "nicolau",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] ia, a pouco e pouco, recuando na solidão.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, lentamente, começou a abraçar a solitude. Sua casa, um lugar que uma vez havia sido o centro de sua vida, agora sentia-se vazio e desolado. Mas ele não se importava com isso. A tristeza estava tudo ao redor dele, mas não era a tristeza que afligia Personagem. Era mais uma espécie de libertação, um sentimento de encontro com si mesmo.",
+        "generated_text_llama": "Enquanto caminhava pela floresta escura e misteriosa, as sombras pareciam se moverem ao seu redor, como se estivessem tentando alcançá-lo. A lua cheia brilhava acima, iluminando o caminho de uma maneira que parecia mais uma ameaça do que um guia. Personagem ia, a pouco e pouco, recuando na solidão, seus passos se tornando cada vez mais lentos, como se estivesse sendo puxado para trás por alguma força invisível.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "afligia",
+                    "acl:relcl"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Caetano",
+        "sentence": "Não era por exageração de patriota que ele gostava de ouvir o João Caetano, nos primeiros tempos; mas afinal deixou-o também, e quase que inteiramente os teatros.",
+        "start_char": 17664,
+        "end_char": 17676,
+        "excerpt": "O entusiasmo da população fluminense para com a famosa Candiani e a Meréia, mas a Candiani principalmente, cujo carro puxaram alguns braços humanos, obséquio tanto mais insigne quanto que o não fariam ao próprio Platão, esse entusiasmo foi uma das maiores mortificações do Nicolau. Ele chegou ao ponto de não ir mais ao teatro, de achar a Candiani insuportável, e preferir a Norma dos realejos à da prima-dona. Não era por exageração de patriota que ele gostava de ouvir o João Caetano, nos primeiros tempos; mas afinal deixou-o também, e quase que inteiramente os teatros.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ouvir",
+                "child": "o João Caetano",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "ouvir",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "o João Caetano",
+                "child": "patriota",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "João",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "patriota",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "o João Caetano",
+                "child": "Não era por exageração",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "João",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "exageração",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Não era por exageração de patriota que ele gostava de ouvir o [MASK], nos primeiros tempos; mas afinal deixou-o também, e quase que inteiramente os teatros.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Não era por uma exageração patriótica que ele gostava de ouvir o \"Hino Nacional Brasileiro\", nos seus tempos iniciais; mas eventualmente o abandonou, e aproximadamente todos os teatros também. Ele, porém, buscou outras formas de expressar seu amor à pátria, encontrando em sua música um meio de comunicar seus sentimentos. Construiu-se uma casa de som no coração da floresta e dedicou todo o dia a praticá-lo, aprendendo as mais variadas técnicas para criar melodias que resonassem em todas as partes do Brasil.",
+        "generated_text_llama": "Depois de deixar o teatro, Máscaro (assim ele preferia ser chamado) sentiu-se um pouco perdido, como se estivesse falhando em algo fundamental. Mas não estava disposto a admitir isso para ninguém, especialmente não para os seus amigos do grupo de rua. Eles sabiam que Máscaro era um ator talentoso e sempre tinha sido apaixonado pelo teatro, então precisava encontrar outra maneira de expressar-se.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "ouvir",
+                    "xcomp"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu-se",
+                    "ROOT"
+                ],
+                [
+                    "ator",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

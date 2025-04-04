@@ -1,0 +1,926 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Fradique Mendes",
+        "sentence": "Mês das cigarras e das flores de flamboyant, como diria Fradique Mendes se tivesse de datar em Dezembro uma carta no Rio de Janeiro.",
+        "start_char": 367,
+        "end_char": 382,
+        "excerpt": "A DISTÂNCIA Av. Alcindo Cacela, 287  Umarizal CEP: 66060-902 Belém  Pará Fones: (91) 210-3196 / 210-3181  E-mail:  1  Livro das Donas e Donzelas de Júlia Lopes de Almeida MINHAS AMIGAS Mês das cigarras e das flores de flamboyant, como diria Fradique Mendes se tivesse de datar em Dezembro uma carta no Rio de Janeiro.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tivesse",
+                "child": "Fradique Mendes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fradique",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mês das cigarras e das flores de flamboyant, como diria [MASK] se tivesse de datar em Dezembro uma carta no Rio de Janeiro.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O carnaval estava próximo e Personagem estava preparando-se para criar um vestido para a desfile da escola de samba onde sempre era uma das dançarinas. Ela já tinha ideia de como o vestido deveria ser, com um pouco de azul celeste, cores mais vivas e o tradicional cinto vermelho em volta do barriga.",
+        "generated_text_llama": "E assim, enquanto as cigarras zumbiam em torno dele, Personagem se sentou em uma banqueta do lado da estrada, olhando para a margem do rio, onde a luz do pôr do sol derramava-se sobre as águas tranquilas. Ele havia decidido passar o dia a caminho do Rio de Janeiro, precisando se encontrar com um amigo antigo que vivia na cidade. A conversa foi animada e repleta de histórias sobre a vida em São Paulo, enquanto Personagem acompanhava os olhos da amizade e pensava no que o aguardava naquele dia.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "preparando-se",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentou",
+                    "ROOT"
+                ],
+                [
+                    "acompanhava",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Santa Tereza de Jesus",
+        "sentence": "Que silêncio de corredores, onde as sandálias já não batem de minuto a minuto; que ar de mofo nas celas sem dono, fechadas há anos e em que as aranhas tecem irreverentes a rede da sua prole; que abandono nos palcos, onde as fontes choram, sem o consolo de ver as suas lágrimas suspensas pelas mãos macias de umas freiras bonitas; que aspecto frio o do refeitório, onde na imensa mesa conventual meia dúzia de freiras sorumbáticas trocam receitas de pasteis e benzem distraidamente o pão, e o comem depois sem alegria, a bela alegria, que a tão citada Santa Tereza de Jesus aconselhava às freiras da sua comunidade, a par de trabalho ativo, vassouradas, costuras, roupas limpas e polimento de metais!",
+        "start_char": 12558,
+        "end_char": 12579,
+        "excerpt": "Hoje os conventos parecem túmulos. Imagino a melancolia desses casarões enormes. Que silêncio de corredores, onde as sandálias já não batem de minuto a minuto; que ar de mofo nas celas sem dono, fechadas há anos e em que as aranhas tecem irreverentes a rede da sua prole; que abandono nos palcos, onde as fontes choram, sem o consolo de ver as suas lágrimas suspensas pelas mãos macias de umas freiras bonitas; que aspecto frio o do refeitório, onde na imensa mesa conventual meia dúzia de freiras sorumbáticas trocam receitas de pasteis e benzem distraidamente o pão, e o comem depois sem alegria, a bela alegria, que a tão citada Santa Tereza de Jesus aconselhava às freiras da sua comunidade, a par de trabalho ativo, vassouradas, costuras, roupas limpas e polimento de metais!",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "aconselhava",
+                "child": "a tão citada Santa Tereza de Jesus",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "aconselhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Santa",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "a tão citada Santa Tereza de Jesus",
+                "child": "Que silêncio",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Santa",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "silêncio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Que silêncio de corredores, onde as sandálias já não batem de minuto a minuto; que ar de mofo nas celas sem dono, fechadas há anos e em que as aranhas tecem irreverentes a rede da sua prole; que abandono nos palcos, onde as fontes choram, sem o consolo de ver as suas lágrimas suspensas pelas mãos macias de umas freiras bonitas; que aspecto frio o do refeitório, onde na imensa mesa conventual meia dúzia de freiras sorumbáticas trocam receitas de pasteis e benzem distraidamente o pão, e o comem depois sem alegria, a bela alegria, que a tão citada [MASK] aconselhava às freiras da sua comunidade, a par de trabalho ativo, vassouradas, costuras, roupas limpas e polimento de metais!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Que tristeza nessa encontra com o silêncio de corredores, onde as sandálias já não batem de minuto a minuto; que ar de abandono nas celas sem dono, fechadas há anos e em que as aranhas tecem irreverentes a rede da sua prole; que despedida nos palcos, onde as fontes choram, sem o consolo de ver as suas lágrimas suspensas pelas mãos macias de umas freiras bonitas. Que aspecto frio o do refeitório, onde na imensa mesa conventual meia dúzia de freiras sorumbáticas trocam receitas de pasteis e benzem distraidamente o pão, e o comem depois sem alegria, a bela alegria que a tão citada Leonor já não sentiu.",
+        "generated_text_llama": "Não sabia como havia chegado aquela noite sombria até aqueles corredores silenciosos do convento. A Personagem desceu as escadas, as mãos trêmulas no cabo da lanterna que carregava, iluminando o caminho com uma luz fraca. Ela não sabia ao certo para onde estava indo, mas sabia que precisava encontrar uma resposta. O silêncio dos corredores parecia um peso sobre ela, e as sombras das cellas fechadas pareciam se mover em torno delas, como se estivessem tentando mantê-la fora.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "desceu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rosa Bonheur",
+        "sentence": "Rosa Bonheur, conta-nos um seu biógrafo, surpreendida no atelier pela notícia de que a imperatriz Eugênia entrava em sua casa para oferecer-lhe a Legião de Honra,  viu-se atrapalhada para enfiar às pressas os trajes do seu sexo e poder receber respeitosamente a soberana.",
+        "start_char": 18309,
+        "end_char": 18321,
+        "excerpt": "Por exigências de comodidade no trabalho, também escultoras e pintoras se sujeitam muitas vezes a vestirem-se assim e só quando executam obras de grandes dimensões. As calças facilitam então as subidas e as descidas de andaimes e de escadas. Rosa Bonheur, conta-nos um seu biógrafo, surpreendida no atelier pela notícia de que a imperatriz Eugênia entrava em sua casa para oferecer-lhe a Legião de Honra,  viu-se atrapalhada para enfiar às pressas os trajes do seu sexo e poder receber respeitosamente a soberana.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "conta-nos",
+                "child": "Rosa Bonheur,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "conta-nos",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rosa",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], conta-nos um seu biógrafo, surpreendida no atelier pela notícia de que a imperatriz Eugênia entrava em sua casa para oferecer-lhe a Legião de Honra,  viu-se atrapalhada para enfiar às pressas os trajes do seu sexo e poder receber respeitosamente a soberana.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, rapidamente, Personagem se deslocou para o salão mais elegantes de sua casa, buscando encontrar uma saia formal que pudesse representá-la dignamente na presença da imperatriz Eugênia. Ao não encontrar nada satisfatório nos armários, decidiu escolher a primeira roupa que encontrou no armario: uma saia simples e negra, que mesmo não sendo o mais luxuoso de seus vestuários, lhe parecia adequado para tal ocasião.",
+        "generated_text_llama": "Com a mão trêmula, Personagem rapidamente ajustou o corte do vestido e esfregou as mãos na saia para remover qualquer imperfeição, enquanto olhava em volta nervosamente para garantir que não havia nada de fora de ordem no atelier. Depois de uma respiração funda, ela se dirigiu à porta, abrindo-a com um leve golpe e convidando a imperatriz Eugênia a entrar.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "deslocou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ajustou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júlio Augusto Fernandes",
+        "sentence": "\"No lugar denominado  Areal  do município de Itaguaí, suicidou-se D. Amanda Augusta Fernandes, esposa do cidadão Júlio Augusto Fernandes.",
+        "start_char": 53447,
+        "end_char": 53470,
+        "excerpt": "Por quê? Se não adivinhais é que não sois donas de casa, e se o não sabeis é porque não lestes, ou ouvistes ler, num grande jornal do Rio, uma notícia simples, sem comentários, do suicídio de uma senhora, a qual notícia dizia assim: \"No lugar denominado  Areal  do município de Itaguaí, suicidou-se D. Amanda Augusta Fernandes, esposa do cidadão Júlio Augusto Fernandes.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "suicidou-se",
+                "child": "D. Amanda Augusta Fernandes, esposa do cidadão Júlio Augusto Fernandes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "suicidou-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "D.",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "\"No lugar denominado  Areal  do município de Itaguaí, suicidou-se D. Amanda Augusta Fernandes, esposa do cidadão [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem chamado Antônio José da Silva sentiu uma onda de dor que o espantava ao ouvir a notícia do falecimento de sua esposa, D. Amanda Augusta Fernandes. Desolado e sem saber como continuar sua existência sem a mulher que amava tanto, resolveu se retirar da sociedade e buscar solitúdio no Monte do Ouro, um lugar remoto na serra.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emma",
+        "sentence": "Como todas as revolucionárias, Emma esgotava-se em escritos e em conferências, levando de terra em terra a chama da sua palavra incendiada; pregando as suas doutrinas pelas cidades e vilas da União, perturbando os cérebros espessos de operários, sujeitos, até ao dia nefasto de a ouvirem, com maior ou menor resignação, às privações da sua dura sorte.",
+        "start_char": 65401,
+        "end_char": 65405,
+        "excerpt": "se para o triunfo do sonho anarquista, os fanáticos não quisessem a destruição; se a sua obra libertadora não exigisse o dilúvio do sangue e a devastação das cidades, como ele seria sedutor e desejado! Como todas as revolucionárias, Emma esgotava-se em escritos e em conferências, levando de terra em terra a chama da sua palavra incendiada; pregando as suas doutrinas pelas cidades e vilas da União, perturbando os cérebros espessos de operários, sujeitos, até ao dia nefasto de a ouvirem, com maior ou menor resignação, às privações da sua dura sorte. Entretanto, ela, querendo iluminá-los, plantava-lhes n'alma o descontentamento e a dor.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "esgotava-se",
+                "child": "Emma",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "esgotavar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emma",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Como todas as revolucionárias, [MASK] esgotava-se em escritos e em conferências, levando de terra em terra a chama da sua palavra incendiada; pregando as suas doutrinas pelas cidades e vilas da União, perturbando os cérebros espessos de operários, sujeitos, até ao dia nefasto de a ouvirem, com maior ou menor resignação, às privações da sua dura sorte.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após ter despertado a consciência e acendido o fogo da revolução em diversas cidades e vilas da União, Personagem decidiu então dar um passo mais audacioso para alcançar suas metas. Consciente das dificuldades que aguardavam por diante, ela sabia que seria necessário estabelecer um centro onde pudesse elaborar e divulgar os planos detalhados de sua revolução.",
+        "generated_text_llama": "Com o sol começando a se pôr sobre as montanhas, Personagem fechou a última conferência de sua turnê e se sentou em uma pedra à beira de um rio sereno, observando os reflejos do céu dourado. Seus olhos cansados, mas ainda vibrantes com a paixão da sua causa, pareciam pesar sobre as memórias da noite anterior, quando havia pronunciado uma das suas discursos mais apaixonados já.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "fechou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emma",
+        "sentence": "No dia em que foi executado o assassino de Mac Kinley alguma mulher o chorou como mulher; e Emma sem consolar essa desconhecida, mãe, amante ou irmã do homem que perdeu, sentiu naturalmente subir às suas pupilas ressequidas pela febre das vigílias e do trabalho, uma lágrima de inexprimível inquietação.",
+        "start_char": 65952,
+        "end_char": 65956,
+        "excerpt": "Entretanto, ela, querendo iluminá-los, plantava-lhes n'alma o descontentamento e a dor. A infelicidade que se ignora, não é infelicidade. No dia em que foi executado o assassino de Mac Kinley alguma mulher o chorou como mulher; e Emma sem consolar essa desconhecida, mãe, amante ou irmã do homem que perdeu, sentiu naturalmente subir às suas pupilas ressequidas pela febre das vigílias e do trabalho, uma lágrima de inexprimível inquietação.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "sentiu",
+                "child": "; e Emma",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "sentir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emma",
+                "word_categories": [
+                    "emo"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "essa desconhecida",
+                "child": "; e Emma",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "desconhecida",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emma",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", mãe",
+                "child": "; e Emma",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emma",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", amante",
+                "child": "; e Emma",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "amante",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emma",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "irmã",
+                "child": "; e Emma",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "irmã",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emma",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "homem",
+                "child": "; e Emma",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "homem",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emma",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "No dia em que foi executado o assassino de Mac Kinley alguma mulher o chorou como mulher; e [MASK] sem consolar essa desconhecida, mãe, amante ou irmã do homem que perdeu, sentiu naturalmente subir às suas pupilas ressequidas pela febre das vigílias e do trabalho, uma lágrima de inexprimível inquietação.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Personagem, então, foi ao fundo da multidão que acompanhava o execução do assassino de Mac Kinley. Ele desejava não somente ver a queda final do homem cruel e inhumanamente mortal, mas também tentar compreender as razões que lhe levaram àquela tragédia tão profunda.",
+        "generated_text_llama": "Ele ficou parado naquela sala escura e fria, cercado pelas sombras da noite, sem saber como expressar as emoções que se apoderaram dele. A dor de perder um ser querido era algo que ninguém podia compreender, algo tão pessoal e intenso que nem mesmo as palavras pareciam capazes de descrevê-la. Personagem sentiu a necessidade de agir, mas não sabia o que fazer, como se estivesse preso em um labirinto sem saída.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "foi",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João",
+        "sentence": "\"João está hoje trabalhando no jardim e Luiz na horta, a meu mandado.",
+        "start_char": 70661,
+        "end_char": 70665,
+        "excerpt": "\"João e Luiz têm o andar firme e olham para toda a gente de rosto, com a cabeça alta, já demonstrando consciência de homens! \" E em outra carta: \"João está hoje trabalhando no jardim e Luiz na horta, a meu mandado.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "têm",
+                "child": "João",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "João",
+                "child": "Luiz",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "João",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Luiz",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Luiz",
+                "child": "João",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Luiz",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "trabalhando",
+                "child": "João",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "trabalhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "\"[MASK] está hoje trabalhando no jardim e Luiz na horta, a meu mandado.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Homem estava hoje trabalhando no jardim e Luiz na horta, segundo as minhas instruções. O homem arrumou o cercado da florista, limpando as ferragens que ficavam lá para trás. Enquanto isso, Luiz se dedicava às hortaliças, plantando abóboras e batatas, e pulverizando a terra com água, de acordo com o seu conhecimento agrícola. O homem estava muito satisfeito com o trabalho que seus empregados faziam. Após ter feito as tarefas mais urgentes, ele deixou o jardim e passou a conversar com Luiz sobre as novas espécies de plantas que o horticultor havia adquirido recentemente. O Homem perguntou sobre as sugestões do empregado para melhorar a aparência geral do jardim, uma vez que estava planejando uma grande festa para seus clientes mais próximos, que seria realizada em breve.",
+        "generated_text_llama": "Enquanto Luiz estava ocupado em cuidar das suas plantas de tomate e pimenta, Personagem se aproximou da área onde ele costumava cultivar os legumes. Ele pegou uma vassoura e começou a remover as folhas secas e mortas do solo, preparando o terreno para a sementeção de novas colheitas.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "dedicava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "aproximou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Luiz",
+        "sentence": "Ainda noutra carta: 23  \"Joãotocou hoje a sua primeira sonatina para alguns amigos ouvirem, e Luiz ofereceu ao mestre de inglês um desenho razoável.",
+        "start_char": 71039,
+        "end_char": 71043,
+        "excerpt": "se dias se realizarem, ninguém terá nem tão lindas rosas nem tão magníficos repolhos. \" Ainda noutra carta: 23  \"Joãotocou hoje a sua primeira sonatina para alguns amigos ouvirem, e Luiz ofereceu ao mestre de inglês um desenho razoável.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ofereceu",
+                "child": "Luiz",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "oferecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Luiz",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Ainda noutra carta: 23  \"Joãotocou hoje a sua primeira sonatina para alguns amigos ouvirem, e [MASK] ofereceu ao mestre de inglês um desenho razoável.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a escrita da carta:",
+        "generated_text_llama": "Quando João tocou sua primeira sonatina para alguns amigos ouvirem, ele sentiu um orgulho imenso. A música tinha saído bem, com todos os elementos que ele havia trabalhado arduamente para incluir: a melodia suave e cativante, o ritmo contagiante e a textura orquestral rica. Os amigos estavam impressionados, aplaudindo e elogiando a habilidade de João.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "tocou",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Margarida",
+        "sentence": "São almas que se dilaceram entre os dedos apaixonados de Margarida, ou os dentinhos terríveis de Frou-frou;",
+        "start_char": 78929,
+        "end_char": 78938,
+        "excerpt": "Pois foi com esse lencinho salpicado de morangos que o honesto Iago assanhou no seu senhor o monstro de olhos verdes, o negrejado ciúme, que fez morrer a pálida Desdemona. Na ação como na intriga os lenços representam muitas vezes no teatro extraordinárias ficções! São almas que se dilaceram entre os dedos apaixonados de Margarida, ou os dentinhos terríveis de Frou-frou;",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "apaixonados",
+                "child": "Margarida",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "apaixonados",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Margarida",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Margarida",
+                "child": "os dedos",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Margarida",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "dedo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Margarida",
+                "child": "almas",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Margarida",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "alma",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "São almas que se dilaceram entre os dedos apaixonados de [MASK], ou os dentinhos terríveis de Frou-frou;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele seguia a trilha do fantasma, sentindo o ar frio e pesado que lhe seguia. A cada passo, as sombras se aglomeravam ao redor dele, e ele podia sentir os olhos cínicos de Frou-frou em sua costa. Porém, ele não se assustou. Em vez disso, sentiu-se mais firme e decidido.",
+        "generated_text_llama": "",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rafaela",
+        "sentence": "Uma bela tarde, a minha amiga Rafaela entrou arrebatadamente na minha saleta de trabalho e deixou-se cair num tamborete, a meus pés.",
+        "start_char": 87661,
+        "end_char": 87668,
+        "excerpt": "Os homens são terríveis! QUIROMANCIA Uma bela tarde, a minha amiga Rafaela entrou arrebatadamente na minha saleta de trabalho e deixou-se cair num tamborete, a meus pés.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "entrou",
+                "child": "Rafaela",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rafaela",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Uma bela tarde, a minha amiga [MASK] entrou arrebatadamente na minha saleta de trabalho e deixou-se cair num tamborete, a meus pés.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele sorriu gentilmente e, aproximando-se delicadamente da sua amiga, passou a apoiá-la com seus braços enquanto ela se sentava no canapé, parecendo que estava muito agradecida por seu socorro. Ela tirou uma profunda respiração e olhou para ele com um olhar que misturava tristeza e saudade.",
+        "generated_text_llama": "Eu não podia acreditar no que estava acontecendo. Minha amiga Personagem, que era conhecida por sua calma e composedura, agora estava como se tivesse sido atingida por um raio. Ela olhou para mim com os olhos arregalados e gritou: \"Eu vi! Eu vi o que aconteceu com a Joana!\". Eu não sabia do que ela estava falando, mas pude ver pela expressão no seu rosto que era algo grave.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Adolfo Rotschild",
+        "sentence": "Adolfo Rotschild, deixou a uns tantos sacerdotes velhos, de qualquer religião, soma que lhes permita exercerem tranqüilamente em França o seu ministério.",
+        "start_char": 136476,
+        "end_char": 136492,
+        "excerpt": "Chegamos ao último legado, que eu não classificarei, porque toda a sua filosofia adorável fala por si. É simples: Adolfo Rotschild, deixou a uns tantos sacerdotes velhos, de qualquer religião, soma que lhes permita exercerem tranqüilamente em França o seu ministério.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "deixou",
+                "child": ": Adolfo Rotschild,",
+                "dep_h": "csubj",
+                "pos_h": "VERB",
+                "lemma_h": "deixar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Adolfo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": ": Adolfo Rotschild,",
+                "child": "simples",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Adolfo",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "simples",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], deixou a uns tantos sacerdotes velhos, de qualquer religião, soma que lhes permita exercerem tranqüilamente em França o seu ministério.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Personagem então decidiu visitar a catedral mais antiga da cidade, local onde muitas dessas personalidades religiosas costumavam se reunir para orações e discussões filosóficas. Quando chegou lá, encontrou uma turba de pessoas que estavam saudosamente conversando com os anciãos sacerdotes que ali se encontravam. Ele aproximou-se discretomente e ouviu as discussões de alguém sobre o conceito de Deus e sua natureza.",
+        "generated_text_llama": "Com um sorriso sutil, Personagem se aproximou dos sacerdotes, que estavam reunidos ao redor do fogo, e começou a discutir com eles sobre as diferenças entre suas crenças e os costumes da França. Ele sabia que a liberdade de religião era um direito fundamental em seu país, e estava determinado a garantir que esses sacerdotes pudessem praticar sua fé sem medo ou perseguição.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "aproximou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Este novo Job",
+        "sentence": "Este novo Job, conquanto certo de uma perseguição misteriosa que o há de vencer, luta, trabalha com pertinácia, e ainda se chega para onde ouve falar em criancinhas, com o sentido de ensiná-las a ler!",
+        "start_char": 175529,
+        "end_char": 175542,
+        "excerpt": "\"Assim falou o velho de barbas brancas e mãos trêmulas, que tão vivamente me trazia à lembrança o experimentado varão da terra de Hus. Job, tosquiando a cabeça e rasgando os vestidos, sentou-se num monturo a raspar com um caco de telha a imundice do corpo, em servidão espontânea aos mandados de Deus. Este novo Job, conquanto certo de uma perseguição misteriosa que o há de vencer, luta, trabalha com pertinácia, e ainda se chega para onde ouve falar em criancinhas, com o sentido de ensiná-las a ler!",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "trabalha",
+                "child": "Este novo Job",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "trabalhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Job",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Este novo Job",
+                "child": "conquanto",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Job",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "conquanto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "conquanto",
+                "child": "Este novo Job",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "conquanto",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Job",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "uma perseguição",
+                "child": "Este novo Job",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "perseguição",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Job",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "luta",
+                "child": "Este novo Job",
+                "dep_h": "amod",
+                "pos_h": "NOUN",
+                "lemma_h": "lutar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Job",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], conquanto certo de uma perseguição misteriosa que o há de vencer, luta, trabalha com pertinácia, e ainda se chega para onde ouve falar em criancinhas, com o sentido de ensiná-las a ler!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " É como se ele tivesse recebido uma energia inesperada, um incentivo que o impulsionava em direção ao seu objetivo. Ele enfrentou obstáculos, superou desafios e continua lutando corajosamente contra aquela perseguição misteriosa que ele sabe que vencerá algum dia. Mas sua missão não se limita apenas à batalha por sua sobrevivência; também é um professor dedicado e carinhoso, chegando onde ouve falar em criancinhas cercadas pelo isolamento e da necessidade de aprender a ler.",
+        "generated_text_llama": "Com um sorriso determinado no rosto, Personagem se aproximou da mesa onde as criancinhas estavam sentadas, agachando-se para olhar cada uma delas nos olhos. \"Bem-vindas! Eu sou Personagem, e vou ensinar-lhes a arte de ler!\", anunciou ele, com um brilho especial em seus olhos. As crianças, curiosas e animadas, começaram a se sentir mais confortáveis diante dele.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "aproximou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Job",
+        "sentence": "Sim; agora, como nos tempos antigos, há coisas no céu e na terra que não são nem sequer sonhadas pela filosofia; mas a verdade é que a maneira de gozar ou de sofrer a influência dessas coisas impenetráveis, é hoje, ainda bem para nós todos, muito diferente da dos dias de Job!",
+        "start_char": 176068,
+        "end_char": 176071,
+        "excerpt": "Este novo Job, conquanto certo de uma perseguição misteriosa que o há de vencer, luta, trabalha com pertinácia, e ainda se chega para onde ouve falar em criancinhas, com o sentido de ensiná-las a ler! \"Enquanto se vive trabalha-se\" resumiu ele ao despedir-se de mim. Sim; agora, como nos tempos antigos, há coisas no céu e na terra que não são nem sequer sonhadas pela filosofia; mas a verdade é que a maneira de gozar ou de sofrer a influência dessas coisas impenetráveis, é hoje, ainda bem para nós todos, muito diferente da dos dias de Job!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "trabalha",
+                "child": "Este novo Job",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "trabalhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Job",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Este novo Job",
+                "child": "conquanto",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Job",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "conquanto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "conquanto",
+                "child": "Este novo Job",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "conquanto",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Job",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "uma perseguição",
+                "child": "Este novo Job",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "perseguição",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Job",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "luta",
+                "child": "Este novo Job",
+                "dep_h": "amod",
+                "pos_h": "NOUN",
+                "lemma_h": "lutar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Job",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "dias",
+                "child": "Job",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "dia",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Job",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Job",
+                "child": "dias",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Job",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "dia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Job",
+                "child": "diferente",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Job",
+                "dep_c": "conj",
+                "pos_c": "ADJ",
+                "lemma_c": "diferente",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Sim; agora, como nos tempos antigos, há coisas no céu e na terra que não são nem sequer sonhadas pela filosofia; mas a verdade é que a maneira de gozar ou de sofrer a influência dessas coisas impenetráveis, é hoje, ainda bem para nós todos, muito diferente da dos dias de [MASK]!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele seguiu caminhando pelo desolado campo, com as mãos na bocada e um leve arrepiado. Pareceu que o vento estivesse falando a ele, contornando suas orelhas com promessas de segredos velhos e misteriosos. Em meio às ondas de trigo se erguia uma torre antiga, coberta de lianas e árvores secas que crescerao a partir da pedra.",
+        "generated_text_llama": "Ele olhou em volta, sentindo uma mistura de fascínio e apreensão ao perceber que havia algo maior do que a filosofia humana ao seu alcance. Com a mente atenta, ele tentou entender como as pessoas antigas haviam lidado com esses fenômenos inexploráveis. Em seguida, ele decidiu experimentar e explorar o desconhecido, deixando de lado as preocupações e limitações do seu passado. Com um sorriso misterioso, Personagem se preparou para embarcar em uma jornada que o levaria a lugares inimagináveis, onde a ciência e a superstição se encontrariam em um equilíbrio delicado.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "preparou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

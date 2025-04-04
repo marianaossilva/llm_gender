@@ -1,0 +1,438 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Capitão Línhares",
+        "sentence": "Esse Capitão Línhares tinha uma filha de vinte anos, que era, na opinião geral, uma das moças mais bonitas da cidade.",
+        "start_char": 873,
+        "end_char": 889,
+        "excerpt": "O principal caixeiro era o Novais, moço de vinte e cinco anos, apessoado e simpático. De uma janela do primeiro e de todas as janelas do segundo andar avistavam-se os fundos da casa do Capitão Linhares, situada numa rua perpendicular à de Cerqueira & Santos. Esse Capitão Línhares tinha uma filha de vinte anos, que era, na opinião geral, uma das moças mais bonitas da cidade.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "Esse Capitão Línhares",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Capitão",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Esse [MASK] tinha uma filha de vinte anos, que era, na opinião geral, uma das moças mais bonitas da cidade.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após a conversa enfeitada e as boas-vindas, o sábio Personagem passou um momento apreciando sua belíssima filha, que estava de pé ao lado dele, iluminada pela luz do sol que entrou por sua janela. Sua figura era tão perfeita que parecia uma das esculturas romanas que ele ajudara a restauar na época em que viajara pelo continente.",
+        "generated_text_llama": "Esse Personagem não podia evitar sentir um misto de orgulho e vergonha ao pensar em sua filha, que era conhecida por sua beleza fora de dúvida, mas também por seu caráter independente e rebelde. Ele sabia que ela sempre havia sido uma jovem forte e determinada, que não hesitava em expressar suas opiniões e fazer o que achava certo, mesmo que isso significasse desafiando as convenções da sociedade.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Helena",
+        "sentence": "As duas janelas, a dela e a dele, ficavam longe uma da outra, e o Novais, que não tinha olhos de lince, não podia verificar, num sorriso, num olhar, num gesto, se efetivamente era em sua intenção que Helena se sujeitava àquele ambiente culinário.",
+        "start_char": 1726,
+        "end_char": 1732,
+        "excerpt": "Helena (ela chamava-se Helena) costumava ir para os fundos da casa paterna e postar-se, todas as tardes, a uma janela da cozinha, precisamente à hora em que, fechado o armazém, terminado o jantar e saboreado o café, o Novais por seu turno se debruçava à janela do primeiro andar. O caixeiro pensou, e pensou bem, não ser coisa muito natural que, desejando espairecer à janela, a rapariga deixasse a sala pela cozinha, a frente pelos fundos, e logo se convenceu de que era ele o objeto que a atraía todas as tardes a um lugar tão impróprio. As duas janelas, a dela e a dele, ficavam longe uma da outra, e o Novais, que não tinha olhos de lince, não podia verificar, num sorriso, num olhar, num gesto, se efetivamente era em sua intenção que Helena se sujeitava àquele ambiente culinário.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "costumava",
+                "child": "Helena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "costumar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "chamava-se",
+                "child": "Helena",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "chamavar se",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Helena",
+                "child": "Helena",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Helena",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "sujeitava",
+                "child": "Helena",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "sujeitar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Helena",
+                "child": "intenção",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Helena",
+                "dep_c": "advcl",
+                "pos_c": "NOUN",
+                "lemma_c": "intenção",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "As duas janelas, a dela e a dele, ficavam longe uma da outra, e o Novais, que não tinha olhos de lince, não podia verificar, num sorriso, num olhar, num gesto, se efetivamente era em sua intenção que [MASK] se sujeitava àquele ambiente culinário.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele moveu-se lentamente pelo cozinheiro, de olhos inquisitivos e mãos trepidantes. Ao invés de sentir a pressão, sentiu apenas o calor dos fogões e a forte odores aromáticos que envolvia todo o espaço. Tocou na farinha, na sal e nos ervilhas, desabafiando sua timidez.",
+        "generated_text_llama": "Com um suspiro, o Novais se levantou da cadeira e aproximou-se de Personagem, que estava sentado na mesa de trabalho, com as mãos envoltas em luvas brancas. \"Então, você está preparado para começar?\", perguntou ele, com uma voz suave, mas firme. Personagem assentiu com a cabeça, olhando para os pratos e utensílios que estavam dispostos na mesa.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "assentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "aproximou-se",
+                    "conj"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Helena",
+        "sentence": "Três meses depois, Helena casava-se com o patrão de Novais, e ia morar no segundo andar, convenientemente preparado para recebê-la.",
+        "start_char": 4229,
+        "end_char": 4235,
+        "excerpt": "E o seu coração passou com armas e bagagens do primeiro para o segundo andar. * * * Três meses depois, Helena casava-se com o patrão de Novais, e ia morar no segundo andar, convenientemente preparado para recebê-la.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "casava-se",
+                "child": "Helena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "casavar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Três meses depois, [MASK] casava-se com o patrão de Novais, e ia morar no segundo andar, convenientemente preparado para recebê-la.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Três meses depois, Clara não podia acreditar em como as coisas se transformaram. Ela havia conseguido deixar a casa de miséria e estava prestes a casar com o patrão de Novais, um homem rico e respeitado na sociedade local. O prédio que pertencia ao marido era grande e imponente, com três andares, sendo que o segundo andar foi convenientemente preparado para recebê-la. Clara estava tão animada que nem sequer podia dormir noite antes da data do casamento.",
+        "generated_text_llama": "Quando a data da cerimônia finalmente chegou, Novais estava nervoso demais para comer. Enquanto o barulho do casamento ecoava pela casa, ele se sentia como se estivesse caminhando sobre ganchos. A porta do segundo andar se abriu com um leve rangido e Personagem apareceu em seu vértice brilhante e radiante, olhos brilhando com uma luz interior que parecia iluminar a própria casa.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "podia",
+                    "ROOT"
+                ],
+                [
+                    "animada",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "apareceu",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Helena",
+        "sentence": "Durante os primeiros dias que se seguiram ao casamento, não se atrevia Helena a encarar o ex-namorado, mas pouco a pouco foi se desenvergonhando, e por fim já lhe dizia: - Bom dia, seu Novais!",
+        "start_char": 4564,
+        "end_char": 4570,
+        "excerpt": "Ela e o caixeiro encontravam-se diariamente ao almoço e ao jantar. Os patrões, a patroa, o guarda-livros, os hóspedes e o Novais comiam em mesa comum. Durante os primeiros dias que se seguiram ao casamento, não se atrevia Helena a encarar o ex-namorado, mas pouco a pouco foi se desenvergonhando, e por fim já lhe dizia: - Bom dia, seu Novais!",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "atrevia",
+                "child": "Helena",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "atreviar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Durante os primeiros dias que se seguiram ao casamento, não se atrevia [MASK] a encarar o ex-namorado, mas pouco a pouco foi se desenvergonhando, e por fim já lhe dizia: - Bom dia, seu Novais!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de ter passado alguns dias após o casamento sem ter o corajão de confrontar seu ex-namorado, ela iniciou a se sentir mais confortável com sua nova vida. Por fim, ela já estava dizendo: - Boa tarde, seu Novais! Queria saber como você está? - perguntava ela de forma cordial, quebrando um período de silêncio que havia se estabelecido entre os dois. Embora a conversa tivesse sido inicialmente pouco dizer, com o tempo eles voltaram a ser bons amigos, compartilhando momentos alegres e acentuando suas relações em família e amizade.",
+        "generated_text_llama": "Com o passar do tempo, Personagem começou a notar que seu ex-namorado, Carlos, não era tão distante quanto pensava. Ele ainda comparecia à mesinha de café da sala todos os dias, bebia o mesmo café forte que ele gostava e até sorria um pouco mais quando o olhavam. Personagem começou a se sentir um pouco mais confortável em sua presença e decidiu aproveitar a oportunidade para iniciar uma conversa.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Helena",
+        "sentence": "Olhou para o segundo andar, e deu com os olhos em Helena, que lhe disse muito risonha: - Desculpe -, e em seguida lhe deu uns bons dias sonoros e argentinos.",
+        "start_char": 4959,
+        "end_char": 4965,
+        "excerpt": "* * * O principal caixeiro era o Novais, moço de vinte e cinco anos, apessoado e simpático. De uma janela do primeiro e de todas as janelas do segundo andar avistavam-se os fundos da casa do Capitão Linhares, situada numa rua perpendicular à de Cerqueira & Santos. Esse Capitão Línhares tinha uma filha de vinte anos, que era, na opinião geral, uma das moças mais bonitas da cidade. Helena (ela chamava-se Helena) costumava ir para os fundos da casa paterna e postar-se, todas as tardes, a uma janela da cozinha, precisamente à hora em que, fechado o armazém, terminado o jantar e saboreado o café, o Novais por seu turno se debruçava à janela do primeiro andar. O caixeiro pensou, e pensou bem, não ser coisa muito natural que, desejando espairecer à janela, a rapariga deixasse a sala pela cozinha, a frente pelos fundos, e logo se convenceu de que era ele o objeto que a atraía todas as tardes a um lugar tão impróprio. As duas janelas, a dela e a dele, ficavam longe uma da outra, e o Novais, que não tinha olhos de lince, não podia verificar, num sorriso, num olhar, num gesto, se efetivamente era em sua intenção que Helena se sujeitava àquele ambiente culinário. Uma tarde lembrou-se de assestar contra ela um binóculo de teatro, e teve a satisfação de distinguir claramente um sorriso que o estonteou. Entretanto, a moça, desde que se viu observada tão de perto, fugiu arrebatadamente para o interior da casa. O Novais imaginou logo que a ofendera aquela engenhosa intervenção da ótica; ela, porém, voltou à janela da cozinha, trazendo, por sua vez, um binóculo, que assestou resolutamente contra o vizinho. * * * Ficou radiante o Novais, e lembrou-se então de que certo domingo, passando pela casa do Capitão Linhares, a filha, que se achava à janela, cuspiu-lhe na manga do paletó. Ele olhou para cima, e ela, sorrindo, disse-lhe: - Desculpe. Agora via o ditoso caixeiro que aquele cuspo tinha sido o meio mais simples e mais rápido que no momento ela encontrou para chamar-lhe a atenção. Não era um meio limpo nem romântico; original, isso era. * * * A princípio, não passou o namoro de inocentes sorrisos, porque os binóculos, ocupando as mãos, impediam, naturalmente, os gestos; mas, passados alguns dias, tanto ela como ele pegavam no binóculo com a mão esquerda e com a direita atiravam beijos um ao outro. * * * Aconteceu que o Novais apanhou um resfriamento e foi obrigado a ficar alguns dias de cama, ardendo em febre. Quando se levantou, pronto para outra, o seu primeiro cuidado foi, necessariamente, mostrar-se a Helena. Esperou com impaciência pela hora costumada, que nunca lhe tardou tanto. Afinal, às cinco e meia correu à janela; mas, antes de abri-la, ocorreu-lhe espreitar por uma fresta... Ficou pasmado! A moça lá estava, de binóculo, a atirar beijos de longe!. - Mas a quem? ... Ela não o via, não o podia ver: a janela estava fechada!... Quem era o destinatário daqueles beijos? ... Uma idéia atravessou-lhe o cérebro: o Novais debruçou-se a janela contígua e olhou para cima... O seu patrão, o Cerqueira, na janela do segundo andar, munido também de um binóculo, namorava a sua namorada!... A coisa explica-se: O negociante, surpreendendo, alguns dias antes, os beijos da rapariga, supôs que eram para ele e correspondeu imediatamente. Helena, que era paupérrima e ambiciosa, fez consigo esta reflexão prática: - Que feliz engano! Apanhei um marido rico! O Novais é um simples caixeiro... o Cerqueira é o chefe de uma firma importante. . . Aquele namora para divertir-se... este casa-se... E o seu coração passou com armas e bagagens do primeiro para o segundo andar. * * * Três meses depois, Helena casava-se com o patrão de Novais, e ia morar no segundo andar, convenientemente preparado para recebê-la. Ela e o caixeiro encontravam-se diariamente ao almoço e ao jantar. Os patrões, a patroa, o guarda-livros, os hóspedes e o Novais comiam em mesa comum. Durante os primeiros dias que se seguiram ao casamento, não se atrevia Helena a encarar o ex-namorado, mas pouco a pouco foi se desenvergonhando, e por fim já lhe dizia: - Bom dia, seu Novais! - Boa tarde, seu Novais! * * * Certa manhã em que o rapaz acordou muito cedo e foi para a janela antes que abrissem o armazém, viu cair-lhe na manga do paletó um pequeno círculo de saliva, muito alvo, que parecia um botão. Olhou para o segundo andar, e deu com os olhos em Helena, que lhe disse muito risonha: - Desculpe -, e em seguida lhe deu uns bons dias sonoros e argentinos.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "costumava",
+                "child": "Helena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "costumar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "chamava-se",
+                "child": "Helena",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "chamavar se",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Helena",
+                "child": "Helena",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Helena",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "sujeitava",
+                "child": "Helena",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "sujeitar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Helena",
+                "child": "intenção",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Helena",
+                "dep_c": "advcl",
+                "pos_c": "NOUN",
+                "lemma_c": "intenção",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "mostrar-se",
+                "child": "a Helena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mostrar-se",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "fez",
+                "child": "Helena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Helena",
+                "child": "paupérrima",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Helena",
+                "dep_c": "acl:relcl",
+                "pos_c": "ADJ",
+                "lemma_c": "paupérrimo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "casava-se",
+                "child": "Helena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "casavar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "atrevia",
+                "child": "Helena",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "atreviar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "os olhos",
+                "child": "Helena",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "olho",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Helena",
+                "child": "os olhos",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Helena",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "olho",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Olhou para o segundo andar, e deu com os olhos em [MASK], que lhe disse muito risonha: - Desculpe -, e em seguida lhe deu uns bons dias sonoros e argentinos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem sorriu e, com uma expressão de familiaridade, respondeu: \"- Não há de nada, meu amigo!\" Ao passar o dia inteiro trabalhando intensamente no primeiro andar do edifício, não havia visto outra pessoa além daquela. Por isso, após ouvir a voz aquecida e agradável de seu conhecido, sentiu um sentimento de alívio e de relação renovada.",
+        "generated_text_llama": "Ele ficou surpreso ao ver a expressão de desculpas no rosto de Personagem e perguntou o que estava acontecendo, mas antes que pudesse falar mais nada, ela começou a sorrir abertamente e disse: - Desculpe -, e em seguida lhe deu uns bons dias sonoros e argentinos. A expressão de desculpas parecia uma brincadeira para Personagem, e ele se sentiu um pouco confuso, mas também curioso sobre o que estava acontecendo.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Maricota",
+        "sentence": "Quando ele acabou o relatório: - Tudo isso é calúnia, calúnia, calúnia torpe! - bradou Maricota, fula de raiva e batendo o pé.",
+        "start_char": 6232,
+        "end_char": 6240,
+        "excerpt": "ela que o ouça e faça o que entender; é senhora das suas ações. O Chico, arrependido já de se haver metido naquele incidente de família, contou minuciosamente as diligências que fizera e o resultado a que chegara. Quando ele acabou o relatório: - Tudo isso é calúnia, calúnia, calúnia torpe! - bradou Maricota, fula de raiva e batendo o pé.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "bradou",
+                "child": "Maricota",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "bradar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maricota",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando ele acabou o relatório: - Tudo isso é calúnia, calúnia, calúnia torpe! - bradou [MASK], fula de raiva e batendo o pé.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele então se voltou para a porta do escritório, abriu-a rapidamente e gritou ao topo da voz:",
+        "generated_text_llama": "Ele puxou o relatório das mãos e o jogou na mesa com tanta força que a lápis caiu no chão. \"Você é um vilão, um mentiroso!\" gritou Personagem, seu rosto vermelho de raiva. Ele começou a caminhar em direção ao escritório do chefe, determinado a falar com ele sobre as acusações infundadas. Quando chegou à porta, bateu na tampa com o punho e gritou: \"Estou aqui para discutir os problemas com esse relatório!\"",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "gritou",
+                    "ROOT"
+                ]
+            ]
+        }
+    }
+]

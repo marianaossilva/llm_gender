@@ -1,0 +1,80 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Chico Carapana",
+        "sentence": "Por isso dois deles já foram severamente castigados, tendo o Chico Carapana morrido afogado um ano depois do baile e o Pedro Rabequinha sofrido quatro meses de cadeia por uma descompostura que passou ao capitão Coutinho a propósito de uma questão de terras.",
+        "start_char": 2849,
+        "end_char": 2863,
+        "excerpt": "Começou o baile às oito horas, logo que chegou a orquestra composta do Chico Carapana, que tocava violão; do Pedro Rabequinha e do Raimundo Penaforte, um tocador de flauta de que o Amazonas se orgulha. Muito pode o amor ao dinheiro, pois que esses pobres homens não duvidaram tocar na festa do Judeu com os mesmos instrumentos com que acompanhavam a missa aos domingos na Matriz. Por isso dois deles já foram severamente castigados, tendo o Chico Carapana morrido afogado um ano depois do baile e o Pedro Rabequinha sofrido quatro meses de cadeia por uma descompostura que passou ao capitão Coutinho a propósito de uma questão de terras.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "a orquestra",
+                "child": "Chico Carapana",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "orquestra",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Chico Carapana",
+                "child": "a orquestra",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Chico",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "orquestra",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "tendo",
+                "child": "o Chico Carapana",
+                "dep_h": "aux",
+                "pos_h": "AUX",
+                "lemma_h": "ter",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Por isso dois deles já foram severamente castigados, tendo o [MASK] morrido afogado um ano depois do baile e o Pedro Rabequinha sofrido quatro meses de cadeia por uma descompostura que passou ao capitão Coutinho a propósito de uma questão de terras.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após o baile, Personagem se retirou para casa pensativo. A memória das provocações e da humiliação naquela noite continuava atormentando-o. Ele ficou acordado durante a noite, tormentado pela necessidade de fazer algo para limpar sua honra.",
+        "generated_text_llama": "Após o incidente, o Personagem refletiu sobre as consequências de suas ações e percebeu que havia atingido um ponto de inflexão em sua vida. Com uma determinação renovada, ele começou a mudar seu comportamento, buscando encontrar um caminho mais produtivo e respeitoso para si mesmo e para os outros.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "retirou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "refletiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

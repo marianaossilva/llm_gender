@@ -1,0 +1,485 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Bonifácio",
+        "sentence": "Bonifácio, um dos seus poucos familiares, perguntou-lhe um dia que prazer achava naquelas reclusões tão longas e absolutas;",
+        "start_char": 1983,
+        "end_char": 1992,
+        "excerpt": "Costumava ele desaparecer da cidade durante um ou dous meses; metia-se em casa, com o único preto que possuía, e a quem dava ordem de lhe não dizer nada. Esta circunstância fê-lo crer maluco, e tal era a opinião entre os rapazes; não faltava, porém, quem lhe atribuísse grande instrução e rara inteligência, ambas inutilizadas por um ceticismo sem remédio. Bonifácio, um dos seus poucos familiares, perguntou-lhe um dia que prazer achava naquelas reclusões tão longas e absolutas;",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "perguntou-lhe",
+                "child": "Bonifácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntou-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonifácio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "seus poucos familiares",
+                "child": "Bonifácio",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "familiar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonifácio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], um dos seus poucos familiares, perguntou-lhe um dia que prazer achava naquelas reclusões tão longas e absolutas;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas Personagem sorriu e respondeu calmamente. \"Este é o meu mundo, minha vida, minha solitude. É por mim mesmo que tenho escolhido viver desta maneira. Não preciso de ninguém para estar feliz. Só preciso me dedicar ao que eu amo mais: a pintura.\"",
+        "generated_text_llama": "Personagem sorriu levemente, sabendo que sua tia não estava procurando por elogios, mas sim tentando entender a motivação por trás de suas escolhas. Ele respirou fundo, sentindo o peso das palavras que precisava dizer. \"Eu me sinto preso\", começou, com uma voz baixa e refletiva. \"Preso àquela vida que construí, mas que não é mais a minha. Quero ver o mundo, conhecer pessoas novas, viver. Mas sei que, aqui, estou a salvo.\" Sua tia assentiu lentamente, olhando para ele com um misto de compreensão e desesperança.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tobias",
+        "sentence": "Tobias respondeu, que era o maior regalo do mundo.",
+        "start_char": 2107,
+        "end_char": 2113,
+        "excerpt": "Esta circunstância fê-lo crer maluco, e tal era a opinião entre os rapazes; não faltava, porém, quem lhe atribuísse grande instrução e rara inteligência, ambas inutilizadas por um ceticismo sem remédio. Bonifácio, um dos seus poucos familiares, perguntou-lhe um dia que prazer achava naquelas reclusões tão longas e absolutas; Tobias respondeu, que era o maior regalo do mundo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "respondeu",
+                "child": "Tobias",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tobias",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] respondeu, que era o maior regalo do mundo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele se inclinou e abraçou a pessoa. \"Tudo o que você deseja é meu mandato\", ele disse com um sorriso charmoso. Em seguida, levantou seu pé direito e apontou para uma porta escondida no lado da sala. \"Por ali você encontrará o seu presente\", acrescentou ele, de forma enigmática.",
+        "generated_text_llama": "Personagem sorriu satisfeito e disse: \"Então é assim que você me viu? Como um presente\". Ele olhou para as mãos cheias de brinquedos e roupas, pensando em como ele podia explicar a tudo isso ao pai. \"Eu não sei exatamente\", disse ele, \"mas eu acho que o mundo está muito grande e eu queria me juntar a todos os outros seres humanos para explorá-lo\".",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "encontrará",
+                    "ccomp"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bonifácio",
+        "sentence": "Solteiro, e sem parentes, Bonifácio fez da sociedade uma família.",
+        "start_char": 6525,
+        "end_char": 6534,
+        "excerpt": "Compreende-se a comoção. As outras notas eram pedaços da vida social. Solteiro, e sem parentes, Bonifácio fez da sociedade uma família.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "fez",
+                "child": "Bonifácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonifácio",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Solteiro, e sem parentes, [MASK] fez da sociedade uma família.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Solteiro e sem parentes, ele fez da sociedade uma família. Por meio de amizades forjadas e laços estabelecidos, construiu um ambiente onde se sentia acompanhado, protegido e entendido. Ele aprendeu a conhecer novas pessoas, oferecendo-lhes sua amizade em troca de confiança e apoio reciproco. Em casa ou fora da mesma, não estava mais só - havia as pessoas que o rodeavam, sempre prontas para ajudá-lo em seu caminho e partilhar suas joias e dormentes com ele. Foi assim que Personagem construiu uma família em sua comunidade, encontrando acompanhantes no percurso da vida que lhe ofereciam o suporte necessário para enfrentar os desafios do mundo exterior, enriquecendo ainda mais sua existência.",
+        "generated_text_llama": "Com um sorriso radiante, Personagem convidou todos os membros da comunidade para se juntarem a ele em uma grande festa de aniversário, que seria uma celebração sem igual. Ele decorou a casa com luzes coloridas, balões e uma grande mesa cheia de pratos deliciosos, e convidou a maioria das pessoas que conhecera desde o início.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "construiu",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "convidou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bonifácio",
+        "sentence": "Fenômeno interessante:  almoçado, e acendendo um charuto, Bonifácio pensou na boa fortuna, que seria, se ela lhe aparecesse, ainda agora, a despeito dos quarenta e quatro anos.",
+        "start_char": 7869,
+        "end_char": 7878,
+        "excerpt": "Nem almoçando, perdeu a preocupação. E, contudo, o almoço era o melhor que se podia desejar em tais circunstâncias, mormente se contarmos o excelente Borgonha que o acompanhou, presente de um diplomata; mas nem assim. Fenômeno interessante:  almoçado, e acendendo um charuto, Bonifácio pensou na boa fortuna, que seria, se ela lhe aparecesse, ainda agora, a despeito dos quarenta e quatro anos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "pensou",
+                "child": "Bonifácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonifácio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Fenômeno interessante:  almoçado, e acendendo um charuto, [MASK] pensou na boa fortuna, que seria, se ela lhe aparecesse, ainda agora, a despeito dos quarenta e quatro anos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando, Personagem, após fumar uma parte do charuto, encostou-se à janela de sua casa antiga, com olhar enervado olhando para a distância. Era o mesmo espaço onde ela havia se reunido há quarenta e quatro anos, em aquela noite que tudo mudou entre eles dois. O charuto caiu de suas mãos, quebrando-se contra o chão. A lágrima começou a escorregar pela face velha de Personagem. \"Você não me abandonou\", murmurou, dessepontado.",
+        "generated_text_llama": "Era um detalhe ridículo, mas que para ele era importante: o charuto, apagado e pronto para ser acendido novamente, representava uma conexão com o passado, quando Personagem era mais jovem e cheio de sonhos. Ele olhou em volta do quarto, que estava um pouco desorganizado, com roupas sujas espalhadas pelo chão e um dialeto lhe disse a voz do seu melhor amigo, que havia falecido há vários anos. Personagem sussurrou uma palavra mágica: \"Vênus\". O charuto começou a fumaça, e ele sentiu uma pequena sensação de bem-estar.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "jovem",
+                    "amod"
+                ],
+                [
+                    "sussurrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bonifácio",
+        "sentence": "Uma vez que isto lhe pareceu possível, Bonifácio abriu as janelas todas da frente e desceu à chácara, para ir até à cerca que dava para a outra rua.",
+        "start_char": 8070,
+        "end_char": 8079,
+        "excerpt": "Fenômeno interessante:  almoçado, e acendendo um charuto, Bonifácio pensou na boa fortuna, que seria, se ela lhe aparecesse, ainda agora, a despeito dos quarenta e quatro anos. Podia ser; morava para os lados da Tijuca. Uma vez que isto lhe pareceu possível, Bonifácio abriu as janelas todas da frente e desceu à chácara, para ir até à cerca que dava para a outra rua.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "pensou",
+                "child": "Bonifácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonifácio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "abriu",
+                "child": "Bonifácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "abrir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonifácio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Uma vez que isto lhe pareceu possível, [MASK] abriu as janelas todas da frente e desceu à chácara, para ir até à cerca que dava para a outra rua.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em seguida, Personagem fez um longo suspirão antes de voltar sua atenção ao seu redor. A rua estava vazia, apenas um vento leve bruscando as árvores. Sem hesitar mais, ele começou a caminhar até à chácara, sentindo o sol quente e acalorante sob seus olhos.",
+        "generated_text_llama": "Com os olhos fitados na curva da esquina da rua seguinte, Personagem sabia que precisava de uma boa visão da situação antes de tomar qualquer ato. Ele se aproximou cuidadosamente da cerca e começou a examinar cada detalhe. A escuridão da noite parecia se agregar às sombras das casas dos vizinhos, tornando o cenário ainda mais sinistro.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "fez",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bonifácio",
+        "sentence": "Bonifácio andou, voltou, foi de um lado para outro, começava a achar-se ridículo.",
+        "start_char": 11002,
+        "end_char": 11011,
+        "excerpt": "Os cães tinham cessado de latir. Só continuava a chuva. Bonifácio andou, voltou, foi de um lado para outro, começava a achar-se ridículo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "andou",
+                "child": "Bonifácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "andar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonifácio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] andou, voltou, foi de um lado para outro, começava a achar-se ridículo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele tomou um profundo suspirho e decidiu se afastar por um momento, desejo de fugir do ambiente pesado que dominava o local. Ele saiu da sala, fechando lentamente a porta atrás de si, e com o passo leve, correu pelas escadas até chegar ao seu quarto.",
+        "generated_text_llama": "Personagem sabia que precisava parar de dançar na rua e procurar uma solução mais séria para sua situação. Enquanto tentava se acalmar, notou que os transeuntes estavam começando a olhá-lo com curiosidade, em vez de afastá-lo. Ele se viu diante de um público ansioso para ver o que estava acontecendo com aquele homem que dançava sozinho na rua. Personagem decidiu aproveitar esse falso famoso e começou a cantar uma canção improvada, tentando parecer mais talentoso do que realmente era.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ],
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bonifácio",
+        "sentence": "Bonifácio recompunha toda a vida exterior, figuras e incidentes, namoros de um, negócios de outro, diversões, brigas, anedotas, uma conversação, um enredo, um boato.",
+        "start_char": 11823,
+        "end_char": 11832,
+        "excerpt": "E reproduzia tudo, as cartas dele com as de cada um dos parceiros, as cartas compradas, a ordem e a composição das vazas. Era assim que as lembranças de fora, cousas e pessoas, vinham de tropel agitando-se em volta dele, falando, rindo, fazendo-lhe companhia. Bonifácio recompunha toda a vida exterior, figuras e incidentes, namoros de um, negócios de outro, diversões, brigas, anedotas, uma conversação, um enredo, um boato.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "recompunha",
+                "child": "Bonifácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "recompunhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonifácio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] recompunha toda a vida exterior, figuras e incidentes, namoros de um, negócios de outro, diversões, brigas, anedotas, uma conversação, um enredo, um boato.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ela se sentou em cima da cama e iniciou a organizar tudo que havia escrevido ao longo dos anos. As páginas eram uma muralha de recordações, cada um contendo um pedaço da vida exterior de Personagem.",
+        "generated_text_llama": "Personagem passou horas recriando cada detalhe, tentando memorizar os aspectos mais íntimos da vida dele mesmo. Ele se perguntava o que teria acontecido se tivesse tomado um determinado caminho em vez de outro, o que teria sido se não tivesse feito algo específico. O processo era como uma mágica, onde cada detalhe era uma peça do que havia criado.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "passou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bonifácio",
+        "sentence": "Bonifácio soltou um grito e acordou.",
+        "start_char": 13682,
+        "end_char": 13691,
+        "excerpt": "Inclinou- se e descobriu embaixo, lutando com a água e os tufões, a deliciosa Carlota; e querendo descer para salvá-la, levantou os olhos e fitou o Senhor. Já o não viu então, mas somente a figura do Tobias, olhando por cima dos óculos, com um fino sorriso sardônico e as mãos nas algibeiras. Bonifácio soltou um grito e acordou.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "soltou",
+                "child": "Bonifácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "soltar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonifácio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] soltou um grito e acordou.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, enquanto dormia, soltou um grito e acordou de repente. Levantou-se com a velocidade incrível e começou a procurar por sua arma. A sala estava escura e o som dos passos do Personagem no chão parecia um rugido de tigre silencioso. Finalmente, a mão do Personagem encontrou a arma que estava na mesa - uma pistola comum e velhota, mas confiável em sua mão. O coração do Personagem latia como um pássaro preso no seu peito, enquanto o olhar fixava-se nos objectos da sala. Parecia que ele sentiu a presença de alguém, mas não havia ninguém na sala. Nesse momento, as luzes da sala se acenderam e uma voz masculina gritou \"Cuidado!\" Do lado direito da sala apareceu um homem alto e musculoso, com uma faca no punho.",
+        "generated_text_llama": "Esperando que não fosse apenas um sono mais profundo, Personagem se sentou na cama e olhou ao redor do quarto esvaziado. A lâmpada de mesa, que sempre estava ligada, agora parecia uma sombra fraca e impotente. Ela se levantou lentamente, sentindo o peso dos seus sapatos pesados no chão. Sem querer parecer louca, Personagem procurou por um refúgio, um lugar onde pudesse se esconder da realidade que a cercava.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentou",
+                    "ROOT"
+                ],
+                [
+                    "procurou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bonifácio",
+        "sentence": "Bonifácio lutou ainda, fumando e jogando; lembrou-se até de escrever algumas cartas, mas apenas pôde acabar uma.",
+        "start_char": 14472,
+        "end_char": 14481,
+        "excerpt": "As horas eram cada vez mais intermináveis. Nem havia horas; o tempo ia sem as divisões que lhe dá o relógio, como um livro sem capítulos. Bonifácio lutou ainda, fumando e jogando; lembrou-se até de escrever algumas cartas, mas apenas pôde acabar uma.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "lutou",
+                "child": "Bonifácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "lutar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bonifácio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] lutou ainda, fumando e jogando; lembrou-se até de escrever algumas cartas, mas apenas pôde acabar uma.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Contudo, continuou sentado no sofá, cigarro em mão, olhando para as suas cartas. Ao ver essa única carta finalizada, sentiu um instinto incontrolável de precisar mandá-la imediatamente. Abriu o envio e começou a escrever na outra parede do seu quarto: \"Minha querida amiga, aqui estou, por mais que não seja o local que gostaríamos juntas.\" Apostrou-se no cofre onde guardava os selos, abriu-o e achou apenas um velho selo de papel. Sem desistir, usou ele para selar a carta, desejando ainda mais que o velho simbolizasse sua vida ininterrupta, que nada lhe interromperia. Colocou-a no envio e corria até a porta da sala, com a carta em mão. Queria pegar a ônibus daquela cidade de lá para cá e deixar seu mundo tranquilo e simples por algum tempo, apenas pra sentir as mãos de sua amiga.",
+        "generated_text_llama": "Enquanto continuava a lutar pela direita do campo, Personagem não conseguiu evitar que a sonolência o envatesse novamente. Ele sentiu seus olhos pesando demais para se manter abertos e sua respiração se tornou mais profunda e lentinha. Com um esforço supremo, ele conseguiu segurar a cartola sobre sua cabeça e começou a caminhar em direção ao seu acampamento, tentando não perder o equilíbrio.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "Apostrou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "conseguiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

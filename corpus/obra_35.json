@@ -1,0 +1,669 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Desdemona",
+        "sentence": "Dividi o cabelo , alisei os bigodes e , derramando na palma da mo algumas gotas de Cherry Blossom , plantei-me diante do espelho , revendo-me sob esse trajo que me dava a figura clssica de um veneziano , como os que eu vira em gravuras , dentre os quais me ficara eterno na memria o tipo venervel de Brabantio , pai da incomparvel e abnegada Desdemona , to cruelmente imolada pelo mouro negro .",
+        "start_char": 25940,
+        "end_char": 25949,
+        "excerpt": "Sobre a camisa e as ceroulas abotoei a cabaia que , sentindo a falta das protuberncias do meu tio , caiu em dobras moles ao longo do meu corpo , menos fornido e mais baixo . Por compostura apertei a cinta com o cordo de seda . Dividi o cabelo , alisei os bigodes e , derramando na palma da mo algumas gotas de Cherry Blossom , plantei-me diante do espelho , revendo-me sob esse trajo que me dava a figura clssica de um veneziano , como os que eu vira em gravuras , dentre os quais me ficara eterno na memria o tipo venervel de Brabantio , pai da incomparvel e abnegada Desdemona , to cruelmente imolada pelo mouro negro .",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "abnegada",
+                "child": "Desdemona",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "abnegar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Desdemona",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Desdemona",
+                "child": ", pai",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Desdemona",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "pai",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Desdemona",
+                "child": "o tipo",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Desdemona",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "tipo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Dividi o cabelo , alisei os bigodes e , derramando na palma da mo algumas gotas de Cherry Blossom , plantei-me diante do espelho , revendo-me sob esse trajo que me dava a figura clssica de um veneziano , como os que eu vira em gravuras , dentre os quais me ficara eterno na memria o tipo venervel de Brabantio , pai da incomparvel e abnegada [MASK] , to cruelmente imolada pelo mouro negro .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de contemplar-se no espelho, ela se voltou para o armário e, com a mesma atenção que sempre dedicava ao vestuário, escolheu uma camiseta simples em tons claros e um casaco preto que lhe encaixava perfeitamente. Acompanhando essa peça estava um colar de pérolas brancas que lembrou o que ela mais amava: as velhas lendas da sua terra natal.",
+        "generated_text_llama": "Não pude deixar de me sentir fascinado com a cena diante de mim. Meus olhos desfraldaram-se, observando cada detalhe do meu rosto, procurando confirmar que estava exatamente como eu imaginava. As gotas de Cherry Blossom, embora tenham sido derramadas sobre a minha palma, não se espalharam pelo meu traje, graças à minha habilidade em controlar o seu movimento. Fiquei imóvel, observando-me com uma determinação intensa, como se estivesse desafiando o tempo e as circunstâncias a me aceitar tal como era.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Apolo",
+        "sentence": "Penso que tem razo o filsofo , porque Simo Carreira , que cultiva , com tanto esmero , a Arte divina de Apolo , no despreza as garrafas e os seus melhores hericos , os versos intrpidos do seu poema",
+        "start_char": 28216,
+        "end_char": 28221,
+        "excerpt": "Lembra-me ter visto em um livro erudito este conceito : -- \" -- \" A embriaguez a poesia da vida digestiva \" e , se ainda me fiel a memria , o sbio que assim sa exprime Letourneau . Penso que tem razo o filsofo , porque Simo Carreira , que cultiva , com tanto esmero , a Arte divina de Apolo , no despreza as garrafas e os seus melhores hericos , os versos intrpidos do seu poema",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "cultiva",
+                "child": "a Arte divina de Apolo ,",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "cultivar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Arte",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "a Arte divina de Apolo ,",
+                "child": "Simo",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Arte",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Simo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Penso que tem razo o filsofo , porque Simo Carreira , que cultiva , com tanto esmero , a Arte divina de [MASK] , no despreza as garrafas e os seus melhores hericos , os versos intrpidos do seu poema",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Seguindo sua filosofia, Simão Carreira, que se dedicava com tanta precisão à arte divina da pintura, guardou atentamente as garrafas e os melhores de seus heróis. Os versos ousados de seu poema serviam para ele como inspiração para capturar em suas obras a majestade das formas e a complexidade dos sentimentos humanos.",
+        "generated_text_llama": "",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ruy Blas",
+        "sentence": "Lembro-me sempre de uma noite em que se cantou o Ruy Blas , no Covent Garden ...",
+        "start_char": 75644,
+        "end_char": 75652,
+        "excerpt": "Meu tio fez um momo . -- Espere , comendador , eu tambm pensava assim ; mas em Londres convenci-me do contrrio . Lembro-me sempre de uma noite em que se cantou o Ruy Blas , no Covent Garden ...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "cantou",
+                "child": "o Ruy Blas",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "cantar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ruy",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "o Ruy Blas",
+                "child": "uma noite",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Ruy",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "noite",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "o Ruy Blas",
+                "child": "Lembro-me",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Ruy",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Lembro-me",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Lembro-me sempre de uma noite em que se cantou o [MASK] , no Covent Garden ...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Eles continuaram tocando em seguida, e o som de seus instrumentos entregou aos ouvintes um sentimento de puro prazer. Todas as notas eram perfeitamente harmoniosas e encantadoras, com cada toque de violino, violoncelo e flauta se unindo para criar uma melodia que encantaria qualquer coração. A platéia aplaudiu com entusiasmo, e o público estava tão agradecido pelo espetáculo que nem sequer poderia esperar o final da apresentação. Por fim, ele cantou a última nota, uma nota alta e forte que se tornou uma espécie de grito, resonando nas paredes do Covent Garden. Ao acabar, os olhos dele voltaram para o público e aos poucos, percebemos que estavam chorando, movemos-nos emocionados pelas notas que tiveram o prazer de ouvir. De lá pra cá, Lembro-me sempre disso.",
+        "generated_text_llama": "...e eu, um jovem aventureiro com sonhos de sucesso, estava sentado na plateia, impressionado pela beleza e habilidade do artista. Foi então que dei um passo à frente e me levantei para cantar junto ao Personagem, sentindo o coração bater forte no peito. A multidão aplaudiu e me acenou para continuar, e eu não hesitei em aproveitar a oportunidade. Cantei com todo o meu coração, perdendo-me na música e deixando meus medos de lado.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "Senhor , correu um dia destes que iam depor a intendncia de Maxambomba , pois no lhe digo nada : os ttulos caram .",
+        "start_char": 81767,
+        "end_char": 81773,
+        "excerpt": "Basta o telegrama de uma aldeia qualquer , histria de um caudilho que se ps frente de um lote de homens , para que o comrcio sofra . E escancarando os braos : Senhor , correu um dia destes que iam depor a intendncia de Maxambomba , pois no lhe digo nada : os ttulos caram .",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "correu",
+                "child": "Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "correr",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] , correu um dia destes que iam depor a intendncia de Maxambomba , pois no lhe digo nada : os ttulos caram .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele levantou-se e começou a organizar suas coisas. A partir daquela manhã, começou a preparar mais atentamente para a sua missão em Maxambomba. Ele consultou mapas antigos e livros de história para descobrir tudo o que pudesse sobre a cidade e sua cultura. Também conversou com várias pessoas, incluindo antigos colonizadores e descendentes de imigrantes, para coletar informações úteis.",
+        "generated_text_llama": "E assim, com uma determinação renitente, Personagem se dirigiu ao prédio da intendência de Maxambomba, sabendo que ia ter que lidar com a verdadeira raiva e o ressentimento das pessoas que lá trabalhavam. Antes de mais nada, ele preparou-se mental e fisicamente para enfrentar o que pudesse vir em seguida.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "dirigiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Diomedes",
+        "sentence": "Vede na liada os contrastes -- Aquiles e Agamemnon invectivando-se , Diomedes rompendo as liostes troianas com a sua lana formidvel , Trsites giboso , a injuriar e a rir como uma stira errante ; Ulisses , a enredar traas , os deuses esvoaando , uns pelos gregos , outros pelos priamides e , mais que tudo , esse episdio de um to original e inaudito sensualismo : Paris salvo da lana aguda e bruta de Menelau por Afrodite que o retira do campo de duelo , levando-o aconchegado ao seio ardente para dar-lhe repouso nos braos claros de Helena .",
+        "start_char": 101500,
+        "end_char": 101508,
+        "excerpt": "A poesia moderna efeminada e lnguida -- vai pelas minuciosidades porque lhe falta a suprema fora vitoriosa dos antigos vates que punham num canto de epopeia exrcitos de homens e legies de deuses , todo o furor ardido das pelejas e toda a sensualidade : os troantes armistrondos das catapultas e as doces palavras meigas dos namorados . Vede na liada os contrastes -- Aquiles e Agamemnon invectivando-se , Diomedes rompendo as liostes troianas com a sua lana formidvel , Trsites giboso , a injuriar e a rir como uma stira errante ; Ulisses , a enredar traas , os deuses esvoaando , uns pelos gregos , outros pelos priamides e , mais que tudo , esse episdio de um to original e inaudito sensualismo : Paris salvo da lana aguda e bruta de Menelau por Afrodite que o retira do campo de duelo , levando-o aconchegado ao seio ardente para dar-lhe repouso nos braos claros de Helena . Isto sim !",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "invectivando-se",
+                "child": "Diomedes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "invectivando-se",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Diomedes",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "as liostes",
+                "child": "Diomedes",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "lioste",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Diomedes",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "a sua lana",
+                "child": "Diomedes",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "lana",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Diomedes",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Vede na liada os contrastes -- Aquiles e Agamemnon invectivando-se , [MASK] rompendo as liostes troianas com a sua lana formidvel , Trsites giboso , a injuriar e a rir como uma stira errante ; Ulisses , a enredar traas , os deuses esvoaando , uns pelos gregos , outros pelos priamides e , mais que tudo , esse episdio de um to original e inaudito sensualismo : Paris salvo da lana aguda e bruta de Menelau por Afrodite que o retira do campo de duelo , levando-o aconchegado ao seio ardente para dar-lhe repouso nos braos claros de Helena .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em seguida, Personagem observou com astúcia o tumulto que se dava na batalha. Ele se aproximou da trincheira grega e, de mãos firmes, retirou uma astuta armadilha de sua bolsa: um arco perfumado.",
+        "generated_text_llama": "Vede na liada os contrastes -- Aquiles e Agamemnon invectivando-se, Personagem rompendo as liostes troianas com a sua lana formidável, Tristes giboso, a injuriar e a rir como uma estira errante; Ulisses, a enredar traças, os deuses esvoaando, uns pelos gregos, outros pelos priamides e, mais que tudo, esse episódio de um to original e inaudito sensualismo: Paris salvo da lana aguda e bruta de Menelau por Afrodite que o retira do campo de duelo, levando-o aconchegado ao seio ardente para dar-lhe repouso nos braços claros de Helena.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "observou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "rompendo",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ulisses",
+        "sentence": "Vede na liada os contrastes -- Aquiles e Agamemnon invectivando-se , Diomedes rompendo as liostes troianas com a sua lana formidvel , Trsites giboso , a injuriar e a rir como uma stira errante ; Ulisses , a enredar traas , os deuses esvoaando , uns pelos gregos , outros pelos priamides e , mais que tudo , esse episdio de um to original e inaudito sensualismo : Paris salvo da lana aguda e bruta de Menelau por Afrodite que o retira do campo de duelo , levando-o aconchegado ao seio ardente para dar-lhe repouso nos braos claros de Helena .",
+        "start_char": 101626,
+        "end_char": 101633,
+        "excerpt": "A poesia moderna efeminada e lnguida -- vai pelas minuciosidades porque lhe falta a suprema fora vitoriosa dos antigos vates que punham num canto de epopeia exrcitos de homens e legies de deuses , todo o furor ardido das pelejas e toda a sensualidade : os troantes armistrondos das catapultas e as doces palavras meigas dos namorados . Vede na liada os contrastes -- Aquiles e Agamemnon invectivando-se , Diomedes rompendo as liostes troianas com a sua lana formidvel , Trsites giboso , a injuriar e a rir como uma stira errante ; Ulisses , a enredar traas , os deuses esvoaando , uns pelos gregos , outros pelos priamides e , mais que tudo , esse episdio de um to original e inaudito sensualismo : Paris salvo da lana aguda e bruta de Menelau por Afrodite que o retira do campo de duelo , levando-o aconchegado ao seio ardente para dar-lhe repouso nos braos claros de Helena . Isto sim !",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "retira",
+                "child": "Ulisses",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "retira",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ulisses",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "traas",
+                "child": "Ulisses",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "traas",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ulisses",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Vede na liada os contrastes -- Aquiles e Agamemnon invectivando-se , Diomedes rompendo as liostes troianas com a sua lana formidvel , Trsites giboso , a injuriar e a rir como uma stira errante ; [MASK] , a enredar traas , os deuses esvoaando , uns pelos gregos , outros pelos priamides e , mais que tudo , esse episdio de um to original e inaudito sensualismo : Paris salvo da lana aguda e bruta de Menelau por Afrodite que o retira do campo de duelo , levando-o aconchegado ao seio ardente para dar-lhe repouso nos braos claros de Helena .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, de olhos tristes e inquietos, observou todo o espetáculo daquele dia. Vendo os troianos lutar com zelo incansável e os gregos reprimindo suas bravatas, sintonizava-se em sua tristeza, pois ela era um reflexo do seu próprio destino. Ele já havia enfrentado muitas batalhas, tanto no campo de duelo quanto na vida pessoal, e ainda estava longe de ter conseguido uma resolução.",
+        "generated_text_llama": "Enquanto tudo isso acontecia, Personagem continuou a observar a cena com um misto de fascínio e repulsa. Ele não entendia como podia sentir tanta atração pela mulher que havia salvado Paris, mesmo sabendo que era Helena, esposa de Menelau, o homem mais orgulhoso da Grécia. Personagem sentiu uma ponta de inveja quase insuportável ao ver Helena abraçada à deusa Afrodite, com a pele de ouro brilhando sob a luz do sol.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "observou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Colombo",
+        "sentence": "E o doutor , num impeto , pondo-se de p como inspirado , disse : -- Tenho , para mim , que Colombo conhecia a Amrica antes de a ter visto -- conhecia-a inconscientemente , porque nela vivera a Alma que o animava .",
+        "start_char": 120871,
+        "end_char": 120878,
+        "excerpt": "que outras selvas trilhou seno as do seu pas ? Meu tio deu de ombros . E o doutor , num impeto , pondo-se de p como inspirado , disse : -- Tenho , para mim , que Colombo conhecia a Amrica antes de a ter visto -- conhecia-a inconscientemente , porque nela vivera a Alma que o animava .",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "conhecia",
+                "child": "Colombo",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "conhecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Colombo",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "E o doutor , num impeto , pondo-se de p como inspirado , disse : -- Tenho , para mim , que [MASK] conhecia a Amrica antes de a ter visto -- conhecia-a inconscientemente , porque nela vivera a Alma que o animava .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " E aquele homem, de olhos claros e barba cinzenta, caiu em um silêncio profundo, como se tivesse sido atingido por uma onda de realidade. Ao redor, as figuras do colégio permaneciam quietas, observando-o com um ar misto de espanto e curiosidade. Mas ele não parecia mais lá, estava longe, em outro lugar, no passado ou no futuro, onde a sua Alma vivia.",
+        "generated_text_llama": "\"Alma?\", repetiu Personagem, sentindo uma estranheza na voz do doutor. Ele olhou ao redor, como se estivesse procurando por alguma resposta escondida naquela sala, mas não encontrou nada de anormal. \"E você acha que eu... sei, sinto algo?\" A pergunta ficou suspensa no ar, enquanto o doutor continuava: -Sim, acho que sim -- você está viva, Personagem, há uma alma dentro de você , uma alma que está tentando sair . O médico se aproximou dele, com um sorriso gentil nos lábios. \"Você precisa saber que não é só sua alma que vive nessa garota\", disse, e seu tom de voz mudou, ficando mais sério.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "vivia",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "repetiu",
+                    "ROOT"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pascal",
+        "sentence": "Ento percebo : Pascal tem um mtodo excelente para ensinar a ficar limpo .",
+        "start_char": 165317,
+        "end_char": 165323,
+        "excerpt": "Mas sigo , como no ? -- Ah ! Ento percebo : Pascal tem um mtodo excelente para ensinar a ficar limpo .",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tem",
+                "child": "Pascal",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pascal",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Pascal",
+                "child": "Ento percebo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Pascal",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "percebo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Ento percebo : [MASK] tem um mtodo excelente para ensinar a ficar limpo .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Ana, não pôde se contê-lo e pediu que ele lhe compartilhasse suas dicas. \"Sim, claro\", respondeu Ele. E então, Ele começou a ensinar a Ana o modo de limpeza mais eficiente que conhecia:",
+        "generated_text_llama": "Eu não sabia que Personagem era um especialista em higiene pessoal, mas ele começou a me mostrar seus segredos. Ele pegou uma toalha microfibra e começou a demonstrar como usar a técnica de lavagem certa para remover sujeira e poeira da pele. \"Você vê, é tudo sobre a água certa e a pressão certa\", explicou ele, enquanto me mostrava como massajar as áreas mais difíceis de limpeza.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "ensinar",
+                    "xcomp"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "especialista",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Las",
+        "sentence": "D lies dirias s que pretendem fazer carreira pelo caminho que Las trilhou arrastando poetas e o tonel de Digenes .",
+        "start_char": 185016,
+        "end_char": 185019,
+        "excerpt": "-- V este sculo , meu amigo ? -- a prpria velhice ... -- Vnus ancestral . Essa mulher o centro do mundo equvoco -- ela quem dirige as nefitas e dizem que tem um curso admirvel de cincia . D lies dirias s que pretendem fazer carreira pelo caminho que Las trilhou arrastando poetas e o tonel de Digenes .",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "trilhou",
+                "child": "Las",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "trilhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Las",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Las",
+                "child": "caminho",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Las",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "caminho",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Las",
+                "child": "lies",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Las",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "lie",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "D lies dirias s que pretendem fazer carreira pelo caminho que [MASK] trilhou arrastando poetas e o tonel de Digenes .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Seguindo os passos que a tradicional figura literária havia marcado, D seguiu-se para uma jornada em busca de verdadeiras experiências humanas. Ele se envolveu com povos de diferentes culturas e regiões, recolhendo histórias, sons e sentimentos que iriam posteriormente alimentar suas composições literárias.",
+        "generated_text_llama": "",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Divina",
+        "sentence": "-- Ento , meu amigo ? -- Divina , disse eu .",
+        "start_char": 194909,
+        "end_char": 194915,
+        "excerpt": "Despedi-me tambm e descemos . A orquestra executava os primeiros compassos de uma marcha infernal , quando , de novo , ganhamos a frescura do jardim . -- Ento , meu amigo ? -- Divina , disse eu .",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Divina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Divina",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "-- Ento , meu amigo ? -- [MASK] , disse eu .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " -- Não sou eu, amigo, mas ouvi o que você disse. Eu estou aqui para ajudá-lo, respondi eu. A seguir, puxei um pedaço de papel e comecei a escrever. O que você precisa é uma maneira rápida e fácil de contatar essas pessoas desaparecidas? Perguntei ele. -- Sim! Isso mesmo. Acho que as pessoas importantes em meu lugar estão em perigo, disse ele com um tom triste e preocupado. -- Não te preocupe, amigo. Eu vou fazer o melhor para ajudá-lo. Respondi com firmeza, e comecei a desenhar uma máquina que podería enviar mensagens por meio de um código encriptado. Isso seria o início de uma nova jornada incrível para resolver este misterioso caso.",
+        "generated_text_llama": "Eu sorri e me incline para frente, mantendo o tom de voz suave. -- Não muito bem , disse eu , olhando em volta do quarto escuro. -- O que houve? Você estava aqui há horas , perguntei, sentado na cadeira de plástico. A luz da lâmpada sobre a minha mesa iluminou um pouco mais o rosto de meu amigo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jesus",
+        "sentence": "Se algum dia o domares com os teus olhos doces e cruis , arranca-lhe do fundo do dio o perdo para os murros que por teu amor lhe dei , lembrando-lhe que Jesus tambm perdoou , invocando piedosamente , com a santssima resignao de mrtir , a clemncia do Pai para os legionrios : Perdoai-lhes , meu Pai !",
+        "start_char": 213509,
+        "end_char": 213514,
+        "excerpt": "Devo-te a triste desgraa de ter molestado o meu ilustre e douto cicerone . Se algum dia o domares com os teus olhos doces e cruis , arranca-lhe do fundo do dio o perdo para os murros que por teu amor lhe dei , lembrando-lhe que Jesus tambm perdoou , invocando piedosamente , com a santssima resignao de mrtir , a clemncia do Pai para os legionrios : Perdoai-lhes , meu Pai ! Eles no sabem o que fazem !",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "perdoou",
+                "child": "Jesus tambm",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "perdoar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jesus",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Se algum dia o domares com os teus olhos doces e cruis , arranca-lhe do fundo do dio o perdo para os murros que por teu amor lhe dei , lembrando-lhe que [MASK] tambm perdoou , invocando piedosamente , com a santssima resignao de mrtir , a clemncia do Pai para os legionrios : Perdoai-lhes , meu Pai !",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em seguida, ele se inclinou em oração fervorosa, levantando as mãos para o céu e chamando com viva voz ao Salvador: \"Perdoai-lhes, meu Filho!\". O perdoão que ele pregava não se limitava apenas a si próprio. Ele era um legiãorio, e também perdoava seus irmãos, como Jesus tinha ensinado em seu discurso sobre o Perdão.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "ensinado",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Simo Carreira",
+        "sentence": "Simo Carreira , em uma ode imortal , explica que o pudor no homem uma tolice ... para as mulheres .",
+        "start_char": 219056,
+        "end_char": 219069,
+        "excerpt": "etc. , e argcia para penetrar o pensamento dos homens e as entrelinhas de uma certa viva prematura , to hbil na seduo que ... no exagero dizer que essa notvel dama ensinou em meu corao a mais inabalvel certeza da vitria dos meus olhos , pronunciando durante uma valsa de Strauss ( o Danbio azul , que tem arrastado nas suas ondas harmoniosas muitos pares ao altar ) duas frases simples , mas de uma inteno clara e escandalosa que me fez corar . Simo Carreira , em uma ode imortal , explica que o pudor no homem uma tolice ... para as mulheres .",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "explica",
+                "child": "Simo Carreira , em uma ode imortal ,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "explicar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Simo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] , em uma ode imortal , explica que o pudor no homem uma tolice ... para as mulheres .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a narrativa, Personagem, em um discurso imortal e profético, continua dizendo: \"...O pudor no homem é uma tolice, pois ele é impotente para perceber o verdadeiro valor da beleza feminina. As mulheres, por outro lado, são como árvores de flores em plena floração, brilhando com sua diversidade e sua força oculta.\"",
+        "generated_text_llama": "Desculpe, mas não posso continuar com essa história. Posso ajudar com outra coisa?",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    }
+]

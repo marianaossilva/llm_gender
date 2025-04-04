@@ -1,0 +1,898 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "CAMINHA",
+        "sentence": "(CAMINHA estremece e faz um gesto de má vontade)",
+        "start_char": 939,
+        "end_char": 946,
+        "excerpt": "Pois é isto: uns versos mui galantes do nosso Camões. (CAMINHA estremece e faz um gesto de má vontade)",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "estremece",
+                "child": "CAMINHA",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "estremecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CAMINHA",
+                "word_categories": [
+                    "emo"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "([MASK] estremece e faz um gesto de má vontade)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após expressar seu descontentamento de maneira enfática, ele fez uma gesto de má vontade. Ele ficou quieto por algum tempo, olhando em direção ao seu computador como se estivesse tentando ler o código-fonte de algo que não funcionava corretamente. Então, sem dizer nada, ele levantou a mão e colocou-a no teclado, atingindo rapidamente várias teclas simultâneamente.",
+        "generated_text_llama": "Ela se sentou na cadeira, fechando os olhos e tentando controlar a respiração. A emoção que a havia levado a fazer esse gesto de má vontade ainda estava presente, mas começou a subir para o seu pescoço, ameaçando transformar-se em lágrimas. Com uma mão delicada, ela tocou a face com o punho aberto, como se estivesse tentando calmar um animal ferido.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor Caminha",
+        "sentence": "Confessai, confessai, Senhor Caminha, vós que sois poeta, confessai que há aí certo pico, e uma simpleza de dizer...",
+        "start_char": 3754,
+        "end_char": 3768,
+        "excerpt": "Camões retorquiu-lhe com estes versos, que o próprio duque me mostrou agora, a rir: Eu já vi a taverneiro Vender vaca por carneiro Mas, não vi, por vida minha, Vender vaca por galinha Senão ao Duque de Aveiro. Confessai, confessai, Senhor Caminha, vós que sois poeta, confessai que há aí certo pico, e uma simpleza de dizer...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "confessai",
+                "child": "Senhor Caminha, vós que sois poeta,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "confessair",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Confessai, confessai, [MASK], vós que sois poeta, confessai que há aí certo pico, e uma simpleza de dizer...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " ...Continuou, poeta, sua trajetória no mundo. O pássaro de papel, escolhido para ser o veículo de suas palavras mais importantes, soava nas frestas do vento, voando entre as trevas do desconhecido e as claridades da verdade.",
+        "generated_text_llama": "...que você está procurando por algo mais profundo do que apenas palavras. E você, Personagem, com seu coração desafiador e sua alma inquieta, não pôde resistir à chamada do poeta. Você olhou em volta da sala, onde seus amigos o esperavam, ansiosos para ouvir suas confissões. Com uma respiração profunda, você começou a falar, as palavras fluindo de sua boca como um rio que não pode ser seguido.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Caminha",
+        "sentence": "Como se os versos dele, duros e insossos... (Vai à porta por onde Caminha saiu, e levanta o reposteiro.)",
+        "start_char": 5062,
+        "end_char": 5069,
+        "excerpt": "Este homem! Este homem! ... Como se os versos dele, duros e insossos... (Vai à porta por onde Caminha saiu, e levanta o reposteiro.)",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "saiu",
+                "child": "Caminha",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "sair",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Caminha",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Caminha",
+                "child": "porta",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Caminha",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "porta",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Como se os versos dele, duros e insossos... (Vai à porta por onde [MASK] saiu, e levanta o reposteiro.)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem, com as mãos enxertadas em seus túnicas, olhava para a rua. Ele se lembrou do som dos passaros que cantavam na casa de sua avó, um local que sentia como seu refúgio. Sem pensar mais, ele segurou a mão da porta e abriu-a. Ao abrir, levantou o olhar e percebeu que havia algo escrito nele - \"Uma vez eu fui feito para uma grande aventura... Eu estava pronto para partilha-la.\"",
+        "generated_text_llama": "",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "CAMÕES",
+        "sentence": "Não vos esqueça a rima, que é de lei (Vai a sair pela porta da direita; aparece CAMÕES).",
+        "start_char": 8004,
+        "end_char": 8010,
+        "excerpt": "D. ANT. Também eu. Tu, não, minha boa Catarina. A rainha espera-vos. (D. CATARINA faz uma reverência e caminha para a porta da esquerda.) Ide, ide, minha gentil flor... (A D. MANUEL) Gentil, não a achais? D. MAN. Gentilíssima. D. ANT. Agradecei, Catarina. D. CAT. Agradeço; mas o certo é que o Senhor D. Manuel é rico de louvores... D. MAN. Eu podia dizer que a natureza é que foi convosco pródiga de graças; mas, não digo; seria repetir mal aquilo que só poetas podem dizer bem. (D. ANTÔNIO fecha o rosto.) Dizem que também sou poeta, é verdade; não sei; faço versos. Adeus, Senhor D. Antônio... ( Corteja-os e sai. D. CATARINA vai a entrar, à esquerda. D. ANTÔNIO detém- na.) CENA IV D. ANTÔNIO DE LIMA, D. CATARINA DE ATAIDE D. ANT. Ouviste aquilo? D. CAT. (parando). Aquilo? D. ANT. \"Que só poetas podem dizer bem\" foram as palavras dele. (D. CATARINA aproxima-se.) Vês tu, filha? Tão divulgadas andam já essas cousas, que até se dizem nas barbas de teu pai! D. CAT. Senhor, um gracejo... D. ANT. (enfadando-se). Um gracejo injurioso, que eu não consinto, que não quero, que me dói... \"Que só poetas podem dizer bem! \" E que poeta! Pergunta ao nosso Caminha o que é esse atrevido, o que vale a sua poesia... Mas, que seja outra e melhor, não a quero para mim, nem para ti. Não te criei para entregar-te às mãos do primeiro que passa, e lhe dá na cabeça haver-te. D. CAT. (procurando moderá-lo). Meu pai... D. ANT. Teu pai, e teu senhor! D. CAT. Meu senhor e pai... juro-vos que... juro-vos que vos quero e muito... Por quem sois, não vos irriteis contra mim! D. ANT. Jura que me obedecerás. D. CAT. Não é essa a minha obrigação? D. ANT. Obrigação é, e a mais grave de todas. Olha-me bem filha; eu amo-te como pai que sou. Agora, anda, vai. CENA V D. ANTÔNIO DE LIMA, D. CATARINA DE ATAIDE, D. FRANCISCA DE ARAGÃO D. ANT. Mas não, não vás sem falar à senhora D. Francisca de Aragão, que aí nos aparece, fresca como a rosa que desabotoou agora mesmo, ou como dizia a farsa do nosso Gil Vicente, que eu ouvi há tantos anos, por tempo do nosso sereníssimo Senhor D. Manuel... Velho estou, minha formosa dama... D. FRA. E que dizia a farsa? D. ANT A farsa dizia: É bonita como estrela, Uma rosinha de abril, Uma frescura de maio, Tão manhosa, tão subtil! Vede, que a farsa adivinhava já a nossa D. Francisca de uma frescura de maio, tão manhosa, tão subtil... D. FRA. Manhosa, eu? D. ANT. E subtil. Não vos esqueça a rima, que é de lei (Vai a sair pela porta da direita; aparece CAMÕES).",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "aparece",
+                "child": "CAMÕES",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "aparecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CAMÕES",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Não vos esqueça a rima, que é de lei (Vai a sair pela porta da direita; aparece [MASK]).",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Com a luz do dia a resplandecer nosso mundo, o mago entrava na sua casa enfeitiçada, onde as sombras pareciam ter vida própria. Em seguida, ele fez um gesto místico com as mãos e começou a cantar uma canção lenta e suave, que chegava às estrelas do céu. A partir daquele momento, as paredes começaram a vibrar e espelhados começaram a emergir de dentro delas. Era o fantasma da naveadora Lara.",
+        "generated_text_llama": "Não vos esqueça a rima, que é de lei (Vai a sair pela porta da direita; aparece Personagem), vestido com uma capa preta e um chapéu de palha. Ele olhou em volta, como se estivesse procurando por alguém, mas a sala estava vazia. O silêncio era only quebrado pelo som do seu coração batendo forte contra a sua pele. Personagem começou a caminhar pelo quarto, examinando cada canto, como se estivesse procurando uma pista secreta. Seus olhos moviam-se rapidamente, como se estivessem procurando alguma coisa escondida. Ele parou em frente à mesa de trabalho, onde jazia o livro antigo, e olhou para ele com uma expressão de desespero. \"O que estás fazendo aqui?\", gritou ele, como se estivesse falando com alguém. Mas a resposta era apenas as sombras das paredes, que pareciam sorrir com ele. Personagem suspirou fundo e voltou a caminhar pelo quarto, sempre procurando por alguma pista, algum segredo escondido nas sombras.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "aparece",
+                    "parataxis"
+                ],
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "suspirou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "CAMÕES",
+        "sentence": "CAMÕES Pode ser que não... dizem-me que não.",
+        "start_char": 11510,
+        "end_char": 11516,
+        "excerpt": "D. FRA. E que dizia a farsa? D. ANT A farsa dizia: É bonita como estrela, Uma rosinha de abril, Uma frescura de maio, Tão manhosa, tão subtil! Vede, que a farsa adivinhava já a nossa D. Francisca de uma frescura de maio, tão manhosa, tão subtil... D. FRA. Manhosa, eu? D. ANT. E subtil. Não vos esqueça a rima, que é de lei (Vai a sair pela porta da direita; aparece CAMÕES). CENA VI OS MESMOS, CAMÕES D. CAT. (à parte). Ele! D. FRA. (baixo a D. CATARINA). Sossegai! D. ANT. Vinde cá, senhor poeta das galinhas. Já me chegou aos ouvidos o vosso lindo epigrama. Lindo, sim; e estou que não vos custaria mais tempo a fazê-lo do que eu a dizer-vos que me divertiu muito... E o duque? O duque, ainda não emendou a mão? Há de emendar, que não é nenhum mesquinho. CAMÕES (alegremente).Pois El-rei deseja o contrário... D. ANT. Ah! Sua Alteza falou-vos disso?... Contar-mo-eis em tempo. (A D. CATARINA com intenção.) Minha filha e senhora, não ides ter com a rainha? eu vou falar a El-rei. (D. CATARINA cortejaos e dirige-se para a esquerda; D. ANTÔNIO sai pela direita). CENA VII OS MESMOS, menos D. ANTÔNIO DE LIMA (D. CATARINA quer sair, D. FRANCISCA DE ARAGÃO detém-na) D. FRA. Ficai, ficai... D. CAT. Deixai-me ir! CAMÕES Fugis de mim? D. CAT. Fujo... Assim o querem todos. CAMÕES Todos! todos quem? D. FRA. (indo a CAMÕES). Sossegai. Tendes, na verdade, um gênio, uns espíritos... Que há de ser? Corre a mais e mais a notícia dos vossos amores... e o Senhor D. Antônio, que é pai, e pai severo ... CAMÕES (vivamente, a D. CATARINA). Ameaça-vos? D. CAT. Não; dá-me conselhos... bons conselhos, meu Luís. Não vos quer mal, não quer... Vamos lá, eu é que sou desatinada. Mas, passou. Dizei-nos lá esses versos de que faláveis há pouco. Um epigrama, não é? Há de ser tão bonito como os outros... menos um. CAMÕES Um? D. CAT. Sim, o que fizestes a D. Guiomar de Blasfé. CAMÕES (com desdém). Que monta? Bem frouxos versos. D. FRA. Não tanto; mas eram feitos a D. Guiomar, e os piores versos deste mundo são os que se fazem a outras damas. (A D. CATARINA.) Acertei? (A CAMÕES.) Ora, andai, vou deixar-vos; dizei o caso do vosso epigrama, não a mim, que já o sei de cor, porém a ela que ainda não sabe nada... E que foi que vos disse El-rei? CAMÕES. El-rei viu-me, e dignou-se chamar-me; fitou-me um pouco a sua real vista, e disse com brandura: \"Tomara eu, senhor poeta, que todos os duques vos faltem com galinhas, porque assim nos alegrareis com versos tão chistosos\". D. FRA. Disse-vos isto? é um grande espírito El-rei! D. CAT. (a D. FRANCISCA) Não é? (A CAMÕES) E vós que lhe dissestes? CAMÕES Eu? nada... ou quase nada. Era tão inopinado o louvor que me tomou a fala. E, contudo, se eu pudesse responder agora... agora que recobrei os espíritos... dir-lhe-ia que há aqui (Leva a mão à fronte.) alguma cousa mais do que simples versos de desenfado... dir-lhe-ia que... (Fica absorto um instante, depois olha alternadamente para as duas damas, entre as quais se acha.) Um sonho... As vezes cuido conter cá dentro mais do que a minha vida e o meu século... Sonhos... sonhos! A realidade é que vós sois as duas mais lindas damas da cristandade, e que o amor é a alma do universo! D. FRA. O amor e a espada, senhor brigão! CAMÕES (alegremente). Por que me não dais logo as alcunhas que hão de ter posto os poltrões do Rocio? Vingam-se com isso, que é a desforra da poltroneria... Não sabeis? Naturalmente não; vós gastais as horas nos lavores e recreios do paço; mora aqui a doce paz do espírito... D. CAT. (com intenção). Nem sempre. D. FRA. (a CAMÕES, sorrindo). Isto é convosco; e eu, que posso ser indiscreta, não me detenho a ouvir mais nada. (Dá alguns passos para o fundo). D. CAT. Vinde cá... D. FRA. Vou-me... vou a consolar o nosso Caminha, que há de estar um pouco enfadado... Ouviu ele o que El-rei vos disse? CAMOES Ouviu; que tem? D. FRA. Não ouviria de boa sombra. CAMÕES Pode ser que não... dizem-me que não.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "aparece",
+                "child": "CAMÕES",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "aparecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CAMÕES",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "OS MESMOS",
+                "child": ", CAMÕES",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "MESMOS",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "CAMÕES",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", CAMÕES",
+                "child": "OS MESMOS",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "CAMÕES",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "MESMOS",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "deseja",
+                "child": "CAMÕES",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "desejar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CAMÕES",
+                "word_categories": [
+                    "aparencia_emo"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "CAMÕES",
+                "child": "alegremente).Pois",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "CAMÕES",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "alegremente).Pois",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "CAMÕES",
+                "child": "El-rei",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "CAMÕES",
+                "dep_c": "parataxis",
+                "pos_c": "PROPN",
+                "lemma_c": "El-rei",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "alegremente).Pois",
+                "child": "CAMÕES",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "alegremente).Pois",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CAMÕES",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "El-rei",
+                "child": "CAMÕES",
+                "dep_h": "parataxis",
+                "pos_h": "PROPN",
+                "lemma_h": "El-rei",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CAMÕES",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "indo",
+                "child": "CAMÕES",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ir",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "CAMÕES",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "CAMÕES",
+                "child": ", a D.",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "CAMÕES",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "D.",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", a D.",
+                "child": "CAMÕES",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "D.",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "CAMÕES",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "CATARINA",
+                "child": "CAMÕES",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "CATARINA",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "CAMÕES",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "CAMÕES",
+                "child": "desdém",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "CAMÕES",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "desdém",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "desdém",
+                "child": "CAMÕES",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "desdém",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "CAMÕES",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Pode",
+                "child": "CAMÕES",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CAMÕES",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] Pode ser que não... dizem-me que não.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas Maria, que tinha um coração cheio de esperança e resiliência, não se deixou abater facilmente. Ela continuou com a sua missão, trabalhando incansavelmente para cumprir o sonho que sempre teve: abrir uma floristeria no Centro Histórico da cidade.",
+        "generated_text_llama": "Ele olhou em volta, nervoso, para garantir que ninguém estivesse ouvindo a sua conversa com ela. \"Pode ser\", repetiu baixamente, enquanto se agachou mais perto da porta, como se estivesse tentando manter um segredo. Em seguida, olhou novamente para ela, suas expressões trocadas de dúvida para convicção. \"Sim, é isso. Eu não posso deixar de acreditar que você está certa\", disse, suas palavras parecendo sair de uma fonte mais sólida do que o seu coração.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "deixou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "deixar",
+                    "xcomp"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "CAMÕES",
+        "sentence": "Não... vinde cá (CAMÕES detém-se) Enfadei-vos?",
+        "start_char": 11965,
+        "end_char": 11971,
+        "excerpt": "(D. CATARINA dá um passo para ele.) Mantenha-vos Deus na sua santa guarda D. CAT. Não... vinde cá (CAMÕES detém-se) Enfadei-vos?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "detém-se",
+                "child": "CAMÕES",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "detém-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CAMÕES",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Não... vinde cá ([MASK] detém-se) Enfadei-vos?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O carnavalesco, de olhos enrolados em uma miríade de cores, se ajoelhou para revisitar o esboço do traje que estava preparando. O chapéu baixo, adereçado com penas multicoloridas, já parecia um maravilhoso e detalhado puxi-puxo. A borda superior do traje era decorada com pequenas lanternas, que iluminariam o desfile, transformando-o em uma fantasia de luzes ao passear pelo bloco.",
+        "generated_text_llama": "Não! Eu não podia acreditar no que estava acontecendo. Meus olhos estavam fixos em João, que parecia completamente transformado em um ser sombrio e ameaçador. Ele sorria, expondo os dentes afiados, e eu senti um arrepio percorrer a minha espinha.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "CAMÕES",
+        "sentence": "(CAMÕES dá um passo para sair.)",
+        "start_char": 12837,
+        "end_char": 12843,
+        "excerpt": "Posso chegar a afrontar tudo, até a cólera de meu pai. Vede lá, estamos a sós; se nos vira alguém... (CAMÕES dá um passo para sair.)",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "dá",
+                "child": "CAMÕES",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CAMÕES",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "([MASK] dá um passo para sair.)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Depois que deu um passo para sair, ele pega a sua chave na mesa e segura-a firmemente nas mãos. Uma sensação estranha o invade, uma mistura de ansiedade e excitação que o agita. Então, de repente, ele se para e olha para a porta da sala de jogos, a qual ele nunca havia cruzado antes. Ele sabe o que está além daquela porta: seu destino, sua liberdade, uma nova vida. Mas ele também sabe os perigos que lá podem esperar. No entanto, ele não pode mais parar de pensar em eles. Então, coletando toda a sua coragem, ele pega a chave e abre a porta da sala de jogos, preparado para enfrentar o que vem.",
+        "generated_text_llama": "Enquanto olhava para trás, Personagem sentiu um arrepio na espinha. Ele sabia que não poderia voltar para trás, não agora que estava quase alcançando a libertação. Com um suspiro fundo, ele continuou em frente, seus pés batendo firme no chão áspero. A lua cheia iluminava seu caminho, lançando sombras sinistras nas paredes de pedra ao redor dele.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "CAMÕES",
+        "sentence": "CAMÕES Não faltará quem vo-los faça, e da maior perfeição.",
+        "start_char": 14097,
+        "end_char": 14103,
+        "excerpt": "E os meus sonetos? Quem mos havia de fazer, meu rico poeta? CAMÕES Não faltará quem vo-los faça, e da maior perfeição.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "faltará",
+                "child": "CAMÕES",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "faltar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CAMÕES",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] Não faltará quem vo-los faça, e da maior perfeição.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Garoto-Maravilha não ficou parado, simplesmente admirando a fantástica criação que acabara de concluir. Em seguida, começou a ajustar pequenas partes do traje, desejando garantir que nada estivesse fora de lugar. Quando estava satisfeito com o resultado, abriu um dos muitos armários de sua suíte e extraíu uma bolsa grande, em cuja frente estavam os símbolos do herói: a estrela amarela no meio de três listras azuis.",
+        "generated_text_llama": "E assim, Personagem começou a trabalhar incansavelmente, sua dedicação e paixão para o esporte não conhecendo limites. Ele passava horas no ginásio, treinando até o exaustivo, perfeito em cada movimento, cada lance, cada bloque. Seu corpo se tornou uma máquina de precisão, seu cérebro um mapa impecável das estratégias e táticas do jogo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "CAMÕES",
+        "sentence": "CAMÕES, olha para a porta da direita).",
+        "start_char": 16671,
+        "end_char": 16677,
+        "excerpt": "CAMÕES Adeus! (D. CATARINA dirige-se para a porta da esquerda; CAMÕES, olha para a porta da direita).",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "olha",
+                "child": "CAMÕES",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "olhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CAMÕES",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], olha para a porta da direita).",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele segurou seu corpo ereto, enquanto seus olhos continuavam fixos na porta, não podendo ignoriar a luz amarela que se espalhava da outra lado. Sua boca seco e suas mãos frías tremiam.",
+        "generated_text_llama": "Ela parou na frente da porta da direita e olhou para ela com um misto de curiosidade e apprehensão. A porta estava fechada, o que não era incomum, mas havia algo na maneira como ela estava fechada que chamava a atenção. Ela não lembrava ter fechado a porta antes de sair da casa, e agora se sentia um pouco preocupada.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "CAMÕES",
+        "sentence": "CAMÕES corteja-a para um gesto gracioso, e dirige-se para o fundo.",
+        "start_char": 17889,
+        "end_char": 17895,
+        "excerpt": "CAMÕES Adeus! (D. CATARINA dirige-se para a porta da esquerda; CAMÕES, olha para a porta da direita). D. CAT. Andai, andai! CAMÕES Um instante ainda! D. CAT. Imprudente! Por quem sois ide-vos, meu Luís! CAMÕES A rainha espera-vos! D. CAT. Espera. CAMÕES Tão raro é ver-vos! D. CAT. Não afrontemos o céu... podem dar conosco... CAMÕES Que venham! Tomara eu que nos vissem! Bradaria a todos o meu amor, e à fé que o faria respeitar! D. CAT. (aflita, pegando-lhe na mão). Reparai, meu Luís, reparai; onde estais, quem eu sou, o que são estas paredes ... domai esse gênio arrebatado. Peço-vo-lo eu. Ide-vos em boa paz, sim? CAMÕES Viva a minha corça gentil, a minha tímida corça! Ora vos juro que me vou, e de corrida. Adeus! D. CAT. Adeus! CAMÕES (com a mão dela presa). Adeus! D. CAT. Ide... deixai-me ir! CAMÕES Hoje há luar; se virdes um embuçado diante das vossas janelas, quedado a olhar para cima, desconfiai que sou eu; e então, já não é o sol a beijar de longe uma rosa, é o goivo que pede calor a uma estrela. D.CAT. Cautela, não vos reconheçam. CAMÕES Cautela haverei; mas que me reconheçam, que tem isso? Embargarei a palavra ao importuno. D.CAT. Sossegai. Adeus! CAMÕES Adeus! (D. CATARINA dirigi-se para a porta da esquerda, e pára diante dela, à espera que CAMÕES saia. CAMÕES corteja-a para um gesto gracioso, e dirige-se para o fundo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "olha",
+                "child": "CAMÕES",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "olhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CAMÕES",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "CAMÕES",
+                "child": "raro",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "CAMÕES",
+                "dep_c": "csubj",
+                "pos_c": "ADJ",
+                "lemma_c": "raro",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "CAMÕES",
+                "child": "ver-vos",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "CAMÕES",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "ver-vos",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "CAMÕES",
+                "child": "(com a mão",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "CAMÕES",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "mão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "(com a mão",
+                "child": "CAMÕES",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mão",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "CAMÕES",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "dela presa",
+                "child": "CAMÕES",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "presa",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "CAMÕES",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "CAMÕES",
+                "child": "saia",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "CAMÕES",
+                "dep_c": "acl:relcl",
+                "pos_c": "ADJ",
+                "lemma_c": "saio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "CAMÕES",
+                "child": "espera",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "CAMÕES",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "espera",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] corteja-a para um gesto gracioso, e dirige-se para o fundo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele estendeu a mão e executou um gesto amigável, tentando ser encantador. Depois disso, seguiu caminhando para o fundo do salão, saindo de vista momentaneamente. Quase como se estivesse tentando fugir da situação, porém, era isso que desejava? Apenas esperava e aguardava por qualquer resposta dela, enquanto sua coração bateu mais forte do que nunca.",
+        "generated_text_llama": "Personagem sorri um sorriso misterioso enquanto faz um movimento com a mão, como se estivesse puxando uma corda mágica. Em seguida, ele começa a dançar, os pés batendo rapidamente no chão, criando um ritmo sutil que parece se misturar com o silêncio do ambiente. A mulher, percebendo o movimento de Personagem, olha para ele com uma curiosidade crescente, seus olhos brilhando com interesse.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorri",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "CAMINHA",
+        "sentence": "(Vendo que CAMINHA não diz nada.)",
+        "start_char": 21993,
+        "end_char": 22000,
+        "excerpt": "Sois amigo de meu pai, ele é vosso amigo, não lhe digais nada. Fui imprudente, fui, mas que quereis? (Vendo que CAMINHA não diz nada.)",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "diz",
+                "child": "CAMINHA",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CAMINHA",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "(Vendo que [MASK] não diz nada.)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele segurou a respiração e olhou para as pessoas em volta dele, tentando encontrar qualquer sinal que indicasse que alguém tinha notado sua presença. A sala ficava mais triste com cada segundo que passava. Então, decidiu-se para ir embora, enrolou o seu colete e caminhou pelo corredor silencioso. Sentindo a sensação de que estava abandonando algo importante, mas não conseguia entender o que era exatamente.",
+        "generated_text_llama": "Personagem observou a cena ao seu redor, tentando processar o que havia acontecido. Ele sabia que não podia dizer nada sobre a conversa secreta que hado com [NOME DO ALIADO], mas era difícil manter a calma e não reagir à sensação de traição que estava sentindo.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "observou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "CAMÕES",
+        "sentence": "CAMÕES dá um passo para falhar-lhe mas D. MANUEL contém-no, D. CATARINA, prestes a sair, volve a cabeça para trás).",
+        "start_char": 33308,
+        "end_char": 33314,
+        "excerpt": "Dai-me forças, meu Deus! (D. ANTÔNIO corteja os dois esegue na direção do fundo. CAMÕES dá um passo para falhar-lhe mas D. MANUEL contém-no, D. CATARINA, prestes a sair, volve a cabeça para trás).",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "dá",
+                "child": "CAMÕES",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CAMÕES",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] dá um passo para falhar-lhe mas D. MANUEL contém-no, D. CATARINA, prestes a sair, volve a cabeça para trás).",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ao ver que D. Manuel a segurava, D. João, de repente, sentiu uma péssima ideia se passando pelo seu espírito: se ele não agisse rapidamente e decisivamente, perderia a chance de ficar com a herdeira da coroa portuguesa e possivelmente sua vida. Ele dá um passo para tentar fazer algo contra D. Manuel, mas ao vê-lo, D. Manuel o segura, D. Catarina, pronta a sair, volta a cabeça para trás.",
+        "generated_text_llama": "D. MANUEL sorri satisfeito, enquanto D. CATARINA, agora que não há mais perigo, volta a cabeça para trás e olha diretamente nos olhos de Personagem, com um olhar de desafio e determinação. Ela abaixa-se um pouco mais, preparando-se para enfrentar Personagem em uma disputa de força. D. MANUEL, por sua vez, apóia o braço na escuridão, observando a cena com interesse.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "segurava",
+                    "ccomp"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "segura",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "enfrentar",
+                    "advcl"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Camões",
+        "sentence": "e, se Camões só em 1553 partiu para a Índia, não é possível que o epigrama e o caso que lhe deu origens fosse anteriores\".",
+        "start_char": 37084,
+        "end_char": 37090,
+        "excerpt": ", anexos aos Anais de D. João III, pp. 440 e 441); e, se Camões só em 1553 partiu para a Índia, não é possível que o epigrama e o caso que lhe deu origens fosse anteriores\".",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "partiu",
+                "child": "Camões",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "partir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Camões",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Camões",
+                "child": "possível",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Camões",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "possível",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "e, se [MASK] só em 1553 partiu para a Índia, não é possível que o epigrama e o caso que lhe deu origens fosse anteriores\".",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, [Eduardo de Morais], após sua chegada em 1553 na Índia, começou a buscar evidências sobre o epigrama e o caso que o teriam marcado no mundo literário. Ele viajou pelas principais cidades comerciais da região, buscando por qualquer referência ou documento que pudesse levar de volta à Europa e confirmar sua teoria sobre a datação do epigrama.",
+        "generated_text_llama": "E assim, Personagem continuou seu caminho, determinado a descobrir a verdade sobre o misterioso epígrafe e o caso que havia desencadeado sua jornada. Ele se aproximou do seu companheiro de viagem, um velho e sábio indiano chamado Raja, que era conhecido por suas vastas conhecimentos sobre a história e a cultura da região.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

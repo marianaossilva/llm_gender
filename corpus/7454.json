@@ -1,0 +1,272 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "filha do",
+        "sentence": "A formosa Angelina, filha do Seabra, tinha um namorado misterioso, que via passar todas as tardes por baixo das suas janelas.",
+        "start_char": 48,
+        "end_char": 56,
+        "excerpt": "CONJUGO VOBIS Artur Azevedo A formosa Angelina, filha do Seabra, tinha um namorado misterioso, que via passar todas as tardes por baixo das suas janelas.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "A formosa Angelina, filha do Seabra,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "formosa",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A formosa Angelina, [MASK] Seabra, tinha um namorado misterioso, que via passar todas as tardes por baixo das suas janelas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Aformosa Angelina Seabra, que vivia numa beira-mar encantador, tinha um namorado misterioso, que via passar todas as tardes por baixo das suas janelas. O nome dele era Gabriel e ele sempre olhava para ela com um olhar sedoso, o que a fascinava e assustava ao mesmo tempo.",
+        "generated_text_llama": "Era uma atmosfera doce e melancólica, que envolvia a sua vida. Cada vez que via o seu amado, sentia um choque de emoções, misturadas com curiosidade e ansiedade. Ele era um homem alto e esbelto, com olhos profundos e expressivos, que pareciam ver além da superfície. Seabra não sabia muitas coisas sobre ele, mas podia sentir a presença dele, como se estivesse presente, mesmo quando estava ausente.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "tinha",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Angelina",
+        "sentence": "Não a lastimem compadecidas leitoras: com 10 dias de Caxambu Angelina tinha se esquecido completam ente do namorado.",
+        "start_char": 1819,
+        "end_char": 1827,
+        "excerpt": "Angelina ficou desesperada por não ter meios de prevenir o moço e lá partiu para Caxambu com o coração amargurado. * * * Não a lastimem compadecidas leitoras: com 10 dias de Caxambu Angelina tinha se esquecido completam ente do namorado.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "ficou",
+                "child": "Angelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Angelina",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "10 dias",
+                "child": "Caxambu Angelina",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "dia",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Caxambu",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Caxambu Angelina",
+                "child": "10 dias",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Caxambu",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "dia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Não a lastimem compadecidas leitoras: com 10 dias de Caxambu [MASK] tinha se esquecido completam ente do namorado.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " A seguir, ela decidiu fazer algo que sempre a ajudava a se soltar da realidade triste e desconfortável: passar um tempo com as amigas. Chamou sua melhor amiga, Luana, que imediatamente aceitou o convite para sair juntas. As duas saíram em uma noite quente no Caxambu e passaram horas divertidas na praia, com óleo de sol nos cabelos, risos contagiosos e conversas que se estendiam pelas noites calorosas da cidade. Pouco a pouco, as preocupações do coração de Maria Bela se diluíam, substituídas pela energia renovadora dos laços de amizade fortes e confiáveis.",
+        "generated_text_llama": "",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Angelina",
+        "sentence": "* * * Regressando das águas, onde se demorou um mês, Angelina viu passar o primeiro namorado, que olhou para ela com uma expressão de surpresa e de alegria, mas a moça fechou o semblante.",
+        "start_char": 2664,
+        "end_char": 2672,
+        "excerpt": "O Seabra, que estava satisfeito da vida, porque o seu fígado melhorava a olhos vistos, acolheu com entusiasmo a idéia de um casamento entre Angelina e o jovem doutor, e era o primeiro a meter-lhe a filha à cara. Em conclusão, o casamento foi tratado lá mesmo, sob o formoso e poético céu do sul de Minas, para realizar-se, o mais breve possível, na Capital Federal. * * * Regressando das águas, onde se demorou um mês, Angelina viu passar o primeiro namorado, que olhou para ela com uma expressão de surpresa e de alegria, mas a moça fechou o semblante.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "um casamento",
+                "child": "Angelina",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "casamento",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "Angelina",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Angelina",
+                "child": "o jovem doutor",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Angelina",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "doutor",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Angelina",
+                "child": "um casamento",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Angelina",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "casamento",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Angelina",
+                "child": "a idéia",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Angelina",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "idéia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Angelina",
+                "child": "acolheu",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Angelina",
+                "dep_c": "xcomp",
+                "pos_c": "ADJ",
+                "lemma_c": "acolheu",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Angelina",
+                "child": "satisfeito",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Angelina",
+                "dep_c": "acl:relcl",
+                "pos_c": "ADJ",
+                "lemma_c": "satisfeito",
+                "word_categories": [
+                    "emo"
+                ],
+                "verb_categories": [],
+                "adj_categories": [
+                    "feeling"
+                ]
+            },
+            {
+                "head": "Angelina",
+                "child": "O Seabra",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Angelina",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Seabra",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "o jovem doutor",
+                "child": "Angelina",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "doutor",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "Angelina",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "viu",
+                "child": "Angelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Angelina",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "* * * Regressando das águas, onde se demorou um mês, [MASK] viu passar o primeiro namorado, que olhou para ela com uma expressão de surpresa e de alegria, mas a moça fechou o semblante.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Desde o momento em que regressou das águas, onde demorara um mês, Personagem teve uma sensação inesperada e indescritível na alma, como se tivesse sido rejuvenescida por todo este tempo de isolamento. Ela sentia-se novamente viva, viva para amar, vivir e aventurar-se ao longo da vida.",
+        "generated_text_llama": "Enquanto passava pelo centro da cidade, Personagem não pôde deixar de se sentir um pouco desconfortável. Ela não estava acostumada a ser olhada de queira por alguém, especialmente não depois de tudo o que havia acontecido. Então, ela rapidamente apagou do rosto qualquer sinal de emoção e continuou a caminhar, perdida em seus pensamentos.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "teve",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pôde",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

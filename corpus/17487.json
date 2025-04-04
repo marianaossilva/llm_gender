@@ -1,0 +1,994 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Paulo",
+        "sentence": "Paulo dizia que a casa fora mal vendida.",
+        "start_char": 1130,
+        "end_char": 1135,
+        "excerpt": "Pedro e Paulo tinham ido enterrar o comendador, que falecera na véspera, de um tifo. Vieram calados, a princípio, depois falaram das novas casas do bairro, afinal caiu a conversa no defunto, a propósito de uma casa que ele vendera três meses antes. Paulo dizia que a casa fora mal vendida.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Pedro",
+                "child": "Paulo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Pedro",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Paulo",
+                "child": "Pedro",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Paulo",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pedro",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "dizia",
+                "child": "Paulo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] dizia que a casa fora mal vendida.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " \"Não era assim\", disse o advogado, irritado com o aviso de Personagem. \"Você acredita que venda a casa fora de seu poder? Você fez isso?\"",
+        "generated_text_llama": "Personagem olhou em volta, sentindo um pouco de raiva e frustração. Ele havia trabalhado duro para comprar a casa, pagando uma quantia considerável por ela, e agora parecia que alguém havia enganado-o.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pedro",
+        "sentence": "Pedro ponderou que os dinheiros mal ganhos não aproveitavam aos donos.",
+        "start_char": 1171,
+        "end_char": 1176,
+        "excerpt": "Vieram calados, a princípio, depois falaram das novas casas do bairro, afinal caiu a conversa no defunto, a propósito de uma casa que ele vendera três meses antes. Paulo dizia que a casa fora mal vendida. Pedro ponderou que os dinheiros mal ganhos não aproveitavam aos donos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ponderou",
+                "child": "Pedro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ponderar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pedro",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] ponderou que os dinheiros mal ganhos não aproveitavam aos donos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Personagem, reflexionando, descobriu que o dinheiro mal-ganhado não trazia pra eles nada além de uma cadeira mais confortável ou alguns bens materiais superficias. Ele sentiu-se pesaroso, pois sabia que essa riqueza havia sido conquistada com o suplício de outrem.",
+        "generated_text_llama": "Personagem começou a pensar em uma maneira de investir seus rendimentos de forma mais eficaz, sabendo que não queria voltar à mesma rotina de vender coisas baratas no mercado negro. Ele lembrou-se da conversa com o amigo, Vitor, que falava sobre um investimento imobiliário que estava tendo sucesso. Mesmo que fosse arriscado, Personagem decidiu que valia a pena tentar.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "descobriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paulo",
+        "sentence": "Ao que Paulo redargüiu que não, que o comendador era homem honesto, posto que burro.",
+        "start_char": 1249,
+        "end_char": 1254,
+        "excerpt": "Paulo dizia que a casa fora mal vendida. Pedro ponderou que os dinheiros mal ganhos não aproveitavam aos donos. Ao que Paulo redargüiu que não, que o comendador era homem honesto, posto que burro.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "dizia",
+                "child": "Paulo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "redargüiu",
+                "child": "Paulo",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "redargüiu",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Ao que [MASK] redargüiu que não, que o comendador era homem honesto, posto que burro.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem, sabendo que seus inimigos queriam apenas discreditar o Comendador D. Ávila de Barros, decidiu tomar medidas para defender a integridade e honra do homem que considerava seu amigo. Ao mesmo tempo, não queria que nenhuma discussão sobre isso causasse tumultos na aldeia ou prejudicasse as relações com os índios locais. Portanto, Freire convocou todos os habitantes da aldeia e, num sólido discurso, explicou por que o Comendador era uma pessoa honesta, embora burra, como qualquer outro humano. Em seguida, ele também falou sobre a importância de respeitar a lei e a justiça para preservar a harmonia social na aldeia e entre os índios. As palavras de Freire foram ouvidas em silêncio pela multidão, que sabia que ele tinha um coração sagrado para a verdade e a justiça. A partir daí, a discussão sobre o Comendador acabou e a aldeia voltou à tranquilidade, sabendo que Freire faria tudo o que estivesse na mão dele para proteger seus residentes e preservar sua paz.",
+        "generated_text_llama": "Com um sorriso malicioso, Personagem continuou a conversa, dizendo: \"Sim, o comendador é um homem de grande integridade, embora possa ser um pouco... esquelético no seu julgamento\". Personagem riu internamente, sabendo que estava apenas jogando com as expectativas do comendador, para ver como ele reagiria. Ele então mudou de assunto, perguntando ao comendador sobre os planos para a festa da noite, tentando evitar qualquer discussão mais polêmica.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ],
+                [
+                    "riu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pedro",
+        "sentence": "Burro não digo, replicou Pedro; era finório e grande finório.",
+        "start_char": 1352,
+        "end_char": 1357,
+        "excerpt": "Pedro ponderou que os dinheiros mal ganhos não aproveitavam aos donos. Ao que Paulo redargüiu que não, que o comendador era homem honesto, posto que burro. Burro não digo, replicou Pedro; era finório e grande finório.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ponderou",
+                "child": "Pedro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ponderar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pedro",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "replicou",
+                "child": "Pedro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "replicar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pedro",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Burro não digo, replicou [MASK]; era finório e grande finório.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mais uma vez, o vento soprava forte pelo sertão, arrastando as areias com eles. O velho João não se espantava com isso; tinha muitos anos ao serviço da natureza e sabia que a mesma, a sua grande amiga, lhe daria todas as respostas necessárias para que pudesse viver neste mundo tão cruel e árido.",
+        "generated_text_llama": "Ele sorriu, exibindo seus dentes brancos, e disse: \"Não se preocupe, não vou te fazer nada. Estou apenas curioso sobre aquele caso do burro que roubou o rei\". Personagem sabia que aquela história era uma das favoritas do rei e não queria parecer ignorante. Ele inclinou-se um pouco mais para frente, interessado em ouvir a explicação do rei.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "espantava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paulo",
+        "sentence": "Um homem pode ser finório e besta, explicou Paulo.",
+        "start_char": 1433,
+        "end_char": 1438,
+        "excerpt": "Ao que Paulo redargüiu que não, que o comendador era homem honesto, posto que burro. Burro não digo, replicou Pedro; era finório e grande finório. Um homem pode ser finório e besta, explicou Paulo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "redargüiu",
+                "child": "Paulo",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "redargüiu",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "explicou",
+                "child": "Paulo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "explicar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Um homem pode ser finório e besta, explicou [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " E então, o homem fez um passo adiante, demonstrando que sua natureza selvagem não lhe impedia de mostrar um lado refinado. Encheu-se uma taça de café com bebida especial importada e ofereceu-a a quem estava na sala, um olhar resoluto no rosto do visitante. Ao tocar o copo em sua mão, desferiu uma frase sutil que demonstrava conhecimento profundo da música clássica: \"É como uma sonata de Mozart, a complexidade e a elegância dela é incomparável.\" O olhar do homem se tornou mais profundo, seu rosto enigmático, como sempre. Mas era difícil negar que ele tivesse uma sabedoria rara combinada com uma energia selvagem que o faziam o homem que todos conheciam como um finório e besta.",
+        "generated_text_llama": "Sorrindo amargosamente, Personagem olhou para o homem com um olhar penetrante, como se estivesse vendo por trás de uma camada de mentira. \"Eu sei que você é um homem de palavras vazias\", disse ele, sua voz firme e autoritária. \"Mas eu não vou deixar que você me venha atrapalhar. Eu vou continuar a lutar pela justiça, mesmo que isso signifique enfrentar você e seus amigos.\" Personagem pausou por um momento, olhando ao redor, para garantir que ninguém estivesse ouvindo. \"E você\", disse ele finalmente, \"está preparado para enfrentar o que é correto?\"",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ],
+                [
+                    "pausou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pedro",
+        "sentence": "Pedro insistia em não admitir que ele fosse honesto; Paulo dizia que sim, que nesse particular não havia que dizer.",
+        "start_char": 2419,
+        "end_char": 2424,
+        "excerpt": "Quase igual! Riam ambos, a praia estava bonita, conversaram dela alguns minutos, mas tornaram logo ao finado, cuja vida foi longamente analisada. Pedro insistia em não admitir que ele fosse honesto; Paulo dizia que sim, que nesse particular não havia que dizer.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "insistia",
+                "child": "Pedro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "insistir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pedro",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] insistia em não admitir que ele fosse honesto; Paulo dizia que sim, que nesse particular não havia que dizer.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " São apenas palavras de Paulo e Personagem, uma pessoa muito rigorosa e reservada, não compartilhava seus sentimentos facilmente. Mas após algum tempo, ela sentiu que precisava se libertar daquela cadeia mental que a impedia de reconhecer o bons senso de humor de Paulo e sua bondade.",
+        "generated_text_llama": "[A MASK] sorriu amargamente e fez um gesto de desespero com as mãos, como se estivesse sendo sacudido por uma força externa. \"Não posso acreditar em você\", disse, a voz tremendo ligeiramente. \"Você é um mentirou, Paulo. Sempre foi um mentirou.\" Personagem começou a se afastar de Paulo, seus passos largos e confiantes que agora pareciam mais lentos e hesitantes.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paulo",
+        "sentence": "Pedro insistia em não admitir que ele fosse honesto; Paulo dizia que sim, que nesse particular não havia que dizer.",
+        "start_char": 2472,
+        "end_char": 2477,
+        "excerpt": "Quase igual! Riam ambos, a praia estava bonita, conversaram dela alguns minutos, mas tornaram logo ao finado, cuja vida foi longamente analisada. Pedro insistia em não admitir que ele fosse honesto; Paulo dizia que sim, que nesse particular não havia que dizer.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "dizia",
+                "child": "Paulo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Pedro insistia em não admitir que ele fosse honesto; [MASK] dizia que sim, que nesse particular não havia que dizer.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Pedro, para comprovar que era honesto como afirmava, procurou uma maneira de demonstrar isso aos outros. Ele decidiu contribuir para a coleta de fundos para a escola, um trabalho que requer integração e honestidade, pois as doações são registradas e verificáveis. Pedro visitou uma loja de antiguidades, comprou alguns itens valiosos que não pertenciam a ele e entregou-os ao caixa da coleta de fundos para a escola, dizendo que eram doações anônimas.",
+        "generated_text_llama": "Pedro acenou com a mão, sinalizando que era hora de mudar de assunto. Ele levantou-se da cadeira e começou a caminhar até a janela, olhando para fora enquanto se preparava para contar outra história. \"Bem, não seja tão difícil, Pedro\", disse Personagem, com um sorriso malicioso. \"Vamos falar sobre o que realmente aconteceu naquela noite...\".",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "visitou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "disse",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pedro",
+        "sentence": "Nem beneficiar aos outros, acudiu Pedro.",
+        "start_char": 2616,
+        "end_char": 2621,
+        "excerpt": "Pedro insistia em não admitir que ele fosse honesto; Paulo dizia que sim, que nesse particular não havia que dizer. Não seria homem de sacrificar-se, é verdade... Nem beneficiar aos outros, acudiu Pedro.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "insistia",
+                "child": "Pedro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "insistir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pedro",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "acudiu",
+                "child": "Pedro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acudir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pedro",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Nem beneficiar aos outros, acudiu [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele, com um olhar determinado, deixou de brincar e se dirigiu à cozinha. Ali, puxou uma garrafa cheia de água e começou a derramá-la nos canos, que estavam bochechados pela força da areia. A água fluiu rapidamente e expulsou os obstáculos, retomando assim o fluxo de água para as casas vizinhas. E foi aí que Ele, como sempre, mostrou sua capacidade de resolver problemas com simples soluções e servir a comunidade que o amava tanto.",
+        "generated_text_llama": "Ao ouvir a mensagem de alerta, Personagem imediatamente deixou seu trabalho e se dirigiu para a delegacia de polícia mais próxima. Ele sabia que tinha que agir rápido, pois o relato do evento era alarmante. Com sua mente focada, Personagem entrou na delegacia, apresentou-se ao oficial de turno e pediu informações sobre o caso.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "deixou",
+                    "ROOT"
+                ],
+                [
+                    "entrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paulo",
+        "sentence": "Paulo respondeu que sim; nem por isso evitou que Pedro lhe contasse a grande mágoa que tinha do defunto.",
+        "start_char": 2647,
+        "end_char": 2652,
+        "excerpt": "Nem beneficiar aos outros, acudiu Pedro. Sabe o que me fez, não? Paulo respondeu que sim; nem por isso evitou que Pedro lhe contasse a grande mágoa que tinha do defunto.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "respondeu",
+                "child": "Paulo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] respondeu que sim; nem por isso evitou que Pedro lhe contasse a grande mágoa que tinha do defunto.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Pedro tomou um suspiro e se inclinou levemente sobre o cadáver de seu pai. Através dos lábios secos, falou em voz baixa e triste. Contou-lhe a grande mágoa que sentia, a culpa e as dificuldades enfrentadas desde a morte do pai. Ao ouvir, Personagem ficou quieto e olhou para Pedro com um olhar profundo e comprensivo. Então, de repente, uma sonrisa delicada e gentil passou por suas costelhas. \"Nem todo aquilo é tão sombrio como parece, Pedro. Vamos superar isso juntos\", disse ela, colocando o braço ao redor do garoto, em uma tentativa de fornecer-lhe conforto e suporte nesse momento difícil. Em seguida, pôs sua mão na de Pedro e os dois se sentaram em silêncio por um momento, achando que o tempo poderia sanar as feridas abertas no coração de Pedro pela morte de seu pai e fornecer-lhe a força para enfrentar a vida sem ele.",
+        "generated_text_llama": "Pedro olhou para João com um olhar triste, e começou a contar sobre o que havia acontecido com o seu pai. \"Ele estava muito doente\", disse Pedro, \"e não conseguimos salvar a vida dele\". João ouviu atentamente, suas lágrimas começaram a correr sem parar, ele nunca imaginava que sua morte seria tão trágica.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ],
+                [
+                    "disse",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pedro",
+        "sentence": "Paulo respondeu que sim; nem por isso evitou que Pedro lhe contasse a grande mágoa que tinha do defunto.",
+        "start_char": 2696,
+        "end_char": 2701,
+        "excerpt": "Nem beneficiar aos outros, acudiu Pedro. Sabe o que me fez, não? Paulo respondeu que sim; nem por isso evitou que Pedro lhe contasse a grande mágoa que tinha do defunto.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "acudiu",
+                "child": "Pedro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acudir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pedro",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "contasse",
+                "child": "Pedro",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "contar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pedro",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Paulo respondeu que sim; nem por isso evitou que [MASK] lhe contasse a grande mágoa que tinha do defunto.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Paulo, com uma expressão de profunda compaixão e tristeza nos olhos, pediu-lhe que falasse abertamente sobre o assunto. Ele ouvia attentamente ao relato de sua amiga e tentava compreender todos os sentimentos que ela sentia, mesmo que fosse difícil para ele enxergar tão próximo das emoções que lhe causavam tanto sofrimento.",
+        "generated_text_llama": "Ele se inclinou um pouco para frente, seus olhos brilhando com curiosidade, e disse: \"Ah, não? Então, conte-me tudo. O que aconteceu com meu pai?\". A voz de Paulo era suave, mas firmemente emocional, e Personagem podia perceber que estava tentando entender a perspectiva do seu amigo. Ele respirou fundo, preparando-se para compartilhar a história que o havia consumido ultimamente.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "pediu-lhe",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paulo",
+        "sentence": "Paulo tirou a conversação desse terreno, falando nas manias do comendador que eram muitas; depois contaram anedotas, ditos ridículos, erros de prosódia, pacholices.",
+        "start_char": 3296,
+        "end_char": 3301,
+        "excerpt": "Ficamos brigados por algum tempo; depois, quando eu já estava estabelecido, foi ele mesmo que me procurou para uma companhia... Fizemos as pazes, mas eu sempre lhe disse umas duas palavras, que ele ficou amarelo. Paulo tirou a conversação desse terreno, falando nas manias do comendador que eram muitas; depois contaram anedotas, ditos ridículos, erros de prosódia, pacholices.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tirou",
+                "child": "Paulo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tirar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] tirou a conversação desse terreno, falando nas manias do comendador que eram muitas; depois contaram anedotas, ditos ridículos, erros de prosódia, pacholices.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Coronel, agora mais confiante e relaxado, começou a narrar suas observações sobre o comendador, detalhando as muitas manias que ele apresentava. Ao longo da noite, eles se envolveram em anedotas engraçadas, histórias ridículas e piadas que desafiavam a própria lógica. As conversas giravam por erros de prosódia, onde o comendador costumava pronunciar palavras incomumente ou criar sua própria terminologia bizarra, além de muitos outros pacholices que levavam às riradas do outro. No entanto, era evidente que as conversas estavam ajudando os dois a conhecer mais um ao outro e a se sentirem mais confortáveis uma com a outra.",
+        "generated_text_llama": "Depois de vários minutos de discussão embaraçosa sobre a habilidade do comandante em fazer um \"pato pardo\" enquanto tentava caminhar, Personagem decidiu que era hora de mudar de assunto e começou a contar uma anedota sobre o famoso incidente em que o comendador tentou comer um feijão vermelho picado e terminou com os olhos coroados. A multidão se riu abertamente, mas Personagem sabia que estava apenas criando mais confusão.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "sabia",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paulo",
+        "sentence": "Paulo referiu que o finado, depois de ler um romance de Dumas, passado na corte de França, começou a beijar a mão à mulher, quando entrava ou saía de casa.",
+        "start_char": 3461,
+        "end_char": 3466,
+        "excerpt": "Fizemos as pazes, mas eu sempre lhe disse umas duas palavras, que ele ficou amarelo. Paulo tirou a conversação desse terreno, falando nas manias do comendador que eram muitas; depois contaram anedotas, ditos ridículos, erros de prosódia, pacholices. Paulo referiu que o finado, depois de ler um romance de Dumas, passado na corte de França, começou a beijar a mão à mulher, quando entrava ou saía de casa.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tirou",
+                "child": "Paulo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tirar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "referiu",
+                "child": "Paulo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "referir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] referiu que o finado, depois de ler um romance de Dumas, passado na corte de França, começou a beijar a mão à mulher, quando entrava ou saía de casa.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele desceu as escadas da sua casa antiga e, em vez do habitual olhar nos jardins que ele sempre admirava, ele se voltou para uma mulher que estava sentada na porta. Era sua namorada, que aguardava tristeza por ele há dias. A mulher sorriu e deitou-se em seus braços.",
+        "generated_text_llama": "Após ter feito essa declaração, Personagem não se contentou em simplesmente dizer que o finado havia começado a fazer isso, mas sim queria mostrar que era um comportamento completamente inusitado e que as pessoas ao seu redor estavam muito surpresa com esse novo \"costume\" do seu amigo. Então, Personagem decidiu continuar a história, descrevendo como o comportamento de Personagem continuou inovador em outras situações da vida do finado.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "contentou",
+                    "ROOT"
+                ],
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pedro",
+        "sentence": "Pedro piscou o olho e sorriu.",
+        "start_char": 3686,
+        "end_char": 3691,
+        "excerpt": "Paulo referiu que o finado, depois de ler um romance de Dumas, passado na corte de França, começou a beijar a mão à mulher, quando entrava ou saía de casa. A mulher é que não esteve pelos autos, e o costume durou cinco dias. Pedro piscou o olho e sorriu.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "piscou",
+                "child": "Pedro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "piscar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pedro",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] piscou o olho e sorriu.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de olhar e sorrir, Personagem se levantou da cadeira e caminhou até a porta da sala, carregando consigo a energia viva e contagiante que exalava. Entrou em sua câmara e, passados alguns segundos de organização e reflexão, abriu a janela para olhar ao mundo exterior. A cidade estava esplendente sob a luz da noite, com as suas luzes que se multiplicavam até desaparecerem numa ondulação de cores vívidas e vibrantes. O Personagem sentiu uma intensa sensação de libertação que percorreu seu corpo, e assim, começou a cantar, solto na memória do seu pasado, do seu amor à música e ao desejo de compartilhar sua voz com os outros. Sentiu o ar quente em seu peito subir em suas vocalizações, fazendo-as mais potentes e expressivas. Assim, iniciou a gravar uma nova música que se juntaria às tantas canções já compostas durante sua longa carreira musical.",
+        "generated_text_llama": "Ele se levantou da cadeira, estendendo as pernas após um longo tempo sentado, e caminhou até a janela para olhar para fora. A lua cheia brilhava intensamente no céu noturno, iluminando as sombras das árvores que cercavam a casa. Personagem respirou fundo, sentindo o ar fresco da noite entrar pelos pulmões, e então se virou para voltar ao quarto.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "respirou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paulo",
+        "sentence": "continuou Paulo, e recordou que era vaidoso até das barbas; nunca estava ao pé da gente que não as puxasse muito, olhando para elas, como se procurasse um argueiro, mas era para que vissem que eram finas e luzidias.",
+        "start_char": 3831,
+        "end_char": 3836,
+        "excerpt": "Era um tolo, concordou. Quando andava, você não reparou que ele, quando andava, tinha uns ares adamados? continuou Paulo, e recordou que era vaidoso até das barbas; nunca estava ao pé da gente que não as puxasse muito, olhando para elas, como se procurasse um argueiro, mas era para que vissem que eram finas e luzidias.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "continuou",
+                "child": "Paulo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "continuar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "continuou [MASK], e recordou que era vaidoso até das barbas; nunca estava ao pé da gente que não as puxasse muito, olhando para elas, como se procurasse um argueiro, mas era para que vissem que eram finas e luzidias.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuou Personagem, e recordou que era vaidoso até das barbas; nunca estava ao pé da gente que não as puxasse muito, olhando para eles, como se procurasse um argumento, mas era para que vissem que eram finas e luzidias. Aproximou-se do espelho, onde verificou sua reflexão aos detalhes. O cabelo branco e a barba cinzenta pareciam uma fita de veludo dourado, contrasteando com a sua pele tão pálida que se parecia com o papel-pardo. Levantou um dedo para baixo, olhando sua unha de ouro no espelho; ainda era bela e arredondada, como sempre.",
+        "generated_text_llama": "Continuou a caminhar pelas ruas estreitas, rodeado pelo barulho das pessoas e do vento que arranhava as calçadas. As barbas de Personagem flutuavam atrás dele, como um sombra viva que dançava ao ritmo do seu passo. Ele olhou para os reflexos nos vidros brilhantes dos carros e nas lentes das lojas, verificando se as suas barbas estavam bem definidas.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paulo",
+        "sentence": "Paulo não podia suportar o costume que o finado tinha de fazer uma cruz na boca, com o polegar, quando bocejava; nem o de palitar os dentes com a língua.",
+        "start_char": 4398,
+        "end_char": 4403,
+        "excerpt": "Isso sim. Vieram os sestros do comendador. Paulo não podia suportar o costume que o finado tinha de fazer uma cruz na boca, com o polegar, quando bocejava; nem o de palitar os dentes com a língua.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "podia",
+                "child": "Paulo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não podia suportar o costume que o finado tinha de fazer uma cruz na boca, com o polegar, quando bocejava; nem o de palitar os dentes com a língua.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, a Personagem, apoiando-se no canto da cama e mantendo a calma que sempre exibia, fez uma pausa e, com a mais delicada doçura, disse:",
+        "generated_text_llama": "Personagem não podia suportar o costume que o finado tinha de fazer uma cruz na boca, com o polegar, quando bocejava; nem o de palitar os dentes com a língua. Ele estava sendo filmado em uma entrevista com um jornalista especializado em fenômenos sobrenaturais e não queria que as câmeras capturassem essa imagem ridícula.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "apoiando-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pedro",
+        "sentence": "Pedro não conhecia muitos, era menos assíduo na casa que Paulo.",
+        "start_char": 4552,
+        "end_char": 4557,
+        "excerpt": "Vieram os sestros do comendador. Paulo não podia suportar o costume que o finado tinha de fazer uma cruz na boca, com o polegar, quando bocejava; nem o de palitar os dentes com a língua. Pedro não conhecia muitos, era menos assíduo na casa que Paulo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "conhecia",
+                "child": "Pedro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "conhecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pedro",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não conhecia muitos, era menos assíduo na casa que Paulo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Entretanto, Personagem, que raramente era visto em casa, preferindo a natureza e as rotinas de trabalho, desceu às ruas pela manhã com um saco cheio. De vez em quando, aparecia no local onde os jovens e o velho conversavam e trocavam ideias; mas hoje, o seu saco parecia pesado.",
+        "generated_text_llama": "E assim, quando Paulo convidou-o para se juntar a uma noite de jogos de cartas e bebidas em casa de um amigo, Personagem hesitou por um momento antes de aceitar a oferta. Ele sabia que não era exatamente o tipo de gente que gostava de frequentar o apartamento de Paulo, mas algo na voz do amigo o fez mudar de ideia.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "desceu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "hesitou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Paulo",
+        "sentence": "Pedro não conhecia muitos, era menos assíduo na casa que Paulo.",
+        "start_char": 4609,
+        "end_char": 4614,
+        "excerpt": "Vieram os sestros do comendador. Paulo não podia suportar o costume que o finado tinha de fazer uma cruz na boca, com o polegar, quando bocejava; nem o de palitar os dentes com a língua. Pedro não conhecia muitos, era menos assíduo na casa que Paulo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "podia",
+                "child": "Paulo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Paulo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Paulo",
+                "child": "assíduo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Paulo",
+                "dep_c": "advcl",
+                "pos_c": "ADJ",
+                "lemma_c": "assíduo",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Pedro não conhecia muitos, era menos assíduo na casa que [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Pedro raspava a boca com um sorriso nervoso, percebendo o peso do silêncio que caira sobre ele. Sentado no banco de madeira da varanda, olhando para a distância, ele decidiu andar por todo o jardim, tentando esquecer o sentimento de insegurança que o enlouquecia.",
+        "generated_text_llama": "Ele era um homem de hábitos solitários e preferia passar mais tempo sozinho em seus projetos, longe da turba. A cada vez que via Pedro, Personagem não podia deixar de notar a sua calma e serenidade, contrastando com o seu próprio temperamento mais explosivo. Enquanto o resto do grupo se divertia com histórias e risadas, Personagem preferia ouvir música alta e perder-se em seus pensamentos.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "raspava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "ROOT"
+                ],
+                [
+                    "preferia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

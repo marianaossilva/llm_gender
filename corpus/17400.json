@@ -1,0 +1,1166 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "João",
+        "sentence": "João chamou um médico da vizinhança, que me veio ver e conseguiu pôr-me são.",
+        "start_char": 11562,
+        "end_char": 11566,
+        "excerpt": "Durante este primeiro período fui à Tijuca duas vezes. Preparava-me para ir a Petrópolis quando fui atacado de uma febre intermitente. João chamou um médico da vizinhança, que me veio ver e conseguiu pôr-me são.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "chamou",
+                "child": "João",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chamar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] chamou um médico da vizinhança, que me veio ver e conseguiu pôr-me são.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Dr. Santos, de maneira calma e profissional, escolheu uma solução para o problema do meu peito agonizante: uma punção torácica para drenar a água que estava acumulando nele.",
+        "generated_text_llama": "Ele ficou por algumas horas em casa, descansando e bebendo uma xarope de limão para ajudar a aliviar o desconforto. O médico recomendou que ele evitasse qualquer atividade física intensa durante alguns dias e se mantivesse hidratado. Enquanto isso, Personagem não podia deixar de pensar no ocorrido. Como era possível que ele tivesse sido atingido por um raio? Ele sempre havia seguido as regras básicas de segurança ao estar ao ar livre.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "escolheu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João",
+        "sentence": "João voltou dizendo que o doutor, depois de hesitar, não quisera receber a carta, mas que se preparava para ir à minha casa.",
+        "start_char": 13091,
+        "end_char": 13095,
+        "excerpt": "Entrando em convalescença, julguei que era tempo de satisfazer as visitas do médico. Escrevi-lhe uma carta, incluí a quantia que julgava devida, e mandei pelo João à casa do doutor. João voltou dizendo que o doutor, depois de hesitar, não quisera receber a carta, mas que se preparava para ir à minha casa.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": ", e mandei",
+                "child": "João",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "mandar",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "João",
+                "child": ", e mandei",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "João",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "mandar",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "voltou",
+                "child": "João",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "voltar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] voltou dizendo que o doutor, depois de hesitar, não quisera receber a carta, mas que se preparava para ir à minha casa.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ela se lembrou do número de telefone do doutor e resolveu chamá-lo antes de sua visita. Ao som dos toques, o telefone bzirrava em seu quarto e uma voz familiar respondeu.",
+        "generated_text_llama": "Personagem olhou para si mesmo com uma expressão pensativa, como se estivesse tentando entender por que o doutor não havia aceitado a carta no início. Ele sabia que o médico estava ansioso para investigar o caso, mas também era um homem ocupado e tinha muitas responsabilidades. Em seguida, ele decidiu fazer uma ligação rápida para confirmar os detalhes do encontro e garantir que tudo estivesse em ordem.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mano Bento",
+        "sentence": "Mano Bento, disse o doutor, aqui te apresento o sr É um amigo.",
+        "start_char": 15658,
+        "end_char": 15668,
+        "excerpt": "E chamando um moleque mandou chamar o irmão. Daí a pouco vi entrar na sala em que nos achávamos um homem alto, menos velho que o doutor, mas cujas feições indicavam a mesma placidez de alma e qualidades do coração. Mano Bento, disse o doutor, aqui te apresento o sr É um amigo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Mano Bento,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mano",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], disse o doutor, aqui te apresento o sr É um amigo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " \"Esse é Sr. Carlos,\" disse o doutor, apontando para a figura que se aproximava deles. A senhora Miriam sorriu e estendeu a mão para o homem em questão.",
+        "generated_text_llama": "O sr. sorriu e estendeu a mão para Personagem se cumprimentar. \"Sinto muito por terido de te trazer notícias difíceis\", disse ele, com uma voz calma e repleta de empatia. \"Mas quero que saiba que estou aqui para apoiant-lo em cada passo do caminho.\"",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "disse",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bento",
+        "sentence": "Bento recebeu-me com a maior cordialidade e dirigiu-me palavras da mais tocante benevolência.",
+        "start_char": 15721,
+        "end_char": 15726,
+        "excerpt": "Daí a pouco vi entrar na sala em que nos achávamos um homem alto, menos velho que o doutor, mas cujas feições indicavam a mesma placidez de alma e qualidades do coração. Mano Bento, disse o doutor, aqui te apresento o sr É um amigo. Bento recebeu-me com a maior cordialidade e dirigiu-me palavras da mais tocante benevolência.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Mano Bento,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mano",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "recebeu-me",
+                "child": "Bento",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "receber eu",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bento",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] recebeu-me com a maior cordialidade e dirigiu-me palavras da mais tocante benevolência.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após ouvir as palavras dela, me sinto tão tocado que não podia fazer nada a menos que lembraresse a ela que eu era o mesmo rapaz que havia conhecido anos atrás em uma viagem de verão. Eu olhei para ela e percebi que ela também estava me recordando, pois o sorriso dela se tornou mais grande e mais agradável.",
+        "generated_text_llama": "Com um sorriso caloroso, Personagem me convidou para sentarm-me à mesa de jantar, indicando as várias opções de pratos que havia disponíveis. \"Aqui está o cardápio do dia\", disse ele, mostrando-me uma carta onde estavam destacados os pratos da casa. Ele sugeriu que eu comecesse com o sopas quentes e doce, seguida pelo arroz e feijão, acompanhado de um prato de frango assado ao forno. Enquanto isso, Personagem se levantou para preparar meu chá, um chá tradicional da região que ele sabia que eu adorava.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "convidou",
+                    "ROOT"
+                ],
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bento",
+        "sentence": "Bento não era tão instruído como o doutor, mas tinha a mesma bondade e afabilidade, de modo que eu sempre ganhava com um ou com outro.",
+        "start_char": 16450,
+        "end_char": 16455,
+        "excerpt": "O doutor saía de manhã e voltava à tarde para casa. Durante o dia ficávamos eu e o irmão do doutor, matávamos o tempo passeando ou conversando; Bento não era tão instruído como o doutor, mas tinha a mesma bondade e afabilidade, de modo que eu sempre ganhava com um ou com outro.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "instruído",
+                "child": "Bento",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "instruir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bento",
+                "word_categories": [
+                    "social",
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não era tão instruído como o doutor, mas tinha a mesma bondade e afabilidade, de modo que eu sempre ganhava com um ou com outro.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a história...",
+        "generated_text_llama": "Enquanto conversávamos sobre as causas da sua falta de conhecimento em medicina, Personagem começou a se desculpar por qualquer mal-entendido que pudesse ter causado e me pediu para lhe explicar os conceitos mais complexos uma vez mais. Eu, sabendo que ele era um homem de boa vontade e com um coração gentil, aceitei sua solicitação e comecei a desenrolar uma teoria detalhada sobre o sistema circulatório. Personagem me olhou com atenção, seus olhos brilhando com curiosidade, enquanto eu fazia as explicações.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ângela",
+        "sentence": "Se Ângela vier agora para casa, parecerá que, contando com o coração e a mocidade de ambos, armo a fortuna do rapaz.",
+        "start_char": 17980,
+        "end_char": 17986,
+        "excerpt": "Pelas nossas conversas soube eu que ele possui uma fortuna muito regular. Obriguei-o a vir para aqui. Se Ângela vier agora para casa, parecerá que, contando com o coração e a mocidade de ambos, armo a fortuna do rapaz.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "vier",
+                "child": "Ângela",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "vier",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ângela",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Se [MASK] vier agora para casa, parecerá que, contando com o coração e a mocidade de ambos, armo a fortuna do rapaz.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Com as mãos cheias de objetos raros e inusitados, ele passou pela porta da casa, enquanto os olhos de seus pais se perguntavam sobre o que estava carregando no saco. A partir daí, parece que tudo mudou para o melhor em sua vida: a música de sua viola tornou-se mais suave e harmoniosa; seu cavalo corria com velocidade inigualável nas corridas; as pessoas na cidade começaram a se aproximar dele, impressionadas por suas habilidades incríveis. Por fim, ele conseguiu conquistar a menina que sempre amou, e juntos eles partiram para um futuro lleno de promessas e esperança.",
+        "generated_text_llama": "Quando chegou em casa, Personagem se sentiu invadido por uma sensação de cansaço e exaustão física, mas ao mesmo tempo, sentia que estava pronto para enfrentar qualquer desafio que viesse na frente. Ele se aproximou da porta e fechou-a com um sorriso, sentindo-se seguro dentro dos muros de sua casa, que parecia ser o único lugar onde ele podia encontrar algum momento de tranquilidade.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ângela",
+        "sentence": "Ângela recebeu com verdadeira satisfação a notícia de que ia para casa de seu pai.",
+        "start_char": 19280,
+        "end_char": 19286,
+        "excerpt": "Entretanto vamos hoje buscar a filha desterrada. Acabado o almoço mandou-se preparar o carro e fomos os três buscar a filha do doutor. Ângela recebeu com verdadeira satisfação a notícia de que ia para casa de seu pai.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "recebeu",
+                "child": "Ângela",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "receber",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ângela",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] recebeu com verdadeira satisfação a notícia de que ia para casa de seu pai.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem recolheu as últimas coisas necessárias e preparou-se para partir para casa do pai. Ao longo da viagem, se lembrou dos momentos mais simples, mas incríveis que havia vivido lá. Recorda-se do sonho de ser um astronauta que compartilhava com o pai, que era um físico, e como tinha iluminado quando Personagem se matriculou na faculdade de engenharia aeronáutica.",
+        "generated_text_llama": "Com o coração cheio de alegria e expectativa, Personagem não demorou muito para dar as boas-vindas à sua mãe, que estava esperando por ele na porta do lar. Ele abraçou-a com força, sorrindo-se olhos brilhantes de felicidade.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "recolheu",
+                    "ROOT"
+                ],
+                [
+                    "matriculou",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "demorou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ângela",
+        "sentence": "Quando Ângela deu parte de pronta, despedimo-nos e o doutor ofereceu a casa ao namorado, mas com uma fria polidez.",
+        "start_char": 20167,
+        "end_char": 20173,
+        "excerpt": "Se não era o dote, eram os gozos dos sentidos, ou então simples vaidade, não faltando uma destas razões, e é essa a explicação plausível daquilo que eu já chamava namoro. Os meus dois hóspedes conheciam o rapaz. Quando Ângela deu parte de pronta, despedimo-nos e o doutor ofereceu a casa ao namorado, mas com uma fria polidez.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "deu",
+                "child": "Ângela",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ângela",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando [MASK] deu parte de pronta, despedimo-nos e o doutor ofereceu a casa ao namorado, mas com uma fria polidez.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em seguida, [JOHN DOE] sorriu agradecidamente ao doutor por sua generosidade, mas simplesmente declinou a oferta de comprar a casa como um presente. \"Obrigado, doutor\", disse John Doe com uma voz respeitosa e calma. \"Eu preciso ter algum tempo para pensar nisso. Talvez tenha outras opções que também preciso considerar.\"",
+        "generated_text_llama": "A casa, com seu jardim cheio de flores e seu sofá confortável, parecia ser o local perfeito para os dois amantes se estabelecerem. Mas Personagem sabia que a verdadeira testemunha seria o doutor, que observava tudo com um olhar sério, enquanto cumprimentava o novo cunhado com uma mão firme.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ângela",
+        "sentence": "Ângela mostrava uma alegria infantil tornando a ver o jardim, a casa, a alcova em que dormia, o gabinete em que lia ou trabalhava.",
+        "start_char": 21776,
+        "end_char": 21782,
+        "excerpt": "Pouca que seja embora a prática que eu tenho do mundo, o pouco que tenho visto, e algo que tenho lido, o muito que tenho refletido, deu- me lugar a poder tirar esta conclusão. Chegamos finalmente a Andaraí. Ângela mostrava uma alegria infantil tornando a ver o jardim, a casa, a alcova em que dormia, o gabinete em que lia ou trabalhava.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "mostrava",
+                "child": "Ângela",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mostrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ângela",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] mostrava uma alegria infantil tornando a ver o jardim, a casa, a alcova em que dormia, o gabinete em que lia ou trabalhava.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando, ela sentou-se na cadeira ao lado da janela, olhando para o mundo exterior com um olhar tranquilo e reflexivo. A natureza parecia mais viva, mais pura nessa noite em que a lua brilhava intensamente no céu. A árvore que sempre adornou sua visão agora se tornou uma espécie de testemunha silenciosa da sua jornada.",
+        "generated_text_llama": "Era como se ele tivesse descoberto um mundo novo e mágico. Ele começou a explorar cada canto da sua pequena moradia, fazendo perguntas para si mesmo sobre como tudo era construído e por quem foi feito. Seu olhar curioso o levava a examinar as pinceladas de pintura nas paredes, as tesouras usadas no gabinete de seu pai, que também era um artista.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ângela",
+        "sentence": "Dois dias depois da chegada de Ângela a Andaraí apareceu lá o sr. Azevedinho, que é o nome do rapaz que eu vira em casa da irmã do doutor.",
+        "start_char": 21938,
+        "end_char": 21944,
+        "excerpt": "Chegamos finalmente a Andaraí. Ângela mostrava uma alegria infantil tornando a ver o jardim, a casa, a alcova em que dormia, o gabinete em que lia ou trabalhava. Dois dias depois da chegada de Ângela a Andaraí apareceu lá o sr. Azevedinho, que é o nome do rapaz que eu vira em casa da irmã do doutor.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "mostrava",
+                "child": "Ângela",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mostrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ângela",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "chegada",
+                "child": "Ângela",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "chegada",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Ângela",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Ângela",
+                "child": "chegada",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Ângela",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "chegada",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Ângela",
+                "child": "Dois dias",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Ângela",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "dia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Dois dias depois da chegada de [MASK] a Andaraí apareceu lá o sr. Azevedinho, que é o nome do rapaz que eu vira em casa da irmã do doutor.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O rapaz acenou de volta com um sorriso amigável. No dia seguinte, Personagem procurou por ele em toda a favela e finalmente o encontrou no local onde trabalhava: na borracharia da Rua dos Coqueiros. Lá, Azevedinho tinha seu trabalho de mixar bebidas alcoólicas artesanais para os moradores locais.",
+        "generated_text_llama": "Dois dias depois da chegada de Personagem a Andaraí, apesar de sua hesitação inicial em revelar seu passado ao mundo, apareceu lá o sr. Azevedinho, que é o nome do rapaz que eu virei em casa da irmã do doutor. Ele era um homem mais velho, com um rosto sábio e uma postura confiante, que me fez sentir um pouco nervoso ao se aproximar dele.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "procurou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ângela",
+        "sentence": "Dizendo estas palavras, Ângela baixou os olhos e pôs-se a riscar maquinalmente com a agulha no lenço.",
+        "start_char": 30980,
+        "end_char": 30986,
+        "excerpt": "preciso de tratar dos meus negócios. Não quero que vá. Dizendo estas palavras, Ângela baixou os olhos e pôs-se a riscar maquinalmente com a agulha no lenço.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "baixou",
+                "child": "Ângela",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "baixar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ângela",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Dizendo estas palavras, [MASK] baixou os olhos e pôs-se a riscar maquinalmente com a agulha no lenço.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim falando, Personagem abaixou os olhos e começou a riscar maquinalmente com a agulha no lenço, cobrindo as trilhas marcadas por suas mãos antes dele. Através deste ato, Personagem queria confirmar para si mesmo que sua ideia estava realmente funcionando. As linhas iguais e precisas indicavam um caminho para seguir, uma solução para a equação intricada que estava buscando desde tanto tempo. Após verificar seu progresso, Personagem segurou a sua mão e contemplou o trabalho em andamento. A expressão de satisfação e dedicação brilhou nas suas facões, refletindo a determinação e a paixão que sentia por este desafio, que já tinha se tornado uma luta pessoal para ele.",
+        "generated_text_llama": "Com a agulha travada na roupa, Personagem tentou tirá-la com força, mas a agulha não queria se soltar. Ele a pressionou mais forte, até que finalmente a agulha conseguiu se desgarrar da tecida, deixando um pequeno buraco no canto do lenço.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "abaixou",
+                    "ROOT"
+                ],
+                [
+                    "queria",
+                    "ROOT"
+                ],
+                [
+                    "segurou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "tentou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ângela",
+        "sentence": "Se eu estivesse certo de que Ângela amava Azevedinho, sentiria, de certo; mas o amor, apenas começado, devia ceder ao orgulho; e a idéia de que não devia lutar com um homem que eu julgava moralmente inferior a mim, acabaria por triunfar em meu espírito.",
+        "start_char": 33022,
+        "end_char": 33028,
+        "excerpt": "Ao mesmo tempo que me parecia poder assenhorear-me do coração de Ângela, dizia-me, não sei que demônio invisível, que ela não podia ser minha porque já era de outro. Esta dúvida era pior que a certeza. Se eu estivesse certo de que Ângela amava Azevedinho, sentiria, de certo; mas o amor, apenas começado, devia ceder ao orgulho; e a idéia de que não devia lutar com um homem que eu julgava moralmente inferior a mim, acabaria por triunfar em meu espírito.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "coração",
+                "child": "Ângela",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "coração",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Ângela",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Ângela",
+                "child": "coração",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Ângela",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "coração",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Ângela",
+                "child": "tempo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Ângela",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "tempo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "amava",
+                "child": "Ângela",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "amavar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ângela",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Ângela",
+                "child": "certo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Ângela",
+                "dep_c": "advcl",
+                "pos_c": "ADJ",
+                "lemma_c": "certo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": [
+                    "mind"
+                ]
+            }
+        ],
+        "masked_sentence": "Se eu estivesse certo de que [MASK] amava Azevedinho, sentiria, de certo; mas o amor, apenas começado, devia ceder ao orgulho; e a idéia de que não devia lutar com um homem que eu julgava moralmente inferior a mim, acabaria por triunfar em meu espírito.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim sendo, ela decidiu evitar o encontro agendado com Azevedinho no parque. Ela preferia manter sua distância e se proteger de qualquer possível transtorno que poderia surgir caso se enfrentassem. Se sentindo culposa por ter deixado a primeira impressão, ela decidiu dar um espaço e esperar que ele entendesse e aceitasse sua distância.",
+        "generated_text_llama": "Eu me levantei da cadeira, sentindo uma sensação de superioridade e poder que eu nunca havia experimentado antes. O orgulho, que sempre foi um amigo leal, agora se transformou em um confidente fiel, ensinando-me a não questionar minhas próprias convicções. A ideia de \"Azevedinho\" como alguém moralmente inferior era algo que eu não podia aceitar, e logo comecei a me concentrar no meu próprio valor, em vez de tentar entender o que estava acontecendo dentro daquele homem que eu achava tão... limitado.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ângela",
+        "sentence": "Uma coisa aumentou ainda a minha dúvida: era a inicial bordada no lenço e a resposta que Ângela dera à pergunta que lhe fiz a meu respeito.",
+        "start_char": 34258,
+        "end_char": 34264,
+        "excerpt": "Se por um lado isto me parecia impossível, por outro eu me recordava do muito que era e do pouco que vira; recordava-me do que comigo mesmo sucedera e desanimava com a idéia de que tão boa pérola fosse engastada em cobre azinhavrado e vulgar. Nesta incerteza deitei-me e levei parte da noite sem poder conciliar o sono. Uma coisa aumentou ainda a minha dúvida: era a inicial bordada no lenço e a resposta que Ângela dera à pergunta que lhe fiz a meu respeito.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "dera",
+                "child": "Ângela",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "dera",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ângela",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Ângela",
+                "child": "a resposta",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Ângela",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "resposta",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Ângela",
+                "child": "era a inicial",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Ângela",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "inicial",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Uma coisa aumentou ainda a minha dúvida: era a inicial bordada no lenço e a resposta que [MASK] dera à pergunta que lhe fiz a meu respeito.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele se apresentou com um sorriso tranquilo e olhou para mim de forma encantadora. \"Você estava certo, minha amiga,\" ele disse enquanto desenhava uma linha delicada no lenço com seu dedo índice. A borda correspondia perfeitamente à resposta que eu tinha recebido em meu primeiro encontro com ele. \"Você era a pessoa que eu estava procurando.\"",
+        "generated_text_llama": "Eu fiquei furioso ao ver o lenço que Personagem estava usando, com aquela inicial bordada que parecia um código secreto. \"O que isso significa?\", eu perguntei, tentando manter a calma. Mas minha voz saiu mais firme do que eu queria admitir.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "usando",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ângela",
+        "sentence": "Depois de alguns minutos de silêncio Ângela perguntou-me timidamente:  Que achou no seu quarto?",
+        "start_char": 36222,
+        "end_char": 36228,
+        "excerpt": "No dia seguinte tive ocasião de falar a Ângela. Quando nos vimos a sós, um acanhamento invencível apoderou-se de nós ambos. Depois de alguns minutos de silêncio Ângela perguntou-me timidamente:  Que achou no seu quarto?",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "falar",
+                "child": "a Ângela",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ângela",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "a Ângela",
+                "child": "ocasião",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Ângela",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "ocasião",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "alguns minutos",
+                "child": "Ângela",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "minuto",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ângela",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "silêncio",
+                "child": "Ângela",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "silêncio",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ângela",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "perguntou-me",
+                "child": "Ângela",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntou-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ângela",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Depois de alguns minutos de silêncio [MASK] perguntou-me timidamente:  Que achou no seu quarto?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Sem dar tempo para uma resposta, Personagem se levantou e dirigiu-se rapidamente até o quarto. Aquele ar de urgência era algo que eu já havia sentido várias vezes. \"Algo está errado\", pensei ao meu passeio pela cabeceira enquanto segui atrás dele.",
+        "generated_text_llama": "Depois que me fez a pergunta, olhei em volta do quarto com um pouco mais atenção, procurando por algum sinal ou pista sobre quem poderia ter entrou lá dentro e deixado tudo em ordem. O quarto parecia estar exatamente como eu o havia deixado, sem qualquer objeto fora do lugar ou coisa estranha. Mas era exatamente isso que me intrigava - a falta de qualquer evidência de que alguém tivesse passado por ali. Então, decidi investigar um pouco mais. Comecei a procurar em cada canto do quarto, verificando se havia algum objeto ou coisa fora do comum. Depois de alguns minutos de busca, encontrei uma pequena caixa de madeira escondida embaixo da cama. A caixa estava fechada, mas eu consegui abri-la facilmente. Dentro, encontrei um pedaço de papel com uma mensagem escrita à mão: \"Só estou procurando por ajuda\".",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ângela",
+        "sentence": "Durante esse tempo Azevedinho foi uma só vez a Andaraí; apesar do espírito brincalhão e alegre, Ângela não pôde recebê-lo com a afabilidade do costume.",
+        "start_char": 36833,
+        "end_char": 36839,
+        "excerpt": "VI Dois dias depois estavam ultimados os negócios que me tinham trazido à corte, e eu devia voltar no próximo vapor. Durante esse tempo Azevedinho foi uma só vez a Andaraí; apesar do espírito brincalhão e alegre, Ângela não pôde recebê-lo com a afabilidade do costume.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "pôde",
+                "child": "Ângela",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ângela",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Ângela",
+                "child": "Andaraí",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Ângela",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Andaraí",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Durante esse tempo Azevedinho foi uma só vez a Andaraí; apesar do espírito brincalhão e alegre, [MASK] não pôde recebê-lo com a afabilidade do costume.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Nesse momento, Azevedinho sentiu que [O homem velho e solitário], apesar de sua natureza reservada, não podia conter sua emoção ao ver o cachorro correndo rapidamente pela rua. Seus olhos se enchem de uma mistura de alegria e melancolia, recordando-se das vezes que passou com Azevedinho na época mais jovem. De repente, sentiu um beijo nos cabelos, sabor doce e leve, o cachorro se abraçava-o como sempre.",
+        "generated_text_llama": "Ao ver o amigo familiar chegando à cidade, Personagem se sentiu um pouco desconfortável. A Andaraí era um lugar que ele conhecia bem, mas nunca conseguia se sentir completamente em casa. O clima frio e a atmosfera silenciosa eram muito diferentes do que ele estava acostumado.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ângela",
+        "sentence": "Ângela notou isso; perguntou-me o que tinha.",
+        "start_char": 38695,
+        "end_char": 38701,
+        "excerpt": "Teria arras para isso? Nova dúvida assaltou o meu espírito, e eu voltei para Andaraí mais triste do que saíra. Ângela notou isso; perguntou-me o que tinha.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "notou",
+                "child": "Ângela",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "notar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ângela",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] notou isso; perguntou-me o que tinha.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele me olhou com um arqueiro e respondi, \"Tudo bem, quero dizer que estava aqui para falar sobre a partida.\"",
+        "generated_text_llama": "\"O que você encontrou?\", eu perguntei, tentando entender a situação. O Personagem, com um olhar sério, começou a desvendar o tecido em suas mãos. Ele parecia ter uma ideia de o que estava procurando e seguia seus passos cuidadosamente.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ângela",
+        "sentence": "A pergunta indicava a dúvida, e a dúvida não se desfazia só com a simples resposta, uma vez que Ângela quisesse mentir.",
+        "start_char": 39327,
+        "end_char": 39333,
+        "excerpt": "Depois conversamos de nós. Perguntei-lhe se estava certa do sentimento que eu lhe inspirava; se aquilo não era urna simples fantasia, em que o coração não tomava parte. A pergunta indicava a dúvida, e a dúvida não se desfazia só com a simples resposta, uma vez que Ângela quisesse mentir.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "quisesse",
+                "child": "Ângela",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "quiser",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ângela",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A pergunta indicava a dúvida, e a dúvida não se desfazia só com a simples resposta, uma vez que [MASK] quisesse mentir.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim, Personagem, sem querer dar a impressão de mentira ou enganar seus companheiros, decidiu buscar uma resposta verdadeira, mas que não comprometesse a missão deles. Ele pendurou a boca e pensou por um momento antes de responder com calma: \"Vamos dar as boas-vindas àqueles seres estranhos para nós, aprendendo tudo o que podemos sobre eles e suas intenções.\" Ainda assim, ele sentiu aquele ar quente da incerteza que se instalava dentro de si. O destino dos três amigos se cruzou com algo que não estavam prontos para enfrentar. Mas, eles se mantiveram firmes e decidiram seguir em frente juntos, buscando uma resposta a esse mistério.",
+        "generated_text_llama": "Com um sorriso confiante, Personagem começou a elaborar sua resposta, escolhendo cuidadosamente as palavras para criar uma história convincente. \"Não é que eu estivesse dizendo que não sabia\", disse ele, com uma nota de inocência no tom da voz. \"É apenas que... bem, eu estava em outro lugar quando ouvi a notícia. Em um encontro de negócios, infelizmente.\"",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ângela",
+        "sentence": "Ângela, a quem comuniquei isso, disse-me que não me separasse dela; que era melhor escrever à minha mãe; que ela mesma escreveria, e bem assim o pai, diante do que minha mãe não recusaria.",
+        "start_char": 40472,
+        "end_char": 40478,
+        "excerpt": "Contava com a aquiescência do pai e o agrado do tio. O meu projeto era ir buscar o consentimento de minha mãe e voltar depois. Ângela, a quem comuniquei isso, disse-me que não me separasse dela; que era melhor escrever à minha mãe; que ela mesma escreveria, e bem assim o pai, diante do que minha mãe não recusaria.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "disse-me",
+                "child": "Ângela",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "disse-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ângela",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], a quem comuniquei isso, disse-me que não me separasse dela; que era melhor escrever à minha mãe; que ela mesma escreveria, e bem assim o pai, diante do que minha mãe não recusaria.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Personagem, após ouvir a resposta, sentiu uma espécie de liberdade que lhe cruzou pelo peito. Era como se tudo estivesse acontecendo da maneira certa, em uma linha do tempo predestinada. Ele se voltou e olhou para ela, com um olhar tão fraco que parecia quase transparente.",
+        "generated_text_llama": "Com essas palavras, Personagem sentiu uma ponta de esperança que não havia sentido desde o início dessa jornada. Ele sabia que a sua mãe era uma pessoa forte e corajosa, capaz de lidar com qualquer situação difícil. Portanto, decidiu seguir as instruções do seu amigo e escrever à sua mãe, pedindo que ela contatasse o pai.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ângela",
+        "sentence": "Depois, dirigindo-se à filha, disse:  Ângela, tens dois pedidos de casamento.",
+        "start_char": 42409,
+        "end_char": 42415,
+        "excerpt": "Consente? O velho ficara calado alguns segundos. Depois, dirigindo-se à filha, disse:  Ângela, tens dois pedidos de casamento.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Ângela",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ângela",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Depois, dirigindo-se à filha, disse:  [MASK], tens dois pedidos de casamento.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, dirigindo-se ao filho, disse: \"Por favor, agende um encontro com a minha tia Maria. Quero que ela te ofereça uma opção para ambos os compromissos de casamento.\"",
+        "generated_text_llama": "Ela ficou chocada e olhou para ele com surpresa, como se não conseguisse acreditar no que estava ouvindo. \"Duas pedidos?\", repetiu, tentando manter a calma, mas sua voz estava tremendo ligeiramente.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ângela",
+        "sentence": "Ângela quis a todo custo acrescentar estas palavras: Perdi minha mãe.",
+        "start_char": 43838,
+        "end_char": 43844,
+        "excerpt": "Consta-me que se tomou um bom homem. Quanto a mim, resolvido o casamento, tratei de escrever a minha mãe, pedindo o seu consentimento. Ângela quis a todo custo acrescentar estas palavras: Perdi minha mãe.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "quis",
+                "child": "Ângela",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ângela",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] quis a todo custo acrescentar estas palavras: Perdi minha mãe.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Emocionado e agitado, Pedro recuperou-se rapidamente e se apresentou como o escritor da história que havia lido aos seus colegas mais temidos. A sua voz era tranquila e confiante, mas seus olhos não tinham perdão para ninguém na sala. Ele começou a falar:",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "recuperou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    }
+]

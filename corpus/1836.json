@@ -1,0 +1,44 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Carlota",
+        "sentence": "Carlota impacienta-se, porque há muitas horas que lhe escrevo; não quero que ela tenha ciúmes desta carta e que me prive de enviá-la.",
+        "start_char": 81081,
+        "end_char": 81088,
+        "excerpt": "Isto prova que a pontualidade é uma excelente virtude pa- ra uma máquina; mas um grave defeito para um homem. Adeus, minha prima. Carlota impacienta-se, porque há muitas horas que lhe escrevo; não quero que ela tenha ciúmes desta carta e que me prive de enviá-la.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "impacienta-se",
+                "child": "Carlota",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "impacienta-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Carlota",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] impacienta-se, porque há muitas horas que lhe escrevo; não quero que ela tenha ciúmes desta carta e que me prive de enviá-la.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem levantou os olhos do papel e observou o relógio: já eram as nove da noite. Sabia que sua esposa gostava de dormir cedo, assim como ele. Porém, a impacientez lhe atormentava por ter atrasado muito em responder a carta do seu amigo de infância.",
+        "generated_text_llama": "Personagem pega uma folha branca da mesa de trabalho e começa a escrever com cuidado, tentando conter sua impaciência. Ele escreve em uma voz baixa, como se estivesse apenas para si mesmo, mas sabe que as palavras que está escrevendo são importantes o suficiente para serem compartilhadas com ela.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pega",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

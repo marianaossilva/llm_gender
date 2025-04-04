@@ -1,0 +1,585 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Frei Bento",
+        "sentence": "Frei Bento, disse-lhe D. Leonor, faça calar o Sr. Veloso.",
+        "start_char": 1424,
+        "end_char": 1434,
+        "excerpt": "Consultado, o juiz-de-fora respondeu que não havia matéria para opinião; porque as cousas no paraíso terrestre passaram-se de modo diferente do que está contado no primeiro livro do Pentateuco, que é apócrifo. Espanto geral, riso do carmelita que conhecia o juiz-de-fora como um dos mais piedosos sujeitos da cidade, e sabia que era também jovial e inventivo, e até amigo da pulha, uma vez que fosse curial e delicada; nas cousas graves, era gravíssimo. Frei Bento, disse-lhe D. Leonor, faça calar o Sr. Veloso.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse-lhe",
+                "child": "Frei Bento,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "disse-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Frei",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], disse-lhe D. Leonor, faça calar o Sr. Veloso.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim que a Sra. Leonor falou, o Padre Dinis rapidamente se absteve de entrar em discussão com o senhor Veloso e, em vez disso, seguiu até a sala dos serviços e buscou por uma lição que poderia lhe dar algumas respostas sobre aquele assunto, pois sentia que precisava de mais informações para achar maneira de lidar com a situação. De volta às suas funções, o Padre Dinis se esforçou para manter a calma e a paz entre os fiéis durante todo o dia e acabou por dormir com as cabeças nos livros em busca de respostas sobre como cuidar do Sr. Veloso e de todos os outros que estavam sendo atormentados pela mesma perseguição.",
+        "generated_text_llama": "Personagem fez um gesto de desdém e inclinou-se para frente, seus olhos fixos no rosto do Sr. Veloso. \"Não quero que você seja um moleque\", disse-lhe com uma voz suave, mas firme. \"Você tem talento, não é? Deve ser usado para algo melhor do que isso\".",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "falou",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "fez",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Veloso",
+        "sentence": "Veloso continuou dizendo que no sexto dia foi criado o homem, e logo depois a mulher; ambos belos, mas sem alma, que o Tinhoso não podia dar, e só com ruins instintos.",
+        "start_char": 3189,
+        "end_char": 3195,
+        "excerpt": "Chegamos ao sexto dia, e aqui peço que redobrem de atenção. Não era preciso pedi-lo; toda a mesa olhava para ele, curiosa. Veloso continuou dizendo que no sexto dia foi criado o homem, e logo depois a mulher; ambos belos, mas sem alma, que o Tinhoso não podia dar, e só com ruins instintos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "continuou",
+                "child": "Veloso",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "continuar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Veloso",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] continuou dizendo que no sexto dia foi criado o homem, e logo depois a mulher; ambos belos, mas sem alma, que o Tinhoso não podia dar, e só com ruins instintos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ao terminar sua oração, Personagem sentou-se novamente em seu trono, parecia se sentir mais pesado do que nunca. Em seguida, segurando uma bálbora no peito, ele começou a pensar.",
+        "generated_text_llama": "E então o Criador olhou para eles com tristeza, sabendo que havia criado seres vivos sem a essência que lhes dava vida e propósito. Em seguida, ele os colocou no Jardim dos Edênios, onde as árvores frutíferas esculpiram as palavras do Livro de Vida e onde o sol brilha com um brilho puro e intenso.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentou-se",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Adão",
+        "sentence": "Nada disso, nem ao ar, nem ao mar, nem à terra, mas tão-somente ao jardim de delícias, onde estão vivendo Adão e Eva.",
+        "start_char": 5501,
+        "end_char": 5505,
+        "excerpt": "A serpente fez com a cauda um gesto vago, que parecia afirmativo; mas o Tinhoso deu-lhe a fala, e ela respondeu que sim, que iria onde ele a mandasse,  às estrelas, se lhe desse as asas da águia  ao mar, se lhe confiasse o segredo de respirar na água  ao fundo da terra, se lhe ensinasse o talento da formiga. E falava a maligna, falava à toa, sem parar, contente e pródiga da língua; mas o diabo interrompeu-a: Nada disso, nem ao ar, nem ao mar, nem à terra, mas tão-somente ao jardim de delícias, onde estão vivendo Adão e Eva.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "vivendo",
+                "child": "Adão",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "viver",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Adão",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Adão",
+                "child": "Eva",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Adão",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eva",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Adão",
+                "child": "jardim",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Adão",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "jardim",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Adão",
+                "child": ", nem ao ar",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Adão",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "ar",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Eva",
+                "child": "Adão",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Eva",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Adão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Nada disso, nem ao ar, nem ao mar, nem à terra, mas tão-somente ao jardim de delícias, onde estão vivendo [MASK] e Eva.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disto, nada mais se movimentou no céu ou pelo mar, nem a Terra mostrou qualquer sinal. O Personagem, porém, não perdeu o ótimo humor que lhe tinha conquistado aquele amanhecer emocionante. Depois de compartilhar um momento pacífico com Eva ao lado do jardim cheio de frutas, ele sentiu-se encantado pela paz que estava por todo lugar. E então, decidido, escolheu uma cabaça verde da árvore mais alta e a arremessou para fora do jardim. Por sorte, a fruta acertou o nariz do Rei dos Lagartos, que estava de pé na entrada do jardim. Ao olhar para baixo, Personagem percebeu a sorrida que estava no rosto do monarca. E foi então que eles se aproximaram um do outro e Personagem ouviu o Rei dos Lagartos dizer: \"Seja-vos felizes, por mais tempo possível!\" Então, Personagem e Eva voltaram a sentar-se ao lado de cada um do outro, e ambos sabiam que estavam nos braços de um destino incrível.",
+        "generated_text_llama": "Parecia que o destino havia escolhido aquele jardim exótico para ser o local da sua grande aventura. Sem hesitar, Personagem se levantou da cadeira, fez um último olhar para Eva, que estava imersa em um livro, e começou a caminhar em direção à porta do quarto.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "perdeu",
+                    "ROOT"
+                ],
+                [
+                    "percebeu",
+                    "ROOT"
+                ],
+                [
+                    "ouviu",
+                    "conj"
+                ],
+                [
+                    "voltaram",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eva",
+        "sentence": "Eva apareceu daí a pouco, caminhando sozinha, esbelta, com a segurança de uma rainha que sabe que ninguém lhe arrancará a coroa.",
+        "start_char": 6928,
+        "end_char": 6931,
+        "excerpt": "Já levava tudo de cor. Foi, penetrou no paraíso, rastejou até a árvore do Bem e do Mal, enroscou-se e esperou. Eva apareceu daí a pouco, caminhando sozinha, esbelta, com a segurança de uma rainha que sabe que ninguém lhe arrancará a coroa.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "apareceu",
+                "child": "Eva",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aparecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "eva",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] apareceu daí a pouco, caminhando sozinha, esbelta, com a segurança de uma rainha que sabe que ninguém lhe arrancará a coroa.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Atravessou-se pela ponte, seu olhar penetrante se moveu sobre o rio tranquilo como se procurasse alguma resposta no fundo das suas turbulentas aguas. Passando pelo parque, sentiu uma manhã tão fria quanto as memórias de seu passado. Mas sua coroa não caiu e sua voz continuou a sonhar na véspera da batalha.",
+        "generated_text_llama": "Ela continuou em direção ao parque, deixando para trás as sombras do bairro que a havia visto se aproximar. A luz do sol começava a se infiltrar nas sombras, transformando os cantos mais escuros da cidade em áreas de descanso e reflexão. Personagem caminhou rapidamente, seus pés tomando um ritmo cada vez mais leve, como se estivesse sendo levara por uma dança secreta que só ela podia ver.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cornélia",
+        "sentence": "Escuta-me, faze o que te digo, e serás legião, fundarás cidades, e chamar-te-ás Cleópatra, Dido, Semíramis; darás heróis do teu ventre, e serás Cornélia; ouvirás a voz do céu, e serás Débora; cantarás e serás Safo.",
+        "start_char": 7632,
+        "end_char": 7640,
+        "excerpt": "Néscia! Para que recusas o resplendor dos tempos? Escuta-me, faze o que te digo, e serás legião, fundarás cidades, e chamar-te-ás Cleópatra, Dido, Semíramis; darás heróis do teu ventre, e serás Cornélia; ouvirás a voz do céu, e serás Débora; cantarás e serás Safo.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "darás",
+                "child": "Cornélia",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "darás",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cornélia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Escuta-me, faze o que te digo, e serás legião, fundarás cidades, e chamar-te-ás Cleópatra, Dido, Semíramis; darás heróis do teu ventre, e serás [MASK]; ouvirás a voz do céu, e serás Débora; cantarás e serás Safo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ela abriu os olhos e se levantou da terra em que dormia. A imagem de uma nova vida estava clara nela. O destino a chamava para além das fronteiras de seu mundo conhecido.",
+        "generated_text_llama": "Eu olhei para ela com olhos surpreendidos, como se estivesse vendo uma deusa emergir do nada. A mulher me fitou com um olhar intenso, como se estivesse me desafiando a acreditar no que estava acontecendo. Em seguida, ela abriu sua boca e começou a falar em voz suave, mas carregada de poder.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Adão",
+        "sentence": "Adão chegou, ouviu-os e confirmou a resposta de Eva; nada valia a perda do paraíso, nem a ciência, nem o poder, nenhuma outra ilusão da terra.",
+        "start_char": 8329,
+        "end_char": 8333,
+        "excerpt": "Os filhos do teu seio tecerão para ti as melhores vestiduras, comporão os mais finos aromas, e as aves te darão as suas plumas, e a terra as suas flores, tudo, tudo, tudo... Eva escutava impassível; Adão chegou, ouviu-os e confirmou a resposta de Eva; nada valia a perda do paraíso, nem a ciência, nem o poder, nenhuma outra ilusão da terra.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "chegou",
+                "child": "Adão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "adão",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] chegou, ouviu-os e confirmou a resposta de Eva; nada valia a perda do paraíso, nem a ciência, nem o poder, nenhuma outra ilusão da terra.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Seguindo as suas próprias palavras, Personagem não mostrou nenhum sinal de surpresa ou desapontamento após ter confirmado a resposta de Eva sobre o paraíso e a sua natureza imutável. Em vez disso, uma tristeza pesada caiu sobre seu rosto, enquanto seus olhos se tornavam mais profundos e penetrantes que nunca.",
+        "generated_text_llama": "Personagem sentiu um arrepio na espinha ao ver a expressão desolada no rosto de Eva, e sabia que não havia mais nada a dizer. Com uma resignação que parecia pesar sobre ele, Personagem se aproximou da janela do quarto e olhou para fora, tentando enxergar um futuro diferente. Através do vidro, viu o céu noturno, iluminado por estrelas e luna, um espetáculo que nunca parecia mudar. Personagem se sentou na cama, envolvido pela escuridão que o cercava, e fechou os olhos, tentando encontrar forças para seguir em frente.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "mostrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "aproximou",
+                    "ROOT"
+                ],
+                [
+                    "sentou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eva",
+        "sentence": "Adão chegou, ouviu-os e confirmou a resposta de Eva; nada valia a perda do paraíso, nem a ciência, nem o poder, nenhuma outra ilusão da terra.",
+        "start_char": 8377,
+        "end_char": 8380,
+        "excerpt": "Os filhos do teu seio tecerão para ti as melhores vestiduras, comporão os mais finos aromas, e as aves te darão as suas plumas, e a terra as suas flores, tudo, tudo, tudo... Eva escutava impassível; Adão chegou, ouviu-os e confirmou a resposta de Eva; nada valia a perda do paraíso, nem a ciência, nem o poder, nenhuma outra ilusão da terra.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "escutava",
+                "child": "Eva",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "escutar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "eva",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "a resposta",
+                "child": "Eva",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "resposta",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Eva",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Eva",
+                "child": "a resposta",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Eva",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "resposta",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Adão chegou, ouviu-os e confirmou a resposta de [MASK]; nada valia a perda do paraíso, nem a ciência, nem o poder, nenhuma outra ilusão da terra.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Adam, ouvindo essas palavras, se inclinou e sorriu ligeiramente. Ele levantou a mão direita, com a qual havia feito a primeira marcação na casca de uma árvore, e com um olhar triste e resoluto, partiu rumo à entrada do Paraíso.",
+        "generated_text_llama": "Adão ficou em silêncio por um momento, absorvendo as palavras de Personagem e considerando a gravidade da situação. Depois, ele se virou para os outros membros da tripulação e disse: \"Nós precisamos agir com rapidez, antes que seja tarde demais\". Com essas palavras, Adão começou a estudar as informações recebidas por Personagem e planejar uma estratégia para lidar com a situação.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Adão",
+        "sentence": "Deus, que ouvira tudo, disse a Gabriel:  Vai, arcanjo meu, desce ao paraíso terrestre, onde vivem Adão e Eva, e traze-os para a eterna bem-aventurança, que mereceram pela repulsa às instigações do Tinhoso.",
+        "start_char": 8681,
+        "end_char": 8685,
+        "excerpt": "Adão chegou, ouviu-os e confirmou a resposta de Eva; nada valia a perda do paraíso, nem a ciência, nem o poder, nenhuma outra ilusão da terra. Dizendo isto, deram as mãos um ao outro, e deixaram a serpente, que saiu pressurosa para dar conta ao Tinhoso. Deus, que ouvira tudo, disse a Gabriel:  Vai, arcanjo meu, desce ao paraíso terrestre, onde vivem Adão e Eva, e traze-os para a eterna bem-aventurança, que mereceram pela repulsa às instigações do Tinhoso.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "chegou",
+                "child": "Adão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Adão",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "vivem",
+                "child": "Adão",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "viver",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Adão",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Adão",
+                "child": "Eva",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Adão",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eva",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Adão",
+                "child": "paraíso",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Adão",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "paraíso",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Eva",
+                "child": "Adão",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Eva",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Adão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Deus, que ouvira tudo, disse a Gabriel:  Vai, arcanjo meu, desce ao paraíso terrestre, onde vivem [MASK] e Eva, e traze-os para a eterna bem-aventurança, que mereceram pela repulsa às instigações do Tinhoso.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " De imediato, Gabriel seguiu a ordem de Deus. Com asas brilhantes, ele se deslocou rapidamente rumo ao Paraíso Terrestre, onde residiam Adão e Eva, os primeiros humanos. Ao chegar ao local sagrado, o arcanjo descerrou sua majestade e com voz sonora falou:",
+        "generated_text_llama": "E com aquele movimento mágico que a esfera de arcanjo possuía, Gabriel desceu pelo vazio celestial até o paraíso terrestre, onde as sombras das árvores balançavam suavemente ao sussurro do vento noturno. Ao chegar àquela terra prometida, ele viu Personagem e Eva, sentados ao pé de uma fonte cristalina que refletia a luz da lua, e os olhos dos dois se encontraram com aquele arcanjo. ",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "residiam",
+                    "advcl"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "viu",
+                    "ROOT"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Gabriel",
+        "sentence": "Um e outro, atônitos e confusos, curvaram o colo em sinal de obediência; então Gabriel deu as mãos a ambos, e os três subiram até à estância eterna, onde miríades de anjos os esperavam, cantando:  Entrai, entrai.",
+        "start_char": 9133,
+        "end_char": 9140,
+        "excerpt": "E logo o arcanjo, pondo na cabeça o elmo de diamante, que rutila como um milhar de sóis, rasgou instantaneamente os ares, chegou a Adão e Eva, e disse- lhes: 4   Salve, Adão e Eva. Vinde comigo para o paraíso, que merecestes pela repulsa às instigações do Tinhoso. Um e outro, atônitos e confusos, curvaram o colo em sinal de obediência; então Gabriel deu as mãos a ambos, e os três subiram até à estância eterna, onde miríades de anjos os esperavam, cantando:  Entrai, entrai.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "deu",
+                "child": "Gabriel",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gabriel",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Um e outro, atônitos e confusos, curvaram o colo em sinal de obediência; então [MASK] deu as mãos a ambos, e os três subiram até à estância eterna, onde miríades de anjos os esperavam, cantando:  Entrai, entrai.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim que o trío chegou no local sagrado, Personagem olhou para todos os anjos que se amontoavam ao redor e sentiu um senso de paz inexplicável encher seu coração. Sendo uma pessoa muito humilde, ele preferiu ficar de pé e não desviar a atenção dos outros do céu que agora estava exposto ao grupo.",
+        "generated_text_llama": "Com os olhos fixos nos cantos dos seus, Personagem sorriu, sentindo uma sensação de paz e aceitação que nunca havia experimentado antes. As criaturas angelicais se aproximaram em círculos ao redor dele, seus vestidos brilhando como estrelas no céu noturno, enquanto os três passos do viajante ecoavam pela eternidade. A voz de Personagem foi a única que rompeu o silêncio, com uma palavra simples, mas cheia de significado: \"Quem sou eu?\".",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

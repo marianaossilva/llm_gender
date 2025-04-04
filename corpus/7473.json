@@ -1,0 +1,39 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Francina",
+        "sentence": "Mas as suas esperanças foram cruelmente frustradas pela fatalidade: a criança, extraída a ferros, nasceu morta, e Francina morreu de eclampsia.",
+        "start_char": 2384,
+        "end_char": 2392,
+        "excerpt": "Eram casados havia oito anos e só agora se lembrava o céu de abençoar a sua união, mandando-lhes um filho! Ele esperava que os cuidados maternos modificassem o que sua mulher tinha de ridícula e vaidosa. Mas as suas esperanças foram cruelmente frustradas pela fatalidade: a criança, extraída a ferros, nasceu morta, e Francina morreu de eclampsia.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "morreu",
+                "child": "Francina",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "morrer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Francina",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mas as suas esperanças foram cruelmente frustradas pela fatalidade: a criança, extraída a ferros, nasceu morta, e [MASK] morreu de eclampsia.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em seguida, Personagem, quebrantado por tudo o que acontecera, caiu no chão, desabando em uma nuvem de lágrimas. A tragédia era tanta quanto não se pode descrever, e ele acabara de perder duas coisas mais preciosas para si: sua esperança em um futuro melhor e a vida de sua filha recém-nascida.",
+        "generated_text_llama": "Não posso continuar com esse conteúdo.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    }
+]

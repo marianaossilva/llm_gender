@@ -1,0 +1,649 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Honório",
+        "sentence": "De repente, Honório olhou para o chão e viu uma carteira.",
+        "start_char": 254,
+        "end_char": 261,
+        "excerpt": "Fones: (91) 210-3196 / 210-3181  E-mail:  1 A Carteira de Machado de Assis ... De repente, Honório olhou para o chão e viu uma carteira.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "olhou",
+                "child": "Honório",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "olhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Honório",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "De repente, [MASK] olhou para o chão e viu uma carteira.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Repentinamente, [Nome do personagem], olhou para o chão e viu uma carteira. Ao observá-la de perto, percebeu que pertenceu a uma pessoa desconhecida, cujo nome estava gravado em ouro no meio da peça principal. O personagem sentiu-se intrigado e, sem pensar dois vezes, decidiu abrir a carteira para saber quem era essa pessoa. Encontrou várias notas com endereços de diversos bairros e cartas fechadas em envelopes. A curiosidade ainda aumentando, [Nome do personagem] entrou no quarto de seu computador e começou a fazer pesquisas sobre as localizações e as pessoas mencionadas na carteira.",
+        "generated_text_llama": "De repente, Personagem olhou para o chão e viu uma carteira. Ele a pegou cuidadosamente, pois estava linda e parecia ter sido deixada ali por engano. A carteira era de couro preto e tinha um pequeno nome gravado na tampa: \"Ava\". Personagem sentiu um pulso rápido no peito ao ver o nome e começou a se perguntar quem era Ava e o que ela estava fazendo ali.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Honório",
+        "sentence": "Para avaliar a oportunidade desta carteira, é preciso saber que Honório tem de pagar amanhã uma dívida, quatrocentos e tantos mil-réis, e a carteira trazia o bojo recheado.",
+        "start_char": 620,
+        "end_char": 627,
+        "excerpt": "Ninguém o viu, salvo um homem que estava à porta de uma loja, e que, sem o conhecer, lhe disse rindo:  Olhe, se não dá por ela; perdia-a de uma vez. É verdade, concordou Honório envergonhado. Para avaliar a oportunidade desta carteira, é preciso saber que Honório tem de pagar amanhã uma dívida, quatrocentos e tantos mil-réis, e a carteira trazia o bojo recheado.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "concordou",
+                "child": "Honório",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "concordar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Honório",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "tem",
+                "child": "Honório",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Honório",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Honório",
+                "child": "preciso",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Honório",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "preciso",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Para avaliar a oportunidade desta carteira, é preciso saber que [MASK] tem de pagar amanhã uma dívida, quatrocentos e tantos mil-réis, e a carteira trazia o bojo recheado.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas sem se preocupar com isso iminente, Personagem começou a olhar mais detalhadamente as cartas que compunham a carteira. A primeira delas era um pedido de emprego em uma loja de livros, outra era uma oferta para trabalhar como vendedor de seguros e a terceira era um convite para um encontro com uma antiga amiga que trabalhava em um museu local.",
+        "generated_text_llama": "Personagem sabia que precisava de dinheiro para pagar essa dívida, então decidiu levá-la até a loja de crédito mais próxima para avaliar suas opções de empréstimo. Ao chegar à loja, Personagem foi recebido pelo mesmo funcionário que já o havia atendido antes, e ele logo percebeu que o funcionário estava com um olhar estranho na direção dele.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Honório",
+        "sentence": "A dívida não parece grande para um homem da posição de Honório, que advoga; mas todas as quantias são grandes ou pequenas, segundo as circunstâncias, e as dele não podiam ser piores.",
+        "start_char": 784,
+        "end_char": 791,
+        "excerpt": "É verdade, concordou Honório envergonhado. Para avaliar a oportunidade desta carteira, é preciso saber que Honório tem de pagar amanhã uma dívida, quatrocentos e tantos mil-réis, e a carteira trazia o bojo recheado. A dívida não parece grande para um homem da posição de Honório, que advoga; mas todas as quantias são grandes ou pequenas, segundo as circunstâncias, e as dele não podiam ser piores.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "concordou",
+                "child": "Honório",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "concordar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Honório",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "tem",
+                "child": "Honório",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Honório",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Honório",
+                "child": "preciso",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Honório",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "preciso",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "posição",
+                "child": "Honório",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "posição",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Honório",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Honório",
+                "child": "posição",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Honório",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "posição",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Honório",
+                "child": "um homem",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Honório",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A dívida não parece grande para um homem da posição de [MASK], que advoga; mas todas as quantias são grandes ou pequenas, segundo as circunstâncias, e as dele não podiam ser piores.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele realizou uma avaliação cuidadosa dos seus recursos financeiros. O valor total da dívida era considerável, mas como advogado experiente, sabia que era possível superá-la. Iniciou o processo de negociação com os credores, explicando suas circunstâncias e suas intenções honestas de pagar a dívida em breve.",
+        "generated_text_llama": "Ele sabia que precisava ser cuidadoso com suas finanças, já que sua conta na bancaria estava prestes a ser fechada devido ao atraso nos pagamentos. Mas, como sempre, a vida do advogado Personagem era uma corrida contra o tempo e os prazos. Ele precisava ganhar aquele caso de uma forma ou de outra, para poder pagar as contas e manter sua empresa a flutuação.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Honório",
+        "sentence": "Nunca demorou tanto a conta, nem ela cresceu tanto, como agora; e, a rigor, o credor não lhe punha a faca aos peitos; mas disse-lhe hoje uma palavra azeda, com um gesto mau, e Honório quer pagar-lhe hoje mesmo.",
+        "start_char": 3101,
+        "end_char": 3108,
+        "excerpt": "E toca a trabalhar, a esperar, a gastar, pedir fiado ou: emprestado, para pagar mal, e a más horas. A dívida urgente de hoje são uns malditos quatrocentos e tantos mil-réis de carros. Nunca demorou tanto a conta, nem ela cresceu tanto, como agora; e, a rigor, o credor não lhe punha a faca aos peitos; mas disse-lhe hoje uma palavra azeda, com um gesto mau, e Honório quer pagar-lhe hoje mesmo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "quer",
+                "child": "Honório",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Honório",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Nunca demorou tanto a conta, nem ela cresceu tanto, como agora; e, a rigor, o credor não lhe punha a faca aos peitos; mas disse-lhe hoje uma palavra azeda, com um gesto mau, e [MASK] quer pagar-lhe hoje mesmo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, assim como sempre quando se sentia ofendida ou humilhada, reagiu rapidamente e de maneira decisiva. Levantou-se de seu lugar na cadeira, olhou fixamente para o credor e com um sorriso que não tocava aos seus olhos dizimando:",
+        "generated_text_llama": "Eu segui para a rua, tentando processar o que havia acontecido. A palavrinha do credor ainda me fazia arder de raiva, mas sabia que não podia permitir que isso me levasse a fazer algo estúpido. Em vez disso, decidi ir até o banqueiro para saber se tinha alguma oportunidade de pagar meu dívida antes que fosse tarde demais.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "reagiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Honório",
+        "sentence": "Durante os primeiros minutos, Honório não pensou nada; foi andando, andando, andando, até o Largo da Carioca.",
+        "start_char": 3369,
+        "end_char": 3376,
+        "excerpt": "Tinha-se lembrado de ir a um agiota, mas voltou sem ousar pedir nada. Ao enfiar pela Rua. da Assembléia é que viu a carteira no chão, apanhou-a, meteu no bolso, e foi andando. Durante os primeiros minutos, Honório não pensou nada; foi andando, andando, andando, até o Largo da Carioca.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "pensou",
+                "child": "Honório",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Honório",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Durante os primeiros minutos, [MASK] não pensou nada; foi andando, andando, andando, até o Largo da Carioca.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em seguida, Personagem parou e olhou para as pessoas que passavam no Largo da Carioca. Sua mente estava cheia de dúvidas, mas uma sensação de determinação começou a crescer em seu peito. Levantou o olhar até o topo do Morro da Urca e sentiu sua coragem se reforçar. Pronto para enfrentar qualquer desafio, iniciou sua subida pelo caminho sinuoso que conduzia ao topo da colina.",
+        "generated_text_llama": "Quando chegou ao Largo da Carioca, Personagem parou para observar a multidão que se reunia em torno do estádio. A atmosfera era eletrizante, com torcedores de ambos os times gritando e fazendo caretas engraçadas. Personagem sorriu ao ver o entusiasmo dos fãs, mas sua atenção logo voltou para a briga que estava prestes a acontecer.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "parou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "parou",
+                    "ROOT"
+                ],
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Honório",
+        "sentence": "Honório teve tentações de fechar os olhos, correr à cocheira, pagar, e, depois de paga a dívida, adeus; reconciliar-se-ia consigo.",
+        "start_char": 4861,
+        "end_char": 4868,
+        "excerpt": "Era a dívida paga; eram menos algumas despesas urgentes. Honório teve tentações de fechar os olhos, correr à cocheira, pagar, e, depois de paga a dívida, adeus; reconciliar-se-ia consigo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "teve",
+                "child": "Honório",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Honório",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] teve tentações de fechar os olhos, correr à cocheira, pagar, e, depois de paga a dívida, adeus; reconciliar-se-ia consigo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Porém, apesar das tentações, ele se sentiu preso em seu assento. A memória dos acontecimentos que o levaram àquele lugar voltavam constantemente em sua mente, uma espécie de fantasma que não queria deixar de existir. Seus olhos, que antes brilhavam de energia, estavam agora pesados e tristes.",
+        "generated_text_llama": "Personagem sentiu um arrepio na espinha ao pensar na possibilidade de simplesmente se desculpar e continuar com sua vida. No entanto, sabia que não era tão fácil. Ele havia feito uma promessa a si mesmo, antes mesmo de chegar à cocheira, de enfrentar os seus erros e pedir desculpas. Mas, ao olhar para o rosto do dono da loja, ele sentiu uma onda de medo e incerteza.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Honório",
+        "sentence": "Honório teve pena de não crer nos anjos...",
+        "start_char": 5337,
+        "end_char": 5344,
+        "excerpt": "Honório teve um calafrio. Ninguém viu, ninguém soube; podia ser um lance da fortuna, a sua boa sorte, um anjo... Honório teve pena de não crer nos anjos...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "teve",
+                "child": "Honório",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Honório",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "teve",
+                "child": "Honório",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Honório",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] teve pena de não crer nos anjos...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Contudo, Personagem não se importava nem se decepcionava com tais dúvidas. Em vez disso, ele estendia as mãos para cima e fechava os olhos, ora de verdadeiramente perceber aquele mundo que lhe se tornara mais real do que qualquer coisa na Terra. Poucas pessoas conseguem entrar em contato com esse universo espiritual tão distinto de nossa realidade terrena e, entre eles, Personagem era um dos poucos.",
+        "generated_text_llama": "...e agora estava parado na porta do bar, olhando para o interior com uma mistura de raiva e tristeza. Ele havia perdido tudo: a casa, o trabalho, a vida que conhecera. E para toda essa desgraça, não era por culpa sua, mas sim daqueles anjos que haviam traído seu confiança.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "importava",
+                    "ROOT"
+                ],
+                [
+                    "um",
+                    "dep"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Gustavo",
+        "sentence": "Gustavo pegou dela precipitadamente, e olhou desconfiado para o amigo.",
+        "start_char": 6883,
+        "end_char": 6890,
+        "excerpt": "Sabes se alguém a achou? Achei-a eu, disse Honório entregando-lha. Gustavo pegou dela precipitadamente, e olhou desconfiado para o amigo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "pegou",
+                "child": "Gustavo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gustavo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] pegou dela precipitadamente, e olhou desconfiado para o amigo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele segurou a garrafa de vinho e girou em torno dela, olhando para ele com uma expressão miuda. A garra nas costas se esfregava contra a pele em seu caminho, como se estivesse tentando lhe dizer algo sem que nenhum som saísse de suas bocas.",
+        "generated_text_llama": "\"Máximo\" notou que algo estava errado com seu amigo, e sua curiosidade foi insaciável. Ele perguntou apressadamente, \"O quê? O que é?\", mas a resposta não veio. Em vez disso, seu amigo apenas sacou um pedaço de papel do bolso e o distribuiu entre eles, sem explicar nada.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Honório",
+        "sentence": "Esse olhar foi para Honório como um golpe de estilete; depois de tanta luta com a necessidade, era um triste prêmio.",
+        "start_char": 6974,
+        "end_char": 6981,
+        "excerpt": "Achei-a eu, disse Honório entregando-lha. Gustavo pegou dela precipitadamente, e olhou desconfiado para o amigo. Esse olhar foi para Honório como um golpe de estilete; depois de tanta luta com a necessidade, era um triste prêmio.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "entregando-lha",
+                "child": "Honório",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "entregando-lha",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Honório",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "foi",
+                "child": "Honório",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ser",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Honório",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Esse olhar foi para [MASK] como um golpe de estilete; depois de tanta luta com a necessidade, era um triste prêmio.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele segurou o objeto delicado em suas mãos e deixou cair a última lágrima. Era uma medalha, um símbolo da vitória que conquistara com muito esforço. Ele se levantou lentamente, saindo da sala onde havia se enfrentado com si mesmo. O seu coração batia forte contra a costela, como se estivesse contando os segundos para quebrar completamente. Mas ele não poderia parar agora.",
+        "generated_text_llama": "Era uma imagem que nunca esqueceria, de alguém tão fraco e vulnerável diante do poderosa força da necessidade. Personagem sentiu seu coração se partir ao meio, como se todos os sonhos e esperanças que haviam lutado para manter vivos estivessem agora sendo apagados pela chama do fracasso.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Honório",
+        "sentence": "Honório deu duas voltas, e foi mudar de toilette para o jantar.",
+        "start_char": 7228,
+        "end_char": 7235,
+        "excerpt": "Mas conheceste-a? Não; achei os teus bilhetes de visita. Honório deu duas voltas, e foi mudar de toilette para o jantar.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "deu",
+                "child": "Honório",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Honório",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] deu duas voltas, e foi mudar de toilette para o jantar.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de dar duas voltas em sua mansão, ela acorrou no seu quarto e abriu a porta da armária. Retirou então uma vestimenta elegante, que ficaria brilhando sob as luzes do restaurante de luxo para onde ia se dirigir. Apenas havia um jantar formal na agenda de hoje, porém era o mais importante da semana, pois envolveria negócios de grande escala.",
+        "generated_text_llama": "E assim, Personagem se dirigiu ao vestiário, onde encontrou um armário cheio de roupas elegantes e sofisticadas. Ele escolheu uma camisa branca de linho, um par de calças pretas estreitas e um paletó preto com botões dourados. Depois de se vestir, Personagem olhou-se no espelho e sorriu satisfeito com a aparência que apresentava. Com sua nova look, ele se sentia pronto para enfrentar o jantar com confiança.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "dirigiu",
+                    "ROOT"
+                ],
+                [
+                    "olhou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Gustavo",
+        "sentence": "Então Gustavo sacou novamente a carteira, abriu-a, foi a um dos bolsos, tirou um dos bilhetinhos, que o outro não quis abrir nem ler, e estendeu-o a D. Amélia, que, ansiosa e trêmula, rasgou-o em trinta mil pedaços: era um bilhetinho de amor.",
+        "start_char": 7298,
+        "end_char": 7305,
+        "excerpt": "Não; achei os teus bilhetes de visita. Honório deu duas voltas, e foi mudar de toilette para o jantar. Então Gustavo sacou novamente a carteira, abriu-a, foi a um dos bolsos, tirou um dos bilhetinhos, que o outro não quis abrir nem ler, e estendeu-o a D. Amélia, que, ansiosa e trêmula, rasgou-o em trinta mil pedaços: era um bilhetinho de amor.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "sacou",
+                "child": "Gustavo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sacar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gustavo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Então [MASK] sacou novamente a carteira, abriu-a, foi a um dos bolsos, tirou um dos bilhetinhos, que o outro não quis abrir nem ler, e estendeu-o a D. Amélia, que, ansiosa e trêmula, rasgou-o em trinta mil pedaços: era um bilhetinho de amor.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem ficou surpreso com o ato dramático de D. Amélia e perguntou, com uma voz quebrouca, \"D. Amélia, você sabe que isso não vale nada?\"",
+        "generated_text_llama": "Enquanto D. Amélia se exibia ao cuspir em todas as partes do pedaço despedaçado, Personagem ficou imóvel, olhando para ela com uma mistura de sorriso e tristeza nos seus olhos vermelhos. A cena estava completamente animada, mas o silêncio era tão forte que tudo parecia se concentrar nesse único momento.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

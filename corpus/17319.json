@@ -1,0 +1,187 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Chateaubriand",
+        "sentence": "lembrem-se somente aqueles que lançarem os olhos sobre estas páginas, que são elas produto de uma musa que tem constantemente sofrido o embate de todo o gênero de contrariedades, e que conhece por experiência quanto é verdadeiro o que diz Chateaubriand: - C'est un sophisme digne de la dureté de notre siècle, d'avoir avancé que les bons ouvrages se font dans le malheyr:",
+        "start_char": 3313,
+        "end_char": 3326,
+        "excerpt": "Vão portanto estes versos nesta segunda edição corretos de muitos descuidos de metrificação e de estilo, e limpos de inúmeros e graves erros tipográficos que desfiguravam a primeira. Quanto ao valor literário que porventura possam ter estes versos, o público e a critica o decidirão; lembrem-se somente aqueles que lançarem os olhos sobre estas páginas, que são elas produto de uma musa que tem constantemente sofrido o embate de todo o gênero de contrariedades, e que conhece por experiência quanto é verdadeiro o que diz Chateaubriand: - C'est un sophisme digne de la dureté de notre siècle, d'avoir avancé que les bons ouvrages se font dans le malheyr:",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "diz",
+                "child": "Chateaubriand",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chateaubriand",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Chateaubriand",
+                "child": "avancé",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Chateaubriand",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "avancér",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "lembrem-se somente aqueles que lançarem os olhos sobre estas páginas, que são elas produto de uma musa que tem constantemente sofrido o embate de todo o gênero de contrariedades, e que conhece por experiência quanto é verdadeiro o que diz [MASK]: - C'est un sophisme digne de la dureté de notre siècle, d'avoir avancé que les bons ouvrages se font dans le malheyr:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a ler as páginas, Personagem sentia um sentimento inexpressível de admiração e respeito por aquela mão incansável que levantara esses pensamentos. Ao final do livro, sentiu-se uma leve gota de perspiração percorrer a sua frente. Era como se o autor estivesse ainda lá, perguntando: - E você? Em qual caminho você vai?",
+        "generated_text_llama": "",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Flor",
+        "sentence": "Flor, que se enlaça na eternal grinalda Be celeste harmonia, que incessante Se expande aos pés do Eterno!...",
+        "start_char": 14417,
+        "end_char": 14421,
+        "excerpt": ", e místicas coréias Dos rutilantes orbes; Flor, que se enlaça na eternal grinalda Be celeste harmonia, que incessante Se expande aos pés do Eterno!...",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "celeste",
+                "child": "Flor",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "celeste",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Flor",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Flor",
+                "child": "Be",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Flor",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "be",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Flor",
+                "child": ", e místicas",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Flor",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "mística",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "grinalda",
+                "child": "Flor",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "grinalda",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Flor",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Be",
+                "child": "Flor",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "be",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Flor",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], que se enlaça na eternal grinalda Be celeste harmonia, que incessante Se expande aos pés do Eterno!...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Acompanhado pela música celestial, ele encostou no chão da Catedral e fechou os olhos. Em seguida, ele ergueu suas mãos em direção ao céu, saindo uma luz que brilhou para todo o mundo, enquanto sua voz soava como um hinos para o céu. A música e a luz se fundiram em um único tom de armonia divina que vibrava através do templo antigo. Ele cantou com tanta força e pureza que parecia que toda essa harmonia celestial estava entrando em sua alma, empenhando-se no ofício mais nobre de todos: o culto a Deus. Ao final, ele deixou caer suas mãos e, olhar fixamente para o céu, disse uma oração que se transformou na palavra de um ser divino, enviando seu espírito além do tempo e do espaço, em busca de um encontro eterno com a glória de Deus.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Serafim",
+        "sentence": "O rosto lhe ensombrava - parecia Serafim exilado sobre a terra, Da harpa divina tenteando as cordas",
+        "start_char": 51763,
+        "end_char": 51770,
+        "excerpt": "Em solo ingrato langue esmorecida: Uma nuvem perene de tristeza O rosto lhe ensombrava - parecia Serafim exilado sobre a terra, Da harpa divina tenteando as cordas",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "parecia",
+                "child": "Serafim",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "parecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Serafim",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "O rosto lhe ensombrava - parecia [MASK] exilado sobre a terra, Da harpa divina tenteando as cordas",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele segurou a respiração, encostou o ouvido àquela voz que lhe parecia familiar, e iniciou a tocar a harpa, em busca do som que lhe permitiria se sentir perto dela novamente. As cordas rastejaram sob as mãos dele, como um recordatório dos tempos passados, e a música que surgiu foi tão emotiva quanto uma carta perdida no vento: nostálgica, amorosa, desesperada. Ao final, sentiu-se mais próximo dela, conseguiu sentir seu amor e sua tristeza através da música que o tocou e o enfeitiçou desde o começo.",
+        "generated_text_llama": "Ele olhou ao redor, como se esperasse encontrar algum refúgio ou alguma resposta nas sombras que o cercavam. Mas havia apenas silêncio e escuridão. Personagem respirou fundo e começou a caminhar, sua harpa stillada sob o braço, como se estivesse carregando um fardo. Cada passo ecoava pelo deserto, som que parecia mais forte do que qualquer som que ele já havia feito.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "respirou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

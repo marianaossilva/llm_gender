@@ -1,0 +1,919 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Frei Simão",
+        "sentence": "Frei Simão não disse uma palavra durante esses cinco dias;",
+        "start_char": 1464,
+        "end_char": 1474,
+        "excerpt": "A moléstia era mortal; depois de cinco dias frei Simão expirou. Durante estes cinco dias de moléstia, a cela de frei Simão esteve cheia de frades. Frei Simão não disse uma palavra durante esses cinco dias;",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Frei Simão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Frei",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não disse uma palavra durante esses cinco dias;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Nessa ocasião, sem dizer nenhuma palavra, ela levantou-se da cadeira e fechou a porta tranquilamente, passando pelo vestíbulo da casa e pela portaria até chegar ao seu carro. Pôs as mãos no volante e após uma curta pausa, segurou o braço esquerdo para fora da janela do carro e olhou para os seus vizinhos, que estavam a caminhar rumo à rua principal. Seu rosto trazia um sorriso leve e um ar tranquilo. Depois de uma breve pausa, abriu a porta e saiu do carro. Iniciou uma conversa com os seus vizinhos, falando sobre assuntos triviais, como o clima do dia ou o filme que viriam ver naquela noite no cinema local.",
+        "generated_text_llama": "Após aqueles cinco dias de silêncio, Personagem decidiu que era hora de quebrar o gelo e se conectar com o mundo ao seu redor. Ele se levantou da cama mais cedo do que de costume e começou a preparar café para si mesmo. Enquanto a chaleira fervia, ele olhou pela janela e viu as pessoas passando pelo seu quintal, sem notar a sua presença. Personagem sentiu uma ponta de raiva e frustração, mas decidiu não deixá-la controlar o dia.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Simão",
+        "sentence": "Simão, que se educara com ela, e juntamente vivia debaixo do mesmo tecto, não pôde resistir às elevadas qualidades e à beleza de sua prima.",
+        "start_char": 4308,
+        "end_char": 4313,
+        "excerpt": "Quanto ao pai da prima órfã, tendo sido rico, perdera tudo ao jogo e nos azares do comércio, ficando reduzido à última miséria. A órfã chamava-se Helena; era bela, meiga e extremamente boa. Simão, que se educara com ela, e juntamente vivia debaixo do mesmo tecto, não pôde resistir às elevadas qualidades e à beleza de sua prima.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "pôde",
+                "child": "Simão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Simão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "tecto",
+                "child": "Simão",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "tecto",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Simão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], que se educara com ela, e juntamente vivia debaixo do mesmo tecto, não pôde resistir às elevadas qualidades e à beleza de sua prima.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele esticou a mão até a porta daquela bela e linda garota e, com um sorriso encantador, desabafou: \"Minha prima, meu amor.\" A partir de então, ele passou a dividir todos os dias com ela, aprendendo tudo que pudesse dela. A cada passeio pela praia ou no mercado da vila, ele sempre ficava mais encantado e deslumbrado pela próxima de sua alma. Ele sentiu uma conexão tão forte com ela que nada poderia o separar dela. Mesmo quando a família dele insistia que fosse voltar ao interior para assumir os negócios de seu pai, ele sempre a encontrava em suas pausas no caminho e, assim, mantinha viva essa conexão especial entre eles.",
+        "generated_text_llama": "Assim que Personagem viu sua prima por última vez, ele não pôde parar de pensar nela. Ele se sentiu atraído por sua inteligência e seu charme, e logo ficou determinado a conhecê-la melhor. Sem saber que ela estava sozinha na casa, Personagem decidiu visitá-la, esperando encontrar alguém com quem conversar.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "viu",
+                    "advcl"
+                ],
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Simão",
+        "sentence": "Simão contou a Helena o que se passara.",
+        "start_char": 5965,
+        "end_char": 5970,
+        "excerpt": "O pai agradeceu mentalmente a submissão do filho, que lhe poupava o dinheiro da passagem no vapor, e foi muito contente dar parte à mulher de que o rapaz não fizera objeção alguma. Nessa noite os dous amantes tiveram ocasião de encontrar-se sós na sala de jantar. Simão contou a Helena o que se passara.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "contou",
+                "child": "Simão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "contar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Simão",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] contou a Helena o que se passara.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele continuou enrolando a história, com suas mãos trazendo à vida os momentos emblemáticos do passado de Helena. Contou a ela como, num momento de desespero, ela havia encontrado refúgio em um velho castelo abandonado. Lá, naquela terra desolada, ela se encontrava com outros homens perdidos no tempo, que viveram com ela os dias mais incertos da sua vida e lhe deram o suficiente para superar a tristeza do seu passado. O homem concluiu contando-lhe que, agora, Helena poderia escolher voltar para casa ou permanecer com eles, em uma nova terra onde o tempo parecia parado e os sonhos podiam se tornar realidade.",
+        "generated_text_llama": "Ela olhou para ele com uma mistura de surpresa e curiosidade, perguntando: \"O que é que você quer dizer com 'o espírito da cidade'?\" Mas antes que ela pudesse responder, Personagem já estava começando a caminhar em direção à praça central, seu passo firme e determinado. As ruas estavam quase vazias, mas ele sabia que logo se tornariam lotadas com as pessoas que vêm procurar respostas no antigo templo. Ele parou por um momento diante da fachada imponente do edifício, sentindo o ar pesado e cheio de história que o envolvia. Com uma respiração profunda, Personagem empurrou a porta pesada e entrou no interior do templo, deixando para trás a luz solar e entrando em um mundo de sombras e mistérios.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "poderia",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começando",
+                    "ROOT"
+                ],
+                [
+                    "empurrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Helena",
+        "sentence": "Helena saiu de seu quarto com os olhos vermelhos de chorar.",
+        "start_char": 6531,
+        "end_char": 6537,
+        "excerpt": "Os dias passaram-se depressa. Finalmente raiou aquele em que devia partir o brigue. Helena saiu de seu quarto com os olhos vermelhos de chorar.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "saiu",
+                "child": "Helena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sair",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Helena",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] saiu de seu quarto com os olhos vermelhos de chorar.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de sair do quarto com os olhos vermelhos e ensurdecido por chorar, ele sentou-se no banco do jardim, a meia-noite, ainda sob a nevoeiro escuro que cobre as ruas da cidade. A mão esquerda na baixa e nervosa, ele começava a palpar o bota do cotovelo direito com uma expressão tormentada no rosto.",
+        "generated_text_llama": "[APersonagem seguiu pela porta do quarto e entrou no corredor escuro da casa, onde a escuridão parecia se fechar em torno dele como um abraço desolado. Ele não sabia para onde iria, mas sabia que precisava afastar-se da tristeza que o consumia. Com um movimento lento e doloroso, ele pegou o celular do quarto e ligou para a melhor amiga de Personagem, que morava em outra cidade.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Simão",
+        "sentence": "Simão, enquanto pôde ver terra, não se retirou de cima; quando finalmente se fecharam de todo as paredes do cárcere que anda, na frase pitoresca de Ribeyrolles, Simão desceu ao seu camarote, triste e com o coração apertado.",
+        "start_char": 7113,
+        "end_char": 7118,
+        "excerpt": "Era refratário às lágrimas, por isso mesmo padecia mais. O brigue partiu. Simão, enquanto pôde ver terra, não se retirou de cima; quando finalmente se fecharam de todo as paredes do cárcere que anda, na frase pitoresca de Ribeyrolles, Simão desceu ao seu camarote, triste e com o coração apertado.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "retirou",
+                "child": "Simão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "retirar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Simão",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "terra",
+                "child": "Simão",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "terra",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Simão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "desceu",
+                "child": "Simão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "descer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Simão",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], enquanto pôde ver terra, não se retirou de cima; quando finalmente se fecharam de todo as paredes do cárcere que anda, na frase pitoresca de Ribeyrolles, [MASK] desceu ao seu camarote, triste e com o coração apertado.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, Personagem sentou-se no seu camarote, com as mãos enroladas na frente do peito e uma expressão de resignação escorregadora nos lábios. O olhar profundo que sempre brilhava em seus olhos havia se apagado, e a força inabalável que lhe concedia a presença poderosamente silenciosa estava enfraquecida.",
+        "generated_text_llama": "Enquanto saía do cárcere, a luz do sol quente o atingiu como um golpe, fazendo-o inclinar-se para trás, protegendo os olhos de sua face cansada. Com um esforço, conseguiu recuperar a força e segurar as grades do camarote com uma mão trêmula, enquanto a outra apontava para a porta aberta. Uma curiosidade primitiva o impulsionou a entrar na sala, onde encontrou-se diante de um mobiliário que parecia ter sido deixado de lado há anos. As poltronas gastas, as mesas velhas e os quadros desbotados pareciam contar histórias de sofrimento e solidão, refletindo a própria condição de Personagem.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Simão",
+        "sentence": "Simão, enquanto pôde ver terra, não se retirou de cima; quando finalmente se fecharam de todo as paredes do cárcere que anda, na frase pitoresca de Ribeyrolles, Simão desceu ao seu camarote, triste e com o coração apertado.",
+        "start_char": 7113,
+        "end_char": 7118,
+        "excerpt": "Era refratário às lágrimas, por isso mesmo padecia mais. O brigue partiu. Simão, enquanto pôde ver terra, não se retirou de cima; quando finalmente se fecharam de todo as paredes do cárcere que anda, na frase pitoresca de Ribeyrolles, Simão desceu ao seu camarote, triste e com o coração apertado.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "retirou",
+                "child": "Simão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "retirar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Simão",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "terra",
+                "child": "Simão",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "terra",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Simão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "desceu",
+                "child": "Simão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "descer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Simão",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], enquanto pôde ver terra, não se retirou de cima; quando finalmente se fecharam de todo as paredes do cárcere que anda, na frase pitoresca de Ribeyrolles, [MASK] desceu ao seu camarote, triste e com o coração apertado.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas não ficou assim por muito tempo. Porque, assim como havia fechado as mãos em torno do chão para garantir sua sobrevivência nas estradas perigosas e naqueles dias de tempestade, Personagem também tinha a força indomável que lhe vinha dos sonhos. E aquele sonho era claro, brilhante e impetuoso: se livrar da prisão e retornar ao mar, para sempre.",
+        "generated_text_llama": "Despindou seus roupas finas, que tinham sido suadas por toda a jornada, e se vestiu rapidamente com as roupas simples do cárcere, tentando manter algum pouco de dignidade em seu corpo magro. Em seguida, dirigiu-se à mesa de madeira, onde havia uma garrafa de água gorda e um pedaço de pão duro, que lhe era entregue como refeição do dia.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "tinha",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Simão",
+        "sentence": "Chegando ao lugar do seu destino, procurou Simão o correspondente de seu pai e entregou-lhe a carta.",
+        "start_char": 7508,
+        "end_char": 7513,
+        "excerpt": "Havia como um pressentimento que lhe dizia interiormente ser impossível tornar a ver sua prima. Parecia que ia para um degredo. Chegando ao lugar do seu destino, procurou Simão o correspondente de seu pai e entregou-lhe a carta.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "procurou",
+                "child": "Simão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "procurar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Simão",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Chegando ao lugar do seu destino, procurou [MASK] o correspondente de seu pai e entregou-lhe a carta.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após entregar a carta ao correspondente de seu pai, ele seguiu adentro da grande mansão de pedra que margeava o porto. Sentiu sua voz seco e reverbiante ao chamar o nome de sua tia Adelaide, que lhe respondeu, sorrindo, de uma janela elevada. A menina que era ela veio até ele, e ele pôde sentir como a luz das suas olhos azuis escapava do corpo dela, semelhante a um brilho que iluminava o espaço todo.",
+        "generated_text_llama": "Quando encontrou o correspondente de seu pai, que era um homem mais velho com uma expressão séria, Personagem sussurrou a ele a mensagem em voz baixa, explicando que era uma questão pessoal entre eles e que não queria causar confusão. O homem, que parecia conhecer tudo sobre a família de Personagem, assentiu com a cabeça e pegou a carta do Personagem. Em seguida, ele olhou em volta para garantir que ninguém estivesse ouvindo, antes de abrir a carta e ler o que havia escrito seu pai. A expressão do homem mudou de sério para choque e surpresa, e Personagem sentiu um arrepio na espinha ao ver a reação dele.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sussurrou",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Heloísa",
+        "sentence": "Bem diz Heloísa que a arte de escrever foi inventada por alguma amante separada do seu amante.",
+        "start_char": 8882,
+        "end_char": 8889,
+        "excerpt": "O ex-romancista era na verdade fértil, e não se cansava de inventar pretextos que deixavam convencido o rapaz. Entretanto, como o espírito dos amantes não é menos engenhoso que o dos romancistas, Simão e Helena acharam meio de se escreverem, e deste modo podiam consolar-se da ausência, com presença das letras e do papel. Bem diz Heloísa que a arte de escrever foi inventada por alguma amante separada do seu amante.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "diz",
+                "child": "Heloísa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Heloísa",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Bem diz [MASK] que a arte de escrever foi inventada por alguma amante separada do seu amante.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O personagem respondia com uma expressão enervada e sorridente. \"Ah, isso é o que todos acreditam? Eles dizem que a arte de escrever foi inventada pela tristeza de alguém que se sentia desamparado? É verdade que as letras podem ser uma forma de expressar os sentimentos mais íntimos e profundos, mas não é exatamente como você está dizendo.\"",
+        "generated_text_llama": "E assim, enquanto caminhava pelas ruas movimentadas da cidade, Personagem não podia deixar de pensar em como essa ideia lhe fazia parecer tão injusto. \"Por que alguém precisa ser a causa de uma amarga separação para inspirar a criação de algo tão belo quanto a arte?\", pensou ele, sacudindo a cabeça. Personagem continuou seu caminho, até chegar à praça central da cidade, onde encontrou um grupo de artistas reunidos em torno de uma escultura em madeira.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "ROOT"
+                ],
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Simão",
+        "sentence": "Contava nesta carta o honrado comerciante que a Helena, a boa rapariga que ele destinava a ser sua filha casando-se com Simão, a boa Helena tinha morrido.",
+        "start_char": 10193,
+        "end_char": 10198,
+        "excerpt": "Só diferençava das outras que recebia do velho em ser esta mais longa, muito mais longa. O rapaz abriu a carta, e leu trêmulo e pálido. Contava nesta carta o honrado comerciante que a Helena, a boa rapariga que ele destinava a ser sua filha casando-se com Simão, a boa Helena tinha morrido.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "casando-se",
+                "child": "Simão",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "casando se",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Simão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Simão",
+                "child": "o honrado comerciante",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Simão",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "comerciante",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Contava nesta carta o honrado comerciante que a Helena, a boa rapariga que ele destinava a ser sua filha casando-se com [MASK], a boa Helena tinha morrido.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Next, lamentando profundamente a morte de Helena, o homem fechou a carta, olhando para ela com um sentimento misto de tristeza e desespero. Para ele, a jovem rapariga era todo o que existia de bom no mundo. Agora, estava morta.",
+        "generated_text_llama": "Eu não podia acreditar no que estava lendo. A Helena, a boa rapariga que eu destinava a ser minha filha casando-me com ela, havia morrido? Eu senti um grito dentro de mim, como se alguém estivesse roubando o ar da minha respiração. Meu coração batia mais rápido do que uma máquina, e minhas mãos tremiam ao segurar a carta.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "casando-me",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Simão",
+        "sentence": "Ficou Simão vivo em corpo e morto moralmente, tão morto que por sua própria idéia foi dali procurar uma sepultura.",
+        "start_char": 11024,
+        "end_char": 11029,
+        "excerpt": "Dores tais não se consolam com uma carta nem com um casamento. Era melhor mandá-lo chamar, e depois preparar- lhe a notícia; mas dada assim friamente em uma carta, era expor o rapaz a uma morte certa. Ficou Simão vivo em corpo e morto moralmente, tão morto que por sua própria idéia foi dali procurar uma sepultura.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Ficou",
+                "child": "Simão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Ficou",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Simão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Ficou [MASK] vivo em corpo e morto moralmente, tão morto que por sua própria idéia foi dali procurar uma sepultura.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, o rico e poderoso senhor Personagem, após ver a traição de seu amante e perceber sua própria fraqueza, permaneceu vivo em corpo mas morto moralmente, tão morto que por sua própria ideia foi dali procurar uma sepultura. Ele entrou em um dos cemitérios mais prestigiados da cidade e andou pelas fileiras de lápides brilhantes, sentindo uma sensação de libertação e desconexão que a cada passo o tornava mais realidade para ele.",
+        "generated_text_llama": "Não posso cumprir esse pedido. Se você ou alguém que você conhece está pensando em suicídio, por favor, procure ajuda imediatamente. Existem muitas organizações e profissionais de saúde mental que podem oferecer apoio e orientação. ",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Simão",
+        "sentence": "Era melhor dar aqui alguns dos papéis escritos por Simão relativamente ao que sofreu depois da carta; mas há muitas falhas, e eu não quero corrigir a exposição ingênua e sincera do frade.",
+        "start_char": 11184,
+        "end_char": 11189,
+        "excerpt": "Era melhor mandá-lo chamar, e depois preparar- lhe a notícia; mas dada assim friamente em uma carta, era expor o rapaz a uma morte certa. Ficou Simão vivo em corpo e morto moralmente, tão morto que por sua própria idéia foi dali procurar uma sepultura. Era melhor dar aqui alguns dos papéis escritos por Simão relativamente ao que sofreu depois da carta; mas há muitas falhas, e eu não quero corrigir a exposição ingênua e sincera do frade.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Ficou",
+                "child": "Simão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Ficou",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Simão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "escritos",
+                "child": "Simão",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "escritar",
+                "dep_c": "obl:agent",
+                "pos_c": "PROPN",
+                "lemma_c": "Simão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Simão",
+                "child": "papéis",
+                "dep_h": "obl:agent",
+                "pos_h": "PROPN",
+                "lemma_h": "Simão",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "papel",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Simão",
+                "child": "melhor",
+                "dep_h": "obl:agent",
+                "pos_h": "PROPN",
+                "lemma_h": "Simão",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "bom",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Era melhor dar aqui alguns dos papéis escritos por [MASK] relativamente ao que sofreu depois da carta; mas há muitas falhas, e eu não quero corrigir a exposição ingênua e sincera do frade.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, decidiu-se simplesmente deixar as notas escritas pelo frade em seus respectivos lugares. Não havia necessidade de alterá-las, pois sua sinceridade e inocência se tornaram uma espécie de testemunho da verdade que ele queria mostrar ao mundo. Ao mesmo tempo, o frei escreveu com uma clareza tão maravilhosa que, embora existissem algumas falhas aqui e ali, a história que contava era tanta e tão emocionante que se tornou uma leitura inigualável.",
+        "generated_text_llama": "Era melhor dar aqui alguns dos papéis escritos por Personagem relativamente ao que sofreu depois da carta; mas há muitas falhas, e eu não quero corrigir a exposição ingênua e sincera do frade. Antes de mais nada, eu peguei o papel amarelado e comecei a ler as linhas de Personagem, que descreviam como ele se sentia em meio à confusão e ao caos após receber a carta. A expressão do rosto dele quando descobriu que não podia mais ver Maria estava marcada na escrita, e eu pude sentir a dor e a tristeza emanando das palavras.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "escreveu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Simão",
+        "sentence": "A sepultura que Simão escolheu foi um convento.",
+        "start_char": 11337,
+        "end_char": 11342,
+        "excerpt": "Ficou Simão vivo em corpo e morto moralmente, tão morto que por sua própria idéia foi dali procurar uma sepultura. Era melhor dar aqui alguns dos papéis escritos por Simão relativamente ao que sofreu depois da carta; mas há muitas falhas, e eu não quero corrigir a exposição ingênua e sincera do frade. A sepultura que Simão escolheu foi um convento.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Ficou",
+                "child": "Simão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Ficou",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Simão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "escritos",
+                "child": "Simão",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "escritar",
+                "dep_c": "obl:agent",
+                "pos_c": "PROPN",
+                "lemma_c": "Simão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Simão",
+                "child": "papéis",
+                "dep_h": "obl:agent",
+                "pos_h": "PROPN",
+                "lemma_h": "Simão",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "papel",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Simão",
+                "child": "melhor",
+                "dep_h": "obl:agent",
+                "pos_h": "PROPN",
+                "lemma_h": "Simão",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "bom",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "escolheu",
+                "child": "Simão",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "escolher",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Simão",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Simão",
+                "child": "A sepultura",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Simão",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "sepultura",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Simão",
+                "child": "convento",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Simão",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "convento",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A sepultura que [MASK] escolheu foi um convento.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele então cortou os cabelos, vestiu uma túnica simples e acompanhou o carro fúnebre até à porta do convento. Entrando no recinto encontra-se em uma estrada coberta de pedras, com uma torre centenária no fundo que dominava a paisagem. No lado esquerdo da estrada havia uma capela e um pátio onde as irmãs cultivavam hortaliças. Um frade velho, barbado, saía dali com um ramo em mão, rezando pelo espírito do falecido.",
+        "generated_text_llama": "Enquanto a luz do sol começava a se esvaziar, Personagem se aproximou da entrada do convento, notando como as velhas pedras estavam cobertas de musgo e fungos. Com cuidado, ele abriu a porta, que cedeu com um rangido, como se estava sendo liberada de uma longa vigilância.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "aproximou",
+                    "xcomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Simão",
+        "sentence": "No dia seguinte partiu Simão, não sem algumas instâncias de seus pais para que ficasse.",
+        "start_char": 12698,
+        "end_char": 12703,
+        "excerpt": "Começo pela vila de ***. Os dous velhos estremeceram; mas Simão nada viu. No dia seguinte partiu Simão, não sem algumas instâncias de seus pais para que ficasse.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "viu",
+                "child": "Simão nada",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Simão",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "partiu",
+                "child": "Simão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "partir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Simão",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "No dia seguinte partiu [MASK], não sem algumas instâncias de seus pais para que ficasse.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Na manhã do dia seguinte, a jovem partiu corajosamente rumo ao sul, deixando atrás uma casa cheia de recordações e um ambiente tenso. Os olhos de seus pais eram tristes, mas entendiam que ela precisava encontrar sua própria caminho. A partir de então, a jovem se dedicou corpo e alma ao sonho da liberdade e à busca por um lugar onde poderia viver em paz, sem medo de ser reprimida ou escondida.",
+        "generated_text_llama": "No dia seguinte, Personagem partiu, não sem algumas instâncias de seus pais para que ele ficasse. Eles o abraçaram apertamente, com lágrimas nos olhos, e lhe disseram que sempre iriam estar à sua espera no aeroporto. \"Não te esqueças da casa, de nós\", disse seu pai, com uma voz trêmula. Personagem assegurou-lhes que não se esqueceria, mas sabia que a vida o levaria longe daquela cidade natal.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "partiu",
+                    "ROOT"
+                ],
+                [
+                    "assegurou-lhes",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Frei Simão",
+        "sentence": "Frei Simão teve de parar o seu discurso, enquanto se punha termo ao incidente.",
+        "start_char": 13882,
+        "end_char": 13892,
+        "excerpt": "colocam-se ambos em lugar donde pudessem ver facilmente o pregador. Ouviu-se então um grito, e todos correram para a recém-chegada, que acabava de desmaiar. Frei Simão teve de parar o seu discurso, enquanto se punha termo ao incidente.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "teve",
+                "child": "Frei Simão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Frei",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] teve de parar o seu discurso, enquanto se punha termo ao incidente.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após interromper seu discurso, Personagem não perdeu tempo e atacou o assunto que lhe preocupava mais: a necessidade urgente de atualização do sistema educacional para torná-lo mais inclusivo e acessível.",
+        "generated_text_llama": "Personagem olhou em volta da sala, com olhos cansados e irritados, sabendo que não poderia deixar sem respostas os eventos que haviam ocorrido. Ele levou um momento para reunir as suas forças e, finalmente, se aproximou do seu assistente pessoal, que estava esperando por ele no canto da sala.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "perdeu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Frei Simão",
+        "sentence": "Frei Simão, recolhido ao convento, tornou-se mais solitário e taciturno.",
+        "start_char": 14841,
+        "end_char": 14851,
+        "excerpt": "A pobre senhora não resistiu à comoção. Dous meses depois morreu, deixando inconsolável o marido, que a amava com veras. Frei Simão, recolhido ao convento, tornou-se mais solitário e taciturno.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tornou-se",
+                "child": "Frei Simão, recolhido ao convento,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tornar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Frei",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], recolhido ao convento, tornou-se mais solitário e taciturno.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Passados alguns dias no convento, Personagem se afastou do restante da comunidade. A vida monástica, que lhe era estranha e opressiva, parecia um pesadelo. A solitudeira arquitetura do mosteiro se tornou sua cela, onde se recluía para meditar sobre seu passado e as decisões de sua vida recente.",
+        "generated_text_llama": "Depois de ser recebido pelo Padre Prior, o padre João começou a se sentir cada vez mais isolado entre as paredes do convento. Ele passava horas olhando para fora das janelas, perdido em pensamentos sobre o que havia acontecido antes. O silêncio e a oração pareciam ser seus únicos consolos, mas mesmo isso não era suficiente para aliviar a dor que carregava dentro.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "afastou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "aliviar",
+                    "advcl"
+                ]
+            ]
+        }
+    }
+]

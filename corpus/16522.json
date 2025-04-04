@@ -1,0 +1,700 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Dom Bernardo",
+        "sentence": "Dom Bernardo amaldiçoaria aquele a quem deve o bago pontifical;",
+        "start_char": 3562,
+        "end_char": 3574,
+        "excerpt": "Obedecer ao sucessor de São Pedro. Quê? Dom Bernardo amaldiçoaria aquele a quem deve o bago pontifical;",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "amaldiçoaria",
+                "child": "Dom Bernardo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "amaldiçoariar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dom",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] amaldiçoaria aquele a quem deve o bago pontifical;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a história em português-brasileiro, logo após amaldiçoar aquela pessoa que deveria ao bágo pontifícial, Personagem fez uma passada até a mesa do sínodo e arrancou o bágo de entre as mãos do cardeal. A sacralidade daquilo não lhe importava nada naquele momento. Tinha um desejo irresistível, uma necessidade primordial: quebrar aquela relação que mantinham ele e a pessoa que havia causado tantos sofrimentos em sua vida.",
+        "generated_text_llama": "Pela janela da torre do Castelo de Santa Maria, Personagem observou a cidade em silêncio, as ruas escuras e iluminadas apenas pela lua cheia que se refletia nas águas do rio. Com uma mão firme, ele fechou os olhos e começou a recitar as palavras da oração, sentindo a energia sagrada fluindo pelo seu corpo. O ar ao seu redor parecia pesar mais, como se a própria noite estivesse sendo comprimida pela força de sua magia.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "fez",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "observou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cristo",
+        "sentence": "Tudo vos devo, senhor  atalhou o bispo  salvo a minha alma, que pertence a Deus, a minha fé, que devo a Cristo, e a minha obediência, que guardarei ao papa.",
+        "start_char": 3996,
+        "end_char": 4002,
+        "excerpt": "aquele que o levantou do nada? Vós, bispo de Coimbra, excomungaríeis o vosso príncipe, porque ele não quer pôr a risco a liberdade desta terra remida das opressões do senhor de Trava e do jugo do rei de Leão; desta terra que é só minha e dos cavaleiros portugueses? Tudo vos devo, senhor  atalhou o bispo  salvo a minha alma, que pertence a Deus, a minha fé, que devo a Cristo, e a minha obediência, que guardarei ao papa.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "devo",
+                "child": "Cristo",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "devar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cristo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cristo",
+                "child": ", a minha fé",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cristo",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "fé",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cristo",
+                "child": "a minha alma",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cristo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "alma",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cristo",
+                "child": "o bispo",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cristo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "bispo",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Tudo vos devo, senhor  atalhou o bispo  salvo a minha alma, que pertence a Deus, a minha fé, que devo a [MASK], e a minha obediência, que guardarei ao papa.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Sem hesitar um instante, João se inclinou profundamente em direção à figura sagrada, oferecendo sua máxima reverência. Em seguida, caminhou com calma e respeito até a porta da catedral. Para aqueles olhos atento, ele parecia tenso, pesado de uma burda culpa.",
+        "generated_text_llama": "",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "inclinou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dom Bernardo",
+        "sentence": "Dom Bernardo!  disse o príncipe, sufocado de cólera , lembrai-vos de que afronta que se me fizesse nunca ficou sem paga!",
+        "start_char": 4063,
+        "end_char": 4075,
+        "excerpt": "Tudo vos devo, senhor  atalhou o bispo  salvo a minha alma, que pertence a Deus, a minha fé, que devo a Cristo, e a minha obediência, que guardarei ao papa. Dom Bernardo! Dom Bernardo!  disse o príncipe, sufocado de cólera , lembrai-vos de que afronta que se me fizesse nunca ficou sem paga!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Dom Bernardo!  ",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dom",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]!  disse o príncipe, sufocado de cólera , lembrai-vos de que afronta que se me fizesse nunca ficou sem paga!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O barão apontou para a porta da sala, de olhos dúplices. \"Senhor Príncipe, você está correto\", disse ele, sorrindo cruel e calculista. \"Porém, não vai ser você quem paga pelaquilo que se passou aqui hoje\".",
+        "generated_text_llama": "\"Mas não é isso que você quer dizer, seu nobre sogro\", respondeu Personagem, olhando para o príncipe com uma mistura de ironia e desafio. \"O que você está sugerindo é que eu deva aceitar uma oferta que, embora seja lucrativa, também significa comprometer minha integridade e meus princípios?\"",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "respondeu",
+                    "ROOT"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Afonso Henriques",
+        "sentence": "Afonso Henriques ficou pensativo por algum tempo; depois, falou em voz baixa com Lourenço Viegas, o Espadeiro, e encaminhou-se para a sua câmara.",
+        "start_char": 4302,
+        "end_char": 4318,
+        "excerpt": "Mil vezes não!  Guardai-vos! E o bispo saiu, sem dizer mais palavras. Afonso Henriques ficou pensativo por algum tempo; depois, falou em voz baixa com Lourenço Viegas, o Espadeiro, e encaminhou-se para a sua câmara.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ficou",
+                "child": "Afonso Henriques",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Afonso",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] ficou pensativo por algum tempo; depois, falou em voz baixa com Lourenço Viegas, o Espadeiro, e encaminhou-se para a sua câmara.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Personagem permaneceu em silêncio durante algum tempo, contemplando os eventos que acabaram de ocorrer. Então, com uma voz baixa e grave, dirigiu-se a Lourenço Viegas, conhecido como o Espadeiro, e lentamente se encaminhou para sua câmara.",
+        "generated_text_llama": "Quando chegou à sua câmara, Personagem pôs a febre, sentindo que não podia deixar de lado as preocupações que o acompanhavam há tantos dias. Ele pegou um copo de água e bebeu lentamente, tentando acalmar o coração acelerado. Depois de uma pausa breve, ele começou a se preparar para uma longa noite de vigilância, sabendo que teria que ficar alerta e pronto para enfrentar qualquer surpresa que pudesse surgir.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "permaneceu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pôs",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lourenço Viegas",
+        "sentence": "Pela alvorada, muito antes de romper o sol no dia seguinte, Lourenço Viegas passeava com o príncipe na sala de armas do paço mourisco.",
+        "start_char": 4612,
+        "end_char": 4627,
+        "excerpt": "Daí a pouco o alcácer de Coimbra jazia, como o resto da cidade, no mais profundo silêncio. CAPÍTULO III Pela alvorada, muito antes de romper o sol no dia seguinte, Lourenço Viegas passeava com o príncipe na sala de armas do paço mourisco.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "passeava",
+                "child": ", Lourenço Viegas",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "passear",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lourenço",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Pela alvorada, muito antes de romper o sol no dia seguinte, [MASK] passeava com o príncipe na sala de armas do paço mourisco.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Naquela manhã amarela, enchendo-se a sala de armas do palácio mourosco, Personagem fez as suas primeiras passadas em direção ao príncipe que esperava corajosamente ao seu lado. Com uma postura digna e confiante, ela desafia o destino, olhando para ele com um olhar firme e deciso, sinalizando o começo de um novo caminho juntos. A misteriosa princesa mourosca estendia a mão para o príncipe, que recolheu-se em seu peito, sentindo um sorriso solto pelo coração enquanto tomava a delicada mão dele em sua sua. O vento susurrava nas torres antigas do palácio, brincando com os ramos das árvores, enquanto Personagem e o príncipe se desabafavam sob o olhar confiante um do outro, sinalizando a formação de uma nova aliança entre duas nações que, no passado, haviam lutado uns contra os outros. E assim, com as mãos unidas, começaram a andar pela sala de armas, em direção ao fim daquela longa jornada de conflitos e inveja.",
+        "generated_text_llama": "Enquanto caminhavam, o príncipe não parava de examinar as armas expostas nas paredes e balustradas da sala. Personagem, por outro lado, observava as esculturas árabes que decoravam a parede oposta, admirando a beleza e a complexidade das formas geométricas e florais.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "fez",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Afonso Henriques",
+        "sentence": "Por fim Afonso Henriques ergue o rosto carrancudo e ameaçador e disse:",
+        "start_char": 6411,
+        "end_char": 6427,
+        "excerpt": "Toda a clerezia da Sé estava ali apinhada, e o príncipe, sem dar palavra e com os olhos fitos no chão, parecia envolto em fundo pensar. O silêncio era completo. Por fim Afonso Henriques ergue o rosto carrancudo e ameaçador e disse:",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ergue",
+                "child": "Afonso Henriques",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "erguer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Afonso",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Por fim [MASK] ergue o rosto carrancudo e ameaçador e disse:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " \"Olhou para as pessoas que estavam presentes e, com uma voz ressonante e ousada, ele gritou:\"",
+        "generated_text_llama": "\"Você acha que pode me derrotar aqui? Eu sou o mais forte do clã e você é apenas um menino de 16 anos. Você vai aprender a respeitar as regras do nosso clã, mesmo que seja a última coisa que faça.\" Personagem continuou, com uma voz alta e ameaçadora, fazendo com que os outros membros do clã se assustassem e se afastassem de ele.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dom Bernardo",
+        "sentence": "Juro que nunca em meus dias porá Dom Bernardo pés em Coimbra: nunca mais da cadeira episcopal ensinará um rebelde a fé das santas escrituras!",
+        "start_char": 7028,
+        "end_char": 7040,
+        "excerpt": "Tirar-me quis ele o nome de filho de Deus; eu lhe tirarei o nome do seu vigário. Juro que nunca em meus dias porá Dom Bernardo pés em Coimbra: nunca mais da cadeira episcopal ensinará um rebelde a fé das santas escrituras!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "porá",
+                "child": "Dom Bernardo",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "porá",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dom",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Dom Bernardo",
+                "child": "Juro",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Dom",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Juro",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Juro que nunca em meus dias porá [MASK] pés em Coimbra: nunca mais da cadeira episcopal ensinará um rebelde a fé das santas escrituras!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim se enrolando numa espiral de raiva, ele subiu à catedral e, com uma voz tremenda, lancou o livro sagrado ao chão. O tomelo queimava no seu rosto enquanto gritava: \"Assim vai ser a minha lei! Não haverá mais heresia nesta cidade santa!\" E com um gesto de defiante magistral, ele saiu em péssimo humor daquele lugar sagrado. A partir daquela tarde, a cidade de Coimbra virou uma prisão para os que tentassem desafiar sua dura lei e imensa autoridade.",
+        "generated_text_llama": "",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "lei",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Afonso Henriques",
+        "sentence": "Afonso Henriques fez-lhe um sinal com a mão.",
+        "start_char": 8040,
+        "end_char": 8056,
+        "excerpt": "Quando o príncipe falava, ele sorria-se e meneava a cabeça, como quem aprovava o dito. Os cônegos começavam a retirar-se, e o negro ia após eles. Afonso Henriques fez-lhe um sinal com a mão.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "fez-lhe",
+                "child": "Afonso Henriques",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fez-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Afonso",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] fez-lhe um sinal com a mão.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele olhou para onde o sinal havia sido dado e, em seguida, partiu correndo rumo àquele lugar, sentindo seu coração batendo forte na pele, como se tivesse um milhão de palpitões. Atenuou o som dos seus passos por baixo do pescoço, não queria dar-lhe a ele surpresa que o acompanhará ao perceber sua presença.",
+        "generated_text_llama": "Personagem fez-lhe um sinal com a mão, indicando que deveria seguir em frente e não se deixar intimidar pela situação. Ele sabia que tinha que resolver o problema que estava diante dele, seja o que fosse, e não podia deixar que medo ou ansiedade o controlassem.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "fez-lhe",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dom",
+        "sentence": "Dom Çoleima, repara bem no que te digo!",
+        "start_char": 8513,
+        "end_char": 8516,
+        "excerpt": "O clérigo recuou: naquela face tisnada viu-se uma contração de susto. Missa não vos cantarei eu, senhor - respondeu o negro com voz tremula  que para tal auto não tenho as ordens requeridas. Dom Çoleima, repara bem no que te digo!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "repara",
+                "child": "Dom Çoleima,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "reparar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dom",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] Çoleima, repara bem no que te digo!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Çoleima ouviu a voz enfática e repetiu as palavras em sua cabeça. Então, olhou para o relógio e notou que era tarde. Era exatamente a hora da partida do time de basquete onde ela costumava jogar. Sem pensar duas vezes, ela pegou sua bola e saiu correndo para o local designado.",
+        "generated_text_llama": "Desculpe, mas não posso continuar a história sem saber quem é o personagem \"Personagem\" ou em que contexto ele está inserido. Você pode fornecer mais informações sobre o personagem ou a situação para que eu possa continuar a história de forma coerente?",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "ouviu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dom cardeal",
+        "sentence": "Dom cardeal  começou o príncipe , que viestes vós fazer a minha terra?",
+        "start_char": 11556,
+        "end_char": 11567,
+        "excerpt": "O infante estava assentado em uma cadeira de espaldas: diante dele o legado, em um assento raso, posto em cima de um estrado mais elevado: os senhores e cavaleiros cercavam o filho do conde Henrique. Dom cardeal  começou o príncipe , que viestes vós fazer a minha terra?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "começou",
+                "child": "Dom cardeal  ",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "começar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dom",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  começou o príncipe , que viestes vós fazer a minha terra?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O rei, com uma expressão enérgica e irritada, respondeu: \"O país é meu, e eu tenho o direito de decidir quem pode entrar e quem não.\"",
+        "generated_text_llama": "O príncipe, com uma expressão de surpresa e mistério, olhou para as armas que Personagem segurava e respondeu: \"Eu sou do reino de Valtania, e venho em busca da princesa Sofía, que se casou com o seu irmão sem o meu conhecimento ou consentimento. Eu estou aqui para recuperá-la e trazê-la de volta à minha terra\".",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "segurava",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Afonso Henriques",
+        "sentence": "Não a trazer-vos riquezas  atalhou ele , mas a ensinar-vos a fé vim eu; que dela parece vos esquecestes, tratando violentamente o bispo Dom Bernardo e pondo em seu lugar um bispo sagrado com vossas manoplas, vitoriado só por vós com palavras blasfemas e malditas...  Calai-vos, dom cardeal  gritou Afonso Henriques  que mentis pela gorja!",
+        "start_char": 12341,
+        "end_char": 12357,
+        "excerpt": "Se isto trazeis, aceitar- vos-ei: depois, desembaraçadamente podeis seguir vossa viagem. No ânimo do legado a cólera sobrepujou o temor, quando ouviu as palavras do príncipe, que eram de amargo escárnio. Não a trazer-vos riquezas  atalhou ele , mas a ensinar-vos a fé vim eu; que dela parece vos esquecestes, tratando violentamente o bispo Dom Bernardo e pondo em seu lugar um bispo sagrado com vossas manoplas, vitoriado só por vós com palavras blasfemas e malditas...  Calai-vos, dom cardeal  gritou Afonso Henriques  que mentis pela gorja!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "gritou",
+                "child": "Afonso Henriques  que mentis pela gorja",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "gritar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Afonso",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Não a trazer-vos riquezas  atalhou ele , mas a ensinar-vos a fé vim eu; que dela parece vos esquecestes, tratando violentamente o bispo Dom Bernardo e pondo em seu lugar um bispo sagrado com vossas manoplas, vitoriado só por vós com palavras blasfemas e malditas...  Calai-vos, dom cardeal  gritou [MASK]  que mentis pela gorja!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele, enfurecido pela audácia dos rebeldes, abaixou a cruz de ouro em sua mão esquerda e, com um tom de voz ressonante que ecoava pelo altar, gritou: \"Cessai, sacrilegios! Ao Santo Bispo Dom Bernardo, vos reconheceis? Quem lhes colocou nesse lugar? Meu poder e minha autoridade são da Cruz e do Espírito Santo; os vossos poderes saem de uma bengala e das malditas palavras que vós emitemeis contra o Santo. Se vos negarem, proclamo aos ouvintes presentes: aqueles homens não são meus bispos!!\"",
+        "generated_text_llama": "Enquanto o cardeal gritava, Personagem se aproximou de Dom Bernardo, que estava sendo manobrado para fora da sala pelo grupo de clérigos leais a Vittorio. O líder dos rebeldes, com um olhar feroz, ajudou o bispo ferido e o pôs em pé, mas não sem antes lhe dar uma olhada penetrante, como se estivesse dizendo: \"Vocês podem pensar que sou um heretico, mas a verdade é que sou aquele que está lutando pelos valores verdadeiros da Igreja\". Dom Bernardo, ainda sustentado pela dor, olhou para Personagem com um misto de surpresa e gratidão. \"Obrigado, Personagem\", disse ele, sua voz fraca mas firme. \"Agradeço-vos por me salvar da vossa fúria. Mas não é suficiente apenas salvar a minha vida... devemos agir contra aqueles que estão destruindo tudo o que é sagrado\". Personagem assentiu com a cabeça, um sorriso firme nos lábios. \"Está certo, Dom Bernardo. Juntos, podemos fazer a diferença e restaurar a verdadeira fé da Igreja\".",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "abaixou",
+                    "ROOT"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "aproximou",
+                    "ROOT"
+                ],
+                [
+                    "assentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cristo",
+        "sentence": "Tão bem em Portugal como em Roma sabemos que Cristo nasceu da Virgem; tão certo, como vós outros romãos, cremos na Santa Trindade.",
+        "start_char": 12444,
+        "end_char": 12450,
+        "excerpt": "Não a trazer-vos riquezas  atalhou ele , mas a ensinar-vos a fé vim eu; que dela parece vos esquecestes, tratando violentamente o bispo Dom Bernardo e pondo em seu lugar um bispo sagrado com vossas manoplas, vitoriado só por vós com palavras blasfemas e malditas...  Calai-vos, dom cardeal  gritou Afonso Henriques  que mentis pela gorja! Ensinar-me a fé? Tão bem em Portugal como em Roma sabemos que Cristo nasceu da Virgem; tão certo, como vós outros romãos, cremos na Santa Trindade.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "nasceu",
+                "child": "Cristo",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "nascer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cristo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Tão bem em Portugal como em Roma sabemos que [MASK] nasceu da Virgem; tão certo, como vós outros romãos, cremos na Santa Trindade.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a narrar sua vida, após o nascimento, [O Homem] cresceu sendo educado pelo pai José e a mãe Maria. Em Portugal, ele recebeu uma sólida educação religiosa, aprendendo sobre as escrituras, orações e doutrinas da igreja católica romana. Ele também mostrou um grande talento para a música, tocando harmonia com sua família em celebrações litúrgicas locais.",
+        "generated_text_llama": "Não podia acreditar no que estava acontecendo. Uma plateia de pessoas estranhas e vestidas a branco o olhavam com uma mistura de curiosidade e reverência. \"Nasceu da Virgem\" era uma afirmação louca, mas havia algo nos olhos desses romanos que sugeria que eles acreditavam no que diziam.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "afirmação",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Afonso Henriques",
+        "sentence": "- rezou o cardeal em voz baixa e tremula, quando, ouvindo o tropear dos cavalos, voltou os olhos e conheceu Afonso Henriques.",
+        "start_char": 15805,
+        "end_char": 15821,
+        "excerpt": "Era o rugido de prazer do tigre, no momento em que salta do fojo sobre a preia descuidada. Memento mei, Domine, secundum magnam misericordiam tua! - rezou o cardeal em voz baixa e tremula, quando, ouvindo o tropear dos cavalos, voltou os olhos e conheceu Afonso Henriques.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "conheceu",
+                "child": "Afonso Henriques",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "conhecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Afonso",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "- rezou o cardeal em voz baixa e tremula, quando, ouvindo o tropear dos cavalos, voltou os olhos e conheceu [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Não pôde acreditar. Eles eram irmãos, de fato! Sua semelhança era indenominável, desde as mesmas maneiras de se mover até os trinhos que faziam no canto da boca. O cardeal abraçou-o embeago e sorríu, revelando dentes brancos e bem cuidados, então disse:",
+        "generated_text_llama": "Ao ver Personagem parado na frente dele, com os olhos brilhantes e a pele mais pálida do que nunca, o cardeal sentiu um frio que não era apenas físico. Ele estendeu a mão para que Personagem a abrisse, mas logo se lembrou das palavras do padrinho: \"Nem mesmo os santos podem nos ajudar agora\".",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "abrisse",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Afonso Henriques",
+        "sentence": "Afonso Henriques deixou descair o montante, e ficou em silêncio alguns momentos.",
+        "start_char": 16437,
+        "end_char": 16453,
+        "excerpt": "Príncipe  disse o velho, chorando , não me faças mal; que estou à tua mercê! Os dois mancebos também choravam. Afonso Henriques deixou descair o montante, e ficou em silêncio alguns momentos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "deixou",
+                "child": "Afonso Henriques",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "deixar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Afonso",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] deixou descair o montante, e ficou em silêncio alguns momentos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de lançar a montanha fora do balcão, ele permaneceu em silêncio por algum tempo, com uma expressão meditativa no rosto. Seus olhos escuros fixavam-se em um ponto distante, onde o sol se pôs, brilhando a cada ligeira ondulação das nuvens na horizónte. A calma e a tranquilidade eram palpáveis em sua alta figura, enquanto as mãos dele seguravam o guarda-chuva que estava preso ao ombro. Sentinelando o céu acima, ele sentia o vento fresco na cara e ouvia apenas o barulho dos insetos em flor da noite. Mas de repente, seus olhos se enfiaram nos lábios e uma sorriso gentil formou-se na boca, revelando dentes brilhantes. Ele parecia encontrar paz nessa silêncio interminável, como se estivesse comunicando com o mundo exterior através de um linguajar incomum. Acompanhado apenas do som das águas que caíam na distância, ele começou a caminhar lentamente até a casa, onde esperava dormir enquanto sonhava nos planos mais altos da vida.",
+        "generated_text_llama": "Personagem levantou-se da cadeira e se aproximou do balcão, onde o dinheiro agora parecia um peso pesado na sua mão. Ele olhou em volta do quarto, como se estivesse procurando alguma saída ou uma explicação para a situação em que estava. Mas havia apenas a quietude, interrompida apenas pelo som suave da ventoinha do quadro acima do fogão.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

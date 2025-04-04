@@ -1,0 +1,93 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Tio Eusébio",
+        "sentence": "O Tio Eusébio quer que eu vá buscá-lo?",
+        "start_char": 502,
+        "end_char": 513,
+        "excerpt": "esse padre?.. - Já cá devia estar. O Tio Eusébio quer que eu vá buscá-lo?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "quer",
+                "child": "O Tio Eusébio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tio",
+                "word_categories": [
+                    "outro",
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "O [MASK] quer que eu vá buscá-lo?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " \"Sim,\" respondi, me levantando da cadeira e sorrindo. \"Eu estou pronto para ir buscar você.\"",
+        "generated_text_llama": "Eu me estendi e olhei ao meu redor, tentando lembrar do caminho que eu havia percorrido até aqui. A escuridão parecia se fechar em torno de mim, e a sensação de desorientamento era intensa. Eu me levantei da cama e comecei a procurar por uma luz para guiar minhas ações.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "respondi",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eusébio",
+        "sentence": "- Pois vamos ao Morro do Pinto... respondeu resignado o resignado Eusébio.",
+        "start_char": 4776,
+        "end_char": 4783,
+        "excerpt": "minha mulher, que é muito boa senhora, mas nem sempre acredita no que eu digo, há de supor que me remanchei. - Nesse caso, meu patrão, é preciso que eu vá primeiramente ao Morro do Pinto. - Pois vamos ao Morro do Pinto... respondeu resignado o resignado Eusébio.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "resignado",
+                "child": "Eusébio",
+                "dep_h": "obj",
+                "pos_h": "VERB",
+                "lemma_h": "resignado",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Eusébio",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "- Pois vamos ao Morro do Pinto... respondeu resignado o resignado [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, o resignado Personagem seguiu caminhando através da rocha áspera e escorregadia do Morro do Pinto. Ele sabia que era um trecho desafiante, mas era a única forma de chegar àquela posição elevada onde poderia ver o sol nascer pela primeira vez naquele dia. Enfim, o ponto culminante de seu longo caminhada matinal. O sol começava a rir através das nuvens e, lentamente, o céu se tornou mais claro. Os coralinos, que haviam sido quase invisíveis na escuridão da noite, estavam agora visíveis em todos os seus brilhantes tons de azul e vermelho. O Personagem sentiu uma onda de paz passar por ele ao assistir a esse espetáculo natural. E então, para completar seu ritual matinal, ele abriu o pacote com o chá que trouxe consigo e bebeu lentamente, olhando para baixo na encosta do morro enquanto os primeiros rayos do sol se espalhavam pela paisagem.",
+        "generated_text_llama": "...e começou a caminhar em direção à praia, as ondas das olhavas dele com o vento que soprava do mar. O sol já estava alto no céu, castigando-o com seu calor intenso, mas ele não sentiu dor, apenas um cansaço profundo que parecia abalar seus ossos. Ele sabia que precisava de um lugar para se esconder, para escapar da luz intensa e do barulho incessante das aves que choravam no Morro do Pinto.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    }
+]

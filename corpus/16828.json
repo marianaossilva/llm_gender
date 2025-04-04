@@ -1,0 +1,56 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Senhor Barão de Jacuecanga",
+        "sentence": "Enfim, com metade do alfabeto levamos um mês e o Senhor Barão de Jacuecanga não ficou lá muito senhor da matéria: aprendia e desaprendia.",
+        "start_char": 11686,
+        "end_char": 11712,
+        "excerpt": "Dentro em pouco, dava a minha primeira lição, mas o velho não foi tão diligente quanto eu. Não conseguia aprender a distinguir e a escrever nem sequer quatro letras. Enfim, com metade do alfabeto levamos um mês e o Senhor Barão de Jacuecanga não ficou lá muito senhor da matéria: aprendia e desaprendia.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ficou",
+                "child": "e o Senhor Barão de Jacuecanga",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Enfim, com metade do alfabeto levamos um mês e o [MASK] não ficou lá muito senhor da matéria: aprendia e desaprendia.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Por fim, com metade do alfabeto fomos por uma semana e o Personagem não foi o senhor absoluto da materiais artísticos: ele ensaiava e experimentava. De um dia para outro, encontramos-no de olhos meigas tentando esculpir um elefante com carneiro e trabalhando numa pintura impressionista com tintas a óleo. Era surpreendente como conseguia transformar o mais complexo em algo simples e o mais simples em algo maravilhosamente complicado, todos os dias aprendia e desaprendia com uma curiosidade incansável. Sua mão era a pena de um mago e cada obra era mais impressionante do que a última. Mesmo quando ficava desanimado ou se sentia perdido, nunca se deteve: o Personagem sempre seguiu trabalhando, aprendendo e criando obras maravilhosas.",
+        "generated_text_llama": "Com o passar dos dias, a frustração de Personagem começou a aumentar. Ele sentia que estava perdendo tempo e dinheiro com a aula, pois não estava conseguindo entender conceitos básicos. Em uma tentativa de encontrar uma solução, ele decidiu procurar ajuda adicional. Com o apoio do seu tutor, Personagem pôde obter um guia suplementar que o ajudou a reorganizar seus estudos e a encontrar um ritmo de aprendizado mais eficaz.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "seguiu",
+                    "parataxis"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pôde",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

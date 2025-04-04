@@ -1,0 +1,170 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Homero",
+        "sentence": "A Aurora, com aqueles mesmos dedos cor-de-rosa, que Homero lhe pôs.",
+        "start_char": 1894,
+        "end_char": 1900,
+        "excerpt": "As colchas da cama eram nuvens purpúreas, e assim também a esteira que forrava o sofá de repouso, a poltrona da secretária e a rede. Sabe quem lhe fazia o café, de manhã? A Aurora, com aqueles mesmos dedos cor-de-rosa, que Homero lhe pôs.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "pôs",
+                "child": "Homero",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "pôr",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Homero",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Homero",
+                "child": ", com aqueles mesmos dedos",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Homero",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "dedo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Homero",
+                "child": "A Aurora",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Homero",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Aurora",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A Aurora, com aqueles mesmos dedos cor-de-rosa, que [MASK] lhe pôs.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Seguindo a trilha luminosa que apareceu após o descaso de luta, Aurora andou adentro daquele misterioso labirinto. Ela se sentiu um pouco mais confiante com as mãos delicadas de rosa em seus punhos; uma lembrança do amor que ela queria recuperar. Quando chegou a uma sala circular brilhante, Aurora percebeu algo estranho: um corpo dormindo no meio da sala. Era a imagem dele, seu namorado caído e desmaiado. Ela se aproximou delicadamente e sentiu o calor fraco do seu corpo. Aurora segurou-o em seus braços, olhando para ele com uma mistura de preocupação e amor. \"Eu te vou levar de volta ao meu mundo\", murmurou ela. E então começaram a sonhar juntos sob a luz dos cristais no arco-íris, esperançosa de que o próximo passo iria trazer a sua libertação final.",
+        "generated_text_llama": "Pela janela, Personagem viu a aurora boreal se erguer ao norte, como uma pintura viva de cores pastéis e luminosa. Com um sussurro, ele abriu a porta da cozinha e saiu para o pátio, respirando profundamente o ar fresco da manhã. A neve cravada pelo vento parecia dançar ao redor das pedras e das árvores, criando um cenário mágico. Personagem sentiu uma sensação de paz e tranquilidade, como se o mundo tivesse parado para ele. Ele se aproximou da cerca do pátio, olhando para as estrelas que começavam a brilhar no céu noturno, e sussurrou um simples \"obrigado\" ao vento frio, que lhe trazia aqueles dedos cor-de-rosa.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "andou",
+                    "ROOT"
+                ],
+                [
+                    "percebeu",
+                    "ROOT"
+                ],
+                [
+                    "segurou-o",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "viu",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Xavier",
+        "sentence": "\"Cá vou, meu caro Xavier, o cavalo xucro ou manhoso da vida deitou-me ao chão:",
+        "start_char": 15002,
+        "end_char": 15008,
+        "excerpt": "Uma semana depois da comédia cai o amigo doente, com tal gravidade que em quatro dias estava à morte. O Xavier corre a vê-lo; e o infeliz ainda o pôde conhecer, estender-lhe a mão fria e trêmula, cravar-lhe um longo olhar baço da última hora, e, com a voz sumida, eco do sepulcro, soluçar-lhe: \"Cá vou, meu caro Xavier, o cavalo xucro ou manhoso da vida deitou-me ao chão:",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "corre",
+                "child": "O Xavier",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "correr",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "caro",
+                "child": "Xavier",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "caro",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Xavier",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Xavier",
+                "child": "caro",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Xavier",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "caro",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "\"Cá vou, meu caro [MASK], o cavalo xucro ou manhoso da vida deitou-me ao chão:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Despontado pela aguda dor, Personagem pousou as mãos no solo e olhou para a frente, com as lágrimas correndo em linhas quentes pelos seus olhos. Apesar da dor incrível que o assolava todo o corpo, Personagem se levantou lentamente e olhou para seu cavalo branco, cujas nuvens de pónais pareciam ser uma ilusão agitada pelo vento.",
+        "generated_text_llama": "",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "pousou",
+                    "ROOT"
+                ],
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    }
+]

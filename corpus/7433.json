@@ -1,0 +1,151 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Venâncio Torres",
+        "sentence": "Mas às dez horas, quando Venâncio Torres, perfeitamente almoçado, tomou o caminho da repartição, ela vestiu-se, saiu também, e foi bater à porta da sua melhor amiga, D. Ubaldina de MeIo, que se mostrou admiradíssima.",
+        "start_char": 1179,
+        "end_char": 1194,
+        "excerpt": "Tivera até aquela data o marido na conta de um irrepreensível modelo de todas as virtudes conjugais; todavia, soube aparar o golpe: não deu a perceber o seu desgosto, não articulou uma queixa, não deixou escapar um suspiro. Mas às dez horas, quando Venâncio Torres, perfeitamente almoçado, tomou o caminho da repartição, ela vestiu-se, saiu também, e foi bater à porta da sua melhor amiga, D. Ubaldina de MeIo, que se mostrou admiradíssima.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tomou",
+                "child": "quando Venâncio Torres, perfeitamente almoçado,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tomar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Venâncio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mas às dez horas, quando [MASK], perfeitamente almoçado, tomou o caminho da repartição, ela vestiu-se, saiu também, e foi bater à porta da sua melhor amiga, D. Ubaldina de MeIo, que se mostrou admiradíssima.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a história em português:",
+        "generated_text_llama": "Uma surpresa! Depois de ser recebida com um abraço apertado e uma risada calorosa por Ubaldina, Personagem se sentiu imediatamente mais leve e alegre. Ela entrou na casa de Ubaldina, deixando seus sapatos no corredor, e se dirigiu diretamente ao salão de estar, onde encontrou sua amiga saindo do jardim, com uma planta em mãos.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Venâncio Torres",
+        "sentence": "Mas, serenada que foi essa violenta exacerbação dos nervos, a moça correu ao telefone, e pediu que a comunicasse com a repartição onde Venâncio Torres era empregado.",
+        "start_char": 4741,
+        "end_char": 4756,
+        "excerpt": "II Logo que ficou sozinha, D. Ubaldina que até então a custo se contivera, teve também uma longa crise de lágrimas. Mas, serenada que foi essa violenta exacerbação dos nervos, a moça correu ao telefone, e pediu que a comunicasse com a repartição onde Venâncio Torres era empregado.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "empregado",
+                "child": "Venâncio Torres",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "empregar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Venâncio",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Venâncio Torres",
+                "child": "a repartição",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Venâncio",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "repartição",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mas, serenada que foi essa violenta exacerbação dos nervos, a moça correu ao telefone, e pediu que a comunicasse com a repartição onde [MASK] era empregado.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em seguida, o homem tomou ar livre e se sentou no sofá, tendo que reprimir um suspiro enquanto pensava numa maneira de lidar com esta situação inesperada. Depois de um momento de reflexão, ele pegou seu celular, selecionou o número da repartição onde trabalhava a moça e, sem demora alguma, colocou uma chamada.",
+        "generated_text_llama": "Não sabia se Personagem iria responder à ligação, mas a moça manteve a linha aberta, esperando ansiosamente por uma voz ou qualquer outra notícia sobre o estado de seu namorado. Enquanto isso, Personagem, que estava sentado na sala ao lado, sentiu um arrepio percorrer sua espinha. Ele sabia que não podia deixar a moça sem saber do que estava acontecendo com ele.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "responder",
+                    "ccomp"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Venâncio",
+        "sentence": "Depois que estive contigo, nunca mais Venâncio madrugou nem foi à janela.",
+        "start_char": 6612,
+        "end_char": 6620,
+        "excerpt": "\"Minha boa amiga. - Parece que tudo acabou, felizmente. Depois que estive contigo, nunca mais Venâncio madrugou nem foi à janela.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "madrugou",
+                "child": "mais Venâncio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "madrugar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Venâncio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Depois que estive contigo, nunca mais [MASK] madrugou nem foi à janela.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de passar o tempo com você, nunca mais Personagem saiu de casa antes do amanhecer ou se aproximou da janela. O silêncio estranho que reinava no porão era quase palpável, como se tudo que uma vez havia sido vibrante e cheio de vida estivesse agora preso em um congelador gelado. Ele passou dias aprendendo a conviver com esse novo silêncio e apenas sentindo-o, quase como uma forma de respeito pela memória do tempo que tivemos juntos. Porém, ainda permanecia um olhar nos olhos profundos, sempre apontando para a janela que ele nunca mais iria abrir. O sentimento do amor perdido era agora uma peça fundamental de sua vida diária e continuava a seco o interior do coração, tal como as pérolas no mar quando acaba a tempestade.",
+        "generated_text_llama": "Depois que estive contigo, nunca mais tentei entender o que era a vida sem a tua luz. Eu me levantava mais tarde, ou talvez não me levantasse, e passava horas sentado na cama, olhando para as paredes escuras. A solidão era uma coisa que eu conhecia bem, mas nunca tinha sentido tanto como agora.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "saiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    }
+]

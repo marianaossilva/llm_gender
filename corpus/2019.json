@@ -1,0 +1,90 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Novo Mazzepa",
+        "sentence": "Novo Mazzepa, passava por entre a cerração da manhã, que cobria os píncaros da serrania, como uma sombra que fugia rápida e veloz.",
+        "start_char": 54294,
+        "end_char": 54306,
+        "excerpt": "Não só a minha alma se revoltava contra esta idéia; mas parecia-me que ela, com a sua extrema delicadeza de sentimento, embora não se queixasse, sentiria ver-se o objeto de um cálculo e o alvo de um projeto de futuro. A minha viagem foi uma corrida louca, desvairada, delirante. Novo Mazzepa, passava por entre a cerração da manhã, que cobria os píncaros da serrania, como uma sombra que fugia rápida e veloz.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "passava",
+                "child": "Novo Mazzepa,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "passar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Novo",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], passava por entre a cerração da manhã, que cobria os píncaros da serrania, como uma sombra que fugia rápida e veloz.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem seguiu adentro na densa matagal, acompanhado apenas de sua pistola e um leve esquilo em seu coração. A mata parecia se encerrar ao redor dele, como se quisesse disfarçar os segredos que guardava. Era como uma caixa fechada que ele precisaria abrir para descobrir o que estava por trás dessa cerração de árvores antigas e misteriosas.",
+        "generated_text_llama": "Ao se aproximar do vilarejo, Personagem notou que havia algo estranho no ar. O silêncio geralmente queimava o seu estômago, mas agora parecia mais pesado, como se a cidade inteira estivesse segurando sua respiração. Ele continuou andando, suas botas ressoando pelas ruas vazias, até chegar à praça central do vilarejo.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "notou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carlota",
+        "sentence": "Carlota impacienta-se, porque há muitas horas que lhe escrevo; não quero que ela tenha ciúmes desta carta e que me prive de enviá-la.",
+        "start_char": 80366,
+        "end_char": 80373,
+        "excerpt": "Isto prova que a pontualidade é uma excelente virtude para uma máquina; mas um grave defeito para um homem. Adeus, minha prima. Carlota impacienta-se, porque há muitas horas que lhe escrevo; não quero que ela tenha ciúmes desta carta e que me prive de enviá-la.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "impacienta-se",
+                "child": "Carlota",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "impacienta-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Carlota",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] impacienta-se, porque há muitas horas que lhe escrevo; não quero que ela tenha ciúmes desta carta e que me prive de enviá-la.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele se levantou, pondo a cara resolvida para encaminhar o seu plano. Tomou o papel que estava ainda com a mesma carta que tinha escrito na noite anterior, revisando-a cuidadosamente. Era preciso garantir que sua palavra fosse entendida corretamente, pois essa carta poderia mudar as coisas. Após ter feito as últimas correções e depois de dar uma olhada para a porta da câmara de sua irmã, que estava dormindo, ele segurou o papel, com as mãos tremeantes, e se afastou silenciosamente da sala.",
+        "generated_text_llama": "Personagem decideu apressar o ritmo das suas palavras, esquecendo pela primeira vez a necessidade de uma calma e reflexiva abordagem. Começou a escrever com uma velocidade frenética, tentando transmitir todas as emoções que sentia em cada linha do papel. A pressa começou a afetar o seu estilo, mas ele não se importava; precisava apenas garantir que sua carta fosse entendida.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decideu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

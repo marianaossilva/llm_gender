@@ -1,0 +1,170 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Guilherme",
+        "sentence": "N'isto, entre parenthesis, não sou eu ignorante; porque tenho experimentado uns e outros, e posso asseverar que sería mui difficultoso de resolver qual dos dous generos de navios tem parentesco mais proximo com as rudes e acanhadas galés, em que, ha sete seculos, Guilherme o conquistador transportou, através daquelle mesmo canal, da Normandia para Inglaterra os ascendentes da actual aristocracia britannica.",
+        "start_char": 2779,
+        "end_char": 2788,
+        "excerpt": "Um cão e tres inglezes completavam a collecção dos animaes inclusos entre as quatro taboas da fragil embarcação. O chasse-marée é um transporte maritimo, que, na minha profunda ignorancia das cousas navaes, me parece semelhante ao hiate portuguez, ao menos na immundicie e na carencia absoluta de tudo o que seja commodidade. N'isto, entre parenthesis, não sou eu ignorante; porque tenho experimentado uns e outros, e posso asseverar que sería mui difficultoso de resolver qual dos dous generos de navios tem parentesco mais proximo com as rudes e acanhadas galés, em que, ha sete seculos, Guilherme o conquistador transportou, através daquelle mesmo canal, da Normandia para Inglaterra os ascendentes da actual aristocracia britannica.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "transportou",
+                "child": "Guilherme",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "transportar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Guilherme",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "N'isto, entre parenthesis, não sou eu ignorante; porque tenho experimentado uns e outros, e posso asseverar que sería mui difficultoso de resolver qual dos dous generos de navios tem parentesco mais proximo com as rudes e acanhadas galés, em que, ha sete seculos, [MASK] o conquistador transportou, através daquelle mesmo canal, da Normandia para Inglaterra os ascendentes da actual aristocracia britannica.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele, então, levantou a manga e segurou a cabeça entre as mãos, em um gesto de reflexão profunda. Sua espada estava encostada no ombro esquerdo, como se ele tivesse ainda alguma dúvida sobre seu papel nesta jornada histórica. Entretanto, com uma expressão determinada e decidida no rosto, ele levantou os olhos para o céu, como se pedindo a ajuda da força superior antes de abraçar definitivamente sua missão.",
+        "generated_text_llama": "Com essas palavras intrigantes, Personagem saboreou a mistura de curiosidade e desafio que parecia pairar nas linhas do historiador. Ele sabia que o tema era complexo, mas estava determinado a descobrir se havia alguma ligação entre os navios galeês e as naus da Normandia.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "saboreou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Miss Parker",
+        "sentence": "Eramos ahi nove portuguezes, em seis camas e tres aposentos, o que dava certo ar pythagorico e mysterioso á familia, que, dirigida por Miss Parker, podia servir de modelo ás outras ninhadas de emigrados que ainda viviam em Plymouth.",
+        "start_char": 11356,
+        "end_char": 11367,
+        "excerpt": "Miss Parker de Plymouth era uma donzella de sessenta annos; excellente creatura, que nos hospedára por dous mezes naquella cidade, mediante a bagatella de tres shellings semanaes por cabeça. A Inglaterra, como todos sabem, é o paiz da franca e sincera hospitalidade. Eramos ahi nove portuguezes, em seis camas e tres aposentos, o que dava certo ar pythagorico e mysterioso á familia, que, dirigida por Miss Parker, podia servir de modelo ás outras ninhadas de emigrados que ainda viviam em Plymouth.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "Miss Parker de Plymouth",
+                "child": "donzella",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Miss",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "donzella",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "donzella",
+                "child": "Miss Parker de Plymouth",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "donzella",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Miss",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "dirigida",
+                "child": "Miss Parker",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "dirigir",
+                "dep_c": "obl:agent",
+                "pos_c": "PROPN",
+                "lemma_c": "Miss",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Eramos ahi nove portuguezes, em seis camas e tres aposentos, o que dava certo ar pythagorico e mysterioso á familia, que, dirigida por [MASK], podia servir de modelo ás outras ninhadas de emigrados que ainda viviam em Plymouth.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim que os portugueses se instalaram no hotel, o Capitão Mascarenhas rapidamente assumiu o comando da família e tornou-se a figura paterna para todos. Ele criou uma rotina diária rigorosa e instruiu sua família a aprender inglês e a trabalhar em jardinagem, o que lhes proporcionaria o suficiente dinheiro para manter seu sustento.",
+        "generated_text_llama": "Continuando a história, Personagem observou atentamente os portuguezes, analisando suas interações e hábitos. Ele notou que eles eram uma família unida, com uma estrutura familiar tradicional, onde o pai era o líder respeitado da casa. O pai, um homem robusto e sábio, estava sentado ao pé do fogão, preparando uma refeição simples mas deliciosa de pescado grelhado.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "assumiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "observou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elle",
+        "sentence": "Elle lançou-nos um olhar obliquo, e em voz mais alta bradou ao grumete:",
+        "start_char": 28852,
+        "end_char": 28856,
+        "excerpt": "O rapaz poz-se de novo a assobiar. Nós então ousámos perguntar a sua extensão se por ventura succedêra algum fracasso aos seus compatricios. Elle lançou-nos um olhar obliquo, e em voz mais alta bradou ao grumete:",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "lançou-nos",
+                "child": "Elle",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "lançou-nos",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elle",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] lançou-nos um olhar obliquo, e em voz mais alta bradou ao grumete:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " \"-Sair da cabine!\", comandou Personagem, estendendo o dedo indicador para cima. O grumete, que até então observava a batalha sem interferir, acabou de se levantar do tronco e, sem perder tempo, saiu da cabine.",
+        "generated_text_llama": "E então, com um movimento rápido, puxou o chapéu para cima e começou a descalçar as botas, que estavam cobertas de lama e poeira. \"Temos que encontrar abrigo\", disse ele, olhando em volta, procurando por algum lugar seguro para nos escondermos da chuva. \"Esse campo está cheio de assobios, se não encontrarmos um abrigo logo, vamos ser atacados por uma multidão de ratos!\"",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "comandou",
+                    "ROOT"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": null
+    }
+]

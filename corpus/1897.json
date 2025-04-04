@@ -1,0 +1,826 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Tinoco",
+        "sentence": "Tinoco estimava o velho Anastácio e este tinha ao afilhado igual afeição.",
+        "start_char": 838,
+        "end_char": 844,
+        "excerpt": "Era um rapaz de estatura meã, olhos vivos, cabelos em desordem, língua inesgotável e paixões impetuosas. Exercia um modesto emprego no foro, donde tirava o parco sustento, e morava com o padrinho cujos meios de subsistência consistiam no ordenado da sua aposentadoria. Tinoco estimava o velho Anastácio e este tinha ao afilhado igual afeição.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "estimava",
+                "child": "Tinoco",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "estimar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tinoco",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] estimava o velho Anastácio e este tinha ao afilhado igual afeição.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O carnaval estava em alta e o ar carregado de música e ritmo se misturava àqueles toques familiares que sempre lembravam Personagem a época mais feliz de sua vida. Ele se aproximou do velho Anastácio, que sentava na bancada próxima ao palco. O senhor tinha as mãos amarradas e olhando com um olhar contemplativo à parada de blocos que estava passando pela rua.",
+        "generated_text_llama": "Assim, Personagem se aproximou do velho Anastácio com uma sonrisa amigável e perguntou: \"Tia Anastácia, você está bem? Achei que estava doente ontem à noite\". O olhar de tía Anastácia se fechou um pouco, como se estivesse tentando esconder algo, e respondeu: \"Sim, sim, eu estava um pouco cansada, mas agora estou bem. Obrigada por preocupar-se comigo\".",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "lembravam",
+                    "acl:relcl"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "aproximou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Luís Tinoco",
+        "sentence": "Luís Tinoco possuía a convicção de que estava fadado para grandes destinos, e foi esse durante muito tempo o maior obstáculo da sua existência.",
+        "start_char": 912,
+        "end_char": 923,
+        "excerpt": "Exercia um modesto emprego no foro, donde tirava o parco sustento, e morava com o padrinho cujos meios de subsistência consistiam no ordenado da sua aposentadoria. Tinoco estimava o velho Anastácio e este tinha ao afilhado igual afeição. Luís Tinoco possuía a convicção de que estava fadado para grandes destinos, e foi esse durante muito tempo o maior obstáculo da sua existência.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "possuía",
+                "child": "Luís Tinoco",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "possuir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Luís",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] possuía a convicção de que estava fadado para grandes destinos, e foi esse durante muito tempo o maior obstáculo da sua existência.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O personagem continua sendo uma figura intrigante no cenário de seu cotidiano. Sua consciência apresentava-se como um forte impulso, alimentado por sua profunda convicção de que estava fadado para grandes destinos. Essa crença, em muitos aspectos, tornou-se o maior obstáculo da sua existência.",
+        "generated_text_llama": "Com essa convicção em seu coração, Personagem passou anos dedicando-se a alcançar seus objetivos, seja na área científica ou nos esportes. Ele via a si mesmo como um homem de grande capacidade, com uma mente aguçada e uma determinação inquebrável. Esse pensamento o impulsionava a se estreitar ainda mais aos padrões que ele próprio havia fixado para si.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "passou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tinoco",
+        "sentence": "Tinoco levou a produção ao Correio Mercantil, que a publicou entre os a pedido.",
+        "start_char": 1617,
+        "end_char": 1623,
+        "excerpt": "O certo é que um dia de manhã acordou Luís Tinoco escritor e poeta; a inspiração, flor abotoada ainda na véspera, amanheceu pomposa e viçosa. O rapaz atirou-se ao papel com ardor e perseverança, e entre as seis horas e as nove, quando o foram chamar para almoçar, tinha produzido um soneto, cujo principal defeito era ter cinco versos com sílabas de mais e outros cinco com sílabas de menos. Tinoco levou a produção ao Correio Mercantil, que a publicou entre os a pedido.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "acordou",
+                "child": "Luís Tinoco escritor e poeta",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "acordar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Luís",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "levou",
+                "child": "Tinoco",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "levar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tinoco",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] levou a produção ao Correio Mercantil, que a publicou entre os a pedido.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Personagem, depois de ter entregado a produção ao Correio Mercantil, esperava ansiosamente pela reação do público e da crítica. Ao passar os dias, recebia com orgulho cartas elogiosas e análises positivas sobre sua obra. Para além disso, seu trabalho chamou a atenção de editorações importantes, o que lhe abriu portas para novos projetos artísticos e uma carreira promissora no mundo literário.",
+        "generated_text_llama": "Após entregar o documento ao Correio Mercantil, Personagem aguardou ansiosamente as resposta do editor. Poucos minutos depois, recebeu um bilhete com uma data e hora para um encontro em um café próximo à sede da imprensa. Em seu papel, havia uma instrução simples: \"Venha sozinho às 18h30\". Sem hesitar, Personagem se dirigiu ao local escolhido, sentando-se no banco mais distante do café e observando os clientes que entravam.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "esperava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "aguardou",
+                    "ROOT"
+                ],
+                [
+                    "dirigiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Luís Tinoco",
+        "sentence": "Luís Tinoco tragou a custo a demora, e não sei se chegou a suspeitar de inveja os redatores do Correio Mercantil.",
+        "start_char": 2662,
+        "end_char": 2673,
+        "excerpt": "Daí a dois dias, nova composição, e desta vez saiu uma longa ode sentimental em que o poeta se queixava à lua do desprezo em que o deixara a amada, e já entrevia no futuro a morte melancólica de Gilbert. Não podendo fazer despesas, alcançou, por intermédio de um amigo, que a poesiafosse impressa de graça, motivo este que retardou a publicação por alguns dias. Luís Tinoco tragou a custo a demora, e não sei se chegou a suspeitar de inveja os redatores do Correio Mercantil.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tragou",
+                "child": "Luís Tinoco",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tragar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Luís",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] tragou a custo a demora, e não sei se chegou a suspeitar de inveja os redatores do Correio Mercantil.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas após algum tempo, o Personagem decidiu seguir uma abordagem diferente. Ele começou a escrever artigos mais profundos e críticos sobre as notícias da atualidade, com uma perspectiva que se diferenciava muito do estilo dos redatores do Correio Mercantil. Seus textos eram elogiados pela comunidade literária, e sua popularidade crescia diariamente. Assim, o Personagem não precisava mais esperar por um emprego do Correio Mercantil - seu trabalho estava sendo reconhecido independentemente de qualquer patrocínio ou apoio dos redatores da revista. Em vez disso, ele se tornou um escritor independente proeminente, e seus artigos eram publicados em várias outras publicações renomadas, com o tempo.",
+        "generated_text_llama": "Antes de que Personagem pudesse analisar mais fundo sua situação, recebeu uma ligação de seu ex-chefe, Mário. Ele sabia que Mário não estava disposto a falar com ele sem um motivo específico, então Personagem hesitou por um momento antes de atender o telefone.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "precisava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pudesse",
+                    "advcl"
+                ],
+                [
+                    "hesitou",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tinoco",
+        "sentence": "disse Tinoco com ar frio; queria que me dissesse o que pensa de uns versos que lá vêm.",
+        "start_char": 3098,
+        "end_char": 3104,
+        "excerpt": "Desde que me aposentei não li mais os periódicos... Pois é pena! disse Tinoco com ar frio; queria que me dissesse o que pensa de uns versos que lá vêm.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Tinoco",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tinoco",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "disse [MASK] com ar frio; queria que me dissesse o que pensa de uns versos que lá vêm.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, você perguntou: \"E agora, minha amiga? Que aconteceu com aqueles versos que eu te passei ontem? Você as ouviu?\"",
+        "generated_text_llama": "Ele se aproximou de mim, sentando-se ao meu lado no banco da praça. O vento frio pairava em volta de nós, mas ele não parecia notar. Olhou para os versos que eu havia escrito e começou a ler:",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Luís Tinoco",
+        "sentence": "Com os olhos pregados no padrinho, Luís Tinoco parecia querer adivinhar as impressões que produziam nele os seus elevados conceitos, metrificados com todas as liberdades possíveis do consoante.",
+        "start_char": 3550,
+        "end_char": 3561,
+        "excerpt": "Aqui estão. O poeta puxou da algibeira o Correio Mercantil, e o velho Anastácio entrou a ler para si a obra do afilhado. Com os olhos pregados no padrinho, Luís Tinoco parecia querer adivinhar as impressões que produziam nele os seus elevados conceitos, metrificados com todas as liberdades possíveis do consoante.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "parecia",
+                "child": ", Luís Tinoco",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "parecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Luís",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Com os olhos pregados no padrinho, [MASK] parecia querer adivinhar as impressões que produziam nele os seus elevados conceitos, metrificados com todas as liberdades possíveis do consoante.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Desse modo, ao ver o pai de família ajeitado em sua cadeira, Personagem sentia-se impotente para definir se aquele olhar era admiração ou repúdio. Atravessando a sala, como um fantasma sem voz, ele passou pelo corredor e encostou na porta de sua cabine. Nessa noite particular, sentia-se tão distante do que sempre havia sido, que poderia ser qualquer pessoa nesse escritório. Mas se algo o atraiu para aquele lugar aquela noite, foi simplesmente o desejo de confirmar se aquelas impressões deixadas nos olhos de seu padrinho eram reais, ou se era apenas sua imaginação que sempre havia sido uma barragem à liberdade dos seus ideias.",
+        "generated_text_llama": "Com os olhos pegados no padrinho, Personagem parecia querer adivinhar as impressões que produziam nele os seus elevados conceitos, metrificados com todas as liberdades possíveis do consoante. Ele se inclinou ligeiramente para frente, como se estivesse preparando-se para uma grande revelação, e começou a observar cada movimento do padrinho com atenção obsessiva, como se quisesse capturar o segredo por trás das palavras que o homenzinho estava dizendo. Sua mente, imersa em um mundo de linguagem, começou a se debater entre as possibilidades infinitas de significados, procurando encontrar o ponto exato onde os conceitos elevados do padrinho se encontrariam com a realidade cotidiana.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentia-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "parecia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Anastácio",
+        "sentence": "Anastácio acabou de ler os versos e fez com a boca um gesto de enfado.",
+        "start_char": 3709,
+        "end_char": 3718,
+        "excerpt": "O poeta puxou da algibeira o Correio Mercantil, e o velho Anastácio entrou a ler para si a obra do afilhado. Com os olhos pregados no padrinho, Luís Tinoco parecia querer adivinhar as impressões que produziam nele os seus elevados conceitos, metrificados com todas as liberdades possíveis do consoante. Anastácio acabou de ler os versos e fez com a boca um gesto de enfado.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "entrou",
+                "child": "o velho Anastácio",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Anastácio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "acabou",
+                "child": "Anastácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acabar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Anastácio",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] acabou de ler os versos e fez com a boca um gesto de enfado.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de ler os versos, ele desceu da cadeira de rodas, e com uma expressão de determinado ressentimento na face, arremessou o pedaço de papel com as palavras que acabara de ler para longe. E então, com a mão esquerda sobre o joelho direito, ele começou a caminhar pela casa, parecendo mais forte e decidido do que nunca antes.",
+        "generated_text_llama": "Personagem ficou tão frustrado que começou a caminhar apressadamente pelo quarto, batendo as mãos nas paredes enquanto tentava processar o que havia lido. Em seguida, ele se sentou à sua mesa de trabalho e pegou um pedaço de papel e uma caneta, decidindo expressar suas próprias palavras sobre a situação que o estava causando tanto angústia. Com mãos trêmulas, começou a escrever, permitindo-se perder em suas emoções e pensamentos negativos.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Luís Tinoco",
+        "sentence": "Luís Tinoco teve vontade de descompor o padrinho, mas limitou-se a atirar os cabelos para trás e a dizer com supremo desdém:",
+        "start_char": 3928,
+        "end_char": 3939,
+        "excerpt": "Anastácio acabou de ler os versos e fez com a boca um gesto de enfado. Isto não tem graça, disse ele ao afilhado estupefato; que diabo tem a lua com a indiferença dessa moça, e a que vem aqui a morte deste estrangeiro? Luís Tinoco teve vontade de descompor o padrinho, mas limitou-se a atirar os cabelos para trás e a dizer com supremo desdém:",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "teve",
+                "child": "Luís Tinoco",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Luís",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] teve vontade de descompor o padrinho, mas limitou-se a atirar os cabelos para trás e a dizer com supremo desdém:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, ele tomou uma profunda respiro e, em seguida, retirou da bolsão um chapéu preto que usava sempre. Pondo-o sobre o cabeço, deitou na cadeira de borracha, com posição erguida, olhando para a porta do quarto como se aguardasse algo. Mas nada.",
+        "generated_text_llama": "- \"Sabe, já estava pensando em mudar meu estilo\", respondeu Personagem, com um sorriso maldoso, enquanto se virava para sair da sala. Ele caminhou até o espelho do banheiro e começou a examinar seu rosto, ajustando ligeiramente a postura e os lábios, antes de seguir em direção à cozinha em busca de algo para comer.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "respondeu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Anastácio",
+        "sentence": "Anastácio leu outra vez os versos, e só então reparou na assinatura do afilhado.",
+        "start_char": 4303,
+        "end_char": 4312,
+        "excerpt": "Mas quem te ensinou a fazer versos? Isto não se aprende; traz-se do berço. Anastácio leu outra vez os versos, e só então reparou na assinatura do afilhado.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "leu",
+                "child": "Anastácio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ler",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Anastácio",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] leu outra vez os versos, e só então reparou na assinatura do afilhado.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, após ler novamente os versos carinhosos, olhou de volta para a assinatura do afilhado com um ar surpreso. Era diferente daquele que ele conhecia. Então, decidiu fazer uma investigação minuciosa.",
+        "generated_text_llama": "Enquanto lia as palavras novamente, Personagem sentiu uma ponta de tristeza no seu coração. Ele sempre se sentia um pouco arrependido por não ter sido mais presente na vida de seu afilhado, que agora estava tão longe de casa. O afilhado, com sua assinatura cuidadosamente escrita nas primeiras linhas do poema, parecia uma menina de apenas dez anos, mas com um olhar profundo e misterioso que fazia Personagem sentir um aperto no peito.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "sentir",
+                    "xcomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Anastácio",
+        "sentence": "Quando soube que o seu querido Luís estava atacado da terrível moléstia, Anastácio ficou triste, e foi nessa ocasião que se encontrou com o Dr. Lemos e lhe deu notícia da gravíssima situação do afilhado.",
+        "start_char": 4853,
+        "end_char": 4862,
+        "excerpt": "Esse, ligava à idéia de poeta a idéia de mendicidade. Tinha-lhe pintado Camões e Bocage, que eram os nomes literários que ele conhecia, como dois improvisadores de esquina, espeitorando sonetos em troca de algumas moedas, dormindo nos adros das igrejas e comendo nas cocheiras das casas grandes. Quando soube que o seu querido Luís estava atacado da terrível moléstia, Anastácio ficou triste, e foi nessa ocasião que se encontrou com o Dr. Lemos e lhe deu notícia da gravíssima situação do afilhado.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ficou",
+                "child": "Anastácio",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Anastácio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando soube que o seu querido Luís estava atacado da terrível moléstia, [MASK] ficou triste, e foi nessa ocasião que se encontrou com o Dr. Lemos e lhe deu notícia da gravíssima situação do afilhado.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Naquele momento, o rico e respeitado Senhor Almeida, sem hesitar, tomou a decisão mais difícil de sua vida: partiu em busca do que pode fazer para salvar Luís. Usando suas contatos e recursos financeiros, ele começou a organizar campanhas de arrecadação de fundos, reunindo médicos e especialistas em todo o país para ajudarem seu sobrinho. O Senhor Almeida, com suas maquinárias industriais na frente, produziu um remédio experimental que poderia ser a única esperança de Luís. Quando o Dr. Lemos recebeu este remédio, ele se juntou ao time de médicos para testar e aplicar o novo tratamento no afilhado de Senhor Almeida. Pelo amor e a devoção que sentiam pelo seu amigo rico, os médicos trabalharam incessantemente para salvar Luís, enquanto o Senhor Almeida mantinha uma alta esperança em seus olhos.",
+        "generated_text_llama": "Quando soube que o seu querido Luís estava atacado da terrível moléstia, Personagem ficou triste, e foi nessa ocasião que se encontrou com o Dr. Lemos e lhe deu notícia da gravíssima situação do afilhado. O médico, com um tom de voz mais leve do que o necessário, explicou que a doença era grave e que Luís precisava de tratamento imediato, caso contrário, poderia levar a consequências graves.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "salvar",
+                    "advcl"
+                ],
+                [
+                    "salvar",
+                    "advcl"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Luís Tinoco",
+        "sentence": "Luís Tinoco foi ter com ele; levou-lhe o soneto e a ode impressos, e mais algumas produções não publicadas.",
+        "start_char": 5703,
+        "end_char": 5714,
+        "excerpt": "mostrou-lhe que a poesia não era obstáculo para andar como os outros , para ser deputado, ministro ou diplomata. No entanto, disse o Dr. Lemos, desejarei falar ao Luís; quero ver o que ele tem feito, porque como eu também fui outrora um pouco versejador, posso saber se o rapaz dá de si. Luís Tinoco foi ter com ele; levou-lhe o soneto e a ode impressos, e mais algumas produções não publicadas.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ter",
+                "child": "Luís Tinoco",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Luís",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] foi ter com ele; levou-lhe o soneto e a ode impressos, e mais algumas produções não publicadas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após entregar as obras escritas, Personagem fez uma pausa para observar a reação de seu amigo. Ele olhou com expressão mista de surpresa e gratidão para as páginas que estavam na mão de Personagem. Depois disso, Personagem se sentou em um banco do jardim e ouviu o coro da fonte cantar. A natureza parecia agradecer o gesto de seu amigo, e ele sentiu-se satisfeito de ter compartilhado com ele as suas obras. Por algum tempo, Personagem permaneceu naquela tranquila praia, olhando para a luz do sol se pôr e pensando nos passos que seguiria agora que havia compartilhado com o mundo seus trabalhos.",
+        "generated_text_llama": "Enquanto caminhava pelas ruas estreitas da cidade, Personagem não podia evitar sentir uma sensação de excitação e curiosidade ao carregar as peças que haviam sido confiscadas a ele. A pasta poluída e o papel amarelo pareciam-lhe uma maldição, mas também era como se fossem um símbolo da sua luta contra o sistema opressor.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "fez",
+                    "ROOT"
+                ],
+                [
+                    "sentou",
+                    "ROOT"
+                ],
+                [
+                    "permaneceu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Luís Tinoco",
+        "sentence": "Não é possível descrever o gesto de soberbo desdém com que Luís Tinoco arrancou os versos ao doutor e lhe disse:",
+        "start_char": 6626,
+        "end_char": 6637,
+        "excerpt": "Sim, respondeu ele, pode lembrar alguma coisa; eu não me nego a aceitar-lhe o que me parecer bom, tanto mais que eu fiz estes versos muito à pressa e não tive ocasião de os emendar. Não me parecem bons estes versos, disse o Dr. Lemos; poderia rasgá-los e estudar antes algum tempo. Não é possível descrever o gesto de soberbo desdém com que Luís Tinoco arrancou os versos ao doutor e lhe disse:",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "arrancou",
+                "child": "Luís Tinoco",
+                "dep_h": "csubj",
+                "pos_h": "VERB",
+                "lemma_h": "arrancar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Luís",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Luís Tinoco",
+                "child": "possível",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Luís",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "possível",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Não é possível descrever o gesto de soberbo desdém com que [MASK] arrancou os versos ao doutor e lhe disse:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " \"Você está errado, amigo!\", disse Personagem, levantando a cabeça com um arrojo insólito. Depois disso, não se atreveu a ficar mais tempo na sala médica, preferindo afastar-se para uma área mais quieta e calma no hospital. Queria ter algumas minutos para recolher suas pensamentos e tentar compreender o que havia acontecido.",
+        "generated_text_llama": "\"Vá-se embora, você não tem ideia do que está me perguntando\", disse Personagem, com uma voz firme e autoritária. Ele sacudiu a cabeça e começou a caminhar em direção à porta, esperando que o doutor tivesse entendido bem sua mensagem.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "disse",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "disse",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tinoco",
+        "sentence": "Tinoco entrou a escrever como quem se despedia da vida.",
+        "start_char": 6925,
+        "end_char": 6931,
+        "excerpt": "E saiu. Daí em diante foi impossível ter-lhe mão. Tinoco entrou a escrever como quem se despedia da vida.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "entrou",
+                "child": "Tinoco",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tinoco",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] entrou a escrever como quem se despedia da vida.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, após ter composto sua carta final, ela segurou-a em mãos e teve uma pausa profunda, sintendo a gravidade da situação. Depois disso, ela abriu o armário onde estavam guardados seus pertences mais preciosos: um relógio de bolso antigo, fotos antigas amarradas com cordão e várias cartas que a lembravam de seus momentos de felicidade.",
+        "generated_text_llama": "Personagem sentou-se à frente do seu computador e começou a digitar palavras que não queria mais ouvir. \"Eu serei apenas um lembre\", pensava, enquanto a tela piscava atrás dele. Ele começou a escrever uma carta para todos aqueles que o haviam magoado ao longo dos anos, para aqueles que o haviam feito se sentir pequeno e insignificante.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Luís Tinoco",
+        "sentence": "Luís Tinoco confessava singelamente ao mundo que fora invadido do cepticismo byroniano, que tragara até às fezes a taça do infortúnio, e que para ele a vida tinha escrito na porta a inscrição dantesca.",
+        "start_char": 7203,
+        "end_char": 7214,
+        "excerpt": "Tinoco entrou a escrever como quem se despedia da vida. Os jornais andavam cheios de produções suas, umas tristes, outras alegres, não daquela tristeza nem daquela alegria que vem diretamente do coração, mas de uma tristeza que fazia sorrir, e de uma alegria que fazia bocejar. Luís Tinoco confessava singelamente ao mundo que fora invadido do cepticismo byroniano, que tragara até às fezes a taça do infortúnio, e que para ele a vida tinha escrito na porta a inscrição dantesca.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "confessava",
+                "child": "Luís Tinoco",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "confessar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Luís",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] confessava singelamente ao mundo que fora invadido do cepticismo byroniano, que tragara até às fezes a taça do infortúnio, e que para ele a vida tinha escrito na porta a inscrição dantesca.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem, de forma deliberada e enfática, continuou a revelar seu passado interior ao mundo. Contou como sua mente, por anos, estava invadida pelo ceticismo byroniano que, como um súbito vento, arrancara as últimas raízes que lhe restavam de confiança. Ele contou como essa dúvida tornara a taça do infortúnio seu tupiniquim emprestado da vida, transformando o seu rosto em um retrato desolado e desgarrado.",
+        "generated_text_llama": "E então, Personagem caminhou lentamente pela estrada escura, tentando processar as palavras que haviam saído da sua boca. A noite parecia mais densa do que nunca, como se as sombras estivessem se movendo para si mesmas, respondendo ao seu confesso. Ele sentia um peso na magra, como se o cepticismo porfiriário tivesse carregado a suas costas, fazendo-o andar com passos desiguais.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "caminhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Luís Tinoco",
+        "sentence": "A inscrição era citada com as próprias palavras do poeta, sem que aliás Luís Tinoco o tivesse lido nunca.",
+        "start_char": 7477,
+        "end_char": 7488,
+        "excerpt": "Os jornais andavam cheios de produções suas, umas tristes, outras alegres, não daquela tristeza nem daquela alegria que vem diretamente do coração, mas de uma tristeza que fazia sorrir, e de uma alegria que fazia bocejar. Luís Tinoco confessava singelamente ao mundo que fora invadido do cepticismo byroniano, que tragara até às fezes a taça do infortúnio, e que para ele a vida tinha escrito na porta a inscrição dantesca. A inscrição era citada com as próprias palavras do poeta, sem que aliás Luís Tinoco o tivesse lido nunca.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "confessava",
+                "child": "Luís Tinoco",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "confessar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Luís",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "lido",
+                "child": "aliás Luís Tinoco",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "ler",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Luís",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A inscrição era citada com as próprias palavras do poeta, sem que aliás [MASK] o tivesse lido nunca.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim sendo, Personagem, decidiu aprofundar no estudo da obra do poeta, buscando mais informações e contextos para entender melhor o significado de cada linha. Ele passou dias e noites lendo, estudando, analisando e interpretando a cada verso que compunham a inscrição. Ao longo deste caminho, Personagem se tornou cada vez mais envolvido com a poesia do autor, até mesmo sentindo-se inspirado por suas palavras.",
+        "generated_text_llama": "[A inscrição era citada com as próprias palavras do poeta, sem que aliás Personagem o tivesse lido nunca. ] Era um mistério que não cabia de explicar, e a curiosidade de Personagem era pior do que qualquer outra coisa. Ele decidiu investigar mais a fundo, começando por perguntar aos anciãos da tribo sobre a origem da inscrição.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "tornou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "lido",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

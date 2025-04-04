@@ -1,0 +1,288 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Mariana",
+        "sentence": "Enquanto esperava, como a temperatura ainda permitia ficar na corte, Mariana andou de um lado para outro, vendo uma infinidade de cousas que não via desde os dezessete anos.",
+        "start_char": 3782,
+        "end_char": 3789,
+        "excerpt": "Escolheu também chapéus noutra casa. Mandou fazer os chapéus, e esperou as encomendas para seguir com elas. Enquanto esperava, como a temperatura ainda permitia ficar na corte, Mariana andou de um lado para outro, vendo uma infinidade de cousas que não via desde os dezessete anos.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "andou",
+                "child": "Mariana",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "andar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mariana",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Enquanto esperava, como a temperatura ainda permitia ficar na corte, [MASK] andou de um lado para outro, vendo uma infinidade de cousas que não via desde os dezessete anos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Enquanto esperava, já com o coração bategando fora da pele e a luz do sol se esfumando gradativamente para dar lugar à noite, Personagem continuou caminhando de um lado para outro pela corte, como se fosse uma espécie de fantasma que vinha retornar para despedir-se daquelas paredes e espaços que tanto amava.",
+        "generated_text_llama": "Enquanto esperava, como a temperatura ainda permitia ficar na corte, Personagem andou de um lado para outro, vendo uma infinidade de cousas que não via desde os dezessete anos. A casa, uma vez tão familiar, agora parecia estranha e antiga. As paredes, cobertas de polecas e tapeçarias, refletiam a luz do sol, criando um espetáculo de cores e texturas que o deixavam atordoado.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "parataxis"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "andou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mariana",
+        "sentence": "A prima quis levá-la ao teatro, e só o conseguiu depois de muita teima; Mariana gostou muito.",
+        "start_char": 3987,
+        "end_char": 3994,
+        "excerpt": "Enquanto esperava, como a temperatura ainda permitia ficar na corte, Mariana andou de um lado para outro, vendo uma infinidade de cousas que não via desde os dezessete anos. Achou a corte animadíssima. A prima quis levá-la ao teatro, e só o conseguiu depois de muita teima; Mariana gostou muito.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "andou",
+                "child": "Mariana",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "andar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mariana",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "gostou",
+                "child": "Mariana",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "gostar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mariana",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A prima quis levá-la ao teatro, e só o conseguiu depois de muita teima; [MASK] gostou muito.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim que entrou no teatro, ele se sentou em uma cadeira atrasada, olhando com admiração a palco. A orquestra começou a tocar e o primeiro ato começou. Ele não parava de sorrir, encantado com a peça que estava assistindo.",
+        "generated_text_llama": "E então, Personagem decidiu se preparar para a grande noite, escolhendo uma roupa elegante e um maquiagem sofisticado. Ele passou horas diante do espelho, garantindo que cada detalhe estivesse perfeito. Depois de finalizar o seu look, ele foi até a cozinha para pedir ao chef que preparasse um prato especial, algo que Personagem sabia que a sua plateia adoraria.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "sabia",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mariana",
+        "sentence": "Mariana chegou a ir a Petrópolis.",
+        "start_char": 4653,
+        "end_char": 4660,
+        "excerpt": "Com efeito, dous amigos do marido desta, rapazes da moda, fizeram a sua roda à viúva, sem maior proveito. Na opinião da prima, se fosse um só talvez domasse a fera; mas eram dous, e fizeram-na fugir. Mariana chegou a ir a Petrópolis.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "chegou",
+                "child": "Mariana",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mariana",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] chegou a ir a Petrópolis.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após chegar em Petrópolis, Personagem se estabeleceu numa pequena pensão localizada na zona central da cidade. O primeiro dia, ele saiu das portas da pensão para explorar o lugar que acabara de adquirir como seu novo lar. A cidade estava bem preservada, com suas colinas verdes e suas casas coloridas adornando os seus tijolos, tornando-a um verdadeiro paraíso para os olhos de Personagem. Ele passeou pelo centro da cidade e chegou ao Parque municipal, onde se encontrava uma beleza natural que não conseguiu se desprender dos olhos.",
+        "generated_text_llama": "Uma sonhada se tornava realidade. Em 1910, um dos maiores eventos do século estava sendo realizado na cidade de Petrópolis, e Personagem não podia perder a chance de estar lá. Ele havia ouvido falar da grande festa que seria realizada no palácio imperial, com música, dança e uma celebração sem paralelos.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "estabeleceu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mariana",
+        "sentence": "Mariana pegou dos chapéus e dos vestidos, meteu-se com a tia na estrada de ferro e seguiu.",
+        "start_char": 5075,
+        "end_char": 5082,
+        "excerpt": "Mas os vestidos fizeram-se, e os chapéus enfeitaram-se. O calor começou a apertar muito; era necessário seguir para a fazenda. Mariana pegou dos chapéus e dos vestidos, meteu-se com a tia na estrada de ferro e seguiu.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "pegou",
+                "child": "Mariana",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mariana",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] pegou dos chapéus e dos vestidos, meteu-se com a tia na estrada de ferro e seguiu.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Ótima. O velho senhor, após pegar os chapéus e os vestidos da filha, seguiu caminhando junto à sua tia pela estrada de ferro. Ao longo do caminho, as pessoas se voltavam para olhar o homem que parecia andar aos poucos para longe de seu passado. O sol se puxava à tarde, e os cogumelos vermelhos florescendo em meio aos penhascos espalharam um matiz de vermelho na paisagem.",
+        "generated_text_llama": "Personagem sentiu um misto de emoção e liberdade enquanto se preparava para sua jornada incerta. Ele pegou os chapéus e os vestidos que haviam sido doado para ele pela tia, uma medida improvável que a tia havia tomado em um momento de caridade, mas também uma forma de ajudá-lo a encontrar seu próprio caminho. Com os itens guardados na mala, Personagem se aproximou da estação de trem onde a tia o esperava. Ela sorriu para ele, seus olhos brilhando com uma mistura de amor e determinação.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "aproximou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mariana",
+        "sentence": "A tia, experiente e filósofa, acreditou e fez crer que, se Mariana não tem vindo em pessoa comprar os vestidos, ainda agora estaria viúva; a Rua do Ouvidor e os teatros restituíram-lhe a idéia matrimonial.",
+        "start_char": 7430,
+        "end_char": 7437,
+        "excerpt": "\" E caída ficou. Casaram-se três meses depois. A tia, experiente e filósofa, acreditou e fez crer que, se Mariana não tem vindo em pessoa comprar os vestidos, ainda agora estaria viúva; a Rua do Ouvidor e os teatros restituíram-lhe a idéia matrimonial.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "vindo",
+                "child": "Mariana",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mariana",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Mariana",
+                "child": "viúva",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Mariana",
+                "dep_c": "ccomp",
+                "pos_c": "ADJ",
+                "lemma_c": "viúvo",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A tia, experiente e filósofa, acreditou e fez crer que, se [MASK] não tem vindo em pessoa comprar os vestidos, ainda agora estaria viúva; a Rua do Ouvidor e os teatros restituíram-lhe a idéia matrimonial.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele acabou de voltar da Europa, trazendo um vestido branco de seda enfeitado com flores verdes como o verão. A Rua do Ouvidor e os teatros, que tantas vezes ouviu falar da tia, estavam agora revestidos de neve, mas a felicidade no coração dela era tão quente quanto o sol mais caluroso do verão. Ele a surpreendeu, oferecendo-lhe um beijo ardoroso e dando a ela o vestido que trouxe para ela em pessoa.",
+        "generated_text_llama": "Com essa nova perspectiva, Personagem começou a questionar as suas escolhas passadas e a refletir sobre o que realmente desejava na vida. Ele começou a observar as pessoas ao seu redor, notando como a sociedade pressionava os homens a se casar e ter filhos para garantir sua estabilidade financeira. Em contraste, Personagem sempre se sentiu mais atraído pela liberdade e pela aventura.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "revestidos",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

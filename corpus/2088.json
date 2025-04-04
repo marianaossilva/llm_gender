@@ -1,0 +1,695 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Santa Religião",
+        "sentence": "Santa Religião, sublime, augusta, Tu a idéia de Deus esclareceste, Idéia que, nas trevas que envolviam",
+        "start_char": 31011,
+        "end_char": 31025,
+        "excerpt": "Assim é que das lâmpadas do templo Pirâmides de fogo se levantam, E se perdem nos ares, qual se perde O pensamento humano no infinito. Santa Religião, sublime, augusta, Tu a idéia de Deus esclareceste, Idéia que, nas trevas que envolviam",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "Tu",
+                "child": "Santa Religião, sublime, augusta,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Tu",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Santa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], sublime, augusta, Tu a idéia de Deus esclareceste, Idéia que, nas trevas que envolviam",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ainda arrebatado pelo estranho revelação que acabara de receber, Personagem permaneceu quieto por algum tempo, absorvindo tudo aquilo que lhe havia sido mostrado. Mas então, com uma determinada e firme decisão, começou a pensar em como poderia cumprir a missão que agora sentia se ter recebido.",
+        "generated_text_llama": "...o mundo, trouxe luz e esperança. Com um sorriso radiante no rosto, Personagem se levantou da cadeira, como se o sol tivesse surgido dentro dele. Ele olhou em volta do quarto, agora transformado em um lugar de inspiração e criatividade, graças à sua mente brilhante.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "permaneceu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Altivo",
+        "sentence": "Eu já te vi, oh Sena, Altivo assoberbar estas muralhas;",
+        "start_char": 54346,
+        "end_char": 54352,
+        "excerpt": "Não sois assim, da minha Pátria oh rios! Oh Paraná, oh túmido Amazonas! Eu já te vi, oh Sena, Altivo assoberbar estas muralhas;",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "assoberbar",
+                "child": "Altivo",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "assoberbar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Altivo",
+                "word_categories": [
+                    "emo"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Eu já te vi, oh Sena, [MASK] assoberbar estas muralhas;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Agora, com uma expressão intensa, Sena levantou o olhar e se dirigiu para a torre mais alta do castelo. Escalou as escadarias em silêncio, seu coração bateu forte nas costelas enquanto subia. Quando chegou ao topo, parou e olhou um momento em todos os lados, depois se dirigiu para a direção onde estava sua misteriosa presença.",
+        "generated_text_llama": "Descobri que você era uma artista talentosa e decidiria seguir te em busca para conhecer melhor o trabalho que havias feito nas muralhas da cidade. Ao te encontrar no estúdio, observei como eras capaz de transformar espaços comuns em obras de arte vibrantes e coloridas. A curiosidade se tornou insuportável e eu me aproximei de ti, apresentando-me e dizendo que estava impressionado com a sua habilidade.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Homero",
+        "sentence": "É nos cárceres só, é nos perigos, Quando ao exílio marcha o justo Aristides, Quando Homero chorado pão esmola, Quando no cárcer galileu medita, Quando do trono avito um rei baqueia;",
+        "start_char": 62573,
+        "end_char": 62579,
+        "excerpt": "Eia, gozemos; A vida no prazer cifra-se toda. É nos cárceres só, é nos perigos, Quando ao exílio marcha o justo Aristides, Quando Homero chorado pão esmola, Quando no cárcer galileu medita, Quando do trono avito um rei baqueia;",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "chorado",
+                "child": "Homero",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "chorar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Homero",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Homero",
+                "child": "É nos cárceres",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Homero",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "cárcer",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "É nos cárceres só, é nos perigos, Quando ao exílio marcha o justo Aristides, Quando [MASK] chorado pão esmola, Quando no cárcer galileu medita, Quando do trono avito um rei baqueia;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quando o povo, desesperado e exasperado, surge em protesto, quando as suas vozes se misturam aos gritos de justiça e de revolta, Personagem leva-o pela mão, por uma luta que se transformará numa rebelião incontida.",
+        "generated_text_llama": "Aqui vai continuar a história:",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "leva-o",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nero",
+        "sentence": "5 Mostra-se ainda em Roma uma torre quadrada, que no meio da cidade se eleva, na qual, diz-se, Nero se abrigara, para gozar da horrível cena do incêndio de Roma.",
+        "start_char": 91502,
+        "end_char": 91506,
+        "excerpt": "Chamo mortais as águas do Tibre, não que elas venenosas sejam, mas porque aí morriam afogados os condenados de Estado, que da rocha Tarpeia se precipitavam, como Mânlio, e outros, de que fala a História. 5 Mostra-se ainda em Roma uma torre quadrada, que no meio da cidade se eleva, na qual, diz-se, Nero se abrigara, para gozar da horrível cena do incêndio de Roma.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "abrigara",
+                "child": "Nero",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "abrigarar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nero",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "5 Mostra-se ainda em Roma uma torre quadrada, que no meio da cidade se eleva, na qual, diz-se, [MASK] se abrigara, para gozar da horrível cena do incêndio de Roma.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a história:",
+        "generated_text_llama": "Depois de contemplar a torre quadrada, Personagem decidiu explorá-la um pouco mais. Ele subiu as escadas estreitas que o levavam até a parte superior, onde podia ver toda a cidade de Roma abaixo dele. A vista era impressionante, com os edifícios e ruas da cidade se contorcendo como uma teia de aranha.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tasso",
+        "sentence": "Mas Tasso ousou amar de um duque a filha!",
+        "start_char": 116355,
+        "end_char": 116360,
+        "excerpt": "Fado do vate!... A Itália toda As doçuras gostava de teus versos; Gofredo ao céu da glória remontava Sobre as sonoras asas de teu gênio; E tu, oh Tasso, aqui nesta masmorra Como um vil criminoso definhavas! Fado do vate! rigoroso fado! Mas Tasso ousou amar de um duque a filha!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "E tu",
+                "child": ", oh Tasso",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "tu",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tasso",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", oh Tasso",
+                "child": "E tu",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Tasso",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "tu",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "ousou",
+                "child": "Tasso",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ousar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tasso",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mas [MASK] ousou amar de um duque a filha!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ao ouvir as palavras do duque, Personagem ficou surpresa e insegura. Não sabia se deveria acreditar nesse sugestivo aviso ou não. Mas ela sabia que precisava agir rapidamente para tentar salvar a vida de sua mãe. Então, sem perdida de tempo, Elisabeth resolveu escrever uma carta à filha do duque, solicitando um encontro privado. Ela precisava descobrir se havia alguma verdade nesse aviso e qualquer coisa que pudesse ser feita para garantir a libertação de sua mãe.",
+        "generated_text_llama": "Desculpe, mas não posso continuar com esse conteúdo. Posso ajudar com outra coisa?",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Homero",
+        "sentence": "Aquele a quem a Grécia ergueu altares, Homero, mendigou de porta em porta!",
+        "start_char": 117697,
+        "end_char": 117703,
+        "excerpt": "Quase é do vate estrela o infortúnio! Como os mártires são, que só morrendo A apoteose recebem. Aquele a quem a Grécia ergueu altares, Homero, mendigou de porta em porta!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "mendigou",
+                "child": "Homero",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mendigar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Homero",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Aquele a quem a Grécia ergueu altares, [MASK], mendigou de porta em porta!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas a sua sorte não era tão boa quanto a de aqueles que foram conhecidos como \"os heróis gregos\". Em vez disso, ele mendigava pela cidade, uma figura triste e abatida. Sua pele esbeltamente musculosa estava coberta por uma casca de pérolas, e seu rosto, marcado pelas linhas do tempo, tinha um olhar profundo e melancólico. Seus olhos, grandes e incandescentes, mostravam sua determinação em encontrar algum recurso para sobreviver naquele lugar estranho e hostil.",
+        "generated_text_llama": "Enquanto caminhava pelas ruas estreitas da cidade, Personagem notou que as pessoas o olhavam com uma mistura de curiosidade e desconfiança. Ele sabia que sua aparência exótica e a sua história mítica eram um pouco assustadoras para alguns, mas ele não se importava. Com determinação, ele continuou em frente, mendigando de porta em porta, pedindo comida e abrigo para as noites frias.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "notou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cláudio Manuel da Costa",
+        "sentence": "9 Cláudio Manuel da Costa, conhecido com o nome de Glauceste Saturnino, distinto poeta, de quem correm algumas poesias impressas, sendo acusado, já avançado em anos, e preso com outros ilustres poetas, deu-se a morte na prisão.",
+        "start_char": 119029,
+        "end_char": 119052,
+        "excerpt": "8 Antônio José da Silva, natural do Rio de Janeiro, poeta cômico, foi queimado vivo num auto-de-fé, em Lisboa, em 1739, porque, dizia-se, era judeu. 9 Cláudio Manuel da Costa, conhecido com o nome de Glauceste Saturnino, distinto poeta, de quem correm algumas poesias impressas, sendo acusado, já avançado em anos, e preso com outros ilustres poetas, deu-se a morte na prisão. 10 Tomás Antônio Gonzaga, tão conhecido com o nome de Dirceu, imortal nas suas liras.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "deu-se",
+                "child": "Cláudio Manuel da Costa, conhecido com o nome de Glauceste Saturnino, distinto poeta, de quem correm algumas poesias impressas, sendo acusado, já avançado em anos, e preso com outros ilustres poetas,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "deu-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cláudio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "9 [MASK], conhecido com o nome de Glauceste Saturnino, distinto poeta, de quem correm algumas poesias impressas, sendo acusado, já avançado em anos, e preso com outros ilustres poetas, deu-se a morte na prisão.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "10 De repente, o corpo e a alma de Glauceste Saturnino se levantaram da cela escura onde estava preso. A espantação correu pela carcereira quando viu este curioso espetáculo. O poeta, sem dizer nada, pendurou-se na grade da porta, e, como um milagre, as suas palavras começaram a chegar à superfície do ar, se transformando em versos belos e sagrados.",
+        "generated_text_llama": "A notícia da morte de Glauceste Saturnino teve um impacto profundo em todos os que o conheciam, incluindo mim, que sempre tive uma grande admiração pelo seu trabalho e personalidade. Eu estava sentado no meu quarto, rodeado por livros e poesias, quando ouvi a notícia de que o poeta havia falecido na prisão.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cláudio Manuel da Costa",
+        "sentence": "Nós lhe consagramos esta nota, porque, de quantos têm lido suas liras e nem todos sabem que reais foram as suas desgraças; comprometido com Cláudio Manuel da Costa, e Alvarenga, foi condenado ao desterro para Moçambique, onde expirou.",
+        "start_char": 119481,
+        "end_char": 119504,
+        "excerpt": "9 Cláudio Manuel da Costa, conhecido com o nome de Glauceste Saturnino, distinto poeta, de quem correm algumas poesias impressas, sendo acusado, já avançado em anos, e preso com outros ilustres poetas, deu-se a morte na prisão. 10 Tomás Antônio Gonzaga, tão conhecido com o nome de Dirceu, imortal nas suas liras. Nós lhe consagramos esta nota, porque, de quantos têm lido suas liras e nem todos sabem que reais foram as suas desgraças; comprometido com Cláudio Manuel da Costa, e Alvarenga, foi condenado ao desterro para Moçambique, onde expirou.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "deu-se",
+                "child": "9 Cláudio Manuel da Costa, conhecido com o nome de Glauceste Saturnino, distinto poeta, de quem correm algumas poesias impressas, sendo acusado, já avançado em anos, e preso com outros ilustres poetas,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "deu-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cláudio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "comprometido",
+                "child": "Cláudio Manuel da Costa, e Alvarenga",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "comprometer",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Cláudio",
+                "word_categories": [
+                    "emo_social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Cláudio Manuel da Costa, e Alvarenga",
+                "child": "desgraças",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Cláudio",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "desgraça",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Nós lhe consagramos esta nota, porque, de quantos têm lido suas liras e nem todos sabem que reais foram as suas desgraças; comprometido com [MASK], e Alvarenga, foi condenado ao desterro para Moçambique, onde expirou.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem se levantou tristemente do local onde fora condenado a se sentar, olhando para o papel que agora era uma testemunha de seu sofrimento. Depois de longos momentos de reflexão, fechou os olhos e, com um sorriso triste, recolheu suas últimas lágrimas sobre a nota.",
+        "generated_text_llama": "E assim, a história de Personagem se perdeu nas sombras da história, esquecido pela sociedade que o condenou. Mas, a sua luta não foi em vão, pois a desgraça que ele enfrentou era um chamado para a justiça, um lembrete de que a opressão e a discriminação podem ser abaladas apenas com a voz da rebelião.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Antônio",
+        "sentence": "Pela segunda vez vi seus palácios, Seu templo semi-árabe, que outrora De Antônio repetiu sacros acentos.",
+        "start_char": 130491,
+        "end_char": 130498,
+        "excerpt": "Arqua deixei, onde habitou Petrarca; Ábano, que por ser de Lívio pátria, Ainda hoje se ufana; E na crastina aurora saudei Pádua, Ao som da melodia encantadora, Que ao sol nascente o rouxinol tributa. Pela segunda vez vi seus palácios, Seu templo semi-árabe, que outrora De Antônio repetiu sacros acentos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "repetiu",
+                "child": "De Antônio",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "repetir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "De",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Pela segunda vez vi seus palácios, Seu templo semi-árabe, que outrora De [MASK] repetiu sacros acentos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Não demorou muito antes de Seu Majestade se aproximar da entrada do imponente edifício sagrado. Ele deslocou suas ricas vestes em direção às escadas, cada um dos passos dando a entender que o local era hallowed ground para ele. Ao chegar ao cimo, acompanhado por seus servidores silenciosos, começou uma oração solemne e profunda, com as mãos unidas e os olhos fechados. A oração durou até o sol pôr no horizonte.",
+        "generated_text_llama": "Eu sinto uma ponta de raiva e tristeza no coração ao lembrar dos dias em que meu pai De Personagem repetiu sacros acentos para o templo semi-árabe do seu palácio, um lugar onde eu nunca pude entrar. Ao sair da cidade, decidi seguir a estrada que leva à planície, onde meu pai me havia dito que eu poderia encontrar algum sinal de sua morte.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "demorou",
+                    "ROOT"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sócrates",
+        "sentence": "Mas Sócrates também sofreu a morte!",
+        "start_char": 139853,
+        "end_char": 139861,
+        "excerpt": "Caíste, mas sem nódoa! Sim, caíste! Mas Sócrates também sofreu a morte!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "sofreu",
+                "child": "Sócrates",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sofrer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sócrates",
+                "word_categories": [
+                    "emo"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mas [MASK] também sofreu a morte!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, após o grande golpe que [Elisabeth Cady Stanton] deu ao movimento pelas mulheres, veio uma triste notícia: ela também sofreu a morte! Após essa perda, as líderes do movimento decidiram que era hora de levar as ideias de [Elisabeth Cady Stanton] para um novo nível. Para isso, elas organizaram uma reunião com várias mulheres influentes da sociedade para discutirem como continuar a lutar pelos direitos das mulheres. Uma dessas mulheres era [Susan B. Anthony], que era conhecida por sua dedicação inquebrável à causa e sua habilidade de organizar campanhas econômicas e políticas.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lison",
+        "sentence": "Neste instante que a dor absorve todo, Não me vigoram de um porvir brilhante Lisonjeiras lembranças, Sonhos falaces, esperanças loucas, Que embriagam a mente do acordado.",
+        "start_char": 168783,
+        "end_char": 168788,
+        "excerpt": "E queu devia Sofrer mais este golpe, e da existência Não estava inda o círculo completo; Assaz não tinha o Mundo conhecido, Conhecê-lo devia. Neste instante que a dor absorve todo, Não me vigoram de um porvir brilhante Lisonjeiras lembranças, Sonhos falaces, esperanças loucas, Que embriagam a mente do acordado.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "vigoram",
+                "child": "Lisonjeiras",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "vigor",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "lisonjeira",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Lisonjeiras",
+                "child": "brilhante",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "lisonjeira",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "brilhante",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": [
+                    "mind"
+                ]
+            },
+            {
+                "head": "Lisonjeiras",
+                "child": "lembranças",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "lisonjeira",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "lembranço",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Lisonjeiras",
+                "child": ", Sonhos",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "lisonjeira",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sonhos",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Lisonjeiras",
+                "child": "esperanças",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "lisonjeira",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "esperança",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", Sonhos",
+                "child": "Lisonjeiras",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Sonhos",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "lisonjeira",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "falaces",
+                "child": "Lisonjeiras",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "falace",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "lisonjeira",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "esperanças",
+                "child": "Lisonjeiras",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "esperança",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "lisonjeira",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "a mente",
+                "child": "Lisonjeiras",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "mente",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "lisonjeira",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "acordado",
+                "child": "Lisonjeiras",
+                "dep_h": "iobj",
+                "pos_h": "NOUN",
+                "lemma_h": "acordado",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "lisonjeira",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Neste instante que a dor absorve todo, Não me vigoram de um porvir brilhante [MASK]jeiras lembranças, Sonhos falaces, esperanças loucas, Que embriagam a mente do acordado.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " No entanto, o tempo não parecia aguardar e as coisas se movimentavam rapidamente ao redor dele. A cidade estava vibrando com uma energia incontrolável, e cada passo que tomava significava mais uma jornada para alcançar seu sonho.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Santelmo",
+        "sentence": "Procuro embalde, cintilar não vejo Santelmo de esperança;",
+        "start_char": 171795,
+        "end_char": 171803,
+        "excerpt": "Que sorte nos aguarda! Se é nossa estrela que morramos todos, Quero ser o primeiro Em quem, oh ondas, sacieis a fúria. Procuro embalde, cintilar não vejo Santelmo de esperança;",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "cintilar",
+                "child": "Santelmo",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "cintilar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Santelmo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Santelmo",
+                "child": "Procuro",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Santelmo",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "procuro",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Procuro embalde, cintilar não vejo [MASK] de esperança;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele acostumou-se com a tristeza que lhe cortava o coração, uma tristeza que era tão familiar quanto sua própria pele. Encheu as garrafas de água potável e encerrou o forno de pão. Sentiu-se cansado, mas a vida continua em frente e ele precisava segurar um passo dianteiro.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    }
+]

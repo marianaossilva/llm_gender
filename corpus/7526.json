@@ -1,0 +1,54 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Benito Soares",
+        "sentence": "Benito Soares ficou um momento encarado no coronel.",
+        "start_char": 127,
+        "end_char": 140,
+        "excerpt": "- Quem te disse ? - Laura. Benito Soares ficou um momento encarado no coronel.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ficou",
+                "child": "Benito Soares",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Benito",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] ficou um momento encarado no coronel.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de um breve instante em que o olhar de ambos se cruzava, o Personagem estendeu a mão e agarrou a brida do cavalo do coronel. O coronel sorriu levemente e, dando o reinado à sua montaria, desceu da sela e ofereceu-se a ajuda de Personagem. Juntos, eles começaram a caminhar para o quartel dos oficiais.",
+        "generated_text_llama": "Ele tentou manter a calma e não mostrar a raiva que estava crescendo dentro dele. O coronel, por outro lado, parecia ignorante da intensidade do ódio que Personagem sentia em relação a ele. \"Então, o que você quer dizer com isso?\", perguntou o coronel de voz firme, mas controlada.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "estendeu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentia",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

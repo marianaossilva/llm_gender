@@ -1,0 +1,910 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Feliciano Campossolo Nunes",
+        "sentence": "Era numa rua desse bairro que morava Feliciano Campossolo Nunes, chefe de seção do Tesouro Nacional, ou antes e melhor: subdiretor.",
+        "start_char": 996,
+        "end_char": 1022,
+        "excerpt": "Nas vertentes dessas mesmas montanhas, quando dão para o mar, este quebra a monotonia dó quadro e o sol se espadana mais livremente, obtendo as cousas humanas, minúsculas e mesquinhas, uma garridice e uma alegria que não estão nelas, mas que sê percebem nelas. As tacanhas casas de Botafogo se nos afigura assim; as bombásticas \"vilas\" de Copacabana, também; mas, no Andaraí, tudo fica esmagado pela alta montanha e sua sombria vegetação. Era numa rua desse bairro que morava Feliciano Campossolo Nunes, chefe de seção do Tesouro Nacional, ou antes e melhor: subdiretor.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "morava",
+                "child": "Feliciano Campossolo Nunes, chefe de seção do Tesouro Nacional",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "morar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Feliciano",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Feliciano Campossolo Nunes, chefe de seção do Tesouro Nacional",
+                "child": "bairro",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Feliciano",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "bairro",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Feliciano Campossolo Nunes, chefe de seção do Tesouro Nacional",
+                "child": "rua",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Feliciano",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "rua",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Era numa rua desse bairro que morava [MASK], chefe de seção do Tesouro Nacional, ou antes e melhor: subdiretor.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O subdiretor, tendo certeza de ter fechado corretamente a porta de sua casa, começou a caminhar para o seu local de trabalho, acompanhado pela neblina matutina que cobria a cidade como uma camada fina. Ele era um homem de caráter reservado e disciplinado, sempre no lugar certo a partir das 8 horas da manhã até as 6 da tarde, com excelente disposição para trabalhar nos arduos desafios que o Tesouro Nacional lhe apresentava.",
+        "generated_text_llama": "Ele saiu daquele edifício, fechando a porta com um clique, e começou a caminhar pela rua, olhando para as pessoas que passavam. Era uma manhã ensolarada, e o ar estava cheio de cheiros de comida fresca vindo das calçadas. Personagem precisava pensar claramente, e a multidão da cidade parecia ser justamente o que ele precisava para se concentrar.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "acompanhado",
+                    "advcl"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "precisava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Sebastiana",
+        "sentence": "Não nascera com ele, mas era como se tivesse nascido, pois jamais alguém havia visto Dona Sebastiana sem aquele adendo, acavalado no nariz.",
+        "start_char": 2372,
+        "end_char": 2387,
+        "excerpt": "A mulher, Dona Sebastiana, que batizara a vila e com cujo dinheiro a fizeram, era mais alta do que ele e não tinha nenhum relevo de fisionomia, senão um artificial, um aposto. Consistia num pequeno pince-nez de aros de ouro, preso, por detrás da orelha, com trancelim de seda. Não nascera com ele, mas era como se tivesse nascido, pois jamais alguém havia visto Dona Sebastiana sem aquele adendo, acavalado no nariz.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "A mulher",
+                "child": ", Dona Sebastiana,",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "outro",
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", Dona Sebastiana,",
+                "child": "A mulher",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Dona",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "word_categories": [
+                    "social",
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", Dona Sebastiana,",
+                "child": "alta",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Dona",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "alto",
+                "word_categories": [
+                    "social",
+                    "aparencia"
+                ],
+                "verb_categories": [],
+                "adj_categories": [
+                    "body"
+                ]
+            },
+            {
+                "head": "visto",
+                "child": "Dona Sebastiana",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Não nascera com ele, mas era como se tivesse nascido, pois jamais alguém havia visto [MASK] sem aquele adendo, acavalado no nariz.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O rapaz se levantou da cadeira e apertou as mãos na camisa, olhando para o espelho. Era como se ele pudesse sentir as olhas de todos aqueles que cruzaram com ele durante o dia. Porém, isso não o impediu de se apresentar no banquete.",
+        "generated_text_llama": "Personagem olhou para o espelho do banheiro, onde seu reflexo apareceu com uma expressão de desgaste, como se os anos estivessem fazendo marcas cada vez mais profundas na sua pele pálida. Ele sabia que não era apenas a idade que o estava afetando, mas também as marcas e cicatrizes que cobriam seu corpo, um lembrete constante do passado que ele tentava esquecer.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Sebastiana",
+        "sentence": "Ela, quando queria olhar alguém ou alguma cousa com jeito e perfeição, erguia bem a cabeça e toda Dona Sebastiana tomava um entono de magistrado severo.",
+        "start_char": 2555,
+        "end_char": 2570,
+        "excerpt": "Não nascera com ele, mas era como se tivesse nascido, pois jamais alguém havia visto Dona Sebastiana sem aquele adendo, acavalado no nariz. fosse de dia, fosse de noite. Ela, quando queria olhar alguém ou alguma cousa com jeito e perfeição, erguia bem a cabeça e toda Dona Sebastiana tomava um entono de magistrado severo.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "visto",
+                "child": "Dona Sebastiana",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Ela, quando queria olhar alguém ou alguma cousa com jeito e perfeição, erguia bem a cabeça e toda [MASK] tomava um entono de magistrado severo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então ela erguiu-se tranquilamente, estendendo seu corpo elegantesmente e todo [seu rosto] se envergonhando ligeiramente. Como sempre, sua maestria era indubitável e sua expressão parecia uma tela para as emoções de todos aqueles que a observavam. Sentinela sobre seu mundo, ela observava com olhar penetrante e cuidado qualquer cena ou pessoa com a intenção de compreender a profundidade de cada elemento. E então, ao perceber algo peculiar ou interessante, ele ajustaria lentamente o seu telescópio mental para se aproximar dessas partes do que estava presenciando, sempre procurando capturar o essencial e descobrir a verdade que lá se escondia.",
+        "generated_text_llama": "Era uma pessoa que nunca deixava escapar a oportunidade de mostrar seu lado autoritário, seja em situações familiares ou profissionais. Uma vez que havia tomado uma atitude, era impossível mudá-la, e Personagem não hesitava em usar sua voz firme para impor sua vontade.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "hesitava",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Sebastiana",
+        "sentence": "Dona Sebastiana levantou mais a cabeça com pince-nez e tudo;",
+        "start_char": 7304,
+        "end_char": 7319,
+        "excerpt": "Todos se espantaram. Mariazinha olhou Guaicuru; Dona Sebastiana levantou mais a cabeça com pince-nez e tudo;",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "levantou",
+                "child": "Dona Sebastiana",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "levantar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] levantou mais a cabeça com pince-nez e tudo;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em seguida, o professor Miranda desceu lentamente do trono e se dirigiu para uma mesa do lado de fora da sala de aula. Ele abriu seu casaco largo e retirou um grande livro antigo da sua sacola de couro que carregava consigo. Levantou o livro com a mão esquerda, abriu-o com cuidado e começou a ler para todos os alunos:",
+        "generated_text_llama": "E com um gesto de desafio, Personagem ajustou o cinto do seu terno preto e olhou diretamente para a porta da sala, como se estivesse preparado para enfrentar qualquer coisa que vinha em sua direção. Em seguida, ele se levantou e caminhou até a janela, abrindo-a com um clique suave e olhando para a noite escuro do exterior, onde as luzes da cidade brilhavam como estrelas em um céu infinito. Enquanto isso, sua mente estava focada em uma única coisa: a reunião que estava prestes a ocorrer, e o papel que ele jogava naquela noite seria crucial para mudar o curso da história. Com um suspiro profundo, Personagem voltou-se para a porta e se colocou diante dela, pronto para enfrentar o destino que lhe estava reservado.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ajustou",
+                    "ROOT"
+                ],
+                [
+                    "voltou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Simplício",
+        "sentence": "Simplício que, agora, contemplava esse quadro célebre nas salas burguesas, representando uma ave, dependurada pelas pernas e faz pendante com a ceia do Senhor - Simplício, dizia, cravou resolutamente o olhar sobre o colega, e Campossolo perguntou:",
+        "start_char": 7365,
+        "end_char": 7374,
+        "excerpt": "Mariazinha olhou Guaicuru; Dona Sebastiana levantou mais a cabeça com pince-nez e tudo; Simplício que, agora, contemplava esse quadro célebre nas salas burguesas, representando uma ave, dependurada pelas pernas e faz pendante com a ceia do Senhor - Simplício, dizia, cravou resolutamente o olhar sobre o colega, e Campossolo perguntou:",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "olhou",
+                "child": "Simplício",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "olhar",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Simplício",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "esse quadro",
+                "child": "Simplício",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "quadro",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Simplício",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "salas",
+                "child": "Simplício",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "sala",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Simplício",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "uma ave",
+                "child": "Simplício",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "ave",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Simplício",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "pernas",
+                "child": "Simplício",
+                "dep_h": "obl:agent",
+                "pos_h": "NOUN",
+                "lemma_h": "perna",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Simplício",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "dependurada",
+                        "child": "pernas",
+                        "dep_h": "acl",
+                        "pos_h": "VERB",
+                        "lemma_h": "dependurar",
+                        "dep_c": "obl:agent",
+                        "pos_c": "NOUN",
+                        "lemma_c": "perna"
+                    },
+                    {
+                        "head": "pernas",
+                        "child": "uma ave",
+                        "dep_h": "obl:agent",
+                        "pos_h": "NOUN",
+                        "lemma_h": "perna",
+                        "dep_c": "obj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "ave"
+                    },
+                    {
+                        "head": "pernas",
+                        "child": "Simplício",
+                        "dep_h": "obl:agent",
+                        "pos_h": "NOUN",
+                        "lemma_h": "perna",
+                        "dep_c": "dep",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Simplício"
+                    }
+                ]
+            },
+            {
+                "head": "a ceia",
+                "child": "Simplício",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "ceia",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Simplício",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Senhor",
+                "child": "Simplício",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Senhor",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Simplício",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "faz",
+                "child": "Simplício",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Simplício",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Simplício",
+                "child": "Simplício",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Simplício",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Simplício",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] que, agora, contemplava esse quadro célebre nas salas burguesas, representando uma ave, dependurada pelas pernas e faz pendante com a ceia do Senhor - [MASK], dizia, cravou resolutamente o olhar sobre o colega, e Campossolo perguntou:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " \"Personagem, agora que contemplava esse quadro célebre nas salas burguesas, representando uma ave dependurada pelas pernas e faz pendente com a ceia do Senhor, murmurou em voz baixa para o colega. Campossolo, surpreso, perguntou: - 'Qual é sua opinião sobre este famoso quadro de Velázquez, Personagem?'\".",
+        "generated_text_llama": "\"Você acha que é possível fazer algo assim? Enxergar uma ave como um símbolo da morte e da redenção ao mesmo tempo?\", disse Campossolo, com uma mistura de fascínio e repulsa no seu olhar. Personagem assentiu firmemente, seus cabelos morenos caindo sobre os ombros, enquanto ele continuava a analisar o quadro, procurando por algum segredo ou mensagem oculta. \"É exatamente isso\", respondeu Personagem, com uma voz mais baixa, mas igualmente determinada. \"O artista queria nos fazer questionar nossas próprias crenças e valores. Quer dizer, quem é que decide o que é viva ou morta?\"",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "assentiu",
+                    "ROOT"
+                ],
+                [
+                    "respondeu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mariazinha",
+        "sentence": "Todos, menos Mariazinha, responderam, quase a um tempo só:  Quero.",
+        "start_char": 7886,
+        "end_char": 7896,
+        "excerpt": "Você vai ver o plano. Quer ouvi-lo ? Todos, menos Mariazinha, responderam, quase a um tempo só:  Quero.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "responderam",
+                "child": "Todos, menos Mariazinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Mariazinha",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Todos, menos [MASK], responderam, quase a um tempo só:  Quero.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem não se sentiu sozinho mais por muito tempo, pois sua voz também soou, leve e encantadora como sempre. \"Quero\", disse ela, levantando-se para responder àquele convite que lhe tinha sido dado. E então, inesperadamente, a sala tornou-se muito mais silenciosa, quase assustada, e os olhos de todos se dirigiram para ela. Mas Personagem não se assustava, ela só sentia sua voz correndo no seu peito, gritando um \"Sim, eu quero!\"",
+        "generated_text_llama": "[S MASK] olhou em volta, sentindo-se como o único sobrevivente de uma catástrofe mística. A multidão, que havia se reunido para ouvir as palavras do sábio, agora parecia um exército de fantasmas, todos se aproximando dele com um único desejo: ser atendidos.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "assustava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Simplício",
+        "sentence": "Sei; é a livraria dos advogados, disse Simplício sem querer sorrir.",
+        "start_char": 9183,
+        "end_char": 9192,
+        "excerpt": "É o Jacinto. Você sabe que vou lá todo o dia, procurar livros a respeito. Sei; é a livraria dos advogados, disse Simplício sem querer sorrir.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Simplício",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Simplício",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Sei; é a livraria dos advogados, disse [MASK] sem querer sorrir.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O rapaz caminhou para dentro da livraria e direito na mesa de vendas, olhou pela lista de romances mais leitosos e se dirigiu à área de mistérios. Levou um livro na mão, abriu o capítulo inicial e iniciou a ler a trama que se desenvolveu no interior das páginas do livro. No fim, ele voltou para casa, com as mãos sujas de tinta por ter seguido o traçado das palavras no livro.",
+        "generated_text_llama": "Ela continuou caminhando pelas escadas estreitas do prédio, seu rosto fixo na porta de madeira marcada com um grande \"D\" que anunciava a presença da livraria dos advogados. Ao chegar ao topo, ela encontrou o interior das dependências em um estado de caos total - livros caídos por todo lado, papéis espalhados pelo chão e uma mesa de negócios desarrumada.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Sebastiana",
+        "sentence": "Dona Sebastiana quis ainda animar a conversa, dirigindo-se ao marido:  Não queria que me dissesses os nomes, mas pode acontecer que seja o promovido o doutor Fortunato ou...",
+        "start_char": 9740,
+        "end_char": 9755,
+        "excerpt": "O jantar foi. acabando triste, com essa história de promoções para o Natal. Dona Sebastiana quis ainda animar a conversa, dirigindo-se ao marido:  Não queria que me dissesses os nomes, mas pode acontecer que seja o promovido o doutor Fortunato ou...",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "quis",
+                "child": "Dona Sebastiana",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "outro",
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] quis ainda animar a conversa, dirigindo-se ao marido:  Não queria que me dissesses os nomes, mas pode acontecer que seja o promovido o doutor Fortunato ou...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " - \"O doutor Luiz estava apenas a tentar animar a conversa, assim dirigiu-se ao marido: 'Não queria que me dissesses os nomes, mas pode acontecer que seja o promovido o doutor Fortunato ou outro. Ainda não tivemos notícia definitiva.'\", depois que Luiz completou sua dissertação e esperava pela promoção, começou a sentir um senso de ansiedade sobre o futuro e qualquer um que pudesse ter lhe fornecer informações precisas seria bem-vindo. Assim, não poderia aguentar mais perguntando ao marido se tivesse ouvinho alguma coisa em torno do promovido para doutor de medicina na universidade. O marido, um professor aposentado e conhecido de muitas pessoas no departamento médico da universidade, respondeu sem hesitar: \"Estou certo de que o promovido será o doutor Fortunato, pois todos elogiam seus trabalhos e sua disposição para aprender.\" Luiz deixou a casa para caminhar calma por uma rua pequena do distrito, com seus pensamentos em torno da possibilidade de se tornar doutor.",
+        "generated_text_llama": "Ela deu um sussurro, olhando em volta com cautela, para garantir que não houvesse ninguém mais à vista. \"O médico com quem você conversou\", ela continuou, \"era um homem estranho. Tinham algo nos olhos, algo que me fez sentir que não era completamente o que parecia. E você não disse nada sobre isso, apenas me disse que ele era excelente e que eu deveria começar a trabalhar com ele.\"",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "completou",
+                    "advcl"
+                ],
+                [
+                    "deixou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Simplício",
+        "sentence": "Na sala de visitas, Simplício ainda pôde olhar mais duas vezes furtivamente os olhos topazinos de Mariazinha, que tinha um sossegado sorriso a banhar-lhe a face toda; e se foi.",
+        "start_char": 10178,
+        "end_char": 10187,
+        "excerpt": "A tristeza tornou-se mais densa e quase calados tomaram café. Levantaram-se todos com o semblante anuviado, exceto a boa Mariazinha, que procurava dar corda à conversa. Na sala de visitas, Simplício ainda pôde olhar mais duas vezes furtivamente os olhos topazinos de Mariazinha, que tinha um sossegado sorriso a banhar-lhe a face toda; e se foi.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "pôde",
+                "child": "Simplício",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Simplício",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Na sala de visitas, [MASK] ainda pôde olhar mais duas vezes furtivamente os olhos topazinos de Mariazinha, que tinha um sossegado sorriso a banhar-lhe a face toda; e se foi.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em seguida, o velho Zé se levantou lentamente, enquanto suas mãos trepidares tocavam na pele de Mariazinha, que estava em cima da mesa de hospitalar. Ele olhou para ela com um olhar profundo e carinhoso, e então tomou um último respiro antes de se afastar.",
+        "generated_text_llama": "Enquanto saía da sala de visitas, Personagem não podia deixar de se sentir um pouco confuso. Ele havia chegado lá com a intenção de conversar sobre os assuntos importantes, mas agora sentia-se como se tivesse sido enganado pela calma e acolhedora atmosfera da casa de Mariazinha. Ao entrar no salão, ele notou que a senhora estava sentada em uma das cadeiras confortáveis, com um livro aberto em seu colo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mariazinha",
+        "sentence": "Na sala de visitas, Simplício ainda pôde olhar mais duas vezes furtivamente os olhos topazinos de Mariazinha, que tinha um sossegado sorriso a banhar-lhe a face toda; e se foi.",
+        "start_char": 10256,
+        "end_char": 10266,
+        "excerpt": "A tristeza tornou-se mais densa e quase calados tomaram café. Levantaram-se todos com o semblante anuviado, exceto a boa Mariazinha, que procurava dar corda à conversa. Na sala de visitas, Simplício ainda pôde olhar mais duas vezes furtivamente os olhos topazinos de Mariazinha, que tinha um sossegado sorriso a banhar-lhe a face toda; e se foi.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "Mariazinha",
+                "child": "semblante",
+                "dep_h": "obj",
+                "pos_h": "VERB",
+                "lemma_h": "Mariazinha",
+                "dep_c": "amod",
+                "pos_c": "NOUN",
+                "lemma_c": "semblante",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "os olhos",
+                "child": "Mariazinha",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "olho",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Mariazinha",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Mariazinha",
+                "child": "os olhos",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Mariazinha",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "olho",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Na sala de visitas, Simplício ainda pôde olhar mais duas vezes furtivamente os olhos topazinos de [MASK], que tinha um sossegado sorriso a banhar-lhe a face toda; e se foi.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, Personagem levantou a mão e, com uma leve pressão dos dedos, acalmou o cabelo que estava caído sobre os olhos. Sua expressão nunca mudou de sorriso, sempre tendo um tom de tranquilidade em seu rosto.",
+        "generated_text_llama": "Com uma sensação de desconforto crescente na sua garganta, Personagem seguiu-o até o final da sala, onde Simplício fechou a porta trancando-se sozinho. Em seguida, Personagem foi para o escritório do pai, que ficava ao fundo da sala, e abriu a janela lateral, sacudindo a cabeça antes de sair.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "seguiu-o",
+                    "ROOT"
+                ],
+                [
+                    "foi",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Simplício",
+        "sentence": "No bonde, Simplício pensava unicamente em duas cousas: no Natal próximo e no \"Direito\" de Guaicuru.",
+        "start_char": 10447,
+        "end_char": 10456,
+        "excerpt": "O colega Fortunato ficou, mas tudo estava tão morno e triste que, em breve, se foi também Guaicuru. 5 No bonde, Simplício pensava unicamente em duas cousas: no Natal próximo e no \"Direito\" de Guaicuru.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "pensava",
+                "child": "Simplício",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Simplício",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "No bonde, [MASK] pensava unicamente em duas cousas: no Natal próximo e no \"Direito\" de Guaicuru.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Sempre atento às suas metas, Personagem não desisti de seus sonhos. Após a conclusão de sua jornada matinal, rapidamente limpou o seu escritório e se preparou para encontrar o caminho para casa. Ao chegar lá, ele arrumava o estojo em que guardava as fotos do \"Direito\" de Guaicuru, um antigo sítio indígena cujo destino era defender e preservar. Pouco a pouco, começava a elaborar uma campanha para atrair atenção sobre esse local histórico e ambientalmente rico, buscando a participação de outros em sua luta pela preservação da cultura indígena do Guaicuru. Com o espírito firme e determinado, Personagem acreditava que conseguiria reunir suficientes pessoas para se organizarem e garantir uma futura preservação do \"Direito\" de Guaicuru. E então, enquanto se preparava para dormir e sonhar com esse projeto na mente, Personagem sabia que o próximo dia seria outra oportunidade para levar sua luta um passo à frente.",
+        "generated_text_llama": "Sem demais, Personagem entrou no bar e pediu um café com leite, sentando-se na mesa mais tranquila do local. Enquanto esperava a sua bebida, ele começou a repensar sobre suas opções para o Natal próximo. A ideia de passar o feriado com sua família, como sempre fazia nos anos anteriores, parecia cada vez mais difícil. Seu pai havia se metido em uma crise financeira e não conseguia pagar as contas, deixando a família sem dinheiro para celebrar.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "desisti",
+                    "conj"
+                ],
+                [
+                    "acreditava",
+                    "ROOT"
+                ],
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "entrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Sebastiana",
+        "sentence": "Dona Sebastiana deu uma consoada à moda do Norte.",
+        "start_char": 11010,
+        "end_char": 11025,
+        "excerpt": "O Ministro não atendera a pistolões nem a títulos de Goiás. Ninguém foi preterido; mas Guaicuru que tinha em gestação a obra de um outro, ficou furioso sem nada dizer. Dona Sebastiana deu uma consoada à moda do Norte.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "deu",
+                "child": "Dona Sebastiana",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "carater",
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] deu uma consoada à moda do Norte.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, Personagem, sentindo o frio da noite se encobrindo sua pele rosada e delicada, desceu a escadaria da casa e seguiu pela estrada principal até chegar ao lugar onde os árvores abrigavam seus ramos contra o vento gelado do outono. A cada passo que fez, ela sentia o solino se endurecendo sob os sapatos de couro escuro que usava, e a sensação era tão agradável quanto as memórias do verão que estavam prestes a ser esquecidas. Chegando ao lugar, Personagem começou a cortar uma árvore seca para fazer sua refeição no fogo, e assim se sentou em seu banco de troncos cobertos de casca e esperou que o fogo acendesse e aquecesse seu corpo. O frio era tão intenso que podia ver a sua respiração sobressair em nuvem branca no ar, mas Personagem sabia que esse pouco luxúria era preciso para preservar sua vida nessa floresta desolada. Por algum tempo ela sentou-se quietamente e olhou para o redor, observando como a natureza se preparava para dormir com o frio abrindo as folhas de suas árvores e cobrindo os rios com um lençol branco de neve. Finalmente, quando o fogo estava aceso e aquecia seu pequeno espaço, Personagem preparou sua refeição de batata assada, carne seca e um místico chá de ervas raras que encontrara na floresta durante seus dias de aventura. Saborosa e nutritiva, a refeição era tudo o que ela precisava para sobreviver nessa terra selvagem e sombria, e Personagem sabia disso mais do que qualquer outra coisa no mundo.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "sabia",
+                    "conj"
+                ],
+                [
+                    "preparou",
+                    "ROOT"
+                ],
+                [
+                    "sabia",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Sebastiana",
+        "sentence": "Na hora da ceia, Guaicuru, como de hábito, ia sentar-se ao lado de Mariazinha, quando Dona Sebastiana, com pince-nez e cabeça, tudo muito bem erguido, chamou-o:  Sente-se aqui a meu lado, doutor, aí vai sentar-se o \"Seu\" Simplício.",
+        "start_char": 11146,
+        "end_char": 11161,
+        "excerpt": "Ninguém foi preterido; mas Guaicuru que tinha em gestação a obra de um outro, ficou furioso sem nada dizer. Dona Sebastiana deu uma consoada à moda do Norte. Na hora da ceia, Guaicuru, como de hábito, ia sentar-se ao lado de Mariazinha, quando Dona Sebastiana, com pince-nez e cabeça, tudo muito bem erguido, chamou-o:  Sente-se aqui a meu lado, doutor, aí vai sentar-se o \"Seu\" Simplício.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "deu",
+                "child": "Dona Sebastiana",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "carater",
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Na hora da ceia, Guaicuru, como de hábito, ia sentar-se ao lado de Mariazinha, quando [MASK], com pince-nez e cabeça, tudo muito bem erguido, chamou-o:  Sente-se aqui a meu lado, doutor, aí vai sentar-se o \"Seu\" Simplício.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ao ouvir a voz súbita e respeitosa de Seu Simplício, Guaicuru sentiu-se surpreso e perplexo. Porém, era uma convocação que não podia recusar: seu mentor e amigo íntimo lhe pediu para sentar ao lado dele na mesa. Guaicuru, com a mente enrolada em questões relacionadas à sua investigação atual, deslocou-se a partir do lugar onde estava para o lado oposto da mesa, agora ao lado de seu velho amigo.",
+        "generated_text_llama": "Simplício ficou surpreso com a formalidade de Mariazinha em relação a ele, e também com o tom sábio que Personagem usava ao falar. Ele se sentou à mesa, tentando parecer mais confiante do que estava se sentindo, e olhou para as duas mulheres com uma mistura de curiosidade e respeito.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "deslocou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "usava",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

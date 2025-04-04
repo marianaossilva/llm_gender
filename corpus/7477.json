@@ -1,0 +1,46 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Francelina",
+        "sentence": "- perguntou Francelina quando chegaram à sala de visitas.",
+        "start_char": 1484,
+        "end_char": 1494,
+        "excerpt": "Bem sabes que já não tenho olhos! - Que deseja a senhora? - perguntou Francelina quando chegaram à sala de visitas.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "perguntou",
+                "child": "Francelina",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Francelina",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "- perguntou [MASK] quando chegaram à sala de visitas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " - \"Quando chegaram à sala de visitas?\" perguntou Personagem, com expressão curiosa. Em seguida, ele olhou por toda a sala, procurando por algum sinal ou indício do seu amigo esperado. Apesar das luzes baixas e dos murmúrios discretos de outras pessoas, sua bacia se posicionou no chão, como se tivesse sentido a presença próxima dele.",
+        "generated_text_llama": "Ele olhou em volta da sala, notando as tapeçarias antiguas nas paredes e o chão de madeira rasa sob seus pés. A luz do sol entrou pelas janelas grandes e iluminou as estatuetas esculpidas sobre os mesas baixas. Em seguida, ele se aproximou da porta fechada e a abriu lentamente, revelando uma passagem estreita que levava a um corredor escuro.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "perguntou",
+                    "ROOT"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": null
+    }
+]

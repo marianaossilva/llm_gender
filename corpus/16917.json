@@ -1,0 +1,2637 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Fortunato",
+        "sentence": "Fortunato, na cadeira de balanço, olhava para o tecto;",
+        "start_char": 298,
+        "end_char": 307,
+        "excerpt": "Fones: (91) 210-3196 / 210-3181  E-mail:  1 A Causa Secreta de Machado de Assis Garcia, em pé, mirava e estalava as unhas; Fortunato, na cadeira de balanço, olhava para o tecto;",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "olhava",
+                "child": "Fortunato",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "olhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Fortunato",
+                "child": ", na cadeira",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Fortunato",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "cadeira",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", na cadeira",
+                "child": "Fortunato",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "cadeira",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "balanço",
+                "child": "Fortunato",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "balanço",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], na cadeira de balanço, olhava para o tecto;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Eles sentaram-se em uma cadeira de balanço e ficaram pensando. O espaço parecia tão vazio agora, uma vez que todos os objetos familiares não mais estavam no lugar onde solitamente se encontravam. A cadeira de balanço, que sempre havia sido uma peça marcante da sala, parecia muito mais desafinada sem as mãos de suas filhas embalando o ar em torno dela.",
+        "generated_text_llama": "Era uma tarde quente de verão e Personagem estava sentado na cadeira de balanço da varanda, tentando se concentrar. A brisa suave do vento carregava o cheiro do jardim em flor, mas Personagem's olhos estavam fixos no teto, pensando em como lidar com a situação que estava se aproximando.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentado",
+                    "conj"
+                ],
+                [
+                    "fixos",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Garcia",
+        "sentence": "Garcia tinha-se formado em medicina, no ano anterior, 1861.",
+        "start_char": 1202,
+        "end_char": 1208,
+        "excerpt": "Agora mesmo, os dedos de Maria Luísa parecem ainda trêmulos, ao passo que há no rosto de Garcia uma expressão de severidade, que lhe não é habitual. Em verdade, o que se passou foi de tal natureza, que para fazê-lo entender é preciso remontar à origem da situação. Garcia tinha-se formado em medicina, no ano anterior, 1861.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "rosto",
+                "child": "Garcia",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "rosto",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Garcia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "há",
+                        "child": "rosto",
+                        "dep_h": "acl:relcl",
+                        "pos_h": "VERB",
+                        "lemma_h": "haver",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "rosto"
+                    },
+                    {
+                        "head": "rosto",
+                        "child": "Garcia",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "rosto",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Garcia"
+                    },
+                    {
+                        "head": "rosto",
+                        "child": ", ao passo",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "rosto",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "passo"
+                    },
+                    {
+                        "head": "Garcia",
+                        "child": "rosto",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Garcia",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "rosto"
+                    }
+                ]
+            },
+            {
+                "head": "Garcia",
+                "child": "rosto",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Garcia",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "rosto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "há",
+                        "child": "rosto",
+                        "dep_h": "acl:relcl",
+                        "pos_h": "VERB",
+                        "lemma_h": "haver",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "rosto"
+                    },
+                    {
+                        "head": "rosto",
+                        "child": "Garcia",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "rosto",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Garcia"
+                    },
+                    {
+                        "head": "rosto",
+                        "child": ", ao passo",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "rosto",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "passo"
+                    },
+                    {
+                        "head": "Garcia",
+                        "child": "rosto",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Garcia",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "rosto"
+                    }
+                ]
+            },
+            {
+                "head": "Garcia",
+                "child": ", ao passo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Garcia",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "passo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "formado",
+                "child": "Garcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "formar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Garcia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] tinha-se formado em medicina, no ano anterior, 1861.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a história... A partir de então, Personagem dedica-se ao estudo mais profundo das ciências médicas e da aplicação prática dessas conhecimentos para o bem dos outros.",
+        "generated_text_llama": "Após se formar em medicina, no ano anterior, 1861, Personagem sentiu uma grande satisfação e realização pessoal ao ter conquistado esse grande objetivo. Ele havia trabalhado arduamente para alcançar esse patrimônio, estudando dia e noite, assistindo a seminários e praticando medicina em clínicas de todo o país.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "dedica-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fortunato",
+        "sentence": "Uma noite, estando nas cadeiras, apareceu ali Fortunato, e sentou-se ao pé dele.",
+        "start_char": 1849,
+        "end_char": 1858,
+        "excerpt": "ia uma ou duas vezes por mês, e nunca achava acima de quarenta pessoas. Só os mais intrépidos ousavam estender os passos até aquele recanto da cidade. Uma noite, estando nas cadeiras, apareceu ali Fortunato, e sentou-se ao pé dele.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "apareceu",
+                "child": "Fortunato",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aparecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Uma noite, estando nas cadeiras, apareceu ali [MASK], e sentou-se ao pé dele.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O sábio olhou para ele com uma expressão tranquila. \"Você veio aqui para me encontrar\", disse ele em um tom sério.",
+        "generated_text_llama": "Enquanto o vento sussurrava fora das janelas da casa, Personagem olhou para baixo e viu a menina sentada ao seu pé. A luz da lâmpada perto delas iluminou seu rosto, mostrando uma expressão de mistério e curiosidade. Uma leve onda de medo se formou em sua garganta, mas logo foi substituída por um desejo de saber quem era essa menina que o havia escolhido para companheirismo naquela noite sombria.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fortunato",
+        "sentence": "A peça era um dramalhão, cosido a facadas, ouriçado de imprecações e remorsos; mas Fortunato ouvia-a com singular interesse.",
+        "start_char": 1967,
+        "end_char": 1976,
+        "excerpt": "Só os mais intrépidos ousavam estender os passos até aquele recanto da cidade. Uma noite, estando nas cadeiras, apareceu ali Fortunato, e sentou-se ao pé dele. A peça era um dramalhão, cosido a facadas, ouriçado de imprecações e remorsos; mas Fortunato ouvia-a com singular interesse.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "apareceu",
+                "child": "Fortunato",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aparecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "ouvia-a",
+                "child": "Fortunato",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ouvia-a",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A peça era um dramalhão, cosido a facadas, ouriçado de imprecações e remorsos; mas [MASK] ouvia-a com singular interesse.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " A pequena filha de Joana, Maria, estava na frente do palco, observando com olhos brilhantes e coração cheio a peça que o Teatro Municipal apresentava aquela noite. Era um dramalhão, cosido à facada, oriçado de imprecáções e remorsos; mas Maria ouvia-a com singular interesse.",
+        "generated_text_llama": "Personagem parou de observar os outros, que se distraíam em suas conversas, e se aproximou do palco, onde o ator principal estava sentado, vestido para o papel de um ladrão corajoso. Com a mão delicada, ele tocou a tira de gileta do ator, sussurrando algo que ninguém mais ouvia. O ator se virou para ele, surpreso, mas então sorriu e disse: \"Ah, você é o crítico? Estou preparado para lhe dar um espetáculo que vai fazer com que você escreva a história certa\". Personagem sorriu, sentindo uma excitação antecipada, sabendo que estava prestes a testemunhar algo incrível.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "apresentava",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "parou",
+                    "ROOT"
+                ],
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fortunato",
+        "sentence": "No fim do drama, veio uma farsa; mas Fortunato não esperou por ela e saiu; Garcia saiu atrás dele.",
+        "start_char": 2232,
+        "end_char": 2241,
+        "excerpt": "A peça era um dramalhão, cosido a facadas, ouriçado de imprecações e remorsos; mas Fortunato ouvia-a com singular interesse. Nos lances dolorosos, a atenção dele redobrava, os olhos iam avidamente de um personagem a outro, a tal ponto que o estudante suspeitou haver na peça reminiscências pessoais do vizinho. No fim do drama, veio uma farsa; mas Fortunato não esperou por ela e saiu; Garcia saiu atrás dele.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ouvia-a",
+                "child": "Fortunato",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ouvia-a",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "esperou",
+                "child": "Fortunato",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "esperar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "No fim do drama, veio uma farsa; mas [MASK] não esperou por ela e saiu; Garcia saiu atrás dele.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após o final do drama, veio uma farsa, mas João não esperou por ela e saiu rapidamente da sala. O árbitro da competição, Garcia, percebeu isso e decidiu seguir o campeão. Ele queria ter uma palavra com ele e entender melhor as razões que levaram a sua decisão de abandonar a sala enquanto ainda havia disputa a ser resolvida.",
+        "generated_text_llama": "Garcia correu atrás de Personagem, determinado a recuperar o controle da situação. Ele sabia que Personagem estava ansioso para fugir, mas ele também sabia que não poderia deixá-lo sozinho. Além disso, ele queria saber o que estava acontecendo na mente do seu rival e por que ele havia decidido sair da reunião.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "esperou",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ansioso",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Garcia",
+        "sentence": "No fim do drama, veio uma farsa; mas Fortunato não esperou por ela e saiu; Garcia saiu atrás dele.",
+        "start_char": 2270,
+        "end_char": 2276,
+        "excerpt": "A peça era um dramalhão, cosido a facadas, ouriçado de imprecações e remorsos; mas Fortunato ouvia-a com singular interesse. Nos lances dolorosos, a atenção dele redobrava, os olhos iam avidamente de um personagem a outro, a tal ponto que o estudante suspeitou haver na peça reminiscências pessoais do vizinho. No fim do drama, veio uma farsa; mas Fortunato não esperou por ela e saiu; Garcia saiu atrás dele.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "saiu",
+                "child": "Garcia",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "sair",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Garcia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "No fim do drama, veio uma farsa; mas Fortunato não esperou por ela e saiu; [MASK] saiu atrás dele.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após o desfecho turbulento do drama, surgiu uma farsa, mas Fortunato não se atreveu esperar por ela. Em vez disso, seguiu em direção a fora, onde a luz do dia aguardava, e foi então que [O Detetive] se levantou, deixando o lugar tranquilo. Ele olhou para o lado onde Fortunato estava saindo, apenas para garantir que não se perdia da sua vista.",
+        "generated_text_llama": "Fortunato rapidamente seguiu os passos de Cicerone, sua mente ocupada com a curiosidade que o impulsionava a seguir a cena. Ele havia ouvido rumores sobre uma garrafa mágica e não podia deixar de saber se era verdade. A escuridão parecia crescer à medida que avançavam, mas Fortunato não sentiu medo. Em vez disso, sua determinação o impulsionava a continuar.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "atreveu",
+                    "conj"
+                ],
+                [
+                    "saindo",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "seguiu",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fortunato",
+        "sentence": "Fortunato foi pelo beco do Cotovelo, rua de S. José, até o largo da Carioca.",
+        "start_char": 2294,
+        "end_char": 2303,
+        "excerpt": "Nos lances dolorosos, a atenção dele redobrava, os olhos iam avidamente de um personagem a outro, a tal ponto que o estudante suspeitou haver na peça reminiscências pessoais do vizinho. No fim do drama, veio uma farsa; mas Fortunato não esperou por ela e saiu; Garcia saiu atrás dele. Fortunato foi pelo beco do Cotovelo, rua de S. José, até o largo da Carioca.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "esperou",
+                "child": "Fortunato",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "esperar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "foi",
+                "child": "Fortunato",
+                "dep_h": "ROOT",
+                "pos_h": "AUX",
+                "lemma_h": "ser",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "fortunato",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] foi pelo beco do Cotovelo, rua de S. José, até o largo da Carioca.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de caminhar pelo beco do Cotovelo, rua de São José, até chegar ao largo da Carioca, Personagem parou e olhou para as paredes coloridas que revestiam a praça. Ao redor, os turistas desfilavam entre as arquibancadas, tomando fotos das belas vistas da cidade.",
+        "generated_text_llama": "Após adentrar pelo beco do Cotovelo, rua de S. José, ele parou por um momento para observar as ruas mais movimentadas de São Paulo. A luz das lanternas iluminava sua fisionomia sombria, deixando suas órbitas com um ar de cansaço e determinação. Com um olhar cético, ele continuou em direção à Carioca, conhecida como \"o coração de São Paulo\", onde planejava encontrar o seu alvo.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "parou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Garcia",
+        "sentence": "Garcia voltou para casa sem saber mais nada.",
+        "start_char": 2589,
+        "end_char": 2595,
+        "excerpt": "Ia devagar, cabisbaixo, parando às vezes, para dar uma bengalada em algum cão que dormia; o cão ficava ganindo e ele ia andando. No largo da Carioca entrou num tílburi, e seguiu para os lados da praça da Constituição. Garcia voltou para casa sem saber mais nada.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "voltou",
+                "child": "Garcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "voltar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Garcia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] voltou para casa sem saber mais nada.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de retornar a casa, ele sentou-se em sua cadeira preferida, perto da janela e olhou para a distância. Ao seu redor, havia objetos que lembravam momentos passados: fotografias antigas, cartas penduradas aqui e ali, coisas que ele já não utilizava mais mas não tinha coragem de descartar.",
+        "generated_text_llama": "Quando entrou na casa, Personagem sentiu um senso de desconforto e desconexão com o que havia acontecido. Ele olhou em volta da sala, como se estivesse vendo tudo por primeira vez, procurando alguma pista ou lembrança que pudesse explicar o que estava acontecendo. Mas tudo parecia normal, sem sinais de luta ou destruição. Personagem sentou-se na cadeira mais próxima da porta, tentando se concentrar em sua respiração, mas seu cérebro estava em pânico, tentando lidar com o que havia acontecido.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "sentou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Garcia",
+        "sentence": "Deposto o ferido na cama, Garcia disse que era preciso chamar um médico.",
+        "start_char": 3035,
+        "end_char": 3041,
+        "excerpt": "Era este que alguns homens conduziam, escada acima, ensangüentado. O preto que o servia acudiu a abrir a porta; o homem gemia, as vozes eram confusas, a luz pouca. Deposto o ferido na cama, Garcia disse que era preciso chamar um médico.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Garcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Garcia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Deposto o ferido na cama, [MASK] disse que era preciso chamar um médico.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " [O personagem] levantou a mão para o celular e, com uma voz estranhamente calma, ligou para o serviço de urgência do hospital local. Ao terminar a ligação, ele se voltou para os presentes e, em tom decidido, disse que iria buscar ajuda médica imediata. Deixando-os tranquilos na sala, ele partiu correndo rumo à sua casa para buscar seu carro e chegar ao hospital o mais rápido possível.",
+        "generated_text_llama": "[A MASK], sentado ao lado da cama, pegou o telefone e digitou o número do serviço de emergência, pedindo atendimento rápido. Enquanto aguardava a ligação, ele observou o rosto do seu amigo, procurando por sinais de vida. Quando alguém respondeu pelo outro lado da linha, Personagem explicou a situação e pediu que um médico fosse enviado imediatamente. Depois de confirmar as instruções, ele colou o receptor no ouvido e aguardou, sentindo uma onda de ansiedade crescer dentro dele.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "explicou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Garcia",
+        "sentence": "Garcia olhou: era o próprio homem da Santa Casa e do teatro.",
+        "start_char": 3111,
+        "end_char": 3117,
+        "excerpt": "Deposto o ferido na cama, Garcia disse que era preciso chamar um médico. Já aí vem um, acudiu alguém. Garcia olhou: era o próprio homem da Santa Casa e do teatro.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Garcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Garcia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "olhou",
+                "child": "Garcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "olhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Garcia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] olhou: era o próprio homem da Santa Casa e do teatro.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele Personagem caminhou até ele e com uma voz suave, mas firme, perguntou se ele não sabia quem estava à sua frente. O homem da Santa Casa e do teatro olhou para ele e reconheceu a figura imponente do bandido.",
+        "generated_text_llama": "Era um homem de meia-idade, com barba branca e olhos azuis profundos que pareciam ter visto tudo. Ele estava sentado à frente de uma mesa, cercado por papéis e canetas, concentrando-se em seu trabalho como administrador da Santa Casa e do teatro. Mas agora, enquanto olhava para ele, Personagem notou algo estranho em seus olhos, algo que não conseguia definir.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "caminhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "notou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fortunato",
+        "sentence": "Durante o curativo ajudado pelo estudante, Fortunato serviu de criado, segurando a bacia, a vela, os panos, sem perturbar nada, olhando friamente para o ferido, que gemia muito.",
+        "start_char": 4486,
+        "end_char": 4495,
+        "excerpt": "O desconhecido declarou chamar-se Fortunato Gomes da Silveira, ser capitalista, solteiro, morador em Catumbi. A ferida foi reconhecida grave. Durante o curativo ajudado pelo estudante, Fortunato serviu de criado, segurando a bacia, a vela, os panos, sem perturbar nada, olhando friamente para o ferido, que gemia muito.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "chamar-se",
+                "child": "Fortunato Gomes da Silveira",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "chamar se",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "serviu",
+                "child": "Fortunato",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "servir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Durante o curativo ajudado pelo estudante, [MASK] serviu de criado, segurando a bacia, a vela, os panos, sem perturbar nada, olhando friamente para o ferido, que gemia muito.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois do cuidado auxiliado pelo estudante, Personagem continuou desempenhando-se como criado, segurando a bacia, manuseando a vela e os panos, sem causar uma bagunçada alguma. Seu olhar permaneceu frio e inexpressivo, embora ele observasse com um certa preocupação o ferido, que continuava gemendo intensamente. Ao verificarem se o homem estava bem depois do tratamento, eles constataram que a lesão estava aparentemente controlada e começaram a conversar acaloradamente sobre assuntos mais leves. Porém, Oscar não pôde evitar olhar constantemente para a ferida, recordando a noite traumática em que foi alvejado pela bala.",
+        "generated_text_llama": "Aqui vai a continuação da história:",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fortunato",
+        "sentence": "Fortunato saiu pouco antes de uma hora; voltou nos dias seguintes, mas a cura fez-se depressa, e, antes de concluída, desapareceu sem dizer ao obsequiado onde morava.",
+        "start_char": 5673,
+        "end_char": 5682,
+        "excerpt": "De quando em quando, voltava-se para o estudante, e perguntava alguma coisa acerca do ferido; mas tornava logo a olhar para ele, enquanto o rapaz lhe dava a resposta. A sensação que o estudante recebia era de repulsa ao mesmo tempo que de curiosidade; não podia negar que estava assistindo a um ato de rara dedicação, e se era desinteressado como parecia, não havia mais que aceitar o coração humano como um poço de mistérios. Fortunato saiu pouco antes de uma hora; voltou nos dias seguintes, mas a cura fez-se depressa, e, antes de concluída, desapareceu sem dizer ao obsequiado onde morava.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "saiu",
+                "child": "Fortunato",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sair",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] saiu pouco antes de uma hora; voltou nos dias seguintes, mas a cura fez-se depressa, e, antes de concluída, desapareceu sem dizer ao obsequiado onde morava.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Contudo, o mágico não desistiu. Ao ver que a sua fórmula estava prestes a falhar, decidiu tentar novas abordagens. Passou dias e noites experimentando diferentes ingredientes, medindo cada grama com precisão, até finalmente chegar a um resultado promissor.",
+        "generated_text_llama": "Apesar do falso sorriso no rosto, Personagem estava furioso com si mesmo por não ter conseguido manter a cura até o final. Ele sabia que havia sido uma tentativa mal-sucedida, mas não conseguia deixar de se sentir culpado pela desaparição repentina do homem.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "furioso",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fortunato",
+        "sentence": "Fortunato recebeu-o constrangido, ouviu impaciente as palavras de agradecimento, deu-lhe uma resposta enfastiada e acabou batendo com as borlas do chambre no joelho.",
+        "start_char": 6022,
+        "end_char": 6031,
+        "excerpt": "Vou agradecer-lhe a esmola que me fez, logo que possa sair, disse o convalescente. Correu a Catumbi daí a seis dias. Fortunato recebeu-o constrangido, ouviu impaciente as palavras de agradecimento, deu-lhe uma resposta enfastiada e acabou batendo com as borlas do chambre no joelho.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "recebeu-o",
+                "child": "Fortunato",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "recebeu-o",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] recebeu-o constrangido, ouviu impaciente as palavras de agradecimento, deu-lhe uma resposta enfastiada e acabou batendo com as borlas do chambre no joelho.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O personagem, agitado, desatou o joelho do que estava vestindo e atingiu, com força impetuosa, seu inimigo no joelho com a borla do chameleão. A reação dele foi uma espécie de suspirar, seguido de um suspiro mais forte, enquanto o joelho começava a sentir as contusões da agressão física sofrida. O personagem deixou de lado a paciência e o amor pelas palavras pacíficas, mostrando que não estava disposto a aguentar mais as intoleráveis ações do outro.",
+        "generated_text_llama": "Máscaro, irritado, pôs-se de pé e começou a caminhar para fora da sala, deixando o homem agradecido ali parado. \"Preciso ir me preparar\", disse ele, sem se voltar, \"mais tarde, vamos conversar novamente\". Sem se importar com a surpresa do homem, Máscaro entrou em seu quarto, fechou a porta e deu uma olhada no relógio. Era hora de sair da cidade, viajar para um lugar desconhecido, onde ninguém sabia nada sobre ele.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pôs-se",
+                    "ROOT"
+                ],
+                [
+                    "entrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fortunato",
+        "sentence": "Fortunato deu-lhe um bom jantar, bons charutos e boa palestra, em companhia da senhora, que era interessante.",
+        "start_char": 7853,
+        "end_char": 7862,
+        "excerpt": "Vá domingo. Garcia foi lá domingo. Fortunato deu-lhe um bom jantar, bons charutos e boa palestra, em companhia da senhora, que era interessante.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "deu-lhe",
+                "child": "Fortunato",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "deu-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "fortunato",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] deu-lhe um bom jantar, bons charutos e boa palestra, em companhia da senhora, que era interessante.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, Personagem levou a dama para a sala de música, uma área encantadora onde o arco-íris do crepúsculo penetrou através das janelas, refletindo no pianino polido e na pura orquestra de luz. Em meio às notas mágicas que se escutavam nas paredes, Personagem e a senhora dançaram com uma liberdade espontânea e encantadora, como se ninguém e nada importassem além deste momento. Após o baile, ele acompanhou-a de volta para a sala de jantar, onde os dois compartilharam um silêncio pacífico, brindando às memórias recém-criadas e à promessa de mais momentos igualmente memoráveis.",
+        "generated_text_llama": "Agora que haviam terminado a reunião, Personagem se levantou da cadeira e disse à senhora: \"Obrigado por vindo, sua presença foi um alívio para mim\". Ele ofereceu-lhe o seu caderno de anúncios e perguntou se ela gostaria de se juntar a ele no próximo evento. A senhora aceitou com um sorriso e começaram a conversar sobre os próximos passos para o projeto.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "levou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Luísa",
+        "sentence": "Maria Luísa é que possuía ambos os feitiços, pessoa e modos.",
+        "start_char": 8195,
+        "end_char": 8206,
+        "excerpt": "os olhos eram as mesmas chapas de estanho, duras e frias; as outras feições não eram mais atraentes que dantes. Os obséquios, porém, se não resgatavam a natureza, davam alguma compensação, e não era pouco. Maria Luísa é que possuía ambos os feitiços, pessoa e modos.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "é",
+                "child": "Maria Luísa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ser",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] é que possuía ambos os feitiços, pessoa e modos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, aquele ser astuto e imortal, sabia perfeitamente como utilizar seus dois encantamentos mais poderosos. Sentindo-se pronto para enfrentar o desafio que estava por vir, ele tomou uma profunda inspiração e, em seguida, começou a cantar um canto mágico e antigo. Ao final de sua canção, Personagem fez uma ondulação com suas mãos sobre o chão, formando-se então o primeiro encantamento: uma barreira invisível que impedia qualquer ser mal-intencionado de entrar em seu redor.",
+        "generated_text_llama": "Personagem sabia que precisava ser cuidadoso ao usar seus poderes, pois a combinação de fadiga mágica com sua natureza de homem-alinhado o tornava um alvo tentador para aqueles que queriam explorar seu potencial. Com essas considerações em mente, ele tomou uma decisão difícil: abandonou a floresta escura e começou a caminhar em direção à cidade mais próxima, determinado a encontrar ajuda e orientação.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ],
+                [
+                    "fez",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Garcia",
+        "sentence": "Garcia, à segunda vez que lá foi, percebeu que entre eles havia alguma dissonância de caracteres, pouca ou nenhuma afinidade moral, e da parte da mulher para com o marido uns modos que transcendiam o respeito e confinavam na resignação e no temor.",
+        "start_char": 8362,
+        "end_char": 8368,
+        "excerpt": "Maria Luísa é que possuía ambos os feitiços, pessoa e modos. Era esbelta, airosa, olhos meigos e submissos; tinha vinte e cinco anos e parecia não passar de dezenove. Garcia, à segunda vez que lá foi, percebeu que entre eles havia alguma dissonância de caracteres, pouca ou nenhuma afinidade moral, e da parte da mulher para com o marido uns modos que transcendiam o respeito e confinavam na resignação e no temor.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "percebeu",
+                "child": "Garcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perceber",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Garcia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], à segunda vez que lá foi, percebeu que entre eles havia alguma dissonância de caracteres, pouca ou nenhuma afinidade moral, e da parte da mulher para com o marido uns modos que transcendiam o respeito e confinavam na resignação e no temor.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " No entanto, Personagem não era uma pessoa que desistia facilmente. Ao ver a dissonância entre eles e perceber os modos incomumamente reservados da mulher em relação ao marido, ele decidiu agir. Na próxima ocasião em que tivesse contato com a família, Personagem tentou estabelecer um laço mais forte com a mãe e a irmã de Personagem. Tentando aproximar-se deles e entendê-los melhor, Personagem questionava-os sobre suas vidas, compartilhava de seus sentimentos e mostrava um interesse genuíno em saber mais sobre elas.",
+        "generated_text_llama": "À medida que Personagem observava a cena, notou que a mulher, cujo nome era Laura, parecia cada vez mais desconfortável com a presença de seu marido, um homem robusto e autoritário chamado Paulo. Ela tentava manter uma aparência calma, mas seus olhos estavam brilhando com uma mixtura de medo e desesperança.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "pessoa",
+                    "ROOT"
+                ],
+                [
+                    "tentou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "observava",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fortunato",
+        "sentence": "Não vale a pena, interrompeu Fortunato.",
+        "start_char": 8821,
+        "end_char": 8830,
+        "excerpt": "Um dia, estando os três juntos, perguntou Garcia a Maria Luísa se tivera notícia das circunstâncias em que ele conhecera o marido. Não, respondeu a moça.  Vai ouvir uma ação bonita. Não vale a pena, interrompeu Fortunato.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "interrompeu",
+                "child": "Fortunato",
+                "dep_h": "dep",
+                "pos_h": "VERB",
+                "lemma_h": "interromper",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Não vale a pena, interrompeu [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele retirou o anel do dedo e o segurou com um ar de pensativação. Uma vez que a sua mente esteve pronta para ir além, levantou-se, abriu a porta e deixou cair o anel no chão de dentro da casa. Depois disso, começou a caminhar por trás das casas vizinhas, na direção do parque onde as árvores sempre pareciam mais altas, mais fortes que o mundo exterior. O sol pôs fim ao dia, deixando suas sombras longas nos campos, quando Personagem finalmente chegou no local onde tinha de ser.",
+        "generated_text_llama": "\"Não vai ter problema\", respondeu Personagem, fazendo um movimento de mão que parecia dizer 'nada mais a fazer'. Ele olhou em volta do quarto, verificando se ninguém estava escutando a conversa. Sua voz era baixa e firme, sem um tom de piedade ou compaixão.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "chegou",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "respondeu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fortunato",
+        "sentence": "Fortunato sacudia os ombros, mas não ouvia com indiferença.",
+        "start_char": 9073,
+        "end_char": 9082,
+        "excerpt": "A moça ouviu-o espantada. Insensivelmente estendeu a mão e apertou o pulso ao marido, risonha e agradecida, como se acabasse de descobrir-lhe o coração. Fortunato sacudia os ombros, mas não ouvia com indiferença.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "sacudia",
+                "child": "Fortunato",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sacuder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "fortunato",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] sacudia os ombros, mas não ouvia com indiferença.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele segurou seu coração e seguiu adiante, olhando para as pessoas que passavam. Um jovem homem aproximava-se dele, com um rosto tenso e uma expressão incômoda.",
+        "generated_text_llama": "Ele olhou ao redor, como se estivesse procurando por alguém, ou algo, que pudesse explicar o que estava acontecendo dentro dele. A noite estava escura e silenciosa, apenas as sombras das árvores dançavam ao vento. Personagem sacudia os ombros novamente, mas a sensação de desorientação não melhorou. Ele sabia que precisava se concentrar, mas sua mente estava em braco, incapaz de se fixar em nada.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sacudia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Luísa",
+        "sentence": "Maria Luísa ficou desconsolada com a zombaria do marido; mas o médico restituiu-lhe a satisfação anterior, voltando a referir a dedicação deste e as suas raras qualidades de enfermeiro;",
+        "start_char": 9447,
+        "end_char": 9458,
+        "excerpt": "4  \" Singular homem! \" pensou Garcia. Maria Luísa ficou desconsolada com a zombaria do marido; mas o médico restituiu-lhe a satisfação anterior, voltando a referir a dedicação deste e as suas raras qualidades de enfermeiro;",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "ficou",
+                "child": "Maria Luísa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] ficou desconsolada com a zombaria do marido; mas o médico restituiu-lhe a satisfação anterior, voltando a referir a dedicação deste e as suas raras qualidades de enfermeiro;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ao ouvir isso, ela pôde sentir uma sensação de alívio crescer dentro de si. Seu rosto queimava com saudades do marido, mas sabia agora que ele era mais do que um homem engraçalhado e sem-vergonha. Ela se levantou da cadeira, olhando para o médico com uma expressão de gratidão misturada a determinação.",
+        "generated_text_llama": "Apesar da surpresa inicial, Personagem começou a se sentir um pouco mais confortável com a explicação do médico. Ela sempre sabia que seu marido era um homem de palavra e que não havia motivo para ele estar comportando-se dessa maneira. A zombaria, porém, ainda o deixava uma ponta de magoada.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Garcia",
+        "sentence": "Garcia recusou nesse e no dia seguinte; mas a idéia tinha-se metido na cabeça ao outro, e não foi possível recuar mais.",
+        "start_char": 9977,
+        "end_char": 9983,
+        "excerpt": "Podia-se fazer alguma cousa; e para o senhor, que começa a clínica, acho que seria bem bom. Tenho justamente uma casa que vai vagar, e serve. Garcia recusou nesse e no dia seguinte; mas a idéia tinha-se metido na cabeça ao outro, e não foi possível recuar mais.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "recusou",
+                "child": "Garcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "recusar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Garcia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] recusou nesse e no dia seguinte; mas a idéia tinha-se metido na cabeça ao outro, e não foi possível recuar mais.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, que era uma pessoa determinada, decidiu mover-se à frente com o seu plano. No primeiro momento, pensou em desistir do projeto, mas como a idéia já estava fortemente plantada na sua cabeça, não era possível se recuar mais. Sabia que o caminho seria difícil e tê-lo de frente iria requerer todo o seu esforço e coragem. Mas era assim que sempre tinha atacado problemas no passado, de frente e sem medo.",
+        "generated_text_llama": "Apesar da hesitação inicial, Personagem se levantou da mesa e começou a planejar sua fuga. Ele sabia que precisava de um plano sólido para escapar da situação em que estava envolvido. Com um olhar rápido ao redor do quarto, ele pegou o telefone e digitou um número secreto que apenas ele conhecia.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fortunato",
+        "sentence": "Verdade é que Fortunato não curou de mais nada, nem então, nem depois.",
+        "start_char": 10472,
+        "end_char": 10481,
+        "excerpt": "Criatura nervosa e frágil, padecia só com a idéia de que o marido tivesse de viver em contato com enfermidades humanas, mas não ousou opor-se-lhe, e curvou a cabeça. O plano fez-se e cumpriu-se depressa. Verdade é que Fortunato não curou de mais nada, nem então, nem depois.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "curou",
+                "child": "Fortunato",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "curar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Verdade é que [MASK] não curou de mais nada, nem então, nem depois.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Porém, como a natureza do próprio Mestre Sangue, ele não pôde permanecer parado. Sua paixão pela ciência e pelo conhecimento sempre o tormentava, levando-o à busca de respostas para os mistérios mais profundos da natureza humana e do mundo ao seu redor. Sendo assim, decidiu se dedicar a um projeto ambicioso, que seria uma espécie de símbolo para seu legado: construir um laboratório secreto nas profundezas das florestas selvagens, no lugar onde ninguém poderia chegar.",
+        "generated_text_llama": "Ele simplesmente se levantou do sofá, sentindo o peso de sua própria desilusão. Seu olhar percorreu a sala, notando as mesmas paredes pintadas de branco, as mesmas móveis velhos e as mesmas imagens na parede, como se tempo não passasse. Com um movimento lentinho, ele se dirigiu à cozinha, sabendo que precisava comer algo, mas sem a menor vontade de satisfação.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Garcia",
+        "sentence": "Garcia pôde então observar que a dedicação ao ferido da rua D. Manoel não era um caso fortuito, mas assentava na própria natureza deste homem.",
+        "start_char": 10666,
+        "end_char": 10672,
+        "excerpt": "Verdade é que Fortunato não curou de mais nada, nem então, nem depois. Aberta a casa, foi ele o próprio administrador e chefe de enfermeiros, examinava tudo, ordenava tudo, compras e caldos, drogas e contas. Garcia pôde então observar que a dedicação ao ferido da rua D. Manoel não era um caso fortuito, mas assentava na própria natureza deste homem.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "pôde",
+                "child": "Garcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Garcia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] pôde então observar que a dedicação ao ferido da rua D. Manoel não era um caso fortuito, mas assentava na própria natureza deste homem.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim, ele pôde observar que a dedicação ao ferido da rua D. Manoel não era um caso fortuito, mas assentava na própria natureza deste homem. A partir de então, cada vez mais decidido, Tomás resolveu buscar por mais informações sobre este misterioso senhor que se dedicava corajosamente aos necessitados, mesmo em momentos difíceis e perigulosos. Com o passar dos dias, ele conseguiu adquirir alguns detalhes da identidade desse homem - João Ferreira, um velho solitário que habitava numa casa antiga ao longo da rua D. Manoel.",
+        "generated_text_llama": "Personagem pôde então observar que a dedicação ao ferido da rua D. Manoel não era um caso fortuito, mas assentava na própria natureza deste homem. Ele se aproximou do local e viu o corpo do homem jazendo no chão, cercado por um grupo de policiais em uniforme. Personagem notou que o homem ferido não era apenas qualquer pessoa, mas sim alguém com quem ele já havia topado antes, num beco escuro da cidade.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "resolveu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pôde",
+                    "ROOT"
+                ],
+                [
+                    "notou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fortunato",
+        "sentence": "Fortunato estudava, acompanhava as operações, e nenhum outro curava os cáusticos.",
+        "start_char": 11023,
+        "end_char": 11032,
+        "excerpt": "Não recuava diante de nada, não conhecia moléstia aflitiva ou repelente, e estava sempre pronto para tudo, a qualquer hora do dia ou da noite. Toda a gente pasmava e aplaudia. Fortunato estudava, acompanhava as operações, e nenhum outro curava os cáusticos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "estudava",
+                "child": "Fortunato",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "estudar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] estudava, acompanhava as operações, e nenhum outro curava os cáusticos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, enquanto estudiava e observava as operações, sentia uma forte necessidade de atuar, de agir para ajudar aqueles que sofriam em situações tão críticas. Então, sem pensar duas vezes, ele pôs seus conhecimentos adquiridos ao serviço da equipe e começou a ajudar nas operações de desintoxicação dos pacientes que haviam sido expostos aos cáusticos.",
+        "generated_text_llama": "Enquanto observava a cena, Personagem sentiu uma sensação de impotência crescer dentro dele. Ele sabia que tinha que fazer algo, mas não sabia o que. Então, decidiu usar sua habilidade de observador para se aproximar do paciente sem chamar atenção.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "estudiava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Garcia",
+        "sentence": "Garcia tornou-se familiar na casa; ali jantava quase todos os dias, ali observava a pessoa e a vida de Maria Luísa, cuja solidão moral era evidente.",
+        "start_char": 11204,
+        "end_char": 11210,
+        "excerpt": "Tenho muita fé nos cáusticos, dizia ele. A comunhão dos interesses apertou os laços da intimidade. Garcia tornou-se familiar na casa; ali jantava quase todos os dias, ali observava a pessoa e a vida de Maria Luísa, cuja solidão moral era evidente.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "tornou-se",
+                "child": "Garcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tornar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Garcia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] tornou-se familiar na casa; ali jantava quase todos os dias, ali observava a pessoa e a vida de Maria Luísa, cuja solidão moral era evidente.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas Personagem não apenas se alimentava e observava a família da vizinha; também tinha um coração compassivo e um desejo de ajudar. Decidiu então fazer algumas mudanças na casa para torná-la mais confortável e agradável para Maria Luísa.",
+        "generated_text_llama": "Enquanto observava, Personagem começou a se perguntar o que poderia ter feito para influenciar a vida de Maria Luísa da maneira que ele via. Ele notou como ela costumava perder-se em seus pensamentos, olhando para fora da janela, perdida na própria realidade. Personagem sentiu uma ponta de curiosidade e compaixão pelo homem, que parecia ter sido esquecido pelo mundo ao seu redor.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "alimentava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Garcia",
+        "sentence": "Garcia começou a sentir que alguma coisa o agitava, quando ela aparecia, quando falava, quando trabalhava, calada, ao canto da janela, ou tocava ao piano umas músicas tristes.",
+        "start_char": 11399,
+        "end_char": 11405,
+        "excerpt": "Garcia tornou-se familiar na casa; ali jantava quase todos os dias, ali observava a pessoa e a vida de Maria Luísa, cuja solidão moral era evidente. E a solidão como que lhe duplicava o encanto. Garcia começou a sentir que alguma coisa o agitava, quando ela aparecia, quando falava, quando trabalhava, calada, ao canto da janela, ou tocava ao piano umas músicas tristes.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "tornou-se",
+                "child": "Garcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tornar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Garcia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "começou",
+                "child": "Garcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "começar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Garcia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] começou a sentir que alguma coisa o agitava, quando ela aparecia, quando falava, quando trabalhava, calada, ao canto da janela, ou tocava ao piano umas músicas tristes.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, Personagem resolveu enfrentar esse sentimento de agitação que lhe dominava. Aproximou-se do espelho e olhou para si mesma, tentando identificar o que estava acontecendo. Ela sabia que precisava encontrar uma solução, pois não poderia viver assim por toda a vida.",
+        "generated_text_llama": "Ela tentou ignorar os sintomas, pensando que era apenas uma fase, mas a sensação de desconforto crescia e se espalhava por todo o seu ser. Começou a notar coisas estranhas em torno dela: a janela sempre aparecia aberta quando ela estiveria no quarto, as portas trancadas quando ela precisasse passar por uma das salas laterais, e até mesmo os sorrisos dos colegas de trabalho pareciam se tornar um pouco... forçados. ",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "resolveu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Luísa",
+        "sentence": "Maria Luísa compreendeu ambas as coisas, a afeição e o silêncio, mas não se deu por achada.",
+        "start_char": 11765,
+        "end_char": 11776,
+        "excerpt": "Quando deu por ele, quis expeli-lo para que entre ele e Fortunato não houvesse outro laço que o da amizade; mas não pôde. Pôde apenas trancá-lo; Maria Luísa compreendeu ambas as coisas, a afeição e o silêncio, mas não se deu por achada.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "compreendeu",
+                "child": "Maria Luísa",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "compreender",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Maria Luísa",
+                "child": "Pôde",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Maria",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Pôde",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] compreendeu ambas as coisas, a afeição e o silêncio, mas não se deu por achada.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim sendo, Personagem levantou-se gradativamente de seu assento, acalentando-se lentamente com o frio que envolvia todo o lugar. Olhando para os dois personagens, sentiu-se um senso de tristeza e de raiva, uma vez mais questionando a natureza da paixão e do silêncio.",
+        "generated_text_llama": "Personagem ficou pensativa por um momento, analisando as duas faces que havia descoberto sobre si mesma. Ela sabia que a afeição era algo simples, mas profundo, que podia ser compartilhado com os outros, enquanto o silêncio era mais complexo, um estado de existência que requeria concentração e autoconhecimento. Com essa nova compreensão, Personagem sentiu uma sensação de equilíbrio interna, como se estivesse finalmente entendendo por que precisava encontrar sua própria voz no mundo.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "levantou-se",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fortunato",
+        "sentence": "Fortunato metera-se a estudar anatomia e fisiologia, e ocupava-se nas horas vagas em rasgar e envenenar gatos e cães.",
+        "start_char": 11963,
+        "end_char": 11972,
+        "excerpt": "Maria Luísa compreendeu ambas as coisas, a afeição e o silêncio, mas não se deu por achada. No começo de outubro deu-se um incidente que desvendou ainda mais aos olhos do médico a situação da moça. Fortunato metera-se a estudar anatomia e fisiologia, e ocupava-se nas horas vagas em rasgar e envenenar gatos e cães.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "metera-se",
+                "child": "Fortunato",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "metera-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] metera-se a estudar anatomia e fisiologia, e ocupava-se nas horas vagas em rasgar e envenenar gatos e cães.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem continuou seu estudo com profundidade e devoção, imersa na anatomia e fisiologia por meio de livros e dissecações. Contudo, a cada hora vagar, a personalidade sombria e perturbadora do personagem aparecia novamente. Atravessava pela cidade até encontrar seus presas, gatos e cães. Com uma bagagem cheia de venenos mortais, Personagem segurava o objeto em suas mãos e sentia o coração pulsar com satisfação, acompanhado pela imagem macabra de sua próxima vítima.",
+        "generated_text_llama": "Não posso criar conteúdo que promova ou descreva atividades ilegais ou prejudiciais a animais. Posso ajudar com outra coisa?",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ],
+                [
+                    "segurava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Garcia",
+        "sentence": "Garcia alcançou prontamente que o outro acabasse com tais estudos.",
+        "start_char": 12550,
+        "end_char": 12556,
+        "excerpt": "Ele naturalmente achará que sou criança. O que eu queria é que o senhor, como médico, lhe dissesse que isso me faz mal; e creia que faz... Garcia alcançou prontamente que o outro acabasse com tais estudos.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "alcançou",
+                "child": "Garcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "alcançar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Garcia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] alcançou prontamente que o outro acabasse com tais estudos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ao perceber que o outro continha a concluir esses estudos, Personagem tomou uma decisão drástica. Acercou-se rapidamente à frente do computador e apagou tudo no documento em que estavam os resultados dos estudos. Ao ver isso, o outro foi surpreso e confuso, mas Personagem manteve uma expressão fria e resoluta. Com ênfase, explicou que aquilo não seria permitido e que seria necessário voltar a começar de zero.",
+        "generated_text_llama": "Personagem sabia que precisava agir rápido para não perder a chance de se destacar entre os outros candidatos. Ele rapidamente revisou os pontos fracos identificados durante a avaliação e começou a criar um plano de estudo personalizado, focando nas áreas em que precisava melhorar mais.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "tomou",
+                    "ROOT"
+                ],
+                [
+                    "manteve",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Luísa",
+        "sentence": "Maria Luísa agradeceu ao médico, tanto por ela como pelos animais, que não podia ver padecer.",
+        "start_char": 12688,
+        "end_char": 12699,
+        "excerpt": "Garcia alcançou prontamente que o outro acabasse com tais estudos. Se os foi fazer em outra parte, ninguém o soube, mas pode ser que sim. Maria Luísa agradeceu ao médico, tanto por ela como pelos animais, que não podia ver padecer.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "agradeceu",
+                "child": "Maria Luísa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "agradecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] agradeceu ao médico, tanto por ela como pelos animais, que não podia ver padecer.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de dar sua última gratidão ao médico, Personagem caminhou para o corredor do hospital. Nele, olhou para as janelas, observando os animais que eram tratados ali. Sentiu-se uma onda de alegria por saber que eles estavam em boas mãos. Então, voltou e dirigiu-se à sala onde se encontrava seu médico favorito. \"Obrigado,\" disse Personagem, com uma sonhadora luz nos olhos. \"Eu quero ajudar mais ainda. Eu posso doar para o hospital?\", perguntou ela, de maneira gentil e resoluta. O médico sorriu e respondeu: \"Sim, Personagem, seu apoio é muito importante para nós\".",
+        "generated_text_llama": "Mas, apesar da gratidão de Personagem, ela sabia que precisava agir rapidamente para garantir que os animais estivessem seguros. Ela começou a procurar ajuda e informações sobre como cuidar dos animais com raiva, uma doença que estava se espalhando rapidamente pelo zoológico.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "caminhou",
+                    "ROOT"
+                ],
+                [
+                    "disse",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Garcia",
+        "sentence": "Tossia de quando em quando; Garcia perguntou-lhe se tinha alguma coisa, ela respondeu que nada.",
+        "start_char": 12810,
+        "end_char": 12816,
+        "excerpt": "Se os foi fazer em outra parte, ninguém o soube, mas pode ser que sim. Maria Luísa agradeceu ao médico, tanto por ela como pelos animais, que não podia ver padecer. Tossia de quando em quando; Garcia perguntou-lhe se tinha alguma coisa, ela respondeu que nada.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "perguntou-lhe",
+                "child": "Garcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar ele",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Garcia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Tossia de quando em quando; [MASK] perguntou-lhe se tinha alguma coisa, ela respondeu que nada.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Com a cabeça baixada, olhando intencionavelmente para as hortaliças do jardim, Tossia não quis parecer suspeita. Ela perguntou novamente, tentando deixar a conversa o mais natural possível: \"É que você precisa de alguma coisa? Você me diz?\"",
+        "generated_text_llama": "Tirando uma longa inspiração, Personagem suspirou e começou a caminhar pela praça, as mãos nas bolsas, sem destino claro. A luz do sol dourado se espalhava pelas ruas, iluminando as sombras das casas antigas e fazendo com que as pessoas passantes parecessem figuras de um sonho distante. Personagem sentia-se perdido em meio a essa cena tranquila, como se estivesse fugindo de algo, mas não sabia o que era.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "quis",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "suspirou",
+                    "ROOT"
+                ],
+                [
+                    "perdido",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Garcia",
+        "sentence": "Dois dias depois,  exatamente o dia em que os vemos agora,  Garcia foi lá jantar.",
+        "start_char": 13139,
+        "end_char": 13145,
+        "excerpt": "Garcia ficou apreensivo. Cuidava, ao contrário, que ela podia ter alguma coisa, que era preciso observá-la e avisar o marido em tempo. Dois dias depois,  exatamente o dia em que os vemos agora,  Garcia foi lá jantar.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "ficou",
+                "child": "Garcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Garcia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "foi",
+                "child": "Garcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ser",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Garcia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Dois dias depois,  exatamente o dia em que os vemos agora,  [MASK] foi lá jantar.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Dois dias depois, exatamente o dia em que os vemos agora, Personagem decidiu fazer uma aparição. Ao fim da tarde, enquanto a luz do sol desabávia pela cidade, ele se dirigiu à mesa onde estavam os convidados mais desejados para um jantar de gala. Estavam ali as figuras mais importantes da sociedade e o mundo dos negócios, todos aguardando com impaciência a chegada do anfitrião. Como ele entrava na sala, o silêncio se fez contido, dando lugar ao respeito e admiração pelas suas habilidades.",
+        "generated_text_llama": "Dois dias depois, exatamente o dia em que os vemos agora, Personagem foi lá jantar. Ele vestiu-se com elegância, escolhendo um terno preto e um colar de perlas para acompanhar a noite especial. Ao chegar ao restaurante, notou que todos estavam olhando para ele, sabendo que era um encontro importante.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "jantar",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Luísa",
+        "sentence": "Na sala disseram-lhe que Fortunato estava no gabinete, e ele caminhou para ali; ia chegando à porta, no momento em que Maria Luísa saía aflita.",
+        "start_char": 13280,
+        "end_char": 13291,
+        "excerpt": "Cuidava, ao contrário, que ela podia ter alguma coisa, que era preciso observá-la e avisar o marido em tempo. Dois dias depois,  exatamente o dia em que os vemos agora,  Garcia foi lá jantar. Na sala disseram-lhe que Fortunato estava no gabinete, e ele caminhou para ali; ia chegando à porta, no momento em que Maria Luísa saía aflita.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "saía",
+                "child": "Maria Luísa",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "sair",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Maria Luísa",
+                "child": "momento",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Maria",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "momento",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Na sala disseram-lhe que Fortunato estava no gabinete, e ele caminhou para ali; ia chegando à porta, no momento em que [MASK] saía aflita.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele parou de surpreso ao ver o homem que estava saaindo: era o Fortunato, exatamente como tinham dito. Aos poucos, sua expressão se tornou sintético e, após um momento de silêncio, ergueu a mão e deu-lhe um forte abraço.",
+        "generated_text_llama": "Quando viu a figura de Personagem, senti um arrepio na espinha. Ele parecia tão pálido e sovre, como se tivesse passado por uma tormenta. Meu rosto corou de surpresa ao vê-lo, e eu me inclinei para frente, ansioso para saber o que havia acontecido.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Garcia",
+        "sentence": "Garcia lembrou-se que na véspera ouvira ao Fortunado queixar-se de um rato, que lhe levara um papel importante; mas estava longe de esperar o que viu.",
+        "start_char": 13384,
+        "end_char": 13390,
+        "excerpt": "O rato! O rato! exclamou a moça sufocada e afastando-se. Garcia lembrou-se que na véspera ouvira ao Fortunado queixar-se de um rato, que lhe levara um papel importante; mas estava longe de esperar o que viu.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "lembrou-se",
+                "child": "Garcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "lembrar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Garcia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] lembrou-se que na véspera ouvira ao Fortunado queixar-se de um rato, que lhe levara um papel importante; mas estava longe de esperar o que viu.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas era tão longe da realidade de seu sonho quanto a distância até as estrelas. Quando chegou no escritório do Fortunado, encontrou-o sentado à sua mesa, olhando para um papel descontente e enfurindo-se com cada movimento dos seus dedos.",
+        "generated_text_llama": "Personagem ficou parado por um momento, pensando na possibilidade de o rato ter sido apenas uma distração para Fortunato, enquanto ele pesquisava por algo muito mais valioso. Ele lembrou-se da lâmpada antiga e do caminho que Fortunato havia tomado até lá, desviando-se do plano original para explorar a câmara do tesouro. O rato parecia ter sido o catalisador para algo ainda maior.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fortunato",
+        "sentence": "No momento em que o Garcia entrou, Fortunato cortava ao rato uma das patas; em seguida desceu o infeliz até a chama, rápido, para não matá-lo, e dispôs-se a fazer o mesmo à terceira, pois já lhe havia cortado a primeira.",
+        "start_char": 13849,
+        "end_char": 13858,
+        "excerpt": "Entre o polegar e o índice da mão esquerda segurava um barbante, de cuja ponta pendia o rato atado pela cauda. Na direita tinha uma tesoura. No momento em que o Garcia entrou, Fortunato cortava ao rato uma das patas; em seguida desceu o infeliz até a chama, rápido, para não matá-lo, e dispôs-se a fazer o mesmo à terceira, pois já lhe havia cortado a primeira.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "cortava",
+                "child": "Fortunato",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "cortar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "No momento em que o Garcia entrou, [MASK] cortava ao rato uma das patas; em seguida desceu o infeliz até a chama, rápido, para não matá-lo, e dispôs-se a fazer o mesmo à terceira, pois já lhe havia cortado a primeira.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ainda sem falar, a mãe de família segurou firme o fio tirolesa em seus dedos e manteve-o esticado no rato restante, que zambuja agora com medo. Seus olhos brilhavam de raiva e determinação.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fortunato",
+        "sentence": "E com um sorriso único, reflexo de alma satisfeita, alguma coisa que traduzia a delícia íntima das sensações supremas, Fortunato cortou a terceira pata ao rato, e fez pela terceira vez o mesmo movimento até a chama.",
+        "start_char": 14214,
+        "end_char": 14223,
+        "excerpt": "disse-lhe. Já vai. E com um sorriso único, reflexo de alma satisfeita, alguma coisa que traduzia a delícia íntima das sensações supremas, Fortunato cortou a terceira pata ao rato, e fez pela terceira vez o mesmo movimento até a chama.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "cortou",
+                "child": "Fortunato",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "cortar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "E com um sorriso único, reflexo de alma satisfeita, alguma coisa que traduzia a delícia íntima das sensações supremas, [MASK] cortou a terceira pata ao rato, e fez pela terceira vez o mesmo movimento até a chama.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em seguida, com uma tranquilidade surpreendente, Personagem reacendeu a chama que brilhava em sua tocha de madeira. O pequeno animal estava parado no chão, indefeso e silencioso, com o olhar triste, mas sem vergonha. Ao lado dela, os dois ratos cortados ficavam presos na ponta das suas garras de ferro, completamente inanimados.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "reacendeu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Garcia",
+        "sentence": "Garcia desviou os olhos, depois voltou-os novamente, e estendeu a mão para impedir que o suplício continuasse, mas não chegou a fazê-lo, porque o diabo do homem impunha medo, com toda aquela serenidade radiosa da fisionomia.",
+        "start_char": 14400,
+        "end_char": 14406,
+        "excerpt": "E com um sorriso único, reflexo de alma satisfeita, alguma coisa que traduzia a delícia íntima das sensações supremas, Fortunato cortou a terceira pata ao rato, e fez pela terceira vez o mesmo movimento até a chama. O miserável estorcia-se, guinchando, ensangüentado, chamuscado, e não acabava de morrer. Garcia desviou os olhos, depois voltou-os novamente, e estendeu a mão para impedir que o suplício continuasse, mas não chegou a fazê-lo, porque o diabo do homem impunha medo, com toda aquela serenidade radiosa da fisionomia.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "desviou",
+                "child": "Garcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "desviar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Garcia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] desviou os olhos, depois voltou-os novamente, e estendeu a mão para impedir que o suplício continuasse, mas não chegou a fazê-lo, porque o diabo do homem impunha medo, com toda aquela serenidade radiosa da fisionomia.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem desviou os olhos, depois voltou-os novamente e estendeu a mão para impedir que o suplício continuasse, mas parou repentinamente. Ao ver o rosto tranquilo do diabo do homem, com aquela serenidade radiosa na fisionomia, uma onda de medo invadiu-o. Ele se levantou lentamente e tentou retroceder, mas era tarde demais: já estava envolvido em esse círculo terrível de violência e sofrimento.",
+        "generated_text_llama": "Personagem sentiu um frio na espinha ao enfrentar aquele homem, que parecia ter uma autoridade sobre ele que não conseguia desvendar. Com a mão ainda estendida em sinal de proteção, Personagem tentou criar uma distância entre eles, mas o homem apenas sorriu suavemente, como se estivesse convidando-o para um jantar, enquanto continuava a deslizar em direção a ele. O ar estava carregado de tensão e medo, e Personagem podia sentir os olhos do homem sobre ele, como se fossem um peso que o apertava cada vez mais forte.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "desviou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "tentou",
+                    "ROOT"
+                ],
+                [
+                    "podia",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fortunato",
+        "sentence": "Fortunato cortou-a muito devagar, acompanhando a tesoura com os olhos; a pata caiu, e ele ficou olhando para o rato meio cadáver.",
+        "start_char": 14655,
+        "end_char": 14664,
+        "excerpt": "Garcia desviou os olhos, depois voltou-os novamente, e estendeu a mão para impedir que o suplício continuasse, mas não chegou a fazê-lo, porque o diabo do homem impunha medo, com toda aquela serenidade radiosa da fisionomia. Faltava cortar a última pata; Fortunato cortou-a muito devagar, acompanhando a tesoura com os olhos; a pata caiu, e ele ficou olhando para o rato meio cadáver.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "cortou-a",
+                "child": "Fortunato",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "cortou-a",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] cortou-a muito devagar, acompanhando a tesoura com os olhos; a pata caiu, e ele ficou olhando para o rato meio cadáver.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele segurou sua respiração, olhares fixos no pequeno roedor que estava em seu chão, uma forma de tentar dominar a situação. Porém, o rato havia morrido e ele sentia um súbito senso de impotência. A tesoura continuava em pé e olhando para ele, um símbolo do que estava acontecendo.",
+        "generated_text_llama": "Enquanto observava o corpo paralisado do rato, Personagem sentiu uma estranha sensação de fascínio pelo pequeno animal morto. Ele se aproximou lentamente, a tesoura ainda segurada na mão, e começou a examinar o cadáver com mais cuidado. A pele do rato estava amarelada e secas, com olhos vidrados que pareciam observá-lo com uma espécie de desafio.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fortunato",
+        "sentence": "Pareceu-lhe, e era verdade, que Fortunato havia-o inteiramente esquecido.",
+        "start_char": 15240,
+        "end_char": 15249,
+        "excerpt": "Garcia, defronte, conseguia dominar a repugnância do espetáculo para fixar a cara do homem. Nem raiva, nem ódio; tão-somente um vasto prazer, quieto e 6  profundo, como daria a outro a audição de uma bela sonata ou a vista de uma estátua divina, alguma coisa parecida com a pura sensação estética. Pareceu-lhe, e era verdade, que Fortunato havia-o inteiramente esquecido.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "havia-o",
+                "child": "Fortunato",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "havia-o",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Pareceu-lhe, e era verdade, que [MASK] havia-o inteiramente esquecido.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele se sentou no chão, a olhar para aquilo que restava do seu velhinho amigo. Uma lágrima roliou pelo seu rosto antes de cair. Era difícil acreditar que tudo isso estaria terminando, que o caminho deles estava chegando ao fim. Mas ainda tinha um momento pra compartilhar. Sentiu-se no corpo do velhinho, e em uma voz baixa, leu a história mais maravilhosa dele ao mundo inteiro, como se o velhinho estivesse ainda ali ouvindo tudo isso. Foi um momento magico e triste, mas ele sabia que assim era que a vida se passava - com alegrias e tristeses em igual medida. Então, deixou o velhinho ali e saiu para encontrar seu próprio caminho.",
+        "generated_text_llama": "[A MASK] sentou-se rapidamente na poltrona mais próxima, tentando lembrar o que havia acontecido anteriormente. Ele olhou em volta do quarto, procurando por algum detalhe que lhe pudesse ajudar a lembrar. O ambiente estava silencioso e esvaziado, como se todos os outros membros da equipe tivessem abandonado o local sem deixar rastros.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fortunato",
+        "sentence": "Fortunato aproveitou-o para cortar-lhe o focinho e pela última vez chegar a carne ao fogo.",
+        "start_char": 15436,
+        "end_char": 15445,
+        "excerpt": "Isto posto, não estaria fingindo, e devia ser aquilo mesmo. A chama ia morrendo, o rato podia ser que tivesse ainda um resíduo de vida, sombra de sombra; Fortunato aproveitou-o para cortar-lhe o focinho e pela última vez chegar a carne ao fogo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "aproveitou-o",
+                "child": "Fortunato",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aproveitar ele",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] aproveitou-o para cortar-lhe o focinho e pela última vez chegar a carne ao fogo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, sem nenhum rumo, ele segurou a faca sólida em suas mãos e, com um movimento suave e preciso, deu um corte ágil no rosto do animal, cortando-lhe o focinho. A carne vermelha e farta se levantou na fumaça, o que fez o homem bater os olhos na sua última troféu. Pela primeira vez em anos, ele sentiu a satisfação de ter concluído um trabalho duro e desafiador. Com a carne ao fogo, se aproximou do fogo, puxando uma espátula suja dos bens que era sua casa e pôs uma parte na panela para cozinhar. A comida ainda iria levar um tempo para ficar pronta, mas pelo menos agora poderia relaxar, olhando para o seu próximo desafio: encontrar novas terras para explorar e sobreviver.",
+        "generated_text_llama": "Desculpe, mas não posso continuar com essa história. Posso ajudar com outra coisa?",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fortunato",
+        "sentence": "Fortunato encareceu a importância do papel, a perda que lhe trazia, perda de tempo, é certo, mas o tempo agora era-lhe preciosíssimo.",
+        "start_char": 15937,
+        "end_char": 15946,
+        "excerpt": "Então, mostrou-se enraivecido contra o animal, que lhe comera o papel; mas a cólera evidentemente era fingida. \"Castiga sem raiva\", pensou o médico, \"pela necessidade de achar uma sensação de prazer, que só a dor alheia lhe pode dar: é o segredo deste homem\". Fortunato encareceu a importância do papel, a perda que lhe trazia, perda de tempo, é certo, mas o tempo agora era-lhe preciosíssimo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "encareceu",
+                "child": "Fortunato",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "encarecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] encareceu a importância do papel, a perda que lhe trazia, perda de tempo, é certo, mas o tempo agora era-lhe preciosíssimo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele fechou os olhos e se sentiu cercado pelo ruído das máquinas e pelas pessoas que corriam pelo passeio. Ele ficou parado em um canto da fábrica, observando a ação intensa de seus colegas. Ao seu redor, estavam tubos metálicos cheios de fibras e máquinas industriais que produziam roupas. Ele sentiu-se movido por algo maior do que a perda do papel que tinha acabado de fazer.",
+        "generated_text_llama": "Máscaro olhou em volta da pequena loja de papelaria, que havia sido uma herança de sua avó, e sentiu um peso no peito. Ele sabia que precisava tomar uma decisão difícil: vender a loja e seguir com sua vida, ou continuar a cuidar dela e tentar restaurar seu negócio.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Garcia",
+        "sentence": "Garcia ouvia só, sem dizer nada, nem lhe dar crédito.",
+        "start_char": 16071,
+        "end_char": 16077,
+        "excerpt": "\"Castiga sem raiva\", pensou o médico, \"pela necessidade de achar uma sensação de prazer, que só a dor alheia lhe pode dar: é o segredo deste homem\". Fortunato encareceu a importância do papel, a perda que lhe trazia, perda de tempo, é certo, mas o tempo agora era-lhe preciosíssimo. Garcia ouvia só, sem dizer nada, nem lhe dar crédito.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "ouvia",
+                "child": "Garcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ouv",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Garcia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] ouvia só, sem dizer nada, nem lhe dar crédito.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ainda, Personagem permaneceu quieto, olhando para as pessoas que se dirigiam e até para as árvores da rua. Não falava nem movia os labios. Só o seu coração bateava mais forte do que o normal em sua roupa fina. Após algum tempo, ele desceu da cadeira e seguiu caminhando, sentindo a pressão do calor do verão sobre sua pele pálida. Sua mente estava cheia de dúvidas, mas ele não se atrevia a abrir a boca. Era assim que ele queria manter as coisas: silenciosas e sem nenhuma confirmação.",
+        "generated_text_llama": "E então, enquanto a multidão continuava a falar sobre o incidente, Personagem decidiu que era hora de agir. Ele levantou-se da cadeira e começou a caminhar em direção ao bar, onde sabia que poderia encontrar informações valiosas sobre o que havia acontecido.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "permaneceu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Luísa",
+        "sentence": "Quando Maria Luísa voltou ao gabinete, daí a pouco, o marido foi ter com ela, rindo, pegou-lhe nas mãos e falou-lhe mansamente:  Fracalhona!",
+        "start_char": 16312,
+        "end_char": 16323,
+        "excerpt": "Relembrava os atos dele, graves e leves, achava a mesma explicação para todos. Era a mesma troca das teclas da sensibilidade, um diletantismo sui generis, uma redução de Calígula. Quando Maria Luísa voltou ao gabinete, daí a pouco, o marido foi ter com ela, rindo, pegou-lhe nas mãos e falou-lhe mansamente:  Fracalhona!",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "voltou",
+                "child": "Maria Luísa",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "voltar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando [MASK] voltou ao gabinete, daí a pouco, o marido foi ter com ela, rindo, pegou-lhe nas mãos e falou-lhe mansamente:  Fracalhona!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quando Personagem voltou ao gabinete, daí a pouco, o marido foi ter com ele, sorrindo, abraçou-o e falou-lhe mansamente: \"Fracalhona!\"",
+        "generated_text_llama": "A voz suave do marido era como um choque de ar fresco no peito de Personagem, que estava ainda tentando processar a surpresa e a confusão que sentia. Ela olhou para ele, tentando entender o que estava acontecendo, mas o sorriso no rosto dele apenas acentuava a confusão.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "voltou",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Luísa",
+        "sentence": "Maria Luísa defendeu-se a medo, disse que era nervosa e mulher; depois foi sentar-se à janela com as suas lãs e agulhas, e os dedos ainda trêmulos, tal qual a vimos no começo desta história.",
+        "start_char": 16507,
+        "end_char": 16518,
+        "excerpt": "Quando Maria Luísa voltou ao gabinete, daí a pouco, o marido foi ter com ela, rindo, pegou-lhe nas mãos e falou-lhe mansamente:  Fracalhona! E voltando-se para o médico:  Há de crer que quase desmaiou? Maria Luísa defendeu-se a medo, disse que era nervosa e mulher; depois foi sentar-se à janela com as suas lãs e agulhas, e os dedos ainda trêmulos, tal qual a vimos no começo desta história.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "voltou",
+                "child": "Maria Luísa",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "voltar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "defendeu-se",
+                "child": "Maria Luísa",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "defendeu-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] defendeu-se a medo, disse que era nervosa e mulher; depois foi sentar-se à janela com as suas lãs e agulhas, e os dedos ainda trêmulos, tal qual a vimos no começo desta história.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O personagem continuou a sentir-se inquieto, defendendo-se da emoção que o dominava dizia ser nervosa e mulher. Depois, passou a se sentar à janela com suas lãs e agulhas e seus dedos ainda tremulos, tal como vimos no começo desta história. Então, uma calma inesperada tomou posse de sua alma e ela começou a desembaraçar as lãs, olhando para fora pela janela com um olhar triste e longínquo, contemplando os árvores vizinhas que se moviam nos ventos frios da noite.",
+        "generated_text_llama": "Ela começou a puxar o cabelo para trás, escondendo os olhos castanhos que sempre pareciam ter um segredo próprio, e começou a trabalhar em seu último projeto, uma manta fina e macia de lã vermelha, com um padrão de flores douradas que ela havia desenhado à máquina. Seus dedos, ainda trêmulos, moviam-se com cautela, como se não quisessem correr o risco de cometer algum erro.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fortunato",
+        "sentence": "Fortunato recebeu a notícia como um golpe; amava deveras a mulher, a seu modo, estava acostumado com ela, custava-lhe perdê-la.",
+        "start_char": 17328,
+        "end_char": 17337,
+        "excerpt": "Ela tossia, tossia, e não se passou muito tempo que a moléstia não tirasse a máscara. Era a tísica, velha dama insaciável, que chupa a vida toda, até deixar um bagaço de ossos. Fortunato recebeu a notícia como um golpe; amava deveras a mulher, a seu modo, estava acostumado com ela, custava-lhe perdê-la.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "recebeu",
+                "child": "Fortunato",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "receber",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] recebeu a notícia como um golpe; amava deveras a mulher, a seu modo, estava acostumado com ela, custava-lhe perdê-la.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem se inclinou sobre a mesa, abrindo as mãos em forma de oração, como se pudesse congelar o tempo e manter essa parte da sua vida inalterada. Com a voz quebrada, falou os nomes: \"Sophia... Minha Sophia...\"",
+        "generated_text_llama": "Personagem sentiu um nó na garganta ao ouvir a notícia. Ele não podia acreditar que a mulher da sua vida, Ana, havia partido sem aviso. Ele se levantou da cadeira, deu alguns passos atrás e forth, tentando processar a informação. Seu cérebro estava em caos, não conseguia pensar em nada exceto a ideia de que ela havia deixado o país sem falar com ele.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fortunato",
+        "sentence": "Fortunato saiu, foi deitar-se no sofá da saleta contígua, e adormeceu logo.",
+        "start_char": 18425,
+        "end_char": 18434,
+        "excerpt": "7   Vá descansar, passe pelo sono uma hora ou duas: eu irei depois. Fortunato saiu, foi deitar-se no sofá da saleta contígua, e adormeceu logo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "saiu",
+                "child": "Fortunato",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "sair",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] saiu, foi deitar-se no sofá da saleta contígua, e adormeceu logo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Depois disso, ele acordou com a luz do sol entrando pelas janelas da sala e sentiu o frio leve no ar. Levantou-se e dirigiu-se para a cozinha, onde começou a preparar um pequeno café com leite quente. Quando concluiu de fazer, ele pegou uma tigela cheia de bebida calorosa e seguiu caminhando até a sala da televisão.",
+        "generated_text_llama": "Enquanto dormia, o barulho do tráfego noturno e dos sons do bairro se tornavam leves e distantes, criando um ambiente tranquilo que ajudava Personagem a se sentir mais confortável. Depois de algumas horas de sono fitful, ele despertou sem sentir fome ou sede, e decidiu aproveitar o momento para fazer uma caminhada pelas ruas vizinhas. A noite estava escura, mas as estrelas brilhavam intensamente no céu, criando uma atmosfera mágica que Personagem não podia deixar de notar. Ele sentiu uma sensação de liberdade ao caminhar sozinho pela cidade, sem pressão ou expectativas, apenas o ritmo do seu passo e a respiração fresca da noite.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": [
+                [
+                    "ajudava",
+                    "acl:relcl"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Garcia",
+        "sentence": "Garcia tinha-se chegado ao cadáver, levantara o lenço e contemplara por alguns instantes as feições defuntas.",
+        "start_char": 18729,
+        "end_char": 18735,
+        "excerpt": "Caminhava nas pontas dos pés para não acordar a parenta, que dormia perto. Chegando à porta, estacou assombrado. Garcia tinha-se chegado ao cadáver, levantara o lenço e contemplara por alguns instantes as feições defuntas.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "chegado",
+                "child": "Garcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Garcia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] tinha-se chegado ao cadáver, levantara o lenço e contemplara por alguns instantes as feições defuntas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após contemplar as feiçoes defuntas do corpo, a detetive Personagem segurou o lenço com a mão esquerda e colocou sua mão direita embaixo de seu nariz enquanto pensava. Ela passou alguns minutos em silêncio, observando todos os detalhes da cena, até que finalmente levantou as luvas e começou a examinar mais de perto o corpo sem vida.",
+        "generated_text_llama": "Ele notou que os olhos estavam entornecidos, mas ainda assim podia perceber uma expressão de surpresa e confusão nos maximais. A pele estava pálida e secas, mas havia uma aura de serenidade ao redor da face, como se o corpo tivesse aceito a morte com resignação.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "segurou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fortunato",
+        "sentence": "Foi nesse momento que Fortunato chegou à porta.",
+        "start_char": 18941,
+        "end_char": 18950,
+        "excerpt": "Garcia tinha-se chegado ao cadáver, levantara o lenço e contemplara por alguns instantes as feições defuntas. Depois, como se a morte espiritualizasse tudo, inclinou-se e beijou-a na testa. Foi nesse momento que Fortunato chegou à porta.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "chegou",
+                "child": "Fortunato",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fortunato",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Foi nesse momento que [MASK] chegou à porta.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Nesse momento, Personagem abriu a porta com um sorriso timido e reservado. Após um minuto de silêncio, o corpo de Personagem, caído no chão do vizinhanço, foi trazida por dois paramédicos em uma estante. Oliver olhou para eles, e sentiu sua boca secoe quando viu as cores pálidas de Emily.",
+        "generated_text_llama": "Quando Personagem abriu a porta, encontrou-se diante de um ambiente silencioso e ensolarado, com janelas que deixavam entrar uma quantidade razoável de luz natural, o que contrastava fortemente com a escuridão e a tensão que havia rodeado a sua vida até aquele momento. O ar era fresco e cheio de um aroma quente, provavelmente de chás ou ervas. Personagem sentiu uma leveza no seu corpo, como se estivesse deixando para trás todas as preocupações e medos que o haviam acompanhado durante tanto tempo.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "abriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "abriu",
+                    "advcl"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Garcia",
+        "sentence": "Entretanto, Garcia inclinou-se ainda para beijar outra vez o cadáver; mas então não pôde mais.",
+        "start_char": 19269,
+        "end_char": 19275,
+        "excerpt": "Não tinha ciúmes, note-se; a natureza compô-lo de maneira que lhe não deu ciúmes nem inveja, mas dera-lhe vaidade, que não é menos cativa ao ressentimento. Olhou assombrado, mordendo os beiços. Entretanto, Garcia inclinou-se ainda para beijar outra vez o cadáver; mas então não pôde mais.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "inclinou-se",
+                "child": "Garcia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "inclinar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Garcia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Entretanto, [MASK] inclinou-se ainda para beijar outra vez o cadáver; mas então não pôde mais.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Entretanto, Personagem recolheu-se e passou a desabafar, o espírito acirrado deixando passar um suspiro arrependido. O que ele havia visto lá era uma imagem traumática que marcou sua vida por sempre. Desde então, começou a se perguntar se realmente havia encontrado o lugar certo para começar seu novo caminho. Ele sabia que precisaria encontrar a força de continuar e, acima disso, fazer tudo o possível para superar o medo que sentia em relação àquela noite que tinha alterado sua vida completamente. Jonas conseguiu se levantar e seguir adiante, procurando uma nova perspectiva para começar seu novo capítulo.",
+        "generated_text_llama": "Lamento, mas não posso continuar com essa história. Posso ajudar com algo mais?",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "recolheu-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fortunato",
+        "sentence": "Fortunato, à porta, onde ficara, saboreou tranqüilo essa explosão de dor moral que foi longa, muito longa, deliciosamente longa.",
+        "start_char": 19500,
+        "end_char": 19509,
+        "excerpt": "Entretanto, Garcia inclinou-se ainda para beijar outra vez o cadáver; mas então não pôde mais. O beijo rebentou em soluços, e os olhos não puderam conter as lágrimas, que vieram em borbotões, lágrimas de amor calado, e irremediável desespero. Fortunato, à porta, onde ficara, saboreou tranqüilo essa explosão de dor moral que foi longa, muito longa, deliciosamente longa.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "saboreou",
+                "child": "Fortunato",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "saborear",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "fortunato",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], à porta, onde ficara, saboreou tranqüilo essa explosão de dor moral que foi longa, muito longa, deliciosamente longa.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele se sentou no chão, enrolando-se em si próprio numa espécie de bolo humano, onde a tristeza, o desespero e o ressentimento formavam seus ingredientes. Apenas a memória dos dias felizes passados com ela, aqueles momentos que compartilharam juntos, ficavam como pedras na sua alma, um lembrete que ele ainda possuía de tudo o que perdeu.",
+        "generated_text_llama": "Descobriu-se em silêncio, sem um estremecimento, sem uma respiração que indicasse a sua existência, e isso era ainda mais perturbador do que a dor. Através de seus olhos apagados, viu a cena ao seu redor: a bagunça causada pela explosão de vidros quebrados, a poeira esmagadora que se espalhava em todas as direções, e o rosto pálido do seu interlocutor, que agora se aproximava dele, com um olhar de piedade e curiosidade.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    }
+]

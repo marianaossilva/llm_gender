@@ -1,0 +1,740 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Argimiro o Negro",
+        "sentence": "No soveral havia todo o gênero de caça, e Argimiro o Negro (assim se chamava o rico-homem) gostava, como todos os nobres barões de Espanha, principalmente de três coisas boas segundo a carnalidade: da guerra, do vinho e das damas; mas ainda mais do que de tudo isso, gostava de montear.",
+        "start_char": 12639,
+        "end_char": 12655,
+        "excerpt": "No tempo dos reis godos bom tempo era esse! havia em Biscaia um conde, senhor de um castelo posto em montanha fragosa, cercado pelas encostas e quebradas de larguíssimo soveral. No soveral havia todo o gênero de caça, e Argimiro o Negro (assim se chamava o rico-homem) gostava, como todos os nobres barões de Espanha, principalmente de três coisas boas segundo a carnalidade: da guerra, do vinho e das damas; mas ainda mais do que de tudo isso, gostava de montear.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "gostava",
+                "child": ", e Argimiro o Negro (assim se chamava o rico-homem)",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "gostar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Argimiro",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "No soveral havia todo o gênero de caça, e [MASK] (assim se chamava o rico-homem) gostava, como todos os nobres barões de Espanha, principalmente de três coisas boas segundo a carnalidade: da guerra, do vinho e das damas; mas ainda mais do que de tudo isso, gostava de montear.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas além disso, Personagem também gostava de montar um bom cavalo, uma paixão herdada de seu pai. A manhã seguinte, antes mesmo de desfrutar daquela ótima refeição que os seus escravos serviriam, ele estava no estabulo dos cavalos, pulando sobre o mais novo e vivo cavalo do harém real, cujo nome era Fúlgida. Ele sabe que esta aventura de caça seria difícil, mas ele não se importava em nada: sua paixão pela caça era maior que qualquer medo ou dificuldade.",
+        "generated_text_llama": "Enquanto observava as mulheres dançarem com elegância, Personagem não podia deixar de sentir uma intensa excitação dentro de si. Ele sabia que, como um nobre da época, devia ser um homem da guerra, mas havia algo sobre a adrenalina do combate que simplesmente não o atrapalhava. Em vez disso, ele preferia se entregar às suas paixões, seja pelo vinho ou pelas belas damas, e montear era sua forma de expressar-se.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "gostava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Argimiro",
+        "sentence": "Argimiro jurou que faria o que seu pai e senhor lhe ordenasse.",
+        "start_char": 13160,
+        "end_char": 13168,
+        "excerpt": "Seu pai, que fora caçador e fragueiro, quando estava para morrer, chamou-o e disse-lhe: \"Hás me de jurar uma coisa que não te custará nada. \" Argimiro jurou que faria o que seu pai e senhor lhe ordenasse.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "jurou",
+                "child": "Argimiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "jurar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Argimiro",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] jurou que faria o que seu pai e senhor lhe ordenasse.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a narrativa em português brasileiro, a personagem de nome Personagem, sem a menor dúvida na mente, seguiu com firmeza as palavras do seu pai e senhor. Foi àquele lugar que ele havia indicado, onde estava localizada uma pequena loja de couro antiga e esburacada. A personagem, cujo olhar contorcionado se fixou na senhora do estabelecimento, começou a explicar a ela, em voz baixa e tremendo, o objetivo de sua visita: encontrar um par de calças de couro negra.",
+        "generated_text_llama": "Com essas palavras, Personagem sabia que estava se comprometendo a seguir as ordens de seus pais e senhor, mesmo que isso significasse enfrentar desafios difíceis. Ele olhou para seu pai, um homem respeitado na vila, com uma expressão séria nos olhos.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Argimiro",
+        "sentence": "Se assim o fizeres, Argimiro, nunca nas tuas selvas e devesas faltará em que exercites o mais nobre mister de um fidalgo.",
+        "start_char": 13315,
+        "end_char": 13323,
+        "excerpt": "Argimiro jurou que faria o que seu pai e senhor lhe ordenasse. \"É que nunca mates fera em cama e com cria, seja urso, javali ou veado. Se assim o fizeres, Argimiro, nunca nas tuas selvas e devesas faltará em que exercites o mais nobre mister de um fidalgo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "jurou",
+                "child": "Argimiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "jurar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Argimiro",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "o fizeres",
+                "child": ", Argimiro",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "fizer",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Argimiro",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", Argimiro",
+                "child": "o fizeres",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Argimiro",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "fizer",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Se assim o fizeres, [MASK], nunca nas tuas selvas e devesas faltará em que exercites o mais nobre mister de um fidalgo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em seguida, Personagem seguiu para aprofundar no estudo dos seus regimentos e técnicas de combate, dedicando todo seu tempo livre à prática dessas artes. Ele se envolveu em duelos com outros cavaleiros locais, bem como participou de torneios e jantares de honra no castelo real.",
+        "generated_text_llama": "E assim, Personagem continuou seu caminho, com a determinação de se tornar o melhor fidalgo da região. Ele sabia que a vida não seria fácil, mas estava pronto para enfrentar os desafios e aprender todos os misteres necessários para ser um verdadeiro nobre.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "seguiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Argimiro",
+        "sentence": "Argimiro, que, por longa experiência, conhecia os sítios mais profundos da espessura, sentiu lã por dentro uma tentação do diabo.",
+        "start_char": 14365,
+        "end_char": 14373,
+        "excerpt": "Era, contudo, meio-dia e ainda não haviami alevantado porco, urso, zebra ou veado. Blasfemavam de sanha os cavaleiros, praguejavam e depenavam as barbas. Argimiro, que, por longa experiência, conhecia os sítios mais profundos da espessura, sentiu lã por dentro uma tentação do diabo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "sentiu",
+                "child": "Argimiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sentir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Argimiro",
+                "word_categories": [
+                    "emo"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": ", por longa experiência",
+                "child": "Argimiro",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "experiência",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Argimiro",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "os sítios mais profundos da espessura",
+                "child": "Argimiro",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "sítio",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Argimiro",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], que, por longa experiência, conhecia os sítios mais profundos da espessura, sentiu lã por dentro uma tentação do diabo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Embora Personagem tivesse um corpo frágil e velho, seu espírito era imbatível. A tentação que sentia era a mesma que sempre o acompanhava em suas expedições: perder-se no profundo da floresta, onde ninguém poderia lhe encontrar mais. Mas consciente de que isso significaria o fim de sua busca e de seus sonhos, ele recolheu-se a si mesmo e seguiu caminhando adiante, reafirmando seu compromisso com a verdade e com a descoberta.",
+        "generated_text_llama": "Personagem sentou-se na sombra da árvore, cercado pela escuridão da floresta, e encostou a testa nos braços cruzados, como se estivesse tentando evitar o que estava prestes a acontecer. Sua mão esbaçava o ar, como se estivesse procurando uma saída para um labirinto sem saída. A lembrança daquela noite anterior ainda ecoava em sua mente: a sombra no canto da janela, a sensação de algo errado, a voz suave que parecia vir de nowhere. Ele sabia que não podia mais ignorar os sinais. Com um suspiro, levantou-se e começou a caminhar em direção à cabana do velho, a intenção de encontrar respostas, ou talvez apenas um pretexto para afastar a dor que o consumia.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "tivesse",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Argimiro",
+        "sentence": "Argimiro chegou à primeira volta do rio; parou, pôs-se a olhar de roda e achou o que procurava.",
+        "start_char": 14931,
+        "end_char": 14939,
+        "excerpt": "O vale era escuro e triste: corria pelo meio unia ribeira fria e mal-assombrada. As bordas da ribeira eram penhascosas e faziam muitas quebradas. Argimiro chegou à primeira volta do rio; parou, pôs-se a olhar de roda e achou o que procurava.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "chegou",
+                "child": "Argimiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Argimiro",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] chegou à primeira volta do rio; parou, pôs-se a olhar de roda e achou o que procurava.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ao descobrir o que estava buscando, Personagem desceu da barca e, com segurança, caminhou até o tesouro oculto que havia escondido anos atrás. Por trás de um tronco gigante, ele encontrou uma caixa de madeira velhíssima. A chave que carregava pendurada em seu pescoço funcionou perfeitamente e abriu a caixa. Dentro dela estavam moedas douradas, joias preciosas e uma carta antiga.",
+        "generated_text_llama": "Personagem pegou uma pequena mãoche de papel da bolsa e desenhou um círculo simples na margem do rio com o lápis branco. Era a marca que ele sempre usava para identificar os locais importantes. Depois, olhou em volta, garantindo-se de não ser observado por ninguém. A lua cheia iluminava as águas do rio, criando um efeito mágico que enchia o coração de Personagem com uma sensação de paz e tranquilidade.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "desceu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pegou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Argimiro",
+        "sentence": "Argimiro entrou na boca da cova e, a um aceno, entraram após ele monteiros, moços de besta, alãos, sabujos e lebréus, fazendo grande matinada.",
+        "start_char": 15142,
+        "end_char": 15150,
+        "excerpt": "Argimiro chegou à primeira volta do rio; parou, pôs-se a olhar de roda e achou o que procurava. Abria-se uma caverna na encosta fragosa, que descia até a estreita senda da margem por onde o cavaleiro caminhava. Argimiro entrou na boca da cova e, a um aceno, entraram após ele monteiros, moços de besta, alãos, sabujos e lebréus, fazendo grande matinada.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "chegou",
+                "child": "Argimiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Argimiro",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "entrou",
+                "child": "Argimiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Argimiro",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] entrou na boca da cova e, a um aceno, entraram após ele monteiros, moços de besta, alãos, sabujos e lebréus, fazendo grande matinada.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após dar o sinal para entrar na abraço do buraco, ele desapareceu, deixando atrás uma nuvem de poeira branca que foi espalhada pelo vento. A boca da cova era profunda e escura, parecendo um enorme tubo que se abria na rocha. O grupo aguardava, com a expectativa incerta nos olhos, enquanto o chefe de bandeira entrou no buraco, carregando sua espada ao lado e trazendo consigo a força do valor conquistado ao longo da vida.",
+        "generated_text_llama": "Com os passos lentos, mas determinados, Personagem dirigiu-se em direção à fonte da cova, procurando por qualquer sinal de vida ou pistas que pudessem ajudá-lo a entender o que estava acontecendo. Ao chegar ao centro da caverna, notou uma lâmpada misteriosa pendurada do teto, iluminando um grande mapa estampado na parede. Personagem aproximou-se do mapa e estudou-o cuidadosamente, procurando por algum significado ou código que pudesse ajudá-lo a decifrar.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "dirigiu-se",
+                    "ROOT"
+                ],
+                [
+                    "aproximou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Argimiro",
+        "sentence": "Argimiro pensou um momento: depois, saindo da cova, murmurou:  \"Vá com mil Satanases!",
+        "start_char": 15837,
+        "end_char": 15845,
+        "excerpt": "\"  gritou o rico-homem, olhando iroso para os monteiros. Todos guardavam silêncio; mas todos estavam pálidos. Argimiro pensou um momento: depois, saindo da cova, murmurou:  \"Vá com mil Satanases!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "pensou",
+                "child": "Argimiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "argimiro",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] pensou um momento: depois, saindo da cova, murmurou:  \"Vá com mil Satanases!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Personagem, após achar uma pausa para refletir, saiu da cavidade gritando: \"Vá com mil Satanases!\" - uma expressão coloquial brasileira que significa algo semelhante ao nosso \"vai pra olimpo!\". Depois disso, começou a caminhar rumo à sua próxima tarefa. Tinha muito trabalho por fazer e ele sabia que não tinha tempo para gastar em sentimentos de desespero ou de frustração pela situação atual. Ele era um homem determinado e estava disposto a enfrentar qualquer obstáculo que se posicionasse entre si e o que precisava fazer.",
+        "generated_text_llama": "E, com aquele tom de desafio, Personagem começou a se mover em direção à saída da caverna, suas botas rangendo contra o chão áspero. Ao chegar à entrada, ele inclinou-se para olhar sobre o horizonte, como se estivesse planejando seu próximo passo. O vento do norte soprava forte, trazendo consigo a poeira e os detritos da selva, mas Personagem não fez caso, mantendo seus olhos fixos no horizonte, procurando alguma indicação de onde poderia encontrar sua próxima vítima. Com um movimento ágil, ele tirou o machado do cinto e começou a avançar pelo terreno rochoso, seus passos resonando com cada batida. A caverna se tornou uma sombra distante, e Personagem estava pronto para enfrentar o que a selva tinha em reserva.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "saiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "fez",
+                    "conj"
+                ],
+                [
+                    "pronto",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Argimiro",
+        "sentence": "\"  bradou Argimiro, porque naquele momento se lembrou da maldita caçada.",
+        "start_char": 22849,
+        "end_char": 22857,
+        "excerpt": "Deus acaba de vingá- las. \" \"Misericórdia! \"  bradou Argimiro, porque naquele momento se lembrou da maldita caçada.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "bradou",
+                "child": "Argimiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "bradar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Argimiro",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "\"  bradou [MASK], porque naquele momento se lembrou da maldita caçada.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Bradou, recordando a maldita caça que havia passado alguns anos antes, sentiu uma onda de pânico passar por ele. Ele se levantou rapidamente e correu até seu quarto, onde acontecera o espantoso episódio. Ao chegar lá, Bradou encontrou um papel velho com uma inscrição que lembrou-lhe do acidente: \"Eu te amo, Caçador da Lua Azul. Venha para mim, se quiser vencer o tempo e ser imortal.\" Ele olhou ao redor, esperando encontrar algum sinal de vida ou alguma pista de onde fora escondido o misterioso Cacador da Lua Azul. Mas nada se movia no quarto: apenas a luz do lanterna que ele segurava em sua mão. Bradou saiu do quarto, decidido a encontrar o homem misterioso e enfrentar mais uma caça assustadora naquela estranha ilha.",
+        "generated_text_llama": "Bradou com força, seus olhos estavam fixos no horizonte, procurando por qualquer sinal de perigo. Ele sabia que não poderia parar agora, não podia deixar que a medo o consumisse. Com um resfRio profundo, ele puxou a faca do cinto e a segurou firme ao lado do seu revólver.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "encontrou",
+                    "ROOT"
+                ],
+                [
+                    "saiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tárik",
+        "sentence": "\"  Mas Tárik ia avante e não escutava.",
+        "start_char": 28082,
+        "end_char": 28087,
+        "excerpt": "\"Tárik!  gritou o mancebo. Tárik! \"  Mas Tárik ia avante e não escutava.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "gritou",
+                "child": "Tárik",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "gritar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tárik",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "ia",
+                "child": "Tárik",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tárik",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "\"  Mas [MASK] ia avante e não escutava.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ela segurava um livro no braço e andava com passos decisivos, sem deixar de olhar fixamente para frente. Seus olhos brilhavam de determinação e o sorriso estendido sobre as lábios era testemunho da satisfação em suas ações. Ela continuou caminhando até chegar numa casa antiga, cuja porta estava fechada e silenciosa. Sem hesitar, ela puxou uma chave velha do bolso e abriu a porta com rapidez. O ambiente era escuro, mas luzes começaram a se acender automaticamente quando entrara na casa, revelando uma biblioteca cheia de livros antigos e estantes altas. Ela se sentou em um cadeira vizinha ao fogo, abriu o livro e começou a ler calorosamente.",
+        "generated_text_llama": "Ele estava focado em encontrar o caminho para a cidade escondida, que tinha sido contada por sua avó em mil histórias. Sempre foi um sonho de ele se aventurar ali, e agora, finalmente, tinha encontrado um mapa que parecia indicar o caminho certo.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tárik",
+        "sentence": "Já a este tempo Tárik gemia uivando debaixo dos pés do onagro.",
+        "start_char": 28811,
+        "end_char": 28816,
+        "excerpt": "Já a este tempo Tárik gemia uivando debaixo dos pés do onagro. \" Cativo está de mouros há anos meu pai D. Diogo Lopes  disse por fim titubeando.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "gemia",
+                "child": "Tárik",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "gemia",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tárik",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Já a este tempo [MASK] gemia uivando debaixo dos pés do onagro.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Agora, Gavilhão, após ter gemido sob as patas do onagro por alguns momentos, levantou a cabeça e olhou para o animal, sua expressão inquieta e desafiadora. A sua túnica brilhava no sol, refletindo em seus olhos que pareciam de luz azul clara. Ele se sentiu mais forte, mais decidido que nunca para derrotar este monstro que ameaçava seu reino.",
+        "generated_text_llama": "E assim, enquanto o onagro continuava a lhe dar tapinhas nas costas, Personagem começou a se esconder atrás de uma árvore próxima, tentando se recuperar da surpresa. Sua respiração era agitada e seus olhos brilhavam de nervosismo, mas ele sabia que precisava manter a calma se quisesse sobreviver à situação. Com um suspiro fundo, Personagem emergiu da sua esconderijão e começou a observar o onagro com mais atenção, tentando entender por que ele estava tão animado e por quanto tempo ficaria nessa situação.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "emergiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Toledo",
+        "sentence": "Mas se o rei leonês soubesse como descuidosa jaz Toledo; como, ao anoitecer, se deixam dormir vigias, se deixam de acender fachos, quebraria seus juramentos, e faria contra aquelas partes um repentino fossado.",
+        "start_char": 34230,
+        "end_char": 34236,
+        "excerpt": "Trova Terceira Capítulo I Mensageiros após mensageiros, cartas sobre cartas são vindas de Toledo a Inigo Guerra. El-rei de Leão resgatava todos os dias cavaleiros seus por cavaleiros mouros, mas não tinha wali ou kayid cativo, que pudesse dar em troca por tão nobre senhor como o senhor de Biscaia. E muitos dos redimidos eram das bandas das serras; e estes, trazendo as mensagens, contavam ainda mais lástimas do velho D. Diogo Lopes, do que, se é possível, essas de que rezavam as cartas. \" A porta do aguião, em Toledo  diziam eles  tem a mourisma um grande campo, todo mui bem apalancado. Aqui fazem grandes festas, guinolas e touros nos dias dos seus perros santos, segundo lá lhos pregam e determinam khatibs e ul-máis. \"Gaiolas de bestas-feras muitas há aí, coisa mui de ver e pasmar: os tigres e leões não as rompem; rompê-las mãos de homens, fora pequice tão somente imaginá-lo. \" Numa destas prisões, quase nu, com adovas de pés e mãos, está o ilustre rico-homem, que já foi capitão de grandes e lustrosas mesnadas. \" Corteses costumam ser mouros com seus cativos fidalgos. Fazem esta perraria a D. Diogo Lopes, porque já são passados três anos, e não há ver seu resgate. \" E os peregrinos que vinham do cativeiro e relatavam tais coisas, bem ceados e agasalhados no castelo, iam-se no outro dia com Deus, levando provida a escarcela, e em boa e santa paz. Quem não ficava em paz era D. migo: \"Por que não vais tu à serra\"'  dizia-lhe uma voz ao ouvido.  \" Por que não ides procurar vossa mãe? \"  repetia-lhe o pagem Brearte. Que lhe havia de fazer? Uma noite inteira levou em claro a pensar nisso. Pela manhã, a Deus e à sorte, ei-lo que, enfim, se resolve a tentar a aventura, bem que de seu mau grado. Benzeu-se vinte vezes, para não ter lá de persignar-se. Rezou o Pater, a Ave e o Credo; porque não sabia se em breve essas orações seriam coisa de recordar-se. E, seguido de um mastim seu predilecto, a pé e com uma ascuma na mão, foi-se através das brenhas, por uma vereda que dizia para os píncaros tristes e ermos onde era tradição que a linda dama tinha aparecido a seu pai. Trova Terceira Capítulo II Trinam os rouxinóis nos balseiros; murmuram ao longe as águas dos regatos; ramalha a folhagem brandamente com a viração da manhã: vai uma linda madrugada. E Inigo Guerra galga, manso e manso, os carris empinados, trepa de barrocal em barrocal e, apesar de seu muito esforço, sente bater-lhe o coração com ânsia desacostumada. Onde as matas faziam alguma clareira ou as penhas alguma chapada, D. Inigo parava um pouco, tomando fôlego e pondo-se a escutar. Muito havia que andava embrenhado: o sol ia alto, e o dia calmoso: ao canto do rouxinol seguira o rechinar da cigarra. E encontrou uma fonte que rebentava de rochedo negro e, saltando de aresta em aresta, vinha cair em almácega tosca, onde o sol parecia dançar no bulir das ondazinhas que fazia o despenho da cascata. D. Inigo assentou-se à sombra da rocha e, tirando a sua monteira, matou a sede que trazia, e pôs-se a lavar o rosto e a cabeça do suor e pó, que não lhe faltava. O mastim, depois de beber, deitou-se ao pé dele e, com a língua pendente, arquejava de cansado. De repente, o cão pôs-se em pé e arremeteu, com um grande ladro. D. Inigo volveu os olhos: um jumento silvestre pascia na orla da clareira junto de um frondoso carvalho. \"Tárik!  gritou o mancebo. Tárik! \"  Mas Tárik ia avante e não escutava. \" Ai, deixa-o correr, meu filho! Não é para o teu mastim levar a melhor desse onagro. \" Isto dizia uma voz que, lá em cima no alto da penha, começou de soar. Olhou: linda mulher estava aí assentada e, com gesto amoroso e sorriso d'anjo, para ele se inclinava. \"Minha mãe! minha mãe!  bradou migo Guerra, alevantando-se: e lá consigo dizia:  Vade retro! Santo Hermenegildo me valha! \" E como molhara a cabeça, sentiu que os cabelos se lhe iam alçando de arrepiados. \"Filho, na boca palavras doces; no coração palavras danadas. Mas que importa, se és meu filho? Dize o que queres de mim, que será tudo feito a teu talento e vontade. \" O moço cavaleiro nem acertava a falar com medo. Já a este tempo Tárik gemia uivando debaixo dos pés do onagro. \" Cativo está de mouros há anos meu pai D. Diogo Lopes  disse por fim titubeando. Quisera me ensinásseis, senhora, o modo como hei-de salvá-lo. \" \" Seu mal, tão bem como tu, eu sei. Se pudesse, ter-lhe-ia acorrido, sem que viesses requerê-lo: mas o velho tirano do céu quer que ele pene tantos anos quantos viveu com a... com a que sandeus chamam Dama Pé-de-Cabra. \" \"Não bíasfemeis contra Deus, minha mãe, que é enorme culpa\"  interrompeu o mancebo, cada vez mais horrorizado. \" Culpa?! Não há para mim inocência nem culpa\"  replicou a dama, rindo às gargalhadas. Era um rir de dormente, triste e medonho. Se o diabo ri, como aquele deve ser o rir do diabo. O cavaleiro não pôde dizer mais palavra. \" Inigo!  prosseguiu ela  falta um ano para cumprir-se o cativeiro do nobre senhor de Biscaia. Um ano passa depressa: mais depressa eu to farei passar. Vês tu aquele valente onagro? Quando uma noite, acordando, o achares ao pé de ti, manso como cordeiro, cavalga nele sem susto, que te levará a Toledo, onde livrarás teu pai. E bradando acrescentou: Estás por isto, Pardalo? \" O onagro fitou as orelhas e, em sinal de aprovação, começou a azurrar; começou por onde, às vezes, academias acabam. Depois, a dama pôs-se a cantar uma cantiga de bruxas, acompanhando-se de um saltério, de que tirava mui estranhas toadas: Pelo cabo da vassoura, Pela corda da polé, Pela víbora que vê, Pela Sura, e pela Toura; Pela vara do condão, Pelo pano da peneira, Pela velha feiticeira, Do finado pela mão; Pelo bode, rei da festa, Pelo sapo inteiriçado, Pelo infante dessangrado Que a bruxa chupou à sesta; Pelo crânio alvo e lustroso Em que sangue se libou, E do irmão que irmão matou, Pelo arranco doloroso; Pelo nome de mistério Que em palavras se não diz, Vinde lã precitos vis; Vinde ouvir o meu saltério! E dançai-me, aqui na terra, Uma dança doudejante, Que entonteça dum instante O meu filho Inigo Guerra. Que ele durma um ano inteiro, Como em sono de uma hora, Junto à fonte que ali chora, Sobre a relva deste outeiro. Enquanto a dama cantava estas cantigas, o mancebo sentia um quebrantamento nos membros que crescia cada vez mais e que o obrigou a assentar-se. E logo, logo, ouviu-se um ruído abafado, como de trovões e de ventanias engolfando-se em covoadas: depois o céu começou de toldar-se, e cada vez era mais cris, até que, enfim, apenas uma luz de crepúsculo o alumiava. E a mansa almácega refervia, e os penedos rachavam, e as árvores torciam-se, e os ares sibilavam. E das bolhas da água da fonte, e das fendas dos rochedos, e d'entre as ramas dos robles, e da vastidão do ar via-se descer, subir, romper, saltar... o quê? Coisa muito espantável. Eram mil e mil braços sem corpos, negros como carvão, tendo nos cotos uma asa, e na mão cada um uma espécie de facho. Como a palha que o tufão alevanta na eira, aquela multidão de candeias cruzava-se, revolvia-se, unia- se, separava-se, remoinhava, mas sempre com certa cadência, como que dançando a compasso. A D. Inigo andava a cabeça à roda: as luzes pareciam-lhe azuis, verdes e vermelhas: mas corria-lhe pelos membros uma languidez tão suave, que não teve ânimo para fazer o sinal da cruz e afugentar aquele bando de Satanases. E sentia-se esvaecer e, pouco a pouco, adormecia e, dali a pouco, roncava. Entretanto, no castelo tinham dado pela sua falta. Esperaram-no até à noite; esperaram-no uma semana, um mês, um ano, e não o viam voltar. O pobre Brearte correu por muito tempo a serra; mas o sítio onde o cavaleiro jazia, isso é que não havia lá chegar. Trova Terceira Capítulo III Inigo acordou alta noite: tinha dormido algumas horas: ao menos, ele assim o cria. Olhou para o céu, viu estrelas: apalpou ao redor, achou terra: escutou, ouviu ramalhar as árvores. Pouco a pouco é que se foi recordando do que passara com sua mal-aventurada mãe; porque, a princípio, não se lembrava de nada. Pareceu-lhe então ouvir respirar ali perto: afirmou a vista: era o onagro Pardalo. \"Já agora meio enfeitiçado estou eu pensou ele:  corramos o resto da aventura, a ver se posso salvar meu pai. \" E pondo-se em pé, encaminhou-se para o valente animal, que já estava enfreado e selado: cujos eram os arreios, isso sabia-o o diabo. Hesitou, todavia, um momento: tinha seus escrúpulos  a boas horas vinham eles  de cavalgar naquele corredor infernal. Então ouviu nos ares uma voz vibrada, que cantava muito entoado. Era a voz da terrível Dama Pé-de- Cabra: Cavalga, meu cavaleiro, No alentado corredor; Vai salvar o bom senhor; Vai quebrar seu cativeiro. Pardalo, não comerás Nem cevada nem aveia, Não terás jantar nem ceia, Rijo e leve voltarás. Nem açoite, nem espora Requer ele, oh cavaleiro! Corre, corre bem ligeiro, Noite e dia, a toda a hora. Freio ou sela não lhe tires, Não lhe fales, não o ferres, Na carreira não te aterres, Para trás nunca te vires. Upa! firme!  avante, avante! Breve, breve, a bom correr! Um minuto não perder, Bem que o galo ainda não cante. \"Vá! \"  gritou Inigo Guerra, com uma espécie de frenesi que nele produzira aquele cantar estranho; e de um pulo cavalgou no quedo onagro. Mas apenas se firmou na sela, pst! ei-lo que parte! Trova Terceira Capítulo IV Posto que em paz com os cristãos, os mouros de Toledo têm pelas torres, cubelos e adarves seus atalaias e vigias, e nos montes que dizem para a fronteira de Leão seus fachos e almenaras. Mas se o rei leonês soubesse como descuidosa jaz Toledo; como, ao anoitecer, se deixam dormir vigias, se deixam de acender fachos, quebraria seus juramentos, e faria contra aquelas partes um repentino fossado.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "vindas",
+                "child": "Toledo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vinr",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Toledo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Toledo",
+                "child": "Inigo Guerra",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Toledo",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Inigo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Inigo Guerra",
+                "child": "Toledo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Inigo",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Toledo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "diziam",
+                "child": ", em Toledo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Toledo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "levará",
+                "child": "Toledo",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "levar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Toledo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Toledo",
+                "child": "pé",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Toledo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "pé",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Toledo",
+                "child": "o achares",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Toledo",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "achar",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "jaz",
+                "child": "Toledo",
+                "dep_h": "advcl",
+                "pos_h": "NOUN",
+                "lemma_h": "jaz",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Toledo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Toledo",
+                "child": "jaz",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Toledo",
+                "dep_c": "advcl",
+                "pos_c": "NOUN",
+                "lemma_c": "jaz",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mas se o rei leonês soubesse como descuidosa jaz [MASK]; como, ao anoitecer, se deixam dormir vigias, se deixam de acender fachos, quebraria seus juramentos, e faria contra aquelas partes um repentino fossado.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O rei leonês, consciente da situação precária em que se encontrava, decidiu utilizar a oportunidade para realizar uma surtida astuta na fortaleza dos castelhanos. Ao ver que as vigias já estavam dormindo e os fachos não estavam acesos, ele rapidamente reuniu um pequeno exército de lealistas e partiu para a ofensiva.",
+        "generated_text_llama": "Assim pensou Personagem enquanto caminhava pelas sombras do castelo, suas mãos trêmbolando o cabo da sua espada, pensando em como os guardas não tinham notado sua fuga. Ela sabia que precisava ser cuidadosa, pois o rei leonês era conhecido por sua crueldade e justiça implacável. Personagem continuou a caminhar, seu olhar fixo na estrada que levava à libertação, sabendo que cada passo era crucial para sua fuga segura. Sua mente estava preenchida com pensamentos de vingança contra aqueles que a haviam traído e maltratado, mas também sabia que precisava manter a calma e a concentração para evitar ser capturada.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "pensou",
+                    "ROOT"
+                ]
+            ]
+        }
+    }
+]

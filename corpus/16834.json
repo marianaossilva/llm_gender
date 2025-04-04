@@ -1,0 +1,238 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Dona Ermelinda",
+        "sentence": "\" Dona Ermelinda, à vista da resposta dele, disse: 2   Está aqui o dinheiro.",
+        "start_char": 2512,
+        "end_char": 2526,
+        "excerpt": "Tem montepio, é viúva; o diabo são os filhos! \" Dona Ermelinda, à vista da resposta dele, disse: 2   Está aqui o dinheiro.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Dona Ermelinda",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "\" [MASK], à vista da resposta dele, disse: 2   Está aqui o dinheiro.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " \"Personagem olhou para as mãos de seus adversários que agora estavam em aberto e achou que já havia encontrado o seu tesouro - era exatamente esse oque ele havia procurado tanto tempo. Ele se aproximou cautelosamente de um dos adversários, puxando o dinheiro debaixo de sua camisa. Ao tocar o dinheiro, sentiu que era ímã e não metais corrientes como o prata ou o ouro - era algo inusitado. Ele então se voltou para os seus adversários, olhando-lhes diretamente na cara.\"",
+        "generated_text_llama": "Ele estendeu a mão e pegou o dinheiro que estava em uma caixa de cartão plástico, que havia sido deixada ao lado de um dos lados da mesa. Ao pegar o dinheiro, ele não pôde deixar de notar que era uma quantia mais do que ele havia esperado, e uma pequena sorrateira se formou em seu rosto.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Capitão Hermenegildo",
+        "sentence": "Assim mesmo, tinha sido preciso a intervenção do seu compadre, o Capitão Hermenegildo, a fim de remover os obstáculos que certos \" águias\" começavam a pôr, para impedir que ela entrasse em plena posse do imóvel e abocanhar-lhe afinal o seu chalézito humilde.",
+        "start_char": 3575,
+        "end_char": 3595,
+        "excerpt": "Era proprietária do pequeno chalet onde morava, em cujo quintal havia laranjeiras e algumas outras árvores frutíferas. Fora o seu falecido marido que o adquirira com o produto de uma \"sorte\" na loteria; e, se ela, com a morte do esposo, o salvara das garras de escrivães, escreventes, meirinhos, solicitadores e advogados \"mambembes\", devia-o à precaução do marido que comprara a casa, em nome dela. Assim mesmo, tinha sido preciso a intervenção do seu compadre, o Capitão Hermenegildo, a fim de remover os obstáculos que certos \" águias\" começavam a pôr, para impedir que ela entrasse em plena posse do imóvel e abocanhar-lhe afinal o seu chalézito humilde.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "começavam",
+                "child": ", o Capitão Hermenegildo, a fim de remover os obstáculos que certos \" águias\"",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "começar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Capitão",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Assim mesmo, tinha sido preciso a intervenção do seu compadre, o [MASK], a fim de remover os obstáculos que certos \" águias\" começavam a pôr, para impedir que ela entrasse em plena posse do imóvel e abocanhar-lhe afinal o seu chalézito humilde.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim mesmo, tinha sido preciso a intervenção do seu compadre, o João, a fim de remover os obstáculos que certos \"águias\" começavam a pôr, para impedir que ela entrasse em plena posse do imóvel e abocanhar-lhe afinal o seu chalézito humilde. João, um homem resoluto e determinado, não era nenhum estranho a este tipo de briga, já havia tido confrontos semelhantes na sua própria vida, então não duvidou em se oferecer para ajudar sua amiga.",
+        "generated_text_llama": "Com um sorriso malicioso, Personagem olhou ao redor, certificando-se de que não havia mais ninguém por perto para testemunhar sua atitude rebelde. Em seguida, com uma mão, abriu a porta lateral do imóvel e, com um movimento suave, começou a remover os quadros de arte e as tapeçarias que haviam sido colocadas lá para \"proteger\" o lugar. Era apenas uma forma de Personagem evitar ser detectada pelaqueira da vizinhança, que sempre estava atenta às notícias da vida dos demais.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "preciso",
+                    "ROOT"
+                ],
+                [
+                    "estranho",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Seu \" Cazuza",
+        "sentence": "Seu \" Cazuza, se eu lhe disser uma cousa, o senhor fica zangado?",
+        "start_char": 4947,
+        "end_char": 4959,
+        "excerpt": "\"sim\"; mas... de Lima Barreto João Cazuza era um moço suburbano, forte e saudável, mas pouco ativo e amigo do trabalho. Vivia em casa dos tios, numa estação de subúrbios, onde tinha moradia, comida, roupa, calçado e algum dinheiro que a sua bondosa tia e madrinha lhe dava para os cigarros. Ele, porém, não os comprava; \"filava-os\" dos outros. \"Refundia\" os níqueis que lhe dava a tia, para flores a dar às namoradas e comprar bilhetes de tômbolas, nos vários \"mafuás\", mais ou menos eclesiásticos, que há por aquelas redondezas. O conhecimento do seu hábito de \"filar\" cigarros aos camaradas e amigos, estava tão espalhado que, mal um deles o via, logo tirava da algibeira um cigarro; e, antes de saudá-lo, dizia: Toma lá o cigarro, Cazuza. Vivia assim muito bem, sem ambições nem tenções. A maior parte do dia, especialmente a tarde, empregava ele, com outros companheiros, em dar loucos pontapés, numa bola, tendo por arena um terreno baldio das vizinhanças da residência dele ou melhor: dos seus tios e padrinhos. Contudo, ainda não estava satisfeito. Restava-lhe a grave preocupação de encontrar quem lhe lavasse e engomasse a roupa, remendasse as calças e outras peças do vestuário, cerzisse as meias, etc., etc. Em resumo: ele queria uma mulher, uma esposa, adaptável ao seu jeito descansado. Tinha visto falar em sujeitos que se casam com moças ricas e não precisam trabalhar; em outros que esposam professoras e adquirem a meritória profissão de \"maridos da professora\"; ele, porém, não aspirava a tanto. Apesar disso, não desanimou de descobrir uma mulher que lhe servis convenientemente. Continuou a jogar displicentemente, o seu football vagabundo e a viver cheio de segurança e abundância com os seus tios e padrinhos. Certo dia, passando pela porteira da casa de uma sua vizinha mais ou menos conhecida, ela lhe pediu:  \" Seu\" Cazuza, o senhor vai até à estação? Vou, Dona Ermelinda. Podia me fazer um favor? Pois não. É ver se o \"Seu\" Gustavo da padaria \"Rosa de Ouro\", me pode ceder duas estampilhas de seiscentos réis. Tenho que fazer um requerimento ao Tesouro, sobre coisas do meu montepio, com urgência, precisava muito. Não há dúvida, minha senhora. Cazuza, dizendo isto, pensava de si para si: ,'É um bom partido. Tem montepio, é viúva; o diabo são os filhos! \" Dona Ermelinda, à vista da resposta dele, disse: 2   Está aqui o dinheiro. Conquanto dissesse várias vezes que não precisava daquilo - o dinheiro - o impenitente jogador de football e feliz hóspede dos tios, foi embolsando os nicolaus, por causa das dúvidas. Fez o que tinha a fazer na estação, adquiriu as estampilhas e voltou para entregá-las à viúva. De fato, Dona Ermelinda era viúva de um contínuo ou cousa parecida de uma repartição pública. Viúva e com pouco mais de trinta anos, nada se falava da sua reputação. Tinha uma filha e um filho que educava com grande desvelo e muito sacrifício. Era proprietária do pequeno chalet onde morava, em cujo quintal havia laranjeiras e algumas outras árvores frutíferas. Fora o seu falecido marido que o adquirira com o produto de uma \"sorte\" na loteria; e, se ela, com a morte do esposo, o salvara das garras de escrivães, escreventes, meirinhos, solicitadores e advogados \"mambembes\", devia-o à precaução do marido que comprara a casa, em nome dela. Assim mesmo, tinha sido preciso a intervenção do seu compadre, o Capitão Hermenegildo, a fim de remover os obstáculos que certos \" águias\" começavam a pôr, para impedir que ela entrasse em plena posse do imóvel e abocanhar-lhe afinal o seu chalézito humilde. De volta, Cazuza bateu à porta da viúva que trabalhava no interior, com cujo rendimento ela conseguia aumentar de muito o módico, senão irrisório montepio, de modo a conseguir fazer face às despesas mensais com ela e os filhos. Percebendo a pobre viúva que era o Cazuza, sem se levantar da máquina, gritou: Entre, \"Seu\" Cazuza. Estava só, os filhos ainda não tinham vindo do colégio. Cazuza entrou. Após entregar as estampilhas, quis o rapaz retirar-se; mas foi obstado por Ermelinda nestes termos:  Espere um pouco, \" Seu\" Cazuza. Vamos tomar café. Ele aceitou e, embora, ambos se serviram da infusão da \"preciosa rubiácea\" , como se diz no estilo \"valorização\". A viúva, tomando café, acompanhado com pão e manteiga, pôs-se a olhar o companheiro com certo interesse. Ele notou e fez-se amável e galante, demorando em esvaziar a xícara. A viuvinha sorria interiormente de contentamento. Cazuza pensou com os seus botões: \"Está aí um bom partido: casa própria, montepio, renda das costuras; e além de tudo, há de lavar-me e consertar a roupa. Se calhou, fico livre das censuras da tia... \" Essa vaga tenção ganhou mais corpo, quando a viúva, olhando-lhe a camisa, perguntou:  \" Seu \" Cazuza, se eu lhe disser uma cousa, o senhor fica zangado?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "fica",
+                "child": "Seu \" Cazuza,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "\"",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], se eu lhe disser uma cousa, o senhor fica zangado?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a história em português brasileiro, depois que ela lhes falou, o Sr. Gomes abriu os olhos e iniciou a bater um pouco no piso com sua caneta enquanto olhava para ela.",
+        "generated_text_llama": "Personagem olhou para mim com um olhar sério e disse: \"Eu não me zango facilmente, mas é melhor que você seja honesto comigo\". Ele inspirou fundo e continuou: \"O que é que você quer dizer com 'cousa'? Qual é a notícia?\".",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ermelinda",
+        "sentence": "Num dado momento, Ermelinda foi até à gaveta de um móvel e tirou de lá um papel.",
+        "start_char": 6677,
+        "end_char": 6686,
+        "excerpt": "Cazuza chegou cedo e os dous estiveram a conversar. ela, com toda a naturalidade, e ele, cheio de ansiedade e, apreensivo. Num dado momento, Ermelinda foi até à gaveta de um móvel e tirou de lá um papel.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "foi",
+                "child": "Ermelinda",
+                "dep_h": "ROOT",
+                "pos_h": "AUX",
+                "lemma_h": "ir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ermelinda",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Num dado momento, [MASK] foi até à gaveta de um móvel e tirou de lá um papel.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após olhar para os lábios de seus colegas de quarto encalhados, ele (o personagem) levantou a mão e segurou o papel no ar como se desafiando todos os presentes. Ao fazer isso, sua facção inimiga olhou em direção a ele com uma espécie de suspeita, então ele abriu o papel com a ponta do lapis e lê: \"A jornada para chegar ao topo começa agora mesmo. Seja corajoso.\" A reação dos presentes foi instantânea: alguns sorriram, outros desapontados e os de sua facção começaram a mascar suas emoções enquanto os olhavam com uma espécie de desafio. Mas ele não se importava nem se voltou para eles, o papel já era seu passaporte para aquele caminho aguardando que pudesse ser percorrido.",
+        "generated_text_llama": "Enquanto olhava para o papel, que estava desgrenhado e amarrotado, Personagem pôs as mãos na testa, sentindo um pouco de confusão. Era um pedaço de papel branco, com uma mensagem escrita à mão, em lápis de cor. A mensagem era curta e direta: \"Encontre o que está escondido no passado\". Personagem sentiu um arrepio na espinha ao ler as palavras. O que queriam dizer? E como ele ia encontrar algo relacionado ao seu passado?",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pôs",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Cazuza",
+        "sentence": "João Cazuza, tendo a lista de gêneros na mão, ergueu-se da cadeira, saiu e não mais voltou...",
+        "start_char": 7588,
+        "end_char": 7599,
+        "excerpt": "Um chefe de família não se atrapalha... É agir ! João Cazuza, tendo a lista de gêneros na mão, ergueu-se da cadeira, saiu e não mais voltou...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ergueu-se",
+                "child": "João Cazuza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ergueur se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], tendo a lista de gêneros na mão, ergueu-se da cadeira, saiu e não mais voltou...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem, Personagem, tinha uma expressão de medo nos olhos quando segurava a lista de gêneros em suas mãos. Ao levantar-se da cadeira, ele parecia mais frágil do que o solitário indivíduo que era conhecido. Depois de fechar a porta atrás de si com uma intensidade que não era necessária para travar uma simples entrada, saiu rapidamente, como se estivesse fugindo de algum perigo ou medo.",
+        "generated_text_llama": "Ele caminhou lentamente até a estante repleta de livros, que se encontrava à entrada do quarto. Com as mãos tremendo ligeiramente, ele começou a deslizar os fatos entre si, procurando por um volume sobre psicologia que pudesse explicar o mistério que o envolvia. Finalmente, encontrou um livro antigo com capa escura e uma ilustração de um rosto sombrio no frontíço. Ele abriu-o cuidadosamente e começou a lêr...",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    }
+]

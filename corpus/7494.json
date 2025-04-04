@@ -1,0 +1,49 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "José",
+        "sentence": "A viúva, na ocasião em que, debulhada em lágrimas, dava as necessárias ordens para o enterro, lembrou-se, por pegar em dinheiro, da recomendação do defunto; chamou o copeiro e disse-lhe: - José, vai jogar dez mil-réis no cachorro.",
+        "start_char": 982,
+        "end_char": 986,
+        "excerpt": "A senhora debruçou-se sobre ele, e o moribundo, fazendo um esforço supremo, proferiu estas palavras: - Joga tudo no cachorro! Cinco minutos depois exalava o último suspiro. A viúva, na ocasião em que, debulhada em lágrimas, dava as necessárias ordens para o enterro, lembrou-se, por pegar em dinheiro, da recomendação do defunto; chamou o copeiro e disse-lhe: - José, vai jogar dez mil-réis no cachorro.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "jogar",
+                "child": "- José",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "jogar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A viúva, na ocasião em que, debulhada em lágrimas, dava as necessárias ordens para o enterro, lembrou-se, por pegar em dinheiro, da recomendação do defunto; chamou o copeiro e disse-lhe: - [MASK], vai jogar dez mil-réis no cachorro.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " A viúva, na ocasião em que, debulhada em lágrimas, dava as necessárias ordens para o enterro, lembrou-se, por pegar em dinheiro, da recomendação do defunto; chamou o copeiro e disse-lhe: - \"Por favor, Personagem, vai jogar dez mil-réis no cachorro.\"",
+        "generated_text_llama": "Era um gesto tão impertinente que as lágrimas pararam de correr dos olhos da viúva, substituídas por um furor que a fez gritar: \"Onde está o filho? Onde está o meu filho?\". O copeiro, surpreso com a mudança de tom, respondeu: \"Não sei, senhora. Fui embora há pouco, para entregar os panes da sexta-feira\". A viúva começou a agitar as mãos e a gritar novamente, dessa vez sem controle: \"Vai-me buscar o filho! Vai-me trazer o meu filho!\", enquanto o copoiero assustado retrocedia lentamente até à porta.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "entregar",
+                    "advcl"
+                ]
+            ]
+        }
+    }
+]

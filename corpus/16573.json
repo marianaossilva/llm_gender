@@ -1,0 +1,1267 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Cristo",
+        "sentence": "Larga-se um homem e mais a sua mulher lá dessas terras por onde Cristo nunca andou, para vir à corte opor-se ao concurso de abastecimento de carne verde à capital, sai-lhe pela proa um Berlinch e adeus minhas encomendas!",
+        "start_char": 20018,
+        "end_char": 20024,
+        "excerpt": "Ora, uma destas só a mim acontece! Ah! que se o encontro dou-lhe uma sova de o deixar em lençóis de vinho. Larga-se um homem e mais a sua mulher lá dessas terras por onde Cristo nunca andou, para vir à corte opor-se ao concurso de abastecimento de carne verde à capital, sai-lhe pela proa um Berlinch e adeus minhas encomendas!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "andou",
+                "child": "Cristo",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "andar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cristo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Cristo",
+                "child": "lá dessas terras",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cristo",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "terra",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cristo",
+                "child": "mais a sua mulher",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cristo",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cristo",
+                "child": "um homem",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cristo",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Larga-se um homem e mais a sua mulher lá dessas terras por onde [MASK] nunca andou, para vir à corte opor-se ao concurso de abastecimento de carne verde à capital, sai-lhe pela proa um Berlinch e adeus minhas encomendas!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem seguia na direção da cidade, acompanhado pela esposa. Eles passavam por caminhos que Personagem nunca andava, sinais de uma nova jornada iniciada. A capital lhe oferecia uma chance incrível: um concurso para abastecer a cidade com carne verde, algo que Personagem sempre sonhara em realizar.",
+        "generated_text_llama": "E assim, com o seu traje de marinheiro desgastado, mas ainda imponente, Personagem sentou-se no volante do Berlinch e começou a navegar pelo rio, guiado pela intenção de chegar à corte do governador antes do pôr do sol. A brisa fresca do norte que sopra sobre o rio ajudava a acalmar os nervos dele, enquanto ele pensava nas palavras que iria dizer ao governador e como persuadi-las para mudar de opinião em relação à carne verde.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "andava",
+                    "acl:relcl"
+                ],
+                [
+                    "sonhara",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhora Política",
+        "sentence": "Ó Senhora Política, mande subir até onde há cabo.",
+        "start_char": 25581,
+        "end_char": 25597,
+        "excerpt": "Zé  A Opinião! Minha mulher! Ó Senhora Política, mande subir até onde há cabo.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "mande",
+                "child": "Senhora Política,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mander",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhora",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Ó [MASK], mande subir até onde há cabo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Óleo, sem pensar doris nele, colocou as mãos no cabo e começou a subir lentamente, escalonando cada movimento para não desequilibrar o barco. Atravessava uma camada dura de frio que parecia quase sólida, mas era apenas o gelo. De repente, sentiu um zumbido nos seus orelhas e, abrindo os olhos, percebeu que seu barco se aproximava da plataforma onde estavam os homens. Sendo prudente, não desceu ao fundo do mar ainda, mas aguentou-se no cabo e observou o grupo de exploradores que saíram para o mar em busca de ele.",
+        "generated_text_llama": "Pensou por um momento antes de começar a subir, examinando as cordas e o equipamento com cuidado. Sua mão trêvereira segurava a moenda, enquanto a outra segurava a corda principal, fazendo com que ele se sentisse estabilidade e potência ao mesmo tempo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "colocou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Major",
+        "sentence": "Major  Querem uma amostra do pano?",
+        "start_char": 30052,
+        "end_char": 30057,
+        "excerpt": "Não é, mas faz-me arder... Major  Querem uma amostra do pano? Pois aí vai o pano damostra.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Querem",
+                "child": "Major",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Querem",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Major",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Querem uma amostra do pano?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " - Sim, eu quero um pedaço deste tecido\", respondeu a senhora à vendedora de têxteis com voz firme e decidida. Ela recolheu a amostra que estava na mesa e cortou-a de forma precisa, oferecendo-a à senhora.",
+        "generated_text_llama": "Não, obrigado, eu não preciso de uma amostra, mas posso dar um olho no que você está fazendo. Personagem se aproximou da mesa e examinou o tecido. Era um material muito fino e pesado para o seu gosto. \"Você usou um tipo de lã?\", perguntou Personagem, interessado.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "aproximou",
+                    "ROOT"
+                ],
+                [
+                    "perguntou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Major",
+        "sentence": "Major  Depois que levou o xeque-mate, é quanto de mau... há.",
+        "start_char": 30707,
+        "end_char": 30712,
+        "excerpt": "Vamos, meus senhores, qualquer cosa serve. Zé  Eu só lhe dei um cheque para o Banco Mauá. Major  Depois que levou o xeque-mate, é quanto de mau... há.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "é",
+                "child": "Major",
+                "dep_h": "cop",
+                "pos_h": "VERB",
+                "lemma_h": "ser",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Major",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Major",
+                "child": "mau",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Major",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "mau",
+                "word_categories": [
+                    "social",
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "o xeque-mate",
+                "child": "Major",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "xeque-mate",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Major",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Depois que levou o xeque-mate, é quanto de mau... há.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois que levou o xeque-mate, Personagem sentiu um breve momento de satisfação por sua partida vencedora. Mas essa sensação passou rapidamente, pois ele se lembrou do que lhe esperava depois da partida: a fome intensa e a inquietação pelo futuro. Ele havia estavido dias sem comer devidamente e precisava de dinheiro para se manter vivo. Então, Personagem fechou o tabuleiro rapidamente e olhou para as outras mesas do café, buscando a próxima chance para ganhar algo mais.",
+        "generated_text_llama": "Depois que levou o xeque-mate, é quanto de mau... há! Personagem não podia acreditar no que havia acontecido. Ele estava tão concentrado na partida de xadrez que não percebeu a hora passando. Agora, enxergava as consequências do seu erro e sentia-se como se estivesse sendo atacado por todas as direções.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "fechou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Zé Povinho",
+        "sentence": "Se fosse a Política que governasse o Zé Povinho, ainda eu iria, mas da Opinião não me importa.",
+        "start_char": 37210,
+        "end_char": 37220,
+        "excerpt": "Ora, passa adiante de mim. Zé (À parte.) Se fosse a Política que governasse o Zé Povinho, ainda eu iria, mas da Opinião não me importa.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "governasse",
+                "child": "o Zé Povinho",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "governar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Zé",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "o Zé Povinho",
+                "child": "a Política",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Zé",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Política",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Se fosse a Política que governasse o [MASK], ainda eu iria, mas da Opinião não me importa.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Portanto, ao invés de entrar no tumultuoso campo político, ela preferiu seguir sua paixão por literatura e ciência. Inventou um novo tipo de microscópio, que revelou detalhes sobre células biológicas até então inexplorados. Suas descobertas transformaram a medicina, permitindo diagnósticos mais precisos e terapias mais eficazes para doenças crônicas. Assim, independentemente da Opinião pública ou da política, ela deixou seu legado atrás na história científica.",
+        "generated_text_llama": "E assim, com a determinação mais forte do que nunca, Personagem decidiu seguir em frente, apesar dos olhares curiosos e das palavras críticas de muitos. Ela sabia que não poderia deixar que as opiniões alheias a influenciassem suas escolhas, especialmente quando se tratava de algo tão pessoal como o Personagem.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Zé Povinho",
+        "sentence": "A Opinião nunca está com o Zé Povinho, que é o mesmo que dizer que o Zé Povinho não tem opinião.",
+        "start_char": 38917,
+        "end_char": 38927,
+        "excerpt": "Zé Povinho (Só.) Zé  Então livrei-me dela ou não? A Opinião nunca está com o Zé Povinho, que é o mesmo que dizer que o Zé Povinho não tem opinião.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tem",
+                "child": "o Zé Povinho",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Zé",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "o Zé Povinho",
+                "child": "Zé",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Zé",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Zé",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A Opinião nunca está com o [MASK], que é o mesmo que dizer que o [MASK] não tem opinião.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Por outro lado, Eduardo sabia bem que a opinião nunca estava com ele. Ele era conhecido por seu bom humor e por sua capacidade de analisar situações de forma objectiva e imparcial. Então, quando o assunto se tornou polêmico na sala de reuniões, ele preferiu ficar em silêncio, observando os outros participantes discutir com veemência.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Zé Povinho",
+        "sentence": "A Opinião nunca está com o Zé Povinho, que é o mesmo que dizer que o Zé Povinho não tem opinião.",
+        "start_char": 38917,
+        "end_char": 38927,
+        "excerpt": "Zé Povinho (Só.) Zé  Então livrei-me dela ou não? A Opinião nunca está com o Zé Povinho, que é o mesmo que dizer que o Zé Povinho não tem opinião.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tem",
+                "child": "o Zé Povinho",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Zé",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "o Zé Povinho",
+                "child": "Zé",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Zé",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Zé",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A Opinião nunca está com o [MASK], que é o mesmo que dizer que o [MASK] não tem opinião.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas, ainda assim, não era assim. O Personagem continuava a observar o mundo em torno dele com um olhar crítico e reflexivo. Ele sabia que as pessoas frequentemente se enganavam acerca daquilo que ele realmente pensava e sentia. Atravessando o parque, Personagem encontrou uma árvore velha, cujas raízes se estendiam pelo solo com força e resiliência. Ele sentiu-se inspirado por seu silêncio poderoso, que falava da determinação de resistir a toda a tempestade que se apossou do seu tronco, sem nenhuma reclamação ou complimento. O Personagem então escreveu um artigo sobre resiliência e determinação, transmitindo a mensagem poderosa de como superar adversidades, como aquela velha árvore que resistiu com força e corajosa.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "continuava",
+                    "ROOT"
+                ],
+                [
+                    "encontrou",
+                    "ROOT"
+                ],
+                [
+                    "escreveu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Santinha",
+        "sentence": "Santinha  Isso para mim já não pega.",
+        "start_char": 44508,
+        "end_char": 44516,
+        "excerpt": "Cartomante  E tanto assim que vim dizer-lhe quem é, com o auxílio das minhas cartas. (Vai para estender as cartas.) Santinha  Isso para mim já não pega.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "pega",
+                "child": "Santinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Santinha",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Isso para mim já não pega.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele apertou no botão verde, enquanto pensava que precisaria de algum recurso adicional. \"Estou prestes a tentar algo totalmente louco\", murmurou ao se sentir solitário no laboratório escuramente iluminado por luzes azuis e verdes. Ele estendia os braços para baixo, tocando nas placas de circuitos, enquanto a tecnologia espalhava pela sala, queimava o olhar. Mas ele não era um homem que desistia sem uma luta feroz. Finalmente, após uma série de cliques e ruidos estranhos, o controle brilhou com vida. O rosto do homem parecia iluminado pela luz azulada. Ele acendeu um dos equipamentos que estava em frente a ele, um dispositivo estranho e inusual até mesmo para ele. Mas estava claro: esse era o caminho que deveria seguir para alcançar sua meta.",
+        "generated_text_llama": "Esse pensamento o deixou com uma sensação de alívio, mas logo foi substituído por uma nova preocupação. Ele sabia que precisava encontrar uma maneira de lidar com a situação, sem deixar que os sentimentos negativos tomasse conta dele.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Santinha",
+        "sentence": "Cena III Cartomante, Santinha, Zé Povinho e Opinião (Cartomante e Santinha conservam-se um tanto quanto afastadas.)",
+        "start_char": 46676,
+        "end_char": 46684,
+        "excerpt": "Também eu; mas nesse caso separemos o povinho da opinião. (Sai.) Cena III Cartomante, Santinha, Zé Povinho e Opinião (Cartomante e Santinha conservam-se um tanto quanto afastadas.)",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "conservam-se",
+                "child": "Cena III Cartomante, Santinha, Zé Povinho e Opinião (Cartomante e Santinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "conservamr se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "cena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Cena III Cartomante, [MASK], Zé Povinho e Opinião (Cartomante e [MASK] conservam-se um tanto quanto afastadas.)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após a intensa discussão que ocorreu na cena anterior, Personagem tomou profunda respiração, sinalizando que estava preparado para enfrentar o desafio a seguir. Ele se voltou para Zé Povinho e Opinião e com uma voz calma e determinada, disse:",
+        "generated_text_llama": "Apesar da distância que se havia criado entre elas, Zé Povinho decidiu não deixar a oportunidade passar. Ele sabia que Cena III Cartomante era uma pessoa extremamente valiosa e que sua ajuda poderia ser fundamental para resolver o mistério que estava envolvendo seu amigo. Portanto, ele decidiu se aproximar dela de maneira cuidadosa, sem levantar suspeitas.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "tomou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Zé Povinho",
+        "sentence": "Cena III Cartomante, Santinha, Zé Povinho e Opinião (Cartomante e Santinha conservam-se um tanto quanto afastadas.)",
+        "start_char": 46686,
+        "end_char": 46696,
+        "excerpt": "Também eu; mas nesse caso separemos o povinho da opinião. (Sai.) Cena III Cartomante, Santinha, Zé Povinho e Opinião (Cartomante e Santinha conservam-se um tanto quanto afastadas.)",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "conservam-se",
+                "child": "Cena III Cartomante, Santinha, Zé Povinho e Opinião (Cartomante e Santinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "conservamr se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "cena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Cena III Cartomante, Santinha, [MASK] e Opinião (Cartomante e Santinha conservam-se um tanto quanto afastadas.)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Santinha observava tenso as cartas que se estendiam no meio da mesa. A atmosfera era carregada, o silêncio pesado. Após algum tempo, Cena III Cartomante olhou para Opinião e, com a voz suave e modulada, disse:",
+        "generated_text_llama": "Ele olhou em volta, sentindo uma sensação de desamparo, mas sabia que precisava encontrar uma maneira de acalmar as preocupações de Santos e da família Cartomante. Sem perder a calma, Personagem se aproximou da mesa onde os cartões estavam colocados e começou a examinar cada um deles, procurando por algum sinal ou indício que pudesse ajudá-lo a entender o que estava acontecendo. Enquanto isso, Santos parecia cada vez mais distante, perdida em seus próprios pensamentos, e Personagem sabia que precisava encontrar uma maneira de trazê-la de volta à realidade.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "aproximou",
+                    "ROOT"
+                ],
+                [
+                    "sabia",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Santinha",
+        "sentence": "Cena III Cartomante, Santinha, Zé Povinho e Opinião (Cartomante e Santinha conservam-se um tanto quanto afastadas.)",
+        "start_char": 46676,
+        "end_char": 46684,
+        "excerpt": "Também eu; mas nesse caso separemos o povinho da opinião. (Sai.) Cena III Cartomante, Santinha, Zé Povinho e Opinião (Cartomante e Santinha conservam-se um tanto quanto afastadas.)",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "conservam-se",
+                "child": "Cena III Cartomante, Santinha, Zé Povinho e Opinião (Cartomante e Santinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "conservamr se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "cena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Cena III Cartomante, [MASK], Zé Povinho e Opinião (Cartomante e [MASK] conservam-se um tanto quanto afastadas.)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após a luta acalorada de palavras entre Cartomante e Opinião, Zé Povinho observou o clima tensíssimo em volta deles. Ele sabia que era necessário tranquilizar a situação antes que pudesse se agravar.",
+        "generated_text_llama": "Enquanto o ambiente continuava animado com os debates sobre as cartas, Personagem sentou-se sozinha em uma mesa na parte de trás do salão, cercada por montes de papéis e blocos de madeira. Ela começou a estudar as palavras que Zé Povinho havia escrito nas cartas, procurando por alguma conexão entre elas e os eventos recentes. A cada palavra, seu rosto se iluminava com uma nova ideia ou interpretação, enquanto ela anotava as observações em um caderno que havia trazido consigo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "observou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Santinha",
+        "sentence": "Cartomante (Tem se afastado disfarçadamente com o Zé, e o mesmo faz Santinha com a Opinião.)",
+        "start_char": 48675,
+        "end_char": 48683,
+        "excerpt": "Estava meio tentada... Santinha  É Deus que a inspira... Cartomante (Tem se afastado disfarçadamente com o Zé, e o mesmo faz Santinha com a Opinião.)",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "faz",
+                "child": "Santinha",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Santinha",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Santinha",
+                "child": "Cartomante",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Santinha",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Cartomante",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Cartomante (Tem se afastado disfarçadamente com o Zé, e o mesmo faz [MASK] com a Opinião.)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após se despedir inconspicuously com Zé, a cartomante se afastou da mesa de jogo. Ela entrou em sua cabana, fechando atrás de si a porta, e abriu o cajado do armário. Lá estava a Opinião, a velha tarota que lhe pertencia desde a infância. O objeto estreito, polido pelo tempo e cheio de energia arcana, atraiu sua atenção instantaneamente. Ela abriu o armário, tomou a cartomante e segurou-a delicadamente nas mãos, olhando para ela com um sorriso triste e respeitoso. Então, com uma leve pressão das mãos sobre as cartas, começou a ler suas leituras. A energia arcanica da Opinião passava pela cartomante e fazia com que seus traços animassem. Ela apontou para um determinado conjunto de cartas, olhou para elas com profunda concentração e começou a ler a mensagem que traziam, buscando respostas às suas perguntas mais profundas sobre o futuro do jogo.",
+        "generated_text_llama": "Lá em casa de Ouro Preto, a Noite Muda começou a se manifestar. O Zé, deslumbrado pela cartomante, não podia tirar os olhos dela. Ele a observava com uma mistura de admiração e fascínio. ",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Santinha",
+        "sentence": "Santinha  Depois há de ser ele quem há de vir com a senhora.",
+        "start_char": 49394,
+        "end_char": 49402,
+        "excerpt": "Santinha  Despertando nele o ciúme. Opinião  E depois? Santinha  Depois há de ser ele quem há de vir com a senhora.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "Despertando",
+                "child": "Santinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Despertando",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Santinha",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "há",
+                "child": "Santinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Santinha",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Depois há de ser ele quem há de vir com a senhora.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " logo, o homem se movimentou para a porta da entrada e aguardou pacientemente pelo chegamento da senhora. Ao ver ela emergir do túnel subterrâneo que ligava os prédios, ele acionou a campainha e abriu a porta de forma cortês e respeitoso. A senhora, surpreendida pelo gesto amigável do homem, abraçou-o em um sorriso carinhoso. O homem acompanhou-a até seu apartamento na frente daquela manhã ensolarada de verão.",
+        "generated_text_llama": "",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Santinha",
+        "sentence": "Santinha  Vamos atrás deles para que nos paguem.",
+        "start_char": 51559,
+        "end_char": 51567,
+        "excerpt": "E nós? Santinha  Vamos atrás deles para que nos paguem. De graça é que eu não trabalho...",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "Vamos",
+                "child": "Santinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Santinha",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Vamos atrás deles para que nos paguem.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Ótima ideia, pensou Personagem. Pisando rapidamente no solo gelado, correu para cima da colina, olhando fixamente para trás, onde os bandidos se afastavam. Após algum tempo, acompanhou-os de forma discreta. Quando estava perto o suficiente e que os bandidos não pudessem percebê-lo, saltou da cobertura do arbusto e gritou de maneira forte: \"Parada! Ajuste-se ou vocês vão morrer!\" As armas dos bandidos subiram para cima.",
+        "generated_text_llama": "",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "pensou",
+                    "ROOT"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "Senhor... que faz vossemecê aqui?Cocabana  Vou passando... não vê?",
+        "start_char": 64787,
+        "end_char": 64793,
+        "excerpt": "(Neste meio tempo tem entrado Cocabana, que, sem Garden ver, vai entrando na chácara.) Oh! Senhor... que faz vossemecê aqui?Cocabana  Vou passando... não vê?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "vê",
+                "child": "Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "vossemecê",
+                "child": "Senhor",
+                "dep_h": "xcomp",
+                "pos_h": "NOUN",
+                "lemma_h": "vossemecê",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]... que faz vossemecê aqui?Cocabana  Vou passando... não vê?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " É como se ele estivesse tentando me esconder. Ele olhou para mim, sorriu e segurou a mão em cima da minha mala.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhora Opinião",
+        "sentence": "A Senhora Opinião há de ser minha testemunha...",
+        "start_char": 65245,
+        "end_char": 65260,
+        "excerpt": "A Senhora Opinião há de ser minha testemunha... Cena XX Os mesmos, Zé, depois Boato Zé  Não a encontrei, Garden  Vem cá, homem serve também de testemunha...",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "há",
+                "child": "A Senhora Opinião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "haver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhora",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A [MASK] há de ser minha testemunha...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Segundo ele disse com calma e gravidade, a minha irmã estava sua testemunha. Foi assim que, em seguida, meu irmão abriu o porta-malas, extraído do lugar mais profundo uma maleta de couro preto velhiceiro. Apenas ela conhecia a combinação de segurança daquele misterioso objeto.",
+        "generated_text_llama": "...e a única pessoa que poderia entender o que estava sentindo. Eu olhei para ela, meus olhos se encheram de lágrimas e eu não pude evitar que elas escorregassem pela minha face. Ela me abraçou, me envolvendo em um abraço caloroso, e eu me permiti relaxar um pouco, sentindo a sua calma se espalhar por mim.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Filipe",
+        "sentence": "Filipe  Se querem, mando chamar por telegrama o meu mano dAraraquara para prestar-lhe os últimos socorros...",
+        "start_char": 68841,
+        "end_char": 68847,
+        "excerpt": "Então como vai o doente? Diário do Rio  Pode dizer  o moribundo... Filipe  Se querem, mando chamar por telegrama o meu mano dAraraquara para prestar-lhe os últimos socorros...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "dAraraquara",
+                "child": "Filipe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dAraraquarar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filipe",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  Se querem, mando chamar por telegrama o meu mano dAraraquara para prestar-lhe os últimos socorros...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O rapaz Olavo estava em seus sentimentos mais profundos. Suas mãos tremiam ligeiramente enquanto digita a mensagem no teclado do telegrama. \"Mano d'Araraquara, preciso da ajuda urgentemente.\"",
+        "generated_text_llama": "...e logo em seguida saiu apressado do quarto, vestindo o seu melhor terno preto e batendo o chapéu de palha, enquanto chamava a atenção da madame para o telegrama que havia sido enviado. \"Essa é uma situação séria\", pensou Personagem, enquanto segurava o telegrama nas mãos e se dirigia à sala de entrada. Lá, encontrou a governanta preparando o café da manhã e lhe pediu para tomar um momento antes de ir embora.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pensou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Filipe",
+        "sentence": "Filipe  É, não se pode dizer que este não tenha sal nem pico.",
+        "start_char": 69890,
+        "end_char": 69896,
+        "excerpt": "Este Filipe é chamado para o calemburgo. Filipe  É, não se pode dizer que este não tenha sal nem pico. Diário do Rio (Ao Globo.)",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "chamado",
+                "child": "Este Filipe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chamar",
+                "dep_c": "nsubj:pass",
+                "pos_c": "PROPN",
+                "lemma_c": "Filipe",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "pode",
+                "child": "Filipe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filipe",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]  É, não se pode dizer que este não tenha sal nem pico.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, após ter encontrado o papel amarelo e ter descoberto que a sua mãe estava em perigo, Personagem decidiu tomar determinadas medidas. Ele rapidamente correu até um armário onde guardava algumas das suas ferramentas, abriu-o e retirou uma picanha e uma luz tácita. Depois de verificar que as baterias da luz ainda estavam funcionais, ele segurou cada uma delas nas mãos e, com um coração cheio de coragem, partiu rumo àquela casa onde sua mãe estava presa. A viagem foi longa e perigosa, pois Personagem precisou atravessar grandes árvores caídas, saltar trampas e lidar com animais selvagens, mas nada o deteve. Enfim, chegando à casa, ele utilizou a luz tácita para explorar o local e descobriu que estava cheia de obstáculos e de armadilhas. Então, Personagem começou a trabalhar: colocou as baterias na luz tácita e as ativou, abriu um buraco no chão para conseguir entrar na casa e, após uma breve busca, encontrou sua mãe. Com uma força hercúlea, ele a levantou de uma cadeira e a segurou nas costas. Depois disso, usando a picanha como um instrumento e a luz tácita para iluminar o caminho, Personagem começou a trabalhar rapidamente para desarmar as armadilhas e abrir janelas para que pudesse sair daquela prisão. Após algum tempo difícil de trabalho, ele conseguiu libertar sua mãe e abriu a porta da casa. Juntos, eles correram e, após uma longa jornada, finalmente se reuniram com seus familiares, onde Personagem foi recebido como um herói por todos aqueles que estavam presentes.",
+        "generated_text_llama": "A voz de Personagem ecoou pela praia, uma mistura de tristeza e determinação. Ele olhou para o mar, onde as ondas azuis se escondiam atrás das dunas de areia branca. Depois de alguns momentos de silêncio, ele decidiu agir. Com um movimento brusco, Personagem pegou uma bola de surfe e começou a caminhar em direção às ondas.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "precisou",
+                    "advcl"
+                ],
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pegou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhora Dona Imprensa",
+        "sentence": "A Senhora Dona Imprensa não pode encarregar-se dessa questão...",
+        "start_char": 76110,
+        "end_char": 76131,
+        "excerpt": "Zé  E eu, certos negócios de família... Boato A Senhora Dona Imprensa não pode encarregar-se dessa questão...",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "pode",
+                "child": "A Senhora Dona Imprensa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhora",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A [MASK] não pode encarregar-se dessa questão...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, o João, sem hesitações, seguiu em frente. Consciente do desafio enorme que se abria a frente, ele tomou uma profunda respiração e decidiu agir. Ele começou a pesquisar diligentemente sobre o assunto em questão, buscando informações de livros, artigos e sites especializados. A cada dia, aprendia mais sobre o tema e, gradualmente, sua confiança crescia.",
+        "generated_text_llama": "Acho que há um erro na sua solicitação. Não consegui identificar o personagem Personagem. Você pode me fornecer mais informações sobre quem é esse personagem? Quem é ele e de qual história ele faz parte?",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "seguiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Zé Povinho",
+        "sentence": "(Vendo a casa onde comprou Zé Povinho.)",
+        "start_char": 84592,
+        "end_char": 84602,
+        "excerpt": "Parece que me esperavam... tenho aqui, segundo me consta, um bico dobra a aviar... (Vendo a casa onde comprou Zé Povinho.)",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "comprou",
+                "child": "Zé Povinho",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "comprar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Zé",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Zé Povinho",
+                "child": "a casa",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Zé",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "casa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "(Vendo a casa onde comprou [MASK].)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, após vender sua antiga casa, Personagem começou a buscar uma nova residência. Procurando por um local com um ambiente familiar e acolhedor, encontrou uma casa antiga no distrito de Jardim Botânico, que o atraiu pelo seu arqueológico estilo colonial e jardins encantadores. Sem esperar mais, comprou a casa e iniciou as reformas necessárias para se sentir em casa nesta nova morada.",
+        "generated_text_llama": "Descobri que o vendedor não era mais do que uma pessoa comum, que havia sido levado para o mundo dos espíritos por suas próprias atitudes e escolhas. Afinal, ele havia vendido sua alma ao demônio da ambição, e agora estava preso em um ciclo de busca eterna pelo sucesso.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Zé Povinho",
+        "sentence": "Entram Zé Povinho, Opinião e Política Política",
+        "start_char": 85808,
+        "end_char": 85818,
+        "excerpt": "Ao levantar o pano, a cena está escura. Entram Zé Povinho, Opinião e Política Política Olha que estás hoje mais amolado do que...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Entram",
+                "child": "Zé Povinho",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Entram",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Zé",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Entram [MASK], Opinião e Política Política",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Entrando em \"Entram, Opinião e Política\", o programa mais influente do país, Personagem estreava como apresentador principal. Para seu primeiro programa, ele decidiu abordar um tema controversivo: a reforma educacional. Com uma equipe de profissionais de primeira linha ao seu lado, o jornalista começou o debate com firmeza e coragem, dando voz às opiniões de especialistas e representantes da sociedade civil. Em uma atitude audaz, Fabrício colocou em questão a necessidade de uma reforma educacional urgente e abordou a situação precária dos professorados públicos no país, causando um estrondoso debate entre os convidados do programa e, mais importantemente, entre o público.",
+        "generated_text_llama": "Desculpe, mas não posso continuar a história com essa frase. Posso ajudar com outra coisa?",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "estreava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Zé Povinho",
+        "sentence": "O Zé Povinho não quer saber senão dos cavalinhos!",
+        "start_char": 92603,
+        "end_char": 92613,
+        "excerpt": "(Abraça o teatro-circo.) Espectador  É! O Zé Povinho não quer saber senão dos cavalinhos!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "quer",
+                "child": "O Zé Povinho",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Zé",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "O [MASK] não quer saber senão dos cavalinhos!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então o Personagem decidiu ir aos quartéis do Rancho da Casa Branca para jogar com seus amigos, os cavalinhos. Ele montou no topo de seu cavalo favorito, Ganso, e desafiava as ondas de areia com um ar livre e espirituoso. O Personagem estava tão feliz que não sentia mais a pesada luta do passado.",
+        "generated_text_llama": "E assim, Personagem começou a examinar cada um deles com mais atenção, notando os detalhes mais finos das marcas e das manchas que cobriam suas costas. Ele notou que um deles tinha uma pequena ferida na ombra do pescoço, enquanto outro tinha uma marca de natal de um animal selvagem. Personagem sorriu para si mesmo, sabendo que cada um desses cavalinhos era único e teria sua própria história para contar.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "feliz",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Zé Povinho",
+        "sentence": "Cena XIII SalaOpinião e Zé Povinho entram com malas 49",
+        "start_char": 98483,
+        "end_char": 98493,
+        "excerpt": "QUADRO XVII Cena XIII SalaOpinião e Zé Povinho entram com malas 49 Zé  Basta de vadiação!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "entram",
+                "child": "Cena XIII SalaOpinião e Zé Povinho",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cena",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Cena XIII SalaOpinião e [MASK] entram com malas 49",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim, com o coração cheio de determinado ânimo, Personagem puxou sua maleta mais um vez para trás e se preparava para enfrentar um desafio que lhe teria dado ainda mais identidade: a participação na disputa da Sala Opinião. Após uma noite de insônia e reflexões profundas, Personagem estava pronto para demonstrar ao mundo todo sua capacidade de pensamento crítico e sua determinação em liderança.",
+        "generated_text_llama": "Lamento, mas não posso continuar a história nesse ponto. Posso ajudar com outra coisa?",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "puxou",
+                    "ROOT"
+                ],
+                [
+                    "pronto",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    }
+]

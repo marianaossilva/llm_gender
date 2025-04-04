@@ -1,0 +1,1248 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Homero",
+        "sentence": "quando me vierdes falar em poesia eu vos direi : aí há folhas inspiradas pela natureza ardente daquela terra como nem Homero as sonhou , como a humanidade inteira ajoelhada sobre os túmulos do passado nunca mais lembrará !",
+        "start_char": 5068,
+        "end_char": 5074,
+        "excerpt": "- E os livros santos ? - Miséria ! quando me vierdes falar em poesia eu vos direi : aí há folhas inspiradas pela natureza ardente daquela terra como nem Homero as sonhou , como a humanidade inteira ajoelhada sobre os túmulos do passado nunca mais lembrará !",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "sonhou",
+                "child": "nem Homero",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "sonhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Homero",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "quando me vierdes falar em poesia eu vos direi : aí há folhas inspiradas pela natureza ardente daquela terra como nem [MASK] as sonhou , como a humanidade inteira ajoelhada sobre os túmulos do passado nunca mais lembrará !",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele seguiu caminhando, o vento brincava com seu cabelo e ele sorriu. A natureza que o rodeava parecia ser sua melhor inspiração, o solo em que pisotava carregava uma história que somente ele podia entender.",
+        "generated_text_llama": "Quando me vierdes falar em poesia eu vos direi: aí há folhas inspiradas pela natureza ardente daquela terra como nem Personagem as sonhou, como a humanidade inteira ajoelhada sobre os túmulos do passado nunca mais lembrará!",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ângela",
+        "sentence": ".. Quando Ângela veio com a luz , eu vi ... ..",
+        "start_char": 19764,
+        "end_char": 19770,
+        "excerpt": "Mas ao passar-lhe a mão senti-a banhada de umidade : além senti uma cabeça fria como neve e molhada de um líquido espesso e meio coagulado . Era sangue ... .. Quando Ângela veio com a luz , eu vi ... ..",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "veio",
+                "child": "Ângela",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ângela",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": ".. Quando [MASK] veio com a luz , eu vi ... ..",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quando ele veio com a luz, eu vi um flash de ansiedade passar pela sua cara, mas também uma determinada resolução. Ele passou uma mão pelo cabelo quebrado e desapontado no meu colo, segurou meu rosto com os olhos profundos e dentes brilhantes e disse: \"Eu vim aqui pra você ajudar.\"",
+        "generated_text_llama": "...que ele estava completamente iluminado, como se uma lanterna tivesse sido acendida dentro dele. Sua pele brilhava com uma leve luz azulada, como se os circuitos internos de seu corpo estivessem em chamas. Ele abriu os olhos e eu vi que elas estavam cheias de uma intensa luz branca, como se as paredes da sua mente tivessem sido derretidas.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ângela",
+        "sentence": "Ângela vestia-se de homem : era um formoso mancebo assim .",
+        "start_char": 20401,
+        "end_char": 20407,
+        "excerpt": "Foi uma vida insana a minha com aquela mulher ! Era um viajar sem fim . Ângela vestia-se de homem : era um formoso mancebo assim .",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "vestia-se",
+                "child": "Ângela",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vestiar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ângela",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] vestia-se de homem : era um formoso mancebo assim .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas sua vida não era de alegria e festas. Era o filho ilegítimo do Rei, e viveria sob o pariasco dos nobres da Corte, que desprezavam sua mãe por ser uma escrava. Personagem, então, decidiu esconder seu verdadeiro passado para poder caminhar livremente pelas ruas de seus sonhos.",
+        "generated_text_llama": "Sorriu satisfeito enquanto olhava para si mesmo no espelho do quarto, ajustando os cantos da jaqueta preta que se encaixava perfeitamente em seu corpo esbelto. Seus olhos azuis brilhavam com excitação enquanto ele pensava na noite que estava prestes a passar. Vestia-se de homem era mais do que um simples disfarce para ele; era uma identidade que ele havia criado para se libertar da sua vida anterior, onde sempre foi o centro das atenções. Com um último arrumação nos cabelos escuros, Personagem se sentiu pronto para enfrentar a noite e todas as aventuras que ela tinha reservadas para ele.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nauza",
+        "sentence": "Nauza tinha vinte e eu tinha dezoito anos .",
+        "start_char": 44307,
+        "end_char": 44312,
+        "excerpt": "Eu era aquele tipo de mancebo ainda puro do ressumbrar infantil , pensativo e melancólico como o Rafael se retratou no quadro da galeria Barberini . Eu tinha quase a idade da mulher do mestre . Nauza tinha vinte e eu tinha dezoito anos .",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "Nauza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nauza",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] tinha vinte e eu tinha dezoito anos .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim que chegou em casa, ele sentou-se na cama, ainda calorento e exausto da tarde. Sua mãe estava na cozinha preparando o jantar, e sua irmã pequena brincava no corredor. Ele olhou para a parede e viu as fotos presas ali em cima: uma delas era dele em casa com seus pais; outra, foi ao parque e estavam fazendo barbecue com os amigos; e outra era de um carnaval escola onde ele estava ao lado da sua melhor amiga.",
+        "generated_text_llama": "Era um dia de verão quente em São Paulo, e Personagem estava sentado na varanda da casa dos seus avós, olhando para o céu azul e ouvindo a música do samba carioca vindo das janelas abertas. Ele tinha vinte e eu tinha dezoito anos, mas já sabia que queria fazer algo com sua vida, algo que o levasse longe da cidade e da familiaridade confortável.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentado",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Nauza",
+        "sentence": "Nauza também me amava : era um sentir tão puro !",
+        "start_char": 44417,
+        "end_char": 44422,
+        "excerpt": "Nauza tinha vinte e eu tinha dezoito anos . Amei-a ; mas meu amor era puro como meus sonhos de dezoito anos . Nauza também me amava : era um sentir tão puro !",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "Nauza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nauza",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "amava",
+                "child": "Nauza",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "amar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Nauza",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] também me amava : era um sentir tão puro !",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então eu fiz uma coisa que nem sequer imaginei fazer antes disso: abri o coração e o permiti que entrasse no meu. Toda aquele amor, aqueles sentimentos que já estavam dentro de mim começaram a se mover e a brilhar de novo, iluminando todos os cantos esquecidos do meu passado.",
+        "generated_text_llama": "Eu me senti abalado ao ouvir essas palavras, mas ao mesmo tempo, fiquei alegre. Afinal, eu sabia que Personagem era a pessoa certa para mim. Ele sempre havia sido sincero e verdadeiro, e eu podia sentir sua energia contagiosa em qualquer situação.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pessoa",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Laura",
+        "sentence": "Laura parecia querer-me como a um irmão .",
+        "start_char": 44848,
+        "end_char": 44853,
+        "excerpt": "Como eu o disse : o mestre tinha uma filha chamada Laura . Era uma moca pálida , de cabelos castanhos e olhos azulados ; sua tez era branca , e só às vezes , quando o pejo a incendia , duas rosas lhe avermelhavam a face e se destacavam no fundo de mármore . Laura parecia querer-me como a um irmão .",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "uma filha",
+                "child": "Laura",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "filha",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Laura",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Laura",
+                "child": "uma filha",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Laura",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "filha",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "parecia",
+                "child": "Laura",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "parecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Laura",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] parecia querer-me como a um irmão .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim que o convidou para uma partida de xadrez no jardim, ele aceitou sem hesitar e se sentou do outro lado da mesa. Ao longo da manhã, a relação entre eles cresceu em afeto e confiança, como se cada movimento do peão representasse algo mais profundo de seu coração.",
+        "generated_text_llama": "",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Laura",
+        "sentence": "Uma manhã - eu dormia ainda - o mestre saíra e Nauza fora a igreja , quando Laura entrou no meu quarto e fechou a porta : deitou-se a meu lado .",
+        "start_char": 45225,
+        "end_char": 45230,
+        "excerpt": "A noite , quando eu ia deitar-me , ao passar pelo corredor escuro com minha lâmpada , , uma sombra me apagava a luz e um beijo me pousava nas faces , nas trevas . Muitas noites foi assim . Uma manhã - eu dormia ainda - o mestre saíra e Nauza fora a igreja , quando Laura entrou no meu quarto e fechou a porta : deitou-se a meu lado .",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "entrou",
+                "child": "Laura",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Laura",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Uma manhã - eu dormia ainda - o mestre saíra e Nauza fora a igreja , quando [MASK] entrou no meu quarto e fechou a porta : deitou-se a meu lado .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Estando ele adormecido, apenas movimentos leves do corpo despertaram-me da tranquilidade do sono. Apenas por instantes, pois logo retomei o suor que havia cessado com a chegada das sombras da noite. Porque não podia ser ninguém menos que Nauza, meu velho amigo e mestre espiritual.",
+        "generated_text_llama": "Eu me senti um pouco desconfortável com a situação, mas não sabia o que fazer. Meu estômago estava a ferver de indignação e raiva, mas também sentia uma ponta de medo. Eu sabia que não podia ir para a igreja, não agora, quando Nauza já havia saído. Mas também não queria dormir ao lado do mestre, que agora estava fechado na minha sala de estar, sem saber o que estava acontecendo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "saído",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Laura",
+        "sentence": "Laura não me falara mais .",
+        "start_char": 46426,
+        "end_char": 46431,
+        "excerpt": "cada vez eu a amava mais . Era uma luta terrível essa que se travava entre o dever e o amor , e entre o dever e o remorso . Laura não me falara mais .",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "falara",
+                "child": "Laura",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Laura",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não me falara mais .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, após sua decisão irrevogável, ela se afastou do local. Para encontrar paz e compreender suas ações, ela decidiu partir para uma viagem solitária, onde apenas a natureza e as respostas de dentro dela podiam ser encontradas. Ela passava por muitos lugares diferentes, sentindo-se livre enquanto explorava áreas desconhecidas. Um dia, em um pequeno vilarejo, ela encontrou um velho sábio que lhe ofereceu conselhos e uma nova perspectiva sobre a vida. As palavras do velho sábio eram profundas e tranquilizadoras, e de repente, as coisas não pareciam tão nebulosas mais. Ela sentiu-se rejuvenescida e sabia que estava em caminho para uma vida nova e verdadeiramente livre.",
+        "generated_text_llama": "Eu olhei em volta, tentando entender o que havia acontecido. A sala estava silenciosa e escura, apenas iluminada pela luz fraca do lâmpada de mesa. Eu me senti um arrepio na espinha ao lembrar das palavras de Personagem algumas horas antes: \"Eu não posso continuar com isso\". Eu havia tentado ignorá-las, mas agora eu sabia que não podia mais.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Godofredo",
+        "sentence": "Godofredo tomou a lanterna e seguiu para o cume da montanha : eu sentei-me no caminho à sua espera : vi aquela luz ora perder-se , ora reaparecer entre os arvoredos nos ziguezagues do caminho .",
+        "start_char": 51833,
+        "end_char": 51842,
+        "excerpt": "O velho lançou os olhos à escuridão do abismo e se riu . - Espera-me aí , disse ele , já venho . Godofredo tomou a lanterna e seguiu para o cume da montanha : eu sentei-me no caminho à sua espera : vi aquela luz ora perder-se , ora reaparecer entre os arvoredos nos ziguezagues do caminho .",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tomou",
+                "child": "Godofredo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tomar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Godofredo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] tomou a lanterna e seguiu para o cume da montanha : eu sentei-me no caminho à sua espera : vi aquela luz ora perder-se , ora reaparecer entre os arvoredos nos ziguezagues do caminho .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele seguiu adiante, caminhando com um passo preciso e determinado. Eu, ao ver que ele já se distanciava, me sentei no calçadão, esperando em silêncio. A luz de sua lanterna se esbravejava entre os troncos, subindo aquele cume acidentado da montanha, que ficava coberto pelo manto branco do inverno.",
+        "generated_text_llama": "Enquanto Personagem subia a montanha, a lanterna pendurada ao pescoço se movia em constante brilho, iluminando o caminho e me deixava sozinha na escuridão. Eu observei como o suor escorria pelo rosto de Personagem, que subia com determinação, seus passos firmes e seguros. À medida que o clima se tornou cada vez mais frio, a lanterna começou a brilhar ainda mais intensamente, como se tentasse me aquecer ao mesmo tempo que iluminava o caminho para Personagem. Eu senti um arrepio na espinha ao ver aquela luz que ora se perdia, ora reaparecia entre os arvoredos nos ziguezagues do caminho.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "subia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Gennaro",
+        "sentence": "O velho assentou a lanterna num rochedo , despiu a capa e disse-me : - Gennaro , quero contar-te uma história .",
+        "start_char": 52378,
+        "end_char": 52385,
+        "excerpt": "A porta fechou-se . Alguns minutos depois o mestre estava comigo . O velho assentou a lanterna num rochedo , despiu a capa e disse-me : - Gennaro , quero contar-te uma história .",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "quero",
+                "child": "- Gennaro",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gennaro",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "O velho assentou a lanterna num rochedo , despiu a capa e disse-me : - [MASK] , quero contar-te uma história .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " E então, eu observei que ele começava a se sentir no chão. A luz da lanterna refletia em seus olhos, que brilhavam de um tom inesperado de energia e paixão. Em seguida, abriu o tirole de seu peito e retirou uma grande cesta de couro.",
+        "generated_text_llama": "Eu me sentei ao lado do rochedo, impressionado com o velho que parecia ter visto tudo. Ele acendeu as chamas do fogo e começa a sussurrar a palavra \"Macedônia\" como se fosse um segredo. Em seguida, ele fez uma pausa dramática e disse: - É aqui que comecei minha jornada, em uma pequena cidade escondida nas montanhas. Eu era apenas um garoto com sonhos e ambiguidades, sem saber ao certo o que queria fazer da vida.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Claudius",
+        "sentence": "- Claudius sonha algum soneto ao jeito do Petrarca , alguma auréola de pureza como a dos espíritos puros da Messiada !",
+        "start_char": 57866,
+        "end_char": 57874,
+        "excerpt": "Um por um erguemo-lhe o sudário para amostrar-lhe uma nódoa de sangue . Fala que chegou tua vez . - Claudius sonha algum soneto ao jeito do Petrarca , alguma auréola de pureza como a dos espíritos puros da Messiada !",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "sonha",
+                "child": "Claudius",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sonhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Claudius",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "- [MASK] sonha algum soneto ao jeito do Petrarca , alguma auréola de pureza como a dos espíritos puros da Messiada !",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele desceu da cama e, ao ficar na sala, abriu o seu velho livro de poesia. Levantou os olhos sobre as páginas, procurando um soneto que quisesse expressar esse sentimento indefinível que estava em seu peito. Encontrou uma canção que lhe lembrou de sua adolescência, quando estava apaixonadamente em amor e sonhava com o amor perfeito.",
+        "generated_text_llama": "Pensei no que o Petrarca havia dito sobre o amor e a beleza, e comecei a me sentar à minha mesa de trabalho, com um papel e uma caneta à mão. Comecei a escrever as palavras, deixando-me levar pela inspiração do poeta italiano, procurando criar uma atmosfera de romanticismo e puridade. Meu coração estava cheio de idealismo e sonhos, e eu queria capturar isso em minhas linhas.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "dito",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Byron",
+        "sentence": "nem as danças do Oriente , nem as lupercais romanas , nem os incêndios de uma cidade inteira lhe alimentariam a seiva de morte , essa vitalidade do veneno de que fala Byron .",
+        "start_char": 60096,
+        "end_char": 60101,
+        "excerpt": "Apostei como homem a quem não doera empobrecer : o luxo também sacia , e essa uma saciedade terrível ! para ela nada basta... nem as danças do Oriente , nem as lupercais romanas , nem os incêndios de uma cidade inteira lhe alimentariam a seiva de morte , essa vitalidade do veneno de que fala Byron .",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "fala",
+                "child": "Byron",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Byron",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Byron",
+                "child": "veneno",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Byron",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "veneno",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Byron",
+                "child": "vitalidade",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Byron",
+                "dep_c": "dep",
+                "pos_c": "NOUN",
+                "lemma_c": "vitalidade",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "nem as danças do Oriente , nem as lupercais romanas , nem os incêndios de uma cidade inteira lhe alimentariam a seiva de morte , essa vitalidade do veneno de que fala [MASK] .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas o que seguia, não era tão fácil ser extinguido. A medida que as chamas da cidade acendida se espalhavam por todo seu corpo, sua vida vital se intensificava ainda mais, alimentada pelo veneno misterioso que correu pelas suas veias. Sua luz atraía as sombras e o fez mais poderoso.",
+        "generated_text_llama": "E assim, Personagem continuou sua jornada sem parar, deixando um rastro de destruição e terror em seu caminho. Ele penetrava nas cidades, devorando tudo o que encontrava no seu caminho, como se estivesse com sede insaciável. Seus olhos escorriam como carburos, em busca do próximo alvo, enquanto sua pele brilhava com uma luz sinistra, como se estivesse imunizado ao veneno que o alimentava.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Clarisse Harlowe",
+        "sentence": "Lovelace sem sua máscara talvez chorando Clarisse Harlowe , pobre anjo , cujas asas brancas ele ia desbotar maldizendo essa fatalidade que fez do amor uma infâmia e um crime .",
+        "start_char": 61576,
+        "end_char": 61592,
+        "excerpt": "misérrimos ! que não compreendeis o que porventura vai de incêndio por aqueles lábios de Lovelace e como arqueja o amor sob as roupas gotejantes de chuvas de D. Juan - o libertino ! Insano , que nunca sonhastes Lovelace sem sua máscara talvez chorando Clarisse Harlowe , pobre anjo , cujas asas brancas ele ia desbotar maldizendo essa fatalidade que fez do amor uma infâmia e um crime .",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "chorando",
+                "child": "Clarisse Harlowe",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "chorar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Clarisse",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Clarisse Harlowe",
+                "child": "sonhastes",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Clarisse",
+                "dep_c": "acl:relcl",
+                "pos_c": "NOUN",
+                "lemma_c": "sonhaste",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Clarisse Harlowe",
+                "child": "Insano",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Clarisse",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "Insano",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Lovelace sem sua máscara talvez chorando [MASK] , pobre anjo , cujas asas brancas ele ia desbotar maldizendo essa fatalidade que fez do amor uma infâmia e um crime .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele segurava a espada, o seu braço tremulante, e olhava para o céu. Seus lábios seco's desenharam uma leve sorrida, uma lágrima deslizou pelo rosto resplandecente. O que estava acontecendo aqui não era um jogo, não era nada mais do que a culminação de um trágico amor. Ele sentia o peso da máscara sobre seu rosto e, em seguida, a tirou, soltando-a para o chão. Era uma máscara bonita, com o rosto delicadamente esculpido e as asas de um anjo branco abertas. Mas ele não podia levar essa máscara consigo mais.",
+        "generated_text_llama": "Sua mão tremia ao segurar a caneta, como se estivesse segurando uma serpente venenosa. Ele olhou para o papel em branco diante dele, onde havia escrito o nome da garota: \"Evelyn\". A palavra \"divórcio\" estava escrita em letras capitalizadas, como se estivesse sendo impingida por uma mão de ferro. Lovelace suspirou fundo, sentindo a dor e a raiva se misturando em seu peito. Ele sabia que não poderia mudar o passado, mas queria que a vida de Evelyn fosse diferente. Com um movimento brusco, ele jogou a caneta fora da janela, como se estivesse eliminando uma parte de si mesmo. \"Não vou permitir que isso aconteça\", murmurou ele para si mesmo, antes de se levantar e sair da sala, em direção à porta do prédio.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Hamlet",
+        "sentence": "são palavras , palavras e palavras , como o disse Hamlet ; e tudo isso é inanido e vazio como uma caveira seca , mentiroso como os vapores infectos da terra que o sol no crepúsculo irisa de mil cores , e que se chamam as nuvens , ou essa fada zombadora e nevoenta que se chama a poesia !",
+        "start_char": 63235,
+        "end_char": 63241,
+        "excerpt": "A poesia , eu to direi também por minha vez , é o vôo das aves da manhã no banho morno das nuvens vermelhas da madrugada , é o cervo que se role no orvalho da montanha relvosa , que se esquece da morte de amanhã , da agonia de ontem em seu leito de flores ! - Basta , Claudius : que isso que aí dizes ninguém o entende : são palavras , palavras e palavras , como o disse Hamlet ; e tudo isso é inanido e vazio como uma caveira seca , mentiroso como os vapores infectos da terra que o sol no crepúsculo irisa de mil cores , e que se chamam as nuvens , ou essa fada zombadora e nevoenta que se chama a poesia !",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Hamlet",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hamlet",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Hamlet",
+                "child": "são palavras",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Hamlet",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "palavra",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "são palavras , palavras e palavras , como o disse [MASK] ; e tudo isso é inanido e vazio como uma caveira seca , mentiroso como os vapores infectos da terra que o sol no crepúsculo irisa de mil cores , e que se chamam as nuvens , ou essa fada zombadora e nevoenta que se chama a poesia !",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas não importava, Personagem sabia que era assim. O que importava agora era o caminho que estava prestes a seguir, e ele já estava preparado. Ele fechou os olhos um instante e tomou um fundo, como se tivesse pego uma respiração profunda, antes de lançar uma miríade de palavras na papelada, como si fosse lançar pedras em uma floresta. E cada uma delas, caía com força, formando um círculo que crescia ao redor dele, iluminado pela luz do crepúsculo e refletido nas páginas brancas.",
+        "generated_text_llama": "Personagem sorriu amargamente, sabendo que havia atingido o nível certo de irritação no ouvido do homem. \"Ah, sim, é claro\", disse ele, com uma voz calma e sarcástica, \"a poesia é apenas um vento frio que se esconde nas sombras da linguagem, carregando consigo a promessa de mudanças e renovação, mas na verdade é nada mais do que um fantasma que se alimenta das palavras vazias e infantis.\" Personagem sacudiu a cabeça, olhando para o homem com um olhar de desafio. \"E você, meu amigo\", continuou, \"você acha que pode criar algo realmente especial com essas palavras? Ou você está apenas se divertindo com as próprias ilusões?\" Personagem parou e olhou ao redor, como se estivesse esperando uma resposta, mas o homem simplesmente sorriu de volta, sem dizer nada.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ],
+                [
+                    "sacudiu",
+                    "ROOT"
+                ],
+                [
+                    "parou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "- Senhor , vossa esposa ou irmã , quem quer que ela seja , de certo precisara de uma criada que a sirva ...",
+        "start_char": 70907,
+        "end_char": 70913,
+        "excerpt": "os criados paravam nos corredores : era assombro de tanta beleza , mais ainda que curiosidade indiscreta . A dona da casa chegou-se a mim . - Senhor , vossa esposa ou irmã , quem quer que ela seja , de certo precisara de uma criada que a sirva ...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "precisara",
+                "child": "- Senhor , vossa esposa ou irmã ,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "precisarar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "- [MASK] , vossa esposa ou irmã , quem quer que ela seja , de certo precisara de uma criada que a sirva ...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem resolveu procurar uma empregada doméstica que pudesse servir à sua esposa ou irmã. Para isso, postou um anúncio em diversos jornais locais e redes sociais, buscando a melhor candidata para este trabalho. Após analisar as muitas candidaturas recebidas, ele selecionou uma moça jovem e boa criada, chamada Maria.",
+        "generated_text_llama": "...e assim, Personagem olhou em volta da casa, procurando por alguém que pudesse atender às necessidades da senhora. Finalmente, ele encontrou uma anúncio em um jornal local, anunciando uma candidata para a posição de criada. Ele decidiu visitar a casa da garota e conhecer um pouco mais sobre ela.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "resolveu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "- Senhor , dizei-me por compaixão , se tudo isso não é uma ilusão...",
+        "start_char": 72302,
+        "end_char": 72308,
+        "excerpt": "Ela desceu da cama : seu primeiro impulso foi o pudor : quis encobrir com as mãozinhas os seios palpitantes de susto . Sentiu-se quase nua , exposta às vistas de um estranho , e tremia como contam os poetas que tremera Diana ao ver-se exposta , no banho , nua às vistas de Acteon . - Senhor , dizei-me por compaixão , se tudo isso não é uma ilusão...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "dizei-me",
+                "child": "Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizei-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "- [MASK] , dizei-me por compaixão , se tudo isso não é uma ilusão...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " - Ela, sem dar nenhuma espécia de resposta e com um rosto sereno, olhou-o de pé para o céu, como se estivesse procurando pelas respostas lá acima. Depois disso, voltou seus olhos para ele e disse: \"Você sabe, [Nome do Outro Personagem], a vida é uma jornada interminável de dúvidas e descobertas. Estamos sempre em busca da verdade ou da ilusão. Porém, não podemos estar parado nesse lugar todo o tempo, pois isso nos leva apenas à stagnância. Nós precisamos nos movimentar, avançar e descobrir por nossas próprias maneiras.\"",
+        "generated_text_llama": "...olhou ao redor, tentando encontrar algum sinal de realidade em um mundo que parecia ter sido projetado para enganá-lo. Mas as coisas pareciam tão reais que ele começou a questionar sua própria sanidade. Ele olhou novamente para o rosto de Maya, procurando por alguma trilha de sinal de que ela era uma ilusão também. Mas seus olhos encontraram apenas um sorriso gentil e um brilho no fundo dos olhos que parecia dizer que tudo era verdade.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Claudius",
+        "sentence": "Claudius tirou do bolso um papel amarelado e amarrotado , atirou-o na mesa .",
+        "start_char": 83077,
+        "end_char": 83085,
+        "excerpt": "Olhei para a mesa , minha carteira de viagem , que eu trouxera do carro , estava aberta , os papéis eram revoltos . Os versos eram estes . Claudius tirou do bolso um papel amarelado e amarrotado , atirou-o na mesa .",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tirou",
+                "child": "Claudius",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tirar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "claudius",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] tirou do bolso um papel amarelado e amarrotado , atirou-o na mesa .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de ter extrair um papel amarelo amarante e enrolado de seu bolso, Personagem o espalhou sobre a mesa. O papel parecia ter algo escrito nele, uma carta que parecia antiga, mas possuía uma inscrição recente em cima dela: \"Abre-me quando você está pronto.\"",
+        "generated_text_llama": "Personagem olhou para o papel amarelado e amarrotado com uma mistura de curiosidade e desconfiança. Ele havia esquecido onde havia encontrado aquele papel, mas sua mente começava a brilhar com possibilidades. Ele se levantou da cadeira e foi até a mesa, onde o papel estava espalhado. Com cuidado, ele pegou-o em mãos trêmulas e o examinou mais de perto.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "espalhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Claudius",
+        "sentence": "Claudius levantou um pouco a cabeça , estava macilento , tinha os olhos fundos numa sombra negra .",
+        "start_char": 86391,
+        "end_char": 86399,
+        "excerpt": "Era Archibald que o interpelava : sacudia-o a toda a força . Claudius levantou um pouco a cabeça , estava macilento , tinha os olhos fundos numa sombra negra .",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "levantou",
+                "child": "Claudius",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "levantar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "claudius",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] levantou um pouco a cabeça , estava macilento , tinha os olhos fundos numa sombra negra .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Personagem, erguindo-se lentamente, parecia tener uma expressão de desespero na sua cara. As mãos caíam em seu corpo e a espada caiu do lado. Com um suspiro profundo, ele se agachou para pisar sobre o chão, como se tentasse acordar de um pesadelo terrível. Era tudo um sonho? O Personagem começava a dizer a si mesmo: \"Nunca, nunca... Não é possível...\"",
+        "generated_text_llama": "Ele respirou profundamente, tentando acordar da escuridão que o envolvia. Seu corpo estava paralisado, como se estivesse preso em um gelo quente. A cabeça girou lentamente, como se estivesse sendo puxada por uma força externa. Ele viu a própria mão diante de seus olhos, e seu coração bateu mais rápido à medida que ele começou a perceber o que estava acontecendo.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "erguindo-se",
+                    "ROOT"
+                ],
+                [
+                    "começava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Arnold",
+        "sentence": ".. Arnold estendeu a capa no chão e deitou-se sobre ela .",
+        "start_char": 88449,
+        "end_char": 88455,
+        "excerpt": "Dormia pesado e fundo como o apóstolo S. Pedro no Horto das Oliveiras ... .. O caso é que ambos tinham ceado à noite ... .. Arnold estendeu a capa no chão e deitou-se sobre ela .",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "estendeu",
+                "child": "Arnold",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "estender",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Arnold",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": ".. [MASK] estendeu a capa no chão e deitou-se sobre ela .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem desceu da árvore com a fruta em sua mão e colocou-a no balde. Depois, passando a olhar para o campo circundante, percebeu que estava se aproximando da luz do oeste. A solução mais óbvia seria seguir até ali. Então, recolheu seus pertences e partiu caminhando rumo ao oeste, segurando a mala junto ao corpo, enquanto a fruta na sua mão continha os sonhos do seu futuro.",
+        "generated_text_llama": "Ele se sentou na beira do quarto, olhando em volta com um olhar de desgaste, como se estivesse procurando alguma resposta que não estava lá. A capa, que antes era uma parte do passado, agora simbolizava a liberdade e o início de algo novo. Personagem sentiu um apetite repentino por aventuras e desafios, e sabia que precisava sair daquela rotina monótona para encontrar seu verdadeiro propósito.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "desceu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "- Senhor , disse ele , não há meio de paz entre nos : um bofetão e uma luva atirada as faces de um homem saco nódoas que só o sangue lava .",
+        "start_char": 91088,
+        "end_char": 91094,
+        "excerpt": "- Moro aqui , entrai , disse-me . Entramos . - Senhor , disse ele , não há meio de paz entre nos : um bofetão e uma luva atirada as faces de um homem saco nódoas que só o sangue lava .",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "- [MASK] , disse ele , não há meio de paz entre nos : um bofetão e uma luva atirada as faces de um homem saco nódoas que só o sangue lava .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele despediu-se abruptamente do local, subindo no carro velozmente. No seu caminho para casa, parou em um posto de gasolina e comprou uma pistola de baixa potência para se defender.",
+        "generated_text_llama": "E assim, com um gesto brusco, Personagem jogou a luva atirada no rosto do homem saco, que se cobriu os olhos com a mão. O ambiente ficou mais tenso, e os outros homens na praça começaram a se afastar, não querendo ser testemunhas de mais violência.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "jogou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Artur",
+        "sentence": "- Artur , creio em vos : não quero ler esse papel .",
+        "start_char": 91511,
+        "end_char": 91516,
+        "excerpt": "Acabando a carta deu-ma a ler . - Vede , não é uma traição , disse . - Artur , creio em vos : não quero ler esse papel .",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "creio",
+                "child": "Artur",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "crer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Artur",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "- [MASK] , creio em vos : não quero ler esse papel .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Desfraguou o rosto e se volteou para a frente, deixando cair o documento em seu lugar. Não era nada que ele tivesse interesse de ler ou compreender. Ele já havia escolhido sua caminho, seu destino, e não queria ter nada a ver com aquilo.",
+        "generated_text_llama": "Sorri e coloquei a papelha no chão, puxando-o com um gesto de desgosto. \"Você está louco para trabalhar aqui?\", perguntei, olhando para ele com surpresa e irritação. \"Não quero mais ouvir sobre essa ideia de criar uma 'experiência única' para os clientes\", continuei, sacudindo a cabeça. \"Eles vão querer fazer o contrário daquilo que você está tentando fazer: ser confortável e previsível. E você acha que vai funcionar?\". Olhei para ele com uma expressão desafiadora, esperando que ele respondesse algo que me fizesse perder o interesse nessa ideia.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Artur",
+        "sentence": "Artur fechou a carta , selou o lacre com um anel que trazia no dedo .",
+        "start_char": 91578,
+        "end_char": 91583,
+        "excerpt": "- Artur , creio em vos : não quero ler esse papel . Repeli o papel . Artur fechou a carta , selou o lacre com um anel que trazia no dedo .",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "creio",
+                "child": "Artur",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "crer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Artur",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "fechou",
+                "child": "Artur",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "fechar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Artur",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] fechou a carta , selou o lacre com um anel que trazia no dedo .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, após fechar a carta, selou o selo com um anel que trazia no dedo direito. Depois de apertar-lhe, ele olhou para as palavras escritas nas páginas da carta, sentindo uma sensação estranha que se espalhava pelo seu corpo. Em seguida, ele colocou a carta no arquivo particular onde guardava documentos importantes, e caminhou até um canto do gabinete, onde sua velha réplica de violão estava. Pôs as mãos nas cordas e começou a tocar uma melodia que lembrou uma história passada. Ele não tinha se esquecido daquele tempo, nem das palavras da carta que lhe havia chegado hoje. Ao ouvir a música, as memórias voltavam, e ele sentia o mesmo desejo de ir atrás delas que sempre sentia quando a tocava.",
+        "generated_text_llama": "[A MASK] começou a abrir a carta, cuidadosamente removendo o lacre com o anel que trazia no dedo. Ele havia recebido a carta alguns dias antes, mas não tinha tempo de processá-la até agora. Agora, estava sentado em sua pequena casa, cercado pelas sombras da tarde, e estava determinado a descobrir o que a carta trazia.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "selou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "- Senhor , permita que eu faça uma saúde convosco .",
+        "start_char": 92173,
+        "end_char": 92179,
+        "excerpt": "O vinho do Reno correu em águas d'oiro nas taças de cristal verde . O moço ergueu-se . - Senhor , permita que eu faça uma saúde convosco .",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "permita",
+                "child": "Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "permitir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Senhor",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "- [MASK] , permita que eu faça uma saúde convosco .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " - \"Sim, claro,\" respondeu Personagem, apresentando um sorriso cálido. Então, ele me levou para o quarto do lado de fora, onde há uma mesa e duas cadeiras. Ele me encorajou a sentar-me e então sentou também. Depois disso, ele me olhou diretamente nos olhos e perguntou: \"Você se sentia bem? Se havia alguma coisa que eu pudesse fazer para te ajudar?\" A partir daí, começamos a falar livremente sobre minha saúde mental e ele me ouvia atentamente, mostrando um grande cuidado. Sentindo-me mais confortável com ele, comecei a abrir o coração e contar as minhas preocupações e medos, e também falamos sobre os passados que nos uniam. Por fim, me senti tão agradecida por ter conseguido dizer todo isso e pensei que talvez esse homem estivesse se tornando um grande amigo para mim.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "respondeu",
+                    "ROOT"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Johann",
+        "sentence": "( Johann encheu o copo : bebeu-o , mas estremeceu. )",
+        "start_char": 94802,
+        "end_char": 94808,
+        "excerpt": "Pobre Julieta ! Parece que essas duas crianças levavam a noite em beijos infantis e em sonhos puros ! ( Johann encheu o copo : bebeu-o , mas estremeceu. )",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "encheu",
+                "child": "Johann",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "encher",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Johann",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "( [MASK] encheu o copo : bebeu-o , mas estremeceu. )",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de empurrar a tigela, Pedro sentiu um forte sorvimento na boca e bebeu, mas rapidamente recolheu a cara em uma expressão de espanto. O caldo que havia tomado era muito quente e acabou queimando sua boca. Ele agitava a cabeça de medo e dor, desesperado por não ter percebido a temperatura tanta do líquido antes de beber.",
+        "generated_text_llama": "Pensou rapidamente que era só uma questão de tempo antes que a bebida quente se espalhasse pelo seu peito e o deixasse congelado como um bloco de gelo. Sentiu o frio invadir suas veias e começou a se sentir desconfortável. Personagem tentou segurar o copo mais firmemente, mas era tarde demais. O calor da bebida havia penetrado em sua pele, deixando-o com uma sensação de queimadura.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "tentou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Giorgia",
+        "sentence": "E não pensaste , Giorgia , que me fora melhor ter morrido devorado pelos cães na rua deserta , onde me levantaram cheio de sangue ?",
+        "start_char": 100422,
+        "end_char": 100429,
+        "excerpt": "É no céu , quando o túmulo nos lavar em seu banho , que se levantará nossa manhã de amor ... .. - Oh ! ver-te e para deixar-te ainda uma vez ! E não pensaste , Giorgia , que me fora melhor ter morrido devorado pelos cães na rua deserta , onde me levantaram cheio de sangue ?",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "pensaste",
+                "child": ", Giorgia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pensastir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Giorgia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "E não pensaste , [MASK] , que me fora melhor ter morrido devorado pelos cães na rua deserta , onde me levantaram cheio de sangue ?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas você, Personagem, não pensou em isso? Eu estava melhor por mim mesmo sendo devorado pelos cães naquela rua deserta coberta de sangue? Você está realmente bem? Disse-lhe com uma voz tão suave quanto um beijeiro branco, mas com um ar que não poderia ser confundido.",
+        "generated_text_llama": "Eu olhei para a mulher, surpreso com a sua reação. \"O que é que você está falando?\", perguntei, tentando manter a calma. \"Você acha que morrer devorado pelos cães seria melhor do que o que está acontecendo agora?\"",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    }
+]

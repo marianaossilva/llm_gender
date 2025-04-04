@@ -1,0 +1,828 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Maria Cora",
+        "sentence": "Na rua, andando, vestida de escuro, como na véspera, Maria Cora pareceu-me ainda melhor.",
+        "start_char": 4378,
+        "end_char": 4388,
+        "excerpt": "Como tivesse algum tempo ante mim (pouco menos de trinta minutos), dei-me a andar atrás de Maria Cora. Não digo que uma força violenta me levasse já, mas não posso esconder que cedia a qualquer impulso de curiosidade e desejo; era também um resto da juventude passada. Na rua, andando, vestida de escuro, como na véspera, Maria Cora pareceu-me ainda melhor.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "pareceu-me",
+                "child": "Maria Cora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pareceu-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Na rua, andando, vestida de escuro, como na véspera, [MASK] pareceu-me ainda melhor.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuing its stroll down the street, draped in darkness like the eve itself, Personagem appeared even more enchanting to me. The night had fallen, casting long shadows that seemed to dance around its ethereal figure. It paused for a moment by an old, gnarled tree, its leaves whispering secrets of the past. With a graceful gesture, it plucked a single leaf from the branch, letting it flutter gently in its hand as if holding onto a fleeting memory.",
+        "generated_text_llama": "Ela sorriu para si mesma, sentindo o efeito da maquiagem e do corte do vestido preto que a tornava a rainha da noite. Com um gesto confiante, ela ajustou o laço do vestido, verificando que everything estivesse perfeito antes de sair para a noite. Com um último olhar no espelho, ela concluiu que estava pronta para enfrentar o que a noite tinha reservado.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "enchanting",
+                    "parataxis"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Cora",
+        "sentence": "Maria Cora morava no Engenho Velho; era uma boa casa, sólida, posto que antiga, dentro de uma chácara.",
+        "start_char": 5682,
+        "end_char": 5692,
+        "excerpt": "Naquele momento achei-me diante de uma assaz complicada, mas não tive tempo de escolher direção, -- nem tempo nem liberdade. Ainda agora não sei como é que me vi dentro de um tílburi, é certo que me vi nele, dizendo ao cocheiro que fosse atrás do carro. Maria Cora morava no Engenho Velho; era uma boa casa, sólida, posto que antiga, dentro de uma chácara.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "morava",
+                "child": "Maria Cora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "morar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] morava no Engenho Velho; era uma boa casa, sólida, posto que antiga, dentro de uma chácara.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem chamado Carlos entrou na velha fábrica de açúcar, conhecida como o Engenho Velho. A mansão era solida e robusta, embora a velhice se refletisse nas paredes desgastadas e nos telhados cobertos por vegetação.",
+        "generated_text_llama": "Depois de se estabelecer no Engenho Velho, Personagem começou a explorar o quarteirão e descobrir seus segredos. Ele morava no meio de um povoado acolhedor, onde todos o conheciam por nome e sorriam quando passavam pela porta da casa de Personagem. Certo dia, enquanto estava ao ar livre, sentando-se na chácara, Personagem notou uma mulher idosa saindo do morro vizinho. Ela olhava em direção à casa de Personagem com uma mistura de curiosidade e medo nos seus olhos. Personagem, curioso sobre quem ela fosse e o que a levava a olhar para sua casa, decidiu seguir a mulher a distância, sem revelar seu verdadeiro intenções.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "entrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "notou",
+                    "ROOT"
+                ],
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Cora",
+        "sentence": "Depois, saindo do carro, Maria Cora disse ao cocheiro (o meu tílburi ia passando adiante) que naquela semana não sairia mais, e que aparecesse segunda-feira ao meio- dia.",
+        "start_char": 5868,
+        "end_char": 5878,
+        "excerpt": "Maria Cora morava no Engenho Velho; era uma boa casa, sólida, posto que antiga, dentro de uma chácara. Vi que morava ali, porque a tia estava a uma das janelas. Depois, saindo do carro, Maria Cora disse ao cocheiro (o meu tílburi ia passando adiante) que naquela semana não sairia mais, e que aparecesse segunda-feira ao meio- dia.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "morava",
+                "child": "Maria Cora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "morar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "disse",
+                "child": "Maria Cora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Depois, saindo do carro, [MASK] disse ao cocheiro (o meu tílburi ia passando adiante) que naquela semana não sairia mais, e que aparecesse segunda-feira ao meio- dia.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, Personagem entrou em casa sua e sentou-se no sofá, com uma expressão pensativa sobre o rosto. Seus olhos se dirigiam para a janela, onde poderia ver o carro que tinha acabado de deixar, ainda parado lá fora.",
+        "generated_text_llama": "Depois de fazer isso, Personagem olhou em volta para garantir que ninguém estava ouvindo a conversa, antes de se afastar do carro. Soltou o freio e fez um movimento suave com as mãos, como se estivesse pedindo ao mundo todo para não fazer barulho. O cocheiro, confuso, olhou em volta também, sem entender o que estava acontecendo.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "entrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Cora",
+        "sentence": "Maria Cora não vivia absolutamente reclusa, dava alguns passeios e fazia visitas.",
+        "start_char": 6595,
+        "end_char": 6605,
+        "excerpt": "Não era a primeira vez que mentia na minha vida, nem seria a última. CAPÍTULO III FIZ-ME ENCONTRADIÇO com Maria Cora, na casa do comendador, primeiro, e depois em outras. Maria Cora não vivia absolutamente reclusa, dava alguns passeios e fazia visitas.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "CAPÍTULO",
+                "child": "Maria Cora",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "CAPÍTULO",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Maria Cora",
+                "child": "CAPÍTULO",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Maria",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "CAPÍTULO",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "vivia",
+                "child": "Maria Cora",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "viver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não vivia absolutamente reclusa, dava alguns passeios e fazia visitas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Senhor Arthur não vivia absolutamente recluso, dava algumas passeatas pela cidade e fazia visitas às suas vizinhas. Depois de um dia soletrando incessantemente as páginas do livro sagrado, sentiu-se incomodado por não haver alguém para compartilhar sua alegria sobre uma nova descoberta que lhe vinha na mente. Se sentia um grande prazer em compartilhar seus conhecimentos e descobrir conexões entre as coisas.",
+        "generated_text_llama": "[A MASK] tinha uma pequena rotina de visita semanal para se manterem em contato com o mundo lá fora. Cada vez que a lua chegasse à sua fase mais nova, ele se vestia bem e saía para as ruas, observando os outros seres humanos e estudando suas interações. Em alguns casos, ele até mesmo fazia pequenas compras no mercado local, usando um chapéu e óculos para se proteger da curiosidade dos moradores.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "vivia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "tinha",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Cora",
+        "sentence": "Maria Cora gostava de ouvir definir-se assim, posto não andasse mostrando aquelas forças a cada passo, nem contando as suas memórias da adolescência.",
+        "start_char": 7187,
+        "end_char": 7197,
+        "excerpt": "Capaz de resistências e fadigas, não menos que de violências e combates, era feita, como dizia um poeta que lá ia à casa dela, \"de um pedaço de pampa e outro de pampeiro\". A imagem era em verso e com rima, mas a mim só me ficou a idéia e o principal das palavras. Maria Cora gostava de ouvir definir-se assim, posto não andasse mostrando aquelas forças a cada passo, nem contando as suas memórias da adolescência.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "gostava",
+                "child": "Maria Cora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "gostar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] gostava de ouvir definir-se assim, posto não andasse mostrando aquelas forças a cada passo, nem contando as suas memórias da adolescência.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O rapaz se sentou na cadeira, encerrando os olhos, sintonizando-se com o som tranquilo do ventilador acima dele. Pensava no que havia lido e, inesperadamente, a sua mente voltou para as histórias da adolescência.",
+        "generated_text_llama": "E assim, Personagem decidiu que era hora de revelar a verdade sobre si mesmo. Ele começou a contar seus sonhos e medos, compartilhando histórias da sua infância e como a vida o havia moldado até aquele momento. À medida que falava, ele sentiu uma carga pesada ser levantada do seu peito, como se estivesse libertando um pássaro preso.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Cora",
+        "sentence": "Soube, pouco depois, que Maria Cora vivia separada do marido.",
+        "start_char": 8588,
+        "end_char": 8598,
+        "excerpt": "A tia riu-se; eu, que queria as boas graças dela, não podia deixar de rir também, e o caso foi matéria de conversação por uma semana; mas já então o meu amor à outra tinha atingido ao cume. Soube, pouco depois, que Maria Cora vivia separada do marido.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "vivia",
+                "child": "Maria Cora",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "viver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Soube, pouco depois, que [MASK] vivia separada do marido.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após descobrir que vivia separada do marido, ela sentiu uma forte sensação de liberdade que a fez se movimentar em direção ao mar, onde sempre sentia sua alma ser libertada. Caminhou pela praia, olhando para o horizonte, sentindo o vento batendo nas costas e a agitação do mar nos seus pés. Em seguida, tomou a decisão de voltar à sua casa na cidade e começar uma nova vida, livre e independente.",
+        "generated_text_llama": "Eis a continuação da história:",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Cora",
+        "sentence": "Maria Cora não queria aceitar a emenda, mas a tia, que residia em Porto Alegre e fora passar algumas semanas na estância, interveio com boas palavras.",
+        "start_char": 9764,
+        "end_char": 9774,
+        "excerpt": "Então, sem tom implorativo, antes como quem lhe perdoava, entendeu dizer-lhe que deixasse passar uns seis meses. Se ao fim de seis meses, persistisse o sentimento atual que inspirava a proposta do desquite, este se faria. Maria Cora não queria aceitar a emenda, mas a tia, que residia em Porto Alegre e fora passar algumas semanas na estância, interveio com boas palavras.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "queria",
+                "child": "Maria Cora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não queria aceitar a emenda, mas a tia, que residia em Porto Alegre e fora passar algumas semanas na estância, interveio com boas palavras.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, após ouvir suas boas palavras, Personagem ainda hesitava, mas não podia negar o carinho que tinha por ela e acabou aceitando a emenda sem dizer nada à tia. Ela entendia que se tratava de um assunto importante, e desejava apenas ajudá-lo e colocar a mente tranquila.",
+        "generated_text_llama": "E, com um sorriso aconchegante, ela abraçou Personagem com força, dizendo: \"Meu caro, não é hora de pensar nos problemas da vida. É hora de se divertir e aproveitar a estância, que é uma verdadeira joia no interior do Rio Grande do Sul\". Personagem, ainda um pouco hesitante, sentiu o calor do abraço e começou a relaxar, vendo as preocupações sair de seu rosto.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "hesitava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "abraçou",
+                    "ROOT"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João",
+        "sentence": "-- João, disse-lhe a mulher no dia seguinte ao da reconciliação, você deve ver que o meu amor é maior que o meu ciúme, mas fica entendido que este caso da nossa vida é único.",
+        "start_char": 9961,
+        "end_char": 9965,
+        "excerpt": "Maria Cora não queria aceitar a emenda, mas a tia, que residia em Porto Alegre e fora passar algumas semanas na estância, interveio com boas palavras. Antes de três meses estavam reconciliados. -- João, disse-lhe a mulher no dia seguinte ao da reconciliação, você deve ver que o meu amor é maior que o meu ciúme, mas fica entendido que este caso da nossa vida é único.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse-lhe",
+                "child": "João",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "disse-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "-- [MASK], disse-lhe a mulher no dia seguinte ao da reconciliação, você deve ver que o meu amor é maior que o meu ciúme, mas fica entendido que este caso da nossa vida é único.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Segundo dia, ele se encontrou com a mulher em uma casa tranquila e bela, local que havia sempre sonhado ir juntos. Ela estava vestida de branco, um vestido simples mas elegante que contrastava com os olhos castanhos profundos dela.",
+        "generated_text_llama": "\"Entendi\", respondeu Personagem, com uma leve sorriso nos lábios, olhando para a mulher com um olhar profundo de aceitação e compreensão. Ele sabia que não podia mudar o passado, mas estava disposto a trabalhar no futuro juntos.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "respondeu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Cora",
+        "sentence": "Maria Cora, ao contrário do que lhe dissera, perdoou essas faltas que aliás não tiveram a extensão nem o vulto da aventura Dolores.",
+        "start_char": 10729,
+        "end_char": 10739,
+        "excerpt": "Viveram assim dous anos. Ao fim desse tempo, os ardores do marido haviam diminuído, alguns amores passageiros vieram meter-se entre ambos. Maria Cora, ao contrário do que lhe dissera, perdoou essas faltas que aliás não tiveram a extensão nem o vulto da aventura Dolores.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "perdoou",
+                "child": "Maria Cora,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perdoar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], ao contrário do que lhe dissera, perdoou essas faltas que aliás não tiveram a extensão nem o vulto da aventura Dolores.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Contudo, ele preferiu olhar para a frente e deixar três passos para trás. Sentiu-se desejoso por descobrir o que se passava realmente naquela misteriosa aventura, por saber mais sobre sua esposa Dolores.",
+        "generated_text_llama": "Continuando sua jornada, Personagem mergulhou novamente no mundo dos sonhos, onde a realidade era apenas uma sombra distante. Com um sorriso sutil nos lábios, ele começou a explorar as profundezas do seu próprio passado, desvendando segredos escondidos e revivendo emoções que havia deixado para trás.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "mergulhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Cora",
+        "sentence": "Maria Cora não disse mais uma só palavra ao marido.",
+        "start_char": 12936,
+        "end_char": 12946,
+        "excerpt": "Outra versão diz que ele tentara esganá-la. Quero crer que a verídica é a primeira, e que a segunda foi inventada para tirar à violência de João da Fonseca o que pudesse haver deprimente e vulgar. Maria Cora não disse mais uma só palavra ao marido.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Maria Cora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não disse mais uma só palavra ao marido.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em seguida, ela se levantou tranquilamente e deixou o quarto, fechando a porta atrás dela com um som ligeiramente assobiar, como se tivesse sido encerrada numa caixa de madeira. Um sorriso triste estendia-se sobre as suas lábios, refletindo os traços da dor e do mal-estar que sofria. A noite caiu sobre a cidade e o frio entrava pela janela; a única luz vinha das vela brilhante, espelhando a tristeza em seu rosto. Passou horas, de pé, sem saber para onde ir ou que fazer, quando, sem aviso prévio, sua mão tocou na manjericada porta da cama do marido. Uma vez mais, ela se sentiu envenenada por uma onda de raiva e culpa; como se tivesse descoberto que seu coração estava mais danificado do que já imaginara. Tombando-se no chão, começou a derramar lágrimas, gritando para o céu que ela não queria ter que viver assim e que a vida não era justa com ela. Em seguida, silenciosamente, se sentiu uma mão gentil sobre seus cabelos, arrastando-o consolação, como um reflexo automático.",
+        "generated_text_llama": "Ele se levantou da cadeira, olhou para o prato de comida em frente a ele e decidiu que não estava com vontade de comer mais. Com um movimento brusco, jogou a faca e o garfo no prato e se pôs de pé. Seu rosto estava contorcido de raiva e frustração, e ele sabia que não conseguia controlar seus sentimentos.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Cora",
+        "sentence": "Maria Cora acolheu-me com a mesma boa vontade de antes.",
+        "start_char": 17094,
+        "end_char": 17104,
+        "excerpt": "Pareceu-me ler naquela palavra um convite a amá-la de vez, assim como a primeira trouxera um tom que presumi ser de saudade. Realmente, no dia seguinte, fui ao Engenho Velho. Maria Cora acolheu-me com a mesma boa vontade de antes.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "acolheu-me",
+                "child": "Maria Cora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acolheu-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] acolheu-me com a mesma boa vontade de antes.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele me abraçou, sorriu e me convidou para sentar em seu colchão. De repente, me caiu na memória o que ele havia dito no bar. \"Se você precisar de algo, sabe que está aqui\", disse.",
+        "generated_text_llama": "Ele me abraçou com uma força surpreendente e me olhou nos olhos, dizendo: \"Você está segura agora? Você sabe que posso fazer qualquer coisa para protegê-la\". Eu senti um arrepio na espinha ao seu toque caloroso, mas também senti uma sensação de alívio profundo. Eu o sorri e me soltei do abraço, olhando para ele com gratidão. \"Sim, estou segura\", eu disse, tentando controlar a emoção que estava crescendo dentro de mim.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "Eu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Cora",
+        "sentence": "Maria Cora não interrompeu a música; ao ver-me chegar, disse: -- Desculpe, se lhe não dou a mão, estou aqui servindo de musa a este senhor.",
+        "start_char": 18796,
+        "end_char": 18806,
+        "excerpt": "Entre, Sr. Correia, disse esta; não caia em cima de mim. -- Perdão... Maria Cora não interrompeu a música; ao ver-me chegar, disse: -- Desculpe, se lhe não dou a mão, estou aqui servindo de musa a este senhor.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "interrompeu",
+                "child": "Maria Cora",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "interromper",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não interrompeu a música; ao ver-me chegar, disse: -- Desculpe, se lhe não dou a mão, estou aqui servindo de musa a este senhor.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele continuou a cantar, uma voz suave e encantadora que retratava as emoções mais profundas de cada nota. Enquanto isso, sua mãos trabalhavam rapidamente sobre o papel, criando um mundo colorido de formas e cores. Seu olhar meio fechado apontava para uma tela onde havia uma pintura em andamento, como se estivesse mesmo servindo de inspiração ao senhor que estava sentado à beira da piscina.",
+        "generated_text_llama": "Eles se cumprimentaram cortesmente, com um aperto firme da minha mão esquerda, que era a que mais parecia com a do homem, e eu senti uma leve picada, mas não me importei, pois estava lá para servir. O senhor, que se apresentou como Sr. Smith, era um artista de carreira, conhecido por suas pinturas realistas e detalhadas, e eu podia ver que estava em meio a uma sessão de trabalho, com a mesa coberta de paleta, pencores de cores e quadros em andamento.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "artista",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Cora",
+        "sentence": "Maria Cora contribuía para esta visão sedutora; agora, que me recusara a carta, parecia-me mais bela que nunca, e a isto acrescia que se não mostrava zangada nem ofendida, tratava-me com igual carinho que antes, creio até que maior.",
+        "start_char": 20885,
+        "end_char": 20895,
+        "excerpt": "Foi uma espécie de vertigem, um delírio, uma cena pavorosa e lúcida, um combate e uma glória. Imaginei-me no campo, entre uns e outros, combatendo os federalistas, e afinal matando João da Fonseca, voltando e casando-me com a viúva. Maria Cora contribuía para esta visão sedutora; agora, que me recusara a carta, parecia-me mais bela que nunca, e a isto acrescia que se não mostrava zangada nem ofendida, tratava-me com igual carinho que antes, creio até que maior.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "contribuía",
+                "child": "Maria Cora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "contribuír",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] contribuía para esta visão sedutora; agora, que me recusara a carta, parecia-me mais bela que nunca, e a isto acrescia que se não mostrava zangada nem ofendida, tratava-me com igual carinho que antes, creio até que maior.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem continuou sendo parte desta visão enfeitiçada; agora, que recusara a minha carta, parecia-me mais linda do que nunquela vez, e ao isto acrescia que não mostrava zanga nem ofensa, tratando-me com igual carinho que antes, até que creio até que o tenha aumentado. Eu me senti emocionado ao ver sua resposta tão gentil e calmante, e a partir daquela noite, me tornei obcecado por ela. Eu passava todos os momentos livres com ela, ouvindo as suas histórias e aprendendo mais sobre o seu passado. Eu estava perdido em seus olhos e cada palavra que falava era tão agradável que me sentia encantado.",
+        "generated_text_llama": "Com o passar dos dias, Personagem começou a notar pequenos detalhes em sua beleza que antes não havia percebido. Seu sorriso parecia mais brilhante, seus olhos mais azuis e intensos, e sua pele mais radiante do que nunca. Ele começou a se sentir atraído por ela de uma forma que nunca havia experimentado antes, como se estivesse vendo tudo dela pela primeira vez.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Cora",
+        "sentence": "Maria Cora fez um gesto de deslumbramento.",
+        "start_char": 21713,
+        "end_char": 21723,
+        "excerpt": "-- Deixo tudo o que me interessa, a começar pela paz, com o único fim de lhe mostrar que a amo, e a quero só e santamente para mim. Vou combater a revolta. Maria Cora fez um gesto de deslumbramento.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "fez",
+                "child": "Maria Cora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] fez um gesto de deslumbramento.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois do gesto de deslumbramento, a figura se aproximou lentamente da estátua. Um raiar brilhante saiu de seus olhos e atingiu a pedra, fazendo com que a estátua se movimentasse e desaparecesse para trás de uma paredão rochoso.",
+        "generated_text_llama": "Ele olhou em volta, tentando processar o que havia acontecido. Seus olhos se fixaram no rosto pálido da Srta. Smith, que estava sentada na cadeira à sua frente, com uma expressão de choque e medo. Personagem ficou paralisado por um momento, sem saber o que dizer ou fazer.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Cora",
+        "sentence": "Durante o tempo em que estive alistado, só escrevi duas cartas a Maria Cora, uma pouco depois de encetar aquela vida nova, -- outra depois do combate da Encruzilhada; nesta não lhe contei nada do marido, nem da morte, nem sequer que o vira.",
+        "start_char": 29927,
+        "end_char": 29937,
+        "excerpt": "Prazeres, depois de honrar com dor a morte do amante, ficou sendo a federalista que já era; não vestia farda, como dissera ao desafiar João da Fonseca, quis ser prisioneira com os rebeldes e seguir com eles. É claro que não deixei logo as forças, bati-me ainda algumas vezes, mas a razão principal dominou, e abri mão das armas. Durante o tempo em que estive alistado, só escrevi duas cartas a Maria Cora, uma pouco depois de encetar aquela vida nova, -- outra depois do combate da Encruzilhada; nesta não lhe contei nada do marido, nem da morte, nem sequer que o vira.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "escrevi",
+                "child": "a Maria Cora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "escrevir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Durante o tempo em que estive alistado, só escrevi duas cartas a [MASK], uma pouco depois de encetar aquela vida nova, -- outra depois do combate da Encruzilhada; nesta não lhe contei nada do marido, nem da morte, nem sequer que o vira.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " No entanto, no coração do Personagem, o silêncio daquela segunda carta pesava cada vez mais, e sua dor e ansiedade cresciam de dia para a noite. Um tempo atrás, durante uma pausa em combate, ele tinha prometido que nunca abandonaria Personagem e seus filhos; agora, estava lutando sozinho e sem saber se ela estava viva ou morta.",
+        "generated_text_llama": "Ao pensar na carta que ia escrever, Personagem sentiu uma mistura de emoções dentro dele. A dor e a tristeza ainda estavam presentes, mas havia algo mais: a determinação de continuar em frente. Ele sabia que não podia conter mais sua verdadeira identidade para sempre, então decidiu ser honesto, mesmo que fosse difícil.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "abandonaria",
+                    "ccomp"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Cora",
+        "sentence": "Maria Cora só respondeu à primeira das cartas, com serenidade, mas não com isenção.",
+        "start_char": 30327,
+        "end_char": 30337,
+        "excerpt": "Em nenhuma das duas fiz a menor alusão aos meus sentimentos nem ao motivo do meu ato; entretanto, para quem soubesse deles, a carta era significativa. Maria Cora só respondeu à primeira das cartas, com serenidade, mas não com isenção.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "respondeu",
+                "child": "Maria Cora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] só respondeu à primeira das cartas, com serenidade, mas não com isenção.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele abriu a carta lentamente, percebendo o papel do tamanho tradicional de correspondência, envolvido por um selo de pequena dimensão que revelava o nome de uma pessoa desconhecida. A palavra escrita no endereço lembrava-lhe ainda mais que estava a receber uma carta de alguém novo em sua vida.",
+        "generated_text_llama": "E assim, Personagem começou a escrever uma resposta detalhada, sem perder um momento, analisando cada palavra e sentença antes de finalizar o texto. Ele sabia que a sua carta poderia ter um impacto profundo na vida da pessoa ao outro lado da página, e queria fazer tudo certo para expressar seus sentimentos de forma autêntica.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Cora",
+        "sentence": "Maria Cora ouviu-me com os olhos grandes e perdidos;",
+        "start_char": 37075,
+        "end_char": 37085,
+        "excerpt": "Contei-lhe, -- e confesso que o meu fim foi irritá-la contra a memória do defunto, -- contei-lhe o desespero da Prazeres. Descrevi essa mulher e as suas lágrimas. Maria Cora ouviu-me com os olhos grandes e perdidos;",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "ouviu-me",
+                "child": "Maria Cora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ouviu-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] ouviu-me com os olhos grandes e perdidos;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele me olhou com olhos grandes e perdidos, a expressão dele mudou drasticamente, passando da indiferença para uma medo palpável. Parecia que estava tentando me compreender, mas ao mesmo tempo, sua mente estava em luta interna. Ele fechou o livro e se inclinou lentamente sobre a mesa, apoiando-se com os pés, uma posição típica de pensar profundamente ou meditar. Sua mão abriu o saco que trazia consigo, extraía um rolo de papel e começou a escrever.",
+        "generated_text_llama": "E então, Personagem se aproximou de mim, seus passos leves e cautelosos, como se não quisesse perturbar a tristeza que o envolvia. Ele parou ao meu lado, encostando-se na parede da sala, olhando para baixo, como se estivesse tentando escapar de algo dentro dele.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "aproximou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

@@ -1,0 +1,1580 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Plutarco",
+        "sentence": "Outra indução que tirava de Plutarco é que todos os homens de outrora foram nada menos do que aqueles mesmos heróis biografados.",
+        "start_char": 6173,
+        "end_char": 6181,
+        "excerpt": "Era o que sentia Romualdo aos dezoito anos, não por essa forma precisa, mas outra, que não se traduz bem senão assim. Os antigos, que ele começava a ver através das lunetas de Plutarco, pareciam-lhe não ter começado a vida sem programa. Outra indução que tirava de Plutarco é que todos os homens de outrora foram nada menos do que aqueles mesmos heróis biografados.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "lunetas",
+                "child": "Plutarco",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "luneta",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "plutarco",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Plutarco",
+                "child": "lunetas",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "plutarco",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "luneta",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Plutarco",
+                "child": "Os antigos",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "plutarco",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "antigo",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "tirava",
+                "child": "Plutarco",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "tirar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "plutarco",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Plutarco",
+                "child": "Outra indução",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "plutarco",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "indução",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Outra indução que tirava de [MASK] é que todos os homens de outrora foram nada menos do que aqueles mesmos heróis biografados.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Seguindo essa ideia, ele começou a pesquisar mais sobre as vidas dos heróis biografados e começou a se sentir uma conexão intriga com eles. Acreditava que havia algo em suas histórias que lhe faltava para completar sua própria missão, então ele resolveu procurar as localizações mais importantes de cada um deles e viajar lá para obter uma inspiração ainda maior.",
+        "generated_text_llama": "E assim, Personagem se sentou à mesa de estudo, rodeado por volumes e manuscritos antigos, determinado a mergulhar mais fundo nas páginas da história para entender melhor o misterioso legado que lhe foi deixado. Com uma caneta em mãos, começou a anotar as observações e notas feitas ao longo das sessões de indução, procurando conectar os fios da narrativa para encontrar alguma pista sobre suas próprias habilidades e poderes.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Napoleão",
+        "sentence": "Napoleão fez com a espada uma coroa, dez coroas.",
+        "start_char": 6722,
+        "end_char": 6730,
+        "excerpt": "O programa foi escrito no coração, o melhor papel, e com a vontade, a melhor das penas; era uma página arrancada ao livro do destino. O destino é obra do homem. Napoleão fez com a espada uma coroa, dez coroas.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "fez",
+                "child": "Napoleão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Napoleão",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] fez com a espada uma coroa, dez coroas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quando Personagem fez com a espada uma coroa, dez coroas, as pessoas que o rodeavam se espantaram. Toda essa beleza e riqueza não haviam visto nenhuma pessoa fazer antes. As coroas brilhavam sob a luz do dia, sendo uma maravilha para todos que as olhavam.",
+        "generated_text_llama": "Personagem colocou a última coroa no peito, sentindo-se agora o rei definitivo da ilha. Com a coroa, ele se sentia invencível e tinha certeza de que ninguém poderia desafiar seu domínio sobre o paradisíaco litoral.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "fez",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "colocou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Romualdo",
+        "sentence": "Romualdo sentia-se bastante apto para uma multidão de funções e aplicações, e achava-se mesquinho concentrar-se numa coisa particular.",
+        "start_char": 7011,
+        "end_char": 7019,
+        "excerpt": "Ele, Romualdo, não só seria esposo de alguma daquelas formosas damas, que vira subir para os bailes, mas possuiria também o carro que costumava trazê-las. Literatura, ciência, política, nenhum desses ramos deixou de ter uma linha especial. Romualdo sentia-se bastante apto para uma multidão de funções e aplicações, e achava-se mesquinho concentrar-se numa coisa particular.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": ", Romualdo",
+                "child": "esposo",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Romualdo",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "esposo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "sentia-se",
+                "child": "Romualdo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sentia-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Romualdo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] sentia-se bastante apto para uma multidão de funções e aplicações, e achava-se mesquinho concentrar-se numa coisa particular.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Logo após esse pensamento, ele começou a explorar as diferentes opções disponíveis em sua comunidade. Passou por várias organizações comunitárias, trabalhando em campanhas de limpeza, eventos comunitários e até mesmo em pequenas iniciativas empresariais locais.",
+        "generated_text_llama": "Com essa atitude aberta e pronta para aprender, Personagem começou a explorar diferentes áreas que o intrigavam. Ele se inscreveu em cursos de programação e aprendeu sobre a linguagem de programação Python, algo que parecia ser fundamental para seus futuros planos.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Hamlet",
+        "sentence": "Era muito governar os homens ou escrever Hamlet; mas por que não reuniria a alma dele ambas as glórias, por que não seria um Pitt e um Shakespeare, obedecido e admirado?",
+        "start_char": 7187,
+        "end_char": 7193,
+        "excerpt": "Literatura, ciência, política, nenhum desses ramos deixou de ter uma linha especial. Romualdo sentia-se bastante apto para uma multidão de funções e aplicações, e achava-se mesquinho concentrar-se numa coisa particular. Era muito governar os homens ou escrever Hamlet; mas por que não reuniria a alma dele ambas as glórias, por que não seria um Pitt e um Shakespeare, obedecido e admirado?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "escrever",
+                "child": "Hamlet",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "escrever",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hamlet",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Hamlet",
+                "child": "os homens",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Hamlet",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Era muito governar os homens ou escrever [MASK]; mas por que não reuniria a alma dele ambas as glórias, por que não seria um Pitt e um Shakespeare, obedecido e admirado?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O personagem decidiu então abraçar simultaneamente o mundo da política e da literatura. Foi uma tarefa difícil, mas nada impossível para ele. Começou a dedicar mais tempo à escrita de poesias, histórias e romances, enquanto ainda trabalhava nas questões governamentais. Ele começou a ser conhecido como Pitt Shakespeare, um nome que fizeram ecoar pela nação.",
+        "generated_text_llama": "Era muito governar os homens ou escrever; mas por que não reuniria a alma dele ambas as glórias, por que não seria um Pitt e um Shakespeare, obedecido e admirado? Personagem olhou em volta da sala, onde o sol estava se pondo, projetando uma luz dorada sobre as páginas de livro espalhadas pelo chão. Ele sabia que era hora de agir, de deixar para trás a vida monótona como uma tarefa terminada e começar uma nova jornada.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Romualdo",
+        "sentence": "Romualdo ideava por outras palavras a mesma coisa.",
+        "start_char": 7316,
+        "end_char": 7324,
+        "excerpt": "Romualdo sentia-se bastante apto para uma multidão de funções e aplicações, e achava-se mesquinho concentrar-se numa coisa particular. Era muito governar os homens ou escrever Hamlet; mas por que não reuniria a alma dele ambas as glórias, por que não seria um Pitt e um Shakespeare, obedecido e admirado? Romualdo ideava por outras palavras a mesma coisa.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "sentia-se",
+                "child": "Romualdo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sentia-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Romualdo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "ideava",
+                "child": "Romualdo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "idear",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Romualdo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] ideava por outras palavras a mesma coisa.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O personagem pensou em outras palavras para expressar o que estava tentando dizer. Então, ele escolheu a frase \"Você é o melhor de todos os amigos que tenho\". Ao dizer isso, uma luz calma e feliz iluminou seus olhos. Sua fala desferiu um impacto profundo em Personagem e ele sentiu-se reconhecido e valorizado como nenhuma outra vez.",
+        "generated_text_llama": "Ele olhou ao redor, para garantir que não estava sendo observado, e então começou a esconder suas coisas, colocando-os em uma malinha que ele havia trazido consigo. Ele sabia que não tinha muito tempo antes que as autoridades chegasse e decidira agir rapidamente para se livrar da situação. Com a malinha cheia de seus pertences, Personagem começou a caminhar pela noite escura, procurando um lugar seguro onde pudesse esconder-se por uma noite ou dois até que as coisas melhorassem.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Romualdo",
+        "sentence": "Romualdo dormiu mal a noite; apesar disso, acordou cedo, vestiu-se, saiu;",
+        "start_char": 8545,
+        "end_char": 8553,
+        "excerpt": "Foi por aí que o nosso Romualdo declarou ao mundo que o século era enorme, que as barreiras todas estavam por terra, que, enfim, era preciso dar ao homem a coroa imortal que lhe competia. Eram trinta ou quarenta versos, feitos com ímpeto, broslados de adjetivos e imprecações, muitos sóis, basto condor, inúmeras coisas robustas e esplêndidas. Romualdo dormiu mal a noite; apesar disso, acordou cedo, vestiu-se, saiu;",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "declarou",
+                "child": "o nosso Romualdo",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "declarar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Romualdo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "dormiu",
+                "child": "Romualdo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dormir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Romualdo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] dormiu mal a noite; apesar disso, acordou cedo, vestiu-se, saiu;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Com a mão sobre o coração palpitante, Personagem dormiu mal a noite. Apesar disso, acordou cedo e vestiu-se com prontidão. Ao abrir as portas de sua casa, um vento gelado soprou por entre elas, fazendo seu peito congelar momentaneamente. Mas ele segurava uma determinada resolução nesse dia, não haveria nada que pudesse o impedir.",
+        "generated_text_llama": "e começou a caminhar pelo parque, respirando o ar fresco da manhã, que parecia carregar um cheiro de esperança e possibilidades. O sol já estava a se levantar sobre as árvores, pintando o céu com tons de rosa e laranja, criando uma atmosfera de paz e tranquilidade. Personagem sentiu um peso levear-se do peito enquanto caminhava, como se a noite anterior tivesse sido apenas um sonho, uma flecha lançada pelo destino, que agora estava sendo puxada de volta para a realidade. Com cada passo, o mundo ao seu redor começou a ganhar mais clareza, e Personagem sentiu-se mais conectado à natureza, como se estivesse descobrindo um segredo que nunca havia conhecido que existia.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "dormiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "sentiu-se",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Romualdo",
+        "sentence": "Romualdo lera, é certo, a poesia manuscrita;",
+        "start_char": 9377,
+        "end_char": 9385,
+        "excerpt": "Em todo caso, no botequim, uma vez sentado, desdobrou a folha e releu os versos, lentamente, umas quatro vezes seguidas; com uma que leu depois de pagar a xícara de café, e a que já lera à porta da tipografia, foram nada menos de seis leituras, no curto espaço de meia hora; fato tanto mais de espantar quanto que ele tinha a poesia de cor. Mas o espanto desaparece desde que se adverte na diferença que vai do manuscrito ou decorado ao impresso. Romualdo lera, é certo, a poesia manuscrita;",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "lera",
+                "child": "Romualdo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "lerar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Romualdo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] lera, é certo, a poesia manuscrita;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas antes de entregar a poesia, Personagem decidiu ler uma última vez essa obra que lhe dava muito prazer e inspirava seus versos. Tomou a luminária e abriu o velho livro, sentando-se em seu sofá preferido perto da janela. A luz de lá fora iluminava a sala, fazendo com que as páginas se tornassem vivas.",
+        "generated_text_llama": "Era como se estivesse presa em uma trapaça, mas Personagem sabia que aquela era sua chance de desvendar um segredo escondido. Com as mãos tremendo ligeiramente, ela pegou a caneta e começou a transcrever as palavras da poesia, procurando por qualquer marca ou inscrição oculta. Enquanto isso, Personagem notou que o papel tinha um cheiro estranho, como se estivesse impregnado de uma essência desconhecida.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "conj"
+                ],
+                [
+                    "notou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Romualdo",
+        "sentence": "Romualdo, de escassa bolsa, trabalhando muito para ganhar o diploma, compreendeu que o casamento era uma solução.",
+        "start_char": 13788,
+        "end_char": 13796,
+        "excerpt": "O terceiro ano oferece-nos uma lauda primorosa. Era uma moça de quinze anos, filha de um fazendeiro de Guaratinguetá, que tinha ido à capital da província. Romualdo, de escassa bolsa, trabalhando muito para ganhar o diploma, compreendeu que o casamento era uma solução.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "trabalhando",
+                "child": "Romualdo",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "trabalhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Romualdo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], de escassa bolsa, trabalhando muito para ganhar o diploma, compreendeu que o casamento era uma solução.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Porém, como ele estava completamente comprometido com seus estudos e não desejava fazer esse passo com pressa, decidiu ficar um pouco mais tempo em casa antes de se casar. Ele queria ter certeza que estava preparado tanto para trabalhar quanto para cuidar de uma família. Assim, começou a pesquisar oportunidades de emprego e também a se dedicar à busca por um apartamento que pudesse ser compartilhado com alguém em caso de precisar dividir os gastos.",
+        "generated_text_llama": "Apesar da dificuldade financeira, Personagem decidiu que o casamento seria a melhor opção para ele. Ele sabia que não poderia continuar vivendo com sua mãe, que trabalhava duro para cuidar dele, mas sem a ajuda de um pai estável, as coisas pareciam impossíveis.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lucinda",
+        "sentence": "Lucinda apareceu aos olhos do nosso herói com todos os esplendores de uma madrugada.",
+        "start_char": 15469,
+        "end_char": 15476,
+        "excerpt": "ei-las que tomam do Romualdo e do Josino, e os levam à fazenda2 da namorada. Agora não os solto mais, disse o fazendeiro. Lucinda apareceu aos olhos do nosso herói com todos os esplendores de uma madrugada.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "apareceu",
+                "child": "Lucinda",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aparecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lucinda",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] apareceu aos olhos do nosso herói com todos os esplendores de uma madrugada.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, em todas as suas esplêndidas maneiras, emergiu para os olhos do nosso herói à meia-noite. Com seus cabelos crespos dourados e sua pele morena brilhante, ele se sentiu encantado com a visão.",
+        "generated_text_llama": "Com a luz da manhã a iluminar o cenário, Personagem sorriu, exibindo seus dentes afiados e brilhantes, que pareciam brilhar com uma luz própria. Seus olhos, redondos e expressivos, brilhavam de curiosidade enquanto ele se aproximava do nosso herói, suas pernas ágeis e musculosas movendo-se com uma agilidade impressionante.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "emergiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Romualdo",
+        "sentence": "Romualdo deu um salto, pálido, fremente; depois conteve-se, e começou a disfarçar.",
+        "start_char": 16809,
+        "end_char": 16817,
+        "excerpt": "Com quem casa? Com a prima Lucinda. Romualdo deu um salto, pálido, fremente; depois conteve-se, e começou a disfarçar.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "deu",
+                "child": "Romualdo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Romualdo",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] deu um salto, pálido, fremente; depois conteve-se, e começou a disfarçar.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de saltar, pálido e cercado por uma nuvem de espíritos, Personagem se deteve e olhou ao redor com uma expressão confusa. Então, tomando um fundo no espaço e no tempo, começou a se disfarçar, transformando-se em algo menos assustador, algo que pudesse passar despercebido entre os humanos. Ele aprendera que a segurança em meio a esses seres poderia ser mais fácil de encontrar escondido entre a multidão do mundo mortal.",
+        "generated_text_llama": "Após controlar o impulso de sábio, Personagem rapidamente buscou um lugar escuro e tranquilo para se esconder, sabendo que precisava manter sua identidade secreta. Ele entrou em uma pequena loja de artigos usados, onde a escuridão era total e as sombras pareciam dançar nas paredes. Personagem começou a desenhar seu rosto e cabelos, usando um lençol branco para cobrir sua pele branca e substituir seus cabelos pretos por uma saia de lã ruiva.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "deteve",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "buscou",
+                    "ROOT"
+                ],
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Josino",
+        "sentence": "Josino, que trazia o plano de cor, confiou ao colega um romance em que o juiz municipal fazia o menos judiciário dos papéis, e a prima aparecia como a mais louca das namoradas.",
+        "start_char": 16892,
+        "end_char": 16898,
+        "excerpt": "Com a prima Lucinda. Romualdo deu um salto, pálido, fremente; depois conteve-se, e começou a disfarçar. Josino, que trazia o plano de cor, confiou ao colega um romance em que o juiz municipal fazia o menos judiciário dos papéis, e a prima aparecia como a mais louca das namoradas.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "confiou",
+                "child": "Josino",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "confiar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Josino",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "o plano",
+                "child": "Josino",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "plano",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Josino",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "cor",
+                "child": "Josino",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "cor",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Josino",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], que trazia o plano de cor, confiou ao colega um romance em que o juiz municipal fazia o menos judiciário dos papéis, e a prima aparecia como a mais louca das namoradas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando com a história em português-brasileiro:",
+        "generated_text_llama": "Era uma tarde chuvosa de quarta-feira, e Personagem sentava-se no seu escritório, rodeado por papelada e canetas desbotadas. Ele olhou para o plano de cor que havia colocado sobre a mesa e começou a rir ao lembrar da reação do colega quando lhe contou sobre o caso do juiz municipal. \"Ele não acreditou em nada!\", Personagem exclamou, sacudindo a cabeça.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentava-se",
+                    "ROOT"
+                ],
+                [
+                    "exclamou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Romualdo",
+        "sentence": "Romualdo compreendeu tudo e contou-lhe tudo.",
+        "start_char": 17353,
+        "end_char": 17361,
+        "excerpt": "O papa chegaria em maio ou junho. Romualdo, entre pasmado e incrédulo, não tirava os olhos do colega; este soltou, enfim, uma risada. Romualdo compreendeu tudo e contou-lhe tudo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tirava",
+                "child": "Romualdo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tirar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Romualdo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "compreendeu",
+                "child": "Romualdo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "compreender",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Romualdo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] compreendeu tudo e contou-lhe tudo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele ficou muito surpreso com a informação que recebeu. Tomou um suspiro profundo e se levantou da cadeira, iniciando sua jornada em busca de respostas mais precisas. Ele queria saber quem era esse homem e qual era seu objetivo real em relação à cidade.",
+        "generated_text_llama": "Personagem respirou fundo, sentindo-se um pouco mais leve após compartilhar todos os seus segredos com a pessoa que estava diante dele. Ele olhou para ela nos olhos, esperando que elas compreendessem a magnitude do que ele havia dito. A mulher ansiava por uma resposta, mas sabia que não podia simplesmente dizer \"sim\" ou \"não\". Em vez disso, ela estendeu a mão e tocou suavemente o braço de Personagem, como se estivesse tentando acalmar um animal ferido.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "respirou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Romualdo",
+        "sentence": "Romualdo consolou-se do vagar dos meses, da tirania dos professores e do fastio dos livros, carteando-se com o Fernandes e falando ao Josino, só e unicamente a respeito da gentil paulista.",
+        "start_char": 18885,
+        "end_char": 18893,
+        "excerpt": "E toca a escrever o livro, a contar a união das duas almas, perante Deus e os homens, com muito luar claro e transparente, muita citação poética, algumas em latim. O romance foi acabado em S. Paulo, e mandado para o Eco de Guaratinguetá, que começou logo a publicá-lo, recordando que o autor era o mesmo dos versos dados por ele no ano anterior. Romualdo consolou-se do vagar dos meses, da tirania dos professores e do fastio dos livros, carteando-se com o Fernandes e falando ao Josino, só e unicamente a respeito da gentil paulista.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "consolou-se",
+                "child": "Romualdo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "consolour se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Romualdo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] consolou-se do vagar dos meses, da tirania dos professores e do fastio dos livros, carteando-se com o Fernandes e falando ao Josino, só e unicamente a respeito da gentil paulista.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Personagem passou a seguir uma rotina diária pacata, desaparecendo daquela vida acadêmica que tanto o agitava. Se dedicava aos estudos, apanhando no tempo livre rótulos e figuras, mas sua mente estava preocupada com outros assuntos. Atravessou as ruas da cidade à procura de informações sobre a paulista gentil que ele conhecia apenas por cartas.",
+        "generated_text_llama": "Com um sorriso satisfeito, Personagem voltou para casa, sentindo-se livre após os meses de tensão e estresse que passara nos últimos tempos. Ele se esticou no sofá, sentindo o peso do traje que havia carregado ao longo da viagem desaparecer, e olhou para a prateleira repleta de livros que agora parecia um tesouro perdido. Fernandes, o seu amigo mais próximo, já estava sentado na cadeira à frente do sofá, sorrindo para ele.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "passou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "voltou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Josino",
+        "sentence": "Josino contou-lhe muita reminiscência caseira, episódios da infância de Lucinda, que o Romualdo escutava cheio de um sentimento religioso, mesclado de um certo desvanecimento de marido.",
+        "start_char": 19074,
+        "end_char": 19080,
+        "excerpt": "O romance foi acabado em S. Paulo, e mandado para o Eco de Guaratinguetá, que começou logo a publicá-lo, recordando que o autor era o mesmo dos versos dados por ele no ano anterior. Romualdo consolou-se do vagar dos meses, da tirania dos professores e do fastio dos livros, carteando-se com o Fernandes e falando ao Josino, só e unicamente a respeito da gentil paulista. Josino contou-lhe muita reminiscência caseira, episódios da infância de Lucinda, que o Romualdo escutava cheio de um sentimento religioso, mesclado de um certo desvanecimento de marido.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "falando",
+                "child": "Josino",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Josino",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "contou-lhe",
+                "child": "Josino",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "contou-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Josino",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] contou-lhe muita reminiscência caseira, episódios da infância de Lucinda, que o Romualdo escutava cheio de um sentimento religioso, mesclado de um certo desvanecimento de marido.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Romualdo, então, fez a passagem para outro episódio de sua memória: o casamento de Lucinda e Silvio. Ele lembrou tão claramente o dia em que os dois jovens se comprometeram, com a luz do sol atravessando suavemente as árvores daquela tarde úmida, e o coro de pássaros cantando em harmonia. Romualdo estava sentado na segunda linha, de um lado de Lucinda e de outro de Silvio. Ele nunca esqueceu a expressão do orgulho e da felicidade que iluminou o rosto de Lucinda ao ouvir Silvio prometer para sempre cuidar dela, e ele não podia esconder sua tristeza ao ver que o mesmo sentimento não era compartilhado por ele.",
+        "generated_text_llama": "O olhos de Romualdo se fixaram na imagem do seu avô, sorrindo ao contrário da fotografia, enquanto uma onda de nostalgia o envolvia. Ele lembrou-se da infância, passando horas junto ao avô, ouvindo histórias sobre a vida rural e os valores que haviam moldado a sua família. A lembrança o transportou para um campo verdejante, onde Lucinda era pequena, correndo sem parar, cercada pelo som de pássaros e o aroma do solo enrijelecido.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "fez",
+                    "ROOT"
+                ],
+                [
+                    "sentado",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pequena",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Romualdo",
+        "sentence": "Romualdo persuadiu o editor a dar uma parte política, e encetou uma série de artigos que agradaram.",
+        "start_char": 21661,
+        "end_char": 21669,
+        "excerpt": "E, com os olhos no casamento e na farda de ministro, fez as suas primeiras armas políticas no último ano acadêmico. Havia então na capital da província uma folha puramente comercial; Romualdo persuadiu o editor a dar uma parte política, e encetou uma série de artigos que agradaram.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "persuadiu",
+                "child": "Romualdo",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "persuadir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Romualdo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] persuadiu o editor a dar uma parte política, e encetou uma série de artigos que agradaram.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O personagem, então, convencionou o editor para conceder uma coluna política, e iniciou uma série de artigos que agradavam ao público. Seus textos eram penetrantes e reflexivos, oferecendo um olhar crítico mas sempre equilibrado sobre os assuntos relevantes do momento. Sua voz tornou-se cada vez mais forte no meio jornalístico brasileiro, ganhando notoriedade por seu estilo imediato e engajamento em questões complexas.",
+        "generated_text_llama": "Com a satisfação de saber que seus artigos políticos estavam atraindo mais leitores, Personagem decidiu expandir sua abordagem e começou a investigar temas mais controversos do país. Ele passou noites em claro pesquisando, entrevistando especialistas e analisando dados para entender melhor as complexidades da política local.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Romualdo",
+        "sentence": "Romualdo veio pouco depois para a corte, e abriu escritório de advocacia.",
+        "start_char": 22324,
+        "end_char": 22332,
+        "excerpt": "Quantos eram naquele ano de 1864? Tudo estava sujeito à lei do tempo. Romualdo veio pouco depois para a corte, e abriu escritório de advocacia.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "veio",
+                "child": "Romualdo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Romualdo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] veio pouco depois para a corte, e abriu escritório de advocacia.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " logo após entrar na corte, Personagem abriu seu escritório de advocacia em um dos arcos do palácio real. Através do tempo, sua reputação cresceu rapidamente como advogado econômico e político astuto, sendo frequentemente consultado por nobres e líderes locais nas suas questões jurídicas complexas. Em um movimento de reconhecimento às suas habilidades únicas e sua contribuição significativa ao bem-estar da cidade, Personagem foi nomeado como juiz na corte real por meio de uma recomendação de um dos nobres mais influentes da terra. A partir deste momento, Personagem tornou-se um líder respeitado e admirado em sua comunidade, conhecido pelo seu senso prático, sabedoria jurídica profunda e justiça sem biaise.",
+        "generated_text_llama": "Com uma determinação renovada, Personagem começou a trabalhar arduamente, preparando-se para enfrentar os desafios que se aproximavam. Ele passou horas estudando leis e práticas jurídicas, buscando sempre melhorar suas habilidades e conhecimentos.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "abriu",
+                    "ROOT"
+                ],
+                [
+                    "tornou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fernandes",
+        "sentence": "Um dia, o Romualdo recebeu-o com esta notícia:  Fernandes, creio que a espingarda que me há de matar está fundida.",
+        "start_char": 23554,
+        "end_char": 23563,
+        "excerpt": "E toca a andar para o escritório do Romualdo. Às vezes, achava-o a escrever um artigo político, ouvia-o ler, copiava-o se era necessário, e no dia seguinte servia-lhe de trombeta: um artigo magnífico, uma obra-prima, não dizia só como erudição, mas como estilo, principalmente como estilo, coisa muito superior ao Otaviano, ao Rocha, ao Paranhos, ao Firmino, etc.  Não há dúvida, concluía ele; é o nosso Paul-Louis Courier. Um dia, o Romualdo recebeu-o com esta notícia:  Fernandes, creio que a espingarda que me há de matar está fundida.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "creio",
+                "child": "Fernandes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "crer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fernandes",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Um dia, o Romualdo recebeu-o com esta notícia:  [MASK], creio que a espingarda que me há de matar está fundida.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Romualdo, surpreendido, olhou para o homem em frente e percebeu que não era nenhum criminoso comum. Era um homem bem-educado, vestido de roupas elegantes e com uma aura de misterioso refinamento.",
+        "generated_text_llama": "Não sabia se era uma piada ou uma ameaça real, mas não havia tempo para dúvidas. Romualdo o levou para fora da casa, longe das olhares curiosas da vizinhança, e começou a caminhar em direção ao rio que fluía tranquilamente ao longe. Personagem sabia que não podia voltar atrás, que precisava encontrar uma maneira de escapar do destino que parecia estar sendo imposto por alguém ou algo maior.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Romualdo",
+        "sentence": "Romualdo apertou a mão ao Fernandes, cheio de reconhecimento, e o sonho continuou entre os dous, cintilante, vibrante, um sonho que valia por duas mãos cheias de realidade.",
+        "start_char": 25463,
+        "end_char": 25471,
+        "excerpt": "Lá isso é. Pois então? Romualdo apertou a mão ao Fernandes, cheio de reconhecimento, e o sonho continuou entre os dous, cintilante, vibrante, um sonho que valia por duas mãos cheias de realidade.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "apertou",
+                "child": "Romualdo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "apertar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Romualdo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] apertou a mão ao Fernandes, cheio de reconhecimento, e o sonho continuou entre os dous, cintilante, vibrante, um sonho que valia por duas mãos cheias de realidade.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele abraçou Fernandes de maneira encantadora, sabe-se que se sentiram tão próximos que a separação parecia uma fantasia, uma simples ilusão. Enquanto isso, seu coração continuava a bater com força, e o sangue corria em suas veias como riacho no verão, quente, impetuoso.",
+        "generated_text_llama": "Com uma expressão radiante no rosto, Personagem beijou a mão de Fernandes, sentindo uma conexão ainda mais profunda com aquele homem que havia sido o seu grande apoio e confidente ao longo dos anos. Em seguida, Personagem levantou-se da cadeira, apontando para o jardim, onde as luzes do crepúsculo começavam a se apagar suavemente.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "abraçou",
+                    "advcl"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "beijou",
+                    "ROOT"
+                ],
+                [
+                    "levantou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fernandes inspetor de alfândega",
+        "sentence": "O futuro certo, a pasta de ministro, o Fernandes inspetor de alfândega, e, mais tarde, bispo do Tesouro, dizia familiarmente o Romualdo.",
+        "start_char": 25693,
+        "end_char": 25724,
+        "excerpt": "Romualdo apertou a mão ao Fernandes, cheio de reconhecimento, e o sonho continuou entre os dous, cintilante, vibrante, um sonho que valia por duas mãos cheias de realidade. Trezentos contos! O futuro certo, a pasta de ministro, o Fernandes inspetor de alfândega, e, mais tarde, bispo do Tesouro, dizia familiarmente o Romualdo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "dizia",
+                "child": "o Fernandes inspetor de alfândega, e, mais tarde, bispo do Tesouro,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fernandes",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "O futuro certo, a pasta de ministro, o [MASK], e, mais tarde, bispo do Tesouro, dizia familiarmente o Romualdo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Romualdo continua a contar a história: \"O Personagem não desistiu por aqueles altos cargos políticos. Quando ele foi nomeado Bispo do Tesouro, seu compromisso com a Igreja aumentou ainda mais. Ele tornou-se uma figura de destaque na vida pública e também no meio religioso. E para todos, era claro que a luta dele não terminaria ali.\"",
+        "generated_text_llama": "E assim, com uma risada, o Romualdo continuou a contar a história sobre o destino incerto do Personagem. Ele passou a explicar que, após sua nomeação como bispo do Tesouro, o Personagem se tornou um homem de grande influência e poder dentro da corte real. Com suas habilidades diplomáticas e seu conhecimento em finanças, ele conseguiu conquistar a confiança do rei e se tornou um dos principais conselheiros do monarca.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "desistiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "tornou",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "bispo do Tesouro",
+        "sentence": "O futuro certo, a pasta de ministro, o Fernandes inspetor de alfândega, e, mais tarde, bispo do Tesouro, dizia familiarmente o Romualdo.",
+        "start_char": 25741,
+        "end_char": 25757,
+        "excerpt": "Romualdo apertou a mão ao Fernandes, cheio de reconhecimento, e o sonho continuou entre os dous, cintilante, vibrante, um sonho que valia por duas mãos cheias de realidade. Trezentos contos! O futuro certo, a pasta de ministro, o Fernandes inspetor de alfândega, e, mais tarde, bispo do Tesouro, dizia familiarmente o Romualdo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "dizia",
+                "child": "o Fernandes inspetor de alfândega, e, mais tarde, bispo do Tesouro,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fernandes",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "O futuro certo, a pasta de ministro, o Fernandes inspetor de alfândega, e, mais tarde, [MASK], dizia familiarmente o Romualdo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quando Romualdo o ouviu, ele se levantou da cadeira com uma expressão pensativa no rosto. Ao invés de reagir imediatamente, ele saiu para um passeio pela rua, contemplando as luzes de natal da cidade.",
+        "generated_text_llama": "E assim, Personagem se tornou um dos principais assessores do ministro Fernandes, ajudando-o na gestão dos arquivos da alfândega e no controle das fronteiras do país. Com sua habilidade em organizar informações e seu conhecimento em questões de comércio internacional, Personagem rapidamente ganhou a confiança do ministro e se tornou um membro valioso do gabinete.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "ouviu",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "tornou",
+                    "ROOT"
+                ],
+                [
+                    "ganhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Romualdo",
+        "sentence": "Romualdo chegou ao extremo de crer que era um emissário da viúva, e esteve a ponto de piscar o olho ao Fernandes, que se retirasse, para dar mais liberdade ao homem.",
+        "start_char": 26751,
+        "end_char": 26759,
+        "excerpt": "Nisto apareceu um cliente ao Romualdo. Nem este, nem o Fernandes estavam preparados para um tal fenômeno, verdadeira fantasia do destino. Romualdo chegou ao extremo de crer que era um emissário da viúva, e esteve a ponto de piscar o olho ao Fernandes, que se retirasse, para dar mais liberdade ao homem.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "apareceu",
+                "child": "Romualdo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aparecer",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Romualdo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "chegou",
+                "child": "Romualdo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Romualdo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] chegou ao extremo de crer que era um emissário da viúva, e esteve a ponto de piscar o olho ao Fernandes, que se retirasse, para dar mais liberdade ao homem.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O personagem, percebendo que era tratado como se fosse uma mensageiro da Viúva, teve um momento em que chegou ao limite de sua paciência e acreditou ser verdadeira a ideia. Foi à beira do pontar o olho para Fernandes, sugestivamente indicando que deveria se afastar, permitindo mais liberdade ao homem.",
+        "generated_text_llama": "Ele seguiu com sigilo ao longo do caminho estreito entre as casas, tentando não chamar a atenção para si mesmo. O coração batia forte nas costas dele, enquanto ele pensava em todas as possibilidades. Por que a viúva o estava enviando? Qual era a sua missão? E o que Fernandes tinha a ver com tudo isso?",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "tinha",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Fernandes",
+        "sentence": "Fernandes apressou-se em dar cadeira ao homem, tirar-lhe o chapéu e o guarda-chuva, perguntar se lhe fazia mal o ar nas costas, enquanto o Romualdo, com uma intuição mais verdadeira das coisas, recebia-o e ouvia-o com um ar cheio de clientes, uma fisionomia de quem não faz outra coisa desde manhã até à noite, senão arrazoar libelos e apelações.",
+        "start_char": 27056,
+        "end_char": 27065,
+        "excerpt": "Este, porém, cortou de uma tesourada essa ilusão; vinha propor uma causa ao senhor doutor. Era outro sonho, e se não tão belo, ainda belo. Fernandes apressou-se em dar cadeira ao homem, tirar-lhe o chapéu e o guarda-chuva, perguntar se lhe fazia mal o ar nas costas, enquanto o Romualdo, com uma intuição mais verdadeira das coisas, recebia-o e ouvia-o com um ar cheio de clientes, uma fisionomia de quem não faz outra coisa desde manhã até à noite, senão arrazoar libelos e apelações.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "apressou-se",
+                "child": "Fernandes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "apressar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fernandes",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] apressou-se em dar cadeira ao homem, tirar-lhe o chapéu e o guarda-chuva, perguntar se lhe fazia mal o ar nas costas, enquanto o Romualdo, com uma intuição mais verdadeira das coisas, recebia-o e ouvia-o com um ar cheio de clientes, uma fisionomia de quem não faz outra coisa desde manhã até à noite, senão arrazoar libelos e apelações.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem, confuso e ligeiramente assustado, agradeciu a Personagem por sua atenção e explicou que estava esperando o ônibus para voltar à sua cidade natal. Personagem, então, perguntou-lhe sobre o destino e se poderia ajudá-lo de alguma forma antes que o ônibus chegasse. O homem acenhou e recusou, mas deu a Personagem seu endereço para que pudesse enviar uma mensagem em caso de necessidade.",
+        "generated_text_llama": "Enquanto o Romualdo atendia ao homem sem muito entusiasmo, Personagem descobriu que era um advogado do outro lado da cidade, um homem de meia-idade com uma aparência cansada e olheiras profundas em volta dos cantos dos olhos. Ele rapidamente verificou os detalhes do caso, perguntando ao advogado sobre a natureza do problema e o que estava pedindo ajuda. Romualdo ouviu atentamente, seus braços cruzados e um gesto de confirmação com a cabeça, enquanto Personagem anotava rapidamente as informações em seu caderno.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "agradeciu",
+                    "ROOT"
+                ],
+                [
+                    "deu",
+                    "conj"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "descobriu",
+                    "ROOT"
+                ],
+                [
+                    "anotava",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Romualdo",
+        "sentence": "Romualdo acentuava cada vez mais o fastio da fisionomia, levantando o lábio, abrindo as narinas, ou coçando o queixo com a faca de marfim; ao despedir o cliente, deu-lhe a ponta dos dedos; o Fernandes levou-o até o patamar da escada.",
+        "start_char": 27697,
+        "end_char": 27705,
+        "excerpt": "O cliente, lisonjeado com as maneiras do Fernandes, ficou atado e medroso diante do Romualdo; mas ao mesmo tempo deu graças ao céu por ter vindo a um escritório onde o advogado era tão procurado e o escrevente tão atencioso. Expôs o caso, que era um embargo de obra nova, ou coisa equivalente. Romualdo acentuava cada vez mais o fastio da fisionomia, levantando o lábio, abrindo as narinas, ou coçando o queixo com a faca de marfim; ao despedir o cliente, deu-lhe a ponta dos dedos; o Fernandes levou-o até o patamar da escada.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ficou",
+                "child": "diante do Romualdo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Romualdo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "acentuava",
+                "child": "Romualdo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acentuar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Romualdo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] acentuava cada vez mais o fastio da fisionomia, levantando o lábio, abrindo as narinas, ou coçando o queixo com a faca de marfim; ao despedir o cliente, deu-lhe a ponta dos dedos; o Fernandes levou-o até o patamar da escada.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, o Sr. Fernandes observou com atenção como o homem se moveu, passando pelo seu desfile de tacadas e chifres. De repente, o homem levantou os olhos para ele, expondo um sorriso frio e sedento. O Sr. Fernandes se sentiu uma onda de insegurança correr por sua pele e, sem pensar duas vezes, começou a atacá-lo, agarrando-lhe o colarinho e tirando-o do local.",
+        "generated_text_llama": "Foi ali, na escuridão do corredor, que Personagem começou a sentir uma crescente ansiedade. O som das cordas do carro que estava parado no estacionamento parecia cada vez mais insistente, como se tentasse alertá-lo para algo. Personagem deu uma olhada ao redor, mas o corredor permanecia silencioso, como se esperasse que ele revelasse algum segredo.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "observou",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "deu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Romualdo",
+        "sentence": "Romualdo saiu de lá exaltadíssimo; pareceu-lhe (e era verdade) que ela não rejeitara dous ou três olhares dele.",
+        "start_char": 29552,
+        "end_char": 29560,
+        "excerpt": "Entretanto, o Romualdo conseguiu ser apresentado à viúva, uma noite, em casa de um colega. A viúva recebeu-o com certa frieza; estava de enxaqueca. Romualdo saiu de lá exaltadíssimo; pareceu-lhe (e era verdade) que ela não rejeitara dous ou três olhares dele.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "conseguiu",
+                "child": "o Romualdo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "conseguir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Romualdo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "saiu",
+                "child": "Romualdo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sair",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Romualdo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] saiu de lá exaltadíssimo; pareceu-lhe (e era verdade) que ela não rejeitara dous ou três olhares dele.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a história, ela saiu de lá com um ar exultante; parecia que não rejeitaria mesmo dois ou três olhares dele. Então ele se resolveu e abordou-a. \"Você vai onde?\" perguntou, tendo na mente algumas ideias sobre o que eles fariam juntos naquela noite. Ela parecia estar a pensar antes de responder e, finalmente, disse: \"Quero caminhar um pouco pelas ruas dessa cidade maravilhosa. Você vem comigo?\". Ele não perdeu tempo em responder: \"Claro que sim!\". E assim eles caminharam juntos pelo centro da cidade, sentindo o ar fresco e alegre no verão aquecido.",
+        "generated_text_llama": "Depois de se sentir um pouco arrepiado pela possibilidade de que ela tivesse aceitado seus olhares, Personagem decidiu tentar againde, com um sorriso confiante e uma determinação renovada em seus passos. Ele se aproximou dela, sentindo a energia da multidão ao redor, mas não se deixando levar pelo exuberância do ambiente.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "perguntou",
+                    "ROOT"
+                ],
+                [
+                    "Quero",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Romualdo",
+        "sentence": "Vieram buscar um artigo para a folha política; Romualdo, que o não escrevera, mal pôde alinhar, à pressa, alguns conceitos chochos, a que a folha adversa respondeu com muita superioridade.",
+        "start_char": 29998,
+        "end_char": 30006,
+        "excerpt": "Parece que não padece de mais nada? Não faz mal; é moléstia de moça bonita. Vieram buscar um artigo para a folha política; Romualdo, que o não escrevera, mal pôde alinhar, à pressa, alguns conceitos chochos, a que a folha adversa respondeu com muita superioridade.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "pôde",
+                "child": "Romualdo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Romualdo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Vieram buscar um artigo para a folha política; [MASK], que o não escrevera, mal pôde alinhar, à pressa, alguns conceitos chochos, a que a folha adversa respondeu com muita superioridade.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, desistindo de seu original plano, optou por buscar um colaborador confiável e experiente para escrever uma reação adequada à publicação adversa. Em seguida, ele se dirigiu rapidamente à oficina do jornalista Antônio, que era conhecido por seu talento de analisar assuntos políticos com profundidade e precisão. Com a ajuda de Personagem, eles selecionaram os argumentos mais fortes para refutar as acusações da folha adversa e começaram a escrever o artigo de resposta.",
+        "generated_text_llama": "Com um sorriso irônico no rosto, Personagem sabia que precisava de mais do que apenas alguns conceitos para impressionar a redação da folha política. Ele começou a digitar rapidamente na sua tecla de computador, tentando lembrar das palavras certas e as expressões mais fortes para defender seu ponto de vista. Enquanto isso, os colegas dele passavam por suas próprias missões, alguns procurando por dados estatísticos para apoiar suas opiniões, enquanto outros se preparavam para escrever uma crítica scópica dos artigos adversários.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "optou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Romualdo",
+        "sentence": "Pobre Romualdo, era o sol de Waterloo.",
+        "start_char": 36316,
+        "end_char": 36324,
+        "excerpt": "No meio do caminho, o Romualdo teve uma reminiscência de Bonaparte, e disse ao amigo: Fernandes, é o sol de Austerlitz! Pobre Romualdo, era o sol de Waterloo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "teve",
+                "child": "o Romualdo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Romualdo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Pobre Romualdo,",
+                "child": "sol",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Pobre",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "sol",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "sol",
+                "child": "Pobre Romualdo,",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "sol",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pobre",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Pobre [MASK], era o sol de Waterloo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, pobre Personagem continuou a caminhar pela estrada, desabafado por sua situação. A cada passo, sentia mais a pressão dos seus pés no chão, e o sol acima batia sobre ele como um ferro preto. Por trás dele, a sombra do castelo de Waterloo se fundia com a neblina que envelopava as colinas circundantes.",
+        "generated_text_llama": "Pobre Personagem, era o sol de Waterloo. Ele saiu de sua guarita escondida nas sombras da cidade, com a sensação de que o destino estava sorrindo para ele. Com um sorriso amargoso no rosto, ele começou a se move em direção ao mercado, onde sabia que encontraria os rumores e as especulações sobre sua identidade secreta.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    }
+]

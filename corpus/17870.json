@@ -1,0 +1,299 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "CLÉON",
+        "sentence": "CLÉONLembrou-te convidá-la então para um festim?",
+        "start_char": 5370,
+        "end_char": 5375,
+        "excerpt": "A beleza pagava o emprego de uma esmola; Dentro em pouco era Mirto a flor de toda a escola. CLÉONLembrou-te convidá-la então para um festim?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "convidá-la",
+                "child": "CLÉONLembrou-te",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "convidar ela",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CLÉONLembrou-te",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]Lembrou-te convidá-la então para um festim?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem, lembrou-se de ter um convite especial em mente e resolveu aproveitar a ocasião. Ele escreveu uma carta agradecendo pela conversa anteriore e convidando-a para um festim que estava planejando no seu sítio, onde poderiam disfrutar de comida, bebida e música ao ar livre sob a luz das estrelas.",
+        "generated_text_llama": "Ela sorriu e disse que estava muito ocupada com os estudos e o trabalho, mas agradeceu a convite e propôs se encontrar mais tarde, em um café mais tranquilo. \"Eu gostaria de conhecê-lo melhor\", ela disse, olhando para ele com uma luz curiosa nos olhos.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Egisto Clitemnestra",
+        "sentence": "Ama o que lhe convém; convém amar a Egisto Clitemnestra; convém a Cíntia Endimião;",
+        "start_char": 11490,
+        "end_char": 11509,
+        "excerpt": "CLÉONImpõe-se leis ao mar? O coração é isto; Ama o que lhe convém; convém amar a Egisto Clitemnestra; convém a Cíntia Endimião;",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "amar",
+                "child": "Egisto Clitemnestra",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "amar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Egisto",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Egisto Clitemnestra",
+                "child": "convém",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Egisto",
+                "dep_c": "parataxis",
+                "pos_c": "ADJ",
+                "lemma_c": "convém",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Ama o que lhe convém; convém amar a [MASK]; convém a Cíntia Endimião;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim, com um coração cheio de determinação e desejo, a partir de então ele dedicou sua vida inteira àquela que sempre quisera: Cíntia Endimião. O rapaz se dedicava ao estudo em todos os momentos possíveis para conquistar seu amor, estudando até o seu sonho ficar na mente apenas dela.",
+        "generated_text_llama": "Desculpe, mas não consegui identificar o nome do personagem \"Personagem\" na frase fornecida. No entanto, posso continuar a história se você me forneecer mais contexto ou informar quem é o personagem \"Personagem\".",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cíntia Endimião",
+        "sentence": "Ama o que lhe convém; convém amar a Egisto Clitemnestra; convém a Cíntia Endimião;",
+        "start_char": 11520,
+        "end_char": 11535,
+        "excerpt": "CLÉONImpõe-se leis ao mar? O coração é isto; Ama o que lhe convém; convém amar a Egisto Clitemnestra; convém a Cíntia Endimião;",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "convém",
+                "child": "a Cíntia Endimião",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "convém",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cíntia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Ama o que lhe convém; convém amar a Egisto Clitemnestra; convém a [MASK];",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Contudo, a destino de Clytemnestra era mais complexo do que imaginava. Ela se encontrou com um misterioso viajante, um homem apelidado de Orestes, que trazia notícias da morte de seu marido Egisto, causada por seus próprios filhos, Orestes e Pátroclo.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "apelidado",
+                    "acl"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "CLÉONA",
+        "sentence": "CLÉONA clepsidra do amor não conta as horas, conta",
+        "start_char": 12853,
+        "end_char": 12859,
+        "excerpt": "MIRTOCabeça de poeta, exaltada e perdida! Pensas estar no ocaso o sol que mal desponta? CLÉONA clepsidra do amor não conta as horas, conta",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "clepsidra",
+                "child": "CLÉONA",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "clepsidra",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CLÉONA",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] clepsidra do amor não conta as horas, conta",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas Personagem sabia que o tempo passava rapidamente, e que a vida continua apesar de tudo. Então, decidiu fazer alguma coisa para se lembrar sempre dele.",
+        "generated_text_llama": "Pois ao olhar para a mulher que estava sentada na cadeira de madeira, com os olhos fechados e uma sonhadora expressão no rosto, Personagem sentiu seu coração bater mais forte. Ele sabia que ele não podia mais parar de amá-la, mesmo que isso significasse sofrer por ela.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Péricles",
+        "sentence": "Péricles não amou com tanto ardor a Aspásia, Nem esse que morreu entre as pompas da Ásia, A Laís siciliana.",
+        "start_char": 13827,
+        "end_char": 13835,
+        "excerpt": "Cantarei a teus pés a nossa mocidade. A beleza que impõe, o amor que persuade, Vênus que faz arder o fogo da paixão, Teu olhar, doce luz que vem do coração. Péricles não amou com tanto ardor a Aspásia, Nem esse que morreu entre as pompas da Ásia, A Laís siciliana.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "amou",
+                "child": "Péricles",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "amar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Péricles",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não amou com tanto ardor a Aspásia, Nem esse que morreu entre as pompas da Ásia, A Laís siciliana.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas Apíone, que era muito astuto e sedutor, viu nesta beleza oportunidade para se aproveitar do interesse de Lais na poesia e na filosofia, e decidiu aproximar-se dela como professor e mestre. Ele convidou Lais para assistir às suas palestras públicas, onde ela descobriu que o apaixonava por tudo o que lhe ensinava sobre a natureza humana e os segredos da alma.",
+        "generated_text_llama": "Eu me levantei do sofá, estendendo-me ao longo do tapete, e comecei a caminhar lentamente em direção à janela, olhando para o mar que se estendia até a distância, lembrando-me de todas as pessoas que eu amei em vão. A memória de Aspásia me assombrava, mas não era tão forte quanto a do outro, Nemesse. Ele havia morrido entre as pompas da Ásia, e eu não podia deixar de me sentir triste por ter perdido-o tão cedo.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "viu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cléon",
+        "sentence": "Cléon quisera ser o espelho em que teu rosto Sorri;",
+        "start_char": 19098,
+        "end_char": 19103,
+        "excerpt": "MIRTOTambém desejas ser alguma coisa? LÍSIASNão;Eu caso o meu amor às regras da razão. Cléon quisera ser o espelho em que teu rosto Sorri;",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "quisera",
+                "child": "Cléon",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "quisera",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cléon",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] quisera ser o espelho em que teu rosto Sorri;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, ele sentiu uma necessidade de se comunicar com o seu interlocutor, como se estivesse tentando superar alguma barreira imposta pelo tempo e ao espaço. Tomou um papel e uma caneta e começou a escrever:",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "LÍSIA",
+        "sentence": "LÍSIASApenas o bastante Para que fosse ouvido um coração amante.",
+        "start_char": 20502,
+        "end_char": 20507,
+        "excerpt": "MIRTOSou tua! Cena VIII LÍSIAS, MIRTO, CLÉON CLÉONDemorei-me demais? LÍSIASApenas o bastante Para que fosse ouvido um coração amante.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "CLÉONDemorei-me",
+                "child": "Cena VIII LÍSIAS, MIRTO, CLÉON",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "CLÉONDemorei-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]SApenas o bastante Para que fosse ouvido um coração amante.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Sa Penhasco, aquele incrível bardo da ilha de Avalon, cantor e compositor de canções magistrais, não poderia mais se impedir do instinto que o possuía: cantar sua música para aqueles que estavam ansiosos por serem ouvidos. Por isso, ele pôs os lábios em forma de córnea e começou a intonar uma música tão delicada, tão suave que parecia se espalhar pela ilha como um vento leve, encantando as aves do ar e fechando os olhos das criaturas que ouviam.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    }
+]

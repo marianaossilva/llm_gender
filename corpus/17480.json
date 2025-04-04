@@ -1,0 +1,519 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Júlia",
+        "sentence": "Júlia abre a carta e lê o seguinte:",
+        "start_char": 3726,
+        "end_char": 3731,
+        "excerpt": "Trabalha com atividade para acabar o bordado naquele mesmo dia. Mas alguém vem interrompê-la: é uma mulatinha de dez anos, cria de casa, que acaba de receber uma carta mandada por Teresa. Júlia abre a carta e lê o seguinte:",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "abre",
+                "child": "Júlia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "abrir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] abre a carta e lê o seguinte:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após abrir a carta e ler seu conteúdo, Personagem sentiu uma onda de surpresa passar por ela. Em seguida, leu novamente as palavras escritas na carta e perguntou-se se isso poderia ser verdade. Ao final, decidiu fazer algo: levantou-se da cadeira e segurou a carta em sua mão, olhando para o retrato velado que estava preso no quadro acima da mesa. \"Seja isso verdade ou não\", pensou Personagem, \"esta é uma nova oportunidade de ver o mundo\".",
+        "generated_text_llama": "Depois de abrir a carta, Personagem levou os olhos para o endereço e verificou que estivesse correto. Através da porta do prédio, ele entrou no corredor semicoberto e começou a caminhar em direção ao número indicado na carta. Com um pouco de hesitação, ele entrou no apartamento 3B, onde sabia que Personagem, seu melhor amigo infelizmente falecido há vários meses, o esperava.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "pensou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levou",
+                    "ROOT"
+                ],
+                [
+                    "esperava",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Teresa",
+        "sentence": "Dois dias depois Teresa recebia de Júlia a seguinte carta:",
+        "start_char": 5275,
+        "end_char": 5281,
+        "excerpt": "Vingou-se porém; não deu palavra durante a noite e deitou-se mais cedo que de costume. II Dois dias depois Teresa recebia de Júlia a seguinte carta:",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "recebia",
+                "child": "Teresa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "receber",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Teresa",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Dois dias depois [MASK] recebia de Júlia a seguinte carta:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Dois dias depois, Personagem sentia o peso da carta que tinha recebido de Julia e, sem derrubar em nada, abriu. Era uma carta suave e delicada, talvez mesmo escrita com a mesma caligrafia que as notas escolares do passado. O parchamento era branco e tenso, uma vez mais transportando-o de volta ao tempo em que todas as coisas pareciam possíveis. A carta começou assim:",
+        "generated_text_llama": "Dois dias depois, Personagem recebeia de Júlia a seguinte carta: uma pequena caixa de madeira com um selo do correio que parecia ter sido enviado há semanas. Ele abriu a caixa e encontrou dentro uma folha de papel com uma mensagem escrita à mão: \"Encontre-me no jardim às 7h da manhã. -J\". Personagem sentiu um arrepio na espinha ao ler as palavras, não sabendo se era uma trapaça ou se Júlia realmente queria encontrá-lo.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Daniel",
+        "sentence": "Respondendo desta maneira, atirado de uma para outra, recusado por sentimento de magnanimidade, Daniel foi quem perdeu no tal joguinho.",
+        "start_char": 9531,
+        "end_char": 9537,
+        "excerpt": "Aceita tu. E deste modo cada uma delas tratava de ver quem seria a mais generosa que a outra. Respondendo desta maneira, atirado de uma para outra, recusado por sentimento de magnanimidade, Daniel foi quem perdeu no tal joguinho.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "perdeu",
+                "child": "Daniel",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Daniel",
+                "word_categories": [
+                    "carater_social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Respondendo desta maneira, atirado de uma para outra, recusado por sentimento de magnanimidade, [MASK] foi quem perdeu no tal joguinho.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Contudo, Personagem não se deixou abater facilmente pelo jogo perdido e decidiu aproveitar a ocasião para demonstrar sua inteligência. Sem apenas falar nada, ele entrou em seu laboratório e começou a trabalhar em um projeto secreto que tinha acumulado durante algum tempo.",
+        "generated_text_llama": "Com um suspiro de frustração, Personagem se levantou do tapete e começou a caminhar em volta da sala, tentando processar o que havia acontecido. Ele não estava acostumado a perder, especialmente em partidas de estratégia como essa. A maneira como os outros jogadores haviam rejeitado sua oferta de parceria ainda o estava incomodando.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "deixou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Teresa",
+        "sentence": "Quinze dias depois das cenas que se acabam de narrar, Teresa escreveu a Júlia as seguintes linhas:",
+        "start_char": 9748,
+        "end_char": 9754,
+        "excerpt": "Mas falta à nossa história o epílogo e moralidade. *** Quinze dias depois das cenas que se acabam de narrar, Teresa escreveu a Júlia as seguintes linhas:",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "escreveu",
+                "child": "Teresa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "escrever",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Teresa",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quinze dias depois das cenas que se acabam de narrar, [MASK] escreveu a Júlia as seguintes linhas:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quinze dias após aqueles momentos que acabaram de ser contados, Personagem escreveu a Júlia as seguintes linhas: \"Minha querida Julia, o coração se enche de uma emoção desconhecida quando recordo de te vê pela janela do meu escritório. Me senti impotente ao assistir à sua tristeza e a mim não lhe oferecer um abraço que lhe fosse necessário nesse momento. Prometo, meu amor, que não irei deixar ocorrer outra coisa semelhante. Eu estou aqui para você.\" E continuou: \"Quando se trata da teus sentimentos, sou eu que preciso agir, não é?\" Por fim, ele escreveu: \"Ao longo de todos esses anos juntos, sempre soube fazer tudo pelo amor e para ti. Agora vou mostrar isso em uma ação concreta. Vamos ser um novo começo para ambos nós. Eu te amo com toda minha alma, Júlia.\"",
+        "generated_text_llama": "Quinze dias depois das cenas que se acabam de narrar, Personagem escreveu a Júlia as seguintes linhas:",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "escreveu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "escreveu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júlia",
+        "sentence": "Júlia leu esta carta e respondeu as seguintes linhas:",
+        "start_char": 10419,
+        "end_char": 10424,
+        "excerpt": "é problema que só a morte ou o casamento resolve. Adeus, abençoa o futuro de tua amiga,  Teresa. Júlia leu esta carta e respondeu as seguintes linhas:",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "leu",
+                "child": "Júlia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ler",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlia",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] leu esta carta e respondeu as seguintes linhas:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " \"Dear [Recipient's Name],",
+        "generated_text_llama": "\"Não posso fornecer ajuda ou conselhos sobre atividades ilegais ou antiéticas.\"",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Gabriel",
+        "sentence": "Ora, Gabriel, que soubera por sua irmã Teresa da recusa de ambas relativamente a Daniel, aproveitou uma ocasião que as acompanhou à janela e disse-lhes:",
+        "start_char": 11849,
+        "end_char": 11856,
+        "excerpt": "As duas moças comunicaram os seus projetos de felicidade. Nenhuma delas censurou à outra o silêncio que guardara até a hora do pedido em casamento, porque ambas tinham praticado a mesma coisa. Ora, Gabriel, que soubera por sua irmã Teresa da recusa de ambas relativamente a Daniel, aproveitou uma ocasião que as acompanhou à janela e disse-lhes:",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "aproveitou",
+                "child": "Gabriel",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aproveitar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gabriel",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "sua irmã",
+                "child": "Gabriel",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "irmã",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gabriel",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Teresa",
+                "child": "Gabriel",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Teresa",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gabriel",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "recusa",
+                "child": "Gabriel",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "recusa",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gabriel",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Daniel",
+                "child": "Gabriel",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Daniel",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gabriel",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Ora, [MASK], que soubera por sua irmã Teresa da recusa de ambas relativamente a Daniel, aproveitou uma ocasião que as acompanhou à janela e disse-lhes:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Agora, José, após saber pela sua irmã Teresa da recusa de ambas em relação a Daniel, aproveitou uma oportunidade enquanto as acompanhava até a janela e lhes disse:",
+        "generated_text_llama": "- Olha, que tal um caminho pela floresta? Pedimos aluguel de uma cabana na região. Podemos fazer uma excursão até o topo daquela montanha, é uma vista incrível, dizia Teresa, olhando para cima com uma mistura de entusiasmo e nervosismo. Eu não sei, Personagem, eu tenho medo do escuro, falou Daniel, que estava sentado na cadeira ao lado dela, seus olhos brilhando com uma luz insegura.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "aproveitou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Teresa",
+        "sentence": "Fui eu quem lho disse, acrescentou Teresa.",
+        "start_char": 12174,
+        "end_char": 12180,
+        "excerpt": "disse Júlia. Sei. Fui eu quem lho disse, acrescentou Teresa.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "acrescentou",
+                "child": "Teresa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acrescentar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Teresa",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Fui eu quem lho disse, acrescentou [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "\tEle desceu da cadeira e segurou sua bolsa no pescoço, saindo pelo portal de entrada do shopping. Queria encontrar algum lugar para pensar, para se perguntar se realmente era isso. O que ele acabara de ouvir fazia parte de uma trama que ainda não entendia inteiramente, e ele precisava de tempo para se concentrar, para ver o quão grande era o risco que corria. Ele estava apenas um garçom, trabalhando no restaurante do shopping, mas como um cidadão bem informado, sabia do que era capaz aquela organização misteriosa. Era essa mesma organização que havia sequestrado o filho de seu chefe de trabalho e agora era sua missão aprender mais sobre eles para ajudar a encontrar o garoto. Então, ele começou a caminhar, olhando em todos os lados por qualquer pista que pudesse levá-lo até um local onde pudesse encontrar informações ou mesmo fazer contato com a organização misteriosa. O que ele precisava era tempo e silêncio, e assim, começou sua busca.",
+        "generated_text_llama": "Desculpe, mas não consegui identificar o nome do personagem \"Personagem\" na sentença fornecida. Poderia me fornecer mais contexto ou informações sobre quem é esse personagem? Se não, posso continuar a história de forma genérica.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Gabriel",
+        "sentence": "Mas, continuou Gabriel, são tão felizes que o céu lhes deparou logo um coração para responder aos seus.",
+        "start_char": 12197,
+        "end_char": 12204,
+        "excerpt": "Sei. Fui eu quem lho disse, acrescentou Teresa. Mas, continuou Gabriel, são tão felizes que o céu lhes deparou logo um coração para responder aos seus.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "continuou",
+                "child": "Gabriel",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "continuar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gabriel",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mas, continuou [MASK], são tão felizes que o céu lhes deparou logo um coração para responder aos seus.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, continuando a sua jornada maravilhosa, o Personagem encontrou-se numa praia luminosa. Ao pé daquela areia branca estendida à beira do mar azul profundo, havia uma casa feita de madeira onde o céu e a terra se encontravam. Sentando-se lá em frente ao mar, sentiu que os seus sons amorosos responderam a sua alma, como se estivessem cantando ao ritmo do seu coração.",
+        "generated_text_llama": "E assim, com lágrimas de alegria nos olhos, Personagem e sua nova parceira se abraçaram, sabendo que sua jornada finalmente havia chegado ao fim. Eles compartilharam um beijo suave e triste, sabendo que nunca mais se veriam na vida. Mas, apesar da tristeza, não havia nada a ser feito a não ser viver o momento presente e aproveitar cada segundo juntos.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "encontrou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "abraçaram",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Gabriel",
+        "sentence": "Gabriel olhou para ambas, e depois, à meia voz, com intenção disse:",
+        "start_char": 12315,
+        "end_char": 12322,
+        "excerpt": "Mas, continuou Gabriel, são tão felizes que o céu lhes deparou logo um coração para responder aos seus. É verdade, disseram as duas. Gabriel olhou para ambas, e depois, à meia voz, com intenção disse:",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "continuou",
+                "child": "Gabriel",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "continuar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gabriel",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "olhou",
+                "child": "Gabriel",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "olhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Gabriel",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] olhou para ambas, e depois, à meia voz, com intenção disse:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Personagem, então, abraçou suas duas filhas. Uma delas era menina, ainda pequena, e a outra era jovem adulta. Ambas sorriram de volta ao pai, que em seguida, tomou o braço da jovem e com ela seguiu rumo a sala de jantar, para convidá-las a sentarem junto à mesa. O ar se tornou tenso em torno deles, como se estivesse visível a importância daquele momento compartilhado.",
+        "generated_text_llama": "\"Vocês dois precisam parar isso logo, logo\", disse Personagem, os olhos brilhando de raiva enquanto ele se aproximava deles. \"O que está acontecendo aqui? O que vocês acham que estão ganhando ao fazer isso?\"",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "abraçou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "disse",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

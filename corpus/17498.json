@@ -1,0 +1,213 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Júpiter",
+        "sentence": "(Júpiter faz um gesto de indiferença;",
+        "start_char": 6520,
+        "end_char": 6527,
+        "excerpt": "Um cálix de Alicante? Um cálix de Xerez? (Júpiter faz um gesto de indiferença;",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "faz",
+                "child": "Júpiter",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júpiter",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "([MASK] faz um gesto de indiferença;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem fez um gesto de indiferença e continuou caminhando lentamente para a frente. No entanto, apenas alguns metros diante dele, uma figura se revelava à beira da estrada: era o bandido que havia roubado sua carroçá. O homem parou no seu trilho e olhou para ele com uma expressão fría e determinada. \"Você vai entregar tudo de volta a mim agora\", disse o bandido, segurando um revólver em mãos tremulas. Mas o homem não se movimentou; estava fixo no lugar como uma estátua, e seu olhar continuava firme e implacável. O bandido começou a sorrir, entendo que havia encontrado sua vítima, desprezível e sem nenhum recurso de defesa. Mas o homem surpreendeu-o: com uma rápida movimentação, ele retirou um revólver escondido no capacete e disparou várias vezes contra o bandido, que recuou através da floresta, gritando em agonia. O homem não deixou de atingi-lo até que ele desapareceu no meio do bosque. Então, ele segurou o revólver e olhou ao longe, com uma satisfação tranquila no rosto.",
+        "generated_text_llama": "(suspira e olha para o chão, suas mãos entrelaçam-se ao redor da garrafa de refrigerante que segura) \"Isso é tudo? Isso é a vida?\", pensa Personagem, sentado em seu banco preferido no parque. Ele não consegue entender por que tudo aquilo que acontece sempre parece tão... banal. (pausa, olhando ao redor do parque, onde outras pessoas estão se divertindo ou conversando) \"Por que as coisas têm que ser tão simples?\", pergunta a si mesmo, seus olhos perdendo-se na distância.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "pensa",
+                    "ROOT"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eros",
+        "sentence": "Se o tempo sepultou Eros, Minerva, e Marte, Uma coisa os revive e os santifica: a arte.",
+        "start_char": 32978,
+        "end_char": 32982,
+        "excerpt": "A soberana Juno, a valorosa Palas; A crença é que o arrasta, a crença é que o ilude Neste reverdecer da eterna juventude. Se o tempo sepultou Eros, Minerva, e Marte, Uma coisa os revive e os santifica: a arte.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "sepultou",
+                "child": "Eros",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "sepultar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eros",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Eros",
+                "child": "revive",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Eros",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "revive",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Se o tempo sepultou [MASK], Minerva, e Marte, Uma coisa os revive e os santifica: a arte.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim que o tempo sepultou a tristeza dele, Personagem buscou soluções para se consolar. Acordando-se do sono profundo em que estava imerso, sentiu uma irresistível necessidade de criar algo de beleza, algo que lhe dê vida nova. Levantou-se e abriu o estúdio, piscado com a luz de um lampião que se acendia do lado de fora do quarto.",
+        "generated_text_llama": "E assim, Personagem se levantou das cinzas e buscou as ruínas da antiga biblioteca, onde havia passado sua vida estudando e sonhando com a arte. Com as mãos trêmulas, ela abriu as portas gireadas e entrou no interior, onde encontrou um corredor escuro e silencioso que parecia convidá-la a explorar. Ela seguiu em frente, sentindo o ar seco e estagnado entre os dedos, até que chegou a uma grande sala cheia de livros e objetos artísticos.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "buscou",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "David",
+        "sentence": "David olhando em face a sibila de Cuma.",
+        "start_char": 33177,
+        "end_char": 33182,
+        "excerpt": "Se a história os dispersou, se o Calvário os baniu, A arte, no mesmo amplexo, a todos reuniu. De duas tradições a musa fez só uma: David olhando em face a sibila de Cuma.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "olhando",
+                "child": "David",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "olhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "David",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] olhando em face a sibila de Cuma.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem, com o corpo tensão e as mãos agarradas às urnas, começou a caminhar para a entrada da caverna de Cuma. A luz acendeu lentamente no corredor escuro, revelando as figuras de ninfas que brincavam nas paredes e as representações mitológicas que adornavam o teto. Quando Personagem atingiu a câmara central, parou em frente à sibila, cujos rígidos olhos pareciam penetrar diretamente em seu coração. Sentindo uma forte espantidação, Personagem se inclinou profundamente e falou com a respiração susurrante:",
+        "generated_text_llama": "Enquanto olhava para a sibila de Cuma, Mask sentiu uma estranha sensação de conexão com o passado. Ele se aproximou da pedra, sentindo a energia mágica que emanava dela, e começou a recitar as palavras antigas que lhe haviam sido ensinadas pelo seu mentor. As letras pareciam dançar no ar, como se estivessem sendo sussurradas por alguém ao seu ouvido.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "atingiu",
+                    "advcl"
+                ],
+                [
+                    "inclinou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "David",
+        "sentence": "David olhando em face a sibila de Cuma.",
+        "start_char": 33177,
+        "end_char": 33182,
+        "excerpt": "Se a história os dispersou, se o Calvário os baniu, A arte, no mesmo amplexo, a todos reuniu. De duas tradições a musa fez só uma: David olhando em face a sibila de Cuma.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "olhando",
+                "child": "David",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "olhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "David",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] olhando em face a sibila de Cuma.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele se aproximou lentamente da estátua. A luz do sol da manhã penetrava nas fendas da pedra e iluminava as expressões de medo e tristeza nos rostos das figuras esculpidas. Ele tocou a boca da sibilha, como se procurasse um consolo que nem sua linguagem podia oferecer. Em seguida, ele segurou o olhar fixo nos olhos do monstro marinho, uma expressão de determinação e ousadia no rosto. Ele tinha decidido enfrentar o medo e superá-lo, por um lado, proteger seu povo das terríveis previsões da sibilha, mas também por outro lado, provar a si mesmo que era capaz de enfrentar qualquer medo e vencer. Com uma espada pronta em mãos, ele abraçou o desafio e avançou em direção ao monstro marinho, deitando seus pés solidamente no solo para mostrar seu respeito pelo perigo que se aproximava. Apenas a destinos sabiam o que estaria por vir.",
+        "generated_text_llama": "Ele afixou os ouvidos às suas palavras, como se estivesse sendo convidado para um segredo antigo. A silva de Cuma era conhecida por dar aos ouvintes visões de futuro e insights sobre o mundo das sombras. Personagem sabia que precisava ouvir atentamente, pois a sibila não costumava se enganar.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

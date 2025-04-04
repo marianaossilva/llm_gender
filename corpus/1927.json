@@ -1,0 +1,1430 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Sinhá Rita",
+        "sentence": "Talvez assim... Sinhá Rita era uma viúva, querida de João Carneiro; Damião tinha umas idéias vagas dessa situação e tratou de a aproveitar.",
+        "start_char": 1895,
+        "end_char": 1905,
+        "excerpt": "Vou pegar-me com Sinhá Rita! Ela manda chamar meu padrinho, diz-lhe que quer que eu saia do seminário... Talvez assim... Sinhá Rita era uma viúva, querida de João Carneiro; Damião tinha umas idéias vagas dessa situação e tratou de a aproveitar.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "pegar-me",
+                "child": "Sinhá Rita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pegar-me",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Sinhá Rita",
+                "child": "viúva",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Sinhá",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "viúva",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "viúva",
+                "child": "Sinhá Rita",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "viúva",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Talvez assim... [MASK] era uma viúva, querida de João Carneiro; Damião tinha umas idéias vagas dessa situação e tratou de a aproveitar.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Damião resolveu agilizar seus planos. Ele acostumava-se a andar pela rua da sua tia às seis horas, mas este dia partiu mais cedo do que costumava. Chegou em frente ao casario onde morava Personagem, apontando para uma espada de engenho que estava deitada no chão fora do casario. A senhora viúva, observando-o pela janela, saiu rapidamente e se aproximou.",
+        "generated_text_llama": "...e começou a fazer todos os encantos com Damião, fazendo-o ver que ela era uma mulher interessante e elegante, que não precisava se esforçar para atrair atenção. Ele a apresentou aos amigos da família Carneiro, mostrando-a como uma companheira agradável e divertida. Além disso, ele começou a falar sobre os planos de casamento entre Damião e João, o que deixava Damião ansioso para iniciar as negociações. Com um sorriso amigável, Damião disse a si mesmo: \"Vou ganhar essa mulher com seu charme e inteligência, não precisarei recorrer à astúcia ou à manipulação\". E assim, ele começou a construir uma estratégia para conquistar o coração de João Carneiro e, por extensão, também o de Damião.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "morava",
+                    "acl:relcl"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "disse",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sinhá Rita",
+        "sentence": "bradou Sinhá Rita, sentando-se na marquesa, onde estava reclinada.",
+        "start_char": 2170,
+        "end_char": 2180,
+        "excerpt": "Santo nome de Jesus! Que é isto? bradou Sinhá Rita, sentando-se na marquesa, onde estava reclinada.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "bradou",
+                "child": "Sinhá Rita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "bradar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "bradou [MASK], sentando-se na marquesa, onde estava reclinada.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Bradou não perdeu tempo e se aproximou da marquesa, que se encontrava sentada lá tranquilamente, absorvida em um livro antigo que guardava em suas mãos. Ele sentou-se próximo a ela, sem dizer nada, e deixou um silêncio pesado cair entre eles. A marquesa não interrompeu sua leitura, mas Bradou podia sentir que seus olhos estavam em ele, observando-o com um ar misto de surpresa e curiosidade. Ele ainda estava hesitante em abordá-la, pois ela era uma mulher desconhecida para ele, mas sua presença era tão encantadora que não podia deixá-la irem embora sem tentar conversar com ela.",
+        "generated_text_llama": "Depois de alguns instantes de silêncio, que pareciam se estenderem para o infinito, Marcio levantou a cabeça e olhou em volta da sala. A luz da lua filtrava pelas cortinas, criando um efeito mágico na decoração do quarto. Ele sentiu uma picada de curiosidade e decidiu investigar um pouco mais a cena.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "perdeu",
+                    "ROOT"
+                ],
+                [
+                    "podia",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sinhá Rita",
+        "sentence": "Sinhá Rita olhava para ele espantada, e todas as crias, de casa, e de fora, que estavam sentadas ern volta da sala, diante das suas almofadas de renda, todas fizeram parar os bilros e as mãos.",
+        "start_char": 2782,
+        "end_char": 2792,
+        "excerpt": "Damião, trêmulo, mal podendo falar, disse que não tivesse medo, não era nada; ia explicar tudo.  Descanse; e explique-se. Já lhe digo; não pratiquei nenhum crime, isso juro, mas espere. Sinhá Rita olhava para ele espantada, e todas as crias, de casa, e de fora, que estavam sentadas ern volta da sala, diante das suas almofadas de renda, todas fizeram parar os bilros e as mãos.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "olhava",
+                "child": "Sinhá Rita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "olhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] olhava para ele espantada, e todas as crias, de casa, e de fora, que estavam sentadas ern volta da sala, diante das suas almofadas de renda, todas fizeram parar os bilros e as mãos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, surpresa, olhou para todos os filhos, dos de casa e dos vizinhos que se sentavam em volta da sala, diante das suas almofadas de renda. Todos fizeram uma pausa no trabalho e pararam as mãos, inquietudos.",
+        "generated_text_llama": "[A Mask] ficou imóvel por alguns segundos, olhando para a cena silenciosa que se desenrolava em frente a ela. Em seguida, com um movimento lento e controlado, ela se levantou das almofadas de renda e começou a caminhar em direção à sala. Seu rosto estava pálido e seus olhos estavam cheios de dor, mas não era apenas fisica que a afligia. Era como se todos os seus sentimentos estivessem coletando-se em um lugar e estivessem prestes a explodir.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sinhá Rita",
+        "sentence": "Sinhá Rita vivia principalmente de ensinar a fazer renda, crivo e bordado.",
+        "start_char": 2975,
+        "end_char": 2985,
+        "excerpt": "Já lhe digo; não pratiquei nenhum crime, isso juro, mas espere. Sinhá Rita olhava para ele espantada, e todas as crias, de casa, e de fora, que estavam sentadas ern volta da sala, diante das suas almofadas de renda, todas fizeram parar os bilros e as mãos. Sinhá Rita vivia principalmente de ensinar a fazer renda, crivo e bordado.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "olhava",
+                "child": "Sinhá Rita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "olhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "vivia",
+                "child": "Sinhá Rita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "viver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] vivia principalmente de ensinar a fazer renda, crivo e bordado.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ela acordou com o sol nas costas e abriu as janelas para tomar um olhar em sua pequena cidade. Depois de beber uma xícara de chá suave, começou a preparar sua casa para ensinar novamente. Ela colocou as telas na tela de renda e organizou as agulhas, fios e teares para bordado. Era um dia sábado, o melhor para se dedicar aos alunos mais entusiastas que sempre vinham buscando novas técnicas.",
+        "generated_text_llama": "Personagem continuou a trabalhar incansavelmente em sua loja, onde oferecia uma variedade de habilidades artísticas para os clientes. Ele passava horas ensinando técnicas de renda, como criar joias únicas com cordas e filamentos, e bordar móveis e tecidos com detalhes precisos. Além disso, Personagem também ensinava a arte do crivo, uma técnica que envolvia criar padrões geométricos e florais em tecidos com agulhas finas.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ],
+                [
+                    "ensinava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sin",
+        "sentence": "Sinhá Rita, lisonjeada com as súplicas do moço, tentou chamá-lo a outros sentimentos.",
+        "start_char": 3730,
+        "end_char": 3733,
+        "excerpt": "Pode muito, Sinhá Rita; peço-lhe pelo amor de Deus, pelo que a senhora tiver de mais sagrado, por alma de seu marido, salve-me da morte, porque eu mato-me, se voltar para aquela casa. Sinhá Rita, lisonjeada com as súplicas do moço, tentou chamá-lo a outros sentimentos.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "Pode",
+                "child": ", Sinhá Rita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "tentou",
+                "child": "Sinhá Rita, lisonjeada com as súplicas do moço,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tentar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]há Rita, lisonjeada com as súplicas do moço, tentou chamá-lo a outros sentimentos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas o rapaz não se moveu, mantendo seu olhar fixo no chão e sua boca fechada, enquanto Rita continuava a insister, achando maneiras de lisonjear suas palavras. Ela, então, decidiu tentar uma estratégia diferente. Queria que ele conhecesse o carinho e alegria que ela sentia por ele, de forma a que pudesse ver que era alguém bom e fiel na sua vida. Por isso, Rita entrou em ação: abraçou-o e beijou-o profundamente, sinalizando seu amor e gratidão pelo momento que estavam juntos nesse lugar especifico. Com um sorriso tímido, o rapaz olhou para ela com uma expressão de surpresa e alegria. Finalmente, parecia que ela tinha alcançado o seu objetivo.",
+        "generated_text_llama": "Personagem sentiu um aperto no coração ao ver Rita, que estava sentada sozinha na sala, rodeada pelas lembranças deles juntos. Ele sabia que precisava encontrar uma maneira de expressar seus sentimentos, pois não conseguia mais manter a distância emocional que havia estabelecido desde o acidente.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sin",
+        "sentence": "Sinhá Rita hesitou ainda muito tempo; afinal perguntou-lhe por que não ia ter com o padrinho.",
+        "start_char": 4047,
+        "end_char": 4050,
+        "excerpt": "Não nada, nunca! redargüia Damião, abanando a cabeça e beijando-lhe as mãos, e repetia que era a sua morte. Sinhá Rita hesitou ainda muito tempo; afinal perguntou-lhe por que não ia ter com o padrinho.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "hesitou",
+                "child": "Sinhá Rita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "hesitar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]há Rita hesitou ainda muito tempo; afinal perguntou-lhe por que não ia ter com o padrinho.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Rita, sem confiança, olhou para ele e respondeu gentilmente: \"Eu queria conversar com você primeiro, amigo.\"",
+        "generated_text_llama": "\"Rita sorriu e olhou para baixo, como se estivesse escondendo algo. 'É melhor não falar disso aqui', disse ela, sua voz baixa e misteriosa. Personagem sentou-se ao lado dela, intrigado, e perguntou de novo: 'O que é que você não quer me contar?'\".",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sinhá Rita",
+        "sentence": "Sinhá Rita tinha quarenta anos na certidão de batismo, e vinte e sete nos olhos.",
+        "start_char": 4910,
+        "end_char": 4920,
+        "excerpt": "Depois, como ele continuasse triste, encostado a um portal, puxou-lhe o nariz, rindo: Ande lá, seu padreco, descanse que tudo se há de arranjar. Sinhá Rita tinha quarenta anos na certidão de batismo, e vinte e sete nos olhos.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "Sinhá Rita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] tinha quarenta anos na certidão de batismo, e vinte e sete nos olhos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, com os cabelos ruivos como pena-de-arara, sentou-se no banco do estilo da Igreja Católica, em frente ao altar que brilhava com a luz da lâmpada encendida por uma menina de quatro anos. Ele fechou os olhos e rezou, orações que haviam sido contadas por muitas gerações, orações de pé-de-santo que o avô tinha ensinado a ele em seus dias mais simples. Após o sermão, Personagem desceu as escadarias da igreja e caminhou pelas ruas do bairro, olhando para os edifícios antigos e as árvores centenárias que testemunhavam seus dias passados. Ele parou no lado de fora de uma padaria, onde um velho amigo fazia bolachas tradicionais a todo dia. Personagem comprou um pacote delas e, com o coração cheio de memórias, caminhou de volta para casa, segurando as suavíssimas bolachas no bolso e saborando-las apenas quando estava sozinho.",
+        "generated_text_llama": "Com os olhos ainda brilhando de intensidade, Masqueolheu (assim ele preferia ser chamado) se levantou da cama e começou a preparar-se para o dia. Ele era um homem ocupado, com uma vida que girava em torno de segredos e mistérios. Após um rápido banho quente e uma camisa branca, ele se dirigiu à cozinha, onde preparou uma xícara de café forte e escuro.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentou-se",
+                    "ROOT"
+                ],
+                [
+                    "desceu",
+                    "ROOT"
+                ],
+                [
+                    "comprou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sin",
+        "sentence": "Sinhá Rita pegou de uma vara que estava ao pé da marquesa, e ameaçou-a",
+        "start_char": 5396,
+        "end_char": 5399,
+        "excerpt": "Dentro de pouco, ambos eles riam, ela contava-lhe anedotas, e pedia-lhe outras, que ele referia com singular graça. Uma destas, estúrdia, obrigada a trejeitos, fez rir a uma das crias de Sinhá Rita, que esquecera o trabalho, para mirar e escutar o moço. Sinhá Rita pegou de uma vara que estava ao pé da marquesa, e ameaçou-a",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "crias",
+                "child": "Sinhá Rita",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "cria",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Sinhá Rita",
+                "child": "crias",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Sinhá",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "cria",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "pegou",
+                "child": "Sinhá Rita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]há Rita pegou de uma vara que estava ao pé da marquesa, e ameaçou-a",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele atingiu rapidamente o balcão da sala e gritou: \"Rita! Calma-se! Eu estou aqui!\"",
+        "generated_text_llama": "com a ponta da vara, fazendo com que Rita corresse para longe, assustada. \"Vai embora dela!\", gritou Personagem, seu rosto vermelho de raiva e frustração. Ele seguiu Rita por alguns metros, até que ela parou na beira da estrada e se virou para ele, os olhos brilhando com um misto de medo e desafio.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "gritou",
+                    "ROOT"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lucrécia",
+        "sentence": "se à noitinha a tarefa não estivesse pronta, Lucrécia receberia o castigo do costume.",
+        "start_char": 5627,
+        "end_char": 5635,
+        "excerpt": "A pequena abaixou a cabeça, aparando o golpe, mas o golpe não veio. Era uma advertência; se à noitinha a tarefa não estivesse pronta, Lucrécia receberia o castigo do costume.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "receberia",
+                "child": "Lucrécia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "receber",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lucrécia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "se à noitinha a tarefa não estivesse pronta, [MASK] receberia o castigo do costume.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Se à noitinha a tarefa não estivesse pronta, João receberia o castigo do costume. Mesmo que fosse escondido sob sua camisa, ele sabia que não poderia fugir dessa penalidade: se alguma coisa precisava ser feita em casa, ele era sempre o responsável.",
+        "generated_text_llama": "E assim, ao ver que a tarefa não estava completa, Personagem sentiu um nó na garganta e sua mente começou a correr como um relógio que não parava. Ele sabia que precisava terminar a tarefa antes que o pôr do sol, caso contrário ele receberia o castigo do costume - uma punição tradicional nos seus anos de vida no pequeno vilarejo onde vivia.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "receberia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sinhá Rita",
+        "sentence": "Sinhá Rita não lhe negaria o perdão...",
+        "start_char": 5997,
+        "end_char": 6007,
+        "excerpt": "Damião reparou que tossia, mas para dentro, surdamente, a fim de não interromper a conversação. Teve pena da negrinha, e resolveu apadrinhá-la, se não acabasse a tarefa. Sinhá Rita não lhe negaria o perdão...",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "negaria",
+                "child": "Sinhá Rita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "negar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não lhe negaria o perdão...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele se levantou do trono e caminhou para a porta. Sentinelas armadas acompanhavam suas passos, mas ele lesbóias as guardas sem falar uma palavra. Na sala da audiência, havia um espaço vazio, tão vazio quanto o coração de todos aqueles que haviam se sentido perdidos nessa justiça que, às vezes, parecia mais uma máquina aterrorizante do que um instrumento de justiça. O rei não teve palavras para falar ao seu antigo amigo e aliado; apenas um olhar, profundamente triste, foi suficiente.",
+        "generated_text_llama": "...mas precisava saber se ele estava disposto a aceitá-lo de volta. Mas antes mesmo que pudesse fazer uma pergunta, Personagem viu [Nome do Personagem] se afastar, caminhando lentamente em direção ao portão da casa. Personagem sabia que não poderia segui-lo ali, não agora, nem nunca mais.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "viu",
+                    "ROOT"
+                ],
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Carneiro",
+        "sentence": "João Carneiro, assombrado, não achou que replicar durante os primeiros minutos; afinal, abriu a boca e repreendeu o afilhado por ter vindo incomodar \"pessoas estranhas\", e em seguida afirmou que o castigaria.",
+        "start_char": 6452,
+        "end_char": 6465,
+        "excerpt": "Disse-lhe que era preciso tirar o moço do seminário, que ele não tinha vocação para a vida eclesiástica, e antes um padre de menos que um padre ruim. Cá fora também se podia amar e servir a Nosso Senhor. João Carneiro, assombrado, não achou que replicar durante os primeiros minutos; afinal, abriu a boca e repreendeu o afilhado por ter vindo incomodar \"pessoas estranhas\", e em seguida afirmou que o castigaria.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "achou",
+                "child": "João Carneiro, assombrado,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "achar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], assombrado, não achou que replicar durante os primeiros minutos; afinal, abriu a boca e repreendeu o afilhado por ter vindo incomodar \"pessoas estranhas\", e em seguida afirmou que o castigaria.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem, enfurecido, não viu necessidade de responder imediatamente; após tudo, abriu a boca e repreendeu severamente o neto por ter despertado \"estranhas pessoas\", como se ele tivesse escolhido deliberadamente quebrar a tranquilidade doméstica. Em seguida, com uma voz ressonante, ameaçou aplicar uma punição severa ao menino, para lembrá-lo de que a casa pertence a eles e não a ele. Mas não havia tempo para reflexões tranquilas; Personagem sentiu a pressão do sinal da polícia em sua mente, e rapidamente escondeu quaisquer provas incriminatórias antes de abrir a porta para os oficiais.",
+        "generated_text_llama": "Com voz firme e autoritária, Personagem convidou seu afilhado para se sentar à mesa do jardim, perto de um canto onde uma pequena estátua de pedra representava uma figura maternal. Ele explicou que o castigo seria uma noite sem brinquedos, televisão ou qualquer forma de entretenimento, e que ele precisaria passar mais tempo a sua lado. Personagem olhou para seu afilhado com um misto de raiva e tristeza, lembrando-se das palavras felizes que seu ente querido havia usado ao falar sobre o bebê, chamá-lo de \"meu pequeno amigo\".",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "viu",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "convidou",
+                    "ROOT"
+                ],
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Carneiro",
+        "sentence": "João Carneiro não se animava a sair, nem podia ficar.",
+        "start_char": 7079,
+        "end_char": 7092,
+        "excerpt": "Mas, minha senhora... Vá, vá. João Carneiro não se animava a sair, nem podia ficar.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "animava",
+                "child": "João Carneiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "animar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [
+                    "emo"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não se animava a sair, nem podia ficar.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem, não se animava a sair, nem podia ficar em casa; era como estivesse preso em uma bolsa de ar amarrada à árvore do seu jardim, sem poder escapar dessa realidade que lhe envolvia. Porém, após algum tempo, sentiu-se um leve sopro refrescante sobre o rosto e, em seguida, uma luz brilhante entrou pela janela principal, quebrando a escuridão daquela noite de chuva.",
+        "generated_text_llama": "Personagem sentou-se na cama, olhando fixamente para o teto, tentando se lembrar de como era sua vida antes daquela noite terrível. A cabeça doía e seu corpo estava coberto de uma dor constante, como se alguém estivesse esfregando uma machadada contra suas articulações.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sinhá Rita",
+        "sentence": "Os olhares que deitava a Sinhá Rita eram de súplica, mesclados de um tênue raio de censura.",
+        "start_char": 7679,
+        "end_char": 7689,
+        "excerpt": "Tinha de haver por força um escândalo. João Carneiro estava com a pupila desvairada, a pálpebra trêmula, o peito ofegante. Os olhares que deitava a Sinhá Rita eram de súplica, mesclados de um tênue raio de censura.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "deitava",
+                "child": "a Sinhá Rita",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "deitar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "a Sinhá Rita",
+                "child": "Os olhares",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Sinhá",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "olhar",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "a Sinhá Rita",
+                "child": "súplica",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Sinhá",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "súplica",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Os olhares que deitava a [MASK] eram de súplica, mesclados de um tênue raio de censura.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quando se encontrou enfrentado com o guarda-costas, que lhe barreiraçava a passagem, Personagem acalentou as mãos e levantou as palmas em sinal de paz. Depois de alguns segundos de impasse, o guarda-costas se inclinou ligeiramente e abriu um caminho para ele.",
+        "generated_text_llama": "[NÓVAS LINHAS]",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "acalentou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Carneiro",
+        "sentence": "João Carneiro voltaria para casa e ia jogar os três- setes.",
+        "start_char": 8334,
+        "end_char": 8347,
+        "excerpt": "Deus do céu! um decreto do papa dissolvendo a Igreja, ou, pelo menos, extinguindo os seminários, faria acabar tudo em bem. João Carneiro voltaria para casa e ia jogar os três- setes.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "voltaria",
+                "child": "João Carneiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "voltariar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] voltaria para casa e ia jogar os três- setes.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após chegar em casa, Personagem se deparou com uma janela apertada com poeira e poluição do ar. Pensando numa maneira de melhorar o ar da casa, ele decidiu comprar uma máquina de ar fresco.",
+        "generated_text_llama": "Ele entrou na sala de estar, tirou os sapatos e se dirigiu ao sofá, onde estava o jogo de trinta e sete em cima da mesa. Ele sentou-se e começou a preparar as peças, distribuindo-as aleatoriamente entre si e seus adversários, que estavam todos sentados em volta dele, esperando ansiosos para começar o jogo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "deparou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sinhá Rita",
+        "sentence": "Vá, vá, disse Sinhá Rita dando-lhe o chapéu e a bengala.",
+        "start_char": 8638,
+        "end_char": 8648,
+        "excerpt": "Imaginai que o barbeiro de Napoleão era encarregado de comandar a batalha de Austerlitz... Mas a Igreja continuava, os seminários continuavam, o afilhado continuava cosido à parede, olhos baixos esperando, sem solução apoplética. Vá, vá, disse Sinhá Rita dando-lhe o chapéu e a bengala.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Sinhá Rita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Vá, vá, disse [MASK] dando-lhe o chapéu e a bengala.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem se encostou no portal e olhou de costas, com um sorriso contente na boca. Depois que seu amigo desapareceu da vista, sentiu-se uma sensação estranha em sua pele: estava recebendo um surto de energia que não tinha sentido antes.",
+        "generated_text_llama": "Com um sorriso no rosto, Personagem apertou o cabo da bengala e começou a caminhar pelas ruas escuros e estreitas da cidade velha. A lua cheia brilhava acima dele, iluminando o caminho para as aventuras que esperavam ser vividas. Sem se deter, Personagem dirigiu-se para o taverna local, onde sabia que poderia encontrar informações valiosas sobre o segredo perdido da cidade. Com a bengala em mãos, ele se sentia confiante e pronto para enfrentar qualquer desafio que viesse sua way.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "apertou",
+                    "ROOT"
+                ],
+                [
+                    "dirigiu-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sinha Rita",
+        "sentence": "Sinha Rita puxou-lhe desta vez o queixo.",
+        "start_char": 8867,
+        "end_char": 8877,
+        "excerpt": "O barbeiro meteu a navalha no estojo, travou da espada e saiu à campanha. Damião respirou; exteriormente deixou-se estar na mesma, olhos fincados no chão, acabrunhado. Sinha Rita puxou-lhe desta vez o queixo.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "puxou-lhe",
+                "child": "Sinha Rita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "puxou-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinha",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] puxou-lhe desta vez o queixo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Personagem puxou-lhe desta vez o queixo, apertando firmemente com os dentes e empurrando-o até onde ela queria que ele ficasse. Depois de ter feito isso, ela segurou seu olhar em cima do objeto, sinalizando sua posse e determinado domínio sobre aquele espaço. Em seguida, ela o examinou, girando-o em suas mãos, enquanto pensava no que fazer com ele próximo.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "puxou-lhe",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sinhá Rita",
+        "sentence": "Sinhá Rita presidia a todo esse mulherio de casa e de fora.",
+        "start_char": 9644,
+        "end_char": 9654,
+        "excerpt": "As moças eram cinco vizinhas que iam todas as tardes tomar café com Sinhá Rita, e ali ficavam até o cair da noite. As discípulas, findo o jantar delas, tornaram às almofadas do trabalho. Sinhá Rita presidia a todo esse mulherio de casa e de fora.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "tomar",
+                "child": "Sinhá Rita",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "tomar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Sinhá Rita",
+                "child": "vizinhas",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Sinhá",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "vizinha",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "presidia",
+                "child": "Sinhá Rita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "presidiar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] presidia a todo esse mulherio de casa e de fora.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem continuou trabalhando na fazenda, sempre cuidadoso e preciso em tudo que fazia. Depois de finalizado o trabalho da manhã, ele subiu a escada para o porão, onde seus filhos dormiam, e lhes contou histórias divertidas e maravilhosas, que sempre despertavam seu entusiasmo.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sinhá Rita",
+        "sentence": "Antes do fim, Sinhá Rita pediu a Damião que contasse certa anedota que lhe agradara muito.",
+        "start_char": 10088,
+        "end_char": 10098,
+        "excerpt": "Durante os primeiros minutos, ainda houve da parte das vizinhas certo acanhamento, mas passou depressa. Uma delas cantou uma modinha, ao som da guitarra, tangida por Sinhá Rita, e a tarde foi passando depressa. Antes do fim, Sinhá Rita pediu a Damião que contasse certa anedota que lhe agradara muito.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "tangida",
+                "child": "Sinhá Rita",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "tanger",
+                "dep_c": "obl:agent",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Sinhá Rita",
+                "child": ", ao som",
+                "dep_h": "obl:agent",
+                "pos_h": "PROPN",
+                "lemma_h": "Sinhá",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "som",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "pediu",
+                "child": "Sinhá Rita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pedir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Antes do fim, [MASK] pediu a Damião que contasse certa anedota que lhe agradara muito.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Porém, Damião, que era conhecido por ser taciturno e reservado, não estava disposto facilmente a compartilhar histórias. Sentindo-se desconfortável com a situação, pediu para Personagem dar uma pausa no dia e continuaram conversando outra vez mais tarde. Porém, curiosidade o conquistou e ao final do dia, Damião se sentou junto de Personagem, contando uma história que lhe agradara muito.",
+        "generated_text_llama": "Damião olhou para ele com um sorriso travesso e começou a contar uma história sobre como havia tentado comer um ovo cozido por um chef famoso em Roma, mas acabou se machucando com o seu próprio pé. A multidão ao redor deles riu e riu, e Personagem não conseguiu parar de rir também, suas risadas ecoando pela sala. Depois de alguns minutos de riso, Damião parou e olhou para Personagem com um olhar sério, dizendo: \"Mas e você, Personagem, tem alguma história para contar?\" E assim, Personagem começou a contar uma anedota sua própria, sobre como havia se esquecido de levar o seu chapéu em uma viagem ao mar, e como tudo ficou ainda mais complicado quando um vento forte teve que trazer o chapéu de volta para ele. A multidão riu novamente, e Personagem sabia que tinha feito certo em pedir a Damião contar aquela anedota.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "conseguiu",
+                    "conj"
+                ],
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "sabia",
+                    "conj"
+                ]
+            ],
+            "obj": [
+                [
+                    "olhou",
+                    "conj"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sinhá Rita",
+        "sentence": "Sinhá Rita dispunha justamente de um rodaque, lembrança ou esquecimento de João Carneiro.",
+        "start_char": 11386,
+        "end_char": 11396,
+        "excerpt": "Quis ainda saber se haveria modo de fugir para a Rua da Vala, ou se era melhor falar a algum vizinho que fizesse o favor de o receber. O pior era a batina; se Shlhá Rita lhe pudesse arranjar um rodaque, uma sobrecasaca velha... Sinhá Rita dispunha justamente de um rodaque, lembrança ou esquecimento de João Carneiro.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "dispunha",
+                "child": "Sinhá Rita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dispunha",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] dispunha justamente de um rodaque, lembrança ou esquecimento de João Carneiro.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " continuando a andar pela praça, o homem sentiu uma sensação estranha na manga direita, encontrou-se com o objeto que tinha guardado por vários anos: um rodaque. A lembrança repentinamente flooding seu espírito, remontando a época em que trabalhava no departamento de arqueologia e era amigo íntimo de João Carneiro.",
+        "generated_text_llama": "Ela olhou ao redor nervosamente, como se medisse a distância entre ela e aquele lugar onde tudo começou a desmoronar. Com a mão trêmula, ela puxou o rodaque do bolso de seu casaco e o abriu, revelando um bilhete rasgado com uma mensagem escrita à mão: \"Eu estou aqui, João\". A palavras se desenrolaram em sua mente como uma nuvem de areia no vento, lembra-la do tempo que passaram juntos, dos risos compartilhados e das noites longas conversando até o amanhecer. Ela sentiu um grito na garganta enquanto a memória começou a se erguer como uma montanha de areia no deserto. João Carneiro, aquele homem que foi tirado da sua vida em um instante, agora estava aqui, como se o tempo tivesse sido feito para voltar e devolver-lhe algo que pertencia a ela.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Carneiro",
+        "sentence": "João Carneiro lutou muito para conseguir que o compadre não resolvesse logo, qne dormisse a noite, e meditasse bem se era conveniente dar à religião um sujeito tão rebelde e vicioso.",
+        "start_char": 11876,
+        "end_char": 11889,
+        "excerpt": "Afinal, à boca da noite, apareceu um escravo do padrinho, com uma carta para Sinhá Rita. O negócio ainda não estava composto; o pai ficou furioso e quis quebrar tudo; bradou que não, senhor que o peralta havia de ir para o seminário, ou então metia-o no Aljube ou na presiganga. João Carneiro lutou muito para conseguir que o compadre não resolvesse logo, qne dormisse a noite, e meditasse bem se era conveniente dar à religião um sujeito tão rebelde e vicioso.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "lutou",
+                "child": "João Carneiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "lutar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] lutou muito para conseguir que o compadre não resolvesse logo, qne dormisse a noite, e meditasse bem se era conveniente dar à religião um sujeito tão rebelde e vicioso.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Com seus olhos frios e inquietos, Personagem segurou seu pente em sua mão e observou o compadre que dormia profundamente no sofá. Por algum tempo, ele permaneceu assim, pensando nas possíveis consequências de suas ações e na possibilidade de ser condenado para uma vida de miséria e prisão por causa de seu comportamento dissoluto.",
+        "generated_text_llama": "Personagem lutou muito para conseguir que o compadre não resolvesse logo, que dormisse a noite, e meditasse bem se era conveniente dar à religião um sujeito tão rebelde e vicioso. No final, o compadre concordou em esperar até o dia seguinte, mas apenas porque Personagem lhe prometeu mostrar-lhe um caso real de como a religião podia transformar alguém como ele. Enquanto isso, Personagem se sentiu uma sensação de alívio, mas logo percebeu que sua mente não parou de se debater com as contradições da sua própria vida.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "segurou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "lutou",
+                    "ROOT"
+                ],
+                [
+                    "prometeu",
+                    "conj"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sinhá Rita",
+        "sentence": "Sinhá Rita mandou vir um tinteiro de chifre, e na meia folha da própria carta escreveu esta resposta:",
+        "start_char": 12357,
+        "end_char": 12367,
+        "excerpt": "Damião acabou de ler a carta e olhou para Sinhá Rita. Não tenho outra tábua de salvação, pensou ele. Sinhá Rita mandou vir um tinteiro de chifre, e na meia folha da própria carta escreveu esta resposta:",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "olhou",
+                "child": "Sinhá Rita",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "olhar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "mandou",
+                "child": "Sinhá Rita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mandar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] mandou vir um tinteiro de chifre, e na meia folha da própria carta escreveu esta resposta:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Senhor Poirot segurava uma fita vermelha em mãos, em pé no salão. Depois de ler a carta que recebeu, ele levantou o olhar para seu rosto refletido nas luzes baixas do local. Ele sabia exatamente qual era a resposta que estava buscando e então mandou por um tinteiro de chifre. Na meia-folha da própria carta, ele escreveu esta resposta:",
+        "generated_text_llama": "Ele sabia que a única maneira de escapar da situação era convencer o proprietário do tinteiro, um velho xamã conhecido por sua habilidade em criar rituais poderosos com apenas uma pena e algumas gotas de tinta. Personagem entrou no tinteiro, onde o cheiro de incenso e o som dos tambores ecoavam, criando um ambiente mágico.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "segurava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "entrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sinhá Rita",
+        "sentence": "Sinhá Rita examinou-os, todas as discípulas tinham concluído a tarefa.",
+        "start_char": 12856,
+        "end_char": 12866,
+        "excerpt": "Não, que eu não sou de brincadeiras! Era a hora de recolher os trabalhos. Sinhá Rita examinou-os, todas as discípulas tinham concluído a tarefa.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "examinou-os",
+                "child": "Sinhá Rita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "examinou-os",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] examinou-os, todas as discípulas tinham concluído a tarefa.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem, olhou para as discípulas e sentiu um grande orgulho por sua dedicação e esforço. \"Excelente, meninas\", disse ele com uma sonrisa, \"vocês executaram a tarefa perfeitamente! Vou verificar cada um dos resultados para garantir que estiverem todos certos\".",
+        "generated_text_llama": "Personagem sorriu satisfeita e disse: \"Bem feito, todas! Vocês conseguiram terminar a tarefa dentro do prazo. Agora, é hora de saber quem irá escolher o próximo desafio.\"",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sinhá Rita",
+        "sentence": "Sinhá Rita chegou-se a ela, viu que a tarefa não estava acabada, ficou furiosa, e agarrou-a por uma orelha.",
+        "start_char": 12996,
+        "end_char": 13006,
+        "excerpt": "Sinhá Rita examinou-os, todas as discípulas tinham concluído a tarefa. Só Lucrécia estava ainda à almofada, meneando os bilros, já sem ver; Sinhá Rita chegou-se a ela, viu que a tarefa não estava acabada, ficou furiosa, e agarrou-a por uma orelha.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "examinou-os",
+                "child": "Sinhá Rita",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "examinou-os",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "chegou-se",
+                "child": "Sinhá Rita",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "chegor se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Sinhá Rita",
+                "child": "almofada",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Sinhá",
+                "dep_c": "ccomp",
+                "pos_c": "NOUN",
+                "lemma_c": "almofado",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] chegou-se a ela, viu que a tarefa não estava acabada, ficou furiosa, e agarrou-a por uma orelha.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de chegar a ela, percebeu que a tarefa que ela havia lhe delegado ainda não estava concluída, sentindo-se frustrada, agarrou-a por uma orelha e gritou: \"Vamos terminar isso já! O tempo é do essencial, eu não tenho o tempo para distrações!\"",
+        "generated_text_llama": "\"Você me disse que você tinha feito isso?\", gritou Personagem, seus olhos brilhavam de raiva enquanto ele apertava a mão dela com firmeza. \"Como posso acreditar que você foi capaz de enganar-me daquele jeito? Eu confessei em todo lugar, disse a todos que você estava me ajudando, e agora eu descobri que não era nada disso?\"",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "gritou",
+                    "ROOT"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sinhá Rita",
+        "sentence": "Sinhá Rita, com a cara em fogo e os olhos esbugalhados, instava pela vara, sem largar a negrinha, agora presa de um acesso de tosse.",
+        "start_char": 14077,
+        "end_char": 14087,
+        "excerpt": "A negrinha pediu-lhe então por tudo o que houvesse mais sagrado, pela mãe, pelo pai, por Nosso Senhor.. . Me acuda, meu sinhô moço! Sinhá Rita, com a cara em fogo e os olhos esbugalhados, instava pela vara, sem largar a negrinha, agora presa de um acesso de tosse.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "instava",
+                "child": "Sinhá Rita, com a cara em fogo e os olhos esbugalhados,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "instar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], com a cara em fogo e os olhos esbugalhados, instava pela vara, sem largar a negrinha, agora presa de um acesso de tosse.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a história em português, Personagem, com o rosto enchido de chamas e olhos espalhados, continuou instigando pela vara, sem deixar cair a negrinha que agora estava presa num ataque de tosse. Com uma voz áspera e angustiada, pediu a todos presentes que fossem para casa e trazessem algum remédio para aliviar o sofrimento da pessoa afetada pelo fogo. Ainda assim, ninguém se atrevia a aproximar-se, tendo em mente o perigo imediato que ameaçava aquele homem ardente e terrível.",
+        "generated_text_llama": "Uma gota de suor escorria ao longo do rosto de Personagem enquanto ele lutava para manter o controle sobre a sua situação. Com um esforço suprimido, ele conseguiu impor mais força ao seu corpo, mantendo-se parado à frente da vara, mesmo que isso significasse enfrentar ainda mais dor. A tosse o atormentava, mas Personagem não estava disposto a dar atenção a ela agora.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "disposto",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sinhá Rita",
+        "sentence": "Chegou à marquesa, pegou na vara e entregou-a a Sinhá Rita.",
+        "start_char": 14330,
+        "end_char": 14340,
+        "excerpt": "Sinhá Rita, com a cara em fogo e os olhos esbugalhados, instava pela vara, sem largar a negrinha, agora presa de um acesso de tosse. Damião sentiu-se compungido; mas ele precisava tanto sair do seminário! Chegou à marquesa, pegou na vara e entregou-a a Sinhá Rita.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "instava",
+                "child": "Sinhá Rita, com a cara em fogo e os olhos esbugalhados,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "instar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "entregou-a",
+                "child": "a Sinhá Rita",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "entregou-a",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhá",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Chegou à marquesa, pegou na vara e entregou-a a [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele se aproximou da moça, que estava de pé no meio do campo, com a manga suja e o olhar triste. Ele se inclinou um pouco para ela e, com uma voz quebrada, perguntou: \"Tudo bem, Marquesa? Você está sozinha aqui?\" A jovem não respondeu imediatamente. Ela simplesmente olhou para ele, com os lábios comprimidos e as mãos amarradas atrás de si. Então, de repente, ela sorriu e entregou a vara ao rapaz. \"Estou melhor agora\", disse ela, \"pode ir embora agora.\" O jovem olhou para ela de novo, confuso, mas então se voltou e caminhou rapidamente rumo à cidade, sem olhar para trás. E assim terminou a história do rapaz e da moça na marquesa.",
+        "generated_text_llama": "Com um sorriso contente, Personagem recebeu a varinha de madeira escura e elegante que lhe havia sido oferecida. A marquesa, com um olhar sábio em seus olhos, explicou que essa era uma varinha mágica, capaz de realizar feitos incríveis, desde curar feridas até proteger os demais de perigos. Personagem sentiu um arrepio na espinha ao tocar a varinha, e imediatamente se sentiu conectado a ela.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "recebeu",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

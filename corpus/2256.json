@@ -1,0 +1,484 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Bartolomeu",
+        "sentence": "Parecia que Bartolomeu procurava abater com o seu olhar um inimigo postado junto do leito.",
+        "start_char": 13052,
+        "end_char": 13062,
+        "excerpt": "Dir-se-ia um espírito superior em luta com a Morte. Os olhos encovados pela enfermidade conservavam uma fixidez singular. Parecia que Bartolomeu procurava abater com o seu olhar um inimigo postado junto do leito.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "procurava",
+                "child": "Bartolomeu",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "procurar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bartolomeu",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Parecia que [MASK] procurava abater com o seu olhar um inimigo postado junto do leito.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem, deixou cair lentamente o olho de vidro, que carregava a tristeza e a ansiedade do último mês, naquela figura hostil no leito. Um solteiro suspiro se escapou de suas lábios antes de dizer, \"Sinto muita falta de você.\"",
+        "generated_text_llama": "Ele se aproximou lentamente, os pés quietos no chão, e examinou a cena com atenção. A figura que estava sentada ao lado do leito parecia estar congelada, não se movendo nem respirando. Personagem poderia sentir o coração batendo forte na sua garganta, mas ele conseguiu controlar as emoções e prosseguir em frente.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "poderia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bartolomeu",
+        "sentence": "- Sabia muito bem, meu filho, que podia contar contigo - continuou Bartolomeu.",
+        "start_char": 14832,
+        "end_char": 14842,
+        "excerpt": "Aquele ladrido cheio de perspicácia fez estremecer D. Juan. Afigurou-se-lhe ter sido compreendido pelo animal. - Sabia muito bem, meu filho, que podia contar contigo - continuou Bartolomeu.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "continuou",
+                "child": "Bartolomeu",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "continuar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bartolomeu",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "- Sabia muito bem, meu filho, que podia contar contigo - continuou [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Homem Velho sonrou em si mesmo e retirou de sua mochila um velho mapa antiguíssimo, com o passado de seu pai marcado em linhas claras e firmes. Atravessando as páginas, ele parou em uma região especifica e olhou para mim com um sorriso triste-sonhador.",
+        "generated_text_llama": "- Sabia muito bem, meu filho, que podia contar contigo - continuou Personagem, com uma voz suave e calma, mas carregada de expectativa. Ele se inclinou um pouco para frente, os olhos fixos em seus, como se estivesse preparando-se para receber uma grande notícia.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sonrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bartolomeu",
+        "sentence": "É já o auge do delírio!, pensou o filho, quando Bartolomeu lhe disse de súbito: - Descobri o meio de ressuscitar.",
+        "start_char": 16447,
+        "end_char": 16457,
+        "excerpt": "Há festa, mulheres jovens e belas, brancas e de cabelos negros, os melhores prazeres da vida... Dize-lhes que fiquem, porque eu vou renascer. É já o auge do delírio!, pensou o filho, quando Bartolomeu lhe disse de súbito: - Descobri o meio de ressuscitar.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Bartolomeu",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bartolomeu",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "É já o auge do delírio!, pensou o filho, quando [MASK] lhe disse de súbito: - Descobri o meio de ressuscitar.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Imaginativo e curioso, o filho observou com intensidade a figura de seu pai. Aqueles olhos penetrantes que sempre apontavam para além do que todos podiam perceber acendiam-se uma vez mais.",
+        "generated_text_llama": "Muito entusiasmado, Personagem começou a explicar ao seu filho como ele havia encontrado a fórmula secreta para trazer alguém de volta à vida. \"É simples\", disse ele, com um sorriso maníaco no rosto. \"Basta misturar as duas substâncias químicas específicas e aplicá-las ao corpo do falecido em um ritmo específico. O segredo é que a combinação certa pode restaurar a energia vital do ser, fazendo com que ele recupere a consciência e volte a viver\".",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júlio II",
+        "sentence": "se compreendes assim a velhice - insistiu Júlio II - arrisca-te a ser canonizado...",
+        "start_char": 31038,
+        "end_char": 31046,
+        "excerpt": "se compreendes assim a velhice - insistiu Júlio II - arrisca-te a ser canonizado... D. João sorriu; a terminar: - Depois da vossa elevação ao Papado tudo é possível.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "insistiu",
+                "child": "Júlio II",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "insistir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júlio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "se compreendes assim a velhice - insistiu [MASK] - arrisca-te a ser canonizado...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a sua conversa com o padre, Personagem sorriu e desafiadamente respondeu: \"Seus palavrões são loucuras para mim, Padre. Eu já sou um homem livre e não me preocupo com as regras dos outros. Mas se você quiser ser romântico, posso até me atrever a dizer que seria uma honra ser canonizado.\"",
+        "generated_text_llama": "...e o que está mais longe da sua imaginação é começar a sonhar com isso de verdade. Personagem sorriu para si mesmo, sentindo uma sensação de excitação e curiosidade que não sentia há anos. Ele sempre foi um homem de ações, não de palavras, mas agora sentia uma pressão interna para explorar suas emoções e desvendar os mistérios do seu próprio coração.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Elvira",
+        "sentence": "Mas, ou porque o abade fosse de temperamento tão forte como ele, ou por que Dona Elvira possuísse menos ardência ou mais prudência do que a Espanha habitualmente concede às mulheres, Belvidero viu-se constrangido a passar os seus dias calmo como um velho reitor de aldeia, sem escândalos caseiros.",
+        "start_char": 33823,
+        "end_char": 33834,
+        "excerpt": "Era este eclesiástico um santo homem, de admirável estatura, bem proporcionado, belos olhos e rosto à Tibério, fatigado pelos jejuns, empalidecido pelas macerações e dia a dia tentado, como são os solitários. O já então idoso D. Juan esperava talvez poder ainda matar um anacoreta antes de terminar o primeiro prazo da sua vida. Mas, ou porque o abade fosse de temperamento tão forte como ele, ou por que Dona Elvira possuísse menos ardência ou mais prudência do que a Espanha habitualmente concede às mulheres, Belvidero viu-se constrangido a passar os seus dias calmo como um velho reitor de aldeia, sem escândalos caseiros.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "possuísse",
+                "child": "Dona Elvira",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "possuír",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Dona Elvira",
+                "child": "temperamento",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Dona",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "temperamento",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mas, ou porque o abade fosse de temperamento tão forte como ele, ou por que [MASK] possuísse menos ardência ou mais prudência do que a Espanha habitualmente concede às mulheres, Belvidero viu-se constrangido a passar os seus dias calmo como um velho reitor de aldeia, sem escândalos caseiros.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas, não obstante sua posição econômica elevada e seu prestígio social, Belvidero não desejava viver uma vida monótona. Ele sentia que estava sendo privado da aventura e do conhecimento misterioso que o mundo tinha para oferecer. Então, decidiu tomar uma decisão arriscada: deixar seu cargo e empreender uma viagem ao Mundo Novo, onde buscar novas terras e novos recursos a serviço do Reino de Espanha.",
+        "generated_text_llama": "E assim, o silêncio reinava em sua casa, enquanto Personagem dedicava-se à sua vida monástica, seguindo rigorosamente a rotina estabelecida pelos abades da ordem. As refeições eram uma ocasião para se reunir com os companheiros de coro e discutir sobre as leis do monasticismo, evitando qualquer tema que pudesse levá-los a se afastarem dos preceitos.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "desejava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "dedicava-se",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Elvira",
+        "sentence": "Finalmente, raro era tão feliz como quando ouvia o afável cura de San-Lucar, Dona Elvira e Filipe entretidos em discutir um caso de consciência.",
+        "start_char": 34320,
+        "end_char": 34331,
+        "excerpt": "Mas, ou porque o abade fosse de temperamento tão forte como ele, ou por que Dona Elvira possuísse menos ardência ou mais prudência do que a Espanha habitualmente concede às mulheres, Belvidero viu-se constrangido a passar os seus dias calmo como um velho reitor de aldeia, sem escândalos caseiros. Por vezes sentia prazer em apanhar a mulher ou o filho em falta para com os seus deveres religiosos e ordenava-lhes imperiosamente que cumprissem as suas obrigações de fiéis da Santa Sé Apostólica. Finalmente, raro era tão feliz como quando ouvia o afável cura de San-Lucar, Dona Elvira e Filipe entretidos em discutir um caso de consciência.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "possuísse",
+                "child": "Dona Elvira",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "possuír",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Dona Elvira",
+                "child": "temperamento",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Dona",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "temperamento",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Finalmente, raro era tão feliz como quando ouvia o afável cura de San-Lucar, [MASK] e Filipe entretidos em discutir um caso de consciência.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após aquela conversa profundamente enriquecedora sobre ética e moralidade, Personagem sentiu-se com o coração indescritavelmente leve, como se tivesse liberado uma carga que carregava por muito tempo. Era um sentimento que, embora raro, sempre lhe dava uma sensação de pura e simples felicidade - aquele tipo de felicidade que não exige qualquer coisa em troca.",
+        "generated_text_llama": "Aos poucos, a porta da clínica se abriu e Personagem entrou no corredor, onde Filipe já estava aguardando com impatência. \"E aí, vocês não vão me fazer perder o ônibus?\" Filipe perguntou com um sorriso, enquanto Personagem tentava controlar o ritmo da sua respiração.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentiu-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "entrou",
+                    "conj"
+                ],
+                [
+                    "tentava",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Filipe",
+        "sentence": "Merecias melhor paternidade, Filipe - prosseguiu D. Juan.",
+        "start_char": 38610,
+        "end_char": 38616,
+        "excerpt": "Filipe fitou o pai. D. Juan conhecia bem a expressão dos sentimentos humanos para não morrer em paz sem reconhecer fidelidade nos olhos do filho, para mais lembrando-se de que seu pai morrera de desespero soletrando-lhe nos olhos as intenções: - Merecias melhor paternidade, Filipe - prosseguiu D. Juan.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "fitou",
+                "child": "Filipe",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fitar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filipe",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "paternidade",
+                "child": ", Filipe",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "paternidade",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Filipe",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", Filipe",
+                "child": "paternidade",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Filipe",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "paternidade",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Merecias melhor paternidade, [MASK] - prosseguiu D. Juan.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Prosseguindo sua jornada em busca de melhor paternidade, o rei D. Juan resolveu passar um tempo com as crianças mais do que já havia feito antes. Ele passou a levar o filho, o príncipe, ao parque todos os dias e jogava com ele, ensinando-o sobre o mundo em volta deles. Também passou a dedicar parte de seu tempo para a filha mais velha, Isabela, dando-lhe lições de leitura e matemática e ouvindo-a contar histórias fascinantes que imaginava sobre suas aventuras no mundo exterior.",
+        "generated_text_llama": "Com um sorriso triste no rosto, Personagem se afastou da praia e começou a caminhar em direção à cidade, deixando para trás o som do mar e a solidão da ilha. Ele sabia que não poderia ficar ali para sempre, não podia conter mais sua raiva e seu desejo de vingança contra o homem que havia causado tanto sofrimento em sua vida. D. Juan, o homem que havia matado sua mãe e deixado Personagem para crescer sozinho na ilha, estava fora do alcance dele agora, mas Personagem sabia que um dia o encontraria novamente.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "resolveu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "afastou",
+                    "ROOT"
+                ],
+                [
+                    "sabia",
+                    "conj"
+                ]
+            ],
+            "obj": [
+                [
+                    "deixado",
+                    "conj"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Elvira",
+        "sentence": "Suficientemente religiosa para não se fiar nos mistérios da Magia, Dona Elvira mandou chamar o abade de San-Lucar.",
+        "start_char": 41452,
+        "end_char": 41463,
+        "excerpt": "E todos aqueles espanhóis repetiram, em uníssono: - Milagre! Suficientemente religiosa para não se fiar nos mistérios da Magia, Dona Elvira mandou chamar o abade de San-Lucar.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "mandou",
+                "child": "Dona Elvira",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mandar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Suficientemente religiosa para não se fiar nos mistérios da Magia, [MASK] mandou chamar o abade de San-Lucar.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " A seguir, Personagem, suficientemente religiosa para não se fiar nos mistérios da magia, mandou chamar o abade de San-Lucar. Queria saber seu pensamento sobre a possibilidade de que a missão fosse um encantamento e pediu-lhe uma bênção para protegê-la durante sua viagem. O abade acatou com humildade e orou por ela, confortando-a antes da partida. Embora ela não tivesse certeza se sua fé era suficiente ou se a magia estava em jogo, Personagem decidiu seguir o caminho que acreditava ser divino e confiou nesta missão.",
+        "generated_text_llama": "O abade, um homem velho e sábio, com olhos penetrantes e uma barba longa e branca, foi chamado para a torre do castelo. Personagem esperava que ele pudesse lhe dar respostas às perguntas que a haviam perturbado há tanto tempo. Ao chegar ao topo da torre, o abade olhou em volta, como se estivesse procurando algo, antes de se voltar para Personagem. \"Você está procurando conhecimento ou mágica\", disse ele com uma voz baixa e autoritária. \"A escolha é sua, mas lembre-se de que a verdade pode ser mais perigosa do que qualquer feitiço\". Em seguida, o abade começou a falar sobre a história da ordem de San-Lucar, sobre as práticas espirituais e os mistérios da religião. Personagem ouviu atentamente, suas perguntas crescendo com cada palavra do abade.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "mandou",
+                    "ROOT"
+                ],
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "esperava",
+                    "ROOT"
+                ],
+                [
+                    "ouviu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

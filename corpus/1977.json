@@ -1,0 +1,1640 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "João",
+        "sentence": "Chama-se João o dono da casa, João Viegas, e tem uma filha, Joaninha.",
+        "start_char": 1062,
+        "end_char": 1066,
+        "excerpt": "moças e rapazes sorriram uns para os outros. Estamos na noite de São João de 1854, e a casa é na rua das Mangueiras. Chama-se João o dono da casa, João Viegas, e tem uma filha, Joaninha.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Estamos na noite",
+                "child": "São João de 1854",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "noite",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "São",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [],
+                "adj_categories": [
+                    "body"
+                ]
+            },
+            {
+                "head": "São João de 1854",
+                "child": "Estamos na noite",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "São",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "noite",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [],
+                "adj_categories": [
+                    "body"
+                ]
+            },
+            {
+                "head": "Chama-se",
+                "child": "João",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chamar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Chama-se",
+                "child": "João",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chamar se",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "João",
+                "child": "Viegas",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "João",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Viegas",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Viegas",
+                "child": "João",
+                "dep_h": "flat:name",
+                "pos_h": "PROPN",
+                "lemma_h": "Viegas",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Chama-se [MASK] o dono da casa, [MASK] Viegas, e tem uma filha, Joaninha.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Dono da Casa, Personagem Viegas, ficou surdo à chamada de seus empregados, que solicitavam sua atenção para assuntos trabalhistas urgentes. Ele havia desistido do mundo exterior há muito tempo e agora preferia passar seu tempo em sua célebre biblioteca, entre os livros raros e valiosos que o compunham.",
+        "generated_text_llama": "Então, ao ouvir a porta se abrir, Personagem Viegas levantou-se da cadeira onde estava sentado, pondo-se em pé com uma lentidão que mostrava sua idade avançada. Ele olhou para João, que estava de pé na entrada da sala, um sorriso nos lábios, e fez um gesto convidativo com a mão. \"Senta-se, João\", disse Personagem Viegas, sua voz firme, mas com um toque de gentileza. Em seguida, ele se dirigiu ao banheiro para tomar umas dicas de água, enquanto João fechava a porta traseira da casa e entrava no salão para procurar Joaninha.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "fechava",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rangel",
+        "sentence": "Rangel desceu os olhos ao baixo da página, viu a quadra correspondente ao número, e leu-a: dizia que sim, que havia uma pessoa, que ela devia procurar domingo, na igreja, quando fosse à missa.",
+        "start_char": 1889,
+        "end_char": 1895,
+        "excerpt": "Pegou e lançou os dados com um ar de complacência incrédula. Número dez, bradaram duas vozes. Rangel desceu os olhos ao baixo da página, viu a quadra correspondente ao número, e leu-a: dizia que sim, que havia uma pessoa, que ela devia procurar domingo, na igreja, quando fosse à missa.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "desceu",
+                "child": "Rangel",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "descer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rangel",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] desceu os olhos ao baixo da página, viu a quadra correspondente ao número, e leu-a: dizia que sim, que havia uma pessoa, que ela devia procurar domingo, na igreja, quando fosse à missa.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem abriu seu pequeno caderno de papelão, encontrou um lapis e escreveu rapidamente: \"Igreja - Domingo\". Em seguida, fechou o livro da sociedade de teatro com cuidado e colocou-o em uma das muitas bolsinhas que pendiam de seu chapéu.",
+        "generated_text_llama": "Personagem sentou-se rapidamente em frente à mesa de trabalho, sentindo um misto de emoção e expectativa. Ela sabia que precisava ser cuidadosa ao investigar essa pista, pois não sabia quem era a pessoa referida na mensagem ou o que ela poderia esperar encontrá-la na igreja. Com a mão trêmula, Personagem começou a pesquisar sobre as igrejas locais e suas rotinas, procurando por alguma informação que pudesse ajudá-la a localizar a pessoa.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "abriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentou-se",
+                    "ROOT"
+                ],
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rangel",
+        "sentence": "Outros pegaram nos dados, e Rangel continuou a ler a sorte de cada um.",
+        "start_char": 2205,
+        "end_char": 2211,
+        "excerpt": "Rangel desceu os olhos ao baixo da página, viu a quadra correspondente ao número, e leu-a: dizia que sim, que havia uma pessoa, que ela devia procurar domingo, na igreja, quando fosse à missa. Toda a mesa deu parabéns a D. Felismina, que sorriu com desdém, mas interiormente esperançada. Outros pegaram nos dados, e Rangel continuou a ler a sorte de cada um.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "desceu",
+                "child": "Rangel",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "descer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rangel",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "continuou",
+                "child": "Rangel",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "continuar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rangel",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Outros pegaram nos dados, e [MASK] continuou a ler a sorte de cada um.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele seguiu lendo as cartas individualmente com dedicação inabalável. Cada palavra, cada símbolo que aparecia na pórtico do destino, o encantava e aterrorizava ao mesmo tempo. Depois de todos os dados terem sido lidos, ele ficou em silêncio por um momento antes de dizer: \"Eis aqui suas sortes.\"",
+        "generated_text_llama": "Enquanto isso, Personagem não parava de concentrar-se nas palavras impressas no papel, desvendando a história por trás da sorte de cada pessoa. Com uma mão cuidadosa, ele apagou o lápis do papel com a ponta da chaveinhas, criando um círculo mágico que envolvia todos os jogadores.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "parava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rangel",
+        "sentence": "Rangel estremeceu; esquecera-se de ler uma sorte, embebido em percorrer a fila de moças que ficava do outro lado da mesa.",
+        "start_char": 2527,
+        "end_char": 2533,
+        "excerpt": "Presumia de grande maneira, e ali chamavam-lhe \"o diplomático\". Ande, seu diplomático, continue. Rangel estremeceu; esquecera-se de ler uma sorte, embebido em percorrer a fila de moças que ficava do outro lado da mesa.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "estremeceu",
+                "child": "Rangel",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "estremecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rangel",
+                "word_categories": [
+                    "emo"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] estremeceu; esquecera-se de ler uma sorte, embebido em percorrer a fila de moças que ficava do outro lado da mesa.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após intensificar seus sentidos, ele se despediu delicadamente das moças e se afastou para o banheiro onde estava aquela carta escondida entre as peças de jantar. Ao abri-la, percebeu que era um pedido formal da filha do barão local, solicitando que participasse de um baile, com dança e música ao vivo, em três dias. Surpreendido por esta nova oportunidade de socialização, ele ficou pensativo por um momento antes de responder com entusiasmo. Mas como se fosse uma voz invisível guiando as suas ações, sua mão levantou-se e escreveu uma resposta positiva ao convite.",
+        "generated_text_llama": "Personagem não conseguiu se concentrar nas apostas e continuou a olhar para as moças, sem saber o que fazer. Ele sabia que precisava escolher uma sorte, mas sua mente estava desorganizada e suas mãos estavam tremendo. Finalmente, ele decidiu queirar sorte e apontou aleatoriamente para um número, esperando que não fosse muito ruim.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "conseguiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rangel",
+        "sentence": "Rangel conhecia-a desde criança, andara com ela ao colo, no Passeio Público, ou nas noites de fogo da Lapa; como falar-lhe de amor?",
+        "start_char": 4829,
+        "end_char": 4835,
+        "excerpt": "ele perdia-as todas, à força de circunspecção. Um dia, reparou em Joaninha, que chegava aos dezenove anos e possuía um par de olhos lindos e sossegados,  virgens de toda a conversação masculina. Rangel conhecia-a desde criança, andara com ela ao colo, no Passeio Público, ou nas noites de fogo da Lapa; como falar-lhe de amor?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "conhecia-a",
+                "child": "Rangel",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "conhecia-a",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rangel",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] conhecia-a desde criança, andara com ela ao colo, no Passeio Público, ou nas noites de fogo da Lapa; como falar-lhe de amor?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Éra uma questão complicada. Ele sabia que o tempo estava meio-dormindo entre eles, mas sentia que não poderia mais se negar aos seus sentimentos. Ele olhou para ela e achou que sua beleza era tão pura quanto a amizade deles sempre havia sido. Em seguida, coçando um pouco seu coração, ele se aproximou e tentou expressar a ela o que estava em seu peito:",
+        "generated_text_llama": "Ela estava sentada em um banco, olhando para o rio, enquanto Personagem a acompanhava, sem dizer nada, apenas a observar a tristeza que se refletia nos seus olhos. Ele sabia que ela estava doente, mas não sabia ao certo qual era a causa disso. Afinal, ele decidiu abordá-la, sentando-se ao lado dela e colocando a mão em seu rosto, com uma gentileza que não deixava dúvidas.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "acompanhava",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rangel",
+        "sentence": "Rangel andava neste trabalho desde alguns meses.",
+        "start_char": 5208,
+        "end_char": 5214,
+        "excerpt": "Mas, por outro lado, as relações dele na casa eram tais, que podiam facilitar- lhe o casamento; e, ou este ou nenhum outro. Desta vez, o muro não era alto, e a espiga era baixinha; bastava esticar o braço com algum esforço, para arrancá-la do pé. Rangel andava neste trabalho desde alguns meses.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "andava",
+                "child": "Rangel",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "andar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rangel",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] andava neste trabalho desde alguns meses.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem seguiu trabalhando diligentemente no projeto durante estes meses. Diante da importância de seu trabalho, decidiu dedicar mais horas para ele e passou a estudar em casa até a tarde, a fim de estar sempre preparado. Seus superiores notaram sua dedicação e aprendizado rápido e o nomearam líder do time. A partir daí, Personagem coordenou seus colegas com eficiência e liderança, conseguindo entregar um trabalho de alta qualidade antes do prazo estabelecido. Isso trouxe muito orgulho a Personagem, pois estava ciente de que sua dedicação tinha resultado em uma realizaçao admirável e trazia benefícios para o projeto em seu todo.",
+        "generated_text_llama": "Enquanto o trabalho parecia infinito e desafiador, Personagem se concentrava em cada tarefa com determinação, procurando encontrar uma maneira de torná-lo mais eficiente. Com um café quente na mão e sua mente em alto vapor, ele começou a revisar os relatórios e dados que haviam sido enviados pela empresa. Após uma pausa para organizar suas ideias, Personagem decidiu criar um plano de ação para resolver alguns dos problemas que estava enfrentando. Com um sorriso de satisfação, ele começou a anotar sugestões e estratégias em seu papel, sentindo-se cada vez mais confiante na sua capacidade de superar os desafios.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "seguiu",
+                    "ROOT"
+                ],
+                [
+                    "coordenou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "concentrava",
+                    "ROOT"
+                ],
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rangel",
+        "sentence": "Rangel acompanhou-a com grandes olhos namorados.",
+        "start_char": 6410,
+        "end_char": 6416,
+        "excerpt": "Era D. Adelaide que tornava; ia pôr-se a mesa para a ceia. Toda a gente emigrou, e andando é que se podia ver bem como era graciosa a filha do escrivão. Rangel acompanhou-a com grandes olhos namorados.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "acompanhou-a",
+                "child": "Rangel",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acompanhou-a",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rangel",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] acompanhou-a com grandes olhos namorados.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, o homem se posicionou na cadeira e observou a sua mulher, que havia se apresentado como uma bela garota com cabelos castanhos escuros e olhos verdes intensos, se distanciando lentamente do espelho. Ela começou a desarmar e escolheu uma roupa delicada e encantadora que se harmonizava perfeitamente com seu tom de pele. Após acompanhá-la com grandes olhos, ele sentiu sua respiração acelerar e o coração batendo mais rápido que nunca.",
+        "generated_text_llama": "Atravessou a praça, levando-o-a em direção ao jardim botânico, onde o sol estava se pondo, lançando uma luz dourada sobre as plantas. Personagem sentiu um arrepio na espinha ao ver sua amada parar à entrada do jardim, com um sorriso no rosto. Ele a seguiu, seu coração batendo mais rápido com cada passo, até que chegou ao seu lado.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rangel",
+        "sentence": "Rangel obedeceu, e sentou-se defronte da moça.",
+        "start_char": 8225,
+        "end_char": 8231,
+        "excerpt": "Maldito jogo de prendas! Justamente quando ele formulava, na cabeça, uma insinuação a propósito do casal que subia, e ia assim passar naturalmente à entrega da carta... Rangel obedeceu, e sentou-se defronte da moça.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "obedeceu",
+                "child": "Rangel",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "obedecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rangel",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] obedeceu, e sentou-se defronte da moça.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele abriu a boca e articulou as primeiras palavras que veio à mente: \"Olá, não conheço você.\" A moça olhou para ele com um olhar inquieto, mas respondeu gentilmente.",
+        "generated_text_llama": "Ela sorriu levemente e estendeu a mão, indicando que Personagem se sentasse. Personagem aceitou o convite e tomou assento, notando que a moça parecia mais tranquila agora que ele estava presente. Ela introduziu-se como Lívia, e começou a conversar sobre os seus interesses e hobbies. Personagem ficou surpreso com a profunda conexão que sentia com ela, como se tivessem conhecido há anos. A conversa fluía suavemente, e Personagem se sentiu cada vez mais à vontade na presença de Lívia.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "conheço",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentasse",
+                    "ccomp"
+                ],
+                [
+                    "aceitou",
+                    "ROOT"
+                ],
+                [
+                    "ficou",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Queirós",
+        "sentence": "Queirós respondeu afirmativamente e passou a examinar as outras pessoas.",
+        "start_char": 9544,
+        "end_char": 9551,
+        "excerpt": "Estávamos jogando prendas, os senhores podem entrar também, disse a dona da casa. Joga, Sr. Queirós? Queirós respondeu afirmativamente e passou a examinar as outras pessoas.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Sr.",
+                "child": "Queirós",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "Sr.",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Queirós",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Queirós",
+                "child": "Sr.",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Queirós",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "Sr.",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Queirós",
+                "child": "Joga",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Queirós",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Joga",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "respondeu",
+                "child": "Queirós",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Queirós",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] respondeu afirmativamente e passou a examinar as outras pessoas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Personagem, após ter respondido positivamente, seguiu então para examinar as outras pessoas presentes no salão. Com a ponta do dedo direito dele, ele segurava a lanterna, que iluminava os rostos das pessoas com um brilho amarelo que se diluía em suas sombras. Sua atenção se concentrou primeiramente nas figuras mais agitadas, as que pareciam mais vulneráveis ou apavoradas. Com uma miríade de pensamentos apertados e um fôlego contido, ele as observava minuciosamente, tentando detectar qualquer sinal de doença ou ferimentos ocultos. Uma vez identificado o indivíduo que precisava de atenção médica urgente, Personagem rapidamente se dirigiu a ele e o conduziu com firmeza até uma cama improvisada. Ao lado do paciente, ele abriu o seu pequeno saco e retirou alguns dos vários instrumentos que trazia consigo: uma bagunça de suturas, algumas facas cirúrgicas e um frasco cheio de álcool. Ao lado do paciente ferido, ele começou a operar com dedicação e precisão, ignorando todas as outras coisas ao seu redor.",
+        "generated_text_llama": "Personagem começou a observar mais de perto as pessoas ao seu redor, procurando por sinais ou pistas que indicassem quem poderia ser o culpado do crime. Ele notou um homem nervoso que parecia estar escondendo algo e decidiu investigar um pouco mais.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "seguiu",
+                    "ROOT"
+                ],
+                [
+                    "dirigiu",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Viegas",
+        "sentence": "Ao João Viegas disse que desde muito tempo desejava conhecê-lo, por causa de um favor que o pai lhe deveu outrora, negócio de foro.",
+        "start_char": 9679,
+        "end_char": 9690,
+        "excerpt": "Queirós respondeu afirmativamente e passou a examinar as outras pessoas. Conhecia algumas, e trocou duas ou três palavras com elas. Ao João Viegas disse que desde muito tempo desejava conhecê-lo, por causa de um favor que o pai lhe deveu outrora, negócio de foro.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "João Viegas",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Ao [MASK] disse que desde muito tempo desejava conhecê-lo, por causa de um favor que o pai lhe deveu outrora, negócio de foro.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele estendeu a mão para uma abraçada ressonante e profunda. Após essa interação afetuosa, disse com calor: \"Olha, meu amigo, o tempo é bom para que eu te faça um favor, não é?\"",
+        "generated_text_llama": "Ao ouvir essas palavras de introdução, ao lado de Raul, Luiz encantou-se com a ideia de conhecer aquele homem misterioso e seu parentesco com ele. Ele pediu licença para se despedir do amigo, que partia imediatamente, e dirigiu-se até o quarto de Luiz, onde encontrou um livro antigo aberto na mesa, com as primeiras páginas cobertas de notas escritas em uma letra desconhecida. Ao ler algumas das anotações, percebeu que aquele era o mesmo Livro da Família, mencionado ao longo da conversa, e que seu pai também possuía uma cópia idêntica.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "encantou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João Viegas",
+        "sentence": "João Viegas não se lembrava de nada, nem ainda depois que ele lhe disse o que era; mas gostou de ouvir a notícia, em público, olhou para todos, e durante alguns minutos regalou-se calado.",
+        "start_char": 9808,
+        "end_char": 9819,
+        "excerpt": "Conhecia algumas, e trocou duas ou três palavras com elas. Ao João Viegas disse que desde muito tempo desejava conhecê-lo, por causa de um favor que o pai lhe deveu outrora, negócio de foro. João Viegas não se lembrava de nada, nem ainda depois que ele lhe disse o que era; mas gostou de ouvir a notícia, em público, olhou para todos, e durante alguns minutos regalou-se calado.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "João Viegas",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "lembrava",
+                "child": "João Viegas",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "lembrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não se lembrava de nada, nem ainda depois que ele lhe disse o que era; mas gostou de ouvir a notícia, em público, olhou para todos, e durante alguns minutos regalou-se calado.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim sendo, Personagem não conseguiu retirar da mente aquilo que lhe fora contado. Mesmo assim, continha a sua expressão e, sem perder a vontade de ouvir, continuava a assistir com interesse à notícia. Depois que o discurso terminou, uma espécie de calor se encheu em seu coração. Com um sorriso inconfundível, Personagem levantou a cabeça e olhou para os seus companheiros, aqueles que estavam ao redor, que não sabiam o que estava ocorrendo dentro dele.",
+        "generated_text_llama": "A risada dele ecoou pelo salão, e logo as pessoas ao seu redor começaram a rir também, sem saber do que havia sido que a fazia tão feliz. Personagem sorriu ainda mais, sentindo-se como se tivesse compartilhado um segredo privado com todos. Em seguida, ele fez uma careta de surpresa e levantou a mão para silenciar o aplauso que estava se formando. Com um movimento elegante, ele se virou e começou a caminhar em direção à saída do salão, saindo com um sorriso ainda mais largo no rosto.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "conseguiu",
+                    "ROOT"
+                ],
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Queirós",
+        "sentence": "Queirós entrou em cheio no jogo.",
+        "start_char": 9996,
+        "end_char": 10003,
+        "excerpt": "Ao João Viegas disse que desde muito tempo desejava conhecê-lo, por causa de um favor que o pai lhe deveu outrora, negócio de foro. João Viegas não se lembrava de nada, nem ainda depois que ele lhe disse o que era; mas gostou de ouvir a notícia, em público, olhou para todos, e durante alguns minutos regalou-se calado. Queirós entrou em cheio no jogo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "entrou",
+                "child": "Queirós",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Queirós",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] entrou em cheio no jogo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele se posicionou e começou a jogar de maneira muito concentrada. A bola brilhava sob as luzes de abaixo e cada movimento era executado com precisão e fluidez. Ele marcou um gol após outro, cada vez mais difícil que o último, e a torcida estourou em aplausos. Ao final do jogo, ele emergiu vencedor e foi ovacionado pelo público. Sua performance impressionou todos e fez-se saber que Personagem era um verdadeiro astro deste esporte.",
+        "generated_text_llama": "Personagem entrou em cheio no jogo e logo se destacou entre as multidões de fãs que o cercavam. Com sua camisa branca e calça preta, ele parecia um ícone da cultura pop, e todos queriam saber mais sobre ele. Personagem sorriu satisfeito ao ser abordado por fãs que o fotografavam e pediam assinaturas em suas camisas.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "astro",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "entrou",
+                    "ROOT"
+                ],
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rangel",
+        "sentence": "Rangel passou da estupefação à mortificação.",
+        "start_char": 10829,
+        "end_char": 10835,
+        "excerpt": "E o furacão ia soprando, levando os chapéus dos homens, e despenteando as moças, que riam de contentes: Queirós daqui, Queirós dali, Queirós de todos os lados. Rangel passou da estupefação à mortificação.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "passou",
+                "child": "Rangel",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "passar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rangel",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] passou da estupefação à mortificação.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de passar pela estupor e a mortificação, Personagem se levantou lentamente do sofá, sintindo que sua alma estava pesada como uma pedra no seu peito. A luz da lareira, queimando agora baixa, não era suficiente para despejar a obscuridade de seus pensamentos.",
+        "generated_text_llama": "Apesar do sentimento de vergonha que o consumia, Personagem sabia que não podia se esconder mais. Com uma profundidade de respiração, ele começou a se preparar para enfrentar as consequências de seus atos. Ele rapidamente se vestiu e foi até a sala de estar, onde estava sentada sua mãe, observando-o com um olhar de mistura de tristeza e desaprovação.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Queirós",
+        "sentence": "A própria Joaninha, tão acanhada, vibrava nas mãos de Queirós, como as outras moças; e todos, homens e mulheres, pareciam empenhados em servi-lo.",
+        "start_char": 11719,
+        "end_char": 11726,
+        "excerpt": "De cabeça, espatifou o Queirós; depois cogitou a possibilidade de um desastre qualquer, uma dor bastava, mas cousa forte, que levasse dali aquele intruso. Nenhuma dor, nada; o diabo parecia cada vez mais lépido, e toda a sala fascinada por ele. A própria Joaninha, tão acanhada, vibrava nas mãos de Queirós, como as outras moças; e todos, homens e mulheres, pareciam empenhados em servi-lo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "espatifou",
+                "child": "o Queirós",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "espatifar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Queirós",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "mãos",
+                "child": "Queirós",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "mão",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Queirós",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "vibrava",
+                        "child": "mãos",
+                        "dep_h": "ROOT",
+                        "pos_h": "VERB",
+                        "lemma_h": "vibrar",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "mão"
+                    },
+                    {
+                        "head": "mãos",
+                        "child": "Queirós",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "mão",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Queirós"
+                    },
+                    {
+                        "head": "Queirós",
+                        "child": "mãos",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Queirós",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "mão"
+                    }
+                ]
+            },
+            {
+                "head": "Queirós",
+                "child": "mãos",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Queirós",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "mão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "vibrava",
+                        "child": "mãos",
+                        "dep_h": "ROOT",
+                        "pos_h": "VERB",
+                        "lemma_h": "vibrar",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "mão"
+                    },
+                    {
+                        "head": "mãos",
+                        "child": "Queirós",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "mão",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Queirós"
+                    },
+                    {
+                        "head": "Queirós",
+                        "child": "mãos",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Queirós",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "mão"
+                    }
+                ]
+            }
+        ],
+        "masked_sentence": "A própria Joaninha, tão acanhada, vibrava nas mãos de [MASK], como as outras moças; e todos, homens e mulheres, pareciam empenhados em servi-lo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Entretanto, Joaquim, com a cabeça erguida e o coração quebrou, começou a cantar uma canção de amor, sua voz potente e suave, ressonando por todo o céu noite. As pessoas se voltaram para ele, interrompendo as suas danças e conversas, fascinados pela beleza de seu canto. Quase como um feitiço, sua voz inibiu a própria tempestade, encher os céus com uma paz rarissima. E nesse instante, as olhos de Joaninha se encontraram com os de Joaquim, e todos podiam sentir que se encantaram.",
+        "generated_text_llama": "E Personagem sabia que era apenas uma questão de tempo antes que a situação se tornasse insustentável. Ele estava começando a sentir o peso da sua própria vulnerabilidade, apesar do poder que parecia exercer sobre as pessoas ao seu redor. Com um sorriso amarelado e uma voz suave como seda, ele pediu às garotas para trazer-lhe mais vinho e queijo, tentando manter a aparência de um noble nobre, enquanto na realidade, ele estava cada vez mais desesperado por alguém que pudesse entender suas próprias necessidades.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Joaninha",
+        "sentence": "Quando a flauta acabou, Joaninha aplaudiu menos que os outros, e Rangel entrou em dúvida se era o habitual acanhamento, se alguma especial comoção...",
+        "start_char": 12741,
+        "end_char": 12749,
+        "excerpt": "Olhou também para Joaninha, e viu que, como todas as outras pessoas, tinha a atenção no Queirós, embebida, namorada dos sons da música, e estremeceu, sem saber por quê. Os demais semblantes mostravam a mesma expressão dela, e, contudo, sentiu alguma coisa que lhe complicou a aversão ao intruso. Quando a flauta acabou, Joaninha aplaudiu menos que os outros, e Rangel entrou em dúvida se era o habitual acanhamento, se alguma especial comoção...",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "Olhou",
+                "child": "Joaninha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Olhou",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Joaninha",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "aplaudiu",
+                "child": "Joaninha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aplaudir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Joaninha",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando a flauta acabou, [MASK] aplaudiu menos que os outros, e Rangel entrou em dúvida se era o habitual acanhamento, se alguma especial comoção...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quando a flauta terminou, Márcio aplaudiu menos que os outros. Aos olhos de Rangel, expressão difícil de ler, Márcio parecia mais solitário do que emocionado. Enquanto o resto da plateia saltava e gritava, ele permanecia quieto no lugar, apenas clapear lentamente as mãos. Rangel percebeu uma expressão de tristeza profunda nos olhos de Márcio, uma tristeza que parecia tingida de amarga esperança.",
+        "generated_text_llama": "...pela música que havia tocado. Ele olhou para Personagem, que estava sentado sozinho no canto da sala, com uma expressão pensativa nos olhos. Rangel sentiu uma ponta de curiosidade e decidiu se aproximar dele. \"Tudo bem?\", disse ele, sussurrando, enquanto se sentava ao lado de Personagem. \"Você está tudo bem? Você não parece muito impressionado com a música.\" Personagem levantou os olhos e olhou para Rangel, como se estivesse medindo suas palavras. \"Eu... sim\", respondeu ele, em voz baixa. \"A música foi boa, mas algo me deu uma sensação estranha quando você começou a tocar.\" Rangel ficou surpreso com a resposta e sentiu que Personagem estava escondendo algo. \"O que você quer dizer?\", perguntou ele, tentando manter a calma.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "aplaudiu",
+                    "ROOT"
+                ],
+                [
+                    "parecia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ],
+                [
+                    "escondendo",
+                    "ccomp"
+                ]
+            ],
+            "obj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rangel",
+        "sentence": "Quando a flauta acabou, Joaninha aplaudiu menos que os outros, e Rangel entrou em dúvida se era o habitual acanhamento, se alguma especial comoção...",
+        "start_char": 12782,
+        "end_char": 12788,
+        "excerpt": "Olhou também para Joaninha, e viu que, como todas as outras pessoas, tinha a atenção no Queirós, embebida, namorada dos sons da música, e estremeceu, sem saber por quê. Os demais semblantes mostravam a mesma expressão dela, e, contudo, sentiu alguma coisa que lhe complicou a aversão ao intruso. Quando a flauta acabou, Joaninha aplaudiu menos que os outros, e Rangel entrou em dúvida se era o habitual acanhamento, se alguma especial comoção...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "entrou",
+                "child": "Rangel",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rangel",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando a flauta acabou, Joaninha aplaudiu menos que os outros, e [MASK] entrou em dúvida se era o habitual acanhamento, se alguma especial comoção...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quando a flauta encerrou, Joaninha aplaudiu menos do que os outros, e Luiz, vendo isso, sentiu uma inexplicável incômodidade. Ele sabia que a menina adorava a música, e sempre se entusiasmava com as apresentações. Então, perplexo, ele passou a pensar se era apenas o habitual acanhamento ou alguma especial combinação de sentimentos naquela noite. E, como um reflexo natural, começou a se questionar o que realmente ela sentia por ele.",
+        "generated_text_llama": "...sua voz ao cantar, ou apenas uma fraqueza devido à falta de prática. Sem saber exatamente por que estava se sentindo assim, Personagem decidiu tomar um caminho diferente das outras pessoas e aproximou-se da palco para falar com a jovem. A luz do público o atingiu, mas ele não hesitou em abordar a situação.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "aplaudiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rangel",
+        "sentence": "Rangel saboreou-os caladamente, e reconstruiu todo o seu sonho que o diabo do Queirós abalara com um piparote.",
+        "start_char": 13109,
+        "end_char": 13115,
+        "excerpt": "Chegou a ceia. Toda a gente entrou confusamente na sala, e felizmente para o Rangel, coube-lhe ficar defronte de Joaninha, cujos olhos estavam mais belos que nunca e tão derramados, que não pareciam os do costume. Rangel saboreou-os caladamente, e reconstruiu todo o seu sonho que o diabo do Queirós abalara com um piparote.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "entrou",
+                "child": "Rangel",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Rangel",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "saboreou-os",
+                "child": "Rangel",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "saboreou-os",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rangel",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] saboreou-os caladamente, e reconstruiu todo o seu sonho que o diabo do Queirós abalara com um piparote.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O carnavalesco continuou a arranjar os pequenos detalhes necessários para realizar a performance espetacular da sua escola de samba no dia dos desfiles, pois o que estava em jogo era mais do que uma vitória: era a vindicação pessoal e um tributo às memorias perdidas.",
+        "generated_text_llama": "Ele sorriu para si mesmo, sentindo uma sensação de vitória e liberdade que ele nunca mais havia experimentado antes. Com a ajuda dos caldos quentes e do conforto da casa de seu tio, Personagem começou a reconstituir o sonho que havia sido arrancado das mãos por aquele vilão de Queirós. Ele imaginou-se como um herói verdadeiro, corajoso e determinado, pronto para enfrentar qualquer desafio que vinha em seu caminho.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rangel",
+        "sentence": "Rangel acordou; a mesa inteira repetia a lembrança do tio Rufino; a própria Joaninha pedia-lhe uma saúde, como a do ano passado.",
+        "start_char": 13646,
+        "end_char": 13652,
+        "excerpt": "Não podia tirar o Cândida... Vamos, uma saúde, seu diplomático... faça uma saúde daquelas... Rangel acordou; a mesa inteira repetia a lembrança do tio Rufino; a própria Joaninha pedia-lhe uma saúde, como a do ano passado.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "acordou",
+                "child": "Rangel",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acordar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rangel",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] acordou; a mesa inteira repetia a lembrança do tio Rufino; a própria Joaninha pedia-lhe uma saúde, como a do ano passado.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, o velho José acordou com dificuldade, apresentando um rosto enrugado e os olhos cerrados. A luz do dia penetrava pela janela, iluminando um quarto que já era conhecido por sua tranquilidade. A mesa inteira repetia a lembrança de seu tio Rufino, com as imagens do passado brilhando em cada objeto colocado ali: uma fotografia antiga, uma lãzula que era um presente de aniversário, uma bandeja com os restos da refeição do dia anterior.",
+        "generated_text_llama": "[A MASK] sentiu um arrepio na espinha ao olhar para o frasco de medicamentos à beira da cama. Ele sabia que precisava de um pouco mais de descanso, mas a lembrança do tio Rufino e das palavras de consolo de Joaninha ainda estavam frescas em sua mente. Com cuidado, ele levantou-se da cama e começou a preparar o chá que Joana sempre fazia para ele quando se sentia mal.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "acordou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Queirós",
+        "sentence": "Queirós levantou-se logo, dois ou três minutos depois, para outro brinde, e o silêncio foi ainda mais pronto e completo.",
+        "start_char": 15215,
+        "end_char": 15222,
+        "excerpt": "Ao todo, um brinde de dez minutos bem puxados, que ele despachou em cinco e sentou-se. Não era tudo. Queirós levantou-se logo, dois ou três minutos depois, para outro brinde, e o silêncio foi ainda mais pronto e completo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "levantou-se",
+                "child": "Queirós",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "levantar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Queirós",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] levantou-se logo, dois ou três minutos depois, para outro brinde, e o silêncio foi ainda mais pronto e completo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, então, segurando o copo em uma mão enérgica, erguia-se da cadeira, com a outra mão no pescoço da camiseta que usava. O ambiente, às vezes estranhamente tenso e encantador, agora estava sob um silêncio mais intenso e completo do que antes. Seus olhos, brilhantes sob a luz da lanterna suspensa do telhado, deslizaram sobre as pessoas que se encontravam na sala.",
+        "generated_text_llama": "Ele se aproximou da barra de mão, colocou os cotovelos sobre ela e olhou em volta, notando que ninguém parecia ter notado a sua ausência. Em seguida, ele bebeu o resto do seu cerveja com uma movimentação rápida, como se estivesse tentando vencer um prêmio, e então se inclinou para puxar a faixa de seu tênis que estava presa sob a mesa.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "erguia-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Joaninha",
+        "sentence": "Joaninha meteu os olhos no regaço, vexada do que ele iria dizer; Rangel teve um arrepio.",
+        "start_char": 15336,
+        "end_char": 15344,
+        "excerpt": "Não era tudo. Queirós levantou-se logo, dois ou três minutos depois, para outro brinde, e o silêncio foi ainda mais pronto e completo. Joaninha meteu os olhos no regaço, vexada do que ele iria dizer; Rangel teve um arrepio.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "meteu",
+                "child": "Joaninha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "meter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Joaninha",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] meteu os olhos no regaço, vexada do que ele iria dizer; Rangel teve um arrepio.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Rangel levantou as mãos e ficou com a boca aberta. Não havia como esconder a verdade, então escolheu uma boa maneira de se expressar.",
+        "generated_text_llama": "Rangel tentou suster a respiração, sabendo que havia feito algo de errado. Ele havia estado pensando em como contar à Maria sobre o que havia descoberto, mas agora percebia que teria sido melhor não falar nada. Sem saber exatamente o que fazer, ele começou a caminhar desordenadamente pela sala, tentando encontrar uma saída para a situação.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "tentou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rangel",
+        "sentence": "Joaninha meteu os olhos no regaço, vexada do que ele iria dizer; Rangel teve um arrepio.",
+        "start_char": 15401,
+        "end_char": 15407,
+        "excerpt": "Não era tudo. Queirós levantou-se logo, dois ou três minutos depois, para outro brinde, e o silêncio foi ainda mais pronto e completo. Joaninha meteu os olhos no regaço, vexada do que ele iria dizer; Rangel teve um arrepio.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "teve",
+                "child": "Rangel",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rangel",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Joaninha meteu os olhos no regaço, vexada do que ele iria dizer; [MASK] teve um arrepio.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Joaninha ficou momentaneamente paralizada e não sabia como responder às palavras agressivas de seu irmão mais velho, Jorge. Então, decidida a não dar lugar a uma discussão sem sentido, ela levantou o olhar para ele com um sorriso frio e calada e recuou, saindo do quarto. Enquanto isso, Jorge apenas ronronhou, insatisfeito com essa resposta evasiva de Joaninha.",
+        "generated_text_llama": "Ela tentou manter a calma, mas as palavras de Personagem a deixaram sem alento. Sem saber o que fazer, ela deu meias quadras até chegar à porta do apartamento e entrou, fechando-a atrás de si. Em seguida, deu um passo para trás e olhou para Personagem, esperando que ele fizesse o mesmo. No entanto, Personagem apenas assentiu com a cabeça e começou a se despir, expondo seu rosto magro e seus olhos castanhos. Joaninha sentiu seu coração bater mais rápido, enquanto Personagem se aproximava dela, seu olhar intenso e envolvente.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "assentiu",
+                    "ROOT"
+                ],
+                [
+                    "aproximava",
+                    "advcl"
+                ]
+            ],
+            "obj": [
+                [
+                    "olhou",
+                    "conj"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rangel",
+        "sentence": "Rangel passou da cólera ao desânimo, e, acabada a ceia, pensou em retirar-se.",
+        "start_char": 15882,
+        "end_char": 15888,
+        "excerpt": "mamãe! exclamou, levantando-se; e foi abraçá-la e beijá-la três e quatro vezes;  espécie de carta para ser lida por duas pessoas. Rangel passou da cólera ao desânimo, e, acabada a ceia, pensou em retirar-se.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "passou",
+                "child": "Rangel",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "passar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rangel",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] passou da cólera ao desânimo, e, acabada a ceia, pensou em retirar-se.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim que terminou a ceia, ele sentiu uma leve ondulação na boca superior do lago, como se algo estivesse por ele atravessar. Ele olhou para o céu escuro e viu as estrelas brilhantes, iluminando os arbustos próximos.",
+        "generated_text_llama": "E assim que entrou no quarto, Personagem pôs-se de cabeça na cama, sentindo o peso do dia. A febre ainda assustava seus olhos e seu coração batia forte, mas ele sabia que precisava de descanso para se recuperar. Depois de alguns minutos de tentativa de dormir, Personagem decidiu se levantar e pedir a sua irmã mais velha, Personagem, que o levasse até a varanda, onde podia ouvir a brisa fresca do mar. Ela trouxe uma cadeira para ele e, apesar de seu estado mal, ele pôde ver a luz do crepúsculo se assentando sobre o porto, e isso lhe trouxe um pouco de alívio. Personagem sentiu que estava começando a se recuperar um pouco, e com essa esperança, tentou voltar para os seus pensamentos, mas sua mente continuava apertada pelo medo do futuro e pela preocupação com o bem-estar da sua família.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pôs-se",
+                    "ROOT"
+                ],
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rangel",
+        "sentence": "Rangel declarou que não podia jogar, estava com dor de cabeça: mas Joaninha veio a ele e pediu-lhe que jogasse com ela, de sociedade.",
+        "start_char": 16788,
+        "end_char": 16794,
+        "excerpt": "flauta depois de comer faz indigestão. Vamos a um víspora. Rangel declarou que não podia jogar, estava com dor de cabeça: mas Joaninha veio a ele e pediu-lhe que jogasse com ela, de sociedade.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "declarou",
+                "child": "Rangel",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "declarar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rangel",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] declarou que não podia jogar, estava com dor de cabeça: mas Joaninha veio a ele e pediu-lhe que jogasse com ela, de sociedade.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quando Joaninha ouviu que o Pai João não podia jogar, uma onda de tristeza passou por ela. Mas, como era o carnaval e seu pai adorava essa festa, ela achou uma solução. Ela olhou para ele com os olhos docemente suplicantes e, em seguida, perguntou:",
+        "generated_text_llama": "Com uma expressão desinteressada, Personagem olhou para Joaninha, esperando que ela compreendesse a sua situação. No entanto, a menina não parecia estar familiarizada com o seu estado e continuou a sorrir, dizendo: \"Vamos, é só uma partida, não é muito séria! Vai ver, vou ganhar fácil!\". Personagem sabia que não podia rejeitar Joaninha, pois era amigo da menina desde a infância. Então, com um suspiro, ele concordou em jogar, esperando que o jogo fosse rápido e o seu cérebro estivesse pronto para voltar ao trabalho.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "ouviu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ],
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Joaninha",
+        "sentence": "Rangel declarou que não podia jogar, estava com dor de cabeça: mas Joaninha veio a ele e pediu-lhe que jogasse com ela, de sociedade.",
+        "start_char": 16855,
+        "end_char": 16863,
+        "excerpt": "flauta depois de comer faz indigestão. Vamos a um víspora. Rangel declarou que não podia jogar, estava com dor de cabeça: mas Joaninha veio a ele e pediu-lhe que jogasse com ela, de sociedade.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "veio",
+                "child": "Joaninha",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Joaninha",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Rangel declarou que não podia jogar, estava com dor de cabeça: mas [MASK] veio a ele e pediu-lhe que jogasse com ela, de sociedade.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Maria, a filha mais nova de Rangel, abraçou-o e implorou para jogarem juntos. Ela havia observado o seu pai sentar-se no banco de madeira, com uma expressão desolada na cara. Era um momento difícil para ambos, mas a amizade que os unia era mais forte do que qualquer coisa.",
+        "generated_text_llama": "Rangel olhou para Personagem com surpresa e desafio, mas logo se arrependeu e sorriu. \"Bem, se você insiste em jogar\", disse ele, \"depois vamos fazer isso de forma justa\". Personagem sorriu novamente e começou a montar as peças do tabuleiro, enquanto Rangel observava com atenção.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rangel",
+        "sentence": "Rangel sentiu-se melhor, e não tardou que se sentisse inteiramente bem.",
+        "start_char": 17166,
+        "end_char": 17172,
+        "excerpt": "Sentaram-se ao pé um do outro. Joaninha falava-lhe, ria, levantava para ele os belos olhos, inquieta, mexendo muito a cabeça para todos os lados. Rangel sentiu-se melhor, e não tardou que se sentisse inteiramente bem.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "sentiu-se",
+                "child": "Rangel",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sentiu-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rangel",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] sentiu-se melhor, e não tardou que se sentisse inteiramente bem.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem sentiu-se mais forte, a sua coragem retornando ao seu interior como um raiar de sol atravessando uma tempestade. Ele se levantou do chão, segurando suas armas em mãos firme e resoluto. Com os olhos abertos para o futuro, Personagem tomou a decisão de seguir em frente, determinado a encontrar as respostas que procurava.",
+        "generated_text_llama": "Depois de passar por aquele dia agitado, Personagem resolveu fazer algo para aliviar o estresse e a ansiedade que havia construído em sua mente. Ele pegou um livro que estava no sofá e comeceu a ler, perdido na história que estava contando. O som das páginas viradas e o aroma da tinta eram como uma muleta para seus olhos cansados.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "tomou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "resolveu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rangel",
+        "sentence": "\" Rangel pensou em entregar-lhe a carta por baixo da mesa; mas não estando declarados, era natural que ela a recebesse com espanto e estragasse tudo; cumpria avisá-la.",
+        "start_char": 17519,
+        "end_char": 17525,
+        "excerpt": "O senhor é muito esquecido; olhe que assim perdemos o nosso dinheiro... \" Rangel pensou em entregar-lhe a carta por baixo da mesa; mas não estando declarados, era natural que ela a recebesse com espanto e estragasse tudo; cumpria avisá-la.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "pensou",
+                "child": "Rangel",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rangel",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "\" [MASK] pensou em entregar-lhe a carta por baixo da mesa; mas não estando declarados, era natural que ela a recebesse com espanto e estragasse tudo; cumpria avisá-la.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele se levantou lentamente de seu assento, segurando a carta cuidadosamente entre as mãos, como se ele estivesse tentando proteger uma relíquia rara. Ele atravessou a sala com passos leves e silenciosos, como se estivesse tentando minimizar qualquer som que pudesse alarmar sua amada, até chegar à mesa de jantar, onde ela estava sentada, engajada em uma conversa animada com os convidados.",
+        "generated_text_llama": "Muito obrigado pelo feedback! Vou me esforçar para melhorar minhas respostas.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rangel",
+        "sentence": "\" Rangel ouviu isto com singular deleite; a voz era tão doce, e a expressão tão amiga, que ele esqueceu tudo, agarrou-a pela cintura, e lançou-se com ela na eterna valsa das quimeras.",
+        "start_char": 18197,
+        "end_char": 18203,
+        "excerpt": "O senhor! o senhor! \" Rangel ouviu isto com singular deleite; a voz era tão doce, e a expressão tão amiga, que ele esqueceu tudo, agarrou-a pela cintura, e lançou-se com ela na eterna valsa das quimeras.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ouviu",
+                "child": "Rangel",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ouvir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rangel",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "\" [MASK] ouviu isto com singular deleite; a voz era tão doce, e a expressão tão amiga, que ele esqueceu tudo, agarrou-a pela cintura, e lançou-se com ela na eterna valsa das quimeras.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " \"O Personagem ouviu isto com singular deleite; a voz era tão doce, e a expressão tão amiga, que ele esqueceu tudo, agarrou-a pela cintura, e lançou-se com ela na eterna valsa das quimeras. As sombras se deslocavam sobre o chão, enquanto os dois dançavam nos ardores da noite, como se estivessem longe de tudo e todos. A cena era tão romântica que parecia irreal, apenas uma sonho que poderiam ser acordados a qualquer momento. Porém, os momentos passaram, e eles sentiram-se presos no passado que desejavam lembrar.\"",
+        "generated_text_llama": "Com os braços ao redor dela, Personagem sentiu o coração bater mais forte, como se estivesse dançando em uma festa de sonhos. A mulher sorria, fechando os olhos e deixando-se levar pelo ritmo da música que ecoava na sua mente. Ele a puxou para perto, sua respiração quente nos ouvidos dela, e ela se inclinou para frente, como se estivesse confidando um segredo.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "ouviu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

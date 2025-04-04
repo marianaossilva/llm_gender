@@ -1,0 +1,1304 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Eugênia",
+        "sentence": "Não se surpreenda, Eugênia; este meio é o do desespero, este desespero é o do amor.",
+        "start_char": 9783,
+        "end_char": 9790,
+        "excerpt": "Rompi o invólucro e descobri o papel cor-de-rosa que vinha dentro. Dizia a carta: Não se surpreenda, Eugênia; este meio é o do desespero, este desespero é o do amor.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "surpreenda",
+                "child": ", Eugênia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "surpreendar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eugênia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Não se surpreenda, [MASK]; este meio é o do desespero, este desespero é o do amor.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " E ele seguiu adiante, não olhando para trás. Seus pés penetravam no chão em um movimento automático, cada passo mais longo que o anterior. Ele sabia que estava prestes a atingir sua meta, que estava próxima de acabar com esse ciclo infinito de tristeza e dor.",
+        "generated_text_llama": "Não se surpreenda, Luiz; este meio é o do desespero, este desespero é o do amor.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "surpreenda",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eva",
+        "sentence": "Se Eva tivesse feito outro tanto à cabeça da serpente que a tentava não houvera pecado.",
+        "start_char": 10943,
+        "end_char": 10946,
+        "excerpt": "Tinha o papel diante de mim e aquelas letras misteriosas pareciam-me outros tantos olhos de uma serpente infernal. Com um movimento nervoso e involuntário amarrotei a carta nas mãos. Se Eva tivesse feito outro tanto à cabeça da serpente que a tentava não houvera pecado.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "feito",
+                "child": "Eva",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eva",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Se [MASK] tivesse feito outro tanto à cabeça da serpente que a tentava não houvera pecado.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele segurou a respiração e inalou calmamente. Agora, enfocando seus olhos em cima da cobra, que parecia agora um monstro enorme, ele fez uma movimentação lenta e precisa com as mãos. Ao meio-duido, a serpente tremeu e iniciou a deslizar lentamente para trás, até finalmente voltar para o seu tamanho original.",
+        "generated_text_llama": "Espero que esteja correto! Aqui vai o próximo trecho da história:",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emílio",
+        "sentence": "Ouvi de meu marido que o nosso conviva chamava-se Emílio.",
+        "start_char": 15588,
+        "end_char": 15594,
+        "excerpt": "Não pude conhecê-lo. Meu marido adiantou-se, e no meio do silêncio geral veio apresentar- mo. Ouvi de meu marido que o nosso conviva chamava-se Emílio.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "chamava-se",
+                "child": "Emílio",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "chamava-se",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Emílio",
+                "child": "meu marido",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Emílio",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "marido",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Emílio",
+                "child": "Ouvi",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Emílio",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Ouvi",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Ouvi de meu marido que o nosso conviva chamava-se [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim que soube o nome do convidado estranho, meu marido disse-me com uma expressão ansiosa e desconcertada: \"É o mesmo que ajudou na minha última procura.\"",
+        "generated_text_llama": "Eu me senti um pouco surpreso e curioso ao mesmo tempo, pois não lembrava que meu marido tivesse algum conviva com esse nome. Decidi fazer uma pergunta para esclarecer a situação. \"Quem é esse João?\", perguntei, olhando para o meu marido com um pouco de desconfiança.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emílio",
+        "sentence": "Emílio ouvia tudo com atenção religiosa e mostrava-se tão apreciador do gosto como era conversador discreto e pertinente.",
+        "start_char": 18022,
+        "end_char": 18028,
+        "excerpt": "Veio a hora do chá. Depois cantou-se e tocou-se ainda. Emílio ouvia tudo com atenção religiosa e mostrava-se tão apreciador do gosto como era conversador discreto e pertinente.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ouvia",
+                "child": "Emílio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ouver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] ouvia tudo com atenção religiosa e mostrava-se tão apreciador do gosto como era conversador discreto e pertinente.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quando terminou de levar a palavra, Personagem se levantou da mesa e deslizou as mãos sobre os seus roupas impecáveis, dando uma volta olhar nas pessoas que o rodeavam, como um reconhecimento gentil por estar presentes. Depois, com uma expressão indefinível de pensamento profundo na sua face, passou a distância e, parando perto do vidro, observou o céu noturno, que se estendia por cima deles como um manto espetacular.",
+        "generated_text_llama": "E assim, enquanto o ambiente da festa parecia se concentrar em discussões sobre política e economia, Personagem preferiu mergulhar em um mundo de literatura clássica, onde as palavras do poeta Virgílio ecoavam como música celestial. Com uma expressão contemplativa, ele se sentou numa cadeira confortável, cercado por velhos livros e quadros antigos, que pareciam contar histórias próprias.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "preferiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emílio",
+        "sentence": "Emílio saiu prometendo voltar algumas vezes.",
+        "start_char": 18365,
+        "end_char": 18371,
+        "excerpt": "Meu marido, sobretudo, estava radiante. Via-se que ele se considerava feliz por ter feito a descoberta de mais um amigo para si e um companheiro para as nossas reuniões de família. Emílio saiu prometendo voltar algumas vezes.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "saiu",
+                "child": "Emílio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sair",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] saiu prometendo voltar algumas vezes.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Seguindo seu compromisso, Personagem retornou algumas semanas mais tarde, carregado de presentes e memórias do mundo estrangeiro que tinha visitado. Quando chegou a casa, sua família se reuniu para abraçá-lo calorosamente. O filho mais novo, entusiasmado, gritava \"Baba!\", enquanto a mãe sorria e dizia: \"Tudo bem, meu filho? Tinha chegado?\" A esposa, por outro lado, olhava para ele com um olhar profundo que lhe recordou os dias em que Personagem partira para a viagem.",
+        "generated_text_llama": "Personagem parou no balcão do bar e pediu um café, olhando em volta para ver se alguém o reconhecesse. Ele estava ciente de que sua aparência agora era completamente diferente, graças ao seu novo look. Sempre que saía, ele se preocupava com o que as pessoas pensariam dele. Mas hoje, ele sentia-se mais confiante, e queria aproveitar a liberdade de fazer o que quisesse sem se preocupa-por com o que os outros pensassem.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "retornou",
+                    "ROOT"
+                ],
+                [
+                    "partira",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "parou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emílio",
+        "sentence": "Emílio continuou a freqüentar a nossa casa, mostrando sempre a mesma delicadeza e gravidade, e encantando a todos por suas maneiras distintas sem afetação, amáveis sem fingimento.",
+        "start_char": 22514,
+        "end_char": 22520,
+        "excerpt": "CAPÍTULO IV Não te quero fatigar com a narração minuciosa e diária de todos os acontecimentos. Emílio continuou a freqüentar a nossa casa, mostrando sempre a mesma delicadeza e gravidade, e encantando a todos por suas maneiras distintas sem afetação, amáveis sem fingimento.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "continuou",
+                "child": "Emílio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "continuar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] continuou a freqüentar a nossa casa, mostrando sempre a mesma delicadeza e gravidade, e encantando a todos por suas maneiras distintas sem afetação, amáveis sem fingimento.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Personagem, entretanto, não se contentou em simples visitas. Tornou-se uma figura constante e inesperada na nossa vida familiar. Dava-nos conselhos sobre coisas que, por mais óbvias que parecessem aos olhos de todos, sempre levavam a novas descobertas. O Personagem nos ensinou a ver o mundo com olhos diferentes, a enxergar belezas e significados que anteriormente desconheciamos.",
+        "generated_text_llama": "Com o tempo, Personagem começou a sentir uma ligação especial com a família, que logo se tornou como uma segunda família para ele. Ele começou a ajudar com tarefas domésticas e a auxiliar nos momentos difíceis, mostrando sua capabilidade de lidar com situações complicadas com sabedoria e compaixão.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "contentou",
+                    "ROOT"
+                ],
+                [
+                    "ensinou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emílio",
+        "sentence": "Não sei por que meu marido revelava-se cada vez mais amigo de Emílio.",
+        "start_char": 22756,
+        "end_char": 22762,
+        "excerpt": "Não te quero fatigar com a narração minuciosa e diária de todos os acontecimentos. Emílio continuou a freqüentar a nossa casa, mostrando sempre a mesma delicadeza e gravidade, e encantando a todos por suas maneiras distintas sem afetação, amáveis sem fingimento. Não sei por que meu marido revelava-se cada vez mais amigo de Emílio.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "continuou",
+                "child": "Emílio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "continuar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Emílio",
+                "child": "amigo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Emílio",
+                "dep_c": "xcomp",
+                "pos_c": "ADJ",
+                "lemma_c": "amigo",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Não sei por que meu marido revelava-se cada vez mais amigo de [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O que ele fez de seguida foi ainda mais surpreendente: começou a passar todo o tempo fora da casa, frequentando lugares onde costumavam estar os amigos dele. De repente, meu marido não era apenas meu parceiro, mas também um novo indivíduo que eu conhecia pouco e que me desafiazia.",
+        "generated_text_llama": "Eu observei-o com crescente desconfiança, notando como ele e Personagem passavam horas a conversar no telefone ou se encontravam em segredo para \"falar de negócios\". Eu sabia que meu marido era um homem de negócios respeitável, com muitas ligações importantes, mas eu não conseguia entender por que ele precisava de tanto contato com Personagem. Alguns amigos me disseram que Personagem era uma pessoa respeitada e bem-sucedida em seu campo, mas eu não via ninguém que justificasse a proximidade cada vez maior entre eles. ",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pessoa",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emílio",
+        "sentence": "Emílio vinha então no seu carrinho que ele próprio dirigia, com a maior graça e elegância.",
+        "start_char": 24625,
+        "end_char": 24631,
+        "excerpt": "Das reuniões passou Emílio às simples visitas de dia, nas horas em que meu marido estava presente, e mais tarde, mesmo quando ele se achava ausente. Meu marido de ordinário era quem o trazia. Emílio vinha então no seu carrinho que ele próprio dirigia, com a maior graça e elegância.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "passou",
+                "child": "Emílio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "passar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "vinha",
+                "child": "Emílio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] vinha então no seu carrinho que ele próprio dirigia, com a maior graça e elegância.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, seguindo o seu caminho pelo teatro esplendorosamente iluminado, ela acionou o sistema de ar condicionado do carro, aventando a janela para a esquerda. Uma luz pura caiu sobre a rocha, que apresentava uma textura exuberante e variada, como se tivesse sido escultora em um antigo templo grego. Ao tocar delicadamente nela com as unhas, sentiu-se uma sensação suave e leve, e percebeu a presença de uma pequena criatura marinha que se movimentava entre as grãos.",
+        "generated_text_llama": "Com o motor do carrinho rolando suavemente, Personagem dirigiu em direção à praia, onde planejava realizar um lanche de lua cheia para o seu melhor amigo, o gato pretto, Pimenta. Ele havia preparado uma deliciosa mistura de peixe fresco e leite de coco, que ele sabia que seria um grande sucesso para a sua amizade. Enquanto dirigia, Personagem não podia deixar de sorrir pensando no rosto feliz que Pimenta faria ao saborear o lanche.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "dirigiu",
+                    "ROOT"
+                ],
+                [
+                    "podia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emílio",
+        "sentence": "Emílio procedeu sempre do modo mais indiferente em relação às minhas suspeitas.",
+        "start_char": 24871,
+        "end_char": 24877,
+        "excerpt": "A primeira vez que o recebi só, confesso que estremeci; mas foi um susto pueril; Emílio procedeu sempre do modo mais indiferente em relação às minhas suspeitas. Nesse dia, se algumas me ficaram, desvaneceram-se todas.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "procedeu",
+                "child": "Emílio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "proceder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] procedeu sempre do modo mais indiferente em relação às minhas suspeitas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, por sua vez, continuava sempre com o mesmo ar de indiferença quanto as minhas suspeitas. Mesmo apresentando-me evidências claras e incontestáveis da sua dupla vida, ele não parecia se importar nem me preocupar. Era uma aparência que me envenenava e que eu queria destruir por qualquer meio.",
+        "generated_text_llama": "Personagem procurou esclarecer o que havia acontecido na noite anterior, mas a sua falta de interesse era tão evidente que até ele mesmo começou a se sentir um pouco irritado. Ele passou os dias seguintes a seguir suas rotinas habituais, sem dar muita importância às conversas com seus amigos ou à investigação sobre o assalto ao seu negócio.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "procurou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emílio",
+        "sentence": "Em um dos intervalos da conversa Emílio levantou-se e foi à janela.",
+        "start_char": 25469,
+        "end_char": 25475,
+        "excerpt": "Passou-se meia hora. Nossa conversa foi sobre assuntos indiferentes. Em um dos intervalos da conversa Emílio levantou-se e foi à janela.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "levantou-se",
+                "child": "Emílio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "levantar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Em um dos intervalos da conversa [MASK] levantou-se e foi à janela.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ela abriu a janela e olhou para fora, observando o mar que espelhava a lua na noite. Depois de um minuto, ela fechou a janela e retornou ao banquete onde estavam as outras pessoas. Ela sentou-se em uma cadeira próxima à porta principal, olhando para quem chegava. Em seguida, ela segurou um copo de vinho em suas mãos e levantou-o para tocar a copa com os outros presentes.",
+        "generated_text_llama": "Ao olhar para fora da janela, Personagem não pôde deixar de notar a escuridão total que cercava o prédio. A lua cheia estava oculta atrás das nuvens espessas, e as estrelas eram invisíveis na vastidão do céu. Sem hesitar, Personagem abriu a porta da sua pequena cozinha e se dirigiu para o corredor escuro, seu coração batendo levemente com cada passo.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pôde",
+                    "ROOT"
+                ],
+                [
+                    "abriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emílio",
+        "sentence": "Voltando para o sofá reparei pelo espelho que Emílio me olhava com um olhar estranho.",
+        "start_char": 25610,
+        "end_char": 25616,
+        "excerpt": "Em um dos intervalos da conversa Emílio levantou-se e foi à janela. Eu levantei-me igualmente para ir ao piano buscar um leque. Voltando para o sofá reparei pelo espelho que Emílio me olhava com um olhar estranho.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "levantou-se",
+                "child": "Emílio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "levantar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "olhava",
+                "child": "Emílio",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "olhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Emílio",
+                "child": "espelho",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Emílio",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "espelho",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Voltando para o sofá reparei pelo espelho que [MASK] me olhava com um olhar estranho.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ao perceber esse olhar estranho em seu reflexo no espelho, Júlia reagiu rapidamente e se voltou para a direção do sofá, onde uma figura sombria se sentava sem que ela tivesse notado antes. A figura não era ninguém que Júlia reconhecesse; era um homem de altura média, com cabelos castanhos e olhos azuis, que parecia estar dormindo quietamente no sofá. Júlia se espantou, pois nunca havia visto esse homem em sua casa antes.",
+        "generated_text_llama": "Enquanto olhava para o espelho, eu me senti uma picada de medo no estômago. Meu rosto parecia pálido e os olhos pareciam mais pretos do que nunca. Eu me sentei rapidamente no sofá, tentando calcular o que estava acontecendo. De repente, meus olhos se fixaram no espelho novamente, mas desta vez eu não vi Personagem lá. Foi como se ele tivesse desaparecido de uma segunda vez.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "reagiu",
+                    "ROOT"
+                ],
+                [
+                    "reconhecesse",
+                    "flat:name"
+                ],
+                [
+                    "espantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "vi",
+                    "conj"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emílio",
+        "sentence": "Uma única resposta, tornou Emílio; conserva aquela carta?",
+        "start_char": 27889,
+        "end_char": 27895,
+        "excerpt": "perguntou ele. Talvez... murmurei. Uma única resposta, tornou Emílio; conserva aquela carta?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tornou",
+                "child": "Emílio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tornar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Uma única resposta, tornou [MASK]; conserva aquela carta?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Apenas uma resposta foi necessária para que ele se decidisse; conservou aquele pedaço de papel velho, o que significava um compromisso feito. Aquele pequeno gesto seria o começo de algo maior, um caminho inexplorado que acabaria por lhe transformar. Ele não sabia o que esperar, mas estava disposto a seguir o caminho e ver onde levava.",
+        "generated_text_llama": "Não, respondeu Personagem, desenrolando a carta com uma lentidão que parecia um rito sagrado. A pele branca de suas mãos estava ligeiramente trêmula, como se estivesse sendo puxada para fora da sua própria pele. Ele olhou em volta do quarto, como se fosse procurando uma testemunha, mas o silêncio era absoluto. A carta era uma carta de amor, escrita por uma mulher que ele não mais via desde a infância. Uma mulher que ele pensava ter deixado para trás, mas que agora parecia estar em sua mente mais do que nunca.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "respondeu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emílio",
+        "sentence": "Realmente porque Emílio não aparecia alguns dias já todos começavam a perguntar por ele; depois, porque o pobre moço vinha pálido de cera.",
+        "start_char": 32484,
+        "end_char": 32490,
+        "excerpt": "Mas, seriam nove horas, quando meu marido apareceu trazendo Emílio pelo braço. Houve um movimento geral de surpresa. Realmente porque Emílio não aparecia alguns dias já todos começavam a perguntar por ele; depois, porque o pobre moço vinha pálido de cera.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "trazendo",
+                "child": "Emílio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "trazer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "emílio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "aparecia",
+                "child": "Emílio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aparecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Realmente porque [MASK] não aparecia alguns dias já todos começavam a perguntar por ele; depois, porque o pobre moço vinha pálido de cera.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, por fim, Personagem, que era conhecido por seu espírito livre e entusiasmo incontainível, apareceu novamente entre as ruas e bairros da cidade. Sua aparência tinha mudado drasticamente: olhos cansados e corpo magro, como se ele estivesse sofrendo com algum tipo de doença.",
+        "generated_text_llama": "E assim, Personagem sabia que precisava fazer algo para mudar essa situação, pois seus amigos e vizinhos estavam cada vez mais preocupados com sua falta de presença. Ele decidiu começar a investigar o que estava acontecendo com ele, perguntando-se se era apenas uma questão de abstinência ou se havia algo mais grave em jogo.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "apareceu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emílio",
+        "sentence": "Emílio parecia sofrer, não estava alegre como dantes; ao contrário, era naquela noite de uma taciturnidade, de uma tristeza que incomodava a todos, mas que me mortificava atrozmente, a mim que me fazia causa das suas dores.",
+        "start_char": 32648,
+        "end_char": 32654,
+        "excerpt": "Realmente porque Emílio não aparecia alguns dias já todos começavam a perguntar por ele; depois, porque o pobre moço vinha pálido de cera. Não te direi o que se passou nessa noite. Emílio parecia sofrer, não estava alegre como dantes; ao contrário, era naquela noite de uma taciturnidade, de uma tristeza que incomodava a todos, mas que me mortificava atrozmente, a mim que me fazia causa das suas dores.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "aparecia",
+                "child": "Emílio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aparecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "parecia",
+                "child": "Emílio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "parecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] parecia sofrer, não estava alegre como dantes; ao contrário, era naquela noite de uma taciturnidade, de uma tristeza que incomodava a todos, mas que me mortificava atrozmente, a mim que me fazia causa das suas dores.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a história em português brasileiro:",
+        "generated_text_llama": "E assim, Personagem se afastou da assembleia, sem dizer nada, apenas com os olhos voltados para o chão, como se estivesse carregando uma farda pesada em seus peitos. Sua caminhada foi lenta e deliberada, como se estivesse se afastando de tudo o que o rodeava, como se estivesse tentando fugir das suas próprias sombras. Eu o segui a distância, hesitante, sem saber como reagir àquela display de tristeza. ",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "afastou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emílio",
+        "sentence": "Emílio fez um gesto de alegria.",
+        "start_char": 34052,
+        "end_char": 34058,
+        "excerpt": "Só o amor pode ordenar? Pois é o amor que lhe ordena que viva! Emílio fez um gesto de alegria.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "fez",
+                "child": "Emílio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] fez um gesto de alegria.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, com aquele sorriso radiante, Personagem acentuou seu gesto de alegria, erguindo-se do banco e correndo até o jardim. O vento bruscamente soprou através das árvores, arrastando pétalas de flores em sua trajetória. Personagem se sentiu uma leve tremulação em seu peito ao contemplar a beleza que lhe rodeava, e ainda assim, sentindo o calor do sol nos seus ombros, estendendo-se e abrindo as mãos para o céu. Era o momento que Personagem havia sonhado por tantas noites, e agora aquilo era realidade - uma experiência ainda mais incrível porque era sua.",
+        "generated_text_llama": "Ela não conseguiu conter a sonrisa que se espalhava por seu rosto. Com um movimento brusco, ela sacou da bolsa o pacote de presente que havia comprado em uma loja especializada em aniversários e a colocou na mesa do centro da sala.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "acentuou",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "sonhado",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emílio",
+        "sentence": "Quando, no fim do serão, Emílio se despediu de mim, dizendo-me, com um olhar em que a gratidão e o amor irradiavam juntos: -",
+        "start_char": 34205,
+        "end_char": 34211,
+        "excerpt": "Levantei-me para ir falar às pessoas que se aproximavam. Obrigado, murmurou-me ele aos ouvidos. Quando, no fim do serão, Emílio se despediu de mim, dizendo-me, com um olhar em que a gratidão e o amor irradiavam juntos: -",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "despediu",
+                "child": "Emílio",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "despedir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando, no fim do serão, [MASK] se despediu de mim, dizendo-me, com um olhar em que a gratidão e o amor irradiavam juntos: -",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "\"Você pode sempre contar comigo quando precisar. O Brasil estende suas braços para você.\" Sua voz entrou no meu coração, e eu sorri, apreciando a sinceridade em seus olhos.",
+        "generated_text_llama": "Quando, no fim do seria,  Personagem se despediu de mim, dizendo-me, com um olhar em que a gratidão e o amor irradiavam juntamente: \"Vou embora, mas nunca sairei da sua vida\". Ele me abraçou forte e eu senti seu coração batendo forte ao meu lado. \"Você é a minha luz no escuro\", ele disse, com as lágrimas a correrem pelas suas faces. \"Sem você, nada tem sentido\".",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "estende",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "despediu",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Eugênia",
+        "sentence": "Eugênia, dizia ele dando-me o braço, estás certa de que me amas?",
+        "start_char": 36932,
+        "end_char": 36939,
+        "excerpt": "Lembras-te que lá fomos. O que não sabes é que nesse passeio, a favor da confusão e a distração geral, houve entre mim e Emílio um diálogo que foi para mim a primeira amargura de amor. Eugênia, dizia ele dando-me o braço, estás certa de que me amas?",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "dizia",
+                "child": "Eugênia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Eugênia",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], dizia ele dando-me o braço, estás certa de que me amas?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele, com uma expressão serena e um ar resoluto no rosto, me respondeu, \"Sim, amor. Não há dúvidas nisso.\" Sua palavra quentou o coração, e eu sorri com uma alegria pura. \"Eu também\", respondi-lhe, sentindo a minha voz tremer levemente. Ele sorriu de volta, então nos abraçamos profundamente, a luz do sol se pautando pelas nuvens enquanto nos beijávamos.",
+        "generated_text_llama": "Eu sorri, sentindo um calor no peito ao olhar para ele. \"Sim, estou\", respondi, com voz trêmula. \"Por que não sabias disso? Por que vocês dois precisam se separar?\" Eu perguntei, tentando manter a calma, mas minha voz estava quakendo um pouco.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emílio",
+        "sentence": "Emílio disse estas palavras com uma expressão tal de desdém e com uma intenção de ferir-me que eu senti o coração bater-me apressado, e subir- me o sangue ao rosto.",
+        "start_char": 37583,
+        "end_char": 37589,
+        "excerpt": "O amor que calcula, não é amor. Não respondi. Emílio disse estas palavras com uma expressão tal de desdém e com uma intenção de ferir-me que eu senti o coração bater-me apressado, e subir- me o sangue ao rosto.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Emílio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] disse estas palavras com uma expressão tal de desdém e com uma intenção de ferir-me que eu senti o coração bater-me apressado, e subir- me o sangue ao rosto.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após terem as palavras caído da sua boca como uma flecha espinhosa, Personagem observou a minha expressão de choque e sorreria com um arrojo indecente. Em seguida, ele me segurou pelas mãos e me levantou do seu lugar, me trancando olhos para olhos como se tivesse uma intenção de ver qual era a medida de minha desesperança.",
+        "generated_text_llama": "Eu tive que forçar um sorriso amarelo na minha face, tentando ocultar a dor que estava sentindo por dentro. Eu sabia que precisava manter a calma, não podia deixar que Personagem viesse a ver a raiva que estava sentindo. Em vez disso, eu escolhi uma expressão de curiosidade, olhando para ele com um sorriso falso.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "observou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "viesse",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emílio",
+        "sentence": "Depois? perguntou Emílio com ar de quem estranhava a pergunta.",
+        "start_char": 38041,
+        "end_char": 38047,
+        "excerpt": "Cumpria essa ordem divina. Mas depois? Depois? perguntou Emílio com ar de quem estranhava a pergunta.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "perguntou",
+                "child": "Emílio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Depois? perguntou [MASK] com ar de quem estranhava a pergunta.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois que o perito respondeu às primeiras perguntas sobre as especies endêmicas da região, ele inquietou-se com uma pergunta estranha. \"Quem é você?\" perguntou ele, enquanto olhava para a figura que se aproximava do local onde estava trabalhando. A pessoa era uma mulher de meia idade, de cabelo ondulado e olhos verdes brillantes.",
+        "generated_text_llama": "\"Você está bêbado ou alucinado?\" Personagem respondeu, tentando manter o tom sério, mas notando que o sorriso irônico do outro homem não passou despercebido.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "respondeu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emílio",
+        "sentence": "Emílio pôs o rosto nas mãos e pareceu chorar.",
+        "start_char": 38435,
+        "end_char": 38441,
+        "excerpt": "Juro que não. Pois a meus olhos é assim; eu nunca me perdoaria esse erro. Emílio pôs o rosto nas mãos e pareceu chorar.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "pôs",
+                "child": "Emílio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pôr",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] pôs o rosto nas mãos e pareceu chorar.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, ele se levantou lentamente, olhando para seu reflexo na janela, sua imagem tinha perdido as cores. Sentindo-se fraco, desceu as escadinhas até a cozinha, abriu o refrigéreator e pegou uma garrafa de água, tentando beber um pouco para se compôs-lo. O sabor quente e salgado dos lágrimas que tinha chorado acabou encher a garganta e não permitiu que pudesse beber nada, apenas sentindo-se mais cansado.",
+        "generated_text_llama": "Personagem então se levantou lentamente da cadeira, olhando em volta como se estivesse procurando alguém para compartilhar seus sentimentos. A sala estava silenciosa, apenas o som do relógio pendurado na parede ecoava a cada batida. Personagem começou a caminhar lentamente até a janela, olhando para fora enquanto tentava processar os eventos que haviam ocorrido.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ],
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emílio",
+        "sentence": "Emílio mostrou-se pesaroso com o acontecimento.",
+        "start_char": 39522,
+        "end_char": 39528,
+        "excerpt": "Eu estava impaciente; perguntava a todos se meu marido estava salvo. Todos me tranqüilizavam. Emílio mostrou-se pesaroso com o acontecimento.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "mostrou-se",
+                "child": "Emílio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mostrar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] mostrou-se pesaroso com o acontecimento.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de mostrar seu pesar, ele levantou a cabeça e olhou para a frente, determinado a tomar medidas imediatas. Com uma voz firme e resoluta, chamou seus subordinados mais confiáveis e delineou um plano de emergência.",
+        "generated_text_llama": "Ele olhou em volta, como se estivesse procurando uma saída para a sua tristeza. Em seguida, decidiu sair de casa e caminhar um pouco pelo parque próximo, tentando esclarecer suas pensamentos. A brisa fresca que soprava do lago o ajudou a se sentir um pouco melhor, mas não conseguiu mudar seu estado de espírito.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emílio",
+        "sentence": "Quando Emílio quis sair, meu marido disse-lhe:  Olhe, sei que não pode estar aqui sempre; peço-lhe, porém, que venha, se puder, todos os dias.",
+        "start_char": 39615,
+        "end_char": 39621,
+        "excerpt": "Emílio mostrou-se pesaroso com o acontecimento. Foi a meu marido e apertou-lhe a mão. Quando Emílio quis sair, meu marido disse-lhe:  Olhe, sei que não pode estar aqui sempre; peço-lhe, porém, que venha, se puder, todos os dias.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "mostrou-se",
+                "child": "Emílio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mostrar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "quis",
+                "child": "Emílio",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando [MASK] quis sair, meu marido disse-lhe:  Olhe, sei que não pode estar aqui sempre; peço-lhe, porém, que venha, se puder, todos os dias.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, quando ela quis sair, o meu marido lhe disse com uma voz suave e tranquila: Olhe, sei que não pode estar aqui sempre; peço-lhe, porém, que venha, se puder, todos os dias. O seu rosto era de surpresa inesperada, mas ela simplesmente sorriu. Era um pedido encantador e algo que ela havia sonhado para ouvir do seu marido há muito tempo. Ela sentiu sua coração bater mais rápido e disse: Sim, teus amor, eu prometo vir todos os dias se puder. E assim começou um novo capítulo em nossa vida juntos, um capítulo de promessas, de esperança e de amor profundo.",
+        "generated_text_llama": "Personagem hesitou por um momento, considerando as palavras do seu marido. Ela sabia que ele estava certo, mas também sabia que não poderia abandonar sua filha pequena. Então, ela deu uma respirada funda e se inclinou para se aproximar dele. \"Eu vou tentar\", disse Personagem, com uma determinação que surpreendeu até mesmo a si mesma. \"Mas preciso saber como vai tudo funcionar\", perguntou ela, com um olhar inquieto.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sei",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "hesitou",
+                    "ROOT"
+                ],
+                [
+                    "disse",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emílio",
+        "sentence": "Emílio achou-me num estado de desespero.",
+        "start_char": 40496,
+        "end_char": 40502,
+        "excerpt": "Quando recebi esta fatal nova fiquei como louca. Era meu marido, Carlota, e apesar de tudo eu não podia esquecer que ele tinha sido companheiro da minha vida e a idéia salvadora nos desvios do meu espírito. Emílio achou-me num estado de desespero.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "achou-me",
+                "child": "Emílio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "achou-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] achou-me num estado de desespero.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de encontrar-se em um estado de desespero, o Personagem foi até sua varanda e olhou para o mar que se estendia ao longe, refletindo as luzes da manhã. Sentou-se em uma cadeira e se deixou levar pelas suas pensamentos tormentados. Não havia nada no horizonte aterrorizante ou algo de natureza que pudesse trazer-lhe alívio, apenas as ondas do mar batendo regularmente contra a costa. Então, tomou um fundo cheio de respiração e se levantou da cadeira, decidiu partir em busca de uma resposta para suas pesquisas. Foi encarregado de descobrir o mistério dos artigos arqueológicos desaparecidos no local onde trabalhava, e essa era a sua principal preocupação agora. Não tinha tempo perdido, então tomou um chapéu, pegou seu binóculo e saiu para procurar as respostas escondidas entre os segredos das ruínas antigas.",
+        "generated_text_llama": "Eu não sabia o que fazer. Meus olhos estavam cheios de lágrimas e meu coração estava pesado, como se estivesse carregando a entire vida em mim. Eu me senti sozinho e abandonado, como se toda a minha esperança de encontrar amor e felicidade tivesse sido arrancada da minha vida.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "varanda",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "carregando",
+                    "advcl"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emílio",
+        "sentence": "Emílio acompanhou-me na dor e foi dos mais assíduos em todas as cerimônias fúnebres que se fizeram ao meu finado marido.",
+        "start_char": 40962,
+        "end_char": 40968,
+        "excerpt": "Expirou. Passaram-se quatro meses depois dos fatos que te contei. Emílio acompanhou-me na dor e foi dos mais assíduos em todas as cerimônias fúnebres que se fizeram ao meu finado marido.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "acompanhou-me",
+                "child": "Emílio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acompanhou-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] acompanhou-me na dor e foi dos mais assíduos em todas as cerimônias fúnebres que se fizeram ao meu finado marido.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Especificamente no dia do velório, ele ajudou-me a vestir o traje de luto e apoiou-me em cada passo que eu tomava. Entramos na capela e sentaram-se juntos no primeiro banco, perto da cama mortuária onde descansava o corpo do meu marido. Com uma face triste e uma coração partido, ele segurou minha mão durante toda a cerimônia religiosa.",
+        "generated_text_llama": "Eu estou preparada para continuar a história.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emílio",
+        "sentence": "No fim do prazo de que te falei, soube, por boca de um dos amigos de meu marido, que Emílio ia partir.",
+        "start_char": 41266,
+        "end_char": 41272,
+        "excerpt": "Todavia, as visitas começaram a escassear. Era, parecia-me, por motivo de uma delicadeza natural. No fim do prazo de que te falei, soube, por boca de um dos amigos de meu marido, que Emílio ia partir.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "partir",
+                "child": "Emílio",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "partir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emílio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "No fim do prazo de que te falei, soube, por boca de um dos amigos de meu marido, que [MASK] ia partir.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim que ouviu a notícia, Personagem decidiu agir imediatamente. Enquanto bebiam café da manhã, convidou o seu marido para uma conversa particular e o informou sobre o rumor que tinha escutado sobre sua saída. Embora surpreendido, o marido se defendeu dizendo que era apenas uma brincadeira de alguns amigos mal-intencionados e que ele não estava planejando partida em breve.",
+        "generated_text_llama": "Quando eu recebi a notícia de que Personagem ia partir, senti como se o mundo tivesse sido derrubado abaixo de mim. Eu sempre fui uma pessoa que valorizava a estabilidade e a previsibilidade em minha vida, e a ideia de que alguém tão importante fosse se ir foi devastadora.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "partir",
+                    "acl"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

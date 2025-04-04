@@ -1,0 +1,114 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Bergson",
+        "sentence": "Bergson, admite na alma humana o inconsciente dinâmico como sede de todas as tendências e instintos maus recalcados pela civilização no correr dos séculos.",
+        "start_char": 5374,
+        "end_char": 5381,
+        "excerpt": "Ao vê-los agora, no pleno viço das suas inclinações primitivas e bárbaras, convenci-me de que o homem é mais feroz do que as feras e, se não exerce a todo o momento contra os outros homens a sua crueldade, é porque o medo da represália lhe arrefece dentro do coração os nefandos impulsos da ferocidade inata\". A concepção freudiana, seguindo as pegadas do Prof. Bergson, admite na alma humana o inconsciente dinâmico como sede de todas as tendências e instintos maus recalcados pela civilização no correr dos séculos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "admite",
+                "child": "Bergson",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "admitir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bergson",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], admite na alma humana o inconsciente dinâmico como sede de todas as tendências e instintos maus recalcados pela civilização no correr dos séculos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim, Personagem, um psicólogo vienense que revolucionou a psicanálise, começou a explorar este território complexo e subconsciente dentro do ser humano. Investigando as motivações humanas e tentando entender as razões subjacentes que causam o comportamento irracional, Freud introduziu a teoria da Estructura Psíquica, dividindo a mente em três partes: id, ego e superego. Essa divisão se tornou um marco na psicanálise moderna, levando à compreensão mais profunda dos instintos, impulsos e conflitos que caracterizam a humanidade.",
+        "generated_text_llama": "Personagem se permite ser atraído pelas sombras do seu próprio inconsciente, permitindo-se ser conduzido pelo fluxo intuitivo que nascia da sua alma humana. Ele sente uma sutil sensação de liberdade ao abandonar as regras e convenções impostas pela sociedade, permitindo-se explorar os desejos mais profundos e oscuros que haviam sido escondidos por tanto tempo.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "permite",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Antônio",
+        "sentence": "Grande conhecedor de sua alma, Shakespeare pôs na boca de Brutus as palavras inflamadas que levariam o povo a assassinar Antônio, se este não possuísse também a poderosa arte de dirigir a fera - a multidão - que o ameaçava.",
+        "start_char": 8384,
+        "end_char": 8391,
+        "excerpt": "O infame Barnabá é uma criatura eterna na sociedade. Mais belo exemplo se acha na tragédia Júlio César, é o magnífico discurso de Brutus ao povo romano. Grande conhecedor de sua alma, Shakespeare pôs na boca de Brutus as palavras inflamadas que levariam o povo a assassinar Antônio, se este não possuísse também a poderosa arte de dirigir a fera - a multidão - que o ameaçava.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "assassinar",
+                "child": "Antônio",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "assassinar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Antônio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Antônio",
+                "child": "as palavras",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Antônio",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "palavra",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Grande conhecedor de sua alma, Shakespeare pôs na boca de Brutus as palavras inflamadas que levariam o povo a assassinar [MASK], se este não possuísse também a poderosa arte de dirigir a fera - a multidão - que o ameaçava.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Porém, Júlio César, grande orador e guerreiro, consciente de sua popularidade entre os romanos, não deixou se espantar com essa provocação. Em vez disso, ele se levantou, erguindo-se de maneira imponente sobre o alto pódio onde estava falando e tomou a palavra:",
+        "generated_text_llama": "Com um olhar penetrante, Shakespeare apontou para o futuro, onde Personagem iria encontrar seu destino mais provável: o palco do teatro, onde sua atuação poderia atrair a atenção da rainha, Luana, e, por isso, proteger a vida de Personagem. \"Vês, Brutus, em Roma, as águas não se deixam contaminar facilmente\", disse Shakespeare, enquanto segurava o rolo do texto, suas palavras ecoando nas sombras do velho Coliseu.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "deixou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "iria",
+                    "aux"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

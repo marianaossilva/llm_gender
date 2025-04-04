@@ -1,0 +1,1531 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "João",
+        "sentence": "E João, pensando no vizinho, disse, sem sombra de inveja:",
+        "start_char": 6721,
+        "end_char": 6725,
+        "excerpt": "Foi Jesus que aqui esteve, disse o bom homem. Nem podia ser outro, confirmou a mulher. E João, pensando no vizinho, disse, sem sombra de inveja:",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "E João",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "vizinho",
+                "child": "E João",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "vizinho",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "E [MASK], pensando no vizinho, disse, sem sombra de inveja:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " - \"Sim, ele é incrível no jardim\", disse Maria, admirando a hortelã perfeita cultivada pelo vizinho. Ela não sentia inveja, apenas admiração e respeito por sua habilidade incrível. Maria decidi aproveitar esse dom do seu vizinho: ela iria aprender com ele, para que também pudesse cultivar uma hortelã perfeita no jardim de casa. Ela saiu da porta e dirigiu-se à casa do vizinho, com um coração cheio de expectativa e determinação.",
+        "generated_text_llama": "\"E, realmente, eu nunca tive a oportunidade de conhecê-lo melhor, apesar de nos encontrar em muitas situações.\" E com isso, Personagem decidiu sair da sua casa e dar uma volta pela rua, esperando que o vizinho aparecesse. Ele queria saber mais sobre as pessoas ao seu redor e, talvez, descobrir algumas coisas novas sobre si mesmo. Enquanto caminhava, Personagem não podia deixar de pensar em como o vizinho o havia visto, com uma perspicácia que parecia ser mais do que apenas curiosidade. E, assim, ele continuou a andar, procurando uma resposta para as perguntas que se formavam na sua mente.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "disse",
+                    "ROOT"
+                ],
+                [
+                    "decidi",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "podia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João",
+        "sentence": "E João narrou a conversa que haviam entretido, depois da missa, atravessando o cannavial que se dourava ao sol.",
+        "start_char": 6917,
+        "end_char": 6921,
+        "excerpt": "Como sabes? perguntou a mu lher. E João narrou a conversa que haviam entretido, depois da missa, atravessando o cannavial que se dourava ao sol.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "narrou",
+                "child": "João",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "narrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "E [MASK] narrou a conversa que haviam entretido, depois da missa, atravessando o cannavial que se dourava ao sol.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após narrar a conversa que haviam entretido, depois da missa, atravessando o cannaval que se dourava ao sol, ele continuou seu caminho até à casa de sua família. Ao chegar, sentiu-se cansado e decidiu descansar um pouco antes de retomar as tarefas da vida diária. Ele abriu a porta e olhou para o relógio: tinha pouco mais de uma hora até o almoço. Ao entrar, ouviu a voz de sua irmã falando com alguma de suas sobrinhas no fundo da casa. Ele abraçou-se com eles e se sentou ao lado deles, esperando escutar as notícias do dia. Depois de uma minuta, ele perguntou: \"O que vocês falaram hoje?\" Sente-se tranquilo, sabendo que sua família sempre lhe proporcionaria algo divertido para ouvir.",
+        "generated_text_llama": "E Personagem narrou uma conversa que haviam entretido, depois da missa, atravessando o cannavial que se dourava ao sol. As palavras fluíam livremente entre eles, como um rio que não para de correr, e Personagem pôde sentir a conexão cada vez mais forte com aquela mulher, que desde o início havia parecido tão distante, mas agora parecia estar em sua própria pele. Com um sorriso no rosto, Personagem parou à beira de uma pequena estrada semeada de palmeiras, e olhou para os olhos deles brilhando com aquele brilho de descoberta e curiosidade. \"Você quer vir comigo?\" perguntou Personagem, a voz suave como um zumbi, deixando-a sem fôlego em meio ao calor do dia. E ela sorriu, as pálpebras se arregalando lentamente, expondo aquelas lindas irises azuis, e respondeu com uma palavra que fez o coração de Personagem bater mais rápido: \"Sim\".",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "Sente-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "narrou",
+                    "ROOT"
+                ],
+                [
+                    "pôde",
+                    "conj"
+                ],
+                [
+                    "parou",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "perguntou",
+                    "ROOT"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João",
+        "sentence": "Não é, de certo, affirmou João, vendo chegar, a zumbir, um louro enxame de abelhas procurando cortiço onde aboletar-se.",
+        "start_char": 7144,
+        "end_char": 7148,
+        "excerpt": "Deve estar, a esta hora, a contar o seu ouro. Não é mais feliz do que nós, disse a mulher. Não é, de certo, affirmou João, vendo chegar, a zumbir, um louro enxame de abelhas procurando cortiço onde aboletar-se.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "affirmou",
+                "child": "João",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "affirmar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Não é, de certo, affirmou [MASK], vendo chegar, a zumbir, um louro enxame de abelhas procurando cortiço onde aboletar-se.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele olhou para o inseto com estranho interesse, deixando que a sua mente vagabundeasse pela memória dos dias passados e, em especial, daquele momento particular em que foi testemunha de um maravilhoso feitiço. Então, decidido, se inclinou para as coisas próximas e empurrou, com a força de seu braço, o cesto de fósforos no chão. O clamor assustadorso das abelhas que voavam para todos os lados não despertaram nenhuma reação em ele; apenas o respeito e a admiração por uma natureza que, em alguns momentos, parecia mais um misterioso enigma do que uma realidade palpável.",
+        "generated_text_llama": "E assim, enquanto as abelhas dançavam ao redor dele, Personagem decidiu aproveitar a situação para realizar seu plano. Ele sabia que as abelhas eram atraídas por doce e, como ele carregava uma pequena sacola com uma colher de mel deliciosa, decidiu usá-la como distração.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João",
+        "sentence": "Todos os sabbados João descia ao mercado e já havia comprado uma carreta para transportar os produtos da sua abençoada herdade, que prosperava a mais e mais, quando, uma vez, perguntaram-lhe pelo vizinho: 16 APOLOGOS  Que era feito de tal homem que nao apparecia?",
+        "start_char": 7287,
+        "end_char": 7291,
+        "excerpt": "Não é, de certo, affirmou João, vendo chegar, a zumbir, um louro enxame de abelhas procurando cortiço onde aboletar-se. Correram dias, correram mezes. Todos os sabbados João descia ao mercado e já havia comprado uma carreta para transportar os produtos da sua abençoada herdade, que prosperava a mais e mais, quando, uma vez, perguntaram-lhe pelo vizinho: 16 APOLOGOS  Que era feito de tal homem que nao apparecia?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "affirmou",
+                "child": "João",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "affirmar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "descia",
+                "child": "João",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "descer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Todos os sabbados [MASK] descia ao mercado e já havia comprado uma carreta para transportar os produtos da sua abençoada herdade, que prosperava a mais e mais, quando, uma vez, perguntaram-lhe pelo vizinho: 16 APOLOGOS  Que era feito de tal homem que nao apparecia?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "16 Apólogos não era um homem comum e, como normalmente fez, Personagem descia ao mercado às sextas-feiras para comprar os necessários. Mas essa vez era sábado e ele não poderia resistir a vontade de visitar seu amigo. Por isso, após comprar as mercadorias, começou a procurá-lo em todos os lugares do lugar, perguntando aos moradores e aos clientes que estavam no mercado.",
+        "generated_text_llama": "A curiosidade do vizinho parecia insaciável, e Personagem não conseguiu evitar uma risada amigável ao responder à pergunta. \"Ah, aquele que nunca aparece?\", disse ele, secando a testa com um punho aberto. \"Bem, é um homem peculiar, mas que bom de coração! Ele é o abade do nosso convento local, e tem uma missão divina que o mantém ocupado dia e noite. Eles dizem que ele está trabalhando para preparar o caminho para a segunda vinda de Nosso Senhor\". Personagem suspirou, sacudindo a cabeça, \"Ele é um homem dosagem perfeita, sempre com uma capa escura e um sorriso enigmático. Nunca se sabe quando ele aparecerá, mas sempre traz consigo uma dose de sabedoria e compaixão\".",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "descia",
+                    "parataxis"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "conseguiu",
+                    "conj"
+                ],
+                [
+                    "suspirou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João",
+        "sentence": "João sorriu lembrando-se da manhan do Natal.",
+        "start_char": 7533,
+        "end_char": 7537,
+        "excerpt": "Correram dias, correram mezes. Todos os sabbados João descia ao mercado e já havia comprado uma carreta para transportar os produtos da sua abençoada herdade, que prosperava a mais e mais, quando, uma vez, perguntaram-lhe pelo vizinho: 16 APOLOGOS  Que era feito de tal homem que nao apparecia? João sorriu lembrando-se da manhan do Natal.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "descia",
+                "child": "João",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "descer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "sorriu",
+                "child": "João",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sorrir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] sorriu lembrando-se da manhan do Natal.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Ótima, vou continuar a história em português brasileiro. O personagem se levantou lentamente e se deslocou até uma janela que abria para o jardim. Era o dia seguinte à noite e a paz absoluta envolvia a casa. Ele apertava os olhos, olhando pelo vidro para fora e observando as estrelas brilhantes do céu noturno.",
+        "generated_text_llama": "Personagem sorriu lembrando-se da manhã do Natal, quando seu avô havia levado-o ao jardim para ver a árvore de luzes que iluminava todo o quintal. Ele ainda poderia sentir o cheiro do vinho quente e as canelas do avô em suas mãos, enquanto eles assistiam à espetáculo mágico das estrelas brilhantes no céu noturno.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João",
+        "sentence": "João foi guiando lentamente o animal e o carro rangia por entre as hervas altas que haviam reconquistado o terreno, dantes tão rico em flôr e em fruto.",
+        "start_char": 8111,
+        "end_char": 8115,
+        "excerpt": "Nem uma ovelha balava e do casebre não subia o fumo denunciador da vida. Estava tudo entristecido e calado como um cemiterio. João foi guiando lentamente o animal e o carro rangia por entre as hervas altas que haviam reconquistado o terreno, dantes tão rico em flôr e em fruto.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "guiando",
+                "child": "João",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "guiar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] foi guiando lentamente o animal e o carro rangia por entre as hervas altas que haviam reconquistado o terreno, dantes tão rico em flôr e em fruto.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim que Personagem manobrou o veículo através da vegetação rebelde, puxou a culota e se sentiu uma sensação estranha no barriga: o peixe estava se movimentando. Excitado pelo avistamento do animal raro, Personagem não podia escondê-lo mais: precisava mostrar o seu valor para sua comunidade. Pouco à pouco, ele guiou a caminhonete através da selva exuberante até uma pequena aldeia, onde os habitantes viviam sob as mesmas condições arduas que ele.",
+        "generated_text_llama": "Enquanto dirigia, Personagem não podia deixar de notar a curiosidade do animal, que estava cada vez mais interessado na flora e na fauna que passavam ao longo da estrada. O animal, um grande leão, parecia se divertir com o passeio, seus olhos brilhando com excitação ao ver as borboletas dançar em torno das flores. Personagem sorriu, sentindo-se agradecido por ter conseguido encontrar um animal tão gentil e atraente.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "manobrou",
+                    "advcl"
+                ],
+                [
+                    "podia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "ROOT"
+                ],
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João",
+        "sentence": "João, parando no terreiro, bradou para o casebre escancarado.",
+        "start_char": 8537,
+        "end_char": 8541,
+        "excerpt": "A parietaria trepava nos muros tendidos do casebre. Aves sinistras abalaram vendo aproximar-se o homem curioso. João, parando no terreiro, bradou para o casebre escancarado.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "bradou",
+                "child": "João",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "bradar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], parando no terreiro, bradou para o casebre escancarado.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Aí, ele cruzou a praça, dando um olhar curto ao velho arbusto com flores vermelhas que sempre lhe lembrava da menina. Continuou caminhando pela rua principal, onde o pé-de-galinha estendido lhe atravessava a visão sem parar. Entrou no casebre velho, com suas paredes esfinazadas e telhado coberto de muitos anos. O ar era seco e frio dentro do casebre, mas não importava para ele.",
+        "generated_text_llama": "Ele se levantou da cadeira e começou a caminhar em direção à casa, notando que a porta estava ainda aberta, como se alguém tivesse saído recentemente. Personagem sentiu um arrepio na espinha e decidiu entrar para ver se havia alguma pista sobre o que havia acontecido com sua irmã, que não havia aparecido desde a noite anterior.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "estendido",
+                    "csubj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João",
+        "sentence": "E João seguiu até a sala de jantar.",
+        "start_char": 8921,
+        "end_char": 8925,
+        "excerpt": "Proseguiu. Por toda a parte eram montões de ouro, mas como as taboas do soalho oscillassem, a fortuna logo rolava convertida em poeira. E João seguiu até a sala de jantar.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "seguiu",
+                "child": "João",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "seguir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "E [MASK] seguiu até a sala de jantar.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele abriu a porta da sala e se sentou em seu lugar, com a mesa polida ficando à sua vista. A sala estava completamente iluminada por várias lâmpadas espalhadas pelo local, dando um toque elegante ao ambiente. Ao redor dele, as paredes estavam cobertas de retratos de familiares e amigos, cada um deles recordando uma história ou momento em particular para o homem que estava sentado lá. O tempo parecia parar no momento, com todos olhando para ele em silêncio, aguardando que tivesse algo a dizer. Ele segurou a caixa na mão e deixou cair as lágrimas nos ombros. Depois de um minuto de silêncio, abriu a caixa e mostrou os documentos que continham. \"Este é o que eu queria compartilhar com vocês\", disse ele, enquanto todos permaneciam em silêncio e olhavam para as evidências que estavam à sua frente.",
+        "generated_text_llama": "E, com o coração apertado, Personagem olhou para a mesa, onde havia sido colocada uma única lugar bagunçada, como se esperava sua presença. Ele sentiu um arrepio na espinha ao notar que não havia sido deixado nenhuma mensagem ou símbolo, o que aumentou ainda mais a sensação de mistério e perigo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "João",
+        "sentence": "João persignou-se e, subindo para a carreta, tocou o animal fugindo áquelle sitio malsinado, lembrando-se do ambicioso desejo do vizinho, que Deus satisfizera:",
+        "start_char": 9310,
+        "end_char": 9314,
+        "excerpt": "Não se conteve então: recuando as- APOLOGOS 19 sombrado afastou-se da casa maldita e, mal chegou á porteira, ouviu grande estrondo como um desmoronamento. O casebre aluira e uma poeirada negra escurecia os ares. João persignou-se e, subindo para a carreta, tocou o animal fugindo áquelle sitio malsinado, lembrando-se do ambicioso desejo do vizinho, que Deus satisfizera:",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "persignou-se",
+                "child": "João",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "persignar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "João",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] persignou-se e, subindo para a carreta, tocou o animal fugindo áquelle sitio malsinado, lembrando-se do ambicioso desejo do vizinho, que Deus satisfizera:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele pôs os olhos na distância, sobre sua aldeia recuada. A carreta crescia até ele, lenta e maciça. Ele subiu em seu assento preferido, sentado de frente ao animal que transportava.",
+        "generated_text_llama": "Enquanto o animal se afastava, Personagem sentiu um peso no estômago. Ele pensou em como o vizinho havia conspirado contra ele, e como sua sorte havia mudado tão rapidamente. Com um olhar desconfiante, Personagem olhou ao redor, para garantir que ninguém estivesse observando seu movimento. Depois de confirmar que estava sozinho, ele começou a subir a carreta, sentindo-se cada vez mais nervoso e inseguro.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Jesus",
+        "sentence": "E foi assim que Jesus infante satisfez os desejos dos dois vizinhos.",
+        "start_char": 10447,
+        "end_char": 10452,
+        "excerpt": "E assim, acudindo ao pobre, demons- trava ao Senhor a sua gratidão. E o outro, no proprio premio tivera o justo castigo da sua desmarcada ambição. E foi assim que Jesus infante satisfez os desejos dos dois vizinhos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "satisfez",
+                "child": "Jesus",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "satisfez",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jesus",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Jesus",
+                "child": "infante",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Jesus",
+                "dep_c": "amod",
+                "pos_c": "PROPN",
+                "lemma_c": "infante",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "infante",
+                "child": "Jesus",
+                "dep_h": "amod",
+                "pos_h": "PROPN",
+                "lemma_h": "infante",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jesus",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "E foi assim que [MASK] infante satisfez os desejos dos dois vizinhos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, o infante acabou de se sentir um pouco mais tranquilo e gratificado por ter cumprido sua promessa. Depois de uma reunião com seus conselheiros, decidiu tomar algumas medidas para garantir que os dois vizinhos permanecessem leais a ele e não causem problemas mais naquela região.",
+        "generated_text_llama": "Com um sorriso confiante, Personagem infante pôs-se em marcha rumo à casa do primeiro vizinho, Sr. João, sabendo que este lastimava seus animais de estimação desde o dia em que havia se mudado para a região. Ao chegar à casa, Personagem notou que os cães estavam deitados no quintal, olhando com olhos tristes, então ele sabia que estava na hora certa para fazer sua obra de bondade.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pôs-se",
+                    "ROOT"
+                ],
+                [
+                    "notou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Amadeu",
+        "sentence": "Sem vêr na escuridão, Amadeu ouvia o rio rugir furioso e tiritava encharcado sob o aguaceiro torrencial.",
+        "start_char": 15336,
+        "end_char": 15342,
+        "excerpt": "As rijas lufadas levantava-se marulho formidavel, galhos estalavam e cahiam nagua, descendo na correnteza. Raios estrondavam, e a piróga, á mercê das ondas enfurecidas, mal obedecia á pá do pescador. Sem vêr na escuridão, Amadeu ouvia o rio rugir furioso e tiritava encharcado sob o aguaceiro torrencial.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ouvia",
+                "child": "Amadeu",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ouvia",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Amadeu",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Sem vêr na escuridão, [MASK] ouvia o rio rugir furioso e tiritava encharcado sob o aguaceiro torrencial.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim ouvindo o tronco do rio rugir com força e sentindo-se ainda mais inundado sob a tempestade, Personagem decidiu tomar algumas precauções para se proteger. Ele segurou a manguinha de sua jaqueta à beira do abismo do rio e girou-se rapidamente para ver se havia alguma coisa que pudesse servir como abrigo. Com o vento que soprava de maneira furiosa, ele rapidamente localizou um tronco caindo e correu até lá, empurrando-o em direção à margem do rio para formar uma espécie de barricada.",
+        "generated_text_llama": "Em frente a ele, as árvores estremeciam como gigantes velhas, seus galhos pendurados como ferramentas afiadas, enquanto a chuva caía com uma intensidade que parecia tentar encharcar-lhe todos os poros. Personagem sabia que não poderia ficar lá para sempre, mas o medo do desconhecido o mantinha parado, olhando fixamente para a escuridão que se abria diante dele.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Amadeu",
+        "sentence": "Amadeu nadou enfraquecidamente, lutando com as aguas e com a treva APOLOGOS 33 e, no delirio, parecia que, de todos os lados, vozes o acclamavam victoriando-o.",
+        "start_char": 19378,
+        "end_char": 19384,
+        "excerpt": "E nunca mais falariam nelle, outros teriam os amores das lindas moças emquanto que elle, rolando, desappareceria para o sempre no lodo do rio, como dissera a mãi por entre lagrimas presagas. Um relampago fulgurou e, subito, sem que lhe desse tempo de desviar a piróga, um grande tronco virou-a. Amadeu nadou enfraquecidamente, lutando com as aguas e com a treva APOLOGOS 33 e, no delirio, parecia que, de todos os lados, vozes o acclamavam victoriando-o.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "nadou",
+                "child": "Amadeu",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "nadar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Amadeu",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] nadou enfraquecidamente, lutando com as aguas e com a treva APOLOGOS 33 e, no delirio, parecia que, de todos os lados, vozes o acclamavam victoriando-o.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a narrativa, após sua luta extenuante contra as águas turbulentas e a tempestade APOLOGOS 33, Personagem caiu fraco no fundo do barco. Porém, seu espírito indomável não se desfez; ao contrário, a força de sua vontade aumentou. Em um último esforço herculeano, levantou-se e olhou para frente com uma expressão determinada no rosto.",
+        "generated_text_llama": "Personagem se levantou, deslizando sobre o chão úmido, tentando se equilibrar, mas seu corpo ainda estava fraco e não conseguiu manter o equilíbrio por muito tempo. Ele caiu novamente, forçando a respiração para tentar controlar os efeitos da droga. Enquanto isso, as vozes continuavam a ecoar em sua mente, uma especie de mantra que parecia o encorajar a se levantar e continuar lutando.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "caiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "Senhor, disse, apresentando-se ao monarcha, venho trazer o que me des tes por premio de um crime infame.",
+        "start_char": 38174,
+        "end_char": 38180,
+        "excerpt": "De repente abalaram todas a correr e, á medida que passavam diante dos seus olhos assombrados, elle nellas reconhecia pessoas da sua cidade: parentes, amigos que o injuriavam e amaldiçoavam. Sem poder descançar um minuto e attribuindo todos os seus soffrimentos 62 APOLOGOS ao ouro maldito, resolveu abrir mão da fortuna restituindo-a ao poderoso Rei das Montanhas, que já se havia recolhido á sua côrte. Senhor, disse, apresentando-se ao monarcha, venho trazer o que me des tes por premio de um crime infame.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "senhor",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], disse, apresentando-se ao monarcha, venho trazer o que me des tes por premio de um crime infame.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele, ainda com a mesma expressão reservada e orgulhosa, entregou a cesta cheia de ouro ao monarca. Ao fazê-lo, um sorriso delicado passou pela boca dele, mas não houve qualquer indício em seu rosto para indicar que o ato era de alguma forma incomodo ou desagradável para ele.",
+        "generated_text_llama": "O rosto do monarcha contou uma história de luta e resiliência, seu olhar penetrante parecia capaz de ver além das palavras. Ele inclinou-se para frente, seus vestidos brancos se alargando ao redor dele como um manto sagrado, e perguntou: \"Qual é o preço do seu crime? Qual é a ofensa que você acredita poder vender com algo tão precioso?\"",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "elle",
+        "sentence": "Tanto, porém, com elle lidou a mulher que elle disse, por fim, em tom de angustia:",
+        "start_char": 50613,
+        "end_char": 50617,
+        "excerpt": "E nós a rir, hein? O homem não falava, a pensar na ri- queza, ambicionando um thesouro maior. Tanto, porém, com elle lidou a mulher que elle disse, por fim, em tom de angustia:",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "lidou",
+                "child": "elle",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "lidar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "elle",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "disse",
+                "child": "elle",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "elle",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "elle",
+                "child": "a mulher",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "elle",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Tanto, porém, com [MASK] lidou a mulher que [MASK] disse, por fim, em tom de angustia:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, após ter ouvido a mulher lamentar e gritar, Personagem, sem dar sequência às palavras mordazes que havia dito anteriormente, se aproximou dela para dar uma olhada. A mulher estava tremendo de medo, com o rosto coberto por um lenço sujo e as mãos presas na toalha vermelha. Personagem, sabendo que a situação era séria, começou a conversar com a garota, tentando calmar sua agitação e apresentar-se como uma figura de confiança.",
+        "generated_text_llama": "Desculpe, mas não consegui extrair informações sobre o personagem \"Personagem\" da sua pergunta. Poderia fornecer mais contexto ou detalhes sobre o personagem? Estou aqui para ajudar! ",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "elle",
+        "sentence": "Tanto, porém, com elle lidou a mulher que elle disse, por fim, em tom de angustia:",
+        "start_char": 50613,
+        "end_char": 50617,
+        "excerpt": "E nós a rir, hein? O homem não falava, a pensar na ri- queza, ambicionando um thesouro maior. Tanto, porém, com elle lidou a mulher que elle disse, por fim, em tom de angustia:",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "lidou",
+                "child": "elle",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "lidar",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "elle",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "disse",
+                "child": "elle",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "elle",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "elle",
+                "child": "a mulher",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "elle",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "mulher",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Tanto, porém, com [MASK] lidou a mulher que [MASK] disse, por fim, em tom de angustia:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " \"Era assim que, deparado com a situação, o homem decidiu agir. Levantando-se e pondo as mãos na mesa, ele tomou profunda respiração e falou: - Você não se importe, minha amada, eu iria tratar disso.\"",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "elle",
+        "sentence": ".Mas com que alvoroço elle recebia as noticias dos progressos da sua arvorezinha.",
+        "start_char": 55723,
+        "end_char": 55727,
+        "excerpt": "Pobre cego! não poder vê-la . . .Mas com que alvoroço elle recebia as noticias dos progressos da sua arvorezinha.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "recebia",
+                "child": "alvoroço elle",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "receber",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "alvoroço",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": ".Mas com que alvoroço [MASK] recebia as noticias dos progressos da sua arvorezinha.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas com que alvoroço Personagem recebia as notícias dos progressos de sua arvorezinha, ele sentia uma onda de alegria inexpressável. Por muitos dias aguardara este momento e finalmente viu seus esforços materializarem-se em algo tangível. Atingiu as mãos numa das folhas secas da plantinha, sentindo-se uma sensação de orgulho profundo que o envolvia em sua totalidade. Nesse instante, não havia nada que pudesse distraí-lo: aquela arvorezinha, cuja semena havia sido enrolada numa lã de borracha, estava crescendo saindo da terra e apontando para o céu com uma força incrível. Era um milagre que Jorge havia plantado sozinho e agora testemunhava seu florescimento e vitória sobre a natureza circundante.",
+        "generated_text_llama": "Com um sorriso de satisfação no rosto, Personagem correu para a janela do quarto e abriu as cortinas, permitindo que a luz do sol iluminasse a pequena arvorezinha que ele havia plantado na sua varanda. Olhou para a árvore com admiração, notando que suas folhas estavam começando a se transformar em uma cor laranja vibrante, um sinal de que a primavera estava chegando. Personagem sentiu um orgulho paternal e decideu fazer algumas mudanças na sua varanda para dar mais espaço à árvore, permitindo que ela crescesse ainda mais e alcançasse seu máximo esplendor. Com as mãos firme, ele começou a remover as antigas plantas e a rearrumar os móveis, criando um pequeno espaço ao redor da árvore para que ela pudesse se desenvolver livremente. Enquanto trabalhava, Personagem não podia deixar de sorrir, sabendo que sua dedicação e carinho estavam dando frutos.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "recebia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "correu",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "podia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "elle",
+        "sentence": "É verdade que elle ameaçou, mas da ameaça á acção vai muito.",
+        "start_char": 58442,
+        "end_char": 58446,
+        "excerpt": "Teremos de fugir abandonando, não só a colheita como a casa e todos os bens e ainda nos poderemos considerar felizes se escaparmos á sanha de tão perverso ladrão. O outro, sempre encolhido, cocou a cabeça e respondeu:  Demais, vizinho, porque nos ha- vemos de incommodar se o homem anda ainda tão longe? É verdade que elle ameaçou, mas da ameaça á acção vai muito.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "ameaçou",
+                "child": "elle",
+                "dep_h": "csubj",
+                "pos_h": "VERB",
+                "lemma_h": "ameaçar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "elle",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "elle",
+                "child": "É verdade",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "elle",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "verdade",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "É verdade que [MASK] ameaçou, mas da ameaça á acção vai muito.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " É verdade que ele ameaçou, mas da ameaça a ação vai muito. Quando não teve mais nada para perder, ele puxou uma pistola de seu bolso e apontou-a diretamente para o rosto do homem que estava enfrente, com um sorriso sanguessugo nas lábios. O barulho do tiro ressonou pela sala, e no momento em que ele saiu a bala, todo o mundo presente caiu de surpresa ao chão. O homem que estava sendo ameaçado reagiu imediatamente, puxando uma pistola escondida no seu próprio bolso e disparou duas vezes, atingindo o suspeito diretamente no peito. O último que viu o suspeito era cair em pé, um sorriso de raiva no rosto, antes de desabar no chão e parar inanimado. A polícia chegou logo depois, tendo fechado a investigação dizendo que se tratava de um assassinato justificável.",
+        "generated_text_llama": "Ele sorriu para si mesmo, sabendo que a palavra era apenas uma questão de estilo. Não havia como negar que tinha ameaçado, mas na realidade, estava mais interessado em encontrar uma solução do que em passar a ameaça ao vivo. Personagem pegou o celular e enviou uma mensagem para o outro lado, tentando manter a calma e a objetividade.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pegou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elle",
+        "sentence": "Elle recebeu-os com humanidade e, como os colonos e os camaradas houvessem seguido os patrões, o fazendeiro reuniu-os á sua gente, armou-os e contou quinhentos combatentes.",
+        "start_char": 63273,
+        "end_char": 63277,
+        "excerpt": "Lembrou-se, então, de pedir misericordia ao fazendeiro e lá foi, a todo o correr do cavallo, lamentando-se. Em caminho encontrou o covarde que fugia e, espalhando-se a noticia terrivel, todos os plantadores foram abandonando as suas propriedades, correndo a refugiar-se na fazenda do homem rico. Elle recebeu-os com humanidade e, como os colonos e os camaradas houvessem seguido os patrões, o fazendeiro reuniu-os á sua gente, armou-os e contou quinhentos combatentes.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "recebeu-os",
+                "child": "Elle",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "recebeu-os",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elle",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] recebeu-os com humanidade e, como os colonos e os camaradas houvessem seguido os patrões, o fazendeiro reuniu-os á sua gente, armou-os e contou quinhentos combatentes.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O fazendeiro, com a gravidade de um guerreiro, olhou para seus homens novamente, entendendo que estavam enfrentando a batalha mais importante da vida deles todos. Eles estavam prestes a defender sua terra e suas famílias contra aqueles que queriam saquear tudo o que eles amavam.",
+        "generated_text_llama": "Com um olhar firme e resoluto, o fazendeiro começou a explicar que a missão era proteger a terra e seus habitantes dos ameaças externas, e que cada um deles tinha um papel importante a desempenhar na vitória. Ele distribuiu as armas e equipamentos, garantindo que cada combatente estivesse preparado para o que estava por vir.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "Senhor, respondeu, com modestia, o solitario, aprendo as noções da vida.",
+        "start_char": 75370,
+        "end_char": 75376,
+        "excerpt": "O magico adiantou-se e, chamando-o amigamente, pediu-lhe informações sobre a sua vida: Porque se afastára do mundo e que fazia em tão deserto desterro? Senhor, respondeu, com modestia, o solitario, aprendo as noções da vida.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "respondeu",
+                "child": "Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "senhor",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], respondeu, com modestia, o solitario, aprendo as noções da vida.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, o homem, com uma expressão de tranquilidade incomum nos olhos, começou a explicar como ele tinha aprendido a viver. Com palavras claras e precisas, contou suas experiências, suas dificuldades e sua auto-conhecimento, que lhe deram uma perspectiva única da vida. Ele falava com calma e confiança sobre como aprender a aceitar as coisas que não podemos controlar e como encontrar o equilíbrio em meio às tempestades de nossa existência.",
+        "generated_text_llama": "Ele sorriu levemente e olhou para os quatro paredes da pequena casa que era agora seu lar, pensando na longa jornada que o havia levado até aqui. Em seguida, decidiu que era hora de mudar um pouco a rotina e começou a limpar o espaço, esvaziando as caixas de roupas e objetos que o haviam acolhido. Após organizar os espaços, ele pegou seu livro favorito e sentou-se no sofá, cercado pelas paredes brancas, com a luz suave do sol nascendo através da janela. Iniciou a leitura, mergulhando em uma mundo de aventuras e romance, perdido na história que o transportava para um lugar completamente diferente da realidade.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ella",
+        "sentence": "Ella, então, poz-se a descer vagaro- samente fazendo como lhe dissera o velho.",
+        "start_char": 84401,
+        "end_char": 84405,
+        "excerpt": "Os espinhaes desabrolharam em flores e o sol, que parecia banido daquelles lugares tristes, brilhou na folhagem e refulgiu nas aguas. Ella, então, poz-se a descer vagaro- samente fazendo como lhe dissera o velho. Não via pedra onde não vertesse uma gota dagua e assim foi desencantando os que ali estavam petrificados.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "poz-se",
+                "child": "Ella",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poz-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "ella",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], então, poz-se a descer vagaro- samente fazendo como lhe dissera o velho.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ela segurou firme nas cordas que lhe haviam dado e começou a descer vagarosamente, seguindo as instruções do velho. Ao chegar no chão, encontrou-se num lugar incrível, cobertas de flores e com uma casa antiga em destaque. Ela caminhou até a casa, notando que ainda não havia ninguém ali. A abriu a porta e entrou, encontra-se num quarto cheio de antiguidades, um espelho refletindo sua imagem com uma expressão espantada. Entretanto, repentinamente ouviu uma voz ronca e uma sombra se moveu para o lado dela. Turnou-se e viu o velho olhando para ela com uma sonrisa misteriosa.",
+        "generated_text_llama": "Em seguida, Personagem sentiu o suor escoar pelo seu rosto enquanto caminhava pela estrada sinuosa, as sombras das árvores dançavam ao redor dele. A luz da lua, fraca e distante, iluminava o caminho à frente, como se estivesse guiando-o em direção a algum destino misterioso. Personagem não podia evitar sentir uma sensação de ansiedade crescente, mas tentou ignorá-la, concentrando-se em seguir as instruções do velho, que haviam sido tão misteriosas e difíceis de entender.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "podia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elle",
+        "sentence": "Elle tentava confirmar a mentira, insistia convidando a velha a acompanhá-lo a certa clareira para ouvir as vo-",
+        "start_char": 87149,
+        "end_char": 87153,
+        "excerpt": "Ficaste a brincar e a procurar ninhos e, com a escuridão da noite, temendo os animaes, buscaste algum esconderijo até que luzisse a manhan. Foi isto, não? Elle tentava confirmar a mentira, insistia convidando a velha a acompanhá-lo a certa clareira para ouvir as vo-",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "tentava",
+                "child": "Elle",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tentar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elle",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] tentava confirmar a mentira, insistia convidando a velha a acompanhá-lo a certa clareira para ouvir as vo-",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Personagem, tentando confirmar a mentira, continuou insistindo convidando a velha para acompanhá-lo até uma determinada claraboia. Ele sabia que era um lugar remoto e inóspito, onde ninguém poderia ouvir suas palavras.",
+        "generated_text_llama": "cidas dos espíritos que moravam lá. A mulher, com olhos tristes e uma face pálida, pareceu hesitar por um momento antes de acordar-se da coragem que lhe faltava. Com uma respiração funda, ela concordou em acompanhá-lo à clareira, mas com uma condição: \"Vamos ao crepúsculo, quando a escuridão está mais densa\", disse ela, olhando para as sombras que se espalhavam pelo chão.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "tentando",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elle",
+        "sentence": "Elle deitou-se no seu catre e, insomne, imaginando-se riquissimo, com muitas moedas de ouro como a que lhe haviam dado os homens, ficou a rolar nas palhas e rolava, quando ou- 144",
+        "start_char": 91946,
+        "end_char": 91950,
+        "excerpt": "Chegando á casa narrou todas as peri- pécias da jornada, reservando-se, porém, de dizer que falára do diamante. Á noite, depois da ceia frugal, re- colheram-se todos. Elle deitou-se no seu catre e, insomne, imaginando-se riquissimo, com muitas moedas de ouro como a que lhe haviam dado os homens, ficou a rolar nas palhas e rolava, quando ou- 144",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "deitou-se",
+                "child": "Elle",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "deitar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elle",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] deitou-se no seu catre e, insomne, imaginando-se riquissimo, com muitas moedas de ouro como a que lhe haviam dado os homens, ficou a rolar nas palhas e rolava, quando ou- 144",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele continuava a se deslizar pelas palhas, sonhando-se que estivesse correndo sobre moedas de ouro. Com um sorriso brilhante, puxou as mãos do chão e começou a coletar o ouro imaginário daquela enorme quantidade de palha.",
+        "generated_text_llama": "viu uma coisa que o deixou parado no meio da sua torcida. Era uma pequena folha de papel que havia caído do bolso dele, que ele não sabia que estava ali. Abriu os olhos com um esforço e viu a folha, com as palavras \"Ruína\" escritas em letras grandes no canto superior esquerdo. Sentiu uma ponta de medo e nervosismo, mas também sentiu uma sensação de curiosidade. Quem era Ruína? E o que queria dizer? De repente, ouviu um barulho atrás dele e se levantou para ver quem estava lá. A luz do sol do meio-dia a fez cerrar os olhos, e quando abriu novamente, viu uma figura sombria parada à entrada da caverna.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "viu",
+                    "conj"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "Senhor, disse o avisado conselheiro, as regras são uteis, mas a experiencia é tudo.",
+        "start_char": 96901,
+        "end_char": 96907,
+        "excerpt": "Montado sobre um eixo, com um chicote em punho, se era mal tocado voltava-se repentinamente flagellando o inesperto esgrimista. APOLOGOS 151 antes de aventurar-se no campo da lide, em ardego cavallo de guerra. Senhor, disse o avisado conselheiro, as regras são uteis, mas a experiencia é tudo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "senhor",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], disse o avisado conselheiro, as regras são uteis, mas a experiencia é tudo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Com essas palavras em mente, Pedro pênzou por um instante antes de retomar sua caminhada. Acontecimentos inusitados e desafios imprevistos estavam à frente dele, mas ele sabia que as regras eram um mapeamento seguro para seguir no labirinto da aventura que lhe esperava.",
+        "generated_text_llama": "Personagem suspirou profundamente e sacudiu a cabeça, como se estivesse se afastando de uma realidade que não convinha mais. \"Eu sei que você está tentando me dizer que a experiência é o melhor guia\", disse ele com um tom de sarcasmo, \"mas para mim, as regras sempre foram mais claras e menos propensas a me levar à ruína.\"",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "pênzou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "suspirou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elle",
+        "sentence": "Elle que não protesta é porque entende que está como convem.",
+        "start_char": 99430,
+        "end_char": 99434,
+        "excerpt": "Senhor, o mestre darmas nada tem a dizer. Faz o que deve, cumprindo as ordens que recebeu do seu rei. Elle que não protesta é porque entende que está como convem.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "é",
+                "child": "Elle",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ser",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "elle",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] que não protesta é porque entende que está como convem.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Portando uma sonhadora espada de luz pura no seu lado esquerdo, ele desceu as escadas do palácio com um passo tranquilo e deciso. O conhecimento de sua missão era incumbente em suas veias, como o corpo inteiro ardia com a determinação necessária para realizar seu propósito. Sentindo que estava pronto para enfrentar o que se aproximava, ele abriu as portas do palácio e saiu para o exterior, onde esperava uma batalha iminente contra os demônios enviados pelo Senhor das Trevas. Ele sabia que a sua missão era mais que uma luta; era um sinal da própria essência humana, uma luz brilhante em um mundo sombrio.",
+        "generated_text_llama": "Espero não ter me enganado com a escolha de mascar, pois não encontrei nenhuma informação sobre um personagem chamado \"mascar\". Vou assumir que você está se referindo a uma pessoa que usa uma máscara, seja por razões de segurança ou por outra causa.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Senhor",
+        "sentence": "Senhor, disse o jovem, tenho com- migo o bastante para convencer, não só a V. M. como a todos os nobres da côrte.",
+        "start_char": 115387,
+        "end_char": 115393,
+        "excerpt": "Se veiu de galho darvore, outros iguaes tenho eu visto em montras de joalheiros. Todos os cortezãos concordaram com o fidalgo, mas o rei, que sympatisara com o mancebo, pediu-lhe outra prova do que dissera. Senhor, disse o jovem, tenho com- migo o bastante para convencer, não só a V. M. como a todos os nobres da côrte.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Senhor",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "senhor",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], disse o jovem, tenho com- migo o bastante para convencer, não só a V. M. como a todos os nobres da côrte.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O jovem olhou para ela de forma confiado e continuou: \"Minha senhora, eu já tive suficiente para convencê-la, não apenas a sua magestade, mas também todos os nobres da corte. Eu vim aqui hoje para apresentar uma nova invenção, que irá mudar toda a cidade e, provavelmente, o mundo inteiro.\"",
+        "generated_text_llama": "Máscaro sorriu amplamente, sabendo que havia encontrado a chave para obter o apoio necessário. Ele começou a falar com mais confiança, explicando seus planos e ideias para V. M., detalhando como elas poderiam beneficiar a ambos, o rei e ele próprio.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elle",
+        "sentence": "Elle, porém, tirando do bolso da vestia uma semente, apresentou-a ao rei, dizendo:",
+        "start_char": 115898,
+        "end_char": 115902,
+        "excerpt": "Confesso que ainda não vi, não poude deixar de responder o odioso fi dalgo. E todos entreolharam-se com visiveis signaes de duvida, alguns sorriram, tomando, talvez, por louco ao moço pretendente. Elle, porém, tirando do bolso da vestia uma semente, apresentou-a ao rei, dizendo:",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "tirando",
+                "child": "Elle",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tirar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elle",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], porém, tirando do bolso da vestia uma semente, apresentou-a ao rei, dizendo:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " - \"Mensageiro, eu te ouço, mas este não é o momento para palavras. Eu trouxe algo de especial importância aqui.\", disse Personagem, colocando a mão na cintura e desvendando delicadamente uma semente de um bolso dentro da vestimenta que usava sob sua túnica.",
+        "generated_text_llama": "\"Seu Majestade, esta pequena semente é a chave para o futuro de nosso reino. Ela é um tipo raro e único, que pode ser plantada e, com um pouco de fé e trabalho, florescerá em uma planta de grande beleza e fruto abundante.\" Personagem disse, com um sorriso no rosto.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "disse",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "disse",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elle",
+        "sentence": "Elle contemplava, sorrindo, o excidio triste, orgulhoso do seu poder, igual",
+        "start_char": 129717,
+        "end_char": 129721,
+        "excerpt": "A noite tornou-se de purpura e o fumo ennevoou o luar. A grita da gente rustica, surprendida no somno pelas labaredas violentas, e o aterrado mugir dos bois e o balar assustado dos cordeiros fugindo desatinadamente ao incendio, chegavam ao homem cruel sem lhe doer no coração. Elle contemplava, sorrindo, o excidio triste, orgulhoso do seu poder, igual",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "contemplava",
+                "child": "Elle",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "contemplar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elle",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] contemplava, sorrindo, o excidio triste, orgulhoso do seu poder, igual",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em seguida, a rainha Maria Antonieta moveu-se de forma deliberada para uma das janelas do palácio de Versalhes, para olhar pela janela e contemplar a vida que continua embaixo. Ela sorriu levemente, sintendo seu orgulho soar nas suas costas. Embora os anos aí estivessem pesados sobre sua figura, ela continuava a sentir-se uma rainha invencível, capaz de governar tanto o seu palácio quanto o reino, mesmo em tempos difíceis.",
+        "generated_text_llama": "E então, com um movimento lento e deliberado, Personagem começou a caminhar em direção à janela, onde as cortinas escuras se estendiam como braços estendidos, tentando conter o mundo exterior. Ele parou por um momento, olhando para fora, onde a noite parecia se estender infinitamente, como um mar de escuridão sem fim. Em seguida, com uma respiração profunda, Personagem se aproximou da janela e deslizou as cortinas para o lado, permitindo que a luz do pôr do sol penetrasse na sala.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "aproximou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elle",
+        "sentence": "Elle sentara-se na relva, arquejante e ali o foram achar os seus algozes, que o remorso tornára meigos.",
+        "start_char": 151970,
+        "end_char": 151974,
+        "excerpt": "Coitado do velho! está chorando. Vamos vê-lo. Elle sentara-se na relva, arquejante e ali o foram achar os seus algozes, que o remorso tornára meigos.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "sentara-se",
+                "child": "Elle",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sentara-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elle",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] sentara-se na relva, arquejante e ali o foram achar os seus algozes, que o remorso tornára meigos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Personagem, com as mãos tremulares, se assentou no gramado, arquejando o joelho e, ali, foi encontrado pelos seus perseguidores. O remorso, que tinha se transformado em amigos, os acompanhou, apresentando-o com um olhar calado e desconfiado. Personagem, agarrando a sua espada, ergueu-se lentamente, olhando para seus perseguidores e, com uma voz áspera, declarou:",
+        "generated_text_llama": "Enquanto observava os seus algozes, que agora estavam em perigo de serem descobertos pelo resto da tripulação, Personagem sabia que precisava agir rápido para protegê-los. Ele se levantou do chão, usando a sua força e habilidade para impor uma ordem sobre os seus seguintes, e ordenou que eles se afastassem, disfarçados de maneira a não chamar atenção.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "assentou",
+                    "ROOT"
+                ],
+                [
+                    "ergueu-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dora",
+        "sentence": "Dora avante não direi que só a Patria ganhou com o meu sacrificio, vós tambem me suppris, com a bondade, a falta do braço que perdi na guerra.",
+        "start_char": 159527,
+        "end_char": 159531,
+        "excerpt": "Ainda a achais ridicula? Os meninos, que ouviram attentamente a narração do velhinho, mos- APOLOGOS 243 traram-se arrependidos do que haviam feito e, desde então, tornaram-se os melhores protectores do invalido que, a rir, quando elles sahiam a recebê-lo, dizia acompanhando-os vagarosamente por entre as arvores do parque: Dora avante não direi que só a Patria ganhou com o meu sacrificio, vós tambem me suppris, com a bondade, a falta do braço que perdi na guerra.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "direi",
+                "child": "Dora",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "dora",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] avante não direi que só a Patria ganhou com o meu sacrificio, vós tambem me suppris, com a bondade, a falta do braço que perdi na guerra.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem avançou não diria que apenas a Pátria venceu com meu sacrifício; vocês também me surpreenderam, com a bondade, a falta do braço que perdi na guerra. Depois de ter recebido o abraço ameno de seus companheiros, Personagem olhou para fora da sala e sentiu um vento frio correndo pela cabeça. O dia era ruim, com chuva constantes e neblina que envolvia a cidade.",
+        "generated_text_llama": "Espero não ter sido enganado pelo patriótico discurso daqueles que me haviam contratado para liderar as linhas de frente. Antes mesmo, comecei a analisar os planos de defesa das outras tropas, procurando por lacunas que eu pudesse preencher com minha experiência em combate. Meus homens, embora feridos e magoados, permaneceram unidos e motivados, sabendo que estavam lutando sob minhas ordens. Comecei a reorganizar as linhas de frente, adicionando tropas para fortalecer os pontos fracos e melhorar a comunicação entre os comandantes. Enquanto isso, comecei a conversar com os líderes da Patria, tentando entender suas expectativas e objetivos, enquanto procurava por uma maneira de justificar o meu papel no triunfo.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "avançou",
+                    "ROOT"
+                ],
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    }
+]

@@ -1,0 +1,452 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Raimundo",
+        "sentence": "- Preciso reconciliar-me com o Maranhão, pensou Raimundo, e foi com esta idéia sensata que ele procurou a seção maranhense no Palácio da Exposição.",
+        "start_char": 1607,
+        "end_char": 1615,
+        "excerpt": "Ficou solteiro. Durante muitos anos os seus sentimentos não se modificaram; ultimamente, porém, a idade começou a exercer no seu espírito uma ação benéfica, e ele refletiu, pela primeira vez, que a sua terra não tinha culpa da ingratidão de Filomena. - Preciso reconciliar-me com o Maranhão, pensou Raimundo, e foi com esta idéia sensata que ele procurou a seção maranhense no Palácio da Exposição.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "pensou",
+                "child": "Raimundo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Raimundo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "- Preciso reconciliar-me com o Maranhão, pensou [MASK], e foi com esta idéia sensata que ele procurou a seção maranhense no Palácio da Exposição.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim pensando, a pé, o Personagem seguiu caminhando até chegar à Seção Maranhense no Palácio da Exposição. Lá encontrou várias exposições de artesanatos maranhenses e fotografias históricas da região, além de um espaço onde havia uma conversa sobre o estado no dia seguinte.",
+        "generated_text_llama": "Ao entrar na seção, Personagem foi recebido por uma funcionária amigável que lhe mostrou o caminho até ao gabinete do secretário de Estado de Maranhão. Em seguida, ele teve de esperar alguns minutos antes de ser recebido pelo próprio secretário, um homem sério e imponente com um sorriso diplomático no rosto.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "seguiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Filomena",
+        "sentence": "Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver Filomena em tudo; Filomena aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - Filomena surgia de toda a parte!",
+        "start_char": 1810,
+        "end_char": 1818,
+        "excerpt": "Durante muitos anos os seus sentimentos não se modificaram; ultimamente, porém, a idade começou a exercer no seu espírito uma ação benéfica, e ele refletiu, pela primeira vez, que a sua terra não tinha culpa da ingratidão de Filomena. - Preciso reconciliar-me com o Maranhão, pensou Raimundo, e foi com esta idéia sensata que ele procurou a seção maranhense no Palácio da Exposição. Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver Filomena em tudo; Filomena aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - Filomena surgia de toda a parte!",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "ingratidão",
+                "child": "Filomena",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "ingratidão",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Filomena",
+                "child": "ingratidão",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Filomena",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "ingratidão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Filomena",
+                "child": "culpa",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Filomena",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "culpa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "ver",
+                "child": "Filomena",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "aparecia-lhe",
+                "child": "Filomena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aparecia-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "surgia",
+                "child": "Filomena",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "surgir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver [MASK] em tudo; [MASK] aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - [MASK] surgia de toda a parte!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim passando pelas salas onde se exibiam os produtos de seu estado, o pobre-diabo começou a ver suas invenções em tudo; ela aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - ela surgia de toda a parte! Era como se seus olhos estivessem abertos e vendo o passado, o presente e até mesmo o futuro. Ela apercebeu-se de que sua criação estava espalhada por todo o espaço, uma testemunha da progressão humana em seu estado.",
+        "generated_text_llama": "Ele estava começando a perder a sanidade. Em cada passo que dava, via Personagem por todos os lados. Na mesa da sala de estar, havia uma xícara de café com um pequeno rascunho de papel que parecia ser feito de Personagem. No banheiro, encontrou uma foto do itself com uma expressão envergonhada, feita de Personagem e coringa. Era como se Personagem estivesse perseguindo-o em todos os cantos da casa.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "via",
+                    "ROOT"
+                ],
+                [
+                    "perseguindo-o",
+                    "xcomp"
+                ]
+            ],
+            "obj": [
+                [
+                    "feita",
+                    "acl"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Filomena",
+        "sentence": "Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver Filomena em tudo; Filomena aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - Filomena surgia de toda a parte!",
+        "start_char": 1810,
+        "end_char": 1818,
+        "excerpt": "Durante muitos anos os seus sentimentos não se modificaram; ultimamente, porém, a idade começou a exercer no seu espírito uma ação benéfica, e ele refletiu, pela primeira vez, que a sua terra não tinha culpa da ingratidão de Filomena. - Preciso reconciliar-me com o Maranhão, pensou Raimundo, e foi com esta idéia sensata que ele procurou a seção maranhense no Palácio da Exposição. Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver Filomena em tudo; Filomena aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - Filomena surgia de toda a parte!",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "ingratidão",
+                "child": "Filomena",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "ingratidão",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Filomena",
+                "child": "ingratidão",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Filomena",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "ingratidão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Filomena",
+                "child": "culpa",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Filomena",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "culpa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "ver",
+                "child": "Filomena",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "aparecia-lhe",
+                "child": "Filomena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aparecia-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "surgia",
+                "child": "Filomena",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "surgir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver [MASK] em tudo; [MASK] aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - [MASK] surgia de toda a parte!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O pobre-diabo continuou caminhando pelas salas, sua espantação crescente como uma onda em seu rosto. Agora ele estava completamente perdido; o fantasma parecia estar em tudo que olhava. Aparecia na madeira das armárias, nos ornamentos de prata, nas teias, nas cortinas, nas frestas, na farinha - surgia de todas as partes!",
+        "generated_text_llama": "Ele estava confuso e um pouco assustado com essa sensação perturbadora que o envolvia. Sem saber como explicar, começou a buscar qualquer coisa que pudesse mecar com ele, esperando que alguém pudesse entender o que estava acontecendo. Em seguida, ele viu os produtos do seu Estado expostos em uma mesa no centro da sala e sentiu um impulso irracional para apalpar cada um deles, como se estivesse procurando por uma pista ou uma resposta.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Filomena",
+        "sentence": "Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver Filomena em tudo; Filomena aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - Filomena surgia de toda a parte!",
+        "start_char": 1810,
+        "end_char": 1818,
+        "excerpt": "Durante muitos anos os seus sentimentos não se modificaram; ultimamente, porém, a idade começou a exercer no seu espírito uma ação benéfica, e ele refletiu, pela primeira vez, que a sua terra não tinha culpa da ingratidão de Filomena. - Preciso reconciliar-me com o Maranhão, pensou Raimundo, e foi com esta idéia sensata que ele procurou a seção maranhense no Palácio da Exposição. Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver Filomena em tudo; Filomena aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - Filomena surgia de toda a parte!",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "ingratidão",
+                "child": "Filomena",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "ingratidão",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Filomena",
+                "child": "ingratidão",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Filomena",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "ingratidão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Filomena",
+                "child": "culpa",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Filomena",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "culpa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "ver",
+                "child": "Filomena",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "aparecia-lhe",
+                "child": "Filomena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aparecia-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "surgia",
+                "child": "Filomena",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "surgir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver [MASK] em tudo; [MASK] aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - [MASK] surgia de toda a parte!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ao percorrer as salas onde se exibiam os produtos de seu Estado, o pobre-diabo começou a sentir uma presença incomum. De repente, [o produto que ele mais detestava] aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - estava por todo lado!",
+        "generated_text_llama": "Eu continuei a caminhar pelas salas, sabendo que não poderia deixar sem notar todos os pequenos detalhes que me rodeavam. Cada vez mais, eu comecei a sentir uma sensação de desconforto, como se estivesse sendo observado por algo ou alguém. Os produtores e comerciantes que me apresentaram os produtos do meu Estado começaram a olhar para mim com uma mistura de curiosidade e medo.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Filomena",
+        "sentence": "De repente, no meio daquele silêncio, a voz do marido repercutiu: - Filomena!- Que é Cardoso?",
+        "start_char": 2215,
+        "end_char": 2223,
+        "excerpt": "Mas percorrendo as salas onde se acham expostos os produtos do seu Estado, o pobre-diabo começou a ver Filomena em tudo; Filomena aparecia-lhe nos móveis, nos artefatos, nas fibras, nos tecidos, nas rendas, nas favas, no arroz - Filomena surgia de toda a parte! As salas estavam quase desertas; além do Raimundo, estavam ali apenas três visitantes e uma família - marido, mulher, cinco filhos e uma criada, que examinavam tudo com atenção. De repente, no meio daquele silêncio, a voz do marido repercutiu: - Filomena!- Que é Cardoso?",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "ver",
+                "child": "Filomena",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "aparecia-lhe",
+                "child": "Filomena",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aparecia-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "surgia",
+                "child": "Filomena",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "surgir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Filomena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Filomena!-",
+                "child": "Que",
+                "dep_h": "nsubj",
+                "pos_h": "VERB",
+                "lemma_h": "Filomena!-",
+                "dep_c": "flat:name",
+                "pos_c": "PROPN",
+                "lemma_c": "Que",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "De repente, no meio daquele silêncio, a voz do marido repercutiu: - [MASK]!- Que é Cardoso?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Sem dar nenhuma resposta, ela olhou para ele com um ar de surpresa e confusão. Depois de um longo segredo que haviam mantido por mais de uma década, o marido a interrompeu ao gritar seu nome verdadeiro.",
+        "generated_text_llama": "De repente, no meio daquele silêncio, a voz do marido repercutiu: - \"Não me diga que você falou com ele?\", perguntou Carlos, seu olhar intenso e preocupado. Ele estava sentado em frente à mesa, com os braços cruzados, observando Personagem de cima a cabo, como se estivesse tentando decifrar um segredo.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "observando",
+                    "advcl"
+                ]
+            ]
+        }
+    }
+]

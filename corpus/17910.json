@@ -1,0 +1,4004 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "O réu está na cadeia da mesma vila e chama- se Julião.",
+        "start_char": 725,
+        "end_char": 731,
+        "excerpt": "O objeto é digno do talento e das habilitações do advogado. Despesas e honorários ser-lhe-ão satisfeitos antecipadamente, mal puser pé no estribo. O réu está na cadeia da mesma vila e chama- se Julião.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "chama-",
+                "child": "Julião",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "chama-",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "cadeia",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "cadeia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "O réu está na cadeia da mesma vila e chama- se [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Personagem então passou a dedicar sua energia e seu espírito rebelde à luta pelo direito de ser livre. Ela organizava encontros secretos com outros prisioneiros para discutir planos de fuga e trocar informações que podiam ser úteis na hora certa. Sua inteligência e resiliência eram a maré que guiavam as pessoas, oferecendo um palco de esperança e de luta. A cada dia que passava, Lara se sentia mais forte e determinada em lutar pela justiça.",
+        "generated_text_llama": "Nonno ficou surpreso ao saber que seu filho havia sido preso novamente. Ele sabia que Personagem tinha um histórico de problemas com a lei, mas isso não justificava que ele estivesse atrás das grades novamente.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "passou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "tinha",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pio",
+        "sentence": "Pio é, por assim dizer, a justiça e a caridade fundidas em uma só pessoa.",
+        "start_char": 3071,
+        "end_char": 3074,
+        "excerpt": "Que faz esse velho para que lhe dêem semelhante título? Pouca cousa. Pio é, por assim dizer, a justiça e a caridade fundidas em uma só pessoa.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "dizer",
+                "child": "Pio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pio",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] é, por assim dizer, a justiça e a caridade fundidas em uma só pessoa.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Nesse momento, ele acordou-se do seu sono profundo e se levantou para cumprir as suas responsabilidades diárias. Ele limpava meticulosamente sua pequena casa e passava horas discutindo com seus amigos mais pobres sobre como eles podiam ajudar o seu bairro em melhor estado de saúde.",
+        "generated_text_llama": "E assim, com um sorriso gentil e olhos cheios de compaixão, Personagem se aproximou da mulher que estava chorando na rua. Ele viu que ela estava perdida e sem rumo, com apenas uma mala pequena ao seu lado. Sem hesitar, Personagem se sentou ao lado dela e a encorajou a contar o que estava acontecendo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "aproximou",
+                    "ROOT"
+                ],
+                [
+                    "sentou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pio",
+        "sentence": "Escravo é o nome que se dá; mas Pio não tem escravos, tem amigos.",
+        "start_char": 4782,
+        "end_char": 4785,
+        "excerpt": "O negro foi caminho, e nós saímos da janela. É escravo de Pio? Escravo é o nome que se dá; mas Pio não tem escravos, tem amigos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Pio",
+                "child": "escravo",
+                "dep_h": "obl",
+                "pos_h": "PROPN",
+                "lemma_h": "Pio",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "escravo",
+                "word_categories": [
+                    "carater",
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "tem",
+                "child": "Pio",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pio",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Pio",
+                "child": "nome",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Pio",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "nome",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Escravo é o nome que se dá; mas [MASK] não tem escravos, tem amigos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, com a sua alta estatura e olhos claros que espelhavam determinação e força, Personagem seguiu caminhando por suas terras. Ao longo do caminho, ele parou para abraçar um velho amigo, uma árvore centenária que se estendia pelas encostas do monte. Depois de trocar alguns olhares amigáveis com a sua companheira antiga, Personagem seguiu em frente, deixando para trás a sombra daquela árvore que lhe tinha sempre oferecido conforto e proteção.",
+        "generated_text_llama": "Personagem olhou em volta da multidão, procurando por seus amigos que haviam se reunido para celebrar sua liberdade. Ele sabia que não era fácil alcançar a liberdade, mas com a ajuda de sua comunidade, conseguiu superar as barreiras e encontrar um novo começo.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "seguiu",
+                    "ROOT"
+                ],
+                [
+                    "seguiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pio",
+        "sentence": "Culpa capital ninguém comete entre os negros da fazenda; a alguma falta venial que haja, Pio aplica anenas uma repreensão tão cordial e tão amiga que acaba por fazer chorar o delinqüente.",
+        "start_char": 5135,
+        "end_char": 5138,
+        "excerpt": "É que em parte alguma houve nunca mais brando e cordial tratamento a homens escravizados. Nenhum dos instrumentos de ignomínia que por aí se aplicam para corrigi-los existem na fazenda de Pio. Culpa capital ninguém comete entre os negros da fazenda; a alguma falta venial que haja, Pio aplica anenas uma repreensão tão cordial e tão amiga que acaba por fazer chorar o delinqüente.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "fazenda",
+                "child": "Pio",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "fazenda",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Pio",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Pio",
+                "child": "fazenda",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Pio",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "fazenda",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "aplica",
+                "child": "Pio",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "aplicar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pio",
+                "word_categories": [
+                    "carater",
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Pio",
+                "child": "a alguma falta",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Pio",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "falta",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Culpa capital ninguém comete entre os negros da fazenda; a alguma falta venial que haja, [MASK] aplica anenas uma repreensão tão cordial e tão amiga que acaba por fazer chorar o delinqüente.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Na verdadeira tradição de sua família, Dona Amélia não se contentava em simplesmente condenar aqueles que cometeram alguma falta entre os negros da fazenda. Ela aplicava uma repreensão tão cordial e tão amiga que acabava por fazer chorar o delinqüente. Com a mão sobre o coração de cada um de seus servos, ela discutia pacientemente os detalhes do incidente, em busca de uma explicação razoável para as suas ações erradas. Quando encontrava algum motivo justificado, ela oferecia um perdoão imediato e garantia que nenhum castigo seria implementado.",
+        "generated_text_llama": "Desculpe, mas não posso continuar a história com esse texto. Posso ajudar com outra coisa?",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "contentava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pio",
+        "sentence": "Ouve mais: Pio estabeleceu entre os seus escravos uma espécie de concurso que permite a um certo número libertar-se todos os anos.",
+        "start_char": 5245,
+        "end_char": 5248,
+        "excerpt": "Nenhum dos instrumentos de ignomínia que por aí se aplicam para corrigi-los existem na fazenda de Pio. Culpa capital ninguém comete entre os negros da fazenda; a alguma falta venial que haja, Pio aplica anenas uma repreensão tão cordial e tão amiga que acaba por fazer chorar o delinqüente. Ouve mais: Pio estabeleceu entre os seus escravos uma espécie de concurso que permite a um certo número libertar-se todos os anos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "fazenda",
+                "child": "Pio",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "fazenda",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Pio",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Pio",
+                "child": "fazenda",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Pio",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "fazenda",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "aplica",
+                "child": "Pio",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "aplicar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pio",
+                "word_categories": [
+                    "carater",
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Pio",
+                "child": "a alguma falta",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Pio",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "falta",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "estabeleceu",
+                "child": "Pio",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "estabelecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pio",
+                "word_categories": [
+                    "social",
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Ouve mais: [MASK] estabeleceu entre os seus escravos uma espécie de concurso que permite a um certo número libertar-se todos os anos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuação: Porém, não se trata de uma briga por quem fosse o mais forte ou o mais inteligente. Em vez disso, o concurso consistia em uma série de provas mentais e físicas em que todos os escravos participavam voluntariamente. A finalidade do concurso era não só ajudar a melhorar as habilidades dos escravos, mas também testá-las. Alguns eram treinados para serem chefes de outros trabalhadores, enquanto outros eram instruídos em habilidades como escrita e matemática, que podiam ser úteis na vida livre.",
+        "generated_text_llama": "Parecia um milagre, e muitas vezes era visto como tal por aqueles que estavam presos às garras da tirania. Personagem havia criado uma espécie de sistema, onde, em datas específicas do ano, os escravos tinham a oportunidade de provar sua coragem e habilidades em competições desafiadoras. Esses eventos eram conhecidos como \"O Grande Teste da Liberdade\" e eram vistos por muitos como uma chancela para a liberação.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "criado",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pio",
+        "sentence": "Pio, no fim de certo tempo, deu a Julião um sítio que ficava pouco distante da fazenda.",
+        "start_char": 8990,
+        "end_char": 8993,
+        "excerpt": "Julião fora um daqueles a quem a alma caridosa de Pio dera sustento e trabalho. Suas boas qualidades, a gratidão, o amor, o respeito com que falava e adorava o protetor, não ficaram sem uma paga valiosa. Pio, no fim de certo tempo, deu a Julião um sítio que ficava pouco distante da fazenda.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "a alma",
+                "child": "Pio",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "alma",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Pio",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Pio",
+                "child": "a alma",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Pio",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "alma",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "deu",
+                "child": "Pio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pio",
+                "word_categories": [
+                    "carater",
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], no fim de certo tempo, deu a Julião um sítio que ficava pouco distante da fazenda.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Por sua vez, o sábio Zé, já com idade avançada, terminou por dar um terreno que estava situado não muito longe da fazenda a Julião. O local era rico em recursos naturais e tinha grande potencial agrícola, pelo que acontecia que todos na aldeia olhavam para ele com curiosidade e admiração.",
+        "generated_text_llama": "No sítio, Personagem encontrou uma casa pequena e simples, mas bem mantida, cercada por uma cerca de madeira e um jardim cheio de frutas e legumes. Ele sabia que Julião era um homem prático e eficiente, então não se surpreendeu ao ver que a casa estava cheia de ferramentas e equipamentos para a agricultura.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "encontrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "Para lá fora morar Julião com uma filha menor, cuja mãe morrera em conseqüência dos acontecimentos que levaram Julião a recorrer à proteção do fazendeiro.",
+        "start_char": 9097,
+        "end_char": 9103,
+        "excerpt": "Suas boas qualidades, a gratidão, o amor, o respeito com que falava e adorava o protetor, não ficaram sem uma paga valiosa. Pio, no fim de certo tempo, deu a Julião um sítio que ficava pouco distante da fazenda. Para lá fora morar Julião com uma filha menor, cuja mãe morrera em conseqüência dos acontecimentos que levaram Julião a recorrer à proteção do fazendeiro.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "deu",
+                "child": "a Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "morar",
+                "child": "Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "morar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "levaram",
+                "child": "Julião",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "levar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "acontecimentos",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "julião",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "acontecimento",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "conseqüência",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "julião",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "conseqüência",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "filha",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "julião",
+                "dep_c": "iobj",
+                "pos_c": "NOUN",
+                "lemma_c": "filha",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Para lá fora morar [MASK] com uma filha menor, cuja mãe morrera em conseqüência dos acontecimentos que levaram [MASK] a recorrer à proteção do fazendeiro.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, após a morte de sua esposa, Personagem decidiu deixar a fazenda e ir viver fora para cuidar de sua filha mais nova, cuja mãe faleceu como consequência dos eventos que o levaram ao abrigo do senhor fazendeiro. Ele escolheu um pequeno apartamento na cidade, onde começou a trabalhar diariamente para garantir uma vida melhor para sua filha. O tempo passava e Personagem encontrava força em cuidar de sua filha e em se mantê-la feliz. Ao mesmo tempo, ele não podia esquecer da vida que tinha no campo e dos olhares do senhor fazendeiro que ainda lhe pareciam ameaçadores. Então, Personagem resolveu enfrentar o passado e voltou à fazenda, buscando conversas com o senhor fazendeiro sobre como melhorar suas condições de trabalho para si mesmo e para outros trabalhadores ilegais que ali viviam. Seu coraje impressionou muitos e, apesar de dificuldades, Personagem conseguiu um contrato melhor e garantir uma vida mais segura não só para si, mas também para as pessoas que trabalhavam lá.",
+        "generated_text_llama": "Com o peso da sua responsabilidade como guardião de sua sobrinha, Personagem decidiu se estabelecer na pequena cidade de Willow Creek, onde havia sido convidado pelo fazendeiro para trabalhar na sua propriedade. A ideia era que Personagem poderia cuidar da menina e fornecer-lhe uma vida mais estável após os eventos turbulentos que a tinham separado do seu pai. Personagem sabia que seria um desafio, mas estava determinado a dar uma vida boa à sua sobrinha e protegê-la de qualquer dano futuro.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "encontrava",
+                    "conj"
+                ],
+                [
+                    "resolveu",
+                    "ROOT"
+                ],
+                [
+                    "conseguiu",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "poderia",
+                    "ccomp"
+                ],
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "Para lá fora morar Julião com uma filha menor, cuja mãe morrera em conseqüência dos acontecimentos que levaram Julião a recorrer à proteção do fazendeiro.",
+        "start_char": 9097,
+        "end_char": 9103,
+        "excerpt": "Suas boas qualidades, a gratidão, o amor, o respeito com que falava e adorava o protetor, não ficaram sem uma paga valiosa. Pio, no fim de certo tempo, deu a Julião um sítio que ficava pouco distante da fazenda. Para lá fora morar Julião com uma filha menor, cuja mãe morrera em conseqüência dos acontecimentos que levaram Julião a recorrer à proteção do fazendeiro.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "deu",
+                "child": "a Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "morar",
+                "child": "Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "morar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "levaram",
+                "child": "Julião",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "levar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "acontecimentos",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "julião",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "acontecimento",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "conseqüência",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "julião",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "conseqüência",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "filha",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "julião",
+                "dep_c": "iobj",
+                "pos_c": "NOUN",
+                "lemma_c": "filha",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Para lá fora morar [MASK] com uma filha menor, cuja mãe morrera em conseqüência dos acontecimentos que levaram [MASK] a recorrer à proteção do fazendeiro.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após estabelecer-se para fora para morar com sua filha menor, cuja mãe falecera como consequência dos eventos que haviam levado Personagem a buscar refúgio no fazendeiro, ele passava os dias trabalhando em seu terreno e cuidando da família. As noites, ele se sentava para pensar e desenhava planos de como recuperar o que havia perdido, com a intenção de retornar ao lugar onde tinha sido feliz antes dos acontecimentos trágicos. A filha dele, uma moça jovem e inteligente, aprendia as técnicas agrícolas de Personagem e os dois se tornaram inseparáveis, apesar das circunstâncias que os levavam a se separar um dos outros muitas vezes. Enquanto isso, o fazendeiro vem visitando-os de vez em quando para ver como estava tudo e dar algumas dicas sobre as melhores práticas agrícolas, sempre mostrando uma certa preocupação por sua vida e bem-estar. Com o tempo, Personagem passou a acreditar que havia se tornado um membro vital da comunidade do fazendeiro, e decidiu que iria dedicar seu restante de vida ao bem-estar dele e à proteção de sua família.",
+        "generated_text_llama": "Com a ajuda do fazendeiro, Personagem conseguiu encontrar um novo lar para ele e sua filha menor, que então se tornou sua principal preocupação. Eles se mudaram para uma pequena casa ao lado da estância, onde Personagem podia trabalhar como vaqueiro e garantir o futuro da menina.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "passou",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "levado",
+                    "acl:relcl"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "conseguiu",
+                    "ROOT"
+                ],
+                [
+                    "podia",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "Era, dizia Julião, a mulatinha mais formosa daquelas dez léguas em redor.",
+        "start_char": 9271,
+        "end_char": 9277,
+        "excerpt": "Para lá fora morar Julião com uma filha menor, cuja mãe morrera em conseqüência dos acontecimentos que levaram Julião a recorrer à proteção do fazendeiro. Tinha a pequena sete anos. Era, dizia Julião, a mulatinha mais formosa daquelas dez léguas em redor.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "morar",
+                "child": "Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "morar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "levaram",
+                "child": "Julião",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "levar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "acontecimentos",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "julião",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "acontecimento",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "conseqüência",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "julião",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "conseqüência",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "filha",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "julião",
+                "dep_c": "iobj",
+                "pos_c": "NOUN",
+                "lemma_c": "filha",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "dizia",
+                "child": "Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Era, dizia [MASK], a mulatinha mais formosa daquelas dez léguas em redor.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ela estendia um dedo índice e apontava para uma pequena floresta ao longe. \"Minhas irmãs e eu, cada vez que possível, vão àquela floresta e colhem a erva-do-cego\", disse ela com uma expressão de confiança. Em seguida, girou-se para as crianças e sorriu. \"Querem conhecer como é feito?\" perguntou com um ar gentil e enrolando a mão. As crianças estavam ansiosas e gritaram em simultâneo: \"Sim, Sim!\".",
+        "generated_text_llama": "Era uma tarde de verão quente e ensolarado na pequena cidade onde Personagem vivia, e ele não queria perder essa oportunidade de mostrar sua beleza ao mundo. Com um sorriso confiante, ele se levantou da cadeira e se dirigiu ao espelho do banheiro, ajustando seu colarinho branco e lacando seus cabelos negros espetados.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "colhem",
+                    "conj"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "vivia",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "Elisa, era o nome da pequena, completava a trindade do culto de Julião, ao lado de Pio e da memória da mãe finada.",
+        "start_char": 9398,
+        "end_char": 9404,
+        "excerpt": "Tinha a pequena sete anos. Era, dizia Julião, a mulatinha mais formosa daquelas dez léguas em redor. Elisa, era o nome da pequena, completava a trindade do culto de Julião, ao lado de Pio e da memória da mãe finada.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "dizia",
+                "child": "Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "culto",
+                "child": "Julião",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "culto",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "culto",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "culto",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "a trindade",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "trindade",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Elisa, era o nome da pequena, completava a trindade do culto de [MASK], ao lado de Pio e da memória da mãe finada.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Elisa, a jovem de cabelos loiros soltos e olhos azuis que deslumbravam, concluía a trindade do culto de sua casa, junto com o velho sacerdote Pio e a memória eterna da mãe finada. A cada vez que acendia as velas sagradas, ela sentia uma presença inescrutável que a reforçava na fé.",
+        "generated_text_llama": "Com um sorriso misterioso, Personagem se aproximou de Elisa, colocando uma mão delicada sobre o cabelo da menina. Seus olhos, que pareciam dois buracos negros sem fim, brilharam com uma luz estranha, como se estivessem iluminados por uma chama interna. \"Você está pronta para saber os segredos, pequena?\" perguntou Personagem em uma voz suave, mas com um tom que fazia a pele da menina arder.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "concluía",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "aproximou",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "perguntou",
+                    "ROOT"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "Laborioso por necessidade e por gosto, Julião bem depressa viu frutificar o seu trabalho.",
+        "start_char": 9488,
+        "end_char": 9494,
+        "excerpt": "Era, dizia Julião, a mulatinha mais formosa daquelas dez léguas em redor. Elisa, era o nome da pequena, completava a trindade do culto de Julião, ao lado de Pio e da memória da mãe finada. Laborioso por necessidade e por gosto, Julião bem depressa viu frutificar o seu trabalho.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "dizia",
+                "child": "Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "culto",
+                "child": "Julião",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "culto",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "culto",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "culto",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "a trindade",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "trindade",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Laborioso por necessidade e por gosto, [MASK] bem depressa viu frutificar o seu trabalho.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Laborioso por necessidade e por gosto, Eduardo bem depressa viu frutificar o seu trabalho. As árvores que plantara meticulosamente naquela fazenda antiga começaram a florescer e produzir frutas abundantes. Alegria correram pelos seus olhos, como se as raízes de cada árvore tivessem sentido sua determinação e tivessem respondo com o crescimento súbito das frutas. Eduardo sorriu, percebendo que todo esforço estava justificado. Em seguida, recolheu as primeiras colheitas para preparar um pequeno jantar compartilhado com seus amigos e familiares. Era um momento de festa na fazenda antiga, onde as árvores falavam através das frutas de seu esforço indefatigável.",
+        "generated_text_llama": "E assim, com um sorriso satisfeito no rosto, Personagem observou como a planta, que ele havia plantado meses atrás, agora florestava com belas flores brancas que enchiam o jardim de beleza e fragrância. Com essa sensação de orgulho e realização, Personagem decidiu fazer uma pequena festa para celebrar o sucesso do seu jardim, convidando amigos e familiares para vê-los e desfrutar da beleza da natureza que ele havia criado com tanto esforço.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "viu",
+                    "ROOT"
+                ],
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "observou",
+                    "ROOT"
+                ],
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carlos",
+        "sentence": "Estimavam-se deveras, a ponto de sentirem profundamente quando foi necessário a Carlos ir cursar as primeiras aulas.",
+        "start_char": 10143,
+        "end_char": 10149,
+        "excerpt": "Era um bom menino, educado sob a vigilância de seu pai, que desde os tenros anos inspirava-lhe aqueles sentimentos a que devia a sua imensa popularidade. Carlos e Elisa viviam quase sempre juntos, naquela comunhão da infância que não conhece desigualdades nem condições. Estimavam-se deveras, a ponto de sentirem profundamente quando foi necessário a Carlos ir cursar as primeiras aulas.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "viviam",
+                "child": "Carlos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vivir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Carlos",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Carlos",
+                "child": "Elisa",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Carlos",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Elisa",
+                "child": "Carlos",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Elisa",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Carlos",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "cursar",
+                "child": "Carlos",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "cursar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Carlos",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Estimavam-se deveras, a ponto de sentirem profundamente quando foi necessário a [MASK] ir cursar as primeiras aulas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim que soube o seu destino, a menina, que se chamava Maria, fez um súbito movimento para trás e olhou para os pais com um olhar que misturava medo, curiosidade e esperança. Seus olhos brilhavam de emoções, pois ela estava prestes a seguir uma das maiores ambições da sua vida: se tornar uma professora.",
+        "generated_text_llama": "Depois de se inscrever nas aulas de início, Personagem passou horas estudiando e reorganizando suas ideias para garantir que tudo estivesse alinhado e bem estruturado. Ele se sentia ansioso por começar a aplicar o conhecimento adquirido na prática, e estava determinado a não se esquecer de nada importante.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "chamava",
+                    "ccomp"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "passou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carlos",
+        "sentence": "Trouxe o tempo as divisões, e anos depois, quando Carlos apeou à porta da fazenda com uma carta de bacharel na algibeira, uma esponja se passara sobre a vida anterior.",
+        "start_char": 10230,
+        "end_char": 10236,
+        "excerpt": "Carlos e Elisa viviam quase sempre juntos, naquela comunhão da infância que não conhece desigualdades nem condições. Estimavam-se deveras, a ponto de sentirem profundamente quando foi necessário a Carlos ir cursar as primeiras aulas. Trouxe o tempo as divisões, e anos depois, quando Carlos apeou à porta da fazenda com uma carta de bacharel na algibeira, uma esponja se passara sobre a vida anterior.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "viviam",
+                "child": "Carlos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vivir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Carlos",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Carlos",
+                "child": "Elisa",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Carlos",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Elisa",
+                "child": "Carlos",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Elisa",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Carlos",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "cursar",
+                "child": "Carlos",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "cursar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Carlos",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "apeou",
+                "child": "Carlos",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "apear",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Carlos",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Trouxe o tempo as divisões, e anos depois, quando [MASK] apeou à porta da fazenda com uma carta de bacharel na algibeira, uma esponja se passara sobre a vida anterior.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim que entrou, a Família Verdadeira olhou para ele com um olhar misto de surpresa e de admiração. Ele havia mudado, tinha crescido e evoluído além da aldeia onde nasceu. Enquanto eles conversavam, percebemos que Personagem estava disposto a trazer algo novo naquele lugar conservadorista. A próxima semana, ele trouxe uma máquina de escribir, trazendo uma tecnologia inovadora para aquela fazenda. O uso da máquina de escribir tornou-se um grande impulso para a comunidade, facilitando o trabalho e a comunicação entre os moradores locais. Além disso, Personagem começou a ensinar as pessoas a ler e a escrever, uma iniciativa que tornou-se um grande sucesso e levou a aldeia para um novo mundo de possibilidades e oportunidades. Ele permaneceu nesse lugar por muitos anos, fazendo dela um local moderno e abrangente, onde os moradores podiam viver e trabalhar com facilidade e confiança.",
+        "generated_text_llama": "Quando Personagem entrou na casa da fazenda, ele foi recebido pelo olhar curioso do dono, um homem velho e sábio que vivia ao lado de sua mãe. O homem se levantou lentamente das cadeiras, onde estava sentado, e estendeu a mão em um gesto de acolhimento. Personagem apegou-se à mão do homem com uma mistura de medo e curiosidade, tentando processar tudo o que havia acontecido desde que deixara aquela fazenda.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "disposto",
+                    "ccomp"
+                ],
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "entrou",
+                    "advcl"
+                ],
+                [
+                    "apegou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "Julião tomou parte na alegria geral, como toda a gente, pobre ou remediada, dos arredores.",
+        "start_char": 10707,
+        "end_char": 10713,
+        "excerpt": "Conhecia as condições da vida social, e desde os primeiros gestos mostrou que abismo separava o filho do protetor da filha do protegido. O dia da volta de Carlos foi dia de festa na fazenda do velho Pio. Julião tomou parte na alegria geral, como toda a gente, pobre ou remediada, dos arredores.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tomou",
+                "child": "Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tomar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] tomou parte na alegria geral, como toda a gente, pobre ou remediada, dos arredores.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim foi que a senhora Maria, vestida de branco e com um coração cheio de bondade, se uniu à multidão. Alegria radiante na sua face, ela tomou parte no grande evento da comunidade, tendo em mente as pessoas carentes ou aquelas mais bem-sucedidas dos arredores. Comprimentando os seus vizinhos, a senhora Maria contribuía com um pedido de oração e uma doação para o fundo coletivo que estava sendo reunido na ocasião. Ninguém podia duvidar da bondade e caridade desta bela espirita, que era muito amada pelos moradores da vila.",
+        "generated_text_llama": "E assim, enquanto dançava e aplaudiava junto com o resto da multidão, Personagem não podia deixar de notar os olhares curiosos dos vizinhos que haviam vindo até a festa, muitos deles com seus filhos pequenos ao lado. Ele sabia que a reputação dele ainda era um pouco suja pela região, graças à sua passagem recente pela prisão por roubo e fuga, mas aparentemente o tempo havia ajudado a esquecer os erros do passado.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pio",
+        "sentence": "Pio não se animava a separar-se de seu filho para que este seguisse uma carreira política, administrativa ou judiciária.",
+        "start_char": 10937,
+        "end_char": 10940,
+        "excerpt": "E a alegria não foi menos pura em nenhum: todos sentiam que a presença do filho do fazendeiro era a felicidade comum. Passaram-se os dias. Pio não se animava a separar-se de seu filho para que este seguisse uma carreira política, administrativa ou judiciária.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "animava",
+                "child": "Pio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "animar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pio",
+                "word_categories": [
+                    "emo",
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não se animava a separar-se de seu filho para que este seguisse uma carreira política, administrativa ou judiciária.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas Personagem, com um coração pesado e uma consciência tranquila, conhecia muito bem o mundo dos negócios e a importância de poder os guiar com integridade e ética. A partir daquela data, Personagem dedicou-se à construção de um império empresarial que seria uma referência para justiça, honestidade e qualidade, porém sem esquecer a importância do equilíbrio entre trabalho e vida pessoal.",
+        "generated_text_llama": "Ele sabia que sua filha, Maria, tinha sempre sonhado em ser jurista e queria seguir os passos de sua mãe, uma ex-ministra do país. Apesar da curva das carreiras políticas e administrativas, Maria era determinada e estava disposta a trabalhar duro para alcançar seus objetivos.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "dedicou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "determinada",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carlos",
+        "sentence": "Carlos não tinha mais que uma ocupação e uma distração: a caça.",
+        "start_char": 11591,
+        "end_char": 11597,
+        "excerpt": "Cuidou que fosse um resto da vida escolástica, e esperou que a diferença da atmosfera que voltava a respirar e o espetáculo da vida simples e chã da fazenda o restabelecessem. O que o magoava sobretudo, é que o filho bacharel não buscasse os livros, onde pudesse, procurando novos conhecimentos, entreter uma necessidade indispensável para o gênero de vida que ia encetar. Carlos não tinha mais que uma ocupação e uma distração: a caça.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "Carlos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Carlos",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não tinha mais que uma ocupação e uma distração: a caça.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Não tinha mais que uma ocupação e uma distração: a caça. Logo após ter fechado a porta da cabana, ele armou o arco longo com flechas e partiu em direção à floresta. A floresta era seu mundo, um ambiente selvagem onde poderia se perder e se livrar de todos os problemas do mundo exterior. Era uma espécie de terapia para ele, uma forma de escapar da rotina monótona e da realidade pesada que o envolviam.",
+        "generated_text_llama": "E assim, Personagem se vestiu com sua calça de camuflagem, seu casaco de couro escura e seus botas de caça, prontos para enfrentar o dia em que tudo ia mudar. Com um último olhar em volta, garantindo que não haveria ninguém para testemunhar suas ações, Personagem se afastou da aldeia, deixando para trás as curiosas olhares de seus vizinhos.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "vestiu",
+                    "ROOT"
+                ],
+                [
+                    "afastou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "Um dia, ao entrar em casa para jantar, Julião notou que sua filha parecia triste.",
+        "start_char": 12260,
+        "end_char": 12266,
+        "excerpt": "Este chegava, trocava algumas palavras de respeitosa estima com o filho de Pio, oferecia-lhe parte do seu modesto jantar, que o moço não aceitava, e discorria, durante a refeição, sobre os objetos relativos à caça. Passavam as cousas assim sem alteração de natureza alguma. Um dia, ao entrar em casa para jantar, Julião notou que sua filha parecia triste.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "notou",
+                "child": "Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "notar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Um dia, ao entrar em casa para jantar, [MASK] notou que sua filha parecia triste.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, após perceber a tristeza de sua filha, ele se aproximou dela e perguntou o que estava acontecendo. A menina, com dificuldade em falar, chorando, disse que não gostava da escola e estava sendo alvo de uma garota que se ridicularizava constantemente.",
+        "generated_text_llama": "Ela havia terminado de pintar as paredes do quarto com uma nova camada de verde esmeralda, seu coração favorita, e agora parecia desanimada com a maneira como o final resultante estava se revelando. Personagem sentou-se ao lado dela e perguntou: \"Ei, filha, tudo bem? Você está triste?\" Ela hesitou por um momento antes de responder com um suspiro profundo, \"Não sei, mãe... Eu sinto que estou não fazendo nada certo. Não estou como os outros meninas da escola, e sinto que não sou boa o suficiente.\" Personagem a abraçou firme e disse: \"Eu também fui uma vez, filha. Todos sentimos assim algum dia na vida. Mas você sabe o que é importante? Ser autêntica e feliz com quem você é.\" Ela sorriu levemente, um pouco mais à vontade agora, e Personagem podia ver a tristeza começando a se afastar de seus olhos.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentou-se",
+                    "ROOT"
+                ],
+                [
+                    "podia",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elisa",
+        "sentence": "Elisa respondeu que lhe doía a cabeça; mas durante o jantar, que foi silencioso, Julião observou que sua filha enxugava furtivamente algumas lágrimas.",
+        "start_char": 12375,
+        "end_char": 12380,
+        "excerpt": "Reparou, e viu-lhe os olhos vermelhos de lágrimas. Perguntou o que era. Elisa respondeu que lhe doía a cabeça; mas durante o jantar, que foi silencioso, Julião observou que sua filha enxugava furtivamente algumas lágrimas.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "respondeu",
+                "child": "Elisa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] respondeu que lhe doía a cabeça; mas durante o jantar, que foi silencioso, Julião observou que sua filha enxugava furtivamente algumas lágrimas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, Julião ficou mais triste e meditou sobre as palavras de sua esposa. Sua filha, por outro lado, se sentiu sozinha e confundida com a reação de Julião. Ela continuou a sentar-se em silêncio durante o jantar, até que, finalmente, tomou coragem para falar com ele.",
+        "generated_text_llama": "Julião olhou para sua filha, Ana, e sentiu um nó na garganta. Ele sabia que ela estava chateada com ele, mas não sabia se era devido à conversa tensa ou às suspeitas de que ele a havia enganado novamente. Ele decidiu mudar de assunto e começou a falar sobre seus planos para o fim de semana, tentando levantar o clima do jantar.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "Elisa respondeu que lhe doía a cabeça; mas durante o jantar, que foi silencioso, Julião observou que sua filha enxugava furtivamente algumas lágrimas.",
+        "start_char": 12456,
+        "end_char": 12462,
+        "excerpt": "Reparou, e viu-lhe os olhos vermelhos de lágrimas. Perguntou o que era. Elisa respondeu que lhe doía a cabeça; mas durante o jantar, que foi silencioso, Julião observou que sua filha enxugava furtivamente algumas lágrimas.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "observou",
+                "child": "Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "observar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Elisa respondeu que lhe doía a cabeça; mas durante o jantar, que foi silencioso, [MASK] observou que sua filha enxugava furtivamente algumas lágrimas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, Personagem(https://pt.wikipedia.org/wiki/Elisa_(nome) \"Elisa (nome)\") se sentiu desconfortável e decidiu abordar a situação com sua filha imediatamente após o jantar. Quando estavam sobrando os pratos, Elisa levantou-se do banco de madeira onde haviam tomado o almoço e se aproximou dela, fazendo um olhar carinhoso e preocupado.",
+        "generated_text_llama": "Enquanto Elisa tentava manter a aparência de serenidade, Personagem notou que sua filha, Ana, estava escondendo alguma coisa. Ele a encareou com uma expressão curiosa e Ana rapidamente se levantou do banco onde estava sentada e foi até o balcão, donde pegou um pano limpo e começou a enxugar as lágrimas que havia tentado ocultar.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "notou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elisa",
+        "sentence": "Depois de muita relutância, Elisa falou:",
+        "start_char": 12687,
+        "end_char": 12692,
+        "excerpt": "Elisa respondeu que lhe doía a cabeça; mas durante o jantar, que foi silencioso, Julião observou que sua filha enxugava furtivamente algumas lágrimas. Nada disse; mas, terminado o jantar, chamou-a para junto de si, e com palavras brandas e amigas exigiu-lhe que dissesse o que tinha. Depois de muita relutância, Elisa falou:",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "respondeu",
+                "child": "Elisa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "falou",
+                "child": "Elisa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Depois de muita relutância, [MASK] falou:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " \"Vamos começar, amigo.\" Dizia ela, em uma voz que se sentia firme e confiante. Para muitos, era uma surpresa ver o rosto calmo do antigo inimigo diante de si, mas para eles dois, estava claro que era o momento da paz. Ele a olhou intensamente, e com um sorriso delicado, perguntou: \"Está tudo bem? Estamos prontos?\"",
+        "generated_text_llama": "\"Eu não posso fazer isso\", disse Personagem, olhando em volta nervosamente para os outros membros da equipe. \"Não sei se estou pronto para isso.\" Ele suspirou e colocou as mãos nas costas, como se estivesse aceitando uma sentença de morte.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "disse",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "Finalmente, depois de animar e tranqüilizar sua filha, Julião saiu, de plano feito, na direção da fazenda, em busca de Carlos.",
+        "start_char": 13750,
+        "end_char": 13756,
+        "excerpt": "Todas estas reflexões passaram pelo espírito de Julião. Via o abismo a cuja borda estava, e não sabia como escapar-lhe. Finalmente, depois de animar e tranqüilizar sua filha, Julião saiu, de plano feito, na direção da fazenda, em busca de Carlos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "espírito",
+                "child": "Julião",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "espírito",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "espírito",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "espírito",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "saiu",
+                "child": "Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sair",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Finalmente, depois de animar e tranqüilizar sua filha, [MASK] saiu, de plano feito, na direção da fazenda, em busca de Carlos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após animar e tranquilizar a filha com palavras de encorajamento e abraços, ela, Maria, caminhou sólida e determinada para a fazenda, seguindo o plano que tinha escrupulosamente planejado. Ao chegar lá, encontrou Carlos em seu escritório, cansado e preocupado com as contas da fazenda. Maria percebeu imediatamente que ele estava exausto, mas também viu um espírito de luta que ainda brilhava nos seus olhos. Ela o segurou em uma abraço carinhosa e lembrou-lhe da importância de cuidar de si mesmo, como também da fazenda que ambos amavam. Em seguida, a dupla começou a discutir soluções para as dificuldades financeiras atuais e futuras. Assim, passando por algumas páginas no livro das contas e conversando em um tom sério, eles formaram um plano para renovar as estradas da fazenda, além de diversificar as plantações de grãos, o que lhes abriria novas perspectivas para lucrar mais. No fim, Maria acenou com uma sorridente e confiante sonrisa em Carlos, e ambos continuaram a trabalhar juntos naquele momento, sabeando que esse era apenas o começo de novos dias brilhantes para eles e para sua fazenda.",
+        "generated_text_llama": "Ao chegar à fazenda, Personagem sentiu uma sensação de ansiedade crescente. Ele sabia que Carlos estava no coração do problema e que precisava encontrá-lo o mais rápido possível. Com um respiração funda, ele entrou na casa da fazenda, procurando pelos sinais de sua busca.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "encontrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "Julião, depois de cumprimentá-lo alegremente, disse que lhe queria falar em particular.",
+        "start_char": 13898,
+        "end_char": 13904,
+        "excerpt": "Finalmente, depois de animar e tranqüilizar sua filha, Julião saiu, de plano feito, na direção da fazenda, em busca de Carlos. Este, rodeado por alguns escravos, fazia limpar várias espingardas de caça. Julião, depois de cumprimentá-lo alegremente, disse que lhe queria falar em particular.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "saiu",
+                "child": "Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sair",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "disse",
+                "child": "Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], depois de cumprimentá-lo alegremente, disse que lhe queria falar em particular.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de cumprimentar-lhe felizmente, ele disse que desejava falar com ele em particular. Ele sentou-se no sofá e olhou para ele com um olhar sério. \"Tem algo na mente?\", perguntou, tentando ler o seu rosto. O amigo hesitava, mas então acabou por confidenciar nele: \"Sim, acho que preciso de uma ajuda\", disse ele enervado. Ele se levantou da cadeira e sentou-se na mesa junto a ele. \"Conta comigo, meu amigo\" - garantiu, pondo a mão sobre o seu. O homem compartilhou seus problemas com ele, e ao final do dia eles foram para uma refeição juntos, sinais de que sua amizade estava mais forte que qualquer outra coisa.",
+        "generated_text_llama": "Personagem puxou o amigo para um canto mais distante e começou a falar em voz baixa, olhando ao redor como se medisse a possibilidade de ser ouvido por alguém. \"Eu vi algo estranho hoje à noite\", disse, sua voz cheia de preocupação. \"Enquanto estava saindo do bar, vi uma figura suspeita me observando do outro lado da rua. Eu não sabia o que fazer, então comecei a correr para o meu carro e não voltei para olhar.\"",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "puxou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carlos",
+        "sentence": "Carlos estremeceu; mas não podia deixar de ceder.",
+        "start_char": 13986,
+        "end_char": 13992,
+        "excerpt": "Este, rodeado por alguns escravos, fazia limpar várias espingardas de caça. Julião, depois de cumprimentá-lo alegremente, disse que lhe queria falar em particular. Carlos estremeceu; mas não podia deixar de ceder.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "estremeceu",
+                "child": "Carlos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "estremecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Carlos",
+                "word_categories": [
+                    "emo"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] estremeceu; mas não podia deixar de ceder.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele soltou um suspiro profundo e se aproximou do relógio velho localizado no meio da sala, tocando-o com a ponta das unhas. Ao ouvir o som do sino sonoroso eclodir pela primeira vez naquela tarde, sentiu um novo surto de raiva em seu peito. Então, desceu as escadas rumo ao sótão onde mantinha sua coleção de tiro. A munição estava esgotada há dias e ele precisava voltar à cidade mais rápido do que o previsto para reabastecer.",
+        "generated_text_llama": "Ele sentiu uma onda de raiva e frustração, mas sabia que estava sendo manipulado por ela. A mulher, que ele havia conhecido há apenas algumas horas, olhou para ele com um sorriso triste e disse: \"Não é isso, Marcus. Você sabe o que está em jogo aqui. Se não for você a ajudar-me, ninguém mais vai poder me salvar\".",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "As visitas de Carlos eram feitas nas horas em que Julião se achava em casa, e além disso, a presença de uma parenta velha, convidada por Julião, parecia tornar impossível nova tentativa de parte de Carlos.",
+        "start_char": 14941,
+        "end_char": 14947,
+        "excerpt": "Elisa não só por si como por seu pai, estimou o pacífico desenlace. Tudo parecia ter voltado à primeira situação. As visitas de Carlos eram feitas nas horas em que Julião se achava em casa, e além disso, a presença de uma parenta velha, convidada por Julião, parecia tornar impossível nova tentativa de parte de Carlos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "achava",
+                "child": "Julião",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "achar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "horas",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "hora",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "convidada",
+                "child": "Julião",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "convidar",
+                "dep_c": "obl:agent",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "uma parenta",
+                "dep_h": "obl:agent",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "parenta",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "a presença",
+                "dep_h": "obl:agent",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "presença",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "As visitas de Carlos eram feitas nas horas em que [MASK] se achava em casa, e além disso, a presença de uma parenta velha, convidada por [MASK], parecia tornar impossível nova tentativa de parte de Carlos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas Personagem, sem desistir facilmente, decidiu tentar um movimento mais subtil. Consciente da influência que a velha parentela de sua esposa podia ter na situação, ele passou a se aproximar dela gradualmente, compartilhando momentos mais informais e oportunidades para conversarem. Através desses contatos, Personagem tentou demonstrar que era uma pessoa respeitável e confiável, o que pode ter gerado algum interesse em Carlos.",
+        "generated_text_llama": "Personagem sabia que a estratégia de evitá-las nas horas da manhã funcionaria, então começou a planejar suas rotinas para o dia. Ele começou a fazer compras em horários mais cedo, assim como almoçar fora para evitar passar tempo com Carlos em casa. Além disso, Personagem decidiu convidar sua tia Maria para se jantar naquela noite, algo que ele sabia que Carlos não gostaria de.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "tentou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ],
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "As visitas de Carlos eram feitas nas horas em que Julião se achava em casa, e além disso, a presença de uma parenta velha, convidada por Julião, parecia tornar impossível nova tentativa de parte de Carlos.",
+        "start_char": 14941,
+        "end_char": 14947,
+        "excerpt": "Elisa não só por si como por seu pai, estimou o pacífico desenlace. Tudo parecia ter voltado à primeira situação. As visitas de Carlos eram feitas nas horas em que Julião se achava em casa, e além disso, a presença de uma parenta velha, convidada por Julião, parecia tornar impossível nova tentativa de parte de Carlos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "achava",
+                "child": "Julião",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "achar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "horas",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "hora",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "convidada",
+                "child": "Julião",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "convidar",
+                "dep_c": "obl:agent",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "uma parenta",
+                "dep_h": "obl:agent",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "parenta",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "a presença",
+                "dep_h": "obl:agent",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "presença",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "As visitas de Carlos eram feitas nas horas em que [MASK] se achava em casa, e além disso, a presença de uma parenta velha, convidada por [MASK], parecia tornar impossível nova tentativa de parte de Carlos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " No entanto, não desanimado, Carlos acreditava que havia um caminho para se encontrar com o pai. E a próxima vez que era possível, decidiu dar mais uma chance.",
+        "generated_text_llama": "Com essa última tentativa de visita fracassada, Personagem sentiu-se aliviado, pois sabia que a rotina da casa estava sendo mantida e que não havia mais distrações para ele. Ele aproveitou o momento para voltar ao seu quarto, fechar a porta e se recusar a ouvir as reclamações de Carlos, que ainda continuava tentando se furtar à casa para fazer visitas.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "acreditava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "aliviado",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "Julião caminhava vagarosamente, pensando no que lhe faltaria ainda para completar o pecúlio de sua filha.",
+        "start_char": 15221,
+        "end_char": 15227,
+        "excerpt": "Uma tarde, quinze dias depois do incidente que narrei acima, voltava Julião da fazenda do velho Pio. Era já perto da noite. Julião caminhava vagarosamente, pensando no que lhe faltaria ainda para completar o pecúlio de sua filha.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "voltava",
+                "child": "Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "voltar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "fazenda",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "julião",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "fazenda",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "fazenda",
+                "child": "Julião",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "fazenda",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "julião",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Pio",
+                "child": "Julião",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Pio",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "julião",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "caminhava",
+                "child": "Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "caminhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] caminhava vagarosamente, pensando no que lhe faltaria ainda para completar o pecúlio de sua filha.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele seguiu andando, movimentando-se entre as casas antigas e entre os ruinos, em busca daquele objeto perdido que lhe faltava completar o precípio de sua filha. Com uma mão na bolsa, ele procurava com cuidado e determinado por cada rastro que o levá-lo ao que estava perdido. Ele era um homem simples, mas corajoso e persistente; nunca perdeu esperança mesmo quando tudo parecia desespero.",
+        "generated_text_llama": "Personagem continuou a caminhar, lentamente, pensando no que lhe faltaria ainda para completar o pecúlio de sua filha. Ele sabia que ela adorava brinquedos antigos e únicos, então decidiu visitar a loja de antiguidades da vila. A loja era famosa por ter uma coleção impressionante de brinquedos vintage, e Personagem estava determinado a encontrar algo que fazesse a sua filha sorrir.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ],
+                [
+                    "determinado",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "Julião quis segui-lo; mas os gritos eram muitos, e de sua filha.",
+        "start_char": 15730,
+        "end_char": 15736,
+        "excerpt": "Todas as janelas estavam fechadas; mas os gritos continuavam cada vez mais angustiosos. Um vulto passou-lhe pela frente e dirigiu-se para os fundos. Julião quis segui-lo; mas os gritos eram muitos, e de sua filha.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "quis",
+                "child": "Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] quis segui-lo; mas os gritos eram muitos, e de sua filha.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem atolou o corpo para trás, abalançando a cabeça em cada lado, como se tivesse que tomar uma decisão crucial. Depois, ele se encostou no balcão, olhando com um rosto sério e preocupado pelo céu noturno em busca de algum sinal de vida de sua filha.",
+        "generated_text_llama": "Pensou rapidamente em como abordar a situação, sabendo que precisava manter a calma para não alertar ninguém sobre seu paradeiro. Ele se aproximou lentamente da porta, olhando em volta para garantir que ninguém estivesse observando-o, e começou a descer as escadas, seu coração batendo mais forte com cada passo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "atolou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elisa",
+        "sentence": "Elisa debatia-se nos braços de Carlos, mas já sem forças nem esperanças de obter misericórdia.",
+        "start_char": 16099,
+        "end_char": 16104,
+        "excerpt": "exclamou ele. E atirou-se para o interior. Elisa debatia-se nos braços de Carlos, mas já sem forças nem esperanças de obter misericórdia.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "debatia-se",
+                "child": "Elisa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "debatia-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] debatia-se nos braços de Carlos, mas já sem forças nem esperanças de obter misericórdia.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ora, logo após esse arduo enfrentamento em braços com Carlos, o antigo guarda-costumes já não tinha mais nenhuma força ou esperança de obtê-la misericordia. Suas lágrimas escorriam lentamente pelas vermelhas marcas do enforcamento sobre seus rostos inexpressivos, que se contrastavam fortemente com as brancuras macias das mãos dele. Por um momento, parecia que ele tivesse se desabafado no meio da batalha, e que, por uma vez, o tempo tivesse parado e permitido-o para contemplar a sua própria morte em pormenores minutíssimos e deprimindo.",
+        "generated_text_llama": "Ele olhou em volta, tentando encontrar algum resquício de saída ou alívio, mas a atmosfera era opressiva e sem escape. A luz do sol que entrava pela janela iluminava apenas as sombras das paredes, criando uma sensação de isolamento e desespero. Sem saber o que fazer, Personagem permitiu-se ser levado pelos impulsos, começando a caminhar em direção à porta, sem saber para onde estava indo. A solidão era opressiva e pesada, como se estivesse carregando uma carga invisível sobre os ombros.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "permitiu-se",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "No momento em que Julião entrava por uma porta, entrava por outra um indivíduo mal conceituado no lugar, e até conhecido por assalariado nato de todas as violências.",
+        "start_char": 16212,
+        "end_char": 16218,
+        "excerpt": "E atirou-se para o interior. Elisa debatia-se nos braços de Carlos, mas já sem forças nem esperanças de obter misericórdia. No momento em que Julião entrava por uma porta, entrava por outra um indivíduo mal conceituado no lugar, e até conhecido por assalariado nato de todas as violências.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "entrava",
+                "child": "Julião",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "entravar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "momento",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "momento",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "No momento em que [MASK] entrava por uma porta, entrava por outra um indivíduo mal conceituado no lugar, e até conhecido por assalariado nato de todas as violências.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quando o homem entrou por uma porta, entrou por outra pessoa que se chamava Jorge. Ele era conhecido naquela região como um indivíduo mal conceituado e com reputação de ser assalariado nato de todas as violências. Em contraste, o homem, que era muito forte física e mentalmente, sentiu uma sensação de calma se lhe passar pela cabeça. Ele olhou para Jorge e percebeu que ele vinha com intenção agressiva, já que seu rosto estava tenso e seus olhos brilhavam de cólera. Mas o homem não havia ido àquela porta sem armaduras e equipamentos especiais. Ele puxou sua espada da cintura e apontou para Jorge, dando-lhe uma mensagem clara: \"Fique tranquilo, você está comigo agora.\"",
+        "generated_text_llama": "Enquanto caminhava pelo corredor escuro, Personagem notou que a pessoa mal conceituada estava procurando algo específico. Ele viu que o indivíduo estava examinando as caixas e os armários, como se estivesse procurando por algo em particular. Personagem sentiu um arrepio na espinha ao perceber que este homem não estava ali apenas para fazer um simples trabalho de manutenção.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "chamava",
+                    "acl:relcl"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "notou",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "Era o vulto que Julião vira no terreiro.",
+        "start_char": 16376,
+        "end_char": 16382,
+        "excerpt": "Elisa debatia-se nos braços de Carlos, mas já sem forças nem esperanças de obter misericórdia. No momento em que Julião entrava por uma porta, entrava por outra um indivíduo mal conceituado no lugar, e até conhecido por assalariado nato de todas as violências. Era o vulto que Julião vira no terreiro.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "entrava",
+                "child": "Julião",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "entravar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "momento",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "momento",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião vira",
+                "child": "terreiro",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "terreiro",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião vira",
+                "child": "Era o vulto",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "vulto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "terreiro",
+                "child": "Julião vira",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "terreiro",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Era o vulto que [MASK] vira no terreiro.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele levantou lentamente as mãos e, em seguida, abriu os olhos com a mesma tranquilidade que tinha ao entrar no terreiro. O sol pisotava fortes sombras sobre o chão, e a água, calorosa e macia, corria entre as suas dedos, como se ela quisesse reclamar do homem por sua ausência. Mas Personagem não deu atenção nem à luz nem à água fervente, pois seu olhar estava fixo em algo que ele sentiu no fundo do coração, algo que lhe chamava e guiava-o.",
+        "generated_text_llama": "Ele parou abruptamente, as mãos na frente do rosto, como se estivesse tentando bloquear a visão de algo terrível. Sua respiração ficou mais rápida e suas palmas começaram a suar, o que era incomum para Personagem, que sempre foi conhecido por sua calma e serenidade em meio às tempestades.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "deu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "E outros haviam ainda, que apareceram a um sinal dado pelo primeiro, mal Julião entrou no lugar em que se dava o triste conflito da inocência com a perversidade.",
+        "start_char": 16474,
+        "end_char": 16480,
+        "excerpt": "No momento em que Julião entrava por uma porta, entrava por outra um indivíduo mal conceituado no lugar, e até conhecido por assalariado nato de todas as violências. Era o vulto que Julião vira no terreiro. E outros haviam ainda, que apareceram a um sinal dado pelo primeiro, mal Julião entrou no lugar em que se dava o triste conflito da inocência com a perversidade.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "entrava",
+                "child": "Julião",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "entravar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "momento",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "momento",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Era o vulto",
+                "child": "que Julião vira no terreiro",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "vulto",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "terreiro",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "que Julião vira no terreiro",
+                "child": "Era o vulto",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "terreiro",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "vulto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "entrou",
+                "child": "Julião",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "E outros haviam ainda, que apareceram a um sinal dado pelo primeiro, mal [MASK] entrou no lugar em que se dava o triste conflito da inocência com a perversidade.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Estando enquadrado pelo espaço escuro do corredor, a figura de Personagem se movimentou lentamente para adentrarm-se no lugar onde se dava o triste conflito entre a inocência e a perversidade. Ao chegar ao local, olhou em volta com uma expressão composta de sorrisos e tristezas misturadas, como se estivesse sentindo tanto pena pela situação quanto desejo por resolução. Seu corpo se inclinou levemente para a direita, tocando um sino antigo que pendia da parede, marcando o início de sua ação.",
+        "generated_text_llama": "Ao entrar no local, Personagem sentiu uma arrepios percorrer sua espinha. A atmosfera era tensa e carregada de expectativa, como se todos estivessem aguardando algo que pudesse mudar tudo. Ele olhou em volta, tentando absorver cada detalhe do cenário: as paredes sombrias, as velas acesas, os rogos que iluminavam o rosto dos presentes, cada um deles com uma história própria e trágica.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "Julião teve tempo de arrancar Elisa dos braços de Carlos.",
+        "start_char": 16563,
+        "end_char": 16569,
+        "excerpt": "Era o vulto que Julião vira no terreiro. E outros haviam ainda, que apareceram a um sinal dado pelo primeiro, mal Julião entrou no lugar em que se dava o triste conflito da inocência com a perversidade. Julião teve tempo de arrancar Elisa dos braços de Carlos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Era o vulto",
+                "child": "que Julião vira no terreiro",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "vulto",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "terreiro",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "que Julião vira no terreiro",
+                "child": "Era o vulto",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "terreiro",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "vulto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "entrou",
+                "child": "Julião",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "teve",
+                "child": "Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] teve tempo de arrancar Elisa dos braços de Carlos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem retirou-se então para um lugar mais tranquilo, desejando pensar sobre o que tinha acontecido. Era assim que sempre se sentia quando os casais se separavam, sem saber o que fazer com a vida que se estava por diante.",
+        "generated_text_llama": "",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elisa",
+        "sentence": "Julião teve tempo de arrancar Elisa dos braços de Carlos.",
+        "start_char": 16593,
+        "end_char": 16598,
+        "excerpt": "Era o vulto que Julião vira no terreiro. E outros haviam ainda, que apareceram a um sinal dado pelo primeiro, mal Julião entrou no lugar em que se dava o triste conflito da inocência com a perversidade. Julião teve tempo de arrancar Elisa dos braços de Carlos.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "arrancar",
+                "child": "Elisa",
+                "dep_h": "acl",
+                "pos_h": "VERB",
+                "lemma_h": "arrancar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Elisa",
+                "child": "tempo",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Elisa",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "tempo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Julião teve tempo de arrancar [MASK] dos braços de Carlos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Julião conseguiu arrancar os olhos fascinados do contato de Carlos e olhou para a foto que tinha em mãos. Era um retrato dele com o pai, quando tinham caçado juntos na floresta do interior. A foto era velha e bem ameaçava-se, mas tinha uma bela energia em seu rosto velho, como se estivessem em meio à ação, não importando que o tempo passasse.",
+        "generated_text_llama": "Eles correram pela rua sem parar, os pés batendo rapidamente no chão, enquanto Julião tentava se manter firme contra o peso do outro. Ele conseguiu se esticar um pouco mais, usando toda a força que tinha para contrariar o impulso de Carlos. Mas era uma luta difícil, pois Carlos era muito mais forte e determinado.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "conseguiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "tentava",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carlos",
+        "sentence": "Carlos voltara a si da surpresa que lhe causara a presença de Julião.",
+        "start_char": 16730,
+        "end_char": 16736,
+        "excerpt": "Julião teve tempo de arrancar Elisa dos braços de Carlos. Cego de raiva, travou de uma cadeira e ia atirar-lha, quando os capangas entrados a este tempo, o detiveram. Carlos voltara a si da surpresa que lhe causara a presença de Julião.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "braços",
+                "child": "Carlos",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "braço",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Carlos",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "arrancar",
+                        "child": "braços",
+                        "dep_h": "acl",
+                        "pos_h": "VERB",
+                        "lemma_h": "arrancar",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "braço"
+                    },
+                    {
+                        "head": "braços",
+                        "child": "Carlos",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "braço",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Carlos"
+                    },
+                    {
+                        "head": "braços",
+                        "child": "tempo",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "braço",
+                        "dep_c": "obj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "tempo"
+                    },
+                    {
+                        "head": "Carlos",
+                        "child": "braços",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Carlos",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "braço"
+                    }
+                ]
+            },
+            {
+                "head": "Carlos",
+                "child": "braços",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Carlos",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "braço",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "arrancar",
+                        "child": "braços",
+                        "dep_h": "acl",
+                        "pos_h": "VERB",
+                        "lemma_h": "arrancar",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "braço"
+                    },
+                    {
+                        "head": "braços",
+                        "child": "Carlos",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "braço",
+                        "dep_c": "nmod",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Carlos"
+                    },
+                    {
+                        "head": "braços",
+                        "child": "tempo",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "braço",
+                        "dep_c": "obj",
+                        "pos_c": "NOUN",
+                        "lemma_c": "tempo"
+                    },
+                    {
+                        "head": "Carlos",
+                        "child": "braços",
+                        "dep_h": "nmod",
+                        "pos_h": "PROPN",
+                        "lemma_h": "Carlos",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "braço"
+                    }
+                ]
+            },
+            {
+                "head": "Carlos",
+                "child": "tempo",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Carlos",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "tempo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "voltara",
+                "child": "Carlos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "voltar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Carlos",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] voltara a si da surpresa que lhe causara a presença de Julião.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, embora surpreendido pela presença de Juliano, recobrou-se rapidamente e aplicou todos os seus conhecimentos para evitar uma situação incômoda. Ele acendeu um sorriso ameno e se agarrou na possibilidade de aproveitar a situação para apresentar sua nova invenção.",
+        "generated_text_llama": "Já havia tempo que Personagem sabia que o seu ex-amigo era um homem de hábitos rígidos e precisava de muito tempo para se ajustar a novas situações, mas nunca imaginou que ele iria fazer sua presença sentir daquela maneira. Ao entrarem na sala, Personagem viu Julião parado no centro, com uma expressão séria no rosto e um copo de bebida em cada mão. A surpresa no rosto do ex-amigo era a primeira coisa que notou em Personagem, pois nunca imaginou que ele iria fazer tal coisa.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ccomp"
+                ],
+                [
+                    "viu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "Carlos voltara a si da surpresa que lhe causara a presença de Julião.",
+        "start_char": 16792,
+        "end_char": 16798,
+        "excerpt": "Julião teve tempo de arrancar Elisa dos braços de Carlos. Cego de raiva, travou de uma cadeira e ia atirar-lha, quando os capangas entrados a este tempo, o detiveram. Carlos voltara a si da surpresa que lhe causara a presença de Julião.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "teve",
+                "child": "Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "a presença",
+                "child": "Julião",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "presença",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "a presença",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "presença",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "surpresa",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "surpresa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": [
+                    "feeling"
+                ]
+            }
+        ],
+        "masked_sentence": "Carlos voltara a si da surpresa que lhe causara a presença de [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Carlos, surpreendido com a presença do misterioso homem que havia encontrado nas ruas, decidiu investigar mais a fundo sobre ele. Ele acendeu sua velha lâmpada de Kodak e começou a tirar fotos discretamente, tentando capturar os detalhes distintivos que o distinguissem dos outros. O homem não parecia perceber a atenção de Carlos, continuando a andar calme pela rua, com a misteriosa maleta na mão.",
+        "generated_text_llama": "A expressão de choque no rosto de Carlos foi imediata, enquanto ele tentava processar o que estava acontecendo. Ele não sabia o que era o Personagem, mas claramente não era uma pessoa. Sem saber o que fazer, Carlos ficou parado na frente dele, os olhos fixos no... algo que parecia ser uma máscara de metal negro.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "Julião não podia lutar contra cinco.",
+        "start_char": 17026,
+        "end_char": 17032,
+        "excerpt": "Depois, voltando-se para os ajudantes das suas façanhas, bradou: Amarrem-no! Em cinco minutos foi obedecido. Julião não podia lutar contra cinco.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "podia",
+                "child": "Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "julião",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não podia lutar contra cinco.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem, não pôde lutar contra cinco, decidiu esconder-se por algum lugar seguro e pensar uma estratégia mais inteligente para enfrentar a situação que se aproximava. Ele teve um plano: usar seu conhecimento e experiência acumulada nos últimos anos para encontrar uma forma de neutralizar seus adversários, sem precisar de uma briga física. Personagem entrou em sua habitação e começou a buscar por todas as armas que podiam ser usadas como arma de distância ou armaduras caseiras para proteção pessoal. Ele acabou encontrando um antigo arco longo, alguns dardos e uma armadura feita de couro.",
+        "generated_text_llama": "Personagem suspirou fundo e sentou-se na borda da cama, olhando para as duas pistolas que estava segurando em mãos trêmulas. Ele sabia que não tinha chance de vencer esse combate, especialmente contra um adversário como o Viper, conhecido por sua habilidade em lutar em quase qualquer situação.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "entrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "suspirou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carlos",
+        "sentence": "Este, calmo, frio, impávido, tranqüilizou o espírito de sua filha, dizendo-lhe que Carlos poderia ser tudo, menos um assassino.",
+        "start_char": 17574,
+        "end_char": 17580,
+        "excerpt": "Estas lúgubres e aterradoras idéias passaram rapidamente pela cabeça de Elisa. Entre lágrimas comunicou-as a Julião. Este, calmo, frio, impávido, tranqüilizou o espírito de sua filha, dizendo-lhe que Carlos poderia ser tudo, menos um assassino.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "poderia",
+                "child": "Carlos",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Carlos",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Este, calmo, frio, impávido, tranqüilizou o espírito de sua filha, dizendo-lhe que [MASK] poderia ser tudo, menos um assassino.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele, enfim, abraçando a sobrinha com um carinho místico e profundo, olhou para ela com um sorriso tranquilo. Depois disso, ainda calmo, fez uma pausa, tomou um papel e lá trazia algumas observações e recomendações para que ela pudesse seguir adiante. A primeira era sobre a importância de manter a integridade mental e física em todo momento, não importando o que acontecesse. A segunda era sobre a necessidade de sempre estudar e aprender mais, pois assim ela poderia encontrar soluções para qualquer situação. E a terceira era sobre a importância de manter uma visão ampla e aberta, capaz de ver as coisas sob diferentes ângulos.",
+        "generated_text_llama": "Sua voz era suave e calmante, e parecia mesmo tranquilizar a mente de sua filha. Ele continuou: \"Você é uma pessoa boa, Personagem, com um coração puro. Você não pode ter feito nada para merecer isso\". A menina olhou para ele com lágrimas nos olhos, mas também com uma sensação de alívio. Ela sabia que seu pai estava tentando ajudá-la a entender o que estava acontecendo.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elisa",
+        "sentence": "Elisa, tens realmente a tua desonra por uma grande desgraça?",
+        "start_char": 17747,
+        "end_char": 17752,
+        "excerpt": "Julião olhava para sua filha e parecia refletir. Depois de algum tempo, disse: Elisa, tens realmente a tua desonra por uma grande desgraça?",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "desonra",
+                "child": "Elisa",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "desonrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], tens realmente a tua desonra por uma grande desgraça?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas não assim! Ele acenou para a esposa com uma expressão que tentava ser composta, mas que na verdade se revelou como um barulho de sentimentos misturados. Como ele havia prometido sempre dar-lhe a melhor versão de si mesmo, ele se apresentou no palco, o coração em branco e uma voz que parecia escapar de outra pessoa.",
+        "generated_text_llama": "Desculpe, mas não posso continuar a história sem saber quem é o personagem Personagem. Poderia me fornecer mais informações sobre quem é ele e qual é o contexto da história? Isso me ajudaria a criar uma continuação coerente e interessante.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elisa",
+        "sentence": "Elisa voltou para junto de seu pai.",
+        "start_char": 18281,
+        "end_char": 18286,
+        "excerpt": "Há outro depois dele; mas esse está longe. . . Ó Pai de todos, que filho te deu o Senhor!... Elisa voltou para junto de seu pai.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "voltou",
+                "child": "Elisa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "voltar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] voltou para junto de seu pai.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem se aproximou lentamente de seu pai, olhando para ele com um olhar sincero e carinhoso. Seu pai, por sua vez, sorriu e abraçou-o, sentindo o peso de suas falhas e os remorsos acumulados ao longo dos anos. Personagem sentiu-se leve e confortado no braço do pai, despreocupado com as questões que havia assombrando sua mente até então. Os dois passaram um momento feliz, revivendo velhas memórias e compartilhando novas expectativas. Por fim, Personagem sentiu-se orgulhoso de estar de volta ao lado do seu pai, sabe que tudo iria mudar agora e que ele estava disposto a enfrentar os desafios por trás desses olhos amados.",
+        "generated_text_llama": "Ao chegar ao local onde havia perdido o pequeno recipiente que continha a poeira mágica, Personagem se sentiu um pouco mais calmo, graças à presença do seu pai ao seu lado. Ele olhou em volta, procurando qualquer sinal de que alguém tivesse visto o recipiente, mas não havia nada de anormal. \"Pai, eu acho que alguém pode ter roubado minha poeira mágica\", disse Personagem, sentindo um pouco de preocupação.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "aproximou",
+                    "ROOT"
+                ],
+                [
+                    "sentiu-se",
+                    "ROOT"
+                ],
+                [
+                    "sentiu-se",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "disse",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elisa",
+        "sentence": "Procurou afagar Elisa, tocando-lhe as faces e beijando-lhe a cabeça.",
+        "start_char": 18461,
+        "end_char": 18466,
+        "excerpt": "Elisa obedeceu. Julião tinha os braços atados, mas podia mover, ainda que pouco, as mãos. Procurou afagar Elisa, tocando-lhe as faces e beijando-lhe a cabeça.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "obedeceu",
+                "child": "Elisa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "obedecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "afagar",
+                "child": "Elisa",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "afagar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Procurou afagar [MASK], tocando-lhe as faces e beijando-lhe a cabeça.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de abraçar seu filho carinhosamente, ele decidiu levá-lo para um lugar mais confortável. Levantou o menino das costas, agitando-o um pouco, até que ele se ajoelhasse com tranquilidade. Após isso, pôs o filho no cesto e o segurou nas costas enquanto caminhava pelo corredor, tentando calmar as nádegas do menino para não o disturbarem demais. No quarto, colocou o cesto na cama e zambujejou com os pés, arrumando a área que o crescente ocuparia durante sua estadia no lugar. Então, olhou para o filho dormindo serenamente e sorriu, sintonizando-se em sua tranquilidade antes de se retirar do quarto, deixando o menino sozinho, mas seguro e cercado pelo calor da casa e pela presença dos sonhos que o agradeceriam por toda a noite.",
+        "generated_text_llama": "Desculpe, mas não posso continuar a história nesse ponto. Posso ajudar com outra coisa?",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elisa",
+        "sentence": "Apenas o conseguiu, cravou-a no peito de Elisa.",
+        "start_char": 18914,
+        "end_char": 18919,
+        "excerpt": "Elisa caíra completamente, banhada em sangue. Julião tinha procurado a custo apoderar-se de uma faca de caça deixada por Carlos sobre uma cadeira. Apenas o conseguiu, cravou-a no peito de Elisa.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "caíra",
+                "child": "Elisa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "caíra",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "peito",
+                "child": "Elisa",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "peito",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Elisa",
+                "child": "peito",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Elisa",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "peito",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Apenas o conseguiu, cravou-a no peito de [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após conseguir a rosa encantada, colocou-a no peito de Siânora do Lago. Ao fazê-lo, o ar da floresta pareceu espelhar uma respiração tranquila e pacífica que passava pelo coração de Sianora e entrou em todos os lugares da floresta. O sol também parecia acompanhá-la, brilhando um pouco mais nas árvores ao seu redor, como se tivesse sentido sua presença mágica. Sianora, que havia sido uma espécie de malefício no lago durante muito tempo, começou a perder suas formidáveis poderes maléficos e tornar-se cada vez mais humanamente bela. A floresta começou a se transformar gradualmente em um lugar harmonioso, onde as espécies mais ameaçadas começaram a florescer novamente e as árvores envelheciam lentamente. O ar continuava a se tornar mais claro e puro, e os animais que haviam sido intimidados pela malícia de Sianora estavam voltando a suas terras nativas, para viverem em harmonia com as outras criaturas. Com a chegada da primavera, todos se sentiram um pouco mais seguros e alegres, sabendo que a malícia que havia reinado por tantos anos já havia se dissipado e que o lago estava agora sob o cuidado de alguém que amava as pessoas e queriam protegê-las.",
+        "generated_text_llama": "Não posso criar conteúdo que promova violência doméstica. Isso inclui histórias que detalhem física ou emocionalmente abuso. ",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "Quando a sentinela correu para ele, não teve tempo de evitar o segundo golpe, com que Julião tornou mais profunda e mortal a primeira ferida.",
+        "start_char": 19007,
+        "end_char": 19013,
+        "excerpt": "Julião tinha procurado a custo apoderar-se de uma faca de caça deixada por Carlos sobre uma cadeira. Apenas o conseguiu, cravou-a no peito de Elisa. Quando a sentinela correu para ele, não teve tempo de evitar o segundo golpe, com que Julião tornou mais profunda e mortal a primeira ferida.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "procurado",
+                "child": "Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "procurar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "tornou",
+                "child": "Julião",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "tornar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "tempo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "tempo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quando a sentinela correu para ele, não teve tempo de evitar o segundo golpe, com que [MASK] tornou mais profunda e mortal a primeira ferida.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quando a sentinela correu para ele, não teve tempo de evitar o segundo golpe, com que Personagem(https://pt.wikipedia.org/wiki/Elrond), o enchanter dos eldar de Rivendel, tornou mais profunda e mortal a primeira ferida. Ao sentir seu corpo cair sobre a pedra, Elrond esbofeteou-se a si mesmo, emocionado por ter usado sua mágica para proteger o reino que tanto amava. Mas ele sabia que não poderia afastar as tentáculas da morte ainda mais longe. Ao lado dele, legião de eldar gritavam em desespero, enquanto um dos sentinelas olhava para ele com pena e admiração no coração.",
+        "generated_text_llama": "Enquanto a sentinela correu para ele, não teve tempo de evitar o segundo golpe, com que Personagem tornou mais profunda e mortal a primeira ferida. A lâmina espetada em seu peito começou a sair sangue macio, mas Personagem sabia que precisava se concentrar na manutenção da ferida para não perder muita sangue rapidamente.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "tornou",
+                    "acl:relcl"
+                ],
+                [
+                    "sabia",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elisa",
+        "sentence": "Elisa rolou no chão nas últimas convulsões.",
+        "start_char": 19063,
+        "end_char": 19068,
+        "excerpt": "Apenas o conseguiu, cravou-a no peito de Elisa. Quando a sentinela correu para ele, não teve tempo de evitar o segundo golpe, com que Julião tornou mais profunda e mortal a primeira ferida. Elisa rolou no chão nas últimas convulsões.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "peito",
+                "child": "Elisa",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "peito",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Elisa",
+                "child": "peito",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Elisa",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "peito",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "rolou",
+                "child": "Elisa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "rolar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] rolou no chão nas últimas convulsões.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois que ele rastejou no chão com as últimas convulsões, ele se sentiu cansado até os ossos e pôs a mãos sobre o rosto ensanguentado. Ele tirou um suspiro profundo, como se estivesse liberando todos os medo que sentia. Depois de alguns segundos de silêncio, ele começou a sorrir. Sorriso quebrado, mas simpático e confiante. E então, para se levantar, ele utilizou toda a sua força, empurrou com ambas as mãos e levantou-se lentamente, sentindo o corpo tremular e ainda assim conseguiu manter o equilíbrio. Sua camisa estava ensanguentada, mas não deixou de sentir uma sensação inusitada de libertação. Ele saiu da casa, sem se preocupar com nenhuma coisa e voltando a olhar para trás, apenas para ver se o que havia passado estava realmente tudo atrás dele. Mas não havia mais ninguém na rua e ele seguiu em frente, sob o sol quente do dia.",
+        "generated_text_llama": "Era como se o mundo tivesse sido derrubado por um gigantesco martelo, deixando Personagem a perto de estar sem ar. Ele sentiu sua cabeça bater contra o solamento, fazendo dor na parte frontal do crânio. Com dificuldade, ele conseguiu se erguer da poeira e pozzas que haviam se espalhado em torno dele, olhando em volta para ver o que havia acontecido.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "deixando",
+                    "advcl"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "Julião, depois de contar-me toda a história cujo resumo acabo de fazer, perguntou-me: Diga-me, Sr. doutor, pode ser meu advogado?",
+        "start_char": 20067,
+        "end_char": 20073,
+        "excerpt": "Somente reservou-se para contar as circunstâncias dele na ocasião competente. A velha parenta foi desatada, desamordaçada e conduzida à fazenda de Pio. Julião, depois de contar-me toda a história cujo resumo acabo de fazer, perguntou-me: Diga-me, Sr. doutor, pode ser meu advogado?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "acabo",
+                "child": "Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "acabo",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], depois de contar-me toda a história cujo resumo acabo de fazer, perguntou-me: Diga-me, Sr. doutor, pode ser meu advogado?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim que ele terminou de contar-me toda a história cujo resumo acabo de fazer, perguntou-me: \"Diga-me, Sr. doutor, pode ser meu advogado?\" Pausando um momento para pensar, eu disse: \"Sim, Eu posso representá-lo como seu advogado.\" Deixei de lado a surpresa que havia sentido ao saber que ele estava preso e comecei a preparar minha defesa. Senti-me uma obrigação de fazê-lo, pois sabia o quanto este caso poderia afetá-lo e sua família. Eu começou a trabalhar incessantemente para encontrar provas que pudessem demonstrar sua inocência e construir um argumento forte em seu favor.",
+        "generated_text_llama": "Eu me senti um pouco surpreso com a pergunta, mas logo tive que admitir que sim, eu era advogado especializado em casos de desaparecimentos e acidentes. Personagem me olhou com uma mistura de esperança e desespero nos seus olhos e disse: \"Então, Sr. doutor, você acha que posso ajudá-lo a descobrir o que aconteceu com minha irmã?\".",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tito Lívio",
+        "sentence": "Tito Lívio, Diodoro de Sicília e outros antigos falam dela circunstanciadamente.",
+        "start_char": 20993,
+        "end_char": 21003,
+        "excerpt": "Meu espírito voltou-se vinte e três séculos atrás, e pude ver, no seio da sociedade romana, um caso idêntico ao que se dava na vila de ***. Todos conhecem a lúgubre tragédia de Virginius. Tito Lívio, Diodoro de Sicília e outros antigos falam dela circunstanciadamente.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "falam",
+                "child": "Tito Lívio, Diodoro de Sicília e outros antigos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tito",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], Diodoro de Sicília e outros antigos falam dela circunstanciadamente.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Seguindo a descrição dos escritores antigos, Flórida aguentou mais uma série de desafios no mundo mortal. Ela conheceu centauros, cicloopes, ninfaras e até mesmo o próprio Hermes, o mensageiro dos deuses, o qual a guiou em suas jornadas.",
+        "generated_text_llama": "Diodoro de Sicília e outros antigos falam dela circunstanciadamente. A história de Eulália, a jovem escrava que se tornou uma heroína da República Romana, era tão fascinante que muitos historiadores estavam ansiosos para saber mais sobre suas vidas. Personagem ficou particularmente interessado em saber mais sobre como ela conseguiu escapar das mãos de seus senhores e se tornou uma figura importante na luta contra os esclavos.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "aguentou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Diodoro de Sicília",
+        "sentence": "Tito Lívio, Diodoro de Sicília e outros antigos falam dela circunstanciadamente.",
+        "start_char": 21005,
+        "end_char": 21023,
+        "excerpt": "Meu espírito voltou-se vinte e três séculos atrás, e pude ver, no seio da sociedade romana, um caso idêntico ao que se dava na vila de ***. Todos conhecem a lúgubre tragédia de Virginius. Tito Lívio, Diodoro de Sicília e outros antigos falam dela circunstanciadamente.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "falam",
+                "child": "Tito Lívio, Diodoro de Sicília e outros antigos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tito",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Tito Lívio, [MASK] e outros antigos falam dela circunstanciadamente.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " No entanto, Lúcia não sentiu nenhum arrependimento pelo passado que lhe era inevitavelmente marcante. Ela seguiu caminhando pelo arborizado jardim romano onde tinha crescido e se lembrava daqueles anos em que a alegria e a tristeza haviam se fundido sem distinção.",
+        "generated_text_llama": "Era como se a mão de Personagem tivesse acordado uma conspiração silenciosa, envolvendo apenas eles três. Enquanto Tito Lívio continuava a narrar sua história, Personagem ouvia atentamente, seus olhos perdidos no vazio, como se estivessem buscando respostas para um mistério antigo.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ouvia",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carlos",
+        "sentence": "Carlos recebeu um castigo honroso, ou, por outra, sofre como castigo aquilo que devia receber como honra.",
+        "start_char": 24474,
+        "end_char": 24480,
+        "excerpt": "Mas esse castigo? ...  Descanse, disse o velho adivinhando a minha indiscreta inquietação Carlos recebeu um castigo honroso, ou, por outra, sofre como castigo aquilo que devia receber como honra.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "recebeu",
+                "child": "Carlos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "receber",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Carlos",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] recebeu um castigo honroso, ou, por outra, sofre como castigo aquilo que devia receber como honra.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Personagem, então, utilizou essa experiência como um catalisador para sua transformação pessoal. Ele se empenhou mais do que já tinha feito antes e tornou-se uma figura forte de inspiração para os outros. Seus colegas viam nele um expoente da resiliência humana, capaz de superar as adversidades mais difíceis. A sua história tornou-se uma lenda no mundo do futebol e serviu de exemplo para todos aqueles que enfrentam dificuldades em suas vidas. Ele mostrou que ser forte não significa ser invencível, mas sim aprender a sobreviver e crescer através dos momentos mais difíceis.",
+        "generated_text_llama": "Pensando na mensagem do castigo, Personagem resolveu não ficar paralisada e começou a caminhar lentamente pela estrada, sentindo o peso dos seus passos na terra seca. Atravessou um pequeno riacho que corria ao longo da estrada, beijando as margens com água cristalina, e continuou a caminhada, sem saber para onde estava indo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "utilizou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "resolveu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "Poucos dias depois instalou-se o júri onde tinha de comparecer Julião.",
+        "start_char": 26316,
+        "end_char": 26322,
+        "excerpt": "Com toda a certeza. Fui jantar, e passei o resto da tarde conversando acerca do ato de Julião e das virtudes do fazendeiro. Poucos dias depois instalou-se o júri onde tinha de comparecer Julião.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ato",
+                "child": "Julião",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "ato",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "das virtudes",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "virtude",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "ato",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "ato",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "Fui jantar",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "jantar",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "das virtudes",
+                "child": "Julião",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "virtude",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "fazendeiro",
+                "child": "Julião",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "fazendeiro",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "comparecer",
+                "child": "Julião",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "comparecer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Julião",
+                "child": "o júri",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "júri",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Poucos dias depois instalou-se o júri onde tinha de comparecer [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em seguida, Maria, vestindo sua roupa mais sólida e confortável, caminhou até à praça central da cidade. Nessa manhã, as ruas se encontravam praticamente desertas, mas Maria não precisava de ninguém ao seu lado para enfrentar o que vinha. Ao chegar na praça, ela notou o júri sentado sob um pomerano em pleno florescimento, o primeiro deles parecia com uma figura de autoridade, com a tonalidade do sol nas suas roupas.",
+        "generated_text_llama": "Depois de passar horas se preparando e meditando sobre a sua defesa, Personagem finalmente se dirigiu ao tribunal, sua mente clara e focada. Ele vestiu seu melhor terno preto e ajustou o laço do colar que seus irmãos haviam feito para ele, um símbolo de sua conexão com a tribo.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "precisava",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "dirigiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "O crime foi provado pelo depoimento das testemunhas; nem Julião o negou nunca.",
+        "start_char": 26985,
+        "end_char": 26991,
+        "excerpt": "Saímos. Dispenso os leitores da narração do que se passou no júri. O crime foi provado pelo depoimento das testemunhas; nem Julião o negou nunca.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "negou",
+                "child": "nem Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "negar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "O crime foi provado pelo depoimento das testemunhas; nem [MASK] o negou nunca.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, após o crime ser comprovado pelos depoimentos das testemunhas e ele não negar nunhum momento, Personagem ficou condenado pela justiça. Ele permaneceu calado e composo no tribunal, olhando para a frente, enquanto os jurados lhe impunham a pena máxima. Na prisão, ele passou a viver uma existência triste e solitária, rejeitado pelo mundo exterior que nunca mais lhe proporcionaria as bondesas da liberdade. Mas mesmo assim, ele manteve-se forte, pois sabia que sua verdadeira liberdade era dentro dele, e ninguém poderia o roubar.",
+        "generated_text_llama": "Personagem sabia que a hora da justiça havia chegado e que não havia mais escapar. Ele olhou em volta do tribunal, fixando os olhos nos juízes e na plateia cheia de pessoas que o conheciam. A emoção estava no ar, mas Personagem mantinha sua calma, sabendo que era hora de enfrentar as consequências de seus atos.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ],
+                [
+                    "mantinha",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julião",
+        "sentence": "CAPÍTULO V NO MOMENTO em que escrevo estas páginas, Julião, tendo já cumprido a sentença, vive na fazenda de Pio.",
+        "start_char": 27752,
+        "end_char": 27758,
+        "excerpt": "Julião foi condenado a dez anos de prisão. Os jurados tinham ouvido a lei, e igualmente, talvez, o coração. CAPÍTULO V NO MOMENTO em que escrevo estas páginas, Julião, tendo já cumprido a sentença, vive na fazenda de Pio.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "condenado",
+                "child": "Julião",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "condenar",
+                "dep_c": "nsubj:pass",
+                "pos_c": "PROPN",
+                "lemma_c": "julião",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "estas páginas",
+                "child": ", Julião",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "página",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Julião",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", Julião",
+                "child": "estas páginas",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "página",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", Julião",
+                "child": "MOMENTO",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "MOMENTO",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", Julião",
+                "child": "V",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Julião",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "V",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "CAPÍTULO V NO MOMENTO em que escrevo estas páginas, [MASK], tendo já cumprido a sentença, vive na fazenda de Pio.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Naquele momento, Personagem decidiu se adaptar à sua nova vida. Sua cela havia sido substituída por uma casa, sua mesa de prisão pela mesa de Pio, onde era preparada comida azeiteira e queijada, um luxo que nunca tivera antes.",
+        "generated_text_llama": "Depois de anos de prisão e reflexão sobre seus passos, Personagem sentia uma sensação de paz e tranquilidade ao olhar para as vastas extensões da fazenda de Pio, onde havia encontrado refúgio após a liberdade condicional. Ele tinha acabado de completar sua pena e, com a ajuda de um empregado local, estava começando a reconstruir sua vida.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pio",
+        "sentence": "Pio não quis que ele voltasse ao lugar em que se dera a catástrofe, e fá-lo residir ao pé de si.",
+        "start_char": 27814,
+        "end_char": 27817,
+        "excerpt": "Os jurados tinham ouvido a lei, e igualmente, talvez, o coração. CAPÍTULO V NO MOMENTO em que escrevo estas páginas, Julião, tendo já cumprido a sentença, vive na fazenda de Pio. Pio não quis que ele voltasse ao lugar em que se dera a catástrofe, e fá-lo residir ao pé de si.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "fazenda",
+                "child": "Pio",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "fazenda",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Pio",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Pio",
+                "child": "fazenda",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Pio",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "fazenda",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "quis",
+                "child": "Pio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pio",
+                "word_categories": [
+                    "outro",
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não quis que ele voltasse ao lugar em que se dera a catástrofe, e fá-lo residir ao pé de si.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Personagem, porém, era um homem resoluto e comprensivo. Ele sabia que o seu irmão precisava de todo o apoio que poderia oferecer e decidiu agir com coragem para ajudá-lo a superar o passado trágico que compartilhavam. Então, ele o convenceu a se mudar com ele, residindo ao pé de sua casa. Ao lado do irmão, Personagem se sentia mais forte e determinado em lidar com as consequências da catástrofe que os uniu. Ele estava resolvido em ajudá-lo a enfrentar o futuro juntos, um ao lado do outro.",
+        "generated_text_llama": "Personagem sabia que precisava encontrar uma maneira de ajudá-lo a se recuperar do trauma daquela noite, então decidiu criar um ambiente seguro e acolhedor para ele. Começou a decorar sua nova casa, adicionando móveis confortáveis e imagens agradáveis, com o objetivo de criar um espaço que fosse uma refúgio para ele.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "homem",
+                    "ROOT"
+                ],
+                [
+                    "sentia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carlos",
+        "sentence": "Quanto a Carlos, vai resgatando como pode o crime com que atentou contra a honra de uma donzela e contra a felicidade de dois pais.",
+        "start_char": 28323,
+        "end_char": 28329,
+        "excerpt": "Na fazenda fala-se sempre de Elisa, mas nunca de Carlos. Pio é o primeiro a não magoar o coração de Julião com a lembrança daquele que o levou a matar sua filha. Quanto a Carlos, vai resgatando como pode o crime com que atentou contra a honra de uma donzela e contra a felicidade de dois pais.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Elisa",
+                "child": ", mas nunca de Carlos",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Elisa",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Carlos",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", mas nunca de Carlos",
+                "child": "Elisa",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Carlos",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "resgatando",
+                "child": "Quanto a Carlos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "resgatar",
+                "dep_c": "obl",
+                "pos_c": "PROPN",
+                "lemma_c": "Carlos",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Quanto a [MASK], vai resgatando como pode o crime com que atentou contra a honra de uma donzela e contra a felicidade de dois pais.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quanto a ele, partiu em busca da verdade e da justiça, seguindo o caminho que deslumbrava na mente dele como uma linha brilhante no horizonte. Atravessou as montanhas e os rios, através de terras selvagens onde ninguém queria ouvir sua história.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    }
+]

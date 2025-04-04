@@ -1,0 +1,172 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Fausto",
+        "sentence": "Não venho pelo vosso servo Fausto, respondeu o Diabo rindo, mas por todos os Faustos do século e dos séculos.",
+        "start_char": 2313,
+        "end_char": 2319,
+        "excerpt": "Que me queres tu? perguntou este. Não venho pelo vosso servo Fausto, respondeu o Diabo rindo, mas por todos os Faustos do século e dos séculos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "respondeu",
+                "child": "Fausto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fausto",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "respondeu",
+                "child": "Faustos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Faustos",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Faustos",
+                "child": "século",
+                "dep_h": "dep",
+                "pos_h": "PROPN",
+                "lemma_h": "Faustos",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "século",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "século",
+                "child": "Faustos",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "século",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Faustos",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "dos séculos",
+                "child": "Faustos",
+                "dep_h": "conj",
+                "pos_h": "NOUN",
+                "lemma_h": "século",
+                "dep_c": "dep",
+                "pos_c": "PROPN",
+                "lemma_c": "Faustos",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Não venho pelo vosso servo [MASK], respondeu o Diabo rindo, mas por todos os [MASK]s do século e dos séculos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Demônio continuou: \"Não venho pela vossa alma nele\", acrescentando um sorriso sardónico. \"Venho pelas muitas almas que ele trouxe ao mundo, as crianças que ele ensinou a ler e escrever, as pessoas que ele curou ou salvou da morte. Venho pela sua determinação em defender os mais fracos, por seus esforços para erradicar a miséria e o sofrimento\".",
+        "generated_text_llama": "E com um sorriso que iluminou a escuridão do seu rosto, o Diabo continuou: \"Mas é exatamente por meio dele que vou alcançar a glória eterna. O meu servo Personagem é fiel, obstinado e... perdoável\". O Diabo riu mais alto, como se estivesse compartilhando um segredo sagrado. Ele começou a caminhar em direção ao servo, seus passos resonando com um eco sinistro que ecoou pelas profundezas do inferno.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dia",
+        "sentence": "Pela sua parte o Diabo prometia substituir a vinha do Senhor, expressão metafórica, pela vinha do Diabo, locução direta e verdadeira, pois não faltaria nunca aos seus com o fruto das mais belas cepas do mundo.",
+        "start_char": 8783,
+        "end_char": 8786,
+        "excerpt": "O mesmo disse da gula, que produziu as melhores páginas de Rabelais, e muitos bons versos de Hissope; virtude tão superior, que ninguém se lembra das batalhas de Luculo, mas das suas ceias; foi a gula que realmente o fez imortal. Mas, ainda pondo de lado essas razões de ordem literária ou histórica, para só mostrar o valor intrínseco daquela virtude, quem negaria que era muito melhor sentir na boca e no ventre os bons manjares, em grande cópia, do que os maus bocados, ou a saliva do jejum? Pela sua parte o Diabo prometia substituir a vinha do Senhor, expressão metafórica, pela vinha do Diabo, locução direta e verdadeira, pois não faltaria nunca aos seus com o fruto das mais belas cepas do mundo.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "prometia",
+                "child": "o Diabo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "prometir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Diabo",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "vinha",
+                "child": "Diabo",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "vinha",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "Diabo",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Diabo",
+                "child": "vinha",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "Diabo",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "vinha",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Pela sua parte o [MASK]bo prometia substituir a vinha do Senhor, expressão metafórica, pela vinha do [MASK]bo, locução direta e verdadeira, pois não faltaria nunca aos seus com o fruto das mais belas cepas do mundo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Sr. Green então olhou para o Senhor Smith e disse: \"Não teme, meu amigo. Eu prometo substituir sua vinha, expressão metafórica, pela vinha de minha vida, locução direta e verdadeira, pois nunca faltei a eles com o fruto das mais belas cepas do mundo.\"",
+        "generated_text_llama": "O Personagembo, com um sorriso sábio nos lábios, olhou em volta da colheita para garantir que tudo estivesse no lugar certo antes de dar a ordem para que começasse a ser preparado o vinho do seu nome. Ele sabia que a qualidade e o sabor dependiam de cada passo cuidadosamente pensado e executado, e não queria comprometer o legado da famosa vinha do Senhor.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    }
+]

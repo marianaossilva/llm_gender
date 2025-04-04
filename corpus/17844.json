@@ -1,0 +1,398 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Primo Martins",
+        "sentence": "Cena I MARTINS, SILVEIRA SILVEIRA(entrando)Primo Martins, abraça este ressuscitado!",
+        "start_char": 2215,
+        "end_char": 2228,
+        "excerpt": "O sarau era o sexto ou sétimo dado pelos mesmos amigos, reinando neste, como em todos, a franca alegria e convivência cordial a que davam lugar o bom gosto da direção e a urbanidade dos diretores. (Sala em casa de Martins.) Cena I MARTINS, SILVEIRA SILVEIRA(entrando)Primo Martins, abraça este ressuscitado!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "abraça",
+                "child": "Cena I MARTINS, SILVEIRA SILVEIRA(entrando)Primo Martins,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "abraçar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cena",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Cena I MARTINS, SILVEIRA SILVEIRA(entrando)[MASK], abraça este ressuscitado!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Martins, Silveira Silveira (entering), abraçou este ressuscitado com um sorriso que parecia ter tido a força suficiente para quebrar o tempo. Ele deixou de lado todos os seus preocupações e dúvidas, e foi atingido por uma onda de alegria que lhe derreteu o coração. Ao beijá-lo novamente, perguntou se ele estava bem, se tinha ficado com alguma lesão após aquela experiência terrível.",
+        "generated_text_llama": "Sua voz tremeluciu com emoção ao se aproximar de Martim, que ainda estava pendurado na cadeira, seu corpo frio e inerte. Com as mãos trêmulas, Cena apertou os punhos do amigo, como se estivesse medindo a profundidade da sua própria vida. \"Martim, meu amigo...\", sussurrar ela, as lágrimas caíram em silêncio sobre o rosto do outro, enquanto ela o levantava cuidadosamente com uma mão suada e o colocava em seu peito.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "abraçou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "aproximar",
+                    "advcl"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "PACHECO",
+        "sentence": "MARTINSPois não! (senta-se) PACHECOEntão que me diz à situação?",
+        "start_char": 4818,
+        "end_char": 4825,
+        "excerpt": "SILVEIRA(baixo)Já cheiras a ministro. PACHECO(sentando-se)Dá licença? MARTINSPois não! (senta-se) PACHECOEntão que me diz à situação?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "sentando-se",
+                "child": "PACHECO(",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sentando-se",
+                "dep_c": "aux",
+                "pos_c": "PROPN",
+                "lemma_c": "PACHECO(",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "MARTINSPois",
+                "child": "PACHECOEntão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "MARTINSPois",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "PACHECOEntão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "situação",
+                "child": "PACHECOEntão",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "situação",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "PACHECOEntão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "MARTINSPois não! (senta-se) [MASK]Então que me diz à situação?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Martin, que por sua vez estava sentado em seu escritório, sorriu ligeiramente e respondeu: \"Precisamos trabalhar juntos para encontrar uma solução para este problema\". Ele então tirou um papel e começou a escrever uma lista de tarefas.",
+        "generated_text_llama": "Ele olhou em volta do quarto, garantindo que ninguém estivesse ouvindo, antes de se inclinar para frente e sussurrar: \"Eu vi a chave. Ela estava escondida na gaveta do escritório de meu pai.\" Martinus franziu a testa, pensando em como ele havia conseguido encontrar a chave sem ser notado. Ele sabia que seu pai estava muito preocupado com segurança, então era improvável que ele tivesse deixado a chave escondida de forma tão óbvia.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "MARTINS",
+        "sentence": "Os mesmos, CARLOS BASTOS BASTOSMeus senhores... MARTINSQueira sentar-se.",
+        "start_char": 10961,
+        "end_char": 10968,
+        "excerpt": "SILVEIRASerá o mesmo? Cena IV Os mesmos, CARLOS BASTOS BASTOSMeus senhores... MARTINSQueira sentar-se.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "sentar-se",
+                "child": "MARTINSQueira",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sentar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "MARTINSQueira",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Os mesmos, CARLOS BASTOS BASTOSMeus senhores... [MASK]Queira sentar-se.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " CARLOS BASTOS BASTOSMeus senhores, sim, agora que estou aqui, queira sentar-se. Com o coração cheio de ansiedade e a mente desordena, Carlos sentou-se no sofá da sala e tomou uma respiração profunda. Olhou para as paredes, ornadas com quadros antigos e mobília clássica, como se a casa estivesse falando de sua história inesperada e injustificada condenação. Ao se sentir mais tranquilo, Carlos retomou a discussão.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentou-se",
+                    "ROOT"
+                ],
+                [
+                    "retomou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Píndaro",
+        "sentence": "Introduziu-me na cabeça a faísca divina, emprestou-me as suas asas, e arrojou-me até onde se arrojava Píndaro.",
+        "start_char": 12519,
+        "end_char": 12526,
+        "excerpt": "Deste estreito parentesco nasce que a minha musa, apenas soube do triunfo político de V. Exa. , não pôde deixar de dar alguma cópia de si. Introduziu-me na cabeça a faísca divina, emprestou-me as suas asas, e arrojou-me até onde se arrojava Píndaro.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "arrojava",
+                "child": "Píndaro",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "arrojar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Píndaro",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Introduziu-me na cabeça a faísca divina, emprestou-me as suas asas, e arrojou-me até onde se arrojava [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele me apontou para cima, para o céu cheio de estrelas, e com uma expressão tranquila, disse: \"Vem, vem, me seguir.\" E assim foi que subi ao céu, sentindo sob os pés a sensação de corpos leves e invisíveis empurrando-me para a frente. Com ele, me sentia mais forte, mais livre, mais capaz de sobrevir a qualquer obstáculo que vinha por mim.",
+        "generated_text_llama": "Eu senti o vento rugir sob minhas costas e as asas de Icaro me envolverem, como se estivessem feitas de uma seda leve e quase invisível. Com um impulso final, eu voei sobre o mar, a liberdade pulsando em cada fibra do meu ser. O sol espetaculoso iluminava o céu, e as ondas azuis me cercavam, como se estivessem dançando à minha frente.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "MÜLLER",
+        "sentence": "MÜLLERTenho debalde perseguido os ministros, nenhum me tem atendido.",
+        "start_char": 22299,
+        "end_char": 22305,
+        "excerpt": "Sr. Müller chegou há quatro meses da Europa e deseja contratar o teatro lírico. SILVEIRAAh! MÜLLERTenho debalde perseguido os ministros, nenhum me tem atendido.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "debalde",
+                "child": "MÜLLERTenho",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "debalder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "MÜLLERTenho",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]Tenho debalde perseguido os ministros, nenhum me tem atendido.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, o Presidente decidiu visitar pessoalmente o Ministério da Justiça. Sem aviso prévio nem convite, ele apareceu no corredor do edifício e iniciou a busca pelos funcionários.",
+        "generated_text_llama": "Sinto um arrepio na espinha ao pensar sobre a minha situação desesperadora. Tenho debalde perseguido os ministros, nenhum me tem atendido. Eu sou Personagem, o herói da Revolução Digital, e não consegui obter qualquer ajuda para parar aquele monstro de código que ameaça destruir a nossa sociedade.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "visitar",
+                    "xcomp"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "MARTINS BASTO",
+        "sentence": "Os mesmos, MARTINS BASTOSAí chega S. Exa.",
+        "start_char": 27024,
+        "end_char": 27037,
+        "excerpt": "; e isto porque sei que, filho de um ou de outro, há de sempre governar na forma indicada pela situação, que é a mesma já prevista nos meus artigos, principalmente o V... Cena XIII Os mesmos, MARTINS BASTOSAí chega S. Exa.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "chega",
+                "child": "MARTINS BASTOSAí",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "MARTINS",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Os mesmos, [MASK]SAí chega S. Exa.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " E então, PersonagemSCamina tranquilamente pela entrada principal da casa, olhando em direção ao salão onde sabia que sua esposa estava. Entrou e observou sua bela mulher sentada no banco, sorrindo para ele. Ele se aproximou e lhe abraçou apertadamente.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bastos",
+        "sentence": "Bastos e Mateus) Esperem um pouco.",
+        "start_char": 27732,
+        "end_char": 27738,
+        "excerpt": "BASTOSSem incômodo, sem incômodo. SILVEIRA(a Bastos e Mateus) Esperem um pouco.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Esperem",
+                "child": "Bastos e Mateus)",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Esperem",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bastos",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] e Mateus) Esperem um pouco.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, Maria assumiu a posição que sempre lhe havia dado segurança: o seu velho sedia de madeira no quarto de Mateus, olhando para a janela da frente. A noite era bonita e fresca, com uma lua cheia brilhando acima do bosque. Maria sonhou que estava em outro mundo, longe das barricadas e dos tiros que assombravam o país por mais de cinco anos.",
+        "generated_text_llama": "Enquanto aguardavam, Mateus decidiu fazer uma pausa para beber um café e olhar pela janela do restaurante. A chuva torcia o horizonte, criando sombras sinistras em volta das luzes dos faróis que cruzavam a rua. Mateus sentiu um arrepio na espinha ao pensar no que estava prestes a acontecer, mas não demorou para se distrair com a ideia de um café quente e doce para aliviar o frio e a tensão.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "assumiu",
+                    "ROOT"
+                ],
+                [
+                    "sonhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Mateus",
+        "sentence": "Bastos e Mateus) Esperem um pouco.",
+        "start_char": 27741,
+        "end_char": 27747,
+        "excerpt": "BASTOSSem incômodo, sem incômodo. SILVEIRA(a Bastos e Mateus) Esperem um pouco.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Esperem",
+                "child": "Bastos e Mateus)",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Esperem",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bastos",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Bastos e [MASK]) Esperem um pouco.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Bastos e César esperaram um pouco mais antes de se deslocarem até a sala onde iria ocorrer a reunião com os investidores. Ao entrarem, eles observaram todos na mesa, olhavam para eles com expressões que combinavam ansiedade e expectativa. César começou a falar, descrevendo os planos de expansão que eles tinham preparado para estender o negócio além da região sul do país. Bastos olhou para ele e deu um sinal de aprovação enquanto seguia sua conversa. A reunião passou com sucesso e os investidores ficaram impressionados com as ideias apresentadas por César. Eles concordaram em financiar o projeto, garantindo a continuidade do sonho de expansão de Bastos e César. Após a reunião, eles se despediram dos investidores e saíram da sala, sentindo que estavam a ponto de conquistar o mundo.",
+        "generated_text_llama": "Eu me sentei no banco de madeira, cercado pelos altos muros da prisão. Bastos e eu esperamos um pouco, sem falar nada, apenas ouvindo o som do vento que passava pelas grades da cela. O silêncio era uma das coisas que mais me irritavam, mas naquele momento, não havia outra opção. Bastos se inclinou para frente e deu um olhar ao redor da esquina da cela, como se estivesse procurando algo ou alguém. Eu segui seu exemplo, mesmo que apenas por vício. Semanas de silêncio, sem conversa, eram uma coisa estranha para mim. Eu precisava saber o que estava acontecendo na cabeça dele. \"O que você está pensando, Bastos?\" eu perguntei finalmente, tentando me sentir mais forte do que eu era.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "perguntei",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

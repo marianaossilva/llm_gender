@@ -1,0 +1,87 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Macedo",
+        "sentence": "Alguns chegam a supor que Macedo virou o juízo.",
+        "start_char": 438,
+        "end_char": 444,
+        "excerpt": "Fones: (91) 210-3196 / 210-3181  E-mail:  1  Idéias do Canário de Machado de Assis Um homem dado a estudos de ornitologia, por nome Macedo, referiu a alguns amigos um caso tão extraordinário que ninguém lhe deu crédito. Alguns chegam a supor que Macedo virou o juízo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "nome",
+                "child": "Macedo",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "nome",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Macedo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Macedo",
+                "child": "nome",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Macedo",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "nome",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Macedo",
+                "child": "Um homem",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Macedo",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "homem",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "virou",
+                "child": "Macedo",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "virar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Macedo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Alguns chegam a supor que [MASK] virou o juízo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas não era assim que aconteceu. A seguir, ele simplesmente saiu da sala, fechando a porta atrás dele com um som sutil e decisivo. Sentindo-se exacerbado pela tensão, caminhou para uma janela, onde colocou a mão sobre o vidro frio e observou o prédio circundante, envolvido em neblina noturna. Por uma breve hora, ele estava sozinho com suas pensamentos. Depois de um momento, decidiu-se ir embora para casa, com a intenção de descansar e, ao mesmo tempo, tranquilizar sua mente.",
+        "generated_text_llama": "Mas, enquanto alguns começavam a pensar que ele estava além da sanidade, Personagem apenas sorriu para si mesmo, sabendo que a verdade era muito mais complexa do que isso. Ele havia perdido tudo: a família, os amigos, o emprego - tudo o que ele considerava importante na vida tinha sido destruído em um instante. E ainda assim, ele se levantou das cinzas, determinado a encontrar uma maneira de reconstruir sua existência.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

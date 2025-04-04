@@ -1,0 +1,185 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "as Rosas",
+        "sentence": "Então as Rosas murmuraram que estavam tristes porque a contemplação das coisas era muda, e elas queriam quem cantasse os seus grandes méritos e as servisse.",
+        "start_char": 2335,
+        "end_char": 2343,
+        "excerpt": "Sois as princesas da terra. Por que inclinais as pétalas para o chão? Então as Rosas murmuraram que estavam tristes porque a contemplação das coisas era muda, e elas queriam quem cantasse os seus grandes méritos e as servisse.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "murmuraram",
+                "child": "as Rosas",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "murmurar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "rosa",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Então [MASK] murmuraram que estavam tristes porque a contemplação das coisas era muda, e elas queriam quem cantasse os seus grandes méritos e as servisse.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ela levantou-se da cadeira, com a voz suave como o vento, começou a cantar. Cantava um hino que sempre havia cantado em momentos difíceis, um hino de esperança e fortaleza. Ao mesmo tempo, ela abriu as mãos e olhou para seus amigos. Um dos companheiros se aproximou dela e lhe passou a viola, enquanto outro cantava os versos que sempre haviam sido um testamento de união entre eles. A música era tão bonita que as lágrimas correram pelas caras de todos aqueles presentes, mas ninguém se importava, pois sabe-se que apenas o amor e a música podem curar o coração mais ferido.",
+        "generated_text_llama": "Então, Personagem começou a caminhar pelo jardim, perdida em seus pensamentos, enquanto as outras criaturas a observavam com curiosidade. Ela imaginava que, se pudesse ter uma voz como os pássaros, poderia cantar para os demônios e as sombras da cidade, fazendo com que elas soubessem quem era e o que ela queria. Personagem sorriu para si mesma, imaginando a emoção de ouvir seu próprio canto ecoando pelas ruas escuras e estreitas.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "as Rosas",
+        "sentence": "Mas, como as Rosas parecessem enfaradas da glória que tinham no jardim, disseram os filhos dos homens às filhas das mulheres:",
+        "start_char": 4447,
+        "end_char": 4455,
+        "excerpt": "Vieram também outros e cantaram em verso os merecimentos da Rosas. E quando queriam falar da beleza de alguma filha das mulheres faziam comparação com as Rosas, porque as Rosas são as maiores belezas do universo, elas são as senhoras de tudo o que vive e respira. Mas, como as Rosas parecessem enfaradas da glória que tinham no jardim, disseram os filhos dos homens às filhas das mulheres:",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "comparação",
+                "child": "as Rosas",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "comparação",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Rosas",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "as Rosas",
+                "child": "comparação",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Rosas",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "comparação",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "as Rosas",
+                "child": "senhoras",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Rosas",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "as Rosas",
+                "child": "belezas",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "rosa",
+                "dep_c": "advcl",
+                "pos_c": "NOUN",
+                "lemma_c": "beleza",
+                "word_categories": [
+                    "aparencia",
+                    "aparencia"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "as Rosas",
+                "child": "senhoras",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "rosa",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "senhora",
+                "word_categories": [
+                    "aparencia",
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "belezas",
+                "child": "as Rosas",
+                "dep_h": "advcl",
+                "pos_h": "NOUN",
+                "lemma_h": "beleza",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "rosa",
+                "word_categories": [
+                    "aparencia",
+                    "aparencia"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "parecessem",
+                "child": "as Rosas",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "parecer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "rosa",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mas, como [MASK] parecessem enfaradas da glória que tinham no jardim, disseram os filhos dos homens às filhas das mulheres:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " \"Que lá estão sem graça, como [Maria Clara] parecem enfarra-das da glória que têm no jardim\", disseram então as filhas dos homens aos amigas em torno delas. Maria Clara sentiu-se abalada e, com um sorriso enfadoado, escolheu uma rosa vermelha da pequena colheita e segurou-a com muita delicadeza entre as mãos. Ela levantou os olhos para a jardineira que cuidava do lindo espaço e disse: \"Essas flores são um regalo do nosso Pai, elas não pertencem à nossa vanidade\".",
+        "generated_text_llama": "E assim, as mulheres, com rostos vermelhos de raiva e lágrimas nos olhos, começaram a gritar e ameaçar os homens, exigindo que eles prestassem contas por terem tratado suas irmãs como se não fossem iguais. \"Vocês devem respeitar nossas irmãs!\", gritou uma das mulheres, enquanto outra começou a chorar abertamente.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentiu-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    }
+]

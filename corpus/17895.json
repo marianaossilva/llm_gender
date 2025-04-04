@@ -1,0 +1,406 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Felicidade",
+        "sentence": "Felicidade, onde estão as outras meias?",
+        "start_char": 2413,
+        "end_char": 2423,
+        "excerpt": "Felicidade, diziam as moças, à noite, no quarto, dá cá o vestido. Felicidade, aperta o vestido. Felicidade, onde estão as outras meias?",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "diziam",
+                "child": "Felicidade",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "felicidade",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "aperta",
+                "child": "Felicidade",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aperta",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "felicidade",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "as outras meias",
+                "child": "Felicidade",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "meia",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "felicidade",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], onde estão as outras meias?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O João, olhando para todas as peças de couro ao seu redor no armário, repetiu a si mesmo: \"onde estão as outras meias?\" Sem saber qual era o local exato onde elas estavam, ele começou a abrir e fechar o armário em busca. Ao fazê-lo, sentia que precisava das meias justas para não acabar de pé no jogo de hoje. Por fim, as encontrou no fundo da pilha de roupas sujas, junto com os calções que havia esquecido lavar há alguns dias.",
+        "generated_text_llama": "Personagem olhou em volta da sala, procurando por uma pista sobre o paradeiro das outras meias. Ele havia usado todas elas para jogar futebol com os amigos no dia anterior e agora elas estavam todas perdidas. Ele lembrou que tinha deixado as chaves do quarto abertas na mesinha de cabeceira, então decidiu começar ali.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "repetiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Felicidade",
+        "sentence": "E Felicidade ia de um lado para outro, solícita, obediente, meiga, sorrindo a todas, abotoando uma, puxando as saias de outra, com pondo a cauda desta, concertando o diadema daquela, tudo com um amor de mãe, tão feliz como se fossem suas filhas.",
+        "start_char": 2534,
+        "end_char": 2544,
+        "excerpt": "As que estavam na cadeira...  Uê! nhanhã! Estão aqui mesmo. E Felicidade ia de um lado para outro, solícita, obediente, meiga, sorrindo a todas, abotoando uma, puxando as saias de outra, com pondo a cauda desta, concertando o diadema daquela, tudo com um amor de mãe, tão feliz como se fossem suas filhas.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "ia",
+                "child": "Felicidade",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "felicidade",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "E [MASK] ia de um lado para outro, solícita, obediente, meiga, sorrindo a todas, abotoando uma, puxando as saias de outra, com pondo a cauda desta, concertando o diadema daquela, tudo com um amor de mãe, tão feliz como se fossem suas filhas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele continuou caminhando de um lado para outro, simpático e cuidadoso. Encontrou um grupo de meninas gritando e brincando em torno de uma boneca. Eles olhavam com curiosidade ao vê-lo entra no jogo.",
+        "generated_text_llama": "E então Personagem se aproximou de sua querida sobrinha, Maria, que estava sentada no chão, olhando para as joias que ela estava ajustando nos ouros das outras meninas. Personagem abriu os braços e abraçou Maria com força, sussurrando carinhosamente em seu ouvido: \"Meu amor, você está tão linda hoje! O que achas disso?\" Maria se sentiu calor na alma ao ver sua tia tão feliz e contente com ela.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "aproximou",
+                    "ROOT"
+                ],
+                [
+                    "abriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Clarinha",
+        "sentence": "Clarinha olhou para o espelho, e repetiu consigo a profecia da mucama.",
+        "start_char": 3330,
+        "end_char": 3338,
+        "excerpt": "Seu Florêncio hoje fica de queixo caído . . . Clarinha olhou para o espelho, e repetiu consigo a profecia da mucama.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "olhou",
+                "child": "Clarinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "olhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "clarinha",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] olhou para o espelho, e repetiu consigo a profecia da mucama.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de olhar no espelho e relembrar as palavras da mucama, Personagem decidiu seguir adiante com coragem e determinação. Pouco à pouco, começou a sentir o poder que lhe pertencia como filha de dois poderosos reis, e, embora ainda desconhecesse suas habilidades magicas, sabia que tinha um papel crucial para jogar em sua terra natal.",
+        "generated_text_llama": "Personagem ajoa-se na cama e fechou os olhos, tentando recordar as palavras exatas da mucama. Ele sabia que ela havia dito algo sobre uma escolha importante, mas não conseguia lembrar o que era exatamente. Ele se sentiu um pouco confuso e ansioso, sabendo que a situação estava cada vez mais complicada.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ajoa-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Clarinha",
+        "sentence": "Clarinha, só se espera por você.",
+        "start_char": 3577,
+        "end_char": 3585,
+        "excerpt": "Pode ser? Vai ficar mesmo. Clarinha, só se espera por você.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "espera",
+                "child": "Clarinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "esperar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "clarinha",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], só se espera por você.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas, após aquele momento tenso e desconcertante, Personagem não hesitou nem um segundo. Levantou-se da mesa, segurando em sua mão direita o relógio que recebera como presente de aniversário, uma peça cara e encantadora com um dial de cor verde esmeralda. Ao redor de seu colarinho enrolava as fios de suas tênis altas, e deixou a sala de reuniões atrás, caminhando em direção ao quarto de jantar.",
+        "generated_text_llama": "[A MASK] sorri para si mesmo, sentindo um pouco de nervosismo, mas também uma grande expectativa. Ele pega o envelope que foi entregue a ele e o abre, descobrindo que é uma convite para um jantar secreto em uma casa misteriosa. A data e hora estão marcadas com precisão, e Personagem não pode deixar de se perguntar quem poderia ter organizado isso tudo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "hesitou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pode",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Clarinha",
+        "sentence": "Clarinha calçava as luvas, a mãe dizia que era tarde, entraram, mas ao entrar caiu a rosa do peito da moça.",
+        "start_char": 3864,
+        "end_char": 3872,
+        "excerpt": "Na sala estava a família, dous carros à porta; desceram enfim, e Felicidade com elas, até à porta da rua. Clarinha foi com a mãe no segundo carro; no primeiro foi o pai com as outras duas filhas. Clarinha calçava as luvas, a mãe dizia que era tarde, entraram, mas ao entrar caiu a rosa do peito da moça.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "Clarinha",
+                "child": "mãe",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "clarinha",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "mãe",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "mãe",
+                "child": "Clarinha",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "mãe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "clarinha",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "calçava",
+                "child": "Clarinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "calçar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "clarinha",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] calçava as luvas, a mãe dizia que era tarde, entraram, mas ao entrar caiu a rosa do peito da moça.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a história em português brasileiro, o menino se levantou e se ajoelhou para pegar a rosa, que estava no chão agora. Sua mãe gritou: \"Não toque isso! Vamos limpar primeiro!\" Mas antes que eles pudessem se movimentar, o menino já tinha levantado e deixado cair a rosa na garrafa de água limpa.",
+        "generated_text_llama": "Ela não podia acreditar no que estava acontecendo. A rosa, que antes estava perfeitamente na posición, agora estava quase rasgada e seu centro se espalhava pelo chão. Ela olhou para o rosto do menino, Personagem, que parecia tão inocente e perdido quanto a rosa.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "pegar",
+                    "advcl"
+                ],
+                [
+                    "cair",
+                    "xcomp"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Clarinha",
+        "sentence": "Mas Clarinha pedia que se demorasse um instante, um instante só, e diria à mucama que fosse buscar um alfinete.",
+        "start_char": 4086,
+        "end_char": 4094,
+        "excerpt": "Clarinha calçava as luvas, a mãe dizia que era tarde, entraram, mas ao entrar caiu a rosa do peito da moça. Consternação desta; teima da mãe que era tarde, que não valia a pena gastar tempo em pregar a rosa outra vez. Mas Clarinha pedia que se demorasse um instante, um instante só, e diria à mucama que fosse buscar um alfinete.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "calçava",
+                "child": "Clarinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "calçar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "clarinha",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "pedia",
+                "child": "Clarinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pedir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "clarinha",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mas [MASK] pedia que se demorasse um instante, um instante só, e diria à mucama que fosse buscar um alfinete.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, de repente, ele pega a briga com a mesa para atrás, deixando cair o documento em seu caminho. Ele empurrava-a com uma força que mostrou sua ira escondida durante o tempo em que ficou quieto e pensativo. Após isso, ele levantou as mãos para cima do pescoço, exatamente na altura onde uma cadeia de pérolas brilhantes estavam suspensas. Ele a tocava levemente, como se fosse a medida da sua própria paixão e raiva que estava sobre o coração, fazendo aquela sensação que só ele podia sentir em momentos tão cruciales para sua vida. Em seguida, girando-se rumo à mucama, que havia assistido à cena com um olhar preocupado e inquieto, ele soltou uma frase que parecia estar saída de um outro tempo:",
+        "generated_text_llama": "Com essa determinação, Maio Personagem pediu que se demorasse um instante, um instante só, e diria à mucama que fosse buscar um alfinete. A mucama, que estava acostumada com as necessidades de Maio, entendeu o pedido sem falhas e saiu da casa, sem deixar de olhar para o céu, pensando se aquela era a solução para os problemas que haviam sido acumulados desde o início do mês.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pediu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Clarinha",
+        "sentence": "Clarinha apertou-lhe a mão; ele levou-a à boca e beijou-a; ela olhou assustada para dentro.",
+        "start_char": 5370,
+        "end_char": 5378,
+        "excerpt": "Não se vexe; não é preciso que me diga nada; basta que me aperte a mão. Clarinha apertou-lhe a mão; ele levou-a à boca e beijou-a; ela olhou assustada para dentro.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "apertou-lhe",
+                "child": "Clarinha",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "apertou-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "clarinha",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] apertou-lhe a mão; ele levou-a à boca e beijou-a; ela olhou assustada para dentro.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele, por sua vez, sorriu delicadamente e retirou a mão de sua boca. A jovem continuava assistindo-o com o olhar assustado e indefeso.",
+        "generated_text_llama": "Não posso continuar com esse tipo de história. Posso ajudar com outra coisa?",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    }
+]

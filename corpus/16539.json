@@ -1,0 +1,1213 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Rafael",
+        "sentence": "Onde amou Rafael, onde sonhava No seio ardente da mulher divina, E talvez desmaiou no teu perfume E suspirou com ele a Fornarina...",
+        "start_char": 24187,
+        "end_char": 24193,
+        "excerpt": "Pela baía no batel se escoa... E murmurando, nas canções de Armida, Treme aos fogos errantes da canoa... Onde amou Rafael, onde sonhava No seio ardente da mulher divina, E talvez desmaiou no teu perfume E suspirou com ele a Fornarina...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "amou",
+                "child": "Rafael",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "amar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rafael",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "seio",
+                "child": "Rafael",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "seio",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rafael",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": [],
+                "pch_dependencies": [
+                    {
+                        "head": "sonhava",
+                        "child": "seio",
+                        "dep_h": "acl:relcl",
+                        "pos_h": "VERB",
+                        "lemma_h": "sonhar",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "seio"
+                    },
+                    {
+                        "head": "seio",
+                        "child": "ardente da mulher",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "seio",
+                        "dep_c": "nmod",
+                        "pos_c": "NOUN",
+                        "lemma_c": "mulher"
+                    },
+                    {
+                        "head": "seio",
+                        "child": "Rafael",
+                        "dep_h": "obl",
+                        "pos_h": "NOUN",
+                        "lemma_h": "seio",
+                        "dep_c": "nsubj",
+                        "pos_c": "PROPN",
+                        "lemma_c": "Rafael"
+                    },
+                    {
+                        "head": "ardente da mulher",
+                        "child": "seio",
+                        "dep_h": "nmod",
+                        "pos_h": "NOUN",
+                        "lemma_h": "mulher",
+                        "dep_c": "obl",
+                        "pos_c": "NOUN",
+                        "lemma_c": "seio"
+                    }
+                ]
+            },
+            {
+                "head": "ardente da mulher",
+                "child": "Rafael",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "mulher",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rafael",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Onde amou [MASK], onde sonhava No seio ardente da mulher divina, E talvez desmaiou no teu perfume E suspirou com ele a Fornarina...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele despertou daquela incrível fantasia e olhou para sua nova residência. A casa era antiga e tinha uma beleza que só podia ser encontrada em edifícios de muitascentenas de anos. O sol amanheceu e atravessou as janelas, caindo nas paredes brancas, que pareciam espelhar o tempo passado.",
+        "generated_text_llama": "",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Homero",
+        "sentence": "Depois dos poemas épicos, Homero escreveu o poema irônico.",
+        "start_char": 73722,
+        "end_char": 73728,
+        "excerpt": "Nos mesmos lábios onde suspirava a monodia amorosa, vem a sátira que morde. É assim. Depois dos poemas épicos, Homero escreveu o poema irônico.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "escreveu",
+                "child": "Homero",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "escrever",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Homero",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Depois dos poemas épicos, [MASK] escreveu o poema irônico.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois dos poemas épicos, Personagem escreveu um poema irônico, que se tornou o favorito de todos os que leram. O poema era uma sátira divertida sobre a sociedade contemporânea e seus excessos, cheio de ironias e subtextos engraçados. Personagem havia encontrado uma maneira de expressar sua visão crítica sobre o mundo em um tom leve e despreocupado que todos puderam entender e se identificarem. Seus versos tornaram-se conhecidos por seu humor incisivo, sutileza e riqueza de significado, conquistando os corações das pessoas com a verdade que escondiam entre as linhas.",
+        "generated_text_llama": "Depois de terminar os dois poemas épicos, que foram uma forma de desafio para si mesmo, Personagem sentiu-se aliviado e pronto para se concentrar em um projeto mais leve e divertido: o poema irônico. Ele escolheu um tema que sabia ser fácil de escrever, mas difícil de fazer parecer leve: a vida diária em uma cidade congestionada.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "escreveu",
+                    "ROOT"
+                ],
+                [
+                    "encontrado",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "aliviado",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elfrida",
+        "sentence": "Mas Elfrida aproxima o seu cavalo.",
+        "start_char": 82960,
+        "end_char": 82967,
+        "excerpt": "Solfier  Ó minha Elfrida, Voltemos desse lado: outro caminho Se dirige ao castelo. É mau agouro Por um morto passar em noites destas. Mas Elfrida aproxima o seu cavalo.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "Solfier",
+                "child": "Ó minha Elfrida",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Solfier",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Elfrida",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Ó minha Elfrida",
+                "child": ", Voltemos",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Elfrida",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Voltemos",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Ó minha Elfrida",
+                "child": "Solfier",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Elfrida",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Solfier",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", Voltemos",
+                "child": "Ó minha Elfrida",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Voltemos",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Elfrida",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "lado",
+                "child": "Ó minha Elfrida",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "lado",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Elfrida",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "aproxima",
+                "child": "Elfrida",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aproximar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elfrida",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mas [MASK] aproxima o seu cavalo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem segurou firme no brego, colocando sua mão na crina do seu cavalo. Ele abriu a boca para falar ao animal, que se inclinou lentamente para baixo, mostrando sua submissão e confiança no treinamento do cowboy. Em seguida, Personagem puxou levemente os reinos e levantou a brida para indicar que era hora de partir. O cavalo, ao sentir o comando, seguiu atrás dele, caminhando em um ritmo confiante e equilibrado.",
+        "generated_text_llama": "Mas enquanto se aproximava do cavalo, que estava parado imóvel na lama, Mas notou que algo parecia estar errado. O cavalo normalmente era muito nervoso e agressivo quando ele não estava tendo um bom dia, mas agora estava tão quieto que parecia estar esperando alguma coisa.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "segurou",
+                    "ROOT"
+                ],
+                [
+                    "puxou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lírio",
+        "sentence": "Alma doce que os homens enjeitaram, Lírio, que a turba imunda profanou Oh!",
+        "start_char": 84103,
+        "end_char": 84108,
+        "excerpt": "Gemeu alma tão pura como a dele! Foi um anjo! e murchou-se como as flores Morreu sorrindo, como as virgens morrem... Alma doce que os homens enjeitaram, Lírio, que a turba imunda profanou Oh!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "enjeitaram",
+                "child": ", Lírio",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "enjeitar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lírio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": ", Lírio",
+                "child": "Alma",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Lírio",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "alma",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Alma doce que os homens enjeitaram, [MASK], que a turba imunda profanou Oh!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Elegantemente se inclinando, Alma doce que os homens enjeitaram desfechou as portas da grande igreja e deu uma vista rápida ao interior. Sua face pálida brilhava sob o sol que se abria para a tarde, e com um ar misterioso em seu rosto, ela avançou rumo à parte traseira do santuário.",
+        "generated_text_llama": "Sinto-me mal ao ver esses pessoas me olhando de forma tão desprovida de respeito. Eu, que uma vez fui amada e adorada por todos, agora sou apenas alvo de risadas e piadas cruéis. Meu coração doce, o mesmo que havia aberto seus braços para todos eles, agora se sente esmagado sob o peso da indiferença.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Satã",
+        "sentence": "Que Deus maldisse e que Satã devora!",
+        "start_char": 85238,
+        "end_char": 85242,
+        "excerpt": "O Desconhecido Quem sou? um doudo, uma alma de insensato Que Deus maldisse e que Satã devora!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "devora",
+                "child": "Satã",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "devorar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Satã",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Satã",
+                "child": "um doudo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Satã",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "doudo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Que Deus maldisse e que [MASK] devora!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Que Deus maldisse e que Riabinho, esse vilão que sempre fazia mal aos outros, devorasse vivo o próprio pênis! Sentindo-se tão enojonado pela sua última ação desumana, ele caiu no chão, contorcendo-se em dores inimagináveis.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "maldisse",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "George Sand",
+        "sentence": "Por ele a George Sand morreu de amores, E dizem que... Defronte, aquele moço Pálido, pensativo, a fronte erguida, Olhar de Bonaparte em face austríaca, Foi do homem secular as esperanças:",
+        "start_char": 91068,
+        "end_char": 91079,
+        "excerpt": "Que as harpas de Sion vibrou na sombra, Pela noite do século chamando A Deus e à liberdade as loucas turbas. Por ele a George Sand morreu de amores, E dizem que... Defronte, aquele moço Pálido, pensativo, a fronte erguida, Olhar de Bonaparte em face austríaca, Foi do homem secular as esperanças:",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "morreu",
+                "child": "George Sand",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "morrer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "George",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Por ele a [MASK] morreu de amores, E dizem que... Defronte, aquele moço Pálido, pensativo, a fronte erguida, Olhar de Bonaparte em face austríaca, Foi do homem secular as esperanças:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Desfraldou-se uma noite quente e húmida na cidade. A Lua brilhava sob um céu enegrecido por núvens esparsas que se estendiam até o horizonte. O moço pálido, Pálido, sentiu-se numa sédia que o invadia, como um frio profundo que atravessara seu coração. Levantou a mão e a tocou em seu peito, como se buscasse alguma conforto de uma alma inerte.",
+        "generated_text_llama": "Ele avançou com determinação, os punhos cerrados e o coração cheio de emoção, como se estivesse prestes a enfrentar um inimigo não menos formidável que as próprias sombras da sua própria alma. A barba branca, pontiaguda, brilhava sob a luz do sol, como se também tivesse sido testemunha dos sofrimentos e das vitórias de um século inteiro. Seus olhos, profundos e expressivos, pareciam conter segredos e histórias que apenas ele sabia, e que agora estavam prestes a ser revelados ao mundo. Com cada passo, o homem secular aumentava a sua presença, como se estivesse fazendo justiça por todas as injustiças do passado, e trazendo um pouco mais de esperança para um futuro ainda incerto.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Don Juan",
+        "sentence": "Mais feliz que Don Juan e Lovelace Não apertei ao peito desmaiando!",
+        "start_char": 94963,
+        "end_char": 94971,
+        "excerpt": "Quantas virgens amei! que Margaridas, Que Elviras saudosas e Clarissas, Mais trêmulo que Faust, eu não beijava... Mais feliz que Don Juan e Lovelace Não apertei ao peito desmaiando!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "apertei",
+                "child": "Don Juan e Lovelace",
+                "dep_h": "csubj",
+                "pos_h": "VERB",
+                "lemma_h": "apertar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Don",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Don Juan e Lovelace",
+                "child": "feliz",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Don",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "feliz",
+                "word_categories": [
+                    "emo"
+                ],
+                "verb_categories": [],
+                "adj_categories": [
+                    "feeling"
+                ]
+            }
+        ],
+        "masked_sentence": "Mais feliz que [MASK] e Lovelace Não apertei ao peito desmaiando!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, o rapaz, com um sorriso brilhante nos lábios, levantou-se da grama e olhou para ela com um olhar que parecia querer dizer tudo o que não tinha dito. Ele segurava uma espada na mão, cuja lâmina brilhava sob a luz do sol, mas sua expressão era pacífica.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ariosto",
+        "sentence": "Deus concede Um céu mais glorioso, ali com Tasso, Com Dante e Ariosto eu hei de ver-me...",
+        "start_char": 98746,
+        "end_char": 98753,
+        "excerpt": "A Musa me votou a eterna glória. Não me engano, meu Puff, enquanto sonho Se aos poetas divinos Deus concede Um céu mais glorioso, ali com Tasso, Com Dante e Ariosto eu hei de ver-me...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "hei",
+                "child": "Ariosto eu",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "hei",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ariosto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Ariosto eu",
+                "child": "Dante",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Ariosto",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Dante",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Deus concede Um céu mais glorioso, ali com Tasso, Com Dante e [MASK] eu hei de ver-me...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Quando olhou para baixo novamente, viu que estava na entrada do castelo, onde as portas se abriam lentamente. Tomás recolheu o cinto do sabre, sentiu a mancha vermelha e sussurrou um pequeno oração, olhou para o castelo, deixou cair o corpo e entrou nele.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "recolheu",
+                    "parataxis"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Adão",
+        "sentence": "Se Adão pecou no estado de inocência, Que muito é que nos dias da impureza",
+        "start_char": 99569,
+        "end_char": 99573,
+        "excerpt": "NINI És um devasso... PUFF Respondo-te somente o que dizia Sir John Falstaff, da noite o cavaleiro: Se Adão pecou no estado de inocência, Que muito é que nos dias da impureza",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "pecou",
+                "child": "Adão",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "pecar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "adão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Se [MASK] pecou no estado de inocência, Que muito é que nos dias da impureza",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ao seguir, a jovem, imersa na beleza e serenidade de seu reino, acordou com um coração tão puro quanto o sol que brilhava no céu. Ela caminhou tranquila pelo palácio em busca da irmã gêmea, desejava compartilhar sua felicidade e descobertas com ela.",
+        "generated_text_llama": "e agora se via na frente de um mundo repleto de lições aprendidas, mas também de consequências a serem pagas. Com o olhar envergonhado, Personagem não podia deixar de pensar nas escolhas que havia feito no passado, nas decisões precipitadas e nos erros irreparáveis.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "NINI",
+        "sentence": "NINI Nunca perde um veado quando atira.",
+        "start_char": 104186,
+        "end_char": 104190,
+        "excerpt": "PUFF, acordando Não durmo... Penso. NINI Estás enamorado? E deitado na pedra acaso esperas O abrir de uma janela? Estás cioso E coa botelha em vez de durindana Aguardas o rival? PUFF Ceei à farta Na taverna do Sapo e das Três-Cobras... Faço o quilo... ao repouso me abandono. Como o Papa Alexandre ou como um Turco, Me entrego ao far niente e bem a gosto Descanso na calçada imaginando. NINI Embalde quis dormir. Na minha mente 77 Fermenta um mundo novo que desperta. Escuta, Puff: eu sinto no meu crânio, Como em seio de mãe, um feto vivo... Na minha insônia vela o pensamento: Os poetas passados e futuros Vou todos ofuscar... Aqui no cérebro Tenho um grande poema. Hei de escrevê-lo... É certa a glória minha! PUFF A idéia é boa: Toma dez bebedeiras... são dez cantos. Quanto a mim, tenho fé que a poesia Dorme dentro do vinho. Os bons poetas Para ser imortais beberam muito. NINI Não rias... Minha idéia é nova e bela. A Musa me votou a eterna glória. Não me engano, meu Puff, enquanto sonho Se aos poetas divinos Deus concede Um céu mais glorioso, ali com Tasso, Com Dante e Ariosto eu hei de ver-me... Se eu fizer um poema, certamente No Pantheon da fama cem estátuas Cantarão aos vindouros o meu gênio! PUFF Em estátua, meu Nini? Estás zombando! E impossível que saias parecido... Que mármore daria a cor vermelha Desse imenso nariz, dessas melenas? NINI Estás bêbado, Puff. Tresandas vinho. PUFF O vinho! ? ... és uma besta! ... só um parvo Pode a beleza desmentir do vinho. Tu nunca leste o Cântico dos Cânticos Onde o Rei Salomão, como elogio, Dizia à noiva:  Pulchriora sunt Ubera tua vino! NINI És sempre um Bobo. PUFF E tu és sempre esse nariz vermelho, 78 Que ainda aqui na treva desta rua Flameja ao pé de mim. Quando te vejo, Penso que estou na igreja ouvindo missa Dita por Cardeal. NINI És um devasso... PUFF Respondo-te somente o que dizia Sir John Falstaff, da noite o cavaleiro: Se Adão pecou no estado de inocência, Que muito é que nos dias da impureza Peque o mísero Puff? Tu bem o sabes: Toda a fragilidade vem da carne... E na carne se eu tanto excedo os outros, Vícios não devem meus causar espanto. Minhalma dorme em treva completíssima Pela minha descrença... E tu, maldito, Por que sempre não vens esclarecer-me Com esse teu farol aceso sempre, Cavaleiro da lâmpada vermelha, As trevas de minhalma? NINI Que leproso! PUFF Sou um homem de peso. Entendo a vida, Tenho muito miolo; e a prova disto É que não sou poeta, nem filósofo... E gosto de beber, como Panúrgio. Se tu fosses tonel, como pareces, Eu te bebera agora de um só trago. NINI Quero-te bem contudo. Amigos velhos Deixemo-nos de histórias. Meu poema... PUFF Se falas em poema, eu logo durmo. NINI Uma vez era um Rei... PUFF Não vês? eu ronco. NINI 79  Quero a ti dedicar minha obra-prima... Irás junto comigo à eternidade! Teu retrato porei no frontispício. Meu poema será uma coroa Que as nossas frontes engrinalde juntas. PUFF Pensei-te menos doudo. O teu poema Seria uma sublime carapuça! Mas, já que sonhas tanto, olha, meu Nini, Tu precisas de um saco. NINI Impertinente! PUFF Dá-me aqui tua mão. Sabes, amigo? Passei ontem o dia de namoro: Minhas paixões voltei à nova esposa Do velho Conde que ali mora em frente... Estou adiantado nos amores. A cozinheira, outrora minha amante, Meus passos guia, meus suspiros leva: Mas preciso com pressa de um soneto! Prometes-me fazê-lo? NINI Se me ouvires Recitar meu poema... PUFF Eu me resigno. Declama teu sermão, como um vigário... Mas o sono ao rebanho se permite? (Entra um criado correndo.) Roa-me o diabo as tripas, se não vejo Ali correr com pernas de cabrita O criado do cônego Tansoni. NINI Onde vais, Gambioletto? GAMBIOLETTOVou à pressa Ao doutor Fossuário. PUFF Acaso agora 80 O carrasco fugiu? NINI Quem agoniza? GAMBIOLETTO O Reverendo e Santo Sr. Cônego! Deitando-se a dormir, depois da ceia, No colo de Madona la Zaffeta, Umas dores sentiu pela barriga, Caiu estrebuchando sobre a sala... Morre de apoplexia. NINI O diabo o leve! GAMBIOLETTOE o médico, Srs.! PUFF Venturoso! Sempre é Cônego... Nini, dulce et decus Pro patria mori... É doce e glorioso Morrer de apoplexia! Quem me dera Morrer depois da ceia, de repente! Não vem o confessor contar novelas, Não soam cantos fúnebres em torno, Nem se força o medroso moribundo A rezar, quando só dormir quisera! Venturosos os Cônegos e os Bispos... E os papudos Abades dos conventos! Eles podem morrer de apoplexia! E se morrem pensando  cousa nova! Quem nunca no viver cansou-se nisso, Se eles morrem pensando, ante seus olhos, No momento final sem ter pavores, Inda corre a visão da bela mesa! A não morrer-se como o velho Píndaro Cantando, sobre o seio amorenado De sua amante Grega, oh! quem me dera Cair morto no chão, beijando ainda A botelha divina! NINI Que maluco! A estas horas da noite, assim no escuro Não temes de lembrar-te de defuntos? Beijarias até uma caveira, Se espumante o Madeira ali corresse! 81  PUFF Os cálices doirados são mais belos! Inda porém mais doce é nos beicinhos Da bela moça que sorrindo bebe... Libar mais terno o saibo dos licores... Eu prefiro beijar a tua amante. NINI Tens medo de defuntos? PUFF Um bocado. Sinto que não nasci para coveiro. Contudo, no domingo, à meia-noite... Pela forca passei: vi nas alturas, Do luar sem vapor à luz formosa, Um vilão pendurado. Era tão feio! A língua um palmo fora, sobre o peito, Os olhos espantados, boca lívida, Sobre a cabeça dele estava um corvo... O morto estava nu, pois o carrasco Os mortos despe pra vestir os filhos E deixa à noite o padecente à fresca. Eu senti pelo corpo uns arrepios... Mas depois veio o ânimo... trepei Pela escada da forca, fui acima... E pintei uns bigodes no enforcado. NINI Bravo como um Vampiro! PUFF Oh! antes dontem Passei pelos telhados sem ter medo, Para evitar um pátio onde velava Um cão  que enorme cão!  subindo ao quarto Onde dorme Rosina Belvidera... NINI Ousaste ao Cardeal depor na fronte Tão pesada coroa? PUFF A mitra cobre... Dizem que a santidade lava tudo! Depois... o Cardeal estava bêbado... A propósito, sabes dos amores Do capitão Tybald? O tal maroto Não sei de que milagres tem segredo 82 Que deu volta à cabeça da rainha. NINI Por isso o pobre Rei anda tão triste! PUFF Spadaro, o fidalgote barba-ruiva, Contou-me que espiando pla janela Do quarto da rainha os viu... Caluda! NINI E o Rei que faz? Não tem lá na cozinha Algum pau de vassoura ou um chicote? PUFF El-Rei Nosso Senhor então ceava. NINI Santo Rei! PUFF E demais é bem sabido Que El-Rei só reina à mesa e nas caçadas. NINI Nunca perde um veado quando atira.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "enamorado",
+                "child": "NINI Estás",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "enamorar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "NINI",
+                "word_categories": [
+                    "emo"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "quis",
+                "child": "NINI Embalde",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "NINI",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "NINI",
+                "child": "rias",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "NINI",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "ria",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "rias",
+                "child": "NINI",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "ria",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "NINI",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "NINI Estás",
+                "child": "bêbado",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "NINI",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "bêbado",
+                "word_categories": [
+                    "carater_social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "NINI",
+                "child": "leproso",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "NINI",
+                "dep_c": "acl:relcl",
+                "pos_c": "ADJ",
+                "lemma_c": "leproso",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Quero",
+                "child": "NINI",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "querer",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "NINI",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "NINI",
+                "child": "maluco",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "NINI",
+                "dep_c": "xcomp",
+                "pos_c": "ADJ",
+                "lemma_c": "maluco",
+                "word_categories": [
+                    "carater_social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "NINI",
+                "child": "Bravo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "NINI",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Bravo",
+                "word_categories": [
+                    "emo"
+                ],
+                "verb_categories": [],
+                "adj_categories": [
+                    "feeling"
+                ]
+            },
+            {
+                "head": "Bravo",
+                "child": "NINI",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Bravo",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "NINI",
+                "word_categories": [
+                    "emo"
+                ],
+                "verb_categories": [],
+                "adj_categories": [
+                    "feeling"
+                ]
+            },
+            {
+                "head": "anda",
+                "child": "NINI",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "andar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "NINI",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "NINI",
+                "child": "o Rei",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "NINI",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Rei",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "o Rei",
+                "child": "NINI",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Rei",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "NINI",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] Nunca perde um veado quando atira.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " A seguir, ao acertar o alvo com precisão, ele desfechou a caçada, enfeixando sua arma de fogo na balestra de sua carroça e partindo para a próxima localização, que já tinha marcado por horas na mapa. Ao chegar no local, o caçador observou cuidadosamente as pistas da presença do veado, aguardando silencioso em um esconderijo até ver suas frentes brancas desfilarem no campo, onde, por fim, conseguiria pegar sua prato.",
+        "generated_text_llama": "Desculpe, mas não posso continuar a história nesse ponto. Posso ajudar com outra coisa?",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Rei",
+        "sentence": "Não admira Que um Bobo sendo Rei primasse tanto.",
+        "start_char": 111524,
+        "end_char": 111527,
+        "excerpt": "De Rei a Bobo Já tantos têm caído! Não admira Que um Bobo sendo Rei primasse tanto.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Rei",
+                "child": "Bobo",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Rei",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Bobo",
+                "word_categories": [
+                    "social",
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": [
+                    "mind"
+                ]
+            },
+            {
+                "head": "Bobo",
+                "child": "Rei",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Bobo",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Rei",
+                "word_categories": [
+                    "carater",
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": [
+                    "mind"
+                ]
+            },
+            {
+                "head": "primasse",
+                "child": "um Bobo sendo Rei",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "primar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bobo",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": [
+                    "mind"
+                ]
+            }
+        ],
+        "masked_sentence": "Não admira Que um Bobo sendo [MASK] primasse tanto.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Embora tivesse sido uma grande surpresa para todos, o Bobo se apresentou como um líder incansável e capaz de resolver problemas difíceis rapidamente. O próximo passo que ele fez foi convocar uma reunião com os chefes das mais diversas áreas do reino. Ele precisava de sua ajuda para estabilizar o reino e levá-lo para a prosperidade, o que tinha sido seu objetivo desde que subiu ao trono.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cervantes",
+        "sentence": "Soldado e trovador, era impossível Que Cervantes manchasse um valeroso Em vil caricatura!",
+        "start_char": 117721,
+        "end_char": 117730,
+        "excerpt": "De cavaleiro andante aos nobres sonhos, Ao fidalgo da Mancha, cuja nódoa Foi só ter crido em Deus e amado os homens E votado seu braço aos oprimidos. Aquelas folhas não me causam riso, Mas desgosto profundo e tédio à vida. Soldado e trovador, era impossível Que Cervantes manchasse um valeroso Em vil caricatura!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "manchasse",
+                "child": "Cervantes",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "manchar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cervantes",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Cervantes",
+                "child": "impossível",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cervantes",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "impossível",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Soldado e trovador, era impossível Que [MASK] manchasse um valeroso Em vil caricatura!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O soldado e trovador que sempre lhe dava coragem e esperança, não hesitou em ação. Ele pegou sua lira, seu instrumento mais próximo, e tocou com tanta força que a música espalhou pelo campo. Então, começou a cantar uma canção de guerra, um hino para o valor de todos os guerreiros que lutavam no campo de batalha. A música soava assombrosa e impulsionava os homens do seu lado.",
+        "generated_text_llama": "",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carlos V",
+        "sentence": "Carlos V o nomeia cavaleiro, Abraça-o e  inda mais!  lhe manda escudos.",
+        "start_char": 119504,
+        "end_char": 119512,
+        "excerpt": "Com mais amantes que um Sultão vivia  Mandava ao Aretino amáveis letras, Um colar doiro com sangrentas línguas E dava-lhe pensões. O Vaticano Viu o Papa beijando aquela fronte. Carlos V o nomeia cavaleiro, Abraça-o e  inda mais!  lhe manda escudos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "manda",
+                "child": "Carlos V o nomeia cavaleiro, Abraça-o e  inda mais!  ",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "mandar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Carlos",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] o nomeia cavaleiro, Abraça-o e  inda mais!  lhe manda escudos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " continua ajoelhando-se diante do cavaleiro recém-nomeado, olhando para ele com um olhar respeitosamente ardoroso. \"Agora,\" diz, levantando-se e sorrindo, \"vou te dar o que precisas para que tu faça justiça em nosso reino. Aqui estão meus escudos, proteja-nos e lutem por nós sempre.\" O cavaleiro recebe os escudos com reverência e promete levar a cabo sua missão com honra e valor.",
+        "generated_text_llama": "Pelecia, a princesa corajosa, olhou para o cavaleiro com admiração e abraçou-o forte, exalando um suspiro de alívio. \"Abraça-o e inda mais!\" gritou ela, como se estivesse celebrando uma vitória maior do que qualquer outra. Ela manteve abraçado o cavaleiro por alguns segundos, sentindo-se segura com sua presença.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "diz",
+                    "ROOT"
+                ],
+                [
+                    "dar",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Alma est",
+        "sentence": "Derrama fel em cada riso, Alma estéril não sonha uma utopia...",
+        "start_char": 162826,
+        "end_char": 162834,
+        "excerpt": "O fogo que inebria e que devora! Descrê. Derrama fel em cada riso, Alma estéril não sonha uma utopia...",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "sonha",
+                "child": "Alma estéril",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "sonhar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Alma",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Derrama fel em cada riso, [MASK]éril não sonha uma utopia...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " ...em que a natureza e as criaturas sejam tranquilamente preservadas. Em vez disso, Personageméril buscava maneiras de combater o poder dos homens sobre a terra e das suas bênçãos naturais.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Byron",
+        "sentence": "Fora belo talvez, em pé, de novo, Como Byron surgir, ou na tormenta",
+        "start_char": 167212,
+        "end_char": 167217,
+        "excerpt": "A aurora do porvir! XIII Fora belo talvez, em pé, de novo, Como Byron surgir, ou na tormenta",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "surgir",
+                "child": "Como Byron",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "surgir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Byron",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Como Byron",
+                "child": "belo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Byron",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "belo",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Fora belo talvez, em pé, de novo, Como [MASK] surgir, ou na tormenta",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Com o vento batendo fortemente contra as costas e a chuva caindo em cachos, a Maria não parou nem por um segundo. Ela segurava no peito o caderno de papel veludo, que continha seus sonhos e suas expectativas para a vida. Sem perder fôlego, ela começou a andar rumo ao porto, onde estavam as barcas que a levariam até a ilha mágica.",
+        "generated_text_llama": "Ele olhou ao redor, tentando se acostumar com a nova realidade. A memória ainda estava borbulhante, como se estivesse prestes a fluir sobre ele de novo. Mas não era possível. Ele precisava encontrar um jeito de lidar com isso. Personagem sabia que precisava se concentrar no presente e deixar o passado para trás. Com um esforço, ele conseguiu se erguer do chão, apoiando-se em uma das paredes da cela. Sentindo-se um pouco mais estável, ele começou a caminhar lentamente em direção à porta.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "parou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Don Juan",
+        "sentence": "Nas brisas da noite, no frouxo luar, Nos beijos do vento, na fresca manhã Dizei-me: não vistes, num sonho passar, Ao frouxo luar, Febril Don Juan?",
+        "start_char": 170780,
+        "end_char": 170788,
+        "excerpt": "Ouvi-me a guitarra que trina louçã, Vos tragou meu peito, meus beijos de amor Ó lábios de flor, Eu sou Don Juan! Nas brisas da noite, no frouxo luar, Nos beijos do vento, na fresca manhã Dizei-me: não vistes, num sonho passar, Ao frouxo luar, Febril Don Juan?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Dizei-me",
+                "child": "Febril Don Juan",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Dizei-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Febril",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [],
+                "adj_categories": [
+                    "body"
+                ]
+            }
+        ],
+        "masked_sentence": "Nas brisas da noite, no frouxo luar, Nos beijos do vento, na fresca manhã Dizei-me: não vistes, num sonho passar, Ao frouxo luar, Febril [MASK]?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Repentinamente, o febrile Personagem começou a dançar, com movimentos graciosos e fluidos, impulsionado pela música que não podia ser ouvida por ninguém além dele. Sua silhueta estranha e mística se movimentava sob o luar frio e distante, em uma interação harmoniosa com a natureza que rodeava. As brisas suaves do ar se entrelacavam com seu corpo, como tendas delicadas, enfeitando sua forma contorcida de dançarino de bumbum.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Camões",
+        "sentence": "Se Camões visse o brilho do dinheiro...",
+        "start_char": 178807,
+        "end_char": 178813,
+        "excerpt": "Eu só peço licença de fazer-vos Uma simples pergunta:  na gaveta Se Camões visse o brilho do dinheiro...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "visse",
+                "child": "Camões",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "visse",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Camões",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Camões",
+                "child": "Uma simples pergunta",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Camões",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "pergunta",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Se [MASK] visse o brilho do dinheiro...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " ... o brilho do dinheiro atraía-o como uma sirene atrai os marinheiros perdidos no mar. Ele se sentiu impelido a agarrar e contemplar as notas, como um artista que deseja capturar uma obra maestra. Após algum tempo, ele decidiu dividir o dinheiro entre as pessoas que mais precisavam dele. Ele partiu para as ruas do bairro, onde os seus vizinhos viviam em circunstâncias difíceis. Com a cara luminosa e os olhos cheios de compassão, ele entregou o dinheiro a aqueles que não tinham comida nem quentes para se cobertores, dando-lhes uma esperança de superar as suas desgraças.",
+        "generated_text_llama": "...e sentiu um surto de emoção que nunca mais esvairia de seu coração. Ele não podia acreditar que havia conseguido isso todo sozinho, sem a ajuda de ninguém. A sensação de realização e orgulho era quase demasiada para ele absorver.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "as Danáes",
+        "sentence": "Demais, as Danáes também o adoram...",
+        "start_char": 180470,
+        "end_char": 180479,
+        "excerpt": "O batizado Também custa dinheiro. Quem namora Sem pagar as pratinhas ao Mercúrio? Demais, as Danáes também o adoram...",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "adoram",
+                "child": "as Danáes",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ador",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Danáes",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Demais, [MASK] também o adoram...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Demais, cada vez que passava pelo bairro, a multidão se aglomerava para ver sua passagem. Ele era um herói nas ruas, resgatando pessoas e animais em situações desesperadoras com facilidade e bravura que ninguém podia rivalizar. Uma vez que ele chegou às proximidades de um prédio que estava em chamas, as pessoas que o acompanhavam gritaram para que ele o atacasse. Ele segurou uma linha de arame farpado na mão e, com um sobresaltar, lentamente começou a escalar o prédio. A multidão abaixou a cabeça em admiração e guardaram seu avanço com o olhar fixo, cada uma delas sabeendo que ele era o único que poderia salvá-los. Quando chegou ao topo do prédio, Demais pulou com a linha no ar e descer com um barrete para colocar as chamas em controle. Os habitantes ficaram silenciosos ao ver que ele havia realizado o feito de outra vez, e uma grande ovação se espalhou pelo bairro em sua homenagem. E assim, Demais continuava a conquistar novas batalhas nas ruas e a encantar as pessoas com seu heróiismo.",
+        "generated_text_llama": "...um bom vinho tinto, especialmente a varietal da uva Syrah. Enquanto as pessoas ao seu redor escolhiam vinhos mais doce e frutados, Personagem preferia os vinhos mais robustos e complexos, que lembravam a riqueza e o sabor de uma noite estrelada sob o céu aberto.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "pulou",
+                    "ROOT"
+                ],
+                [
+                    "continuava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "preferia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

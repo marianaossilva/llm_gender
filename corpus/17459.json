@@ -1,0 +1,675 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Inocêncio",
+        "sentence": "(Inocêncio ri-se à socapa) Não é da mesma opinião?",
+        "start_char": 11448,
+        "end_char": 11457,
+        "excerpt": "\" Que tal? DOUTORSublime! (Inocêncio ri-se à socapa) Não é da mesma opinião?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ri-se",
+                "child": "Inocêncio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "rir se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Inocêncio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "([MASK] ri-se à socapa) Não é da mesma opinião?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "[(Mask) olhou para ele com um ar de surpresa.] E então, tomou a sua copa de cerveja e caminhou lentamente em direção às pessoas que haviam se reunido ao redor do fogo. Sua voz soava mais firme do que nunca antes, quando perguntou: \"Vocês acreditam que será possível encontrar uma solução pacífica para esse conflito?\" Ao ouvir isso, alguns dos presentes se afastaram com um ar de desprezo, outros ficaram em silêncio e ainda outros abriram mão do seu ceticismo. Mas o Personagem sabia que estava fazendo algo importante. Ele continuou a procurar soluções pacíficas para o conflito que assolava sua terra e, ao longo dos anos, acabaria por tornar-se uma figura respeitada e admirada pela comunidade.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "CARLOTA",
+        "sentence": "CARLOTA(ergue-se e bate-lhe com o leque no ombro)",
+        "start_char": 13869,
+        "end_char": 13876,
+        "excerpt": "para consolar-me com seus olhares de algum desgosto que houvesse? E não houve nenhum. CARLOTA(ergue-se e bate-lhe com o leque no ombro)",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "ergue-se",
+                "child": "CARLOTA(",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ergue-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CARLOTA(",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK](ergue-se e bate-lhe com o leque no ombro)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem ergue-se e bate-lhe com o leque no ombro, como se estivesse tomando parte da briga. Então, ela olhou para as pessoas que a rodeavam e percebeu que ninguém parecia lhe importar ou reconhecer sua existência. Ela sentiu uma chama acendendo no seu peito, que rapidamente se transformou em uma fúria brando.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "ergue-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "CARLOTA",
+        "sentence": "CARLOTASinto que na minha perda, ganhe um desembargador; não sabe como odeio a toda essa gente do foro;",
+        "start_char": 14324,
+        "end_char": 14331,
+        "excerpt": "DOUTOROh! Hoje é o dia das surpresas. Acordo, leio os jornais e vejo anunciado para hoje o Trovador. Primeira surpresa. Lembro-me de passar por aqui para saber se D. Carlota queria ir ouvir a ópera de Verdi, e vinha pensando na triste figura que devia fazer em casa de uma moça do tom às 10 horas da manhã, quando te encontro firme como uma sentinela no posto. Duas surpresas. VALENTIMA triste figura sou eu? DOUTORAcertaste. Lúcido como uma sibila. Fazes uma triste figura, não to devo ocultar. VALENTIM(irônico)Ah! DOUTORTens ar de não dar crédito ao que digo! Pois olha, tens diante de ti a verdade em pessoa, com a diferença de não sair de um poço mas da cama, e de vir em traje menos primitivo. Quanto ao espelho, se o não trago comigo, há nesta sala um que nos serve com a mesma sinceridade. Mira-te ali. Estás ou não uma triste figura? VALENTIMNão me aborreças. DOUTORConfessas então? VALENTIMÉs divertido como os teus protestos de virtuoso! Aposto que me queres fazer crer no desinteresse das tuas visitas a D. Carlota? DOUTORNão. VALENTIMAh! DOUTORSou hoje mais assíduo do que era há um mês, e a razão é que há um mês que começaste a fazer-lhe corte. VALENTIMJá sei: não me queres perder de vista. DOUTORPresumido! Eu sou lá inspetor dessas coisas? Ou antes, sou; mas o sentimento que me leva a estar presente a essa batalha pausada e paciente está muito longe do que pensas; estudo o amor. VALENTIMSomos então os teus compêndios? DOUTORÉ verdade. VALENTIME o que tens aprendido? DOUTORDescobri que o amor é uma pescaria... VALENTIMQueres saber de uma coisa? Estás prosaico como os teus libelos. DOUTORDescobri que o amor é uma pescaria... VALENTIMVai-te com os diabos! DOUTORDescobri que o amor é uma pescaria. O pescador senta-se sobre um penedo, à beira do mar. Tem ao lado uma cesta com iscas; vai pondo uma por uma no anzol, e atira às águas a pérfida linha. Assim gasta horas e dias até que o descuidado filho das águas agarra no anzol, ou não agarra e... VALENTIMÉs um tolo. DOUTORNão contesto; pelo interesse que tomo por ti. Realmente dói-me ver-te há tantos dias exposto ao sol, sobre o penedo, com o caniço na mão, a gastar as tuas iscas e a tua saúde, quero dizer, a tua honra. VALENTIMA minha honra? DOUTORA tua honra, sim. Pois para um homem de senso e um tanto sério o ridículo não é uma desonra? Tu estás ridículo. Não há um dia em que não venhas gastar três, quatro, cinco horas a cercar esta viúva de galanteios e atenções, acreditando talvez ter adiantado muito, mas estando ainda hoje como quando começaste. Olha, há Penélopes da virtude e Penélopes do galanteio. Umas fazem e desmancham teias por terem muito juízo: outras as fazem e desmancham por não terem nenhum. VALENTIMNão deixas de ter uma tal ou qual razão. DOUTOROra, graças a Deus! VALENTIMDevo porém prevenir-te de uma coisa: é que ponho nesta conquista a minha honra. Jurei aos meus deuses casar-me com ela e hei de manter o meu juramento. DOUTORVirtuoso romano! VALENTIMFaço o papel de Sísifo. Rolo a minha pedra pela montanha; quase a chegar com ela ao cimo, uma mão invisível fá-la despenhar de novo, e aí volto a repetir o mesmo trabalho. Se isto é um infortúnio, não deixa de ser uma virtude. DOUTORA virtude da paciência. Empregavas melhor essa virtude em fazer palitos do que em fazer a roda a esta namoradeira. Sabes o que aconteceu aos companheiros de Ulisses passando pela ilha de Circe? Ficaram transformados em porcos. Melhor sorte teve Actéon que por espreitar Diana no banho passou de homem a veado. Prova evidente de que é melhor pilhá-las no banho do que andar-lhes à roda nos tapetes da sala. VALENTIMPassas de prosaico a cínico. DOUTORÉ uma modificação. Tu estás sempre o mesmo ridículo. Cena II Os mesmos, INOCÊNCIO (trazido por um criado) INOCÊNCIOOh! DOUTOR(baixo a Valentim) Chega o teu competidor. VALENTIM(baixo)Não me vexes. INOCÊNCIOMeus senhores! Já por cá? Madrugaram hoje! DOUTORÉ verdade. E V. S.? INOCÊNCIOComo está vendo. Levanto-me sempre com o sol. DOUTORSe V. S. é outro. INOCÊNCIO(não compreendendo) Outro quê? Ah! Outro sol! Este doutor tem umas expressões tão... fora do vulgar! Ora veja; a mim ainda ninguém se lembrou de dizer isto. Sr. Doutor, V. S. há de tratar de um negócio que trago pendente no foro. Quem fala assim é capaz de seduzir a própria lei! DOUTORObrigado! INOCÊNCIOOnde está a encantadora D. Carlota? Trago-lhe este ramalhete que eu próprio colhi e arranjei. Olhem como estas flores estão bem combinadas: rosas, paixão; açucenas, candura. Que tal? DOUTOREngenhoso! INOCÊNCIO(dando-lhe o braço) Agora ouça, Sr. Doutor. Decorei umas quatro palavras para dizer ao entregar-lhe estas flores. Veja se condizem com o assunto. DOUTORSou todo ouvidos. INOCÊNCIO\"Estas flores são um presente que a primavera faz à sua irmã por intermédio do mais ardente admirador de ambas. \" Que tal? DOUTORSublime! (Inocêncio ri-se à socapa) Não é da mesma opinião? INOCÊNCIOPudera não ser sublime: se eu próprio copiei isto de um Secretário dos Amantes! DOUTORAli! VALENTIM(baixo ao Doutor) Gabo-te a paciência! DOUTOR(dando-lhe o braço) Pois que tem! É miraculosamente tolo. Não é da mesma espécie que tu... VALENTIMCornélio! DOUTORDescansa; é de outra muito pior. Cena III Os mesmos, CARLOTA CARLOTAPerdão, meus senhores, de os haver feito esperar... (distribui apertos de mão) VALENTIMNós é que lhe pedimos desculpa de havermos madrugado deste modo... DOUTORA mim, traz-me um motivo justificável. CARLOTA(rindo)Ver-me? (vai sentar-se) DOUTORNão. CARLOTANão é um motivo justificável, esse? DOUTORSem dúvida; incomodá-la é que o não é. Ah! minha senhora, eu aprecio mais do que nenhum outro o despeito que deve causar a uma moça uma interrupção no serviço da toilette. Creio que é coisa tão séria como uma quebra de relações diplomáticas. CARLOTA Sr. Doutor graceja e exagera. Mas qual é esse motivo que justifica a sua entrada em minha casa, a esta hora? DOUTORVenho receber as suas ordens acerca da representação desta noite. CARLOTAQue representação? DOUTORCanta-se o Trovador. INOCÊNCIOBonita peça! DOUTORNão pensa que deve ir? CARLOTASim, e agradeço-lhe a sua amável lembrança. Já sei que vem oferecer-me o seu camarote. Olhe, há de desculpar-me este descuido, mas prometo que vou quanto antes tomar uma assinatura. INOCÊNCIO(a Valentim) Ando desconfiado do Doutor! VALENTIMPor quê? INOCÊNCIOVeja como ela o trata! Mas eu vou desbancá-lo, com minha frase do Secretário dos Amantes... (indo a Carlota) Minha senhora, estas flores são um presente que a primavera faz à sua irmã... DOUTOR(completando a frase) Por intermédio do mais ardente admirador de ambas. INOCÊNCIOSr. Doutor! CARLOTAO que é? INOCÊNCIO(baixo)Isto não se faz! (a Carlota) Aqui tem, minha senhora... CARLOTAAgradecida. Por que se retirou ontem tão cedo? Não lho quis perguntar... de boca; mas creio que o interroguei com o olhar. INOCÊNCIO(no cúmulo da satisfação) De boca? ... Com o olhar?... Ah! queira perdoar, minha senhora... mas um motivo imperioso... DOUTORImperioso... não é delicado. CARLOTANão exijo saber o motivo; supus que se houvesse passado alguma coisa que o desgostasse... INOCÊNCIOQual, minha senhora; o que se poderia passar? Não estava eu diante de V. Exa. para consolar-me com seus olhares de algum desgosto que houvesse? E não houve nenhum. CARLOTA(ergue-se e bate-lhe com o leque no ombro) Lisonjeiro! DOUTOR(descendo entre ambos) V. Exa. há de desculpar-me se interrompo uma espécie de idílio com uma coisa prosaica, ou antes com outro idílio, de outro gênero, um idílio do estômago; o almoço... CARLOTAAlmoça conosco? DOUTOROh! minha senhora, não seria capaz de interrompê-la; peço simplesmente licença para ir almoçar com um desembargador da relação a quem tenho de prestar umas informações. CARLOTASinto que na minha perda, ganhe um desembargador; não sabe como odeio a toda essa gente do foro;",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "mesmos",
+                "child": ", CARLOTA",
+                "dep_h": "amod",
+                "pos_h": "NOUN",
+                "lemma_h": "mesmo",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "CARLOTA",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "mesmos",
+                "child": "CARLOTAPerdão",
+                "dep_h": "amod",
+                "pos_h": "NOUN",
+                "lemma_h": "mesmo",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "CARLOTAPerdão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", CARLOTA",
+                "child": "mesmos",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "CARLOTA",
+                "dep_c": "amod",
+                "pos_c": "NOUN",
+                "lemma_c": "mesmo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", CARLOTA",
+                "child": "CARLOTAPerdão",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "CARLOTA",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "CARLOTAPerdão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "CARLOTAPerdão",
+                "child": "mesmos",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "CARLOTAPerdão",
+                "dep_c": "amod",
+                "pos_c": "NOUN",
+                "lemma_c": "mesmo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "CARLOTAPerdão",
+                "child": ", meus senhores",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "CARLOTAPerdão",
+                "dep_c": "appos",
+                "pos_c": "NOUN",
+                "lemma_c": "senhor",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", meus senhores",
+                "child": "CARLOTAPerdão",
+                "dep_h": "appos",
+                "pos_h": "NOUN",
+                "lemma_h": "senhor",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "CARLOTAPerdão",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "CARLOTANão é um motivo",
+                "child": "justificável",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "motivo",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "justificável",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "CARLOTAQue",
+                "child": "representação",
+                "dep_h": "amod",
+                "pos_h": "NOUN",
+                "lemma_h": "cARLOTAQue",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "representação",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "representação",
+                "child": "CARLOTAQue",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "representação",
+                "dep_c": "amod",
+                "pos_c": "NOUN",
+                "lemma_c": "cARLOTAQue",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "ergue-se",
+                "child": "CARLOTA(",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ergue-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CARLOTA(",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "sabe",
+                "child": "CARLOTASinto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "saber",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "CARLOTASinto",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "minha perda",
+                "child": "CARLOTASinto",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "perda",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "CARLOTASinto",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "um desembargador",
+                "child": "CARLOTASinto",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "desembargador",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "CARLOTASinto",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]Sinto que na minha perda, ganhe um desembargador; não sabe como odeio a toda essa gente do foro;",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem, com uma expressão de raiva e resignação no rosto, fez um passo determinado rumo à porta da sala. Com sua carteira sob o braço, ele saiu do prédio em silêncio, deixando para trás as paredes poluídas com a história de sua vida e o mal-gosto de tantos advogados que haviam se tornado seus inimigos. Numa tarde assombrosa, Personagem entrou no seu carro, desenhando para si mesmo uma imagem de um novo destino em sua cabeça: um juiz que poderia mudar as coisas na vida daqueles que tinham sido deixados pela justiçaa. \"Eu iré fazer diferença\", Personagem murmurou para si mesmo, olhando no espelho retrovisor. \"Vou ser um desembargador\".",
+        "generated_text_llama": "Eu me levantei da cadeira, sentindo-me mais animado do que em horas. Meu olhar se fixou no despacho de meu adversário, o Senhor João Silva, sabendo que ele estava sendo injusto e que a justiça estava de seu lado. Com um sorriso irônico, eu comecei a caminhar até a porta da sala, com a minha cartela na mão, pronta para a luta que estava prestes a começar.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "entrou",
+                    "ROOT"
+                ],
+                [
+                    "murmurou",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "fixou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "VALENTIM",
+        "sentence": "VALENTIM(senta-se junto à mesa defronte de Carlota)",
+        "start_char": 15141,
+        "end_char": 15149,
+        "excerpt": "CARLOTADeu-lhe agora essa doença? (vai sentar-se junto à mesa) VALENTIM(senta-se junto à mesa defronte de Carlota)",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "senta-se",
+                "child": "VALENTIM(",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sentar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "VALENTIM(",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK](senta-se junto à mesa defronte de Carlota)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em seguida, Senta-se junto à mesa defronte de Carlota e, com um sorriso encantador, perguntou a ela sobre a nova canção que estava a compor. A musa estava absorvida em seus instrumentos, mas, interrompida por sua voz aquecida, ela voltou a olhar para Senta. Carlota acendeu uma sonrisa e, com um sussurro delicado, abriu os bocais para compartilhar as primeiras linhas de sua obra em curso. Aos olhos lindamente arrependidos, o músico sorriu mais uma vez e, então, sentou-se a escrever ao lado da musa. Ao longo do dia, a harmonia entre eles cresceu, como se estivessem transformando em uma única alma dividida no duas por um destino inescapável. Com o sol atravessando as janelas e o ar cheio de fragrâncias exóticas, a nova composição vivaçava com cada nota que Senta e Carlota cantavam.",
+        "generated_text_llama": "Enquanto observava Carlota, Personagem (sente-se junto à mesa defronte de Carlota) sentiu um misto de curiosidade e nervosismo. Ele não sabia o que a mulher estava pensando, mas a forma como ela olhava para ele, com uma mistura de surpresa e desconfiança, fez com que ele se sentisse desconfortável.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "cantavam",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Valentim",
+        "sentence": "O Sr. faz-me dizer coisas que não devo... (cai o lápis ao chão, Valentim apressa-se em apanhá-lo e ajoelha nesse ato) CARLOTAObrigada.",
+        "start_char": 18562,
+        "end_char": 18570,
+        "excerpt": "... que outro? Mas... isto é uma simples conversa... O Sr. faz-me dizer coisas que não devo... (cai o lápis ao chão, Valentim apressa-se em apanhá-lo e ajoelha nesse ato) CARLOTAObrigada.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "apressa-se",
+                "child": "Valentim",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "apressar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Valentim",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "O Sr. faz-me dizer coisas que não devo... (cai o lápis ao chão, [MASK] apressa-se em apanhá-lo e ajoelha nesse ato) CARLOTAObrigada.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Carlota se levantou com tranquilidade e recolheu-se na esfera dos objetos que pendiam da mesa, procurando um novo lápis. Encontrou uma caneta usada, apagava as marcas de tinta e segurava a ponta ao seu peito enquanto se voltava para o Sr..",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Valentim",
+        "sentence": "Cena V CARLOTA, O DOUTOR DOUTORNão me dirá, minha senhora, o que tem Valentim que passou por mim corno um raio, agora, na escada?",
+        "start_char": 20419,
+        "end_char": 20427,
+        "excerpt": "Adeus! (sai arrebatadamente. Carlota pára estacada; depois vai ao fundo, volta ao meio da cena, vai à direita; entra o Doutor) Cena V CARLOTA, O DOUTOR DOUTORNão me dirá, minha senhora, o que tem Valentim que passou por mim corno um raio, agora, na escada?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tem",
+                "child": "Valentim",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Valentim",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "um raio",
+                "child": "Valentim",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "raio",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Valentim",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "escada",
+                "child": "Valentim",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "escada",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Valentim",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Cena V CARLOTA, O DOUTOR DOUTORNão me dirá, minha senhora, o que tem [MASK] que passou por mim corno um raio, agora, na escada?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a história em português, o doutor Doutornão se voltou para a misteriosa figura que emergiu dos escuros de uma das salas. \"Quem era você e qual foi a natureza da energia que passou pela minha senhora?\" perguntou ele curioso.",
+        "generated_text_llama": "",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "perguntou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "VALENTI",
+        "sentence": "VALENTIMSou discreto como uma sepultura; fale!",
+        "start_char": 32467,
+        "end_char": 32474,
+        "excerpt": "não! VALENTIMÉ segredo? INOCÊNCIOSe é! VALENTIMSou discreto como uma sepultura; fale!",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "VALENTIMÉ",
+                "child": "segredo",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "VALENTIMÉ",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "segredo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "VALENTIMSou",
+                "child": "uma sepultura",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "VALENTIMSou",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "sepultura",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]MSou discreto como uma sepultura; fale!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Com a voz suave e baixa que sempre usava em momentos tão delicados, ela chamou sua professora, Professora Clara. \"Professora\", disse ela, enquanto mantinha seus olhos fixos naquela pessoa que era, de fato, o seu mentor e amiga mais próxima fora da família. \"Terei uma questão para você.\"",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "CARLOTA",
+        "sentence": "CARLOTAÉ valente; mas pensando bem não sei de que vale ser valente.",
+        "start_char": 38009,
+        "end_char": 38016,
+        "excerpt": "CARLOTAPois, deveras, matou uma onça? VALENTIMConservo-lhe a pele como uma relíquia preciosa. CARLOTAÉ valente; mas pensando bem não sei de que vale ser valente.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "sei",
+                "child": "CARLOTAÉ",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "saber",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CARLOTAÉ",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]É valente; mas pensando bem não sei de que vale ser valente.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ele encostou no espelho e olhou para si mesmo. Seu rosto refletiu a dúvida que estava presente em seu coração. Ele sentiu uma espécie de vacilhação, como se o próprio tempo parasse por um instante. Porém, ele conseguiu controlar essa emoção e decidiu seguir adiante.",
+        "generated_text_llama": "Ele se levantou da cadeira, olhou ao redor do quarto esvaziado e sentiu um arrepio na espinha. A lâmpada de mesa havia sido apagada, deixando-o com sombras escuros e silêncios que pareciam ter uma vida própria. Personagem sabia que precisava sair dali, mas o medo de se encontrar com a realidade a chamar o nome parecia mais forte do que qualquer coragem.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Inocêncio",
+        "sentence": "(entra Inocêncio) CARLOTAÉ arriscar-se a novas tentativas.",
+        "start_char": 40950,
+        "end_char": 40959,
+        "excerpt": "(entra o Doutor) VALENTIMDou-me por satisfeito. Mas já se vê, como cavalheiro, sem rancor nem hostilidade. (entra Inocêncio) CARLOTAÉ arriscar-se a novas tentativas.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "entra",
+                "child": "Inocêncio",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Inocêncio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "(entra [MASK]) CARLOTAÉ arriscar-se a novas tentativas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Carolina entrava na sala de engenharia e se sentava com firmeza. Ela olhou para as fórmulas e equações esparramadas em papel e tabelas de trabalho. Era tempo de começar a nova tentativa. Carolina tinha em mãos um pequeno modelo 3D, uma réplica da invenção que ela pretendia construir. Ela o examinou detidamente, observando as partes complexas e as simples. Por fim, deu início à sua tarefa: escolher quais peças necessitavam de melhorias ou revisões para que a máquina funcionasse perfeitamente.",
+        "generated_text_llama": "CARLOTAÉ, sentindo um misto de ansiedade e determinação, começou a revisar as instruções que havia encontrado na internet para criar uma iluminação solar adequada para sua planta de cactos. Ela sabia que era fundamental ter a luz certa para o crescimento saudável da planta, mas também estava ciente de que o sol brasileiro podia ser muito intenso e prejudicial se não fosse feita com cuidado.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "entrava",
+                    "ROOT"
+                ],
+                [
+                    "tinha",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "CARLOTA",
+        "sentence": "(entra Inocêncio) CARLOTAÉ arriscar-se a novas tentativas.",
+        "start_char": 40961,
+        "end_char": 40968,
+        "excerpt": "(entra o Doutor) VALENTIMDou-me por satisfeito. Mas já se vê, como cavalheiro, sem rancor nem hostilidade. (entra Inocêncio) CARLOTAÉ arriscar-se a novas tentativas.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "arriscar-se",
+                "child": "CARLOTAÉ",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "arriscar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CARLOTAÉ",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "(entra Inocêncio) [MASK]É arriscar-se a novas tentativas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Entrando no laboratório clandestino de sua esposa, Inocêncio se sentiu um fôlego pesado sobre seu peito e uma leve tremulação na mão que segurava a luz da lanterna. Ele já estava cansado, mas sabia que esta era apenas a metade do caminho. A partir de agora, o destino dos sonhos dele e da família dependeria disso.",
+        "generated_text_llama": "Enquanto Inocêncio olhava para o mapa espalçado sobre a mesa, seu olhar se fixou nos pontos marcados com um \"X\", os lugares onde ele havia tentado encontrar a resposta antes, mas sem sucesso. Ele sabia que não podia desistir agora, pois a chave para resolver o mistério estava lá, escondida em algum lugar desses locais.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhava",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

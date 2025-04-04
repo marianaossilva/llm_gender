@@ -1,0 +1,370 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Romão Pires",
+        "sentence": "Chama-se Romão Pires; terá sessenta anos, não menos, nasceu no Valongo, ou por esses lados.",
+        "start_char": 1270,
+        "end_char": 1281,
+        "excerpt": "Não falo sequer da orquestra, que é excelente; limito-me a mostrar-lhes uma cabeça branca, a cabeça desse velho que rege a orquestra, com alma e devoção. Chama-se Romão Pires; terá sessenta anos, não menos, nasceu no Valongo, ou por esses lados.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Chama-se",
+                "child": "Romão Pires",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "chamar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Romão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Chama-se [MASK]; terá sessenta anos, não menos, nasceu no Valongo, ou por esses lados.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Segundo a narrativa, seguimos com a história de [Nome do Personagem], que já tinha chegado aos 60 anos, sem dúvida um número mais que suficiente para mostrar sua vida plena e invejável. Ele nasceu no Valongo, um bairro que marcou seu coração, sendo o berço de seus sonhos e dos recordes dos quais ele ainda guardava um lugar especial em seu coração.",
+        "generated_text_llama": "Após ser apresentado ao grupo de amantes da história local, José, um homem robusto com um bigode branco e olhos alegres, aproximou-se dele e disse: - \"Bem-vindo! Meu nome é José. Eu sou o líder deste grupo, e estou aqui para compartilhar contigo as histórias mais interessantes de Valongo\". ",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pai José",
+        "sentence": "Pai José deu um salto, entrou em casa, e esperou o senhor, que daí a pouco entrava com o mesmo ar do costume.",
+        "start_char": 2741,
+        "end_char": 2749,
+        "excerpt": "eh! adeus, sinhá, até logo. Pai José deu um salto, entrou em casa, e esperou o senhor, que daí a pouco entrava com o mesmo ar do costume.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "deu",
+                "child": "Pai José",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pai",
+                "word_categories": [
+                    "carater",
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] deu um salto, entrou em casa, e esperou o senhor, que daí a pouco entrava com o mesmo ar do costume.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após o salto, ele seguiu caminhando até sua residência, onde entrou na porta de madeira polida e encantadora. Ao longo dos corredores, sentiu-se um espírito inquietante se aproximando. Depois de ter passado por todos os espaços do seu lar, o senhor da casa apareceu na sala, carregando uma vaga sorrisona em sua faces.",
+        "generated_text_llama": "Depois de alguns minutos de espera, o sr. finalmente chegou, fechando a porta com um batidinho na tábua. \"Bom dia, meu caro\", disse ele, com a sua voz suave e familiar. Personagem assentiu com a cabeça, não precisando dizer nada, sabendo que o sr. já sabia qual era o propósito da visita.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "assentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Romão",
+        "sentence": "Romão era não poder compor, não possuir o meio de traduzir o que sentia.",
+        "start_char": 3890,
+        "end_char": 3895,
+        "excerpt": "Esta era a causa única da tristeza de mestre Romão. Naturalmente o vulgo não atinava com ela; uns diziam isto, outros aquilo: doença, falta de dinheiro, algum desgosto antigo; mas a verdade é esta:  a causa da melancolia de mestre Romão era não poder compor, não possuir o meio de traduzir o que sentia.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tristeza",
+                "child": "Romão",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "tristeza",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Romão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Romão",
+                "child": "tristeza",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Romão",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "tristeza",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Romão",
+                "child": "causa",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Romão",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "causa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "poder",
+                "child": "Romão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Romão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] era não poder compor, não possuir o meio de traduzir o que sentia.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem, sem poder compor nem traduzir suas emoções, começou a se esforçar mais para expressá-las através de outros meios. Ele começou a aprender a tocar instrumentos, criando melodias que tentavam refletir os sentimentos que tinha dentro. Sua casa era invadida pelo som de diferentes instrumentos e as paredes ouviam o assobio do clarinete, o sopro ardente do saxofone, a palpitação vibrante dos tambores e a melodiosidade suave da guitarra. Além disso, ele começou a dançar, uma forma de expressão que lhe permitia se livrar dos sentimentos que tinha dentro. Ele se tornou conhecido na cidade por sua expressividade, seu talento e sua habilidade incríveis para se mover em harmonia com a música. Por fim, Personagem foi capaz de conquistar as pessoas, trazendo ao mundo músicas que falavam a respeito de suas emoções e histórias.",
+        "generated_text_llama": "E assim, Personagem estava preso em um mundo de silêncio e interpretação errada, onde as palavras pareciam esmagar seus sentimentos antes mesmo de ele tiverem chance de ser expressados. Em um momento de desespero, ele decidiu buscar ajuda de um amigo confiável, conhecido apenas como \"Lírio\", que era um especialista em linguagem e comunicação.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "capaz",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "preso",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Romão",
+        "sentence": "Romão sentiu em si alguma coisa parecida com inspiração.",
+        "start_char": 4500,
+        "end_char": 4505,
+        "excerpt": "A mulher, que tinha então vinte e um anos, e morreu com vinte e três, não era muito bonita, nem pouco, mas extremamente simpática, e amava-o tanto como ele a ela. Três dias depois de casado, mestre Romão sentiu em si alguma coisa parecida com inspiração.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "sentiu",
+                "child": "Romão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sentir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Romão",
+                "word_categories": [
+                    "emo"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] sentiu em si alguma coisa parecida com inspiração.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem, após sentir algo semelhante à inspiração, levantou-se do seu lugar e saiu da sala. Caminhou pela casa, procurando por um lugar tranquilo para se concentrar. Encontrou no estúdio, o local ideal onde podia expressar as ideias que floresciam em sua mente.",
+        "generated_text_llama": "Personagem sentiu em si alguma coisa parecida com inspiração. Ele fechou os olhos e se concentrou, tentando entender o que estava acontecendo dentro dele. A sensação era como uma bolha de ar que começava a subir, levando-o para um lugar desconhecido.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pai José",
+        "sentence": "Pai José, disse ele ao entrar, sinto-me hoje adoentado.",
+        "start_char": 5194,
+        "end_char": 5202,
+        "excerpt": "Teimou no dia seguinte, dez dias depois, vinte vezes durante o tempo de casado. Quando a mulher morreu, ele releu essas primeiras notas conjugais, e ficou ainda mais triste, por não ter podido fixar no papel a sensação de felicidade extinta. Pai José, disse ele ao entrar, sinto-me hoje adoentado.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Pai José,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pai",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], disse ele ao entrar, sinto-me hoje adoentado.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas apesar da dor, ele deu uma limpa rápida em sua mesa e sentou-se em seu velho sofa vermelho. A partir de lá, ele poderia ver o mar, com suas ondas tranquilas que se estendiam até a distância, parecendo um belo panorama de uma paisagem imaginária. Ele ficou sentado por algum tempo, sentindo seu corpo quente contra as costas do sofa, e olhando para o mar. Era um dia calmo e sereno, perfeito para pensar em coisas mais importantes que a dor corporal.",
+        "generated_text_llama": "Ele sorriu tristemente e se aproximou da banheira, que estava preenchida com água morna. \"Talvez uma banho quente me ajude a me sentir melhor\", pensou ele, enquanto se sentava no bordo da banheira e colocava os pés na água. A caloridade do líquido começou a relaxar seus músculos tensos e o ajudou a se sentir um pouco mais confortável.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "sentir",
+                    "acl"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Sinhô",
+        "sentence": "Sinhô comeu alguma coisa que fez mal...",
+        "start_char": 5250,
+        "end_char": 5255,
+        "excerpt": "Quando a mulher morreu, ele releu essas primeiras notas conjugais, e ficou ainda mais triste, por não ter podido fixar no papel a sensação de felicidade extinta. Pai José, disse ele ao entrar, sinto-me hoje adoentado. Sinhô comeu alguma coisa que fez mal...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "comeu",
+                "child": "Sinhô",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "comeu",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Sinhô",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] comeu alguma coisa que fez mal...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de comer algo que o fez mal, o Personagem, assim como sempre ao sentir-se indisposto, sentiu-se cansado e desconfortável. Se levantou lentamente do sofá, recolheu as coisas em volta dele e seguiu rumo à banheira para limpar-se e tentar se sentir melhor. Entretanto, as dores no estômago começaram a crescer, e Personagem sentiu que precisava ir até o quarto e dormir. Não era uma doença mortal, apenas uma reação adverso à comida consumida, mas ainda assim não podia desprezar as sintomas, pois já havia tido experiências similares e conhecia o quão incomodante poder ser quando se sentia desta forma.",
+        "generated_text_llama": "Ela não se lembrou exatamente o que havia feito, mas uma sensação de arrependimento pesava sobre ela como um saco de grãos. Ela olhou ao redor nervosa, como se esperasse ser descoberta por alguém, e então começou a caminhar lentamente em direção à sua porta. Sua mão tremia ligeiramente enquanto segurava a maçarica que havia \"ajudado\" a resolver o problema, um problema que agora ela não sabia se era melhor ter ou não.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentiu-se",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Pai José",
+        "sentence": "Pai José ficou aterrado, quando viu que o incômodo não cedera ao remédio, nem ao repouso, e quis chamar o médico.",
+        "start_char": 5517,
+        "end_char": 5525,
+        "excerpt": "O boticário mandou alguma coisa, que ele tomou à noite; no dia seguinte mestre Romão não se sentia melhor. É preciso dizer que ele padecia do coração:  moléstia grave e crônica. Pai José ficou aterrado, quando viu que o incômodo não cedera ao remédio, nem ao repouso, e quis chamar o médico.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ficou",
+                "child": "Pai José",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ficar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pai",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] ficou aterrado, quando viu que o incômodo não cedera ao remédio, nem ao repouso, e quis chamar o médico.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas o Personagem, sabendo que agitar mais ainda os planos de sua vida poderia piorar sua situação, decidiu primeiramente buscar ajuda de outras formas. Por isso, ele começou a pesquisar em linhas de tratamentos alternativos e leituras sobre saúde mental, procurando por soluções holísticas que pudessem lhe trazer alívio sem agravar sua condição.",
+        "generated_text_llama": "Personagem tentou manter a calma, sabendo que precisava agir rapidamente para evitar que a situação piorasse. Ele pegou o telefone e tentou ligar para o consultório do médico, mas a linha estava desligada. Então, decidiu ir ao hospital mais próximo, mesmo que fosse um pouco longe. Após se vestir rapidamente e tirar as calças frouxas que havia colocado antes, ele saiu da casa e começou a caminhar em direção à hospitalidade.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "agitar",
+                    "csubj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "tentou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

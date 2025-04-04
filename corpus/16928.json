@@ -1,0 +1,281 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Seu Pilar",
+        "sentence": "Seu Pilar, eu preciso falar com você, disse-me baixinho o filho do mestre.",
+        "start_char": 1992,
+        "end_char": 2001,
+        "excerpt": "Os meninos, que se conservaram de pé durante a entrada dele, tornaram a sentar-se. Tudo estava em ordem; começaram os trabalhos. Seu Pilar, eu preciso falar com você, disse-me baixinho o filho do mestre.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse-me",
+                "child": "Seu Pilar",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "disse-me",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Pilar",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Seu Pilar",
+                "child": "preciso",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Pilar",
+                "dep_c": "acl:relcl",
+                "pos_c": "ADJ",
+                "lemma_c": "preciso",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], eu preciso falar com você, disse-me baixinho o filho do mestre.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Seguindo as ordens de seu amo, Personagem se inclinou lentamente e abriu sua boca para receber a missão secreta que lhe fora encaminhada pelo menino. Ele ficou em silêncio por um momento antes de responder:",
+        "generated_text_llama": "Ele me olhou com um misto de curiosidade e desconfiança, pois nunca havia visto alguém se aproximar dele assim. Meu coração batia mais rápido ao perceber que ele era o herdeiro do legado do mestre. O menino, cujo nome era Kaito, me convidou a seguir-o para dentro da casa, onde encontramos-nos em uma grande sala repleta de livros antigos e artefatos estranhos.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "inclinou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Chico Telha",
+        "sentence": "Agora que ficava preso, ardia por andar lá fora, e recapitulava o campo e o morro, pensava nos outros meninos vadios, o Chico Telha, o Américo, o Carlos das Escadinhas, a fina flor do bairro e do gênero humano.",
+        "start_char": 3707,
+        "end_char": 3718,
+        "excerpt": "Os outros foram acabando; não tive remédio senão acabar também, entregar a escrita, e voltar para o meu lugar. Com franqueza, estava arrependido de ter vindo. Agora que ficava preso, ardia por andar lá fora, e recapitulava o campo e o morro, pensava nos outros meninos vadios, o Chico Telha, o Américo, o Carlos das Escadinhas, a fina flor do bairro e do gênero humano.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ardia",
+                "child": ", o Chico Telha, o Américo, o Carlos das Escadinhas, a fina flor do bairro e do gênero",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ardir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", o Chico Telha, o Américo, o Carlos das Escadinhas, a fina flor do bairro e do gênero",
+                "child": "humano",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Chico",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "humano",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Agora que ficava preso, ardia por andar lá fora, e recapitulava o campo e o morro, pensava nos outros meninos vadios, o [MASK], o Américo, o Carlos das Escadinhas, a fina flor do bairro e do gênero humano.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Agora que ficava preso, agitado pelo desejo de andar livremente, a sua mente recapitulava rapidamente o campo e o morro onde jogavam todos os dias com os outros meninos vadios, como o Américo e o Carlos das Escadinhas. O Personagem recordava as aventuras que viviam em pleno apogeu da juventude, o seu riso contagioso, a camaradaria inquebrável e a simplicidade de um sonho que unia todos eles.",
+        "generated_text_llama": "E assim, com um impulso de rebeldia, Personagem começou a procurar uma saída, buscando entre as sombras da rua estreita por uma abertura que pudesse levar ao morro, conhecido apenas como \"O Espelho\", onde os meninos mais corajosos se atreviam a explorar. Com cuidado, Personagem se aproximou da parede e sentiu pela lateral por uma renda que poderia ser usada para escalar o muro. Depois de alguns momentos de silêncio, encontrou a renda solta e começou a subir, seu coração batendo forte contra a sua pele escura enquanto se escondia atrás das sombras do morro. A lua cheia brilhava acima dele, iluminando o caminho em direção ao topo, onde Personagem sabia que encontraria a liberdade que tanto ansiava. Com um último olhar para trás, onde os luzes da rua estreita pareciam tão distantes e inacessíveis, Personagem começou a escalar o morro, seu passo firme e determinado, pronto para enfrentar qualquer obstáculo que pudesse se apresentar.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "recordava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "aproximou",
+                    "ROOT"
+                ],
+                [
+                    "sabia",
+                    "acl:relcl"
+                ],
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Carlos das Escadinhas",
+        "sentence": "Agora que ficava preso, ardia por andar lá fora, e recapitulava o campo e o morro, pensava nos outros meninos vadios, o Chico Telha, o Américo, o Carlos das Escadinhas, a fina flor do bairro e do gênero humano.",
+        "start_char": 3733,
+        "end_char": 3754,
+        "excerpt": "Os outros foram acabando; não tive remédio senão acabar também, entregar a escrita, e voltar para o meu lugar. Com franqueza, estava arrependido de ter vindo. Agora que ficava preso, ardia por andar lá fora, e recapitulava o campo e o morro, pensava nos outros meninos vadios, o Chico Telha, o Américo, o Carlos das Escadinhas, a fina flor do bairro e do gênero humano.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ardia",
+                "child": ", o Chico Telha, o Américo, o Carlos das Escadinhas, a fina flor do bairro e do gênero",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ardir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Chico",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", o Chico Telha, o Américo, o Carlos das Escadinhas, a fina flor do bairro e do gênero",
+                "child": "humano",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Chico",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "humano",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Agora que ficava preso, ardia por andar lá fora, e recapitulava o campo e o morro, pensava nos outros meninos vadios, o Chico Telha, o Américo, o [MASK], a fina flor do bairro e do gênero humano.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Agora que ficava preso, ardia por andar lá fora, e recapitulava o campo e o morro, pensava nos outros meninos vadios, o Chico Telha, o Américo, o Bira - assim lhe chamavam no bairro, a fina flor do bairro e do gênero humano. Ele sentia a necessidade de fugir daquela cela enchida de penas e espessuras, onde estava preso sob uma luz inconstante, acenderiam-lhe os olhos quando o guarda desabaravaram no sono. Bira, era um dos meninos mais fortes que ele conhecia, um menino que não ficava preso por pensamentos e medidas de justiça. Seu coração era como o do mar, ondulante e inconfesso, e quando a onda do seu coração brilhava, acontecia algo lindíssimo.",
+        "generated_text_llama": "Eu, Personagem, sabia que não podia desistir, que precisava encontrar uma maneira de escapar daquela situação ridícula. Comecei a procurar por um ponto fraco na parede, algo que pudesse ser danificado sem chamar a atenção dos guardas. Enquanto isso, eu pensava em como me livrar do uniforme branco e das calças cinzas, que agora pareciam uma pesada carga sobre o meu corpo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "chamavam",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Policarpo",
+        "sentence": "Policarpo tinha decerto algum partido, mas nunca pude averiguar esse ponto.",
+        "start_char": 5647,
+        "end_char": 5656,
+        "excerpt": "Afinal cansou e tomou as folhas do dia, três ou quatro, que ele lia devagar, mastigando as idéias e as paixões. Não esqueçam que estávamos então no fim da Regência, e que era grande a agitação pública. Policarpo tinha decerto algum partido, mas nunca pude averiguar esse ponto.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tinha",
+                "child": "Policarpo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Policarpo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] tinha decerto algum partido, mas nunca pude averiguar esse ponto.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas após muitas investigações e perguntas contundentes, ela descobriu que o enigma que procurava se enlaçava com um caso antigo que já era conhecido pela polícia local. Então, decidiu reunir-se com os detetives envolvidos nesse caso antigo para compartilhar suas descobertas e propor uma nova abordagem para resolver este mistério.",
+        "generated_text_llama": "Enquanto caminhava pela rua animada, Personagem notou que as pessoas estavam se reunindo em pequenos grupos, conversando em voz baixa e olhando para seus celulares com uma mistura de ansiedade e excitação. Ele sabia que estava perto de algo importante, mas não tinha ideia o que era exatamente.",
+        "original_gender": "male",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "notou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Policarpo",
+        "sentence": "Policarpo bradou de novo que lhe desse a moeda, e eu não resisti mais, meti a mão no bolso, vagarosamente, saquei-a e entreguei-lha.",
+        "start_char": 12172,
+        "end_char": 12181,
+        "excerpt": "Não obedeci logo, mas não pude negar nada. Continuei a tremer muito. Policarpo bradou de novo que lhe desse a moeda, e eu não resisti mais, meti a mão no bolso, vagarosamente, saquei-a e entreguei-lha.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "bradou",
+                "child": "Policarpo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "bradar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "policarpo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] bradou de novo que lhe desse a moeda, e eu não resisti mais, meti a mão no bolso, vagarosamente, saquei-a e entreguei-lha.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após entregar a moeda a Bradou, ele me olhou com uma expressão indefinida, como se estivesse tentando ler minhas intenções escondidas atrás dos meus olhos. Porém, eu me mantive fria e apenas li um breve capítulo de um livro que sempre cartejava na minha mãos.",
+        "generated_text_llama": "Enquanto dava a moeda de volta ao Personagem, eu não pude evitar olhar para ele com um misto de curiosidade e desconfiança. Ele parecia completamente normal agora que estava satisfeito com o trocador, mas eu sabia que não era verdade. Eu havia visto algo em seus olhos, algo que me fez sentir que ele estava escondendo algo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    }
+]

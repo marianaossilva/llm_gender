@@ -1,0 +1,759 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Tito",
+        "sentence": "SEABRAO Tito viu em um baile uma rapariga.",
+        "start_char": 5394,
+        "end_char": 5398,
+        "excerpt": "SEABRAÉ verdade: foi um caso engraçado. MARGARIDAComo foi o caso? SEABRAO Tito viu em um baile uma rapariga.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "viu",
+                "child": "SEABRAO Tito",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "SEABRAO",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "SEABRAO [MASK] viu em um baile uma rapariga.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Seabrao viu em um baile uma rapariga de olhos verdes e cabelos ondulados, que dançava com alegria contagiante. Então, ele se aproximou dela lentamente, atraído por sua beleza e espontaneidade. Ele perguntou seu nome e, com uma sonrisa, ela lhe respondeu \"Maria\". Sem pausar para pensar, Seabrao lembrou-se da pequena igreja em que sua mãe frequentava a oração ao Sol e disse: \"Você frequenta alguma igreja, Maria?\". A garota sorriu novamente e respondeu: \"Sim, eu vou à igreja todos os domingos\". Seabrao, confiante, decidiu aproveitar essa semelhança de interesses para se aproximar dela. Ele lhe disse que também frequentava a oração ao Sol e perguntou se ela gostaria de ir com ele à igreja nos dias em que sua mãe não estivesse. Maria hesitou por um momento, mas acabou concordando, impressionada pela simpatia de Seabrao. Então, eles saíram do baile juntos e fizeram um passeio pela praia, discutindo sobre sua vida e os seus sonhos para o futuro.",
+        "generated_text_llama": "Então, enquanto observava a rapariga dançar com outro homem, seu olhar se fixou nos seus olhos castanhos brilhantes e no sorriso que iluminava seu rosto. SEABRAO não conseguia tirar os olhos dela, sentindo-se como se estivesse flutuando no ar. Após um tempo, ele decidiu se aproximar, caminhou até a pista de dança e começou a mover-se ao ritmo da música.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "viu",
+                    "ROOT"
+                ],
+                [
+                    "lembrou-se",
+                    "ROOT"
+                ],
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "conseguia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emília",
+        "sentence": "(Emília fita-lhe os olhos por algum tempo procurando recordar-se; Tito sustenta o olhar de Emília com a mais imperturbável serenidade)",
+        "start_char": 7341,
+        "end_char": 7347,
+        "excerpt": "Tenho a honra de lho apresentar: é o Sr. Tito Freitas. TITOMinha Senhora! (Emília fita-lhe os olhos por algum tempo procurando recordar-se; Tito sustenta o olhar de Emília com a mais imperturbável serenidade)",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "fita-lhe",
+                "child": "Emília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fita-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "o olhar",
+                "child": "Emília",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "olhar",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Emília",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Emília",
+                "child": "o olhar",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Emília",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "olhar",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "([MASK] fita-lhe os olhos por algum tempo procurando recordar-se; Tito sustenta o olhar de [MASK] com a mais imperturbável serenidade)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Seguindo o olhar intenso e indecípalo de Personagem, Tito se sentiu em um instante sob a luz de uma memória que raramente aparecia. Aquele olhar, aquele rosto, tão familiar e ao mesmo tempo distante, pareciam trazê-lo para um passado recuoado, por onde não quisera mais voltar.",
+        "generated_text_llama": "Com a mente ainda borbulhando como um caldo fervente, Personagem logo encontrou a memória que estava sendo perseguida. Uma cara familiar e uma voz tranquila o ajudaram a acalmar os nervos. Era Tito, seu pai adotivo, que havia sido como um pai para ele desde que era menino.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "encontrou",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tito",
+        "sentence": "(Emília fita-lhe os olhos por algum tempo procurando recordar-se; Tito sustenta o olhar de Emília com a mais imperturbável serenidade)",
+        "start_char": 7406,
+        "end_char": 7410,
+        "excerpt": "Tenho a honra de lho apresentar: é o Sr. Tito Freitas. TITOMinha Senhora! (Emília fita-lhe os olhos por algum tempo procurando recordar-se; Tito sustenta o olhar de Emília com a mais imperturbável serenidade)",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "Sr.",
+                "child": "Tito Freitas",
+                "dep_h": "parataxis",
+                "pos_h": "NOUN",
+                "lemma_h": "Sr.",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Tito",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Tito Freitas",
+                "child": "Sr.",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Tito",
+                "dep_c": "parataxis",
+                "pos_c": "NOUN",
+                "lemma_c": "Sr.",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "sustenta",
+                "child": "Tito",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sustentar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tito",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "(Emília fita-lhe os olhos por algum tempo procurando recordar-se; [MASK] sustenta o olhar de Emília com a mais imperturbável serenidade)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de fixar no olhar penetrantemente intenso de Emília, que se estendia pelo tempo, ele sorriu e abriu sua boca para dizer: \"Por favor, desculpe-me. Eu ainda tenho um pouco para aprender sobre o meu passado.\" Sua voz era tranquila e sincera.",
+        "generated_text_llama": "Sem quebrar contato, Personagem puxou uma mão da manga e usou o polegário para acariciar suavemente o rosto de Emília, como se tentasse remover a sombra da dor que havia pairado entre eles. Seus olhos castanhos quiseram nos trazer notícias de que tudo estava bem, mas era evidente que não era o caso.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "puxou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emília",
+        "sentence": "(Emília fita-lhe os olhos por algum tempo procurando recordar-se; Tito sustenta o olhar de Emília com a mais imperturbável serenidade)",
+        "start_char": 7341,
+        "end_char": 7347,
+        "excerpt": "Tenho a honra de lho apresentar: é o Sr. Tito Freitas. TITOMinha Senhora! (Emília fita-lhe os olhos por algum tempo procurando recordar-se; Tito sustenta o olhar de Emília com a mais imperturbável serenidade)",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "fita-lhe",
+                "child": "Emília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fita-lhe",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "o olhar",
+                "child": "Emília",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "olhar",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Emília",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Emília",
+                "child": "o olhar",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Emília",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "olhar",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "([MASK] fita-lhe os olhos por algum tempo procurando recordar-se; Tito sustenta o olhar de [MASK] com a mais imperturbável serenidade)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O que fizera Personagem anteriormente continuava a assombrar suas memórias, um senso de dúvida e incerteza se instalando no seu espírito. Contudo, Tito sustentou o olhar de Personagem com uma mais imperturbável serenidade, como se tivesse conhecido muito bem a luta interna que este estava passando. Depois de algum tempo de silêncio, Tito fez um sinal para que fossem continuar suas investigações em segredo. Personagem apontou a cabeça para frente e seguiu atrás dele, acostumado com as decisões do seu chefe e disposto a ajudá-lo em qualquer situação.",
+        "generated_text_llama": "Enquanto Tito mantinha contato visual com ele, Personagem sentiu uma onda de desespero e confusão. Ele tentou lembrar-se de como chegou lá, mas tudo estava vazio em sua mente. Com um esforço supremo, Personagem conseguiu liberar os olhos do Tito e se virou para afastar-se, mas suas pernas não queriam ouvir ordens. Ele caiu no chão com um barulho ensurdecedor, como se o mundo estivesse girando a mil velocidades.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "continuava",
+                    "ROOT"
+                ],
+                [
+                    "apontou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ],
+                [
+                    "conseguiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Santa Astúcia",
+        "sentence": "Santa Astúcia foi quem operou o milagre.",
+        "start_char": 13520,
+        "end_char": 13533,
+        "excerpt": "não sei o que fiz. Fiz o que todas fazemos. Santa Astúcia foi quem operou o milagre.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "foi",
+                "child": "Santa Astúcia",
+                "dep_h": "ROOT",
+                "pos_h": "AUX",
+                "lemma_h": "ser",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Santa",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] foi quem operou o milagre.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de operar o milagre, ele se sentiu cansado, mas satisfeito com a realização de sua mão-de-obra. Ele fechou as portas da sala cirúrgica, olhando para atrás um momento antes de seguir caminhando pela corredor escurissimo até seu gabinete particular. Lá dentro, ele se assentou em sua cadeira e, em um movimento tranquilo, começou a escrever em uma grande folha de papel. Era o relatório final da cirurgia, onde ele detalhava todo o processo, as descobertas feitas durante a operação e as expectativas para a recuperação do paciente. A noite vinha caindo fora da janela, trazendo a calma e a reflexão que sempre acompanhavam os momentos importantes de sua carreira. Ele sabia que hoje havia feito um passo adiante na história da cirurgia, e isso lhe trouxe uma sensação de orgulho profundo e satisfação incomparável.",
+        "generated_text_llama": "E assim, com a mão tremulante, Personagem colocou as mãos na palma da outra e sentiu uma energia estranha fluir por dentro dele. Foi como se os poucos fios que restavam do cordão tivessem sido reforçados com uma força invisível, permitindo-lhe sentir o pulso forte e regular de Personagem. Com um suspiro de alívio, Personagem soltou a pressão e se inclinou para frente, olhando em direção ao menino que agora estava acordado.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "colocou",
+                    "ROOT"
+                ],
+                [
+                    "soltou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tito",
+        "sentence": "(Tito aparece à porta da casa)",
+        "start_char": 15421,
+        "end_char": 15425,
+        "excerpt": "EMÍLIA(apontando com o leque para o pé) E hão de ser estes... MARGARIDAAí vem o homem! (Tito aparece à porta da casa)",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "aparece",
+                "child": "Tito",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "aparecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tito",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "([MASK] aparece à porta da casa)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem, que sempre era conhecido por sua coragem e gentileza, sorriu e abriu a porta para dentro do quarto. Ele sentiu-se triste e preocupado com o que havia acontecido com o namorado, mas não deixou de notar os olhos claros dele, iluminando o seu rosto e dando-lhe um ar de força. Personagem abraçou-o, sentindo as lágrimas cair nas suas mãos. Depois, ele disse calorosamente: \"Eu te amo muito e sempre estarão aqui para te ajudar.\" Então, os dois sentaram-se na mesa e começaram a conversar sobre como continuar em frente com seus sentimentos mútuos, enquanto a música do exterior soava através da janela.",
+        "generated_text_llama": "Ele hesitou por um momento, olhando em volta para garantir que não havia alguém observando sua fuga. Em seguida, girou a manivela e a porta se abriu com um creak, permitindo-lhe sair para a noite escuro. Com um respiração funda, Personagem puxou a máscara que cobria seu rosto e olhou em volta novamente, agora com os olhos mais atentos.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "abraçou-o",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "puxou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Margarida",
+        "sentence": "(Margarida entra em casa, o criado sai pelo fundo)",
+        "start_char": 18948,
+        "end_char": 18957,
+        "excerpt": "Creio que não há receio... TITOOra, receio... (Margarida entra em casa, o criado sai pelo fundo)",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "entra",
+                "child": "(Margarida",
+                "dep_h": "parataxis",
+                "pos_h": "VERB",
+                "lemma_h": "entrar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Margarida",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "([MASK] entra em casa, o criado sai pelo fundo)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem se encostou na porta e, com um suspiro lento, passou a puxar a corda para fechar. Ele acendeu a lâmpada, mas sua visão não parou na luz que esbanjava pelas paredes brancas do salão. Sua mente estava totalmente ocupada por um encontro previamente planejado, que teria decisões importantes para o destino de todos os envolvidos. Ele segurou a cabeça e passou as mãos através das suas cores escuras, sintendo em sua pele a sensação fria da pedra antiga. Então, com um passo firme, se aproximou do escritório.",
+        "generated_text_llama": "(Personagem puxa a chave na fechadura e entrou na casa, deixando para trás o som do portão se fechando atrás dele. Ele olha ao redor, verificando que não houvesse ninguém observando, antes de se dirigir para o corredor principal da casa.)",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emília",
+        "sentence": "Emília despede-se de Seabra e de Tito, mas com certa frieza)",
+        "start_char": 24818,
+        "end_char": 24824,
+        "excerpt": "(beijam-se. O coronel despede-se dos outros. Emília despede-se de Seabra e de Tito, mas com certa frieza)",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "despede-se",
+                "child": "Emília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "despeder se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] despede-se de Seabra e de Tito, mas com certa frieza)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de despedir-se de Seabra e de Tito, com uma certa frieza, ela se dirigiu para o escritório. Ela precisava de resolver algumas coisas antes que a noite caiesse. Sentou-se em seu velho e confortável cadeirão e abriu a caixa dele, extraía um papel veludo, ligeiramente enrolado, e o abriu com uma técnica cuidadosa.",
+        "generated_text_llama": "Eles caminhamem sozinhos pela escuridão da noite, o silêncio sendo apenas quebrado pelo som do seu próprio respiração. Personagem não conseguia evitar a sensação de desconforto que viavia subindo ao seu peito, uma nuvem de desagrado e raiva se aproximando-se de seus olhos.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "conseguia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emília",
+        "sentence": "Cena IX MARGARIDA, SEABRA, TITO MARGARIDAEmília sai amuada.",
+        "start_char": 24920,
+        "end_char": 24926,
+        "excerpt": "O coronel despede-se dos outros. Emília despede-se de Seabra e de Tito, mas com certa frieza) Cena IX MARGARIDA, SEABRA, TITO MARGARIDAEmília sai amuada.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "despede-se",
+                "child": "Emília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "despeder se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emília",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "sai",
+                "child": "Cena IX MARGARIDA, SEABRA, TITO MARGARIDAEmília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sair",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cena",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Cena IX MARGARIDA, SEABRA, TITO MARGARIDA[MASK] sai amuada.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "Ótimo! Agora vamos continuar a história em português com você.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "CORONEL",
+        "sentence": "CORONELMas emendei a mão; reparei que era antes eu quem ofendia, pretendendo lutar com um mestre, eu, simples aprendiz...",
+        "start_char": 29704,
+        "end_char": 29711,
+        "excerpt": "CORONELOra, eu acreditava-me ofendido na honra. TITOPor mim? CORONELMas emendei a mão; reparei que era antes eu quem ofendia, pretendendo lutar com um mestre, eu, simples aprendiz...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "emendei",
+                "child": "CORONELMas",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "emendar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "cORONELMas",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK]Mas emendei a mão; reparei que era antes eu quem ofendia, pretendendo lutar com um mestre, eu, simples aprendiz...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem olhou para o céu e fechou a porta da sala, agora isolado. Pensando em como se tornar melhor, ele começou a treinar com mais fervor, se dando a todas as tarefas que era encarregado.",
+        "generated_text_llama": "Eu sorri, sentindo uma onda de alívio e satisfação, sabendo que havia encontrado o caminho certo. Com a mão reparada, pude voltar ao meu treinamento, agora com uma nova perspectiva. Comecei a praticar técnicas de defesa mais sutis, aprendendo a controlar minha agressividade e encontrar um equilíbrio entre força e sofisticação.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emília",
+        "sentence": "(Emília leva o lenço aos olhos)",
+        "start_char": 36921,
+        "end_char": 36927,
+        "excerpt": "eram mestres de primeira força; um principiante; até às onze horas a fortuna pareceu desfavorecer-me, mas dessa hora em diante desandou a roda para eles e eu comecei a assombrar... pode ficar certa de que os assombrei. (Emília leva o lenço aos olhos)",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "leva",
+                "child": "Emília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "levar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emília",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "([MASK] leva o lenço aos olhos)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em seguida, ele se pôs em pé e, com a tranquilidade que sempre o caracterizava, abriu a janela. O vento frio entrou na sala, enquanto ele olhava para as luzes do mundo exterior que brilhavam noite e dia. Ele parecia sentir mais livre, mais perto da verdade, em contato com o mundo acima do telhado. A partir daí, ele passou a passar horas de cada vez mais tempo na janela, observando os céus, as pessoas que passavam pelo lado de fora e os bichos da rua. Ele estava tão preso à sua janela que parecia um árvore que não podia partir de seu tronco. Mas ele sempre sonhara em explorar o mundo acima do telhado, e agora que estava mais perto, ainda mais desejava fazer esse salto. Por isso, um dia decidiu se afastar da janela, pegar sua maleta e partir à procura das respostas que sempre lhe escapavam nas suas páginas escritas. Ele sabia que essa era a melhor maneira de encontrar o que desejava: explorar o mundo acima do telhado.",
+        "generated_text_llama": "E então, enquanto começava a se sentir um pouco desconfortável com a sensação de sujeira e poeira no rosto, Personagem lentamente se levantou da poltrona e se aproximou da janela do quarto. Ele olhou para fora, respirando o ar fresco que entrava pela abertura entre as persianas, tentando esquecer a sensação de sujeira e poeira.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emília",
+        "sentence": "(Emília começa algum pedaço musical melancólico)",
+        "start_char": 38254,
+        "end_char": 38260,
+        "excerpt": "EMÍLIANão é essa a resposta. TITONão aborrece, não... pode tocar. (Emília começa algum pedaço musical melancólico)",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "começa",
+                "child": "Emília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "começar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emília",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "([MASK] começa algum pedaço musical melancólico)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, a música se transformou em uma espécie de monólogo interno para o personagem. Ele sentiu-se engolido pela melodia e começou a cantar lentamente, enquanto tocava no violão, que segurava nas mãos. As notas eram delicadas e suaves, mas carregavam em sua voz uma tristeza tanta quanto a própria vida que ele vivia.",
+        "generated_text_llama": "E assim, a saudade se misturava com o som do violão, criando uma atmosfera única e emocionante. A música era de um artista desconhecido para Personagem, mas havia algo no tom que ressoou profundamente em seu coração. Ele fechou os olhos e deixou a melodia transportá-lo para um mundo de pensamentos tristes, onde as lágrimas quase não faziam barulho.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Tito",
+        "sentence": "MARGARIDAO Tito tira um papel do bolso e mostra a Ernesto.",
+        "start_char": 41527,
+        "end_char": 41531,
+        "excerpt": "Olha, lá vão eles... EMÍLIA(idem)É verdade. MARGARIDAO Tito tira um papel do bolso e mostra a Ernesto.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tira",
+                "child": "MARGARIDAO Tito",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tirar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "MARGARIDAO",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "MARGARIDAO [MASK] tira um papel do bolso e mostra a Ernesto.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Margaridao abriu o papel exibido, mostrando uma nota escrita em vermelho. A nota dizia \"Vou te encontrar no dia 15, ao meio-dia, na Praça da República\".",
+        "generated_text_llama": "Ernesto olhou atentamente o papel em mãos de Margarida e perguntou: \"O que é isso, caro?\" Margarida sorriu e disse: \"É uma reserva especial que eu encontrei no meu último viaje ao Rio. É uma pequena quantidade de mel de acácia, conhecido por suas propriedades medicinais.\" Ernesto fez uma careta, perplexo, e perguntou: \"Mel de acácia? Eu nunca ouvi falar disso antes.\" Margarida assentiu com a cabeça e disse: \"Sim, é muito raro. Mas eu tenho certeza de que pode me ajudar a melhorar minha saúde.\"",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "abriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ],
+                [
+                    "assentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Emília",
+        "sentence": "Emília só precisa agora de um urso:",
+        "start_char": 45979,
+        "end_char": 45985,
+        "excerpt": "CORONELO quê? TITOD. Emília só precisa agora de um urso:",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "precisa",
+                "child": "Emília",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "precisar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Emília",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] só precisa agora de um urso:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois disso, o Personagem se sentou na cama e olhou para fora pela janela. O que vira lhe causou algum tipo de ansiedade, pois o inverno já havia chegado e os ventos gelados iam soprando pelas ruas em busca de alguém indefeso. Era esse tempo do ano onde todos estavam aguardando a virada para o melhor período do ano: o Natal. Porém, não poderia deixar a cidade e correr a chance de não encontrar um ursinho.",
+        "generated_text_llama": "Personagem só precisa agora de um urso: uma fera gigante e temível que possa ajudá-lo a encontrar o tesouro escondido no coração da floresta. Com uma determinação renitente, Personagem se pôs em busca do primeiro passo para alcançar seu objetivo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "precisa",
+                    "ROOT"
+                ],
+                [
+                    "pôs",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

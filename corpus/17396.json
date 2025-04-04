@@ -1,0 +1,59 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Jesus",
+        "sentence": "A antífona continua, a música não cessa; mas a matrona suplantou Jesus, na atenção dos ouvintes.",
+        "start_char": 7894,
+        "end_char": 7899,
+        "excerpt": "Por que não há de ser assim, se agora mesmo penetrou no santuário esta garrida matrona, ataviada das melhores fitas, para vir falar ao seu Criador? Que farfalhar! que voltear de cabeças! A antífona continua, a música não cessa; mas a matrona suplantou Jesus, na atenção dos ouvintes.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "suplantou",
+                "child": "Jesus",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "suplantar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Jesus",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A antífona continua, a música não cessa; mas a matrona suplantou [MASK], na atenção dos ouvintes.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " A música se espalhou pelo ar e continuava a encantar os ouvintes, quando a Matrona iniciou sua parte no dueto musical. Ela segurava um violão antigo em seus braços e cantava com uma voz suave e profunda que chegava até o fundo do coração de todos aqueles presentes. A atenção dos ouvintes se desviou de Personagem para ela, e ela fez um belo trabalho em acompanhar o violão com sua voz. As notas dançavam na sala, chegando até a mente de cada pessoa presente e causando em eles uma sensação de tranquilidade e felicidade. A Matrona mostrou-se uma artista excepcional, conquistando o coração de todos aqueles que a ouviram e contribuindo para que a música não cessasse, mesmo após Personagem se encerrar.",
+        "generated_text_llama": "E assim, enquanto o coro de vozes continuava a cantar em harmonia, a matrona começou a dançar. Seus passos leves e precisos a acompanharam do palco, sem perder um momento para olhar para Personagem, que agora estava cada vez mais impaciente com a atenção dividida dos ouvintes. Com um movimento ágil, ela balançou o seu véu sobre os ombros, enquanto seus dedos seguravam firmemente as cordas da harpa, criando uma melodia adicional que se misturava perfeitamente com a antífona. Personagem não pôde deixar de notar a forma como a matrona parecia estar liderando o coro, como se estivesse guiando os ouvintes em uma jornada sonora e espiritual.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "encerrar",
+                    "advcl"
+                ]
+            ],
+            "obj": [
+                [
+                    "desviou",
+                    "ROOT"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pôde",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

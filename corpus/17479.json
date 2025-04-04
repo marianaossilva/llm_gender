@@ -1,0 +1,641 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "Cena I ELISA, VENÂNCIO ALVES ELISAEstá meditando?",
+        "start_char": 6320,
+        "end_char": 6325,
+        "excerpt": "LULU Atualidade. Em casa de Pinheiro (Sala de visitas.) Cena I ELISA, VENÂNCIO ALVES ELISAEstá meditando?",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "ELISAEstá",
+                "child": "Cena I ELISA, VENÂNCIO ALVES",
+                "dep_h": "aux",
+                "pos_h": "AUX",
+                "lemma_h": "ELISAEstá",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Cena I [MASK], VENÂNCIO ALVES [MASK]Está meditando?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Sim, estava meditando. A figura de Personagem se movimentou lentamente de uma postura de pé para sentar-se em um pequeno banco ao lado da estátua de bronze de Sérgio Marinho que dominava a praça principal do município de Santo André. As olhas de Personagem eram vazias, e apenas o vento bruscamente leve soprava-lhes pelos cabelos curtos, dando um toque de realismo àquela cena calma e tranquila.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "VENÂ",
+        "sentence": "Cena I ELISA, VENÂNCIO ALVES ELISAEstá meditando?",
+        "start_char": 6327,
+        "end_char": 6331,
+        "excerpt": "LULU Atualidade. Em casa de Pinheiro (Sala de visitas.) Cena I ELISA, VENÂNCIO ALVES ELISAEstá meditando?",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "ELISAEstá",
+                "child": "Cena I ELISA, VENÂNCIO ALVES",
+                "dep_h": "aux",
+                "pos_h": "AUX",
+                "lemma_h": "ELISAEstá",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cena",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Cena I ELISA, [MASK]NCIO ALVES ELISAEstá meditando?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Sim, estava meditando. O médico Alves Elisa, conhecido por sua atenção meticulosa e seu coração benevolente, continuou a concentrar-se naquele momento, sentado em uma posição sólida, com os olhos fechados e suas mãos na posição mudra. No ar, flutuava um delicado vapor de incenso que proporcionava à sala um aroma exótico e relaxante, ajudando-o a liberar sua mente para explorar as profundezas do pensamento. Além disso, um leve som ambiente apenas lhe chegava, o que acrescentava mais tranquilidade à ambientação de meditação introspectiva.",
+        "generated_text_llama": "Não, não estava meditando. Estava sentado na cozinha da casa de sua avó, olhando para a tigela de café preto que havia preparado com cuidado. A luz do sol entrava pela janela e iluminava as linhas finas de sua testa, como se estivesse pensando em algo sério. Ele sabia que precisava tomar uma decisão importante, mas não sabia qual era a escolha certa.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA(em tom de censura) Fez mal.",
+        "start_char": 7804,
+        "end_char": 7809,
+        "excerpt": "ELISANão reparou se ela ia só? VENÂNCIO(suspirando)Não ia só! ELISA(em tom de censura) Fez mal.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "reparou",
+                "child": "ELISANão",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "reparar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "ELISANão",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "ELISA(em",
+                "child": "tom",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "eLISA(em",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "tom",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "ELISA(em",
+                "child": "censura",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "eLISA(em",
+                "dep_c": "nmod",
+                "pos_c": "NOUN",
+                "lemma_c": "censura",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "tom",
+                "child": "ELISA(em",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "tom",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "eLISA(em",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "censura",
+                "child": "ELISA(em",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "censura",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "eLISA(em",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK](em tom de censura) Fez mal.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Fez mal. Ao se lembrar do que havia lido sobre a maneira correta de usar o software e evitar problemas com a censura, sentiu um puxo na garganta. Ficou claro que precisava corrigir isso rapidamente. Então, mudou a localização da palavra inapropriada em seu texto e enviou novamente para o sistema de tradução, olhando atentamente às instruções que havia lido sobre como se comunicar sem ser descoberto pela censura.",
+        "generated_text_llama": "",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Venâncio Alves",
+        "sentence": "Venâncio Alves apressa-se a apanhá-lo e entrega-lho)",
+        "start_char": 9105,
+        "end_char": 9119,
+        "excerpt": "apontar-lhe os regos a saltar, apanhar-lhe o leque quando caísse... (cai o leque a Elisa. Venâncio Alves apressa-se a apanhá-lo e entrega-lho)",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "apressa-se",
+                "child": "Venâncio Alves",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "apressar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Venâncio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] apressa-se a apanhá-lo e entrega-lho)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após ser capturado por espiões da Rainha, o herói não se demorou em agir. Despertou de um sono profundo e sentiu as mãos e os braços que o seguravam, mas rapidamente conseguiu acertar um golpe de punho na boca do guarda mais próximo. A sua força sobre-humana era tal que o homem foi jogado de costas para a paredes do quarto, ficando inconsciente no chão. Então, com uma grande velocidade e agilidade, o herói saltou da janela aberta para o outro lado da torre, escapando assim dos espiões que o perseguiam.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júpiter",
+        "sentence": "Queres que eu faça como aquele doido que, ao enublar-se o luar, pedia a Júpiter que espevitasse o candeeiro?",
+        "start_char": 14077,
+        "end_char": 14084,
+        "excerpt": "A lua-de-mel ofuscou-se; é alguma nuvem que passa; deixá-la passar. Queres que eu faça como aquele doido que, ao enublar-se o luar, pedia a Júpiter que espevitasse o candeeiro?",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "pedia",
+                "child": "Júpiter",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "pedir",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júpiter",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Júpiter",
+                "child": "Queres",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Júpiter",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Queres",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "o candeeiro",
+                "child": "Júpiter",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "candeeiro",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júpiter",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Queres que eu faça como aquele doido que, ao enublar-se o luar, pedia a [MASK] que espevitasse o candeeiro?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele se virou para mim e me olhou com uma expressão que combinava tristeza e esperança. \"Sim\", disse eu, \"eu posso fazer isso\". Levantei as mãos e inciávai a magia com um gesto sutil e conhecido.",
+        "generated_text_llama": "",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": [
+                [
+                    "fazer",
+                    "xcomp"
+                ],
+                [
+                    "fazer",
+                    "xcomp"
+                ]
+            ]
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Júpiter",
+        "sentence": "Júpiter é independente, e me apagaria de todo o luar, como fez com o doido.",
+        "start_char": 14114,
+        "end_char": 14121,
+        "excerpt": "é alguma nuvem que passa; deixá-la passar. Queres que eu faça como aquele doido que, ao enublar-se o luar, pedia a Júpiter que espevitasse o candeeiro? Júpiter é independente, e me apagaria de todo o luar, como fez com o doido.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "pedia",
+                "child": "Júpiter",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "pedir",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júpiter",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Júpiter",
+                "child": "Queres",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Júpiter",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "Queres",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "o candeeiro",
+                "child": "Júpiter",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "candeeiro",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Júpiter",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Júpiter",
+                "child": "independente",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Júpiter",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "independente",
+                "word_categories": [
+                    "carater_social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] é independente, e me apagaria de todo o luar, como fez com o doido.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas não era assim que a vida continuava. A independência dele era uma bênção e um mal por igual. Então, depois de se acalmar e escrever um poema sobre a beleza da revolução que acompanhava sua vontade, ele se levantou do sofá, olhou para fora pela janela e segurou o seu olhar sobre os prédios distantes.",
+        "generated_text_llama": "",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA LULU",
+        "sentence": "Cena V PINHEIRO, LULU, ELISA LULU(baixo)Olhe, aí está ela!",
+        "start_char": 15492,
+        "end_char": 15502,
+        "excerpt": "Eu podia dizer que era ainda um capricho de mulher. Mas não digo não, chamo antes afeição e dedicação. Cena V PINHEIRO, LULU, ELISA LULU(baixo)Olhe, aí está ela!",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "está",
+                "child": "Cena V PINHEIRO, LULU, ELISA LULU(baixo)Olhe,",
+                "dep_h": "cop",
+                "pos_h": "VERB",
+                "lemma_h": "estar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cena",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Cena V PINHEIRO, LULU, [MASK](baixo)Olhe, aí está ela!",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim que identificou a presença de sua esposa, o detetive Vítor Pinheiro não perdeu tempo e seguiu para frente. Em uma voz tranquila, mas firme, ele pediu desculpa por ter chegado tarde para a reunião com a SINDAM - Sociedade de Investigação e Defesa dos Direitos do Animal, na qual Lulu era membro ativo.",
+        "generated_text_llama": "Descobri que era uma jovem com cabelos pretos e olhos castanhos, vestida com um jeans e uma camiseta branca. Ela me encarou com um olhar sério, como se estivesse questionando o que eu estava fazendo ali. Eu, por minha vez, tentei sorrir para tentar acalmar a situação, mas ela não me respondeu, simplesmente me olhou com uma expressão desafiadora.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "membro",
+                    "obl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ELISA",
+        "sentence": "ELISA(baixo)Se é por ter o que fazer, podemos esperar.",
+        "start_char": 15799,
+        "end_char": 15804,
+        "excerpt": "LULU(indo a Elisa, baixo) O primo janta fora. ELISA(baixo)Se é por ter o que fazer, podemos esperar.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "podemos",
+                "child": "ELISA(baixo)Se",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "poder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "eLISA(baixo)Se",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK](baixo)Se é por ter o que fazer, podemos esperar.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas se a pessoa baixava foi para ver mais detalhes do que estava escrito na parede. Um papel velho com alguns símbolos estranhos, semelhantes a uma espécie de mapa. A pessoa segurou o papel com os dedos e olhou por ele de perto, tentando desvendar o que ele significava. Algumas palavras pareciam se repetir, mas ela não conseguiu ler nada legível. Então, a pessoa segurou o papel em seu bolso e partiu para encontrar alguém que pudesse lhe ajudar a decifrar aquilo.",
+        "generated_text_llama": "Personagem, vestido com seu casaco escuro e chapéu de palha, olhou ao redor, sabendo que não tinha muitas opções. A pobreza o envolvia como um manto, e ele precisava encontrar uma maneira de sobreviver. Com uma respirada funda, começou a caminhar pelas ruas desertas da cidade, em busca de alguma oportunidade.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Venâncio Alves",
+        "sentence": "Mas estas coisas vão dando na vista; já as pessoas que freqüentam a nossa casa têm reparado; o Venâncio Alves não me deixa sossegar com as suas perguntas.",
+        "start_char": 18448,
+        "end_char": 18462,
+        "excerpt": "Para caprichoso, caprichosa! LULUPois sim! Mas estas coisas vão dando na vista; já as pessoas que freqüentam a nossa casa têm reparado; o Venâncio Alves não me deixa sossegar com as suas perguntas.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "deixa",
+                "child": "o Venâncio Alves",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "deixar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Venâncio",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mas estas coisas vão dando na vista; já as pessoas que freqüentam a nossa casa têm reparado; o [MASK] não me deixa sossegar com as suas perguntas.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Personagem, por sua vez, segurava uma expressão inquietante sobre o rosto e, sem dúvida, havia percebido a minha perturbação. Ele moveu-se para o meio da sala, com um movimento suave e preciso que contrastava fortemente com a agitação que dominava a conversa até então.",
+        "generated_text_llama": "Eu tentei manter a calma, mas estava cada vez mais ansioso para descobrir quem ou o que estava por trás das estranhas mudanças no nosso lar. Enquanto meu filho se distraía com seus brinquedos, eu rapidamente procurei esconder meus pertences e enfileirar as coisas em ordem, tentando criar uma sensação de normalidade apesar daquela atmosfera estranha que pairava sobre nós.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "segurava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Elisa",
+        "sentence": "Elisa chega-se a um espelho e compõe o toucado)",
+        "start_char": 19194,
+        "end_char": 19199,
+        "excerpt": "ELISAVai recebê-lo. (Lulu vai até à porta. Elisa chega-se a um espelho e compõe o toucado)",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "chega-se",
+                "child": "Elisa",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chegar se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Elisa",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] chega-se a um espelho e compõe o toucado)",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O personagem segura em sua mão um pequeno vaso de ferro e vai para a frente, onde encontra um espelho antigo e veludinho, com uma borda dourada que brilha sob a luz do lanterna. Ele se aproxima e observa seu rosto refletido no espelho, olhando fixamente nos olhos, buscando qualquer indício de quem ele pode ser ou o que sua missão poderia ser. Ao fazer isso, ele sente uma pequena sacudidação nas mãos e o vaso derruba-se no chão, soltando um grito estranho. O personagem se volta para a frente e encontra, em seu rosto refletido no espelho, uma imagem que lhe parece familiar, mas também assustadora - ele consegue perceber claramente as formas de três figuras que, aparentemente, estavam olhando para ele. Surpreendido e inquieto, o personagem abraça a lanterna mais firme e continua se movimentando em busca das respostas que deseja encontrar.",
+        "generated_text_llama": "Personagem se olhou nos olhos refletidos e sorriu, satisfeito com como tudo estava em ordem. Em seguida, puxou o cinto do seu vestido e o ajustou sobre sua cintura, garantindo que todos os laços estivessem perfeitamente no lugar.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "VENÂNCIO",
+        "sentence": "VENÂNCIO(repoltreando-se)Foi excelente esta idéia do divã.",
+        "start_char": 21924,
+        "end_char": 21932,
+        "excerpt": "Não me inculpe, nesse caso, a admiração. ELISANão inculpo, aconselho. VENÂNCIO(repoltreando-se)Foi excelente esta idéia do divã.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "repoltreando-se",
+                "child": "VENÂNCIO(",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "repoltreandor se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "VENÂNCIO(",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK](repoltreando-se)Foi excelente esta idéia do divã.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ela (Elisa) olhou para o divã e observou com calma as peças que compunham este móbil de madeira velha e polida. Elisa era uma pessoa meticulosa, por isso levava muito tempo para fazer quaisquer decisões importantes em seu trabalho ou em suas atividades diárias. Porém, quando se tratava de projetos artísticos, ela se sentia livre e capaz de tomar decisões mais rápidas.",
+        "generated_text_llama": "Peleando-se com o espanto e a irritação, Personagem não pôde deixar de notar que sua irmã, Lívia, estava observando-o com um sorriso malicioso nos olhos. \"O que você quer dizer com essa expressão?\" perguntou Personagem, tentando mascarar o rubor que se espalhava pela sua cara.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "pessoa",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pôde",
+                    "ROOT"
+                ]
+            ],
+            "obj": [
+                [
+                    "perguntou",
+                    "ROOT"
+                ]
+            ]
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Des",
+        "sentence": "ELISAMutilado ele, que pretende fazer da mesquinha Desdêmona?",
+        "start_char": 28017,
+        "end_char": 28020,
+        "excerpt": "Está com intenções trágicas! PINHEIROZombe ou não, há de ser assim. ELISAMutilado ele, que pretende fazer da mesquinha Desdêmona?",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "fazer",
+                "child": "Desdêmona",
+                "dep_h": "xcomp",
+                "pos_h": "VERB",
+                "lemma_h": "fazer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Desdêmona",
+                "word_categories": [
+                    "aparencia"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Desdêmona",
+                "child": "mesquinha",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Desdêmona",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "mesquinho",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "ELISAMutilado ele, que pretende fazer da mesquinha [MASK]dêmona?",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Para se livrar do malefício da demoninha, Elisamar tomou um pouco mais de coragem e começou a recitar uma antiga oração sagrada. A voz dela tremula com medo, mas sua determinação era inabalável. Depois que terminou de recitar o encantamento, Elisamar fechou os olhos e esperou por um sinal. Em seguida, ouviu uma forte voz masculina responder:",
+        "generated_text_llama": "",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "tomou",
+                    "ROOT"
+                ],
+                [
+                    "fechou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    }
+]

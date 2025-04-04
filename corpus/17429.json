@@ -1,0 +1,1551 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Malvina",
+        "sentence": "O que ainda agrava este fato é que Malvina não tinha melhor amiga que Julieta; andaram no colégio, eram da mesma idade e trocavam as suas mais íntimas confidências.",
+        "start_char": 1274,
+        "end_char": 1281,
+        "excerpt": "Creio mesmo que juraram entre si um amor eterno, não limitado à existência do sol, no máximo, mas eterno, eterno como o próprio amor. Vai então o miserável, aproveita-se da intimidade de Julieta com Malvina, namora a Malvina e pede-a em casamento. O que ainda agrava este fato é que Malvina não tinha melhor amiga que Julieta; andaram no colégio, eram da mesma idade e trocavam as suas mais íntimas confidências.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "intimidade",
+                "child": "Malvina, namora a Malvina",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "intimidade",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Malvina",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Malvina, namora a Malvina",
+                "child": "intimidade",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Malvina",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "intimidade",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "tinha",
+                "child": "Malvina",
+                "dep_h": "ccomp",
+                "pos_h": "AUX",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Malvina",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "O que ainda agrava este fato é que [MASK] não tinha melhor amiga que Julieta; andaram no colégio, eram da mesma idade e trocavam as suas mais íntimas confidências.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O que agrava ainda mais esta situação foi que Julieta era a única boa amiga dele; haviam estudado juntos no colégio, tinham a mesma idade e trocavam as suas mais íntimas confidências. Com essa descoberta em mente, ele sentiu um espantalhe de vergonha por não ter conseguido ajudar sua amiga quando precisou. Ele tomou uma respiração profunda e decidiu tomar algumas medidas: iria procurar as informações sobre o namorado de Julieta, saber se estava verdadeiramente morto ou não e encontrar alguém que pudesse ajudá-la. É assim que Personagem partiu para uma missão desconhecida, com um coração cheio de compassão por sua boa amiga, e resolveu encontrar algum jeito de salvá-la da prisão.",
+        "generated_text_llama": "Ao notar a melancolia de Julieta, Personagem imediatamente se aproximou dela, perguntando o que estava errado e se precisava de alguém para conversar. Uma vez que Julieta compartilhou com ele suas inseguranças e medos, Personagem se sentiu compelido a ajudá-la, sendo que era uma pessoa muito mais forte emocionalmente. Com um sorriso encorajador, ele a encorajou a falar sobre seus sentimentos e a prometeu manter todos os segredos que ela lhe contasse.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "partiu",
+                    "ccomp"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "aproximou",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julieta",
+        "sentence": "Julieta disse à amiga coisas duras, nomes feios, que a outra ouviu com a placidez que dá a vitória, e perdoou com magnanimidade.",
+        "start_char": 1652,
+        "end_char": 1659,
+        "excerpt": "Julieta notou certa frieza na outra, escassez de visitas, poucas cartas; e tão pouco advertiu na causa que, achando também alguma diferença no Miranda, confiou à amiga as suas tristezas amorosas. Não tardou, porém, que a verdade aparecesse. Julieta disse à amiga coisas duras, nomes feios, que a outra ouviu com a placidez que dá a vitória, e perdoou com magnanimidade.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "notou",
+                "child": "Julieta",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "notar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "Julieta",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "disse",
+                "child": "Julieta",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julieta",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] disse à amiga coisas duras, nomes feios, que a outra ouviu com a placidez que dá a vitória, e perdoou com magnanimidade.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em seguida, ela se levantou lentamente, como uma árvore velha que arrisca se erguer após ter sofrido um furacão, sua figura serena e elegante contrastando com as palavras duras que havia espalhado. Sua visão parecia estar no longe, além das brumosas telhados e de seus próprios sonhos que sempre a acompanhavam. Ao se afastar, ela sentiu um vento frio nos seus cabelos, como uma promessa de resolução em sua jornada pessoal. Sobreviver às tempestades é dificil, mas ela sabia que o amor, a perdição e a magnanimidade podem ser mais fortes do que qualquer tormenta.",
+        "generated_text_llama": "Com um sorriso calmo e sereno, que contrastava com as palavras pesadas que havia pronunciado momentos antes, Personagem viu seu amigo refletir sobre o que havia dito. Ele sabia que suas palavras tinham ferido a amizade deles, mas também sabia que não poderia desfazer o que havia feito.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "viu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "ieta",
+        "sentence": "interrompia-se Julieta, dirigindo-se mentalmente à outra.",
+        "start_char": 2444,
+        "end_char": 2448,
+        "excerpt": "Velhaca! falsa! interrompia-se Julieta, dirigindo-se mentalmente à outra.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "interrompia-se",
+                "child": "Julieta",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "interrompia-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julieta",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "interrompia-se Jul[MASK], dirigindo-se mentalmente à outra.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " JulPersonagem fechou os olhos, concentrando-se mais ainda naquele sentimento peculiar que lhe corria pelo peito - uma mistura de confusão e preocupação quando se pensava em ela. E então, sem dar para refletir, abriu seus olhos e levantou-se da cadeira, dirigindo-se em direção à porta que lhe servia como um passadinho secreto até a outra parte da casa, onde se encontrava a estúdio de pintura da jovem.",
+        "generated_text_llama": "Ele olhou em volta rapidamente, garantindo que não havia ninguém mais se aproximando, antes de prosseguir pela passagem estreita e sombria. A luz da lua clara iluminava o caminho à frente, destacando as pequenas pedras e detritos que cobriam o chão. Personagem seguiu em frente, seu coração batendo mais rápido com cada passo, pois sabia que precisava encontrar uma maneira de escapar daquele lugar antes que os outros o encontrassem.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "seguiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Leocádia",
+        "sentence": "Maria Leocádia confessou que era uma perfídia, e, para ajudar a consolação, disse que o noivo não valia nada, ou muito pouco.",
+        "start_char": 2484,
+        "end_char": 2498,
+        "excerpt": "falsa! interrompia-se Julieta, dirigindo-se mentalmente à outra. Maria Leocádia confessou que era uma perfídia, e, para ajudar a consolação, disse que o noivo não valia nada, ou muito pouco.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "confessou",
+                "child": "Maria Leocádia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "confessar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] confessou que era uma perfídia, e, para ajudar a consolação, disse que o noivo não valia nada, ou muito pouco.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, depois de confesar sua infidelidade, Personagem descobriu que não havia palavras para compensar esse tipo de traição. Ela sentiu-se profundamente culpada pelo doloroso e ferimento que causou ao seu noivo. Então, para tentar apagar aqueles sentimentos nocivos e dorosos em sua mente, Personagem fez uma promessa a si mesma: que faria tudo o que fosse preciso para reparar esse dano e recuperar o amor de quem ela gostava. Ela então se dirigiu ao noivo e disse-lhe:",
+        "generated_text_llama": "Personagem olhou para as lágrimas de sua amiga, sentindo-se cada vez mais culpado com cada palavra que estava dizendo. Ela sabia que aquela era uma forma de tentar aliviar a dor da amiga, mas também sabia que estava ferindo ainda mais. Com um suspiro profundo, Personagem se levantou da cadeira e começou a caminhar em volta do quarto, tentando encontrar as palavras certas para expressar o que sentia.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "descobriu",
+                    "ROOT"
+                ],
+                [
+                    "fez",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ],
+                [
+                    "levantou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julieta",
+        "sentence": "Mas a ferida era recente, o amor subsistia e Julieta desatou a chorar.",
+        "start_char": 2655,
+        "end_char": 2662,
+        "excerpt": "interrompia-se Julieta, dirigindo-se mentalmente à outra. Maria Leocádia confessou que era uma perfídia, e, para ajudar a consolação, disse que o noivo não valia nada, ou muito pouco. Mas a ferida era recente, o amor subsistia e Julieta desatou a chorar.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "interrompia-se",
+                "child": "Julieta",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "interrompia-se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julieta",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "desatou",
+                "child": "Julieta",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "desatar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julieta",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Julieta",
+                "child": "recente",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Julieta",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "recente",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mas a ferida era recente, o amor subsistia e [MASK] desatou a chorar.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele fechou os olhos, uma lágrima correndo pelo seu rosto enquanto se agarrava a si mesmo. A partir daí, começou a andar, procurando distração. Não queria sentir essa dor que parecia engolir tudo o que era bom em sua vida. Acabara de receber uma ferida na batalha e seu coração ainda estava batendo por ela.",
+        "generated_text_llama": "Ele tentava manter as coceiras sob controle, mas as lágrimas continuavam a cair, um fluxo contínuo de tristeza e dor que parecia não ter fim. Personagem sabia que precisava encontrar uma maneira de lidar com a ferida, não apenas física, mas também emocional. Ele começou a se lembrar do momento em que a lesão havia ocorrido, tentando entender como tudo havia mudado desde então.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julieta",
+        "sentence": "Julieta enxugou as lágrimas; daí a pouco saía de carro, ao lado da mãe, com quem viera visitar a família da amiga.",
+        "start_char": 2785,
+        "end_char": 2792,
+        "excerpt": "Mas a ferida era recente, o amor subsistia e Julieta desatou a chorar. A amiga abraçou-a muito, beijou-a, murmurou-lhe ao ouvido as palavras mais cordiais; falou-lhe ao brio. Julieta enxugou as lágrimas; daí a pouco saía de carro, ao lado da mãe, com quem viera visitar a família da amiga.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "desatou",
+                "child": "Julieta",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "desatar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julieta",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Julieta",
+                "child": "recente",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Julieta",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "recente",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "enxugou",
+                "child": "Julieta",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "enxugar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julieta",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] enxugou as lágrimas; daí a pouco saía de carro, ao lado da mãe, com quem viera visitar a família da amiga.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando, ela segurava a mão da sua mãe e olhava para o chão. Ao lado deles estava seu carrinho cheio de presentes e adereços que tinha comprado para a amiga. Pouco a pouco, sentindo o céu se limpar, começou a caminhar pela casa, que parecia menos bonita nesse momento. As paredes brancas pareciam descoloridas e as coisas ficavam mais frágeis do que nunca. A amiga estava sentada no sofá, com um sorriso, tentando ocultar sua dor. A mãe da amiga se aproximou e a abraçou, passando o velho olhar triste de uma mãe perdida entre as mãos de seus braços. Ela segurava as lágrimas, tentando suprimir o choro que queria escapar da boca, mas sabia que precisava ser forte para a amiga. Então ela sentou-se ao lado da amiga e falou com ela em voz baixa. Ao longo do dia, as paredes continuaram descoloridas, mas o céu voltou a se limpar e a casa voltou a ser menos triste. Até mesmo a mãe da amiga pareceu mais forte quando ela saía da sala.",
+        "generated_text_llama": "Eles foram até o portão da casa e Personagem sentiu um pouco de nervosismo, sabendo que a família do João era muito diferente da dela. A mãe, notando o tom da voz dele, o abraçou e disse: \"Não há de quê, menino. Vamos mostrar que podemos nos divertir juntos\". Personagem sorriu, sentindo um pouco melhor, e seguiu a mãe até a porta do carro.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "conj"
+                ],
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "José Augusto",
+        "sentence": "Estava indignada; mas o José Augusto, filósofo e pacato, achou que não era caso de indignação.",
+        "start_char": 3351,
+        "end_char": 3363,
+        "excerpt": "A indiscrição era o pecado venial de Maria Leocádia. Tão depressa falou com o namorado dela, o bacharel José Augusto, como lhe referiu tudo o que se passara. Estava indignada; mas o José Augusto, filósofo e pacato, achou que não era caso de indignação.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "o bacharel",
+                "child": "José Augusto",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "bacharel",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "José Augusto",
+                "child": "o bacharel",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "José",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "bacharel",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "achou",
+                "child": "o José Augusto, filósofo e pacato,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "achar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Estava indignada; mas o [MASK], filósofo e pacato, achou que não era caso de indignação.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em vez disso, ele decidiu abordar a situação de maneira calma e racional. Tomando uma funda, ele começou a escrever um tratado onde exploraria as causas deste comportamento injusto e propunha soluções para evitar seu recurrência no futuro.",
+        "generated_text_llama": "Olhou para ele com um olhar penetrante, tentando entender como era possível que alguém pudesse se sentir tão injustiçado em uma situação que, na verdade, era apenas uma questão de dinheiro. \"Você acha que eu sou um ladrão?\", perguntou, sua voz calma e measured, mas com um toque de sarcasmo. O homem envergonhado assentiu com a cabeça, enquanto o Personagem continuou: \"Então, por que não me denunciou imediatamente? Por que você me veio atrás, mais de um ano após o fato?\" A pergunta do Personagem parecia uma ironia, pois era óbvio que a história não poderia ser tão simples. Ele sabia que havia algo mais, algo que o homem não estava disposto a revelar. O Personagem decidiu prosseguir, tentando entender as motivações do homem e descobrir a verdade por trás da sua indignação.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "continuou",
+                    "advcl"
+                ],
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Leocádia",
+        "sentence": "Também o que faltava era ela ficar solteira toda a vida, replicou Maria Leocádia.",
+        "start_char": 3594,
+        "end_char": 3608,
+        "excerpt": "Estava indignada; mas o José Augusto, filósofo e pacato, achou que não era caso de indignação. Concordava que a outra chorasse; mas tudo passa, e eles ainda teriam de assistir ao casamento de Julieta. Também o que faltava era ela ficar solteira toda a vida, replicou Maria Leocádia.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "replicou",
+                "child": "Maria Leocádia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "replicar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Também o que faltava era ela ficar solteira toda a vida, replicou [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, ela decidiu empreender uma jornada para encontrar o amor verdadeiro e desabafar-se da solitude. Primeiramente, ela fez um perfil no maior site de namoro da região e começou a conversar com várias pessoas interessantes. Algum tempo depois, ela se deparou com uma mensagem de uma pessoa que lhe parecia tão encantadora quanto ela mesma. Era um homem gentil, simpático e que compartilhava dos mesmos interesses. Delighted, ela decidiu sair com ele em um encontro amigável no café mais bonito da cidade. Ela acreditava que esse seria apenas o início de uma linda história de amor.",
+        "generated_text_llama": "Não, não foi isso que Personagem disse em seguida. Com uma expressão triste, ela olhou para os joelhos e fez uma pausa, como se estivesse pesando suas opções. \"Mas quem me diz que é essa minha escolha?\", perguntou ela, com uma voz mais suave do que antes. Ela levantou-se da cadeira e começou a caminhar pelo quarto, como se estivesse tentando encontrar uma saída para o seu problema.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "disse",
+                    "csubj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "José Augusto",
+        "sentence": "Na rua, porém, José Augusto tornou a pensar na amiga da namorada, e achou que era naturalmente triste a situação.",
+        "start_char": 3829,
+        "end_char": 3841,
+        "excerpt": "Cinco minutos depois, metiam o assunto na algibeira, e falavam de si mesmos. Ninguém ignora que os assuntos mais interessantes derrubam os que o são menos; foi o que aconteceu aos dois namorados. Na rua, porém, José Augusto tornou a pensar na amiga da namorada, e achou que era naturalmente triste a situação.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tornou",
+                "child": "José Augusto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tornar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Na rua, porém, [MASK] tornou a pensar na amiga da namorada, e achou que era naturalmente triste a situação.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem decidiu dar uma luz para esse sentimento de tristeza. Em seguida, fez um chamado telefônico à amiga da namorada e a convidou para uma passeata pelo parque local, onde eles podiam conversar livremente sobre coisas mais leves. Queria dar algum apoio a sua amiga e se divertir um pouco ao mesmo tempo. Ao final da ligação, ele sentiu-se um pouco melhor.",
+        "generated_text_llama": "E assim, enquanto caminhava, Personagem não pôde deixar de lado as preocupações com a situação. Ele pensou em como poderia ajudar sua namorada a superar essa dor e, ao mesmo tempo, não queria perturbar o momento especial que ela compartilhava com seu novo amigo.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pôde",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "José Augusto",
+        "sentence": "José Augusto fê-lo sentar; depois, olhou para ele, e, como ferido de uma idéia súbita, desfechou-lhe esta pergunta:",
+        "start_char": 4332,
+        "end_char": 4344,
+        "excerpt": "Tomara apenas uma xícara de chá, e foi comer. Mal se sentou aparece-lhe um colega de academia, formado dois anos, que esperava por dias uma nomeação de juiz municipal para o interior. José Augusto fê-lo sentar; depois, olhou para ele, e, como ferido de uma idéia súbita, desfechou-lhe esta pergunta:",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "fê-lo",
+                "child": "José Augusto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "fê-lo",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] fê-lo sentar; depois, olhou para ele, e, como ferido de uma idéia súbita, desfechou-lhe esta pergunta:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " \"Personagem fez-o se sentar; em seguida, olhou para ele, e, como ferido por uma ideia repentina, abriu sua boca e desferiu-lhe esta questão: \"Por que você sempre se afasta das pessoas que mais amam você?\" A respiração do homem tornou-se enganosa, mas ele não evitou os olhos dum tono inquieto e transtornado.",
+        "generated_text_llama": "\"E o que é que você está fazendo aqui, Luiz? Você sabe que meu irmão está preso há semanas e não te conteste nada. O que aconteceu?\"",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentar",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Marcos",
+        "sentence": "Marcos respondeu que preferia um bife sangrento.",
+        "start_char": 4477,
+        "end_char": 4483,
+        "excerpt": "José Augusto fê-lo sentar; depois, olhou para ele, e, como ferido de uma idéia súbita, desfechou-lhe esta pergunta: Marcos, tu queres uma noiva? Marcos respondeu que preferia um bife sangrento.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "tu",
+                "child": "Marcos",
+                "dep_h": "ROOT",
+                "pos_h": "AUX",
+                "lemma_h": "tu",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Marcos",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "respondeu",
+                "child": "Marcos",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Marcos",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] respondeu que preferia um bife sangrento.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então ele abriu a geladeira e puxou um bom bife, deixando-o macerar em salgadinho por algumas horas. Em seguida, foi até a cozinha e preparou uma estufada de batatas para acompanhar o seu bife.",
+        "generated_text_llama": "\"Meu cara\", disse o garçom, \"um bife sangrento? Você quer algo realmente especial nessa. Vou verificar se tem algum corte disponível. (pausa) Sim, tenho um bife de ouriço com sangue quente que deve caber perfeitamente na sua pedra.\"",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "José Augusto",
+        "sentence": "Veio o bife, veio pão, vinho, chá, anedotas, pilhérias, até que o José Augusto perguntou-lhe se conhecia Julieta ou a família.",
+        "start_char": 4611,
+        "end_char": 4623,
+        "excerpt": "Marcos respondeu que preferia um bife sangrento. Estava com fome... Veio o bife, veio pão, vinho, chá, anedotas, pilhérias, até que o José Augusto perguntou-lhe se conhecia Julieta ou a família.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "perguntou-lhe",
+                "child": "o José Augusto",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "perguntar ele",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Veio o bife, veio pão, vinho, chá, anedotas, pilhérias, até que o [MASK] perguntou-lhe se conhecia Julieta ou a família.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas o Sr. João não deixou de agradecer com um sorriso ameno. Ele pegou uma folha e escreveu: \"Seu nome é?\", dando a entender que gostaria de saber o nome de sua visitação. Depois, deixou cair suas palavras no assunto mais sutilmente possível: \"Essa é uma casa de família, você pode encontrar quem fornece nossos alimentos aqui?\"",
+        "generated_text_llama": "Era uma noite tranquila e iluminada pela lâmpada do café, onde Personagem havia escolhido passar a tarde e a noite em busca de respostas e distrações. Enquanto tomava um gole de vinho e pedia mais pão para o bife, Personagem começou a perguntar ao velho sobre sua vida e suas aventuras.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "escolhido",
+                    "acl:relcl"
+                ],
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "José Augusto",
+        "sentence": "Não posso, retorquiu José Augusto rindo; tenho outras idéias, atirei o lenço a outra odalisca...",
+        "start_char": 4812,
+        "end_char": 4824,
+        "excerpt": "Mas que interesse...?  Sou amigo da família. Pois casa-te. Não posso, retorquiu José Augusto rindo; tenho outras idéias, atirei o lenço a outra odalisca...",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "rindo",
+                "child": "José Augusto",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "rir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Não posso, retorquiu [MASK] rindo; tenho outras idéias, atirei o lenço a outra odalisca...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem sorriu e, sem perder um momento da conversação animada com as outras mulheres que se encontravam na sala, atingiu rapidamente seu bolso. De lá, extraiu uma moleta de linho e a lançou para a outra odalisca.",
+        "generated_text_llama": "Ele se levantou da cadeira e aproximou-se da próxima odalisca, que estava sentada em um sofá de seda vermelha. Com um sorriso malicioso, ele começou a descrever um convite para uma dança exótica, prometendo que ela seria a rainha do palco. A odalisca, que era conhecida por sua beleza e habilidade em danças orientais, não pôde resistir à sua atratividade e aceitou o convite.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "José Augusto",
+        "sentence": "Na véspera, o José Augusto dizia a Maria Leocádia:  Queria guardar o segredo, mas já agora digo tudo.",
+        "start_char": 6225,
+        "end_char": 6237,
+        "excerpt": "Está feito; não me custa dizer-lhe algumas palavrinhas amáveis... Terá o nariz torto? Na véspera, o José Augusto dizia a Maria Leocádia:  Queria guardar o segredo, mas já agora digo tudo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "dizia",
+                "child": "o José Augusto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Na véspera, o [MASK] dizia a Maria Leocádia:  Queria guardar o segredo, mas já agora digo tudo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Depois de dar sua declaração à Maria Leocádia, ele se sentou e ficou em silêncio por um tempo. Seus olhos eram pesados, como se estivesse carregando todo o mundo no seu peito. Em seguida, ele abriu sua bolsa e retirou um papel veludo em que havia escrito suas declarações.",
+        "generated_text_llama": "Naquela noite, sob o clarão das luzes da lâmpada de Maria Leocádia, Personagem revelou seu pesadelo. Ele contou sobre os sinais estranhos que havia visto em sua casa, nas paredes escuras e nos cantos abandonados. Dizia que havia visto figuras flutuando pelas sombras, como fantasmas daquela antiga mansão que estava sendo demolida.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "revelou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Leocádia",
+        "sentence": "Maria Leocádia prometeu que seria muda como um peixe; mas, sem dúvida, há peixes que falam, porque tão depressa entrou no salão e viu Julieta, perguntou-lhe se conhecia um bacharel Marcos, assim e assim...",
+        "start_char": 6646,
+        "end_char": 6660,
+        "excerpt": "Está bom, mas não passe daqui; é um amigo, o bacharel Marcos, um bonito rapaz. Não diga nada a Julieta; é muito orgulhosa, pode recusar, se entender que lhe estamos fazendo algum favor. Maria Leocádia prometeu que seria muda como um peixe; mas, sem dúvida, há peixes que falam, porque tão depressa entrou no salão e viu Julieta, perguntou-lhe se conhecia um bacharel Marcos, assim e assim...",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "prometeu",
+                "child": "Maria Leocádia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "prometer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] prometeu que seria muda como um peixe; mas, sem dúvida, há peixes que falam, porque tão depressa entrou no salão e viu Julieta, perguntou-lhe se conhecia um bacharel Marcos, assim e assim...",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a história em português brasileiro, o Personagem prometeu que seria muda como um peixe, mas era claro que havia peixes que falavam, pois tão depressa entrou no salão e viu Julieta. Sem pensar duas vezes, perguntou-lhe se conhecia um bacharel Marcos. Julieta sorriu e respondendo com uma certa surpresa, afirmou que sim, ela conhecia um homem chamado Marcos que estudava no mesmo curso de Direito como ela. O Personagem estava tão animado que quase saltou do chão em sua alegria. Perguntou-lhe se poderia falar com esse Marcos e Julieta, com um ar modesto, concordou. Agora só restava para o Personagem encontrar uma maneira de falar com o bacharel Marcos e conquistá-lo, a fim de poder compartilhar seus sonhos e projetos juntos.",
+        "generated_text_llama": "E Julieta, surpresa com a atenção de Personagem, não pôde deixar de sorrir enquanto explicava que sim, conhecera o Marcos em uma festa anterior, mas sem saber que ele seria o mesmo que se aproximou dela agora. Personagem ouviu atentamente, fazendo um gesto de curiosidade com as mãos, enquanto Julieta prosseguia a conversa.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "prometeu",
+                    "ROOT"
+                ],
+                [
+                    "animado",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ouviu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julieta",
+        "sentence": "Julieta respondeu que não, e a amiga sorriu.",
+        "start_char": 6852,
+        "end_char": 6859,
+        "excerpt": "Não diga nada a Julieta; é muito orgulhosa, pode recusar, se entender que lhe estamos fazendo algum favor. Maria Leocádia prometeu que seria muda como um peixe; mas, sem dúvida, há peixes que falam, porque tão depressa entrou no salão e viu Julieta, perguntou-lhe se conhecia um bacharel Marcos, assim e assim... Julieta respondeu que não, e a amiga sorriu.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "diga",
+                "child": "a Julieta",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "digar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julieta",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "viu",
+                "child": "Julieta",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "ver",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julieta",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "respondeu",
+                "child": "Julieta",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "responder",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julieta",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] respondeu que não, e a amiga sorriu.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Personagem, por sua vez, sorriu e disse: \"Entendo. Mas tem uma coisa mais importante pra mim agora.\" E então, ela puxou seu smartphone da bolsa e o desbloqueou com um gesto rápido. A amiga se aperguntou, e Personagem respondeu: \"Estou me inscrevendo em um curso online sobre direitos humanos. É minha forma de agir e fazer uma diferença para aqueles que precisam.\" A amiga sorriu novamente e abraçou-a. \"Parabéns, Personagem, vai ser maravilhosa essa jornada,\" disse ela. Personagem sonrou, olhou pela janela e disse: \"É isso que faço. Vou fazer isso todo o resto da minha vida.\"",
+        "generated_text_llama": "Ele balançou a cabeça novamente, sem se importar com as olhares curiosos da turma. \"Não, não me convence\", disse ele, olhando para o chão. A amiga tentou novamente, mas Personagem manteve sua posição, mostrando que não estava disposto a mudar de ideia.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "respondeu",
+                    "conj"
+                ],
+                [
+                    "sonrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "manteve",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "José Augusto",
+        "sentence": "José Augusto, sempre filósofo e pacato, foi além e confessou-lhe em segredo que achava a noiva ridícula.",
+        "start_char": 7640,
+        "end_char": 7652,
+        "excerpt": "Julieta sorriu; o elogio fez-lhe bem. José Augusto, sempre filósofo e pacato, foi além e confessou-lhe em segredo que achava a noiva ridícula.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "foi",
+                "child": "José Augusto, sempre filósofo e pacato,",
+                "dep_h": "ROOT",
+                "pos_h": "AUX",
+                "lemma_h": "ir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], sempre filósofo e pacato, foi além e confessou-lhe em segredo que achava a noiva ridícula.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Contínuo: Após a revelação, João ficou surpreso. Nunca tinha visto uma expressão tão serena em sua amiga desde que se conheceram. Em seguida, Mariana fez um sorriso discreto e respondendo tranquilamente disse: \"Eu sei que acho-te bonito e que me faz feliz, mas sou também filósofa e pacata. Agora vamos aprender com o mundo.\"",
+        "generated_text_llama": "Ele sussurrou isso em um tom baixo, como se não quisesse que os outros ouvissem, mas também não queria ser demasiado discreto. A expressão de surpresa nos olhos da noiva era visível, e ela tentou escondê-la com uma risada nervosa, enquanto Personagem continuava a falar.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "continuava",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julieta",
+        "sentence": "O senhor é muito reparador, disse Julieta sorrindo.",
+        "start_char": 7998,
+        "end_char": 8005,
+        "excerpt": "Todas as noivas ficam bem. Olhe a cintura do vestido: está mais levantada de um lado que de outro... O senhor é muito reparador, disse Julieta sorrindo.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Julieta sorrindo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julieta",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "O senhor é muito reparador, disse [MASK] sorrindo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O senhor é muito reparador, disse Personagem sorrindo, então, de forma delicada e cuidadosa, começou a arrumar as pequenas coisas da sala. Correias em seus lugares, revestimentos limpos e polidos, cartazes colocados perfeitamente, tudo exato e organizado. Era como se o espaço estivesse vivendo sob sua atenção detalhada. Apenas algumas semanas antes, a sala havia sido palco de uma disputa feroz entre vários funcionários, mas agora parecia um local tranquilo e pronto para receber visitantes.",
+        "generated_text_llama": "Ele começou a rir e disse: \"Ah, você é mesmo um cara muito especial! Eu não estava brincando quando disse que eu era o pior jogador de futebol do mundo. Vou te mostrar como é feito.\" E com isso, ele se levantou da cadeira e começou a dançar no meio do quarto, fazendo passos absurdos e batendo as mãos nas costas.",
+        "original_gender": "male",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sorrindo",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "José Augusto",
+        "sentence": "E o José Augusto não disse aquilo para cumprimentá-la.",
+        "start_char": 8120,
+        "end_char": 8132,
+        "excerpt": "Ouvia proclamar-se bela, e a noiva ridícula. Duas vitórias enormes. E o José Augusto não disse aquilo para cumprimentá-la.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "o José Augusto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "E o [MASK] não disse aquilo para cumprimentá-la.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Personagem, então, ainda com o sorriso no rosto e sem perder a compostura, passou pelo corredor e entrou na sala onde estava situada uma grande mesa de reunião. Lá, encontrou alguns colegas de trabalho que se preparavam para iniciar a sessão diária da equipe. Ele se sentou em seu lugar habitual ao lado do líder da equipe e começou a atender as primeiras notificações que estavam chegando ao celular.",
+        "generated_text_llama": "E assim, Personagem decidiu que era melhor mudar de assunto e perguntou a ela como estava se sentindo em relação àquela música que tinham ouvido no carro anteriormente. A menina pareceu aliviada com a mudança de tema e começou a falar sobre sua paixão por música, compartilhando suas preferências e histórias sobre como ela se tornou apaixonada pela musica. Enquanto conversavam, Personagem sentiu uma conexão ainda maior com essa menina, e começou a se perguntar se era possível que eles se tornassem amigos ou algo mais.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "passou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Leocádia",
+        "sentence": "Julieta lembrou-se do que lhe dissera Maria Leocádia a respeito deste Marcos, e, posto não o achasse mau, não o achou tão especialmente belo que merecesse o papel que a amiga lhe atribuiu.",
+        "start_char": 8450,
+        "end_char": 8464,
+        "excerpt": "Pode ser que carregasse a mão no juízo que fez da noiva; mas em relação a Julieta disse a verdade, tal qual a sentia, e continuava a sentir fitando os lindos olhos da abandonada. Daí a pouco apresentou-lhe o Marcos, que lhe pediu uma valsa. Julieta lembrou-se do que lhe dissera Maria Leocádia a respeito deste Marcos, e, posto não o achasse mau, não o achou tão especialmente belo que merecesse o papel que a amiga lhe atribuiu.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "dissera",
+                "child": "Maria Leocádia",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "dissera",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Maria Leocádia",
+                "child": "Julieta",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Maria",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Julieta",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Julieta lembrou-se do que lhe dissera [MASK] a respeito deste Marcos, e, posto não o achasse mau, não o achou tão especialmente belo que merecesse o papel que a amiga lhe atribuiu.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Julieta recordava o que Personagem lhe contara sobre este Marcos. Embora ela não considerasse-o mal, não o encontrou tão especialmente atraente para ele mesma, de modo a merecer o papel que sua amiga havia designado para ele. No entanto, Julieta não desistiu facilmente e resolveu tentar mudar seu posicionamento em relação à este Marcos. Ela pensou que poderia falar com ele e saber mais sobre ele antes de tomar uma decisão final.",
+        "generated_text_llama": "Julieta refletiu por um momento sobre as palavras de Personagem e concluiu que, embora não fosse exatamente o tipo de pessoa que ela gostava de serfriend, havia algo naquela maneira de falar dele que a atraía. Ela pensou em como ele a havia contado, com uma calma confiança que era intrigante e um pouco assustadora ao mesmo tempo.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "contara",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "José Augusto",
+        "sentence": "José Augusto ainda nessa noite falou a Julieta acerca do amigo, louvou-lhe as qualidades sólidas e brilhantes, disse-lhe que tinha um grande futuro.",
+        "start_char": 9018,
+        "end_char": 9030,
+        "excerpt": "Ajudas-me? Se eu mesmo te propus! José Augusto ainda nessa noite falou a Julieta acerca do amigo, louvou-lhe as qualidades sólidas e brilhantes, disse-lhe que tinha um grande futuro.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "falou",
+                "child": "José Augusto ainda nessa noite",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "falar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "word_categories": [
+                    "outro"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] ainda nessa noite falou a Julieta acerca do amigo, louvou-lhe as qualidades sólidas e brilhantes, disse-lhe que tinha um grande futuro.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a narrativa em português brasileiro, o Personagem ainda nessa noite passou a falar com Julieta sobre seu amigo. Louvou-lhe as qualidades sólidas e brilhantes, disse-lhe que tinha um grande futuro. Depois disso, de repente sentiu uma forte conexão emocional com ela, uma ligação que não podia ser ignorada. Tentou esconder sua verdadeira sensação, mas o olhar ardente de Julieta era indiferente aos esforços para ocultá-la.",
+        "generated_text_llama": "\"Seu melhor amigo é uma pessoa incrível\", disse Personagem, com um sorriso no rosto. \"Ele é sempre disposto a ajudar os outros, mesmo que isso signifique saciar seus próprios desejos\", explicou, fazendo uma pausa para que Julieta pudessem processar o que estava ouvindo.",
+        "original_gender": "unknown",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "passou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "disse",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "José Augusto",
+        "sentence": "pensava o José Augusto indo para casa.",
+        "start_char": 10212,
+        "end_char": 10224,
+        "excerpt": "Afinal, passou por uma breve madorna, acordou nervosa e com sono. Que mulherzinha! pensava o José Augusto indo para casa.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "pensava",
+                "child": "o José Augusto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pensar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "pensava o [MASK] indo para casa.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, [JOAO DA SILVA], após longas e reflexivas considerações, decidiu sair de seu escritório e caminhar até seu apartamento. Queria pensar em paz sobre a situação que enfrentava e encontrar uma solução lógica para resolver o problema que lhe estava causando tanto estresse e preocupação.",
+        "generated_text_llama": "Ele continuou a caminhar pelas ruas tranquilas da cidade, sua mente distraída pelo que havia acontecido naquela manhã. A tristeza e a raiva ainda estavam presentes em seu coração, mas ele sabia que precisava encontrar uma forma de lidar com suas emoções. Ao chegar à porta do apartamento, ele pegou o celular e enviou um texto para sua mãe, explicando o que havia acontecido e pedindo desculpas por não ter contado sobre tudo anteriormente.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Leocádia",
+        "sentence": "Maria Leocádia tomou a peito o casamento da amiga e José Augusto também.",
+        "start_char": 10491,
+        "end_char": 10505,
+        "excerpt": "Realmente, quem é que deixa a Julieta para escolher a Malvina! A Malvina é uma massa de carne, sem feitio... Maria Leocádia tomou a peito o casamento da amiga e José Augusto também.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "tomou",
+                "child": "Maria Leocádia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "tomar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] tomou a peito o casamento da amiga e José Augusto também.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Personagem, que era conhecido por sua calma tranquila e sutileza, levantou-se lentamente da cadeira em que estava sentado, colocou as mãos na baba do casaco e tomou a peito o casamento de sua amiga, Maria, juntamente com José Augusto. Ele não podia verificar se os convidados notavam a sua presença ou não, pois estava de frente para o altar. Ao lado deles, José Augusto, um homem que ele considerava uma espécie de irmão mais novo, apresentava-se nervosamente à vida em comum com Maria, que se casava por amor, e não pelo interesse do mundo exterior ou pelo dinheiro.",
+        "generated_text_llama": "",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "levantou-se",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julieta",
+        "sentence": "Julieta não dava esperanças; e, coisa singular, era menos expressiva com a amiga do que o namorado desta.",
+        "start_char": 10564,
+        "end_char": 10571,
+        "excerpt": "A Malvina é uma massa de carne, sem feitio... Maria Leocádia tomou a peito o casamento da amiga e José Augusto também. Julieta não dava esperanças; e, coisa singular, era menos expressiva com a amiga do que o namorado desta.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "dava",
+                "child": "Julieta",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julieta",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] não dava esperanças; e, coisa singular, era menos expressiva com a amiga do que o namorado desta.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Após ter um encontro desolador com sua amiga, ela se sentou no sofá, olhando pela janela, enquanto as lágrimas corriam por suas faces. O que ele havia feito era muito grave e estava causando-lhe uma profunda tristeza. Ela sabia que precisava de tempo para se recuperar e encontrar a força para conversar com ela novamente.",
+        "generated_text_llama": "Ele olhou para os dois amigos, sentindo um sentimento de solidão crescente em seu peito. A amiga, Laura, estava conversando animadamente com o namorado de Ana, Miguel, enquanto ele se sentia ignorado. Sem saber o que fazer, Personagem decidiu se afastar um pouco, para tentar evitar a sensação de exclusão.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "José Augusto",
+        "sentence": "José Augusto, posto que filósofo e pacato, adoçava as suas reflexões de uma certa cor íntima; além disso, dava-lhes o prestígio do sexo.",
+        "start_char": 10889,
+        "end_char": 10901,
+        "excerpt": "Por outro lado, a linguagem de José Augusto era mais própria a fazer-lhe nascer o amor, que ela sinceramente desejava sentir pelo Marcos. Não queria casar sem amor. José Augusto, posto que filósofo e pacato, adoçava as suas reflexões de uma certa cor íntima; além disso, dava-lhes o prestígio do sexo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "a linguagem",
+                "child": "José Augusto",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "linguagem",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "José Augusto",
+                "child": "a linguagem",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "José",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "linguagem",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "José Augusto",
+                "child": "própria",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "José",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "próprio",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "adoçava",
+                "child": "José Augusto, posto que filósofo e pacato,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "adoçar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK], posto que filósofo e pacato, adoçava as suas reflexões de uma certa cor íntima; além disso, dava-lhes o prestígio do sexo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Nesse momento, o filósofo decidiu compartilhar uma das suas reflexões mais profundas com a sociedade. Ele escreveu um livro que abordava temas complexos e controversos em uma forma que pudesse ser entendida pelo público em geral. O título do livro era \"A Arte de Viver\" e nele, ele explorava as questões mais essenciais da vida, como o sentido da existência, a natureza do amor, a importância da paz e a importância de respeitar a natureza.",
+        "generated_text_llama": "",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Julieta",
+        "sentence": "Julieta chegou a pedir-lhe perdão da resposta que lhe dera no dia das bodas de Malvina.",
+        "start_char": 11026,
+        "end_char": 11033,
+        "excerpt": "Não queria casar sem amor. José Augusto, posto que filósofo e pacato, adoçava as suas reflexões de uma certa cor íntima; além disso, dava-lhes o prestígio do sexo. Julieta chegou a pedir-lhe perdão da resposta que lhe dera no dia das bodas de Malvina.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "chegou",
+                "child": "Julieta",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "chegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Julieta",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] chegou a pedir-lhe perdão da resposta que lhe dera no dia das bodas de Malvina.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Maria, após ter recebido a petição de desculpas do marido, ficou surpresa e confusa. Ao longo dos anos, ela havia guardado o momento em que ele lhe havia falado aquele fracasso no altar da Igreja, sempre questionando-se se realmente seu amor era corrente. Porém, hoje, aquela petição de perdão não poderia ser aceita sem dúvidas e reservas.",
+        "generated_text_llama": "Malvina, com lágrimas nos olhos, sorriu levemente e abraçou o ex-namorado, pondo toda a tristeza do passado para trás. \"Não precisa se desculpar, Rafael\", disse ela, sua voz suave e calma. \"Eu sei que você estava apenas tentando me ajudar, mesmo que tenha sido de uma maneira... inesperada\".",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "José Augusto",
+        "sentence": "José Augusto concordou com esse parecer; e ambos entraram por uma tal floresta de estilo, que se perderam inteiramente.",
+        "start_char": 11179,
+        "end_char": 11191,
+        "excerpt": "Julieta chegou a pedir-lhe perdão da resposta que lhe dera no dia das bodas de Malvina. Confesso, disse ela, que o amor não pode falar com simplicidade. José Augusto concordou com esse parecer; e ambos entraram por uma tal floresta de estilo, que se perderam inteiramente.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "concordou",
+                "child": "José Augusto",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "concordar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "word_categories": [],
+                "verb_categories": [
+                    "Actor"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] concordou com esse parecer; e ambos entraram por uma tal floresta de estilo, que se perderam inteiramente.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem, concordando com a opinião de sua companheira, entrou juntos naquele lindíssimo bosqueco, cheio de tantas árvores e cores inesquecíveis. A natureza parecia ter se voltado para eles, e eles sentiram o ar puro e fresco em seu rosto, uma sensação tão maravilhosa que os tornou-se imóveis por um momento.",
+        "generated_text_llama": "Personagem sentiu um misto de emoção e medo ao se dar conta de sua situação. Ele havia sempre sido aventureiro e não era comum para ele perder o controle das coisas. Agora, estava sozinho em uma floresta densa, sem saber como encontrar seu caminho de volta à civilização.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Maria Leocádia",
+        "sentence": "Maria Leocádia teve de repetir contra Julieta tudo o que esta disse de Malvina.",
+        "start_char": 11530,
+        "end_char": 11544,
+        "excerpt": "Ao cabo de muitos dias, foram achar-se à porta de uma caverna, de onde saiu um dragão azul, que os tomou e voou com eles pelos ares fora até à porta da matriz do Sacramento. Ninguém ignora o que estes dragões vão fazer às igrejas. Maria Leocádia teve de repetir contra Julieta tudo o que esta disse de Malvina.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "teve",
+                "child": "Maria Leocádia",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "ter",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Maria",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] teve de repetir contra Julieta tudo o que esta disse de Malvina.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Em seguida, João se sentou em frente a Julieta e tomou uma profunda respiração. Após cumprimentá-la com um sorriso gentil, ele começou a repetir para ela todas as coisas que havia dito sobre Malvina. Foi uma explicação detalhada e sincera sobre o passado deles, em que João enfatizava que tudo foi apenas um mal entendido, e que ele nunca amou Malvina como disse para Julieta anteriormente.",
+        "generated_text_llama": "\"Malvina é uma mulher misteriosa e perigosa\", começou Personagem, tentando lembrar todas as palavras que Julieta lhe contou. \"Ela está ligada a algo mais do que apenas um simples crime ou fraude\". Personagem pensava em todos os detalhes que Julieta lhe deu, desde o nome da empresa até o endereço onde ela iria se encontrar com a vítima.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "sentou",
+                    "ROOT"
+                ],
+                [
+                    "enfatizava",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ],
+                [
+                    "pensava",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

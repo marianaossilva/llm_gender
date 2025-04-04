@@ -1,0 +1,334 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Tasso",
+        "sentence": "E não só as duas literaturas marcham a par, como muitas vezes o mesmo poeta se vota à cultura de ambas e, como diz Tasso, falando do mágico Ismeno:",
+        "start_char": 2746,
+        "end_char": 2751,
+        "excerpt": "A Europa de hoje, ou tomemos a França, ou a Inglaterra, ou a Itália, ou a Espanha, ou Portugal, apresenta o exemplo da segunda proposição. Além da literatura que lhe é própria, dessa literatura filha de sua civilização, originária do cristianismo, nós aí vemos outra literatura, que chamamos enxertada, e que não é mais do que uma lembrança da mitologia antiga e uma recordação de costumes que não são seus. E não só as duas literaturas marcham a par, como muitas vezes o mesmo poeta se vota à cultura de ambas e, como diz Tasso, falando do mágico Ismeno:",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "diz",
+                "child": "Tasso",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Tasso",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "E não só as duas literaturas marcham a par, como muitas vezes o mesmo poeta se vota à cultura de ambas e, como diz [MASK], falando do mágico Ismeno:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele, então, abriu um dos livros, onde estavam as obras do mágico Ismeno. Atravessou as páginas com uma expressão pensativa, até encontrar a narrativa que lhe era mais conhecida: \"A Escrava Isabela\". Emocionado, começou a ler-lá novamente, sentindo o poder da palavra de Ismeno se misturando ao seu próprio espírito.",
+        "generated_text_llama": "Era uma pena que Personagem não pudesse estar presente para presenciar o espetáculo mágico, mas ele sabia que o destino havia colocado o Ismeno em seu caminho. Através de um dos seus contatos, Personagem conseguiu obter uma reserva para assistir ao show daquele noite e ficou ansioso para ver o mágico em ação.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pudesse",
+                    "acl:relcl"
+                ],
+                [
+                    "conseguiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Claudio Manuel da Costa",
+        "sentence": "O primeiro, apenas conhecia Claudio Manuel da Costa, de quem alguns extratos apresenta; o segundo, inteiramente se pautua pelo primeiro e a menção que faz de alguns Brasileiros fora mesmo excluída do plano da sua obra sobre a Literatura do Meiodia da Europa, se nela não entrasse como um apêndice à história da literatura portuguesa.",
+        "start_char": 5871,
+        "end_char": 5894,
+        "excerpt": "Nenhum nacional, que saibamos, ocupado se tem até hoje de tal objeto. Dos estrangeiros, Bouterwech, Sismonde de Sismondi e Mr [ sic] Ferdinand Dinis alguma coisa disseram. O primeiro, apenas conhecia Claudio Manuel da Costa, de quem alguns extratos apresenta; o segundo, inteiramente se pautua pelo primeiro e a menção que faz de alguns Brasileiros fora mesmo excluída do plano da sua obra sobre a Literatura do Meiodia da Europa, se nela não entrasse como um apêndice à história da literatura portuguesa.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "conhecia",
+                "child": "Claudio Manuel da Costa",
+                "dep_h": "appos",
+                "pos_h": "VERB",
+                "lemma_h": "conhecer",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Claudio",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Claudio Manuel da Costa",
+                "child": "primeiro",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Claudio",
+                "dep_c": "nsubj",
+                "pos_c": "ADJ",
+                "lemma_c": "primeiro",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "O primeiro, apenas conhecia [MASK], de quem alguns extratos apresenta; o segundo, inteiramente se pautua pelo primeiro e a menção que faz de alguns Brasileiros fora mesmo excluída do plano da sua obra sobre a Literatura do Meiodia da Europa, se nela não entrasse como um apêndice à história da literatura portuguesa.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O primeiro, que já conhecia apenas o rosto de Personagem, que alguns extratos apresentavam; o segundo, inteiramente se pautava pelo primeiro e na mencão que fazia de alguns Brasileiros, foi excluído do plano da sua obra sobre a Literatura do Meiodia da Europa. Sem elogios à literatura brasileira em sua obra principal, o segundo decidiu explorar os contos e histórias que se relacionavam ao país sul-americano, entendendo-se como um apêndice à história da literatura portuguesa.",
+        "generated_text_llama": "O que me intrigou foi ver como Personagem havia conseguido criar uma base sólida para o seu trabalho, ao mesmo tempo em que permanecia fiel aos seus princípios e à sua visão única sobre a Literatura do Meiodia da Europa. Comecei a me perguntar se essa era de fato a chave para entender como ele havia conseguido conectar-se com os leitores de diferentes épocas, incluindo os brasileiros que não estavam diretamente ligados àquela cultura.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Brasileiro",
+        "sentence": "Envergonhava-se de ser Brasileiro e, muitas vezes, com o nome de Português se acobertava para ao menos aparecer como um ente da espécie humana e poder alcançar um emprego no seu país.",
+        "start_char": 12828,
+        "end_char": 12838,
+        "excerpt": "Triste é, sem dúvida, a recordação dessa época, em que o Brasileiro, como lançado em terra estrangeira, duvidoso em seu próprio país, vagava, sem que dizer pudesse: isto é meu, neste lugar nasci !. Envergonhava-se de ser Brasileiro e, muitas vezes, com o nome de Português se acobertava para ao menos aparecer como um ente da espécie humana e poder alcançar um emprego no seu país.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "vagava",
+                "child": "o Brasileiro",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "vagar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brasileiro",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "o Brasileiro",
+                "child": "recordação",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Brasileiro",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "recordação",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "terra",
+                "child": "o Brasileiro",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "terra",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brasileiro",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "seu próprio país",
+                "child": "o Brasileiro",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "país",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Brasileiro",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Envergonhava-se",
+                "child": "Brasileiro",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "Envergonhava-se",
+                "dep_c": "xcomp",
+                "pos_c": "PROPN",
+                "lemma_c": "Brasileiro",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": ", muitas vezes",
+                "child": "Brasileiro",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "vez",
+                "dep_c": "xcomp",
+                "pos_c": "PROPN",
+                "lemma_c": "Brasileiro",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "o nome",
+                "child": "Brasileiro",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "nome",
+                "dep_c": "xcomp",
+                "pos_c": "PROPN",
+                "lemma_c": "Brasileiro",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Português",
+                "child": "Brasileiro",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Português",
+                "dep_c": "xcomp",
+                "pos_c": "PROPN",
+                "lemma_c": "Brasileiro",
+                "word_categories": [
+                    "social",
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "ao menos",
+                "child": "Brasileiro",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "menos",
+                "dep_c": "xcomp",
+                "pos_c": "PROPN",
+                "lemma_c": "Brasileiro",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "um ente",
+                "child": "Brasileiro",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "ente",
+                "dep_c": "xcomp",
+                "pos_c": "PROPN",
+                "lemma_c": "Brasileiro",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "espécie",
+                "child": "Brasileiro",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "espécie",
+                "dep_c": "xcomp",
+                "pos_c": "PROPN",
+                "lemma_c": "Brasileiro",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "um emprego",
+                "child": "Brasileiro",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "emprego",
+                "dep_c": "xcomp",
+                "pos_c": "PROPN",
+                "lemma_c": "Brasileiro",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "seu país",
+                "child": "Brasileiro",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "país",
+                "dep_c": "xcomp",
+                "pos_c": "PROPN",
+                "lemma_c": "Brasileiro",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Envergonhava-se de ser [MASK] e, muitas vezes, com o nome de Português se acobertava para ao menos aparecer como um ente da espécie humana e poder alcançar um emprego no seu país.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele começou a trabalhar incansávelmente em sua aprendizagem do idioma inglês, sabendo que era essencial para seu objetivo. Intrometeu-se em grupos de estudo e conversação, passando muitas horas olhando pelos vidros das bibliotecas com os livros aberto sobre a língua inglesa. Além disso, estudou cuidadosamente o idioma português do Brasil para não ficar desconectado de suas raízes culturais.",
+        "generated_text_llama": "Com uma sensação de desespero, Personagem sabia que precisava encontrar uma forma de se estabelecer no Brasil sem revelar sua verdadeira natureza. Ele começou a pesquisar sobre as leis de imigração e os requisitos para obter um visto de trabalho, sabendo que era fundamental que apresentasse um rosto humano e não um máscaro.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

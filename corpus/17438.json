@@ -1,0 +1,364 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Carlota",
+        "sentence": "Carlota está com dezoito para dezenove anos, titia não a quer casar antes dos vinte.",
+        "start_char": 1997,
+        "end_char": 2004,
+        "excerpt": "D. ADE. Parece que não. Já saíram há um bom pedaço; feliz-mente o dia está fresco. Titia estava tão contente ao almoço! E ontem? Você viu que risadas que ela dava, ao jantar, ouvindo o Dr. Cavalcante? E o Cavalcante sério. Meu Deus, que homem triste! que cara de defunto! MAG. Coitado do Cavalcante! Mas que quererá ela comigo? Falou-me em um obséquio. D. ADE. Sei o que é. MAG. Que é? D. ADE. Por ora é segredo. Titia quer que levemos Carlota conosco. MAG Para a Grécia? D. ADE. Sim, para a Grécia? MAG. Talvez ela pense que a Grécia é em Paris. Eu aceitei a legação de Atenas porque não me dava bem em Guatemala, e não há outra vaga na América. Nem é só por isso; você tem vontade de ir acabar a lua-de-mel na Europa... Mas então Cartola vai ficar conosco? D. ADE. É só algum tempo. Carlota gostava muito de um tal Rodrigues, capitão de engenharia, que casou com uma viúva espanhola. Sofreu muito, e ainda agora anda meia triste; titia diz que há de curá-la. MAG. (rindo). É a mania dela. D. ADE. (rindo). Só cura moléstias morais. MAG. A verdade é que nos curou; mas, por muito que lhe pague-mos em gratidão, fala- nos sempre da nossa antiga moléstia. \"Como vão os meus doentezinhos? Não é verdade que estão curados? \" D. ADE. Pois falemo-lhes nós da cura, para lhe dar gosto. Agora quer curar a filha. MAG. Do mesmo modo? D. ADE. Por ora não. Quer mandá-la à Grécia para que ela esqueça o capitão de engenharia. MAG. Mas, em qualquer parte se esquece um capitão de engenharia. D. ADE. Titia pensa que a vista das ruínas e dos costumes diferentes cura mais depressa. Carlota está com dezoito para dezenove anos, titia não a quer casar antes dos vinte.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "levemos",
+                "child": "Carlota conosco",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "lever",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Carlota",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "gostava",
+                "child": "Carlota",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "gostar",
+                "dep_c": "nsubj",
+                "pos_c": "NOUN",
+                "lemma_c": "carlota",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Carlota",
+                "child": "dezoito",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "carlota",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "dezoito",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "dezoito",
+                "child": "Carlota",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "dezoito",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "carlota",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] está com dezoito para dezenove anos, titia não a quer casar antes dos vinte.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Esteve enfrentando muita pressão familiar, porém Personagem se mostrava inquebrável. Ela se esforçou por encontrar uma solução que pudesse satisfazer ambas as partes, e acabou pensando numa ideia maravilhosa: apresentou ao tio a um jovem que estava interessado em ela, mas não tinha idade suficiente para ser casado. Não era o seu amor, mas apenas uma manobra de truque para fazer com que seus pais aceitassem o compromisso e ajudassem na busca da solução perfeita. Por fim, com a ajuda do tio, Personagem conseguiu convencer os parentes para esperarem um pouco mais antes de ajudá-la no casamento com seu amado.",
+        "generated_text_llama": "Com um ar desafiador, Personagem olhou diretamente para sua tia, seus olhos brilhando com determinação. \"Eu sou capaz de decidir quando quero me casar\", disse ela, sua voz firme e segura. A tia, que havia sido muito influente em suas vidas desde que os irmãos mais velhos do Personagem tinham deixado casa, franziu a testa, pareceendo surpresa com a atitude de seu sobrinho.",
+        "original_gender": "female",
+        "generated_gender": "female",
+        "generated_gender_llama": "female",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "mostrava",
+                    "conj"
+                ],
+                [
+                    "conseguiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "olhou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Cavalcante",
+        "sentence": "Cavalcante estava em comissão do nosso governo, e freqüentava o corpo diplomático, onde era muito bem visto.",
+        "start_char": 5437,
+        "end_char": 5447,
+        "excerpt": "MAG. Esta gente não terá vindo? D. ADE. Parece que não. Já saíram há um bom pedaço; feliz-mente o dia está fresco. Titia estava tão contente ao almoço! E ontem? Você viu que risadas que ela dava, ao jantar, ouvindo o Dr. Cavalcante? E o Cavalcante sério. Meu Deus, que homem triste! que cara de defunto! MAG. Coitado do Cavalcante! Mas que quererá ela comigo? Falou-me em um obséquio. D. ADE. Sei o que é. MAG. Que é? D. ADE. Por ora é segredo. Titia quer que levemos Carlota conosco. MAG Para a Grécia? D. ADE. Sim, para a Grécia? MAG. Talvez ela pense que a Grécia é em Paris. Eu aceitei a legação de Atenas porque não me dava bem em Guatemala, e não há outra vaga na América. Nem é só por isso; você tem vontade de ir acabar a lua-de-mel na Europa... Mas então Cartola vai ficar conosco? D. ADE. É só algum tempo. Carlota gostava muito de um tal Rodrigues, capitão de engenharia, que casou com uma viúva espanhola. Sofreu muito, e ainda agora anda meia triste; titia diz que há de curá-la. MAG. (rindo). É a mania dela. D. ADE. (rindo). Só cura moléstias morais. MAG. A verdade é que nos curou; mas, por muito que lhe pague-mos em gratidão, fala- nos sempre da nossa antiga moléstia. \"Como vão os meus doentezinhos? Não é verdade que estão curados? \" D. ADE. Pois falemo-lhes nós da cura, para lhe dar gosto. Agora quer curar a filha. MAG. Do mesmo modo? D. ADE. Por ora não. Quer mandá-la à Grécia para que ela esqueça o capitão de engenharia. MAG. Mas, em qualquer parte se esquece um capitão de engenharia. D. ADE. Titia pensa que a vista das ruínas e dos costumes diferentes cura mais depressa. Carlota está com dezoito para dezenove anos, titia não a quer casar antes dos vinte. Desconfio que já traz um noivo em mente, um moço que não é feio, mas tem o olhar espantado. MAG. É um desarranjo para nós; mas, enfim, pode ser que lhe achemos lá na Grécia algum descendente de Alcibíades que a preserve do olhar espantado. D. ADE. Ouço passos. Há de ser titia.. . MAG. Justamente! Continuemos a estudar a Grécia. (Sentam-se outra vez, MAGALHÃES lendo, D. ADELAIDE folheando o livro de vistas) . CENA II OS MESMOS e D. LEOCÁDIA D. LEO. (pára à porta, desce pé ante pé, e mete a cabeça entre os dous). Como vão os meus doentezinhos? Não é verdade que estão curados? MAG. (à parte). É isto todos os dias. D. LEO. Agora estudam a Grécia; fazem muito bem. O país do casamento é que vocês não precisaram estudar. D. ADE. A senhora foi a nossa geografia, foi quem nos deu as primeiras lições. D. LEO. Não diga lições, diga remédios. Eu sou doutora, eu sou médica. Este (indicando MAGALHÃES), quando voltou de Guatemala, tinha um ar esquisito; perguntei-lhe se queria ser deputado, disse-me que não; observei-lhe o nariz, e vi que era um triste nariz solitário. . . MAG. Já me disse isto cem vezes. D. LEO. (voltando-se para ele e continuando). Esta (designando ADELAIDE) andava hipocondríaca. O médico da casa receitava pílulas, cápsulas, uma porção de tolices que ela não tomava, porque eu não deixava; o médico devia ser eu. D. ADE. Foi uma felicidade. Que é que se ganha em engolir pílulas? D. LEO. Apanham-se moléstias. D. ADE. Uma tarde, fitando eu os olhos de Magalhães. . . D. LEO. Perdão, o nariz. D. ADE. Vá lá. A senhora disse-me que ele tinha o nariz bonito, mas muito solitário. Não entendi; dous dias depois, perguntou-me se queria casar, eu não sei que disse, e acabei casando. D. LEO. Não é verdade que estão curados? MAG. Perfeitamente. D. LEO. A propósito, como irá o Dr. Cavalcante? Que esquisitão! Disse-me ontem que a cousa mais alegre do mundo era um cemitério. Perguntei-lhe se gostava aqui da Tijuca, respondeu-me que sim, e que o Rio de Janeiro era uma grande cidade. \"É a segunda vez que a vejo, disse ele, eu sou do Norte. É uma grande cidade, José Bonifácio é um grande homem, a Rua do Ouvidor um poema, o chafariz da Carioca um belo chafariz, o Corcovado, o gigante de pedra, Gonçalves Dias, os Timbiras, o Maranhão... \" Embrulhava tudo a tal ponto que me fez rir. Ele é doudo? MAG. Não. D. LEO. A princípio, cuidei que era. Mas o melhor foi quando se serviu o peru. Perguntei- lhe que tal achava o peru. Ficou pálido, deixou cair o garfo, fechou os olhos e não me respondeu. Eu ia chamar a atenção de vocês, quando ele abriu os olhos e disse com voz surda: \"D. Leocádia, eu não conheço o Peru... \" Eu, espantada, perguntei: \" Pois não está comendo? ... \" \"Não falo desta pobre ave falo-lhe da república\". MAG. Pois conhece a república. D. LEO. Então mentiu MAG. Não, porque nunca lá foi. D. LEO. (a D. ADELAIDE). Mau! seu marido parece que também está virando o juízo. (A MAGALHÃES) Conhece então o Peru, como vocês estão conhecendo a Grécia... pelos livros. MAG. Também não. D. LEO. Pelos homens? MAG. Não, senhora. D. LEO. Então pelas mulheres? MAG. Nem pelas mulheres. D. LEO. Por uma mulher? MAG. Por uma mocinha, filha do ministro do Peru em Guatemala. Já contei a história a Adelaide. (D. ADELAIDE senta-se folheando o livro de gravuras). D. LEO. (senta-se). Ouçamos a história. É curta? MAG. Quatro palavras. Cavalcante estava em comissão do nosso governo, e freqüentava o corpo diplomático, onde era muito bem visto.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "ouvindo",
+                "child": "o Dr. Cavalcante",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "ouvir",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dr.",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "E o Cavalcante",
+                "child": "sério",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "cavalcante",
+                "dep_c": "amod",
+                "pos_c": "ADJ",
+                "lemma_c": "sério",
+                "word_categories": [
+                    "carater"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Coitado",
+                "child": "Cavalcante",
+                "dep_h": "ROOT",
+                "pos_h": "PROPN",
+                "lemma_h": "Coitado",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Cavalcante",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cavalcante",
+                "child": "Coitado",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "Cavalcante",
+                "dep_c": "ROOT",
+                "pos_c": "PROPN",
+                "lemma_c": "Coitado",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "irá",
+                "child": "o Dr. Cavalcante",
+                "dep_h": "acl:relcl",
+                "pos_h": "AUX",
+                "lemma_h": "ir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dr.",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "o Dr. Cavalcante",
+                "child": "propósito",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Dr.",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "propósito",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cavalcante",
+                "child": "comissão",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "cavalcante",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "comissão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "comissão",
+                "child": "Cavalcante",
+                "dep_h": "ROOT",
+                "pos_h": "NOUN",
+                "lemma_h": "comissão",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "cavalcante",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] estava em comissão do nosso governo, e freqüentava o corpo diplomático, onde era muito bem visto.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Ele a seguir decidiu aproveitar sua influência na corte para trazer uma mudança significativa. Sendo um homem altamente educado e respeitado, Personagem convidou alguns de seus amigos mais próximos entre os diplomatas estrangeiros para uma reunião secreta no seu escritório da embaixada.",
+        "generated_text_llama": "Com sua posição prestigiosa, Personagem podia mover-se livremente pelas salas de reunião, recebendo visitas e tendo reuniões secretas com líderes políticos de todo o mundo. Ele era conhecido por sua habilidade em negociar acordos difíceis e encontrar soluções criativas para os problemas globais.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "convidou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "podia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dolores",
+        "sentence": "Dolores voltou para o Peru, onde casou com um primo, segundo me escreveu o pai.",
+        "start_char": 5946,
+        "end_char": 5953,
+        "excerpt": "Se ela gostava dele, não sei; é certo que o animava, e já se falava em casamento. Puro engano! Dolores voltou para o Peru, onde casou com um primo, segundo me escreveu o pai.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "voltou",
+                "child": "Dolores",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "voltar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dolores",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] voltou para o Peru, onde casou com um primo, segundo me escreveu o pai.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando a narrativa, Personagem retornou ao Peru, sua terra natal, onde se casou com seu primo, conforme esclareceu em uma carta enviada por seu pai. No casamento, que era muito tradicional para os tempos, Personagem vestiu a traje típico peruano conhecido como \"traje de novia\" e foi recebido com grande alegria pelos familiares e amigos. O casal se instalou em um pequeno aldeamento no vale dos Andes, onde Personagem passou a trabalhar na agricultura e nos ofícios tradicionais do lugar.",
+        "generated_text_llama": "Ao chegar ao Peru, Personagem se sentiu um pouco desconfortável em sua nova vida no país andino. A culinária típica peruana, embora deliciosa, era muito diferente das comidas que ele estava acostumado em seu país de origem. Além disso, a altitude do local também causava problemas para o estômago do Personagem. Ele começou a se sentir um pouco mal e teve que procurar atendimento médico.",
+        "original_gender": "female",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "retornou",
+                    "ROOT"
+                ],
+                [
+                    "vestiu",
+                    "ROOT"
+                ],
+                [
+                    "passou",
+                    "acl:relcl"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sentiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "CAVALCANTE",
+        "sentence": "(Sai; CAVALCANTE pega num livro e senta- se).",
+        "start_char": 11153,
+        "end_char": 11163,
+        "excerpt": "(Abre a charuteira, que está vazia) Olha, espera aqui, lê algum livro; eu vou buscar charutos. (Sai; CAVALCANTE pega num livro e senta- se).",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "pega",
+                "child": "CAVALCANTE",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "pegar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "CAVALCANTE",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "(Sai; [MASK] pega num livro e senta- se).",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Personagem abre o livro que havia pegado, encontrando as páginas sujas e velhas, com algumas deleitescentes manchas de tinta. O nariz do homem se encobria entre os volumes, olhando para cada palavra em busca de alguma resposta ou descobrimento que escondia aquele livro velho. Depois de um momento, Personagem solta um suspiro e fecha o livro, colocando-o de volta no estante onde havia se encontrado. Por fim, ele segura seu chapéu na mão e sai da sala, deixando atrás a luz tênue do quarto para dar passos pesados pela casa inteira.",
+        "generated_text_llama": "Personagem pega num livro e senta-se, fechando os olhos para absorver a calma do ambiente. O barulho do bar, as conversas dos clientes e o som da música ao vivo se tornavam uma distância distante, e ele podia finalmente relaxar. Ele abriu os olhos e começou a folhear as páginas do livro, descobrindo que era um clássico de ficção científica que ele já queria ler há anos. Com um sorriso, Sai começa a ler, perdido em uma mundo de aventuras e revoluções.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "abre",
+                    "ROOT"
+                ],
+                [
+                    "solta",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pega",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    }
+]

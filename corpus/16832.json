@@ -1,0 +1,467 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Hildegardo",
+        "sentence": "2  Hildegardo disse, ao fim da leitura dos quotidianos:  Não sei como se pode viver no interior do Brasil .",
+        "start_char": 3525,
+        "end_char": 3535,
+        "excerpt": "Liam e depois conversavam. Assim fizeram, naquele domingo. 2  Hildegardo disse, ao fim da leitura dos quotidianos:  Não sei como se pode viver no interior do Brasil .",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "2  Hildegardo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "2  [MASK] disse, ao fim da leitura dos quotidianos:  Não sei como se pode viver no interior do Brasil .",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "3 Estando assim profundamente pensativo, Personagem tomou consciência de sua necessidade de interagir com as pessoas que realmente viviam nessa região. Então, decidiu adentrar nos caminhos mais afastados do país, onde os afluentes urbanos não chegavam tão facilmente.",
+        "generated_text_llama": "\"Eu sinto que estou perdido naquela vida rural\", pensou Personagem, sentado na sua cama de madeira, olhando para as paredes simples da sua pequena casa. Ele havia sempre sonhado em deixar aquela cidade chata e se aventurar pelo grande mundo lá fora, mas a realidade o havia mantido preso.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "tomou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "pensou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Hildegardo",
+        "sentence": "Penso  observou Hildegardo  que esse êxodo da população dos campos para as cidades, pode ser em parte atribuído à falta de segurança que existe na roça.",
+        "start_char": 6002,
+        "end_char": 6012,
+        "excerpt": "Poderia contar a você muitos casos dessa ostentação de assassinato, que parte da gente da roça, mas não vale a pena. É coisa sem valia e só pode interessar a especialistas em estudos de criminologia. Penso  observou Hildegardo  que esse êxodo da população dos campos para as cidades, pode ser em parte atribuído à falta de segurança que existe na roça.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "observou",
+                "child": "Hildegardo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "observar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "esse êxodo",
+                "child": "Hildegardo",
+                "dep_h": "nsubj",
+                "pos_h": "NOUN",
+                "lemma_h": "êxodo",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "população",
+                "child": "Hildegardo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "população",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "campos",
+                "child": "Hildegardo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "campo",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "as cidades",
+                "child": "Hildegardo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "cidade",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "parte",
+                "child": "Hildegardo",
+                "dep_h": "xcomp",
+                "pos_h": "NOUN",
+                "lemma_h": "parte",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "falta",
+                "child": "Hildegardo",
+                "dep_h": "obj",
+                "pos_h": "NOUN",
+                "lemma_h": "falta",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "segurança",
+                "child": "Hildegardo",
+                "dep_h": "nmod",
+                "pos_h": "NOUN",
+                "lemma_h": "segurança",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "roça",
+                "child": "Hildegardo",
+                "dep_h": "obl",
+                "pos_h": "NOUN",
+                "lemma_h": "roça",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Penso  observou [MASK]  que esse êxodo da população dos campos para as cidades, pode ser em parte atribuído à falta de segurança que existe na roça.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, o fazendeiro decidiu tomar medidas concretas para melhorar a situação de segurança na roça. Inicialmente, fez uma patrulha em todo o território para identificar quais eram os pontos mais vulneráveis e onde as falhas poderiam estar se tornando um potencial ponto de entrada de bandidos.",
+        "generated_text_llama": "Mantenho-me no olho, refletindo sobre a possibilidade de que a fuga da população para as cidades seja um resultado direto da falta de segurança na roça. Penso que, se fosse apenas isso, não haveria tanta pressa e desespero nos olhos dos colonos. Eles devem ter outras preocupações, outras causas para abandonar suas terras e sua vida. Decido investigar mais a fundo, começando por falar com os que partiram, tentando entender melhor o que os levou a tomar essa decisão tão radical.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Ponciano",
+        "sentence": "Mal acabavam de fumar, Ponciano disse desalentado:",
+        "start_char": 6430,
+        "end_char": 6438,
+        "excerpt": "Os dois calaram-se e, silenciosos, se puseram a fumar. Ambos pensavam numa mesma coisa: em encontrar remédio para um tão deplorável estado de coisas. Mal acabavam de fumar, Ponciano disse desalentado:",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "disse",
+                "child": "Ponciano",
+                "dep_h": "conj",
+                "pos_h": "VERB",
+                "lemma_h": "dizer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Ponciano",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Mal acabavam de fumar, [MASK] disse desalentado:",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Mas Personagem, sem perder tempo, recolheu as cinzas e seguiu em frente com um olhar determinado. Ele já sabia que a aventura se aproximava e não havia tempo para perda. Em seu bolso, tinha uma foto velha de uma pessoa linda com quem nunca teve a chance de se encontrar. Mas essa era sua força, suas memórias, o que os levava sempre em frente quando tudo se tornava complicado.",
+        "generated_text_llama": "Mal acabavam de fumar, Personagem disse desalentado: \"Isso foi uma completa estupidez. Eu sabia que não deveria ter aceitado o encomendo de tão curto prazo.\" Ele se levantou da cadeira, pôs a arma no gatilho e começou a caminhar em direção à porta, pronto para sair do escritório e começar a planejar sua próxima movimentação. Personagem sabia que não podia ficar ali parado, esperando que as coisas melhorassem sozinha. Ele precisava agir, precisa tomar medidas drásticas para recuperar o controle da situação. Com um determinado no rosto, Personagem fechou a porta do escritório e saiu ao corredor, pronto para enfrentar o desafio que se apresentava à frente.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "recolheu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "disse",
+                    "parataxis"
+                ],
+                [
+                    "sabia",
+                    "ROOT"
+                ],
+                [
+                    "fechou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Hildegardo",
+        "sentence": "3  Continuaram calados alguns instantes, Hildegardo leu ainda um jornal e, dirigindo-se ao amigo, disse:  Deus não me castigue, mas eu temo mais matar do que morrer.",
+        "start_char": 6557,
+        "end_char": 6567,
+        "excerpt": "Hildegardo secundou-o. Não acho nenhum. 3  Continuaram calados alguns instantes, Hildegardo leu ainda um jornal e, dirigindo-se ao amigo, disse:  Deus não me castigue, mas eu temo mais matar do que morrer.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "secundou-o",
+                "child": "Hildegardo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "secundou-o",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "leu",
+                "child": "Hildegardo",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "ler",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "3  Continuaram calados alguns instantes, [MASK] leu ainda um jornal e, dirigindo-se ao amigo, disse:  Deus não me castigue, mas eu temo mais matar do que morrer.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "4 Continuando com sua triste expressão, ele puxou uma cadeira para frente e se sentou. Pôs a cabeça baixa e começou a ler o jornal. Aconteceu então algo estranho: as mãos que moviam os jornais começaram a tremear e as palavras que lia começaram a desaparecer da sua visão.",
+        "generated_text_llama": "Era uma situação desesperadora, mas Personagem sabia que precisava agir com calma e racionalidade para resolver a crise. Ele olhou para o seu amigo, que estava sentado ao volante, as mãos tremendo em torno do volante. \"Ei, Paulo, você está bem?\", perguntou Personagem, tentando manter a voz suave e calma.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "conj"
+                ],
+                [
+                    "perguntou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Hildegardo",
+        "sentence": "Hildegardo sorriu e fez para o amigo com toda a serenidade:  Estou de acordo.",
+        "start_char": 7290,
+        "end_char": 7300,
+        "excerpt": "Não. Que todos nós matamos. Hildegardo sorriu e fez para o amigo com toda a serenidade:  Estou de acordo.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "sorriu",
+                "child": "Hildegardo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "sorrir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] sorriu e fez para o amigo com toda a serenidade:  Estou de acordo.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O homem olhou para ele, surpreendido pela resposta rápida e calma do seu amigo. Ainda assim, estava contente. Ele havia pensado que seu amigo precisaria mais tempo para pensar sobre a proposta. Mas ele estava feliz de saber que o homem estava de acordo com ele.",
+        "generated_text_llama": "Personagem sorriu e fez para o amigo com toda a serenidade: \"Estou de acordo\". Ele olhou para o amigo, analisando a expressão no seu rosto, procurando por qualquer sinal de tensão ou preocupação. Mas não viu nada disso. O amigo parecia relaxado, como se a decisão tivesse sido a única coisa certa.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sorriu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Hildegardo",
+        "sentence": "Hildegardo ou Cazuza conteve-se e começou a narrar.",
+        "start_char": 8443,
+        "end_char": 8453,
+        "excerpt": "Deixando-me ainda na primeira infância, bem cedo firmou-se o meu caráter; mas, em contrapeso, bem cedo, me vieram o desgosto de viver, o retraimento, por desconfiar de todos, a capacidade de ruminar mágoas sem comunicá-las a ninguém - o que é um alívio sempre; enfim, muito antes do que era natural, chegaram-me o tédio, o cansaço da vida e uma certa misantropia. Notando o amigo que Cazuza dizia essas palavras com emoção muito forte e os olhos úmidos, cortou-lhe a confissão dolorosa com um apelo alegre:  Vamos, Carleto; conta o assassinato que você perpetrou. Hildegardo ou Cazuza conteve-se e começou a narrar.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "conteve-se",
+                "child": "Hildegardo",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "contever se",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Hildegardo",
+                "child": "Cazuza",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Hildegardo",
+                "dep_c": "conj",
+                "pos_c": "PROPN",
+                "lemma_c": "Cazuza",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Cazuza",
+                "child": "Hildegardo",
+                "dep_h": "conj",
+                "pos_h": "PROPN",
+                "lemma_h": "Cazuza",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Hildegardo",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] ou Cazuza conteve-se e começou a narrar.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Com uma voz firme e enérgica, ele contava a história de um homem que lutou contra as barreiras sociais para alcançar seu sonho. As pessoas se aproximavam para ouvir alegremente suas palavras, enquanto a luz do sol baixava nos jardins da cidade, trazendo calor e iluminação em toda a cena.",
+        "generated_text_llama": "Enquanto falava, Masque começou a se mexer no banco, como se estivesse em uma performance ao vivo. Ele começou a gesticular com as mãos, como se estivesse conduzindo uma oração, e sua voz ecoou pelo auditório. \"E então\", disse ele, \"Cazuza me contou sobre o dia em que ele conheceu Maria Bethânia...\".",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "começou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Dona Margarida",
+        "sentence": "Penso que não é da natureza daqueles que nos erguem às altas posições políticas, porque, até hoje, eu... Dona Margarida, mulher do doutor Ponciano, veio interromper-lhes a conversa, avisando-os que o \"ajantarado\" estava na mesa.",
+        "start_char": 9781,
+        "end_char": 9795,
+        "excerpt": "\" E eu fiquei muito sossegado a Um canto, estremecendo ao menor ruído que vinha da rua, pois esperava de fato a polícia. Foi esse o único assassinato que cometi. Penso que não é da natureza daqueles que nos erguem às altas posições políticas, porque, até hoje, eu... Dona Margarida, mulher do doutor Ponciano, veio interromper-lhes a conversa, avisando-os que o \"ajantarado\" estava na mesa.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "veio",
+                "child": "Dona Margarida, mulher do doutor Ponciano,",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "vir",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Dona",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Penso que não é da natureza daqueles que nos erguem às altas posições políticas, porque, até hoje, eu... [MASK], mulher do doutor Ponciano, veio interromper-lhes a conversa, avisando-os que o \"ajantarado\" estava na mesa.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O caráter continuou sentado, olhando para fora da janela, contemplando a paisagem cercana. Ao perceber sua esposa se aproximando, ele recolheu-se ligeiramente em seu assento e esperou pacientemente por ela.",
+        "generated_text_llama": "A mulher, vestida com um elegante traje negro e salto alto, foi até a mesa onde estavam sentados os homens altos e imponentes, suas expressões de desafio e curiosidade visíveis no rosto. Ela fez um gesto para que o doutor Ponciano se levantasse da cadeira e se dirigisse à mesa, enquanto ela assumia uma posição firme, como se estivesse dizendo: \"Ouvi, senhores, o tempo de conversar está chegando ao fim\".",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "female",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": null
+    }
+]

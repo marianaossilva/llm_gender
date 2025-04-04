@@ -1,0 +1,548 @@
+[
+    {
+        "class": "PESSOA",
+        "entity": "Caxias",
+        "sentence": "É o primeiro a carta pela qual Caxias lhe agradece a oferta de um exemplar da Retirada, manifestando-lhe o seu louvor ao livro e o apreço em que tinha o seu autor.",
+        "start_char": 836,
+        "end_char": 842,
+        "excerpt": "É que poucas tropas  com tamanha intrepidez e espírito de abnegação patriótica  sofreram o que suportaram os nossos soldados da Constância e do Valor. A esta edição anexei três documentos honrosíssimos para o autor da Retirada da Laguna e sua obra (ver pág. 12). É o primeiro a carta pela qual Caxias lhe agradece a oferta de um exemplar da Retirada, manifestando-lhe o seu louvor ao livro e o apreço em que tinha o seu autor.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "agradece",
+                "child": "Caxias",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "agradecer",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Caxias",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Caxias",
+                "child": "a carta",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Caxias",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "carta",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Caxias",
+                "child": "primeiro",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Caxias",
+                "dep_c": "ROOT",
+                "pos_c": "ADJ",
+                "lemma_c": "primeiro",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "É o primeiro a carta pela qual [MASK] lhe agradece a oferta de um exemplar da Retirada, manifestando-lhe o seu louvor ao livro e o apreço em que tinha o seu autor.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Continuando, Personagem, moveu-se para a janela e observou a cena exterior, onde se estendia uma panorâmica de uma cidade em desenvolvimento. Após isso, sentou-se no sofá com a carta em mãos, olhando para o nome do autor assinado sob a mensagem - um nome que lhe era conhecido e respeitado na literatura: Personagem. Entusiasmado, Personagem decidiu responder ao email imediatamente.",
+        "generated_text_llama": "Quando recebeu a carta, Personagem ficou imediatamente animado e sentiu um apetite renovado por conhecer melhor o livro \"A Retirada\". Ele passou horas lendo sobre a história e os personagens, tentando entender melhor a perspectiva do autor. Em seguida, decidiu escrever uma carta de agradecimento ao próprio autor, expressando sua admiração pelo trabalho e pedindo um autógrafo no próximo encontro.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "ficou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Lorde Wellington",
+        "sentence": "Nos tempos modernos vários ocorreram não menos notáveis: a de Altenheim, pelo marechal de Lorge, após a morte de Turenne, seu tio, e que ao grande Condé fez declarar que lha invejava; a de Praga, enaltecedora da nomeada do conde de Belle Isle: a de Plaffenhofen, por Moreau, tida como um dos mais belos jeitos darmas, efetuados por Turenne; já em nossos dias: a de Talavera, que levou Lorde Wellington, triunfante, a Lisboa; a que honrou o funesto regresso de Moscou e em que o Príncipe Eugênio e o Marechal Ney rivalizaram, em heroísmo; a de Constantina pelo Marechal Clausel e outras menos célebres; mas que, no entanto, pela variedade dos perigos e das misérias, chamam a atenção da história.",
+        "start_char": 8917,
+        "end_char": 8933,
+        "excerpt": "Vive a Retirada dos Dez Mil em todas as memórias. Colocou Xenofante na plana dos primeiros capitães. Nos tempos modernos vários ocorreram não menos notáveis: a de Altenheim, pelo marechal de Lorge, após a morte de Turenne, seu tio, e que ao grande Condé fez declarar que lha invejava; a de Praga, enaltecedora da nomeada do conde de Belle Isle: a de Plaffenhofen, por Moreau, tida como um dos mais belos jeitos darmas, efetuados por Turenne; já em nossos dias: a de Talavera, que levou Lorde Wellington, triunfante, a Lisboa; a que honrou o funesto regresso de Moscou e em que o Príncipe Eugênio e o Marechal Ney rivalizaram, em heroísmo; a de Constantina pelo Marechal Clausel e outras menos célebres; mas que, no entanto, pela variedade dos perigos e das misérias, chamam a atenção da história.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "levou",
+                "child": "Lorde Wellington",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "levar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lorde",
+                "word_categories": [],
+                "verb_categories": [
+                    "Agent"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Lorde Wellington",
+                "child": "Talavera",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Lorde",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "Talavera",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Lorde Wellington",
+                "child": "já em nossos dias",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Lorde",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "dia",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Nos tempos modernos vários ocorreram não menos notáveis: a de Altenheim, pelo marechal de Lorge, após a morte de Turenne, seu tio, e que ao grande Condé fez declarar que lha invejava; a de Praga, enaltecedora da nomeada do conde de Belle Isle: a de Plaffenhofen, por Moreau, tida como um dos mais belos jeitos darmas, efetuados por Turenne; já em nossos dias: a de Talavera, que levou [MASK], triunfante, a Lisboa; a que honrou o funesto regresso de Moscou e em que o Príncipe Eugênio e o Marechal Ney rivalizaram, em heroísmo; a de Constantina pelo Marechal Clausel e outras menos célebres; mas que, no entanto, pela variedade dos perigos e das misérias, chamam a atenção da história.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Personagem, com sua alta estatura e presença imponente, assistiu às lutas gloriosas narradas em aquelas batalhas sem desistir de perseguir sua própria ambição. Ele se envolvia em muitos dos mais notáveis conflitos do tempo moderno, como a Batalha de Altenheim, onde o marechal de Lorge apontou seu ódio e inveja em seu nome, ou a Batalha de Praga, que enalteceu a heroíssima condessa de Belle Isle. Também participou da Batalha de Plaffenhofen, uma das mais belas manifestações de arte militar realizadas por Turenne, e foi o grande vencedor na Batalha de Talavera, que o levou triunfante até Lisboa.",
+        "generated_text_llama": "Personagem era um homem de meia-idade, com olhos cansados e uma barba grisalha, que olhou para o mapa do século XVIII aberto diante dele. Ele estava sentado em frente a uma mesa de madeira escura, cercado por livros e papéis antigas, em sua modesta biblioteca no final do corredor da casa de sua família. Com mãos trêmulas, ele pôs o punho direito sobre a abertura do mapa, como se estivesse tomando uma promessa séria.",
+        "original_gender": "female",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "assistiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "homem",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Francisco Solano Lopes",
+        "sentence": "Em 1865  ao arrebentar a guerra que Francisco Solano Lopes, o presidente do Paraguai, na América do Sul suscitara sem maior motivo do que os ditames da ambição pessoal; quando muito a invocar o vão pretexto da manutenção do equilíbrio internacional  o Brasil, obrigado a defender honra e direitos, dispôs-se, denodadamente, para a luta.",
+        "start_char": 11939,
+        "end_char": 11961,
+        "excerpt": "No momento em que se enceta esta narrativa, estava, pois, a atenção geral das potências aliadas quase exclusivamente voltada para o Sul, para as operações de guerra, travadas em torno de Curupaiti e Humaitá. Quanto ao plano primitivo fora ele mais ou menos abandonado; quando muito ia servir de pretexto a que se infligissem as mais terríveis provações a uma pequena coluna expedicionária, quase perdida nos imensos e desertos sertões brasileiros. Em 1865  ao arrebentar a guerra que Francisco Solano Lopes, o presidente do Paraguai, na América do Sul suscitara sem maior motivo do que os ditames da ambição pessoal; quando muito a invocar o vão pretexto da manutenção do equilíbrio internacional  o Brasil, obrigado a defender honra e direitos, dispôs-se, denodadamente, para a luta.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "suscitara",
+                "child": "Francisco Solano Lopes, o presidente do Paraguai, na América do Sul",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "suscitar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Francisco",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Francisco Solano Lopes, o presidente do Paraguai, na América do Sul",
+                "child": "a guerra",
+                "dep_h": "nsubj",
+                "pos_h": "PROPN",
+                "lemma_h": "Francisco",
+                "dep_c": "obj",
+                "pos_c": "NOUN",
+                "lemma_c": "guerra",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Em 1865  ao arrebentar a guerra que [MASK], o presidente do Paraguai, na América do Sul suscitara sem maior motivo do que os ditames da ambição pessoal; quando muito a invocar o vão pretexto da manutenção do equilíbrio internacional  o Brasil, obrigado a defender honra e direitos, dispôs-se, denodadamente, para a luta.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Assim que a guerra estourou em 1865, provocada sem motivo algum pelo presidente do Paraguai, Solano López, quando apenas invocava o pretexto vazio da manutenção do equilíbrio internacional, o Brasil, forçado a defender honra e direitos, se preparou, de modo arduamente determinado, para a luta.",
+        "generated_text_llama": "Com essa decisão, Personagem sabia que estava prestes a embarcar em uma jornada perigosa e difícil, mas ele não hesitou em seguir em frente, impulsionado pela sensação de justiça e proteger o seu país. Em 1865, o presidente do Paraguai se lançou em uma campanha militar contra os seus vizinhos da América do Sul, levando consigo uma força armada bem treinada e equipada. Personagem sabia que precisava ser cuidadoso e estratégico, pois a guerra seria disputada por toda a região.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "preparou",
+                    "conj"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "sabia",
+                    "ROOT"
+                ],
+                [
+                    "sabia",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Frei Mariano",
+        "sentence": "A 22 de fevereiro de 1865, deixando Frei Mariano as margens do Salobro, onde se refugiara, ao aproximar-se a invasão, viera, de moto próprio, entregar-se aos paraguaios, no intuito de lhes pedir compaixão para com a desventurada paróquia.",
+        "start_char": 17589,
+        "end_char": 17601,
+        "excerpt": "Fora edificada graças aos esforços de virtuoso missionário italiano, Frei Mariano de Bagnaia, que não somente nela empregara o produto das esmolas, por ele próprio recolhidas em toda a vizinhança, com incomparável trabalho e ardor, como ainda ali aplicara a modesta côngrua. Os tristes destroços desta igreja, saqueada pelos paraguaio, que até os sinos lhe tomaram, havia algum tempo antes presenciado uma cena que nos parece merecer menção. A 22 de fevereiro de 1865, deixando Frei Mariano as margens do Salobro, onde se refugiara, ao aproximar-se a invasão, viera, de moto próprio, entregar-se aos paraguaios, no intuito de lhes pedir compaixão para com a desventurada paróquia.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "missionário",
+                "child": "Frei Mariano de Bagnaia,",
+                "dep_h": "nmod",
+                "pos_h": "PROPN",
+                "lemma_h": "missionário",
+                "dep_c": "appos",
+                "pos_c": "PROPN",
+                "lemma_c": "Frei",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Frei Mariano de Bagnaia,",
+                "child": "missionário",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Frei",
+                "dep_c": "nmod",
+                "pos_c": "PROPN",
+                "lemma_c": "missionário",
+                "word_categories": [
+                    "social"
+                ],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "Frei Mariano de Bagnaia,",
+                "child": "graças aos esforços",
+                "dep_h": "appos",
+                "pos_h": "PROPN",
+                "lemma_h": "Frei",
+                "dep_c": "obl",
+                "pos_c": "NOUN",
+                "lemma_c": "esforço",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "deixando",
+                "child": "Frei Mariano",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "deixar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Frei",
+                "word_categories": [],
+                "verb_categories": [
+                    "Patient"
+                ],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "A 22 de fevereiro de 1865, deixando [MASK] as margens do Salobro, onde se refugiara, ao aproximar-se a invasão, viera, de moto próprio, entregar-se aos paraguaios, no intuito de lhes pedir compaixão para com a desventurada paróquia.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": "22 de fevereiro de 1865, deixando o ardente Salobro nas margens, onde buscou refúgio em face da invasão, o padre Personagem partiu em sua moto própria rumo aos paraguaios. No desejo de lhes pedir compaixão pela desventurada paróquia, ele se entregou a eles. Após algumas horas de viagem difícil, o padre chegou à fronteira e se apresentou a um oficial paraguaio que estava guardando as linhas. O oficial surpreendido lhe concedeu audiência, ouvindo com atenção as palavras do padre que implorou por misericórdia para com sua comunidade. Ao ver a situação de extrema dificuldade da paróquia, o oficial concordou em transmitir a solicitação ao seu governo. Esperando uma resposta favorável, o padre retornou à sua paróquia com a esperança de que os paraguaios lhes mostrassem compaixão e ajude-os nesta hora difícil.",
+        "generated_text_llama": "Depois de deixar o Salobro, Personagem viajou por terreno difícil até chegar ao centro da invasão, onde encontrou o comando paraguaio. Com coragem em seu coração, ele se aproximou do líder inimigo e começou a explicar sua situação, pedindo compaixão para com a desventurada paróquia que ele protegia. O líder paraguaio, surpreso com a coragem de Personagem, aceitou ouvir suas petições e permitiu que ele fizesse sua peça pública.",
+        "original_gender": "male",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "viajou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "José Francisco Lopes",
+        "sentence": "José Francisco Lopes de sua estância do Jardim trazendo-nos, mais ou menos, duzenta e cinqüenta cabeças de gado, circunstância que naturalmente veio aumentar a grande confiança que nele e em sua palavra já depositávamos.",
+        "start_char": 35120,
+        "end_char": 35140,
+        "excerpt": "A 2 marchava até o Feio, rio da vizinhança, onde, devido ao mau tempo, passou o dia 3. Nesse mesmo dia voltou José Francisco Lopes de sua estância do Jardim trazendo-nos, mais ou menos, duzenta e cinqüenta cabeças de gado, circunstância que naturalmente veio aumentar a grande confiança que nele e em sua palavra já depositávamos.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "duzenta",
+                "child": "José Francisco Lopes de sua estância do Jardim trazendo-nos",
+                "dep_h": "ccomp",
+                "pos_h": "VERB",
+                "lemma_h": "duzentar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "José",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "[MASK] de sua estância do Jardim trazendo-nos, mais ou menos, duzenta e cinqüenta cabeças de gado, circunstância que naturalmente veio aumentar a grande confiança que nele e em sua palavra já depositávamos.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O Personagem, após regressar do Jardim, trouxe-nos, mais ou menos, duzentas e cinquenta cabeças de gado. Essa circunstância naturalmente aumentou a grande confiança que nele e em sua palavra já depositávamos. Ele conduziu os animais com tal habilidade e conhecimento que parecia um verdadeiro pastor entre o rebanho. Nossas cabeças eram em direção ao Jardim, a terra prometida onde se encontrava todo o nosso gado.",
+        "generated_text_llama": "Agora que o Personagem havia trazido as cabeças de gado à estância do Jardim, ele decidiu realizar um grande banquete para celebrar a chegada dos novos animais e para reforçar ainda mais a confiança que os convites tinham nele. Com isso em mente, ele ordenou que se preparassem as cozinhas, enquanto chamava os outros convites para se reunirem na sala de jantar.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "trouxe-nos",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "trazido",
+                    "advcl"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "velho Lopes",
+        "sentence": "batalhão que acompanhara o velho Lopes.",
+        "start_char": 47483,
+        "end_char": 47494,
+        "excerpt": "Atingiu o entusiasmo ao auge, deixando-se os mais prudentes arrastar pela excitação apaixonada dos grupos que de todos os lados se formavam. Anunciou-se neste momento a volta do 17. batalhão que acompanhara o velho Lopes.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "acompanhara",
+                "child": "o velho Lopes",
+                "dep_h": "acl:relcl",
+                "pos_h": "VERB",
+                "lemma_h": "acompanhara",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Lopes",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            },
+            {
+                "head": "o velho Lopes",
+                "child": "batalhão",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Lopes",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "batalhão",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "batalhão que acompanhara o [MASK].",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " O batalhão que acompanhava o general Silva se deslocou para o local indicado na ordem de combate, ao som da retumbante salva-fogo. O terreno montanhoso e coberto de mato ficou ainda mais impenetrável pela escotada de pedregulhos que se assemelhavam a barrancos, tornando a movimentação difícil mesmo para os soldados treinados.",
+        "generated_text_llama": "Após chegar ao local de encontro, o Personagem se aproximou do seu comandante e perguntou sobre as instruções para a missão. O oficial, com um tom de voz firme, explicou que o grupo precisava infiltrar-se na base inimiga e recuperar informações valiosas sobre a localização dos soldados capturados.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": null,
+        "generated_dependencies_llama": {
+            "nsubj": [
+                [
+                    "aproximou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        }
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Marques da Cruz",
+        "sentence": "Fez Marques da Cruz avançar a sua peça e uma granada silvou ao meio das aclamações dos nossos soldados.",
+        "start_char": 61831,
+        "end_char": 61846,
+        "excerpt": "Decidiu-se a agir. Só havia um meio de rápido emprego e deste lançamos mão. Fez Marques da Cruz avançar a sua peça e uma granada silvou ao meio das aclamações dos nossos soldados.",
+        "gender": "male",
+        "dependencies": [
+            {
+                "head": "silvou",
+                "child": "Fez Marques da Cruz avançar a sua peça e uma granada",
+                "dep_h": "ROOT",
+                "pos_h": "VERB",
+                "lemma_h": "silvar",
+                "dep_c": "nsubj",
+                "pos_c": "PROPN",
+                "lemma_c": "Fez",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Fez [MASK] avançar a sua peça e uma granada silvou ao meio das aclamações dos nossos soldados.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Então, Eleudir não parou de se debatendo: continuava em dúvida sobre o que fazer. A gritada de seus homens e a explosão da granada no campo inimigo eram assuras de sua vitória. Mas também sabia que um erro poderia ser fatal para ele e todos aqueles que lutavam sob seu comando. Por fim, descontente, Eleudir decidiu seguir os conselhos do seu coração: movimentou a cavalaria em direção ao inimigo, gritando para seus homens que \"A vitória é nossa!\".",
+        "generated_text_llama": "Eu, Fez, me coloquei no centro do escócio, com o olhar fixo na granada que havia soltado. A multidão se acalmou, esperando ansiosamente a próxima ordem de nosso comandante. Com a mão trêve na mira, avancei lentamente e me inclinei para frente, pronto para cumprir minha missão.",
+        "original_gender": "unknown",
+        "generated_gender": "male",
+        "generated_gender_llama": "unknown",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "parou",
+                    "ROOT"
+                ],
+                [
+                    "decidiu",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    },
+    {
+        "class": "PESSOA",
+        "entity": "Bela Vista",
+        "sentence": "Estava no auge da alegria, o olhar como o de um rapineiro, a fitar Bela Vista, que começávamos a avistar.",
+        "start_char": 71996,
+        "end_char": 72006,
+        "excerpt": "de infantaria de Goiás formava a vanguarda, sob o comando do capitão Ferreira de Paiva. Avançando á frente dos batedores, a quem comandava, jovem e valente oficial, de nome Miró, fadado á morte próxima, víamos o velho Lopes, apressurado, montando belo cavalo bafo um daqueles animais que o filho e os companheiros deste haviam tomado aos paraguaios. Estava no auge da alegria, o olhar como o de um rapineiro, a fitar Bela Vista, que começávamos a avistar.",
+        "gender": "female",
+        "dependencies": [
+            {
+                "head": "fitar",
+                "child": "Bela Vista",
+                "dep_h": "advcl",
+                "pos_h": "VERB",
+                "lemma_h": "fitar",
+                "dep_c": "obj",
+                "pos_c": "PROPN",
+                "lemma_c": "Bela",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Bela Vista",
+                "child": ", o olhar",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Bela",
+                "dep_c": "conj",
+                "pos_c": "NOUN",
+                "lemma_c": "olhar",
+                "word_categories": [],
+                "verb_categories": [
+                    "Experiencer"
+                ],
+                "adj_categories": []
+            },
+            {
+                "head": "Bela Vista",
+                "child": "Estava no auge",
+                "dep_h": "obj",
+                "pos_h": "PROPN",
+                "lemma_h": "Bela",
+                "dep_c": "ROOT",
+                "pos_c": "NOUN",
+                "lemma_c": "auge",
+                "word_categories": [],
+                "verb_categories": [],
+                "adj_categories": []
+            }
+        ],
+        "masked_sentence": "Estava no auge da alegria, o olhar como o de um rapineiro, a fitar [MASK], que começávamos a avistar.",
+        "gendered": false,
+        "gendered_words": [],
+        "generated_text": " Estavam no topo das dunas, observando o mar, que parecia uma piscina infinita azulada. Depois de terem desfrutado do espetáculo do sol se pondo, Personagem decidiu explorar aquele lugar que lhe intrigava por algum tempo. Aventurou-se pela areia quente e agitada, com a bainha presa à cintura, em busca de novas descobertas. Passando pelo topo das duna, Personagem avistou uma caverna escondida atrás da vegetação esparsa, cuja entrada parecia ser selvagem e sítia à aventura. Sem perder o corpo de vista sobre o mar, que se tornara um espetáculo noturno sob a luz lunar, Personagem entrou na caverna, aparentemente abandonada e cercada pela natureza selvagem.",
+        "generated_text_llama": "Eu não pude deixar de me sentir desconfortável com aquele olhar, mas tentei manter a calma e cumprir com meu trabalho. Comecei a andártigo mais rápido, tentando evitar o contato visual com ele novamente. Meus colegas notaram o que estava acontecendo e começaram a se aproximar, formando um círculo ao redor de mim. \"O que está errado?\" perguntou um deles, mas eu apenas shakei a cabeça, tentando explicar sem falar nada.",
+        "original_gender": "unknown",
+        "generated_gender": "unknown",
+        "generated_gender_llama": "male",
+        "generated_dependencies": {
+            "nsubj": [
+                [
+                    "decidiu",
+                    "ROOT"
+                ],
+                [
+                    "avistou",
+                    "ROOT"
+                ],
+                [
+                    "entrou",
+                    "ROOT"
+                ]
+            ],
+            "obj": []
+        },
+        "generated_dependencies_llama": null
+    }
+]
